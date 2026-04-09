@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .heading-display {
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-weight: 800;
+  }
+
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-primary {
+    @apply inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 px-6 rounded-xl transition-colors min-h-[44px] flex items-center justify-center;
+  }
+
+  .btn-amazon {
+    @apply inline-flex items-center justify-center bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 px-6 rounded-xl transition-colors min-h-[44px] text-base w-full sm:w-auto;
+  }
+
+  .reader-badge {
+    @apply inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full;
+  }
+
+  .affiliate-disclosure {
+    @apply text-sm text-amber-800 bg-amber-50 border border-amber-200 rounded-lg px-4 py-3;
+  }
+
+  .article-h2 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    @apply text-2xl font-bold text-gray-900 mt-10 mb-3;
+  }
+
+  .article-h3 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    @apply text-lg font-semibold text-gray-800 mt-5 mb-2;
+  }
+
+  .skip-if {
+    @apply text-sm text-red-700 bg-red-50 border-l-4 border-red-400 pl-3 py-1.5 my-3 rounded-r;
+  }
+
+  .verdict-box {
+    @apply bg-yellow-50 border-2 border-yellow-400 rounded-2xl p-6 my-8;
+  }
+
+  .comparison-table {
+    @apply w-full text-sm border-collapse;
+  }
+
+  .comparison-table th {
+    @apply bg-gray-900 text-white px-4 py-3 text-left font-semibold;
+  }
+
+  .comparison-table td {
+    @apply px-4 py-3 border-b border-gray-100;
+  }
+
+  .comparison-table tr:nth-child(even) td {
+    @apply bg-gray-50;
+  }
+}
