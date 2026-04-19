@@ -26,7 +26,7 @@
 
 ### Phase 4 ✅ — Core Architecture
 **Commit:** `a1f3149`
-- `components/article/BookCTA.tsx` — Amazon CTA, tag=bestpickzone-20
+- `components/article/BookCTA.tsx` — Amazon CTA, tag=althcu-20
 - `components/ui/Breadcrumb.tsx` — Nav + BreadcrumbList JSON-LD
 - `lib/reading-time.ts` — 238 wpm reading time utility
 - `lib/books-data-part1.ts` — 15 Author Roundup articles + TypeScript interfaces
@@ -74,7 +74,7 @@ Template features:
 ### Phase 9 ✅ — Final QA
 - TypeScript: `npx tsc --noEmit` → **0 errors**
 - All 100 article slugs verified
-- Amazon tag `bestpickzone-20` confirmed in BookCTA component
+- Amazon tag `althcu-20` confirmed in BookCTA component
 - Button text "Click Here to Buy on Amazon" confirmed
 - Affiliate disclosure on every article page
 - Schema markup on all pages
@@ -116,5 +116,5 @@ best-books-to-read-on-the-beach, best-book-club-books, best-one-sitting-reads, b
 - TypeScript
 - Tailwind CSS v3
 - Google Fonts: Poppins (headings) + Inter (body)
-- Amazon Associates tag: bestpickzone-20
+- Amazon Associates tag: althcu-20
 - Deployment: GitHub Actions → Vercel (deploy.yml)

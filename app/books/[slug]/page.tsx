@@ -184,7 +184,7 @@ export default function ArticlePage({ params }: Props) {
                   <td className="p-3 text-gray-600">{book.bestFor}</td>
                   <td className="p-3">
                     <a
-                      href={`https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=bestpickzone-20`}
+                      href={`https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=althcu-20`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-amazon text-xs px-3 py-2 inline-block"

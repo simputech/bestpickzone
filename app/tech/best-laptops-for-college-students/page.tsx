@@ -43,7 +43,7 @@ const products = [
     ],
     verdict:
       'The best laptop for college students with a $1,000+ budget. Unbeatable battery life and portability make it the ideal class companion for STEM, business, and creative students alike.',
-    amazonUrl: 'https://www.amazon.com/s?k=MacBook+Air+M3+13+inch&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=MacBook+Air+M3+13+inch&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=MacBook+Air+M3+13+inch',
     specs: [
       { label: 'Processor', value: 'Apple M3' },
@@ -77,7 +77,7 @@ const products = [
     ],
     verdict:
       'The best laptop under $600 for college students. The 2-in-1 design is great for note-taking, and you get real Windows performance without breaking the bank.',
-    amazonUrl: 'https://www.amazon.com/s?k=Lenovo+IdeaPad+Flex+5i+14+inch&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=Lenovo+IdeaPad+Flex+5i+14+inch&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Lenovo+IdeaPad+Flex+5i',
     specs: [
       { label: 'Processor', value: 'Intel Core i5-1335U' },
@@ -111,7 +111,7 @@ const products = [
     ],
     verdict:
       'The best Windows premium laptop for students. Pairs beautifully with the Adobe Creative Suite and handles design, video, and business workflows effortlessly.',
-    amazonUrl: 'https://www.amazon.com/s?k=Dell+XPS+13+2026&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=Dell+XPS+13+2026&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Dell+XPS+13+2026',
     specs: [
       { label: 'Processor', value: 'Intel Core Ultra 7' },
@@ -146,7 +146,7 @@ const products = [
     ],
     verdict:
       'The best budget laptop for students who use Google Docs, Google Slides, and browser-based tools. Not recommended for STEM or creative programs that require desktop software.',
-    amazonUrl: 'https://www.amazon.com/s?k=Acer+Chromebook+Spin+714&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=Acer+Chromebook+Spin+714&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Acer+Chromebook+Spin+714',
     specs: [
       { label: 'Processor', value: 'Intel Core i5-1235U' },

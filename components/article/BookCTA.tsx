@@ -7,7 +7,7 @@ interface BookCTAProps {
 
 export default function BookCTA({ title, author }: BookCTAProps) {
   const query = encodeURIComponent(`${title} ${author}`)
-  const url = `https://www.amazon.com/s?k=${query}&tag=bestpickzone-20`
+  const url = `https://www.amazon.com/s?k=${query}&tag=althcu-20`
 
   return (
     <div className="my-4">

@@ -41,7 +41,7 @@ const products = [
     ],
     verdict:
       "If you want the best noise cancellation and premium sound and price isn't a dealbreaker, the WF-1000XM5 is the clear choice. Best for commuters, frequent travelers, and audiophiles.",
-    amazonUrl: 'https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Sony+WF-1000XM5',
     specs: [
       { label: 'Driver', value: '8.4mm' },
@@ -75,7 +75,7 @@ const products = [
     ],
     verdict:
       'The undisputed pick for iPhone users. The ecosystem integration, Adaptive Audio, and Transparency Mode are genuinely best-in-class. Android users should look elsewhere.',
-    amazonUrl: 'https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=AirPods+Pro+2',
     specs: [
       { label: 'Driver', value: 'Apple custom' },
@@ -108,7 +108,7 @@ const products = [
     ],
     verdict:
       'Purpose-built for work. If you spend hours on calls and need rock-solid mic performance and UC certification, the Evolve2 Buds justify every dollar. Overkill for casual listening.',
-    amazonUrl: 'https://www.amazon.com/s?k=Jabra+Evolve2+Buds&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=Jabra+Evolve2+Buds&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Jabra+Evolve2+Buds',
     specs: [
       { label: 'Microphones', value: '6 (3 per bud)' },
@@ -142,7 +142,7 @@ const products = [
     ],
     verdict:
       'The best budget wireless earbuds in 2026. If you can\'t justify $250+ but want real noise cancellation and good sound, the Liberty 4 NC is the obvious answer.',
-    amazonUrl: 'https://www.amazon.com/s?k=Soundcore+Liberty+4+NC&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=Soundcore+Liberty+4+NC&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Soundcore+Liberty+4+NC',
     specs: [
       { label: 'Driver', value: '11mm' },
@@ -175,7 +175,7 @@ const products = [
     ],
     verdict:
       'The most comfortable earbuds on the list. If you have sensitive ears, wear earbuds for extended periods, or want a personalized sound experience, the QC Earbuds II is the pick.',
-    amazonUrl: 'https://www.amazon.com/s?k=Bose+QuietComfort+Earbuds+II&tag=bestpickzone-20',
+    amazonUrl: 'https://www.amazon.com/s?k=Bose+QuietComfort+Earbuds+II&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Bose+QuietComfort+Earbuds+II',
     specs: [
       { label: 'ANC', value: 'Yes (CustomTune)' },

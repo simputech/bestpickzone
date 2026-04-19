@@ -106,7 +106,7 @@ export default function AirPodsProVsSonyPage() {
           <p className="text-2xl font-bold text-gray-900 mb-1">AirPods Pro 2</p>
           <p className="text-3xl font-bold text-blue-700 mb-3">$249</p>
           <div className="flex flex-col gap-2">
-            <a href="https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=bestpickzone-20" target="_blank" rel="noopener noreferrer sponsored"
+            <a href="https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=althcu-20" target="_blank" rel="noopener noreferrer sponsored"
               className="bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg text-sm transition-colors">View on Amazon</a>
             <a href="https://www.bestbuy.com/site/searchpage.jsp?st=AirPods+Pro+2" target="_blank" rel="noopener noreferrer sponsored"
               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition-colors">View on Best Buy</a>
@@ -117,7 +117,7 @@ export default function AirPodsProVsSonyPage() {
           <p className="text-2xl font-bold text-gray-900 mb-1">Sony WF-1000XM5</p>
           <p className="text-3xl font-bold text-blue-700 mb-3">$279</p>
           <div className="flex flex-col gap-2">
-            <a href="https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=bestpickzone-20" target="_blank" rel="noopener noreferrer sponsored"
+            <a href="https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=althcu-20" target="_blank" rel="noopener noreferrer sponsored"
               className="bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-2 px-4 rounded-lg text-sm transition-colors">View on Amazon</a>
             <a href="https://www.bestbuy.com/site/searchpage.jsp?st=Sony+WF-1000XM5" target="_blank" rel="noopener noreferrer sponsored"
               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition-colors">View on Best Buy</a>
