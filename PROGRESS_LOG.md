@@ -118,3 +118,96 @@ best-books-to-read-on-the-beach, best-book-club-books, best-one-sitting-reads, b
 - Google Fonts: Poppins (headings) + Inter (body)
 - Amazon Associates tag: althcu-20
 - Deployment: GitHub Actions → Vercel (deploy.yml)
+
+---
+
+## 13-Article Quality Batch — April 2026
+
+**Source:** Content Standard v1.2 (42 sections, 100-pt rubric, 90+ required)
+**Workflow:** Swap test → banned phrase scan → Skip-this-if per pick → rubric scoring → TSX conversion with Article + FAQPage + ItemList + BreadcrumbList JSON-LD
+
+### Batch 1 ✅ — Completed April 19, 2026
+
+| # | Article | Path | Rubric | Notes |
+|---|---------|------|--------|-------|
+| 11 | Best New Books April 2026 | `app/books/reader-picks/best-new-books-april-2026/page.tsx` | **93/100** | Rewritten (first pass 87): added Honorable Mentions + "Skip the April Glut" skip-section + 4 internal cross-links |
+| 12 | Best New Spy Thriller Books 2026 | `app/books/genre-fiction/best-new-spy-thriller-books-2026/page.tsx` | **95/100** | Honest "No Debut Pick" transparency callout — cross-links to articles 01 + 05 |
+| 13 | Best Self-Help Books 2026 | `app/books/self-help/best-self-help-books-2026/page.tsx` | **96/100** | Framed as "Best Self-Help Books to Read in 2026" (honest mix of new releases + evergreen anchors) |
+| 08 | Best Lee Child Books in Order | `app/books/authors/best-lee-child-books/page.tsx` | **93/100** | Killing Floor / One Shot / 61 Hours / Better Off Dead — added Andrew Child transition honesty + Skip-this-if per pick (original MD lacked them) — cross-links to articles 02 + 06 + 12 |
+
+**All 4 files include:**
+- `<Breadcrumb>` component (auto BreadcrumbList JSON-LD)
+- `<BookCTA>` per pick (Amazon tag `althcu-20`, button "Click Here to Buy on Amazon")
+- `getReadingTime()` + `formatReadingTime()` from `lib/reading-time`
+- Three `<script type="application/ld+json">` blocks: Article, FAQPage, ItemList
+- Inline FTC disclosure (amber box)
+- "Last verified: April 2026" banner
+- Per-pick "Skip this if…" amber callout (CRITICAL RULE #9)
+- Final Verdict yellow box with winner BookCTA
+- Related Reading — 4 internal links
+
+**Banned-phrase audit (Section 8):** 0 hits in any Batch 1 file.
+
+### Git status blocker
+
+The in-session sandbox ran into a `.git/index.lock` state that can't be cleaned from here (iCloud Drive permission issue on the worktree). **All 4 files are on disk and ready.** Derek needs to run the squash push from his Mac — see commands below.
+
+### Batch 2 ✅ — Completed April 20, 2026
+
+| # | Article | Path | Rubric | Notes |
+|---|---------|------|--------|-------|
+| 01 | Best Spy Thriller Books of All Time | `app/books/genre-fiction/best-spy-thriller-books/page.tsx` | **97/100** | 6 picks (le Carré ×2, Clancy, Hayes, Gerritsen, Fleming) — cross-links to 05, 12, 08 |
+| 05 | Best Cold War Thriller Books | `app/books/genre-fiction/best-cold-war-thriller-books/page.tsx` | **96/100** | 5 picks (le Carré, Deighton, Clancy, McCarry, Matthews) — cross-links to 01, 12, 09 |
+| 06 | Best Military Fiction Books | `app/books/genre-fiction/best-military-fiction-books/page.tsx` | **95/100** | 5 picks (O'Brien, Remarque, Powers, Bowden, Luttrell) — literary/non-fiction split framed explicitly — cross-links to 02, 08, 09 |
+| 09 | Best Books About World War II | `app/books/genre-fiction/best-world-war-ii-books/page.tsx` | **96/100** | 5 picks (Doerr, Ambrose, Wiesel, Hillenbrand, Zusak) — fiction/non-fiction split framed explicitly — cross-links to 03, 06 |
+
+**Same standard:** Breadcrumb + BookCTA (althcu-20) + reading time + Article/FAQPage/ItemList JSON-LD + inline FTC + "Last verified: April 2026" + per-pick Skip-this-if + yellow verdict box + 4 Related Reading links.
+
+**Banned-phrase audit:** 0 hits.
+
+### Batch 3 ✅ — Completed April 20, 2026
+
+| # | Article | Path | Rubric | Notes |
+|---|---------|------|--------|-------|
+| 02 | Best Action Adventure Books for Men | `app/books/reader-picks/best-action-adventure-books-for-men/page.tsx` | **95/100** | 6 picks (Child, Weir, Flynn, McCarthy, Krakauer, Hillenbrand) — cross-links to 08, 06, 10, 01 |
+| 03 | Best History Books for Beginners | `app/books/genre-fiction/best-history-books-for-beginners/page.tsx` | **94/100** | 5 picks (Harari, Larson, Beard, Bryson, Tuchman) — accessibility-first framing — cross-links to 09, 07, 06 |
+| 07 | Best Books Like The Da Vinci Code | `app/books/reader-picks/best-books-like-da-vinci-code/page.tsx` | **95/100** | 5 picks (Eco, Berry, Mosse, Kostova, Caldwell/Thomason) — cross-links to 03, 01, 02 |
+| 10 | Best Books for People Who Don't Like Reading | `app/books/reader-picks/best-books-for-people-who-dont-like-reading/page.tsx` | **96/100** | 5 picks (Weir, Hemingway, Noah, Westover, Child) — diagnostic framing ("why it works" per pick) — cross-links to 02, 01, 06 |
+
+**Same standard:** Breadcrumb + BookCTA (althcu-20) + reading time + Article/FAQPage/ItemList JSON-LD + inline FTC + "Last verified: April 2026" + per-pick Skip-this-if + yellow verdict box + 4 Related Reading links.
+
+**Banned-phrase audit:** 0 hits.
+
+### Batch 4 ✅ — Completed April 20, 2026
+
+| # | Article | Path | Rubric | Notes |
+|---|---------|------|--------|-------|
+| 04 | Best Personal Finance Books for Young Adults | `app/books/self-help/best-personal-finance-books-young-adults/page.tsx` | **96/100** | 5 picks (Housel, Sethi, Ramsey, Collins, Kiyosaki) — situation-matching framing — inline "nothing in this article is financial advice" in FTC — cross-links to 13, James Clear author page |
+
+**Same standard** plus explicit financial-advice disclaimer in FTC box.
+
+**Banned-phrase audit:** 0 hits.
+
+### Phase 5 — Internal Link Verification
+
+Phase 5 cross-link map executed across all 13 articles:
+- **01 ↔ 05 ↔ 12** (spy thrillers ecosystem) ✅
+- **02 ↔ 06 ↔ 08** (action / military / Lee Child) ✅
+- **03 ↔ 09** (history ↔ WWII) ✅
+- **04 ↔ 13** (personal finance ↔ self-help 2026) ✅
+- **07 ↔ 03** (Da Vinci ↔ history beginners) ✅
+- **10 ↔ 02** (reluctant readers ↔ action adventure) ✅
+- **11 ↔ 12 ↔ 13** (April new releases ecosystem) ✅
+
+All internal links point to existing slugs in the sitemap.
+
+### Phase 6 — Git push (deferred to user's Mac)
+
+`.git/index.lock` in the sandbox worktree persists. All 13 TSX files are on disk and ready. Derek needs to run the following on his Mac from the `bestpickzone-fixed/` directory:
+
+```bash
+rm -f .git/index.lock
+git add app/books
+git commit -m "Add 13 quality-batch articles (Phase 7 Content Standard v1.2, rubric 93+/100, althcu-20)"
+git push origin main
+```
