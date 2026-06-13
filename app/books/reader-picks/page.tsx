@@ -18,6 +18,10 @@ const breadcrumbItems = [
 
 export default function ReaderPicksHubPage() {
   const articles = getArticlesByCategory('reader-intent');
+  const featured = articles
+    .filter((article) =>
+      ['best-book-club-books', 'best-audiobooks-on-audible', 'best-books-of-all-time'].includes(article.slug)
+    );
 
   const schema = {
     '@context': 'https://schema.org',
@@ -38,22 +42,34 @@ export default function ReaderPicksHubPage() {
         <Breadcrumb items={breadcrumbItems} />
 
         <header className="mb-10">
-          <h1
-            className="text-4xl font-extrabold text-gray-900 mb-4"
-            style={{ fontFamily: 'Poppins, sans-serif' }}
-          >
-            Reader-Intent Book Lists
-          </h1>
+          <h1 className="mb-4 text-4xl font-extrabold text-gray-900">Reader-Intent Book Lists</h1>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Sometimes you don't know the genre you want — you know the situation. You're
-            packing for a beach trip, you're hosting a book club, you want something you can
-            finish in one afternoon, or you're looking for the exact kind of book you can
-            give to someone who claims they don't like reading. This collection of 30
-            reader-intent lists is built for exactly those moments. Every guide starts with
-            who it's designed for and ends with a clear verdict, so you can get to your next
-            great book in minutes instead of hours.
+            These are the lists people usually search for when genre is not the real question.
+            You already know the occasion: book club, beach trip, audiobook commute, reluctant
+            reader, one-sitting page-turner, or “I want something like Harry Potter.” Each guide
+            is meant to solve that exact reading problem quickly, with a clear winner and honest
+            caveats instead of a bloated pile of twenty interchangeable picks.
           </p>
         </header>
+
+        <section className="mb-12 rounded-[28px] border border-rose-200 bg-gradient-to-br from-rose-50 via-white to-orange-50 p-6">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-rose-700">
+            Most Useful First Clicks
+          </p>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">Three intent pages readers usually need first</h2>
+          <div className="grid gap-4 md:grid-cols-3">
+            {featured.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/books/${article.slug}`}
+                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-600">{article.metaDescription}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <section className="grid md:grid-cols-2 gap-4">
           {articles.map((article) => (
@@ -62,12 +78,7 @@ export default function ReaderPicksHubPage() {
               href={`/books/${article.slug}`}
               className="card-hover bg-white rounded-xl border border-gray-200 p-5 shadow-sm no-underline block"
             >
-              <h2
-                className="text-lg font-bold text-gray-900 mb-2"
-                style={{ fontFamily: 'Poppins, sans-serif' }}
-              >
-                {article.title}
-              </h2>
+              <h2 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h2>
               <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
                 {article.metaDescription}
               </p>

@@ -23,6 +23,12 @@ export function getArticlesByCategory(category: BookCategory): ArticleData[] {
   return articlesData.filter((a) => a.category === category);
 }
 
+export function getArticlesBySlugs(slugs: string[]): ArticleData[] {
+  return slugs
+    .map((slug) => getArticleBySlug(slug))
+    .filter((article): article is ArticleData => Boolean(article));
+}
+
 export function getAllSlugs(): string[] {
   return articlesData.map((a) => a.slug);
 }

@@ -16,8 +16,24 @@ const breadcrumbItems = [
   { label: 'By Author' },
 ];
 
+const priorityAuthorGuideSlugs = [
+  'best-james-clear-books',
+  'best-james-patterson-books',
+  'best-brene-brown-books',
+  'best-jk-rowling-books',
+  'best-john-grisham-books',
+  'best-nora-roberts-books',
+  'best-neil-gaiman-books',
+  'best-george-orwell-books',
+  'best-haruki-murakami-books',
+  'best-toni-morrison-books',
+] as const;
+
 export default function AuthorsHubPage() {
   const articles = getArticlesByCategory('author');
+  const priorityArticles = priorityAuthorGuideSlugs
+    .map((slug) => articles.find((article) => article.slug === slug))
+    .filter((article): article is (typeof articles)[number] => Boolean(article));
 
   const schema = {
     '@context': 'https://schema.org',
@@ -53,6 +69,28 @@ export default function AuthorsHubPage() {
             waste time on the wrong book.
           </p>
         </header>
+
+        <section className="mb-10 rounded-[28px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-orange-50 p-6">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
+            Priority Author Roundups
+          </p>
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Author guides we want crawled and indexed next</h2>
+          <p className="mb-5 text-sm leading-relaxed text-gray-600">
+            These links point directly to the priority author pages that need stronger crawl paths from the author hub.
+            The anchor text is intentionally descriptive so search engines and readers can both understand what each page covers.
+          </p>
+          <div className="grid gap-3 md:grid-cols-2">
+            {priorityArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/books/${article.slug}`}
+                className="rounded-2xl border border-white bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:-translate-y-0.5 hover:text-blue-700"
+              >
+                {article.title}
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <section className="grid md:grid-cols-2 gap-4">
           {articles.map((article) => (

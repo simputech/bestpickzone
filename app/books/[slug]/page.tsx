@@ -1,7 +1,12 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getArticleBySlug, getAllSlugs, getArticlesByCategory } from '@/lib/books-data';
+import {
+  getArticleBySlug,
+  getAllSlugs,
+  getArticlesByCategory,
+  getArticlesBySlugs,
+} from '@/lib/books-data';
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time';
 import BookCTA from '@/components/article/BookCTA';
 import Breadcrumb from '@/components/ui/Breadcrumb';
@@ -9,6 +14,62 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 interface Props {
   params: { slug: string };
 }
+
+const categoryThemeMap = {
+  author: {
+    badge: 'text-amber-700',
+    badgeBg: 'bg-amber-100',
+    hero: 'from-amber-50 via-white to-rose-50',
+    cardBorder: 'border-amber-200',
+    accent: 'text-amber-700',
+    surface: 'bg-amber-50',
+  },
+  genre: {
+    badge: 'text-violet-700',
+    badgeBg: 'bg-violet-100',
+    hero: 'from-violet-50 via-white to-fuchsia-50',
+    cardBorder: 'border-violet-200',
+    accent: 'text-violet-700',
+    surface: 'bg-violet-50',
+  },
+  'self-help': {
+    badge: 'text-emerald-700',
+    badgeBg: 'bg-emerald-100',
+    hero: 'from-emerald-50 via-white to-teal-50',
+    cardBorder: 'border-emerald-200',
+    accent: 'text-emerald-700',
+    surface: 'bg-emerald-50',
+  },
+  'kids-ya': {
+    badge: 'text-sky-700',
+    badgeBg: 'bg-sky-100',
+    hero: 'from-sky-50 via-white to-cyan-50',
+    cardBorder: 'border-sky-200',
+    accent: 'text-sky-700',
+    surface: 'bg-sky-50',
+  },
+  'reader-intent': {
+    badge: 'text-rose-700',
+    badgeBg: 'bg-rose-100',
+    hero: 'from-rose-50 via-white to-orange-50',
+    cardBorder: 'border-rose-200',
+    accent: 'text-rose-700',
+    surface: 'bg-rose-50',
+  },
+} as const;
+
+const priorityAuthorGuides = [
+  { slug: 'best-james-clear-books', label: 'Best James Clear books guide' },
+  { slug: 'best-james-patterson-books', label: 'Best James Patterson books guide' },
+  { slug: 'best-brene-brown-books', label: 'Best Brene Brown books guide' },
+  { slug: 'best-jk-rowling-books', label: 'Best J.K. Rowling books guide' },
+  { slug: 'best-john-grisham-books', label: 'Best John Grisham books guide' },
+  { slug: 'best-nora-roberts-books', label: 'Best Nora Roberts books guide' },
+  { slug: 'best-neil-gaiman-books', label: 'Best Neil Gaiman books guide' },
+  { slug: 'best-george-orwell-books', label: 'Best George Orwell books guide' },
+  { slug: 'best-haruki-murakami-books', label: 'Best Haruki Murakami books guide' },
+  { slug: 'best-toni-morrison-books', label: 'Best Toni Morrison books guide' },
+] as const;
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -37,6 +98,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default function ArticlePage({ params }: Props) {
   const article = getArticleBySlug(params.slug);
   if (!article) notFound();
+  const theme = categoryThemeMap[article.category];
+  const topPick = article.books[0];
+  const alternatePick = article.books[1];
+  const visualMapBooks = article.books.slice(0, 4);
 
   const fullText = [
     article.intro,
@@ -49,9 +114,20 @@ export default function ArticlePage({ params }: Props) {
   const readingMinutes = getReadingTime(fullText);
   const readingTimeLabel = formatReadingTime(readingMinutes);
 
-  const related = getArticlesByCategory(article.category)
-    .filter((a) => a.slug !== article.slug)
-    .slice(0, 5);
+  const curatedRelated = getArticlesBySlugs(article.relatedSlugs).filter((a) => a.slug !== article.slug);
+  const fallbackRelated = getArticlesByCategory(article.category)
+    .filter((a) => a.slug !== article.slug && !article.relatedSlugs.includes(a.slug))
+    .slice(0, 5 - curatedRelated.length);
+  const related = [...curatedRelated, ...fallbackRelated].slice(0, 5);
+  const moreAuthorGuides = priorityAuthorGuides.filter((guide) => guide.slug !== article.slug).slice(0, 6);
+  const sectionLinks = [
+    { href: '#direct-answer', label: 'Direct answer' },
+    { href: '#quick-picks', label: 'Quick picks' },
+    { href: '#visual-map', label: 'Visual map' },
+    { href: '#full-reviews', label: 'Full reviews' },
+    { href: '#how-to-choose', label: 'How to choose' },
+    { href: '#faq', label: 'FAQ' },
+  ];
 
   // JSON-LD schemas
   const articleSchema = {
@@ -63,6 +139,11 @@ export default function ArticlePage({ params }: Props) {
     author: { '@type': 'Organization', name: 'BestPickZone' },
     publisher: {
       '@type': 'Organization',
+      name: 'BestPickZone',
+      url: 'https://bestpickzone.com',
+    },
+    isPartOf: {
+      '@type': 'WebSite',
       name: 'BestPickZone',
       url: 'https://bestpickzone.com',
     },
@@ -118,16 +199,15 @@ export default function ArticlePage({ params }: Props) {
         <Breadcrumb items={breadcrumbItems} />
 
         {/* Hero */}
-        <header className="mb-8">
-          <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
+        <header className={`mb-8 rounded-[28px] border ${theme.cardBorder} bg-gradient-to-br ${theme.hero} p-6 md:p-8`}>
+          <p
+            className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] ${theme.badgeBg} ${theme.badge} mb-4`}
+          >
             <Link href={article.categoryHref} className="hover:underline">
               {article.categoryLabel}
             </Link>
           </p>
-          <h1
-            className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4"
-            style={{ fontFamily: 'Poppins, sans-serif' }}
-          >
+          <h1 className="text-3xl font-extrabold text-gray-900 leading-tight mb-4 md:text-4xl">
             {article.title}
           </h1>
           <div className="flex items-center gap-3 text-sm text-gray-500 mb-4">
@@ -142,10 +222,8 @@ export default function ArticlePage({ params }: Props) {
             <span>·</span>
             <span>{readingTimeLabel}</span>
           </div>
+          <p className="text-lg text-gray-700 leading-relaxed">{article.intro}</p>
         </header>
-
-        {/* Intro */}
-        <p className="text-lg text-gray-700 leading-relaxed mb-6">{article.intro}</p>
 
         {/* Affiliate Disclosure */}
         <div className="affiliate-disclosure mb-8">
@@ -155,14 +233,83 @@ export default function ArticlePage({ params }: Props) {
           </p>
         </div>
 
+        <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-gray-500">
+            In this guide
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {sectionLinks.map((section) => (
+              <a
+                key={section.href}
+                href={section.href}
+                className={`rounded-full border ${theme.cardBorder} px-3 py-2 text-sm font-medium text-gray-700 transition hover:bg-gray-50`}
+              >
+                {section.label}
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section id="direct-answer" className={`mb-10 rounded-3xl border ${theme.cardBorder} ${theme.surface} p-6`}>
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Direct answer</h2>
+          <p className="mb-5 text-gray-700 leading-relaxed">
+            If you want the shortest possible answer to <strong>{article.title.toLowerCase()}</strong>,
+            start with <strong>{topPick.title}</strong>. It is the clearest fit for readers who want{' '}
+            <strong>{topPick.bestFor.toLowerCase()}</strong>. If that does not sound like you, the best
+            alternate starting point is <strong>{alternatePick?.title}</strong>.
+          </p>
+          <div id="quick-picks" className="grid gap-4 md:grid-cols-2">
+            <div className="rounded-2xl border border-white/70 bg-white p-4 shadow-sm">
+              <p className={`mb-2 text-xs font-semibold uppercase tracking-[0.2em] ${theme.accent}`}>
+                Best overall pick
+              </p>
+              <h3 className="text-lg font-bold text-gray-900">{topPick.title}</h3>
+              <p className="mb-2 text-sm text-gray-500">by {topPick.author}</p>
+              <p className="text-sm text-gray-700 leading-relaxed">{topPick.description}</p>
+            </div>
+            {alternatePick && (
+              <div className="rounded-2xl border border-white/70 bg-white p-4 shadow-sm">
+                <p className={`mb-2 text-xs font-semibold uppercase tracking-[0.2em] ${theme.accent}`}>
+                  Best alternate
+                </p>
+                <h3 className="text-lg font-bold text-gray-900">{alternatePick.title}</h3>
+                <p className="mb-2 text-sm text-gray-500">by {alternatePick.author}</p>
+                <p className="text-sm text-gray-700 leading-relaxed">{alternatePick.description}</p>
+              </div>
+            )}
+          </div>
+        </section>
+
+        <section id="visual-map" className="mb-10">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Visual map: which book fits which reader?</h2>
+          <div className="grid gap-4 md:grid-cols-2">
+            {visualMapBooks.map((book, index) => (
+              <div
+                key={book.title}
+                className={`rounded-3xl border ${theme.cardBorder} bg-white p-5 shadow-sm`}
+              >
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <span className={`inline-flex h-8 w-8 items-center justify-center rounded-full ${theme.badgeBg} ${theme.badge} text-sm font-bold`}>
+                    {index + 1}
+                  </span>
+                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-700">
+                    {book.bestFor}
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">{book.title}</h3>
+                <p className="mb-2 text-sm text-gray-500">by {book.author}</p>
+                <p className="mb-3 text-sm text-gray-700 leading-relaxed">{book.description}</p>
+                <p className="text-sm text-gray-500">
+                  <strong>Skip this if:</strong> {book.skipIf}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* Quick Comparison Table */}
         <section className="mb-10 overflow-x-auto">
-          <h2
-            className="text-xl font-bold text-gray-900 mb-4"
-            style={{ fontFamily: 'Poppins, sans-serif' }}
-          >
-            Quick Comparison
-          </h2>
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Quick comparison</h2>
           <table className="comparison-table w-full text-sm border-collapse">
             <thead>
               <tr className="bg-gray-800 text-white">
@@ -186,9 +333,8 @@ export default function ArticlePage({ params }: Props) {
                     <a
                       href={`https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=althcu-20`}
                       target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-amazon text-xs px-3 py-2 inline-block"
-                      style={{ minHeight: '44px', display: 'inline-flex', alignItems: 'center' }}
+                      rel="noopener noreferrer sponsored"
+                      className="btn-amazon inline-flex min-h-[44px] items-center px-3 py-2 text-xs"
                     >
                       Buy on Amazon
                     </a>
@@ -200,13 +346,8 @@ export default function ArticlePage({ params }: Props) {
         </section>
 
         {/* Individual Book Reviews */}
-        <section className="mb-10">
-          <h2
-            className="article-h2 text-2xl font-bold text-gray-900 mb-6"
-            style={{ fontFamily: 'Poppins, sans-serif' }}
-          >
-            Full Reviews
-          </h2>
+        <section id="full-reviews" className="mb-10">
+          <h2 className="article-h2 mb-6 text-2xl font-bold text-gray-900">Full reviews</h2>
           {article.books.map((book, i) => (
             <div
               key={i}
@@ -214,10 +355,7 @@ export default function ArticlePage({ params }: Props) {
             >
               <div className="flex items-start justify-between gap-4 mb-3">
                 <div>
-                  <h3
-                    className="article-h3 text-xl font-bold text-gray-900"
-                    style={{ fontFamily: 'Poppins, sans-serif' }}
-                  >
+                  <h3 className="article-h3 text-xl font-bold text-gray-900">
                     {i + 1}. {book.title}
                   </h3>
                   <p className="text-gray-500 text-sm">by {book.author}</p>
@@ -235,22 +373,18 @@ export default function ArticlePage({ params }: Props) {
 
         {/* Buying Guide */}
         {article.buyingGuide.length > 0 && (
-          <section className="mb-10">
-            <h2
-              className="article-h2 text-2xl font-bold text-gray-900 mb-6"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
-              What to Consider Before You Buy
+          <section id="how-to-choose" className="mb-10">
+            <h2 className="article-h2 mb-3 text-2xl font-bold text-gray-900">
+              How to choose the right book from this list
             </h2>
+            <p className="mb-6 text-gray-700 leading-relaxed">
+              The fastest way to use this page is to match the book to your actual reading mood,
+              not to the broad category. These notes are where the tradeoffs usually become clear.
+            </p>
             <div className="space-y-5">
               {article.buyingGuide.map((item, i) => (
                 <div key={i}>
-                  <h3
-                    className="article-h3 text-lg font-semibold text-gray-900 mb-1"
-                    style={{ fontFamily: 'Poppins, sans-serif' }}
-                  >
-                    {item.title}
-                  </h3>
+                  <h3 className="article-h3 mb-1 text-lg font-semibold text-gray-900">{item.title}</h3>
                   <p className="text-gray-700 leading-relaxed">{item.text}</p>
                 </div>
               ))}
@@ -260,20 +394,14 @@ export default function ArticlePage({ params }: Props) {
 
         {/* FAQ */}
         {article.faqs.length > 0 && (
-          <section className="mb-10">
-            <h2
-              className="article-h2 text-2xl font-bold text-gray-900 mb-6"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
-              Frequently Asked Questions
+          <section id="faq" className="mb-10">
+            <h2 className="article-h2 mb-6 text-2xl font-bold text-gray-900">
+              Frequently asked questions
             </h2>
             <div className="space-y-5">
               {article.faqs.map((faq, i) => (
                 <div key={i} className="border-l-4 border-yellow-400 pl-4">
-                  <h3
-                    className="article-h3 text-base font-semibold text-gray-900 mb-1"
-                    style={{ fontFamily: 'Poppins, sans-serif' }}
-                  >
+                  <h3 className="article-h3 mb-1 text-base font-semibold text-gray-900">
                     {faq.question}
                   </h3>
                   <p className="text-gray-700 text-sm leading-relaxed">{faq.answer}</p>
@@ -286,25 +414,37 @@ export default function ArticlePage({ params }: Props) {
         {/* Verdict */}
         <section className="mb-10">
           <div className="verdict-box bg-yellow-50 border border-yellow-300 rounded-xl p-6">
-            <h2
-              className="text-xl font-bold text-gray-900 mb-3"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
-              Our Verdict
-            </h2>
+            <h2 className="mb-3 text-xl font-bold text-gray-900">Our verdict</h2>
             <p className="text-gray-700 leading-relaxed">{article.verdict}</p>
           </div>
         </section>
 
+        {article.category === 'author' && (
+          <section className="mb-10 rounded-3xl border border-amber-200 bg-amber-50 p-6">
+            <h2 className="mb-3 text-xl font-bold text-gray-900">More author guides</h2>
+            <p className="mb-4 text-sm leading-relaxed text-gray-600">
+              If you are comparing major authors rather than choosing a single book, these related author roundups
+              are strong next clicks and important crawl paths inside the BestPickZone author section.
+            </p>
+            <ul className="grid gap-2 md:grid-cols-2">
+              {moreAuthorGuides.map((guide) => (
+                <li key={guide.slug}>
+                  <Link
+                    href={`/books/${guide.slug}`}
+                    className="block rounded-2xl border border-amber-100 bg-white px-4 py-3 text-sm font-medium text-gray-800 transition hover:border-amber-200 hover:text-blue-700"
+                  >
+                    {guide.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         {/* Related Articles */}
         {related.length > 0 && (
           <section className="mb-10">
-            <h2
-              className="text-xl font-bold text-gray-900 mb-4"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
-              More in {article.categoryLabel}
-            </h2>
+            <h2 className="mb-4 text-xl font-bold text-gray-900">Related reading</h2>
             <ul className="space-y-2">
               {related.map((rel) => (
                 <li key={rel.slug}>
