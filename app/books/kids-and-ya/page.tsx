@@ -19,6 +19,11 @@ const breadcrumbItems = [
 export default function KidsYAHubPage() {
   const articles = getArticlesByCategory('kids-ya');
   const featured = articles.slice(0, 3);
+  const summerReadingSpotlight = {
+    href: '/books/kids-and-ya/best-2026-summer-reading-for-high-school-students',
+    title: 'Best 2026 Summer Reading for High School Students',
+    text: 'A polished high-school summer reading guide with honest fit logic, content notes, and strong picks for both assigned reading and independent reading.',
+  };
   const shopperNotes = [
     {
       title: 'Age matters, but confidence matters too',
@@ -79,6 +84,28 @@ export default function KidsYAHubPage() {
                 <p className="text-sm leading-relaxed text-gray-600">{article.metaDescription}</p>
               </Link>
             ))}
+          </div>
+        </section>
+
+        <section className="mb-12 rounded-[28px] border border-orange-200 bg-gradient-to-br from-orange-50 via-white to-amber-50 p-6 shadow-sm">
+          <div className="grid gap-5 md:grid-cols-[1.2fr_0.8fr] md:items-center">
+            <div>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-orange-700">
+                New editorial spotlight
+              </p>
+              <h2 className="mb-3 text-2xl font-bold text-gray-900">{summerReadingSpotlight.title}</h2>
+              <p className="max-w-2xl text-sm leading-relaxed text-gray-700">
+                {summerReadingSpotlight.text}
+              </p>
+            </div>
+            <div>
+              <Link
+                href={summerReadingSpotlight.href}
+                className="inline-flex rounded-full bg-gray-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
+              >
+                Read the summer guide
+              </Link>
+            </div>
           </div>
         </section>
 
