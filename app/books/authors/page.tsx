@@ -31,6 +31,11 @@ const priorityAuthorGuideSlugs = [
 
 const standaloneAuthorSpotlights = [
   {
+    href: '/books/authors/best-alex-michaelides-books',
+    title: 'Best Alex Michaelides Books',
+    text: 'A thriller-first author guide built around where to start, which title is moodiest, and which one to save for later.',
+  },
+  {
     href: '/books/authors/best-patrick-radden-keefe-books',
     title: 'Best Patrick Radden Keefe Books',
     text: 'A richer standalone nonfiction author guide with start-here logic, investigative maps, and clear book-by-book tradeoffs.',
