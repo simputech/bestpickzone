@@ -3,7 +3,7 @@ import { articlesData } from '@/lib/books-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://bestpickzone.com';
-  const refreshedAt = new Date('2026-06-13');
+  const refreshedAt = new Date('2026-06-13T18:00:00.000Z');
   const techSlugs = [
     'best-laptops-for-college-students',
     'airpods-pro-vs-sony-wf-1000xm5',
