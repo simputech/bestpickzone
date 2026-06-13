@@ -18,6 +18,23 @@ const breadcrumbItems = [
 
 export default function GenreFictionHubPage() {
   const articles = getArticlesByCategory('genre');
+  const editorSpotlights = [
+    {
+      href: '/books/genre-fiction/devils-guard-review',
+      title: "Devil's Guard Review",
+      text: 'A tighter single-book review for readers searching the WWII-to-Indochina angle specifically.',
+    },
+    {
+      href: '/books/genre-fiction/best-world-war-ii-books',
+      title: 'Best Books About World War II',
+      text: 'The better first stop if you want the strongest WWII books overall before chasing cult titles.',
+    },
+    {
+      href: '/books/genre-fiction/best-military-fiction-books',
+      title: 'Best Military Fiction Books',
+      text: 'A more genre-wide path when intensity and combat storytelling matter more than one specific title.',
+    },
+  ];
 
   const schema = {
     '@context': 'https://schema.org',
@@ -75,6 +92,25 @@ export default function GenreFictionHubPage() {
               </span>
             </Link>
           ))}
+        </section>
+
+        <section className="mt-12 rounded-[28px] border border-stone-200 bg-gradient-to-br from-stone-100 via-white to-amber-50 p-6 shadow-sm">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-stone-700">
+            Genre spotlight
+          </p>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">Where to start in war and military reading</h2>
+          <div className="grid gap-4 md:grid-cols-3">
+            {editorSpotlights.map((spotlight) => (
+              <Link
+                key={spotlight.href}
+                href={spotlight.href}
+                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{spotlight.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-600">{spotlight.text}</p>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <div className="mt-10 pt-6 border-t border-gray-200">

@@ -25,15 +25,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/tech`,                    lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${baseUrl}/finance-software`,        lastModified: d('2026-04-09'), changeFrequency: 'weekly',  priority: 0.75 },
     { url: `${baseUrl}/health-fitness`,          lastModified: d('2026-04-09'), changeFrequency: 'weekly',  priority: 0.75 },
-    { url: `${baseUrl}/home-kitchen`,            lastModified: d('2026-04-09'), changeFrequency: 'weekly',  priority: 0.75 },
+    { url: `${baseUrl}/home-kitchen`,            lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.75 },
     { url: `${baseUrl}/books/authors`,           lastModified: d('2026-04-20'), changeFrequency: 'weekly',  priority: 0.9 },
-    { url: `${baseUrl}/books/genre-fiction`,     lastModified: d('2026-04-20'), changeFrequency: 'weekly',  priority: 0.9 },
-    { url: `${baseUrl}/books/self-help`,         lastModified: d('2026-04-20'), changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${baseUrl}/books/genre-fiction`,     lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${baseUrl}/books/self-help`,         lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${baseUrl}/books/kids-and-ya`,       lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${baseUrl}/books/reader-picks`,      lastModified: d('2026-04-20'), changeFrequency: 'weekly',  priority: 0.9 },
     // Kids & YA standalone pages
     { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-high-school-students`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     // Genre Fiction standalone pages
     { url: `${baseUrl}/books/genre-fiction/best-spy-thriller-books`,        lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/genre-fiction/best-new-spy-thriller-books-2026`, lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
@@ -41,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/books/genre-fiction/best-cold-war-thriller-books`,   lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/genre-fiction/best-military-fiction-books`,    lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/genre-fiction/best-history-books-for-beginners`, lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/genre-fiction/devils-guard-review`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     // Authors standalone pages
     { url: `${baseUrl}/books/authors/best-lee-child-books`, lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     // Reader Picks standalone pages
@@ -51,6 +53,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Self-Help standalone pages
     { url: `${baseUrl}/books/self-help/best-self-help-books-2026`,              lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/self-help/best-personal-finance-books-young-adults`, lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/self-help/best-book-to-learn-scrum`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/self-help/best-comptia-security-plus-books-2026`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
+    // Home & Kitchen standalone pages
+    { url: `${baseUrl}/home-kitchen/best-kids-fort-for-girls-2026`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.8 },
   ];
 
   const articlePages: MetadataRoute.Sitemap = articlesData.map((article) => ({

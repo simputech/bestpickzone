@@ -20,10 +20,27 @@ export default function KidsYAHubPage() {
   const articles = getArticlesByCategory('kids-ya');
   const featured = articles.slice(0, 3);
   const summerReadingSpotlight = {
-    href: '/books/kids-and-ya/best-2026-summer-reading-for-high-school-students',
-    title: 'Best 2026 Summer Reading for High School Students',
-    text: 'A polished high-school summer reading guide with honest fit logic, content notes, and strong picks for both assigned reading and independent reading.',
+    href: '/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026',
+    title: 'Best Books for 12-Year-Old Boys Summer 2026',
+    text: 'A high-intent summer reading page built around reader fit: adventure, survival, series momentum, reluctant-reader options, and a clear best overall winner.',
   };
+  const summerEditorsPicks = [
+    {
+      href: '/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026',
+      title: 'Best Books for 12-Year-Old Boys Summer 2026',
+      text: 'Age-specific summer reading built for boys who need momentum, not generic age-band filler.',
+    },
+    {
+      href: '/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls',
+      title: 'Best 2026 Summer Reading for 12-Year-Old Girls',
+      text: 'Voice-driven, adventure-ready, and honest about which readers should skip each pick.',
+    },
+    {
+      href: '/books/kids-and-ya/best-2026-summer-reading-for-high-school-students',
+      title: 'Best 2026 Summer Reading for High School Students',
+      text: 'A more mature reading path for older students or advanced younger readers.',
+    },
+  ];
   const shopperNotes = [
     {
       title: 'Age matters, but confidence matters too',
@@ -82,6 +99,25 @@ export default function KidsYAHubPage() {
               >
                 <h3 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h3>
                 <p className="text-sm leading-relaxed text-gray-600">{article.metaDescription}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-12 rounded-[28px] border border-indigo-200 bg-gradient-to-br from-indigo-50 via-white to-sky-50 p-6 shadow-sm">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-indigo-700">
+            Summer editorial picks
+          </p>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">Three summer-reading guides worth crawling first</h2>
+          <div className="grid gap-4 md:grid-cols-3">
+            {summerEditorsPicks.map((pick) => (
+              <Link
+                key={pick.href}
+                href={pick.href}
+                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{pick.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-600">{pick.text}</p>
               </Link>
             ))}
           </div>

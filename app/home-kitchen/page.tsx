@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
   description:
-    'Expert comparisons of the best air fryers, coffee makers, robot vacuums, instant pots, and more. Honest picks with Amazon and Best Buy links.',
+    'Expert comparisons of the best air fryers, coffee makers, robot vacuums, kids room picks, instant pots, and more. Honest picks with affiliate links and clear buyer-fit guidance.',
   openGraph: {
     title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
     description:
@@ -16,6 +16,15 @@ export const metadata: Metadata = {
 }
 
 const articles = [
+  {
+    slug: 'best-kids-fort-for-girls-2026',
+    title: 'Best Kids Fort for Girls in 2026',
+    description:
+      'A real product pick, not a placeholder: our favorite girls fort for reading nooks, pretend play, and shared floor-space use.',
+    badge: 'Live Guide',
+    badgeColor: 'bg-rose-100 text-rose-700',
+    comingSoon: false,
+  },
   {
     slug: 'best-air-fryers',
     title: 'Best Air Fryers in 2026',
@@ -75,15 +84,18 @@ export default function HomeKitchenPage() {
         </p>
       </div>
 
-      {/* Coming Soon Banner */}
-      <div className="bg-orange-50 border border-orange-200 rounded-lg px-5 py-4 mb-8 text-sm text-orange-800">
-        <strong>Coming soon!</strong> Home &amp; Kitchen guides are launching shortly. Check
-        back or bookmark this page — full articles are on the way.
+      <div className="bg-rose-50 border border-rose-200 rounded-2xl px-5 py-4 mb-8 text-sm text-rose-900">
+        <strong>New live guide:</strong> Our first fully published Home &amp; Kitchen page is{' '}
+        <Link href="/home-kitchen/best-kids-fort-for-girls-2026" className="font-semibold underline underline-offset-2">
+          Best Kids Fort for Girls in 2026
+        </Link>
+        . More room-product roundups are still on the way.
       </div>
 
       {/* Article Grid */}
       <div className="grid gap-6 sm:grid-cols-2">
         {articles.map((article) => (
+          article.comingSoon ? (
           <div
             key={article.slug}
             className="block bg-white rounded-xl border border-gray-200 p-6 shadow-sm opacity-75"
@@ -103,6 +115,26 @@ export default function HomeKitchenPage() {
             </h2>
             <p className="text-sm text-gray-500 leading-relaxed">{article.description}</p>
           </div>
+          ) : (
+          <Link
+            key={article.slug}
+            href={`/home-kitchen/${article.slug}`}
+            className="block bg-white rounded-xl border border-gray-200 p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+          >
+            <span
+              className={`inline-block text-xs font-semibold px-2.5 py-1 rounded-full mb-3 ${article.badgeColor}`}
+            >
+              {article.badge}
+            </span>
+            <h2 className="text-lg font-bold text-gray-800 mb-2 leading-snug">
+              {article.title}
+            </h2>
+            <p className="text-sm text-gray-500 leading-relaxed">{article.description}</p>
+            <span className="text-sm font-semibold text-blue-600 mt-3 block">
+              Read guide →
+            </span>
+          </Link>
+          )
         ))}
       </div>
 

@@ -38,6 +38,23 @@ export default function SelfHelpHubPage() {
       text: 'Money, parenting, relationships, and mental health each reward specialized books more than one-size-fits-all motivation titles.',
     },
   ];
+  const editorialSpotlights = [
+    {
+      href: '/books/self-help/best-book-to-learn-scrum',
+      title: 'Best Book to Learn Scrum',
+      text: 'A sharper answer for agile learners who need the right book by role, not a vague reading list.',
+    },
+    {
+      href: '/books/self-help/best-comptia-security-plus-books-2026',
+      title: 'Best CompTIA Security+ Books for 2026',
+      text: 'A certification-prep buying guide built around the current SY0-701 exam, not outdated editions.',
+    },
+    {
+      href: '/books/self-help/best-self-help-books-2026',
+      title: 'Best Self-Help Books to Read in 2026',
+      text: 'The broader gateway page when the problem is personal change rather than professional upskilling.',
+    },
+  ];
 
   const schema = {
     '@context': 'https://schema.org',
@@ -95,6 +112,25 @@ export default function SelfHelpHubPage() {
               <p className="text-sm leading-relaxed text-gray-600">{path.text}</p>
             </div>
           ))}
+        </section>
+
+        <section className="mb-12 rounded-[28px] border border-cyan-200 bg-gradient-to-br from-cyan-50 via-white to-emerald-50 p-6 shadow-sm">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-700">
+            New specialist guides
+          </p>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">Career and process books with clearer search intent</h2>
+          <div className="grid gap-4 md:grid-cols-3">
+            {editorialSpotlights.map((spotlight) => (
+              <Link
+                key={spotlight.href}
+                href={spotlight.href}
+                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{spotlight.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-600">{spotlight.text}</p>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <section className="grid md:grid-cols-2 gap-4">
