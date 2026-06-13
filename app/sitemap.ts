@@ -47,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/books/authors/best-lee-child-books`, lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     // Reader Picks standalone pages
     { url: `${baseUrl}/books/reader-picks/best-new-books-april-2026`,              lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/reader-picks/best-new-books-june-2026`,               lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/reader-picks/best-books-like-da-vinci-code`,          lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/reader-picks/best-action-adventure-books-for-men`,    lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/reader-picks/best-books-for-people-who-dont-like-reading`, lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },

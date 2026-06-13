@@ -22,6 +22,18 @@ export default function ReaderPicksHubPage() {
     .filter((article) =>
       ['best-book-club-books', 'best-audiobooks-on-audible', 'best-books-of-all-time'].includes(article.slug)
     );
+  const newReleaseSpotlights = [
+    {
+      href: '/books/reader-picks/best-new-books-june-2026',
+      title: 'Best New Books in June 2026',
+      text: 'A stronger current-month guide for readers who care about fresh releases, not just evergreen lists.',
+    },
+    {
+      href: '/books/reader-picks/best-new-books-april-2026',
+      title: 'Best New Books in April 2026',
+      text: 'Useful for comparing the spring release stack against June’s lineup.',
+    },
+  ];
 
   const schema = {
     '@context': 'https://schema.org',
@@ -66,6 +78,25 @@ export default function ReaderPicksHubPage() {
               >
                 <h3 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h3>
                 <p className="text-sm leading-relaxed text-gray-600">{article.metaDescription}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-12 rounded-[28px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-yellow-50 p-6 shadow-sm">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
+            New release guides
+          </p>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">Month-by-month release pages with stronger freshness signals</h2>
+          <div className="grid gap-4 md:grid-cols-2">
+            {newReleaseSpotlights.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{guide.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-600">{guide.text}</p>
               </Link>
             ))}
           </div>
