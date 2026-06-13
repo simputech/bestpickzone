@@ -420,7 +420,7 @@ export default function BestSummerReadingHighSchoolPage() {
               >
                 <h3 className="mb-2 text-lg font-bold text-gray-900">{guide.title}</h3>
                 <p className="text-sm leading-relaxed text-gray-600">{guide.text}</p>
-                <span className="mt-3 block text-sm font-semibold text-blue-600">Read guide -></span>
+                <span className="mt-3 block text-sm font-semibold text-blue-600">Read guide {'->'}</span>
               </Link>
             ))}
           </div>
