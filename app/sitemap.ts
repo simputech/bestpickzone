@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/books/genre-fiction/devils-guard-review`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     // Authors standalone pages
     { url: `${baseUrl}/books/authors/best-lee-child-books`, lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/authors/best-patrick-radden-keefe-books`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     // Reader Picks standalone pages
     { url: `${baseUrl}/books/reader-picks/best-new-books-april-2026`,              lastModified: d('2026-04-20'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/reader-picks/best-new-books-june-2026`,               lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },

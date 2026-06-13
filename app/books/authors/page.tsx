@@ -29,6 +29,19 @@ const priorityAuthorGuideSlugs = [
   'best-toni-morrison-books',
 ] as const;
 
+const standaloneAuthorSpotlights = [
+  {
+    href: '/books/authors/best-patrick-radden-keefe-books',
+    title: 'Best Patrick Radden Keefe Books',
+    text: 'A richer standalone nonfiction author guide with start-here logic, investigative maps, and clear book-by-book tradeoffs.',
+  },
+  {
+    href: '/books/authors/best-lee-child-books',
+    title: 'Best Lee Child Books in Order',
+    text: 'The strongest currently published standalone guide in this section for series-entry logic and what to skip.',
+  },
+];
+
 export default function AuthorsHubPage() {
   const articles = getArticlesByCategory('author');
   const priorityArticles = priorityAuthorGuideSlugs
@@ -87,6 +100,25 @@ export default function AuthorsHubPage() {
                 className="rounded-2xl border border-white bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:-translate-y-0.5 hover:text-blue-700"
               >
                 {article.title}
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-10 rounded-[28px] border border-stone-200 bg-gradient-to-br from-stone-100 via-white to-yellow-50 p-6 shadow-sm">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-stone-700">
+            Standalone Author Guides
+          </p>
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Richer editorial pages outside the generic author grid</h2>
+          <div className="grid gap-4 md:grid-cols-2">
+            {standaloneAuthorSpotlights.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{guide.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-600">{guide.text}</p>
               </Link>
             ))}
           </div>
