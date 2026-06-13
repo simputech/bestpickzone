@@ -30,6 +30,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     { url: `${baseUrl}/books/reader-picks`, lastModified: refreshedAt, changeFrequency: 'weekly', priority: 0.9 },
+    // Genre Fiction standalone pages
+    { url: `${baseUrl}/books/genre-fiction/best-spy-thriller-books`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/genre-fiction/best-new-spy-thriller-books-2026`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/genre-fiction/best-world-war-ii-books`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/genre-fiction/best-cold-war-thriller-books`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/genre-fiction/best-military-fiction-books`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/genre-fiction/best-history-books-for-beginners`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    // Authors standalone pages
+    { url: `${baseUrl}/books/authors/best-lee-child-books`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    // Reader Picks standalone pages
+    { url: `${baseUrl}/books/reader-picks/best-new-books-april-2026`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/reader-picks/best-books-like-da-vinci-code`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/reader-picks/best-action-adventure-books-for-men`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/reader-picks/best-books-for-people-who-dont-like-reading`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    // Self-Help standalone pages
+    { url: `${baseUrl}/books/self-help/best-self-help-books-2026`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${baseUrl}/books/self-help/best-personal-finance-books-young-adults`, lastModified: refreshedAt, changeFrequency: 'monthly', priority: 0.85 },
   ];
 
   const articlePages: MetadataRoute.Sitemap = articlesData.map((article) => ({
