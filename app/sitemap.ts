@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/books/self-help`, lastModified: refreshedAt, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${baseUrl}/books/kids-and-ya`, lastModified: refreshedAt, changeFrequency: 'weekly', priority: 0.9 },
     {
+      url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls`,
+      lastModified: refreshedAt,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-high-school-students`,
       lastModified: refreshedAt,
       changeFrequency: 'monthly',
