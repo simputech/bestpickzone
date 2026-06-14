@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">The Spy Who Came in from the Cold custom cover art</title>
+  <desc id="desc">A cold war inspired recommendation image with stark winter tones and clean title typography for The Spy Who Came in from the Cold by John le Carre.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="74" y="98" width="492" height="764" rx="28" fill="none" stroke="#dbeafe" stroke-width="3" opacity="0.5"/>
+  <path d="M92 250 C180 200, 250 290, 350 240 S500 190, 560 240" fill="none" stroke="#e0f2fe" stroke-width="4" opacity="0.3"/>
+  <line x1="94" y1="274" x2="550" y2="274" stroke="#bfdbfe" stroke-width="2" opacity="0.35"/>
+  <text x="118" y="134" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7">SHORTER PICK</text>
+  <text x="118" y="430" fill="#f8fafc" font-family="Georgia, serif" font-size="56" font-weight="700">The Spy Who</text>
+  <text x="118" y="498" fill="#f8fafc" font-family="Georgia, serif" font-size="56" font-weight="700">Came in from</text>
+  <text x="118" y="566" fill="#f8fafc" font-family="Georgia, serif" font-size="56" font-weight="700">the Cold</text>
+  <text x="118" y="636" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">John le Carre</text>
+  <text x="118" y="712" fill="#e0f2fe" font-family="Arial, Helvetica, sans-serif" font-size="28">Bleak Cold War realism in a faster package.</text>
+  <text x="118" y="758" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="24">Manipulation, false defections, and human cost</text>
+  <text x="118" y="794" fill="#bfdbfe" font-family="Arial, Helvetica, sans-serif" font-size="24">without any glamour to soften the blow.</text>
+</svg>

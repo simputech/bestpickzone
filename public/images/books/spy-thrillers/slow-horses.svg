@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">Slow Horses custom cover art</title>
+  <desc id="desc">A darkly comic British espionage styled recommendation image for Slow Horses by Mick Herron.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="72" y="92" width="496" height="776" rx="28" fill="none" stroke="#bbf7d0" stroke-width="3" opacity="0.5"/>
+  <circle cx="510" cy="194" r="62" fill="#22c55e" opacity="0.16"/>
+  <circle cx="456" cy="194" r="62" fill="#f8fafc" opacity="0.08"/>
+  <text x="118" y="132" fill="#dcfce7" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7">DARK HUMOR</text>
+  <text x="118" y="500" fill="#f0fdf4" font-family="Georgia, serif" font-size="100" font-weight="700">Slow</text>
+  <text x="118" y="592" fill="#f0fdf4" font-family="Georgia, serif" font-size="100" font-weight="700">Horses</text>
+  <text x="118" y="664" fill="#bbf7d0" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">Mick Herron</text>
+  <text x="118" y="740" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="25">Washed-up agents, service politics, and acidic humor</text>
+  <text x="118" y="776" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="25">without losing the reality of institutional failure.</text>
+</svg>

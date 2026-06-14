@@ -8,6 +8,7 @@ const picks = [
   {
     title: 'Tinker Tailor Soldier Spy',
     author: 'John le Carre',
+    cover: '/images/books/spy-thrillers/tinker-tailor-soldier-spy.svg',
     label: 'Best overall realistic spy thriller',
     pages: '423 pages',
     fit: 'Readers who want institutional betrayal, tradecraft, bureaucracy, and moral corrosion rather than chase-scene fantasy.',
@@ -19,6 +20,7 @@ const picks = [
   {
     title: 'The Spy Who Came in from the Cold',
     author: 'John le Carre',
+    cover: '/images/books/spy-thrillers/the-spy-who-came-in-from-the-cold.svg',
     label: 'Best if you want realism in a tighter package',
     pages: '240 pages',
     fit: 'Readers who want one of the bleakest Cold War spy novels without committing to a giant cast or dense timeline puzzle.',
@@ -30,6 +32,7 @@ const picks = [
   {
     title: 'The Company',
     author: 'Robert Littell',
+    cover: '/images/books/spy-thrillers/the-company.svg',
     label: 'Best sprawling realistic CIA epic',
     pages: '897 pages',
     fit: 'Readers who want intelligence history, multidecade CIA tradecraft, and the texture of bureaucratic power across decades.',
@@ -41,6 +44,7 @@ const picks = [
   {
     title: 'Red Sparrow',
     author: 'Jason Matthews',
+    cover: '/images/books/spy-thrillers/red-sparrow.svg',
     label: 'Best modern tradecraft novel',
     pages: '448 pages',
     fit: 'Readers who want a more contemporary realism pick with operational detail and fewer romantic illusions about the work.',
@@ -52,6 +56,7 @@ const picks = [
   {
     title: 'Slow Horses',
     author: 'Mick Herron',
+    cover: '/images/books/spy-thrillers/slow-horses.svg',
     label: 'Best realistic spy thriller with dark humor',
     pages: '336 pages',
     fit: 'Readers who want bureaucratic realism, washed-up intelligence officers, and a meaner comic register without sacrificing operational credibility.',
@@ -64,10 +69,6 @@ const picks = [
 
 function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
-}
-
-function coverImage(title: string) {
-  return `https://dummyimage.com/320x480/e8ecef/111827.png&text=${encodeURIComponent(title)}`
 }
 
 export const metadata: Metadata = {
@@ -198,11 +199,11 @@ export default function BestRealisticSpyThrillersPage() {
               is the best realistic-spy-thriller recommendation for <strong>{pick.fit.toLowerCase()}</strong>
               {' '}and runs about {pick.pages.toLowerCase()}.
             </p>
-            <a href={href} target="_blank" rel="noopener nofollow">
+            <a href={href} target="_blank" rel="noopener nofollow" className="mb-4 inline-flex">
               <img
-                src={coverImage(pick.title)}
-                alt={`${pick.title} by ${pick.author} cover-style recommendation image`}
-                className="mb-4 w-full max-w-[260px] rounded-xl border border-gray-200"
+                src={pick.cover}
+                alt={`${pick.title} by ${pick.author} custom recommendation cover art`}
+                className="w-full max-w-[160px] rounded-xl border border-gray-200 shadow-sm md:max-w-[180px]"
               />
             </a>
             <p className="mb-4 leading-relaxed text-gray-700">{pick.body}</p>

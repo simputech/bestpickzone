@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">Tinker Tailor Soldier Spy custom cover art</title>
+  <desc id="desc">A custom espionage-themed book image with cold gray tones, dossier lines, and typography for Tinker Tailor Soldier Spy by John le Carre.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="62" y="88" width="516" height="784" rx="28" fill="none" stroke="#cbd5e1" stroke-width="3" opacity="0.55"/>
+  <circle cx="510" cy="182" r="76" fill="none" stroke="#e2e8f0" stroke-width="6" opacity="0.25"/>
+  <line x1="128" y1="182" x2="438" y2="182" stroke="#e2e8f0" stroke-width="4" opacity="0.28"/>
+  <line x1="120" y1="312" x2="520" y2="312" stroke="#94a3b8" stroke-width="2" opacity="0.45"/>
+  <line x1="120" y1="340" x2="520" y2="340" stroke="#94a3b8" stroke-width="2" opacity="0.45"/>
+  <line x1="120" y1="368" x2="520" y2="368" stroke="#94a3b8" stroke-width="2" opacity="0.45"/>
+  <text x="120" y="126" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="8">BEST OVERALL</text>
+  <text x="120" y="470" fill="#f8fafc" font-family="Georgia, serif" font-size="70" font-weight="700">Tinker Tailor</text>
+  <text x="120" y="550" fill="#f8fafc" font-family="Georgia, serif" font-size="70" font-weight="700">Soldier Spy</text>
+  <text x="120" y="630" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">John le Carre</text>
+  <text x="120" y="708" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="28">Mole hunt. Tradecraft. Bureaucratic rot.</text>
+  <text x="120" y="754" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="24">The classic realism pick for readers who want</text>
+  <text x="120" y="790" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="24">institutional betrayal instead of action fantasy.</text>
+</svg>
