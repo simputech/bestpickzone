@@ -20,6 +20,36 @@ export default function GenreFictionHubPage() {
   const articles = getArticlesByCategory('genre')
   const editorSpotlights = [
     {
+      href: '/books/best-historical-fiction-books-2026',
+      title: 'Best Historical Fiction Books In 2026',
+      text: 'A stronger current-year historical-fiction guide built around reading mood, not just era labels.',
+    },
+    {
+      href: '/books/books-like-fourth-wing-fantasy-romance',
+      title: 'Books Like Fourth Wing',
+      text: 'A romantasy readalike page for readers chasing dragon-school pressure, trials, and dangerous attraction.',
+    },
+    {
+      href: '/books/best-cyberpunk-novels-all-time',
+      title: 'Best Cyberpunk Novels Of All Time',
+      text: 'A tighter neon-and-corporate-rot page for readers who want the genre’s foundational books.',
+    },
+    {
+      href: '/books/best-psychological-thrillers-with-mind-bending-twists',
+      title: 'Best Psychological Thrillers With Mind-Bending Twists',
+      text: 'A twist-first thriller page for readers who care about destabilizing reveals that still hold up afterward.',
+    },
+    {
+      href: '/books/books-like-dune-hard-sci-fi',
+      title: 'Books Like Dune',
+      text: 'A hard-sci-fi readalike page built around imperial politics, ecology, and system-scale thinking.',
+    },
+    {
+      href: '/books/best-urban-fantasy-series-completed',
+      title: 'Best Completed Urban Fantasy Series',
+      text: 'A finished-series guide for readers who want payoff, not another endless urban-fantasy commitment.',
+    },
+    {
       href: '/books/best-spy-thrillers-realistic',
       title: 'Best Realistic Spy Thrillers',
       text: 'A cleaner espionage page for readers who want tradecraft, bureaucracy, and institutional rot over action-fantasy spy fiction.',

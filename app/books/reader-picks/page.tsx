@@ -24,6 +24,11 @@ export default function ReaderPicksHubPage() {
     );
   const newReleaseSpotlights = [
     {
+      href: '/books/best-short-classic-books-for-a-flight',
+      title: 'Best Short Classic Books for a Flight',
+      text: 'A travel-specific classics page for readers who want something serious that still fits airport attention spans.',
+    },
+    {
       href: '/books/books-like-it-ends-with-us',
       title: 'Books Like It Ends With Us',
       text: 'A dedicated emotional-fiction readalike page for readers who want more than a generic BookTok romance list.',
@@ -93,7 +98,7 @@ export default function ReaderPicksHubPage() {
             New release guides
           </p>
           <h2 className="mb-5 text-2xl font-bold text-gray-900">Month-by-month release pages with stronger freshness signals</h2>
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-2">
             {newReleaseSpotlights.map((guide) => (
               <Link
                 key={guide.href}

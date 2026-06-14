@@ -31,6 +31,21 @@ const priorityAuthorGuideSlugs = [
 
 const standaloneAuthorSpotlights = [
   {
+    href: '/books/cormac-mccarthy-where-to-start',
+    title: 'Cormac McCarthy: Where To Start',
+    text: 'A start-here guide built around the real question with McCarthy: accessible first proof versus the deep-end masterpieces.',
+  },
+  {
+    href: '/books/taylor-jenkins-reid-books-in-order',
+    title: 'Taylor Jenkins Reid Books In Order',
+    text: 'A publication-order page that also tells readers when to ignore publication order and start with Evelyn Hugo instead.',
+  },
+  {
+    href: '/books/fredrik-backman-books-ranked',
+    title: 'Fredrik Backman Books Ranked',
+    text: 'A cleaner ranked guide for readers deciding between Ove, Beartown, and Backman’s softer ensemble novels.',
+  },
+  {
     href: '/books/haruki-murakami-reading-order',
     title: 'Haruki Murakami Reading Order',
     text: 'A dedicated start-here roadmap for Murakami that separates the realistic entry point from the surreal deep-end books.',
