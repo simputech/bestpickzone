@@ -115,6 +115,49 @@ export default function CormacPage() {
           For bibliography details, Vintage's <a href="https://www.penguinrandomhouse.com/authors/43014/cormac-mccarthy/" target="_blank" rel="noopener nofollow">Cormac McCarthy author page</a> is a reliable reference.
         </p>
       </section>
+      <section className="rounded-3xl border border-amber-200 bg-amber-50 p-5 shadow-sm">
+        <h2 className="mb-4 text-2xl font-bold text-gray-900">Interesting facts about Cormac McCarthy</h2>
+        <p className="mb-4 leading-relaxed text-gray-700">
+          Part of what makes McCarthy feel so singular is that the life behind the books was unusual too. He was born in Rhode Island,
+          but he grew up largely in Tennessee, which helps explain why his early novels feel so steeped in Southern landscape, violence,
+          religion, and old speech patterns before his fiction moved westward into the borderlands.
+        </p>
+        <p className="mb-4 leading-relaxed text-gray-700">
+          A few details that make his career especially interesting:
+        </p>
+        <ul className="mb-4 list-disc space-y-3 pl-6 text-gray-700">
+          <li>
+            He received a <strong>MacArthur Fellowship in 1981</strong>, which gave him the freedom to keep writing during a period when
+            he was admired by serious readers but was nowhere near the household literary name he later became.
+          </li>
+          <li>
+            <strong>All the Pretty Horses</strong> was the book that pushed him into much wider recognition. It won both the National Book Award
+            and the National Book Critics Circle Award, and it gave many readers a more accessible doorway into his style.
+          </li>
+          <li>
+            <strong>The Road</strong> won the <strong>2007 Pulitzer Prize for Fiction</strong>, which helped cement McCarthy not just as a cult favorite
+            or critics' writer, but as one of the central American novelists of his era.
+          </li>
+          <li>
+            He spent years connected to the <strong>Santa Fe Institute</strong>, an interdisciplinary research center better known for scientists than novelists.
+            That odd fit actually makes sense once you read him closely: his books are full of systems, order, chaos, fate, and questions about what kind of world humans inhabit.
+          </li>
+          <li>
+            Even though film adaptations made him more famous, McCarthy still kept a reputation for being notably private, which only added to the myth around books like <strong>Blood Meridian</strong> and <strong>The Road</strong>.
+          </li>
+        </ul>
+        <p className="leading-relaxed text-gray-700">
+          If you want a straightforward biography after finishing one of the books above, Britannica's{' '}
+          <a href="https://www.britannica.com/biography/Cormac-McCarthy" target="_blank" rel="noopener nofollow">
+            Cormac McCarthy profile
+          </a>{' '}
+          is a solid starting point, and the{' '}
+          <a href="https://en.wikipedia.org/wiki/Cormac_McCarthy" target="_blank" rel="noopener nofollow">
+            Wikipedia overview
+          </a>{' '}
+          is useful for publication order and awards at a glance.
+        </p>
+      </section>
     </main>
   )
 }
