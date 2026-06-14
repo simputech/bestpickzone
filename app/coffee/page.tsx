@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { coffeeComparisonArticles } from '@/lib/comparison-html-articles'
 
 export const metadata: Metadata = {
   title: 'Coffee Gear Comparisons 2026',
@@ -129,6 +130,27 @@ export default function CoffeeHubPage() {
           </div>
         </section>
       ))}
+
+      <section className="rounded-3xl border border-amber-200 bg-amber-50 p-6 shadow-sm">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">Newest live coffee comparisons</h2>
+        <p className="mb-5 text-gray-700">
+          These are the active pages shipping the current comparison pattern across espresso, grinders,
+          brewers, and scales.
+        </p>
+        <div className="grid gap-4 md:grid-cols-2">
+          {coffeeComparisonArticles.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/coffee/${article.slug}`}
+              className="rounded-2xl border border-amber-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-amber-800">Live Comparison</p>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
+              <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
     </main>
   )
 }

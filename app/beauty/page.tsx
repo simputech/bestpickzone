@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { beautyComparisonArticles } from '@/lib/comparison-html-articles'
 
 export const metadata: Metadata = {
   title: 'Beauty Tech and Ingredient Comparisons 2026',
@@ -98,6 +99,26 @@ export default function BeautyHubPage() {
               ))}
             </tbody>
           </table>
+        </div>
+      </section>
+
+      <section className="rounded-3xl border border-rose-200 bg-white p-6 shadow-sm">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">Live beauty comparison</h2>
+        <p className="mb-5 text-gray-700">
+          We are starting the silo with the strongest high-intent beauty-tool matchup already live.
+        </p>
+        <div className="grid gap-4 md:grid-cols-2">
+          {beautyComparisonArticles.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/beauty/${article.slug}`}
+              className="rounded-2xl border border-rose-200 bg-rose-50 p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-rose-700">Live Comparison</p>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
+              <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
+            </Link>
+          ))}
         </div>
       </section>
     </main>

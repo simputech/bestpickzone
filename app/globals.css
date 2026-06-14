@@ -77,4 +77,46 @@
   .comparison-table tr:nth-child(even) td {
     @apply bg-gray-50;
   }
+
+  .comparison-html p {
+    @apply mb-4 text-lg leading-relaxed text-gray-700;
+  }
+
+  .comparison-html h2 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    @apply mt-10 mb-4 text-2xl font-bold text-gray-900;
+  }
+
+  .comparison-html h3 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    @apply mt-8 mb-3 text-xl font-bold text-gray-900;
+  }
+
+  .comparison-html ul {
+    @apply mb-5 ml-6 list-disc space-y-2 text-base leading-relaxed text-gray-700;
+  }
+
+  .comparison-html table {
+    @apply mb-8 w-full border-collapse overflow-hidden rounded-2xl border border-gray-200 text-left text-sm;
+  }
+
+  .comparison-html thead tr {
+    @apply bg-gray-50;
+  }
+
+  .comparison-html th {
+    @apply border-b border-gray-200 px-3 py-3 font-semibold text-gray-900;
+  }
+
+  .comparison-html td {
+    @apply border-b border-gray-100 px-3 py-3 align-top text-gray-700;
+  }
+
+  .comparison-html a {
+    @apply font-semibold text-amber-800 underline underline-offset-2;
+  }
+
+  .comparison-html em {
+    @apply text-gray-600;
+  }
 }

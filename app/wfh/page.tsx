@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
 export const metadata: Metadata = {
   title: 'WFH Ergonomic Comparisons 2026',
@@ -103,6 +104,26 @@ export default function WfhHubPage() {
           </div>
         </section>
       ))}
+
+      <section className="rounded-3xl border border-sky-200 bg-sky-50 p-6 shadow-sm">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">Live WFH comparisons</h2>
+        <p className="mb-5 text-gray-700">
+          These pages are the current live set for ergonomic seating, input gear, and creator-desk workflows.
+        </p>
+        <div className="grid gap-4 md:grid-cols-2">
+          {wfhComparisonArticles.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/wfh/${article.slug}`}
+              className="rounded-2xl border border-sky-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Live Comparison</p>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
+              <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
     </main>
   )
 }

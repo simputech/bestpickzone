@@ -1,4 +1,5 @@
 import { articlesData } from '@/lib/books-data'
+import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
 export const baseUrl = 'https://bestpickzone.com'
 
@@ -86,15 +87,33 @@ export const mainPages: SitemapEntry[] = [
 
 export const beautyPages: SitemapEntry[] = [
   { url: `${baseUrl}/beauty`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 0.92 },
+  ...beautyComparisonArticles.map((article) => ({
+    url: `${baseUrl}/beauty/${article.slug}`,
+    lastModified: '2026-06-14',
+    changeFrequency: 'monthly' as const,
+    priority: 0.88,
+  })),
 ]
 
 export const coffeePages: SitemapEntry[] = [
   { url: `${baseUrl}/coffee`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
+  ...coffeeComparisonArticles.map((article) => ({
+    url: `${baseUrl}/coffee/${article.slug}`,
+    lastModified: '2026-06-14',
+    changeFrequency: 'monthly' as const,
+    priority: 0.88,
+  })),
 ]
 
 export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 0.92 },
+  ...wfhComparisonArticles.map((article) => ({
+    url: `${baseUrl}/wfh/${article.slug}`,
+    lastModified: '2026-06-14',
+    changeFrequency: 'monthly' as const,
+    priority: 0.88,
+  })),
 ]
 
 export const booksPages: SitemapEntry[] = [
