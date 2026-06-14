@@ -104,6 +104,43 @@ export default function BestKidsFortForGirlsPage() {
             tiny corner tent, skip it. If you want a fort that actually gets used by more
             than one child, this is the stronger buy.
           </p>
+          <div className="mt-6 grid gap-4 rounded-[28px] border border-white bg-white/85 p-5 shadow-sm md:grid-cols-[1.15fr_0.85fr]">
+            <div>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-rose-700">
+                Product snapshot
+              </p>
+              <h2 className="mb-2 text-2xl font-bold text-gray-900">besrey Kids Play Tent</h2>
+              <p className="text-sm leading-relaxed text-gray-700">
+                A roomy hexagonal kids fort with one door, three windows, and enough floor
+                space for shared play. This is the better pick for parents who want a fort
+                that works for reading, imaginative play, and sibling use instead of just
+                looking cute in a bedroom corner.
+              </p>
+              <ul className="mt-4 space-y-2 text-sm text-gray-700">
+                <li><strong>Best for:</strong> 3 to 4 kids, reading nooks, pretend play, and playdates</li>
+                <li><strong>Main advantage:</strong> more usable floor space than a narrow teepee-style tent</li>
+                <li><strong>Skip if:</strong> you need an ultra-small footprint or a heavily themed decorative tent</li>
+              </ul>
+            </div>
+            <div className="rounded-[24px] border border-amber-200 bg-amber-50 p-5">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
+                Buy now
+              </p>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">Top pick for 2026</h3>
+              <p className="mb-4 text-sm leading-relaxed text-gray-700">
+                If this is the style and size you want, the fastest path is to go straight
+                to the Amazon listing here.
+              </p>
+              <Link
+                href={productUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-yellow-400 px-6 py-3 text-base font-bold text-gray-900 transition-colors hover:bg-yellow-300"
+              >
+                Click Here to Buy on Amazon
+              </Link>
+            </div>
+          </div>
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-gray-600">
             The product title, availability, and listing details were verified against
             Amazon in June 2026. This page uses an Amazon affiliate link, which may earn

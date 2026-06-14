@@ -123,6 +123,11 @@ const picks = [
   },
 ] as const
 
+function getAmazonSearchUrl(title: string, author: string) {
+  const query = encodeURIComponent(`${title} ${author}`)
+  return `https://www.amazon.com/s?k=${query}&tag=althcu-20`
+}
+
 const honorableMentions = [
   {
     title: 'Road Trip',
@@ -312,6 +317,7 @@ export default function BestNewBooksJune2026Page() {
                   <th className="px-4 py-3 font-semibold">Author</th>
                   <th className="px-4 py-3 font-semibold">Pub Date</th>
                   <th className="px-4 py-3 font-semibold">Best For</th>
+                  <th className="px-4 py-3 font-semibold">Find on Amazon</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
@@ -324,6 +330,16 @@ export default function BestNewBooksJune2026Page() {
                     <td className="px-4 py-3 text-gray-700">{p.author}</td>
                     <td className="px-4 py-3 text-gray-700">{p.pubDate}</td>
                     <td className="px-4 py-3 text-gray-600">{p.slot}</td>
+                    <td className="px-4 py-3">
+                      <Link
+                        href={getAmazonSearchUrl(p.title, p.author)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-gray-900 transition-colors hover:bg-yellow-300"
+                      >
+                        Find on Amazon
+                      </Link>
+                    </td>
                   </tr>
                 ))}
               </tbody>

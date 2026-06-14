@@ -1,29 +1,29 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { getArticlesByCategory } from '@/lib/books-data';
-import Breadcrumb from '@/components/ui/Breadcrumb';
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import { getArticlesByCategory } from '@/lib/books-data'
+import Breadcrumb from '@/components/ui/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Best Kids & Young Adult Books 2026 — Series, Picture Books & YA | BestPickZone',
   description:
     'The best books for kids and teens: picture books, middle-grade series, YA fantasy, YA romance, reluctant reader picks, and more. Age-matched recommendations parents and kids trust.',
   alternates: { canonical: 'https://bestpickzone.com/books/kids-and-ya' },
-};
+}
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
   { label: 'Books', href: '/books' },
   { label: 'Kids & Young Adult' },
-];
+]
 
 export default function KidsYAHubPage() {
-  const articles = getArticlesByCategory('kids-ya');
-  const featured = articles.slice(0, 3);
+  const articles = getArticlesByCategory('kids-ya')
+  const featured = articles.slice(0, 3)
   const summerReadingSpotlight = {
     href: '/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026',
     title: 'Best Books for 12-Year-Old Boys Summer 2026',
     text: 'A high-intent summer reading page built around reader fit: adventure, survival, series momentum, reluctant-reader options, and a clear best overall winner.',
-  };
+  }
   const summerEditorsPicks = [
     {
       href: '/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026',
@@ -40,7 +40,7 @@ export default function KidsYAHubPage() {
       title: 'Best 2026 Summer Reading for High School Students',
       text: 'A more mature reading path for older students or advanced younger readers.',
     },
-  ];
+  ]
   const shopperNotes = [
     {
       title: 'Age matters, but confidence matters too',
@@ -54,7 +54,7 @@ export default function KidsYAHubPage() {
       title: 'Visual reading still counts',
       text: 'Graphic novels, illustrated fiction, and hybrid formats are often the smartest doorway for reluctant or developing readers.',
     },
-  ];
+  ]
 
   const schema = {
     '@context': 'https://schema.org',
@@ -63,7 +63,7 @@ export default function KidsYAHubPage() {
     description: 'Curated book guides for children and young adult readers.',
     url: 'https://bestpickzone.com/books/kids-and-ya',
     publisher: { '@type': 'Organization', name: 'BestPickZone' },
-  };
+  }
 
   return (
     <>
@@ -75,13 +75,15 @@ export default function KidsYAHubPage() {
         <Breadcrumb items={breadcrumbItems} />
 
         <header className="mb-10">
-          <h1 className="mb-4 text-4xl font-extrabold text-gray-900">Best Kids &amp; Young Adult Books</h1>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            Parents and teachers rarely need “the best kids books” in the abstract. They need the
-            right book for a specific age, attention span, and reading problem. This section is built
-            around that reality: reluctant readers, bedtime books, middle-grade series, YA fantasy,
-            and the categories that actually come up when you are trying to match a child with the
-            next book they will finish.
+          <h1 className="mb-4 text-4xl font-extrabold text-gray-900">
+            Best Kids &amp; Young Adult Books
+          </h1>
+          <p className="text-lg leading-relaxed text-gray-700">
+            Parents and teachers rarely need “the best kids books” in the abstract. They need
+            the right book for a specific age, attention span, and reading problem. This section
+            is built around that reality: reluctant readers, bedtime books, middle-grade series,
+            YA fantasy, and the categories that actually come up when you are trying to match a
+            child with the next book they will finish.
           </p>
         </header>
 
@@ -89,7 +91,9 @@ export default function KidsYAHubPage() {
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-sky-700">
             Parent Shortlist
           </p>
-          <h2 className="mb-5 text-2xl font-bold text-gray-900">Strong starting points by age and reading confidence</h2>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">
+            Strong starting points by age and reading confidence
+          </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {featured.map((article) => (
               <Link
@@ -108,7 +112,9 @@ export default function KidsYAHubPage() {
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-indigo-700">
             Summer editorial picks
           </p>
-          <h2 className="mb-5 text-2xl font-bold text-gray-900">Three summer-reading guides worth crawling first</h2>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">
+            Three summer-reading guides worth crawling first
+          </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {summerEditorsPicks.map((pick) => (
               <Link
@@ -129,7 +135,9 @@ export default function KidsYAHubPage() {
               <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-orange-700">
                 New editorial spotlight
               </p>
-              <h2 className="mb-3 text-2xl font-bold text-gray-900">{summerReadingSpotlight.title}</h2>
+              <h2 className="mb-3 text-2xl font-bold text-gray-900">
+                {summerReadingSpotlight.title}
+              </h2>
               <p className="max-w-2xl text-sm leading-relaxed text-gray-700">
                 {summerReadingSpotlight.text}
               </p>
@@ -147,26 +155,31 @@ export default function KidsYAHubPage() {
 
         <section className="mb-12 grid gap-4 md:grid-cols-3">
           {shopperNotes.map((note) => (
-            <div key={note.title} className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-sky-700">What Helps</p>
+            <div
+              key={note.title}
+              className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm"
+            >
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-sky-700">
+                What Helps
+              </p>
               <h2 className="mb-2 text-lg font-bold text-gray-900">{note.title}</h2>
               <p className="text-sm leading-relaxed text-gray-600">{note.text}</p>
             </div>
           ))}
         </section>
 
-        <section className="grid md:grid-cols-2 gap-4">
+        <section className="grid gap-4 md:grid-cols-2">
           {articles.map((article) => (
             <Link
               key={article.slug}
               href={`/books/${article.slug}`}
-              className="card-hover bg-white rounded-xl border border-gray-200 p-5 shadow-sm no-underline block"
+              className="card-hover block rounded-xl border border-gray-200 bg-white p-5 shadow-sm no-underline"
             >
               <h2 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h2>
-              <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
+              <p className="line-clamp-3 text-sm leading-relaxed text-gray-600">
                 {article.metaDescription}
               </p>
-              <span className="text-sm font-semibold text-blue-600 mt-3 block">
+              <span className="mt-3 block text-sm font-semibold text-blue-600">
                 Read guide →
               </span>
             </Link>
@@ -174,20 +187,23 @@ export default function KidsYAHubPage() {
         </section>
 
         <section className="mt-12 rounded-[28px] border border-gray-200 bg-white p-6 shadow-sm">
-          <h2 className="mb-3 text-2xl font-bold text-gray-900">What You Will Find In This Section</h2>
+          <h2 className="mb-3 text-2xl font-bold text-gray-900">
+            What You Will Find In This Section
+          </h2>
           <p className="max-w-3xl text-sm leading-relaxed text-gray-600">
-            These guides cover picture books, early readers, middle-grade series, YA fantasy, coming-of-age novels,
-            STEM picks, reluctant-reader pathways, and age-specific lists for boys and girls. The goal is to make this
-            section feel more like a smart children&apos;s books desk than a thin directory of titles.
+            These guides cover picture books, early readers, middle-grade series, YA fantasy,
+            coming-of-age novels, STEM picks, reluctant-reader pathways, and age-specific lists
+            for boys and girls. The goal is to make this section feel more like a smart
+            children&apos;s books desk than a thin directory of titles.
           </p>
         </section>
 
-        <div className="mt-10 pt-6 border-t border-gray-200">
-          <Link href="/books" className="text-blue-600 hover:underline text-sm font-medium">
+        <div className="mt-10 border-t border-gray-200 pt-6">
+          <Link href="/books" className="text-sm font-medium text-blue-600 hover:underline">
             ← Back to All Books
           </Link>
         </div>
       </main>
     </>
-  );
+  )
 }

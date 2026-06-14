@@ -10,6 +10,7 @@ const d = (iso: string) => new Date(iso);
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://bestpickzone.com';
+  const customBookSlugs = new Set(['best-stephen-king-books']);
 
   const techSlugs: { slug: string; date: string }[] = [
     { slug: 'best-laptops-for-college-students',  date: '2026-04-09' },
@@ -26,11 +27,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/finance-software`,        lastModified: d('2026-04-09'), changeFrequency: 'weekly',  priority: 0.75 },
     { url: `${baseUrl}/health-fitness`,          lastModified: d('2026-04-09'), changeFrequency: 'weekly',  priority: 0.75 },
     { url: `${baseUrl}/home-kitchen`,            lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.75 },
+    { url: `${baseUrl}/books/haruki-murakami-reading-order`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/books-like-it-ends-with-us`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/best-spy-thrillers-realistic`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/agatha-christie-hercule-poirot-in-order`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/best-brandon-sanderson-cosmere-order`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/books-like-verity-psychological-thrillers`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/best-cozy-mystery-series-to-read`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/colleen-hoover-books-ranked-worst-to-best`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
+    { url: `${baseUrl}/books/best-sci-fi-doorstoppers-epic-space-opera`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
     { url: `${baseUrl}/books/authors`,           lastModified: d('2026-04-20'), changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${baseUrl}/books/genre-fiction`,     lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${baseUrl}/books/self-help`,         lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${baseUrl}/books/kids-and-ya`,       lastModified: d('2026-06-13'), changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${baseUrl}/books/reader-picks`,      lastModified: d('2026-04-20'), changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${baseUrl}/books/best-stephen-king-books`, lastModified: d('2026-06-14'), changeFrequency: 'monthly', priority: 0.88 },
     // Kids & YA standalone pages
     { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-high-school-students`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
@@ -59,15 +70,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/books/self-help/best-book-to-learn-scrum`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     { url: `${baseUrl}/books/self-help/best-comptia-security-plus-books-2026`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.85 },
     // Home & Kitchen standalone pages
+    { url: `${baseUrl}/home-kitchen/best-solar-powered-attic-fans`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${baseUrl}/home-kitchen/best-kids-fort-for-girls-2026`, lastModified: d('2026-06-13'), changeFrequency: 'monthly', priority: 0.8 },
   ];
 
-  const articlePages: MetadataRoute.Sitemap = articlesData.map((article) => ({
-    url: `${baseUrl}/books/${article.slug}`,
-    lastModified: article.publishedDate ? d(article.publishedDate) : d('2026-04-09'),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }));
+  const articlePages: MetadataRoute.Sitemap = articlesData
+    .filter((article) => !customBookSlugs.has(article.slug))
+    .map((article) => ({
+      url: `${baseUrl}/books/${article.slug}`,
+      lastModified: article.publishedDate ? d(article.publishedDate) : d('2026-04-09'),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    }));
 
   const techPages: MetadataRoute.Sitemap = techSlugs.map(({ slug, date }) => ({
     url: `${baseUrl}/tech/${slug}`,

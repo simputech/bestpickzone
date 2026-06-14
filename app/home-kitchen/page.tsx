@@ -17,6 +17,15 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'best-solar-powered-attic-fans',
+    title: 'Best Solar-Powered Attic Fans',
+    description:
+      'A conversion-focused guide to the best solar attic fans for lowering attic heat, reducing AC strain, and improving roof ventilation.',
+    badge: 'Live Guide',
+    badgeColor: 'bg-amber-100 text-amber-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-kids-fort-for-girls-2026',
     title: 'Best Kids Fort for Girls in 2026',
     description:
@@ -66,81 +75,85 @@ const articles = [
 export default function HomeKitchenPage() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
-      {/* Breadcrumb */}
-      <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
-        <Link href="/" className="hover:text-blue-600">Home</Link>
+      <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-blue-600">
+          Home
+        </Link>
         <span className="mx-2">/</span>
-        <span className="text-gray-800 font-medium">Home &amp; Kitchen</span>
+        <span className="font-medium text-gray-800">Home &amp; Kitchen</span>
       </nav>
 
-      {/* Header */}
       <div className="mb-10">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Home &amp; Kitchen Reviews
-        </h1>
-        <p className="text-lg text-gray-600 max-w-3xl">
-          Honest comparisons of the appliances and kitchen gear that actually earn a
-          permanent spot on your countertop. We research so you don't have to.
+        <h1 className="mb-4 text-4xl font-bold text-gray-900">Home &amp; Kitchen Reviews</h1>
+        <p className="max-w-3xl text-lg text-gray-600">
+          Honest comparisons of the appliances and kitchen gear that actually earn a permanent
+          spot on your countertop. We research so you don&apos;t have to.
         </p>
       </div>
 
-      <div className="bg-rose-50 border border-rose-200 rounded-2xl px-5 py-4 mb-8 text-sm text-rose-900">
-        <strong>New live guide:</strong> Our first fully published Home &amp; Kitchen page is{' '}
-        <Link href="/home-kitchen/best-kids-fort-for-girls-2026" className="font-semibold underline underline-offset-2">
+      <div className="mb-8 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">
+        <strong>New live guides:</strong> Our latest Home &amp; Kitchen pages are{' '}
+        <Link
+          href="/home-kitchen/best-solar-powered-attic-fans"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Solar-Powered Attic Fans
+        </Link>{' '}
+        and{' '}
+        <Link
+          href="/home-kitchen/best-kids-fort-for-girls-2026"
+          className="font-semibold underline underline-offset-2"
+        >
           Best Kids Fort for Girls in 2026
         </Link>
         . More room-product roundups are still on the way.
       </div>
 
-      {/* Article Grid */}
       <div className="grid gap-6 sm:grid-cols-2">
-        {articles.map((article) => (
+        {articles.map((article) =>
           article.comingSoon ? (
-          <div
-            key={article.slug}
-            className="block bg-white rounded-xl border border-gray-200 p-6 shadow-sm opacity-75"
-          >
-            <span
-              className={`inline-block text-xs font-semibold px-2.5 py-1 rounded-full mb-3 ${article.badgeColor}`}
+            <div
+              key={article.slug}
+              className="block rounded-xl border border-gray-200 bg-white p-6 shadow-sm opacity-75"
             >
-              {article.badge}
-            </span>
-            {article.comingSoon && (
-              <span className="ml-2 inline-block text-xs font-semibold px-2 py-0.5 rounded-full bg-gray-100 text-gray-500">
+              <span
+                className={`mb-3 inline-block rounded-full px-2.5 py-1 text-xs font-semibold ${article.badgeColor}`}
+              >
+                {article.badge}
+              </span>
+              <span className="ml-2 inline-block rounded-full bg-gray-100 px-2 py-0.5 text-xs font-semibold text-gray-500">
                 Coming Soon
               </span>
-            )}
-            <h2 className="text-lg font-bold text-gray-800 mb-2 leading-snug">
-              {article.title}
-            </h2>
-            <p className="text-sm text-gray-500 leading-relaxed">{article.description}</p>
-          </div>
+              <h2 className="mb-2 text-lg font-bold leading-snug text-gray-800">
+                {article.title}
+              </h2>
+              <p className="text-sm leading-relaxed text-gray-500">{article.description}</p>
+            </div>
           ) : (
-          <Link
-            key={article.slug}
-            href={`/home-kitchen/${article.slug}`}
-            className="block bg-white rounded-xl border border-gray-200 p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-          >
-            <span
-              className={`inline-block text-xs font-semibold px-2.5 py-1 rounded-full mb-3 ${article.badgeColor}`}
+            <Link
+              key={article.slug}
+              href={`/home-kitchen/${article.slug}`}
+              className="block rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
             >
-              {article.badge}
-            </span>
-            <h2 className="text-lg font-bold text-gray-800 mb-2 leading-snug">
-              {article.title}
-            </h2>
-            <p className="text-sm text-gray-500 leading-relaxed">{article.description}</p>
-            <span className="text-sm font-semibold text-blue-600 mt-3 block">
-              Read guide →
-            </span>
-          </Link>
+              <span
+                className={`mb-3 inline-block rounded-full px-2.5 py-1 text-xs font-semibold ${article.badgeColor}`}
+              >
+                {article.badge}
+              </span>
+              <h2 className="mb-2 text-lg font-bold leading-snug text-gray-800">
+                {article.title}
+              </h2>
+              <p className="text-sm leading-relaxed text-gray-500">{article.description}</p>
+              <span className="mt-3 block text-sm font-semibold text-blue-600">
+                Read guide →
+              </span>
+            </Link>
           )
-        ))}
+        )}
       </div>
 
-      {/* SEO section */}
-      <section className="mt-14 prose prose-gray max-w-none">
-        <h2 className="text-2xl font-bold text-gray-900 mb-3">
+      <section className="prose prose-gray mt-14 max-w-none">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">
           What to Expect from Our Home &amp; Kitchen Guides
         </h2>
         <p className="text-gray-600">

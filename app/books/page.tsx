@@ -112,10 +112,15 @@ export default function BooksHubPage() {
   };
 
   const featuredGuides = [
-    {
-      title: 'Best Book Club Books',
-      href: '/books/best-book-club-books',
-      note: 'Good when your group wants a book that will actually create disagreement and discussion.',
+  {
+    title: 'Haruki Murakami Reading Order',
+    href: '/books/haruki-murakami-reading-order',
+    note: 'Useful when you want a curated path into Murakami instead of blindly following publication order.',
+  },
+  {
+    title: 'Best Book Club Books',
+    href: '/books/best-book-club-books',
+    note: 'Good when your group wants a book that will actually create disagreement and discussion.',
     },
     {
       title: 'Best Self-Help Books',

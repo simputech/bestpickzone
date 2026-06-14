@@ -1,20 +1,20 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { getArticlesByCategory } from '@/lib/books-data';
-import Breadcrumb from '@/components/ui/Breadcrumb';
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import { getArticlesByCategory } from '@/lib/books-data'
+import Breadcrumb from '@/components/ui/Breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Best Books by Author — Stephen King, Colleen Hoover & More | BestPickZone',
   description:
-    "Author-by-author reading guides covering Stephen King, Colleen Hoover, James Clear, Malcolm Gladwell, and 11 more. Find the best books from your favorite author.",
+    'Author-by-author reading guides covering Stephen King, Colleen Hoover, James Clear, Malcolm Gladwell, and 11 more. Find the best books from your favorite author.',
   alternates: { canonical: 'https://bestpickzone.com/books/authors' },
-};
+}
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
   { label: 'Books', href: '/books' },
   { label: 'By Author' },
-];
+]
 
 const priorityAuthorGuideSlugs = [
   'best-james-clear-books',
@@ -27,9 +27,34 @@ const priorityAuthorGuideSlugs = [
   'best-george-orwell-books',
   'best-haruki-murakami-books',
   'best-toni-morrison-books',
-] as const;
+] as const
 
 const standaloneAuthorSpotlights = [
+  {
+    href: '/books/haruki-murakami-reading-order',
+    title: 'Haruki Murakami Reading Order',
+    text: 'A dedicated start-here roadmap for Murakami that separates the realistic entry point from the surreal deep-end books.',
+  },
+  {
+    href: '/books/agatha-christie-hercule-poirot-in-order',
+    title: 'Hercule Poirot In Order',
+    text: 'A classic-detective reading order page built around the best entry point, not blind publication-order obedience.',
+  },
+  {
+    href: '/books/best-brandon-sanderson-cosmere-order',
+    title: 'Best Brandon Sanderson Cosmere Order',
+    text: 'A fantasy-universe reading guide focused on the smartest Cosmere on-ramp for new readers.',
+  },
+  {
+    href: '/books/best-stephen-king-books',
+    title: 'Best Stephen King Books',
+    text: 'A rebuilt standalone King guide with a stronger start-here pick, skip-first logic, and deeper book-by-book fit notes.',
+  },
+  {
+    href: '/books/colleen-hoover-books-ranked-worst-to-best',
+    title: 'Colleen Hoover Books Ranked Worst To Best',
+    text: 'A sharper CoHo ranking page for readers who want a clear hierarchy rather than a generic best-books roundup.',
+  },
   {
     href: '/books/authors/best-alex-michaelides-books',
     title: 'Best Alex Michaelides Books',
@@ -45,22 +70,22 @@ const standaloneAuthorSpotlights = [
     title: 'Best Lee Child Books in Order',
     text: 'The strongest currently published standalone guide in this section for series-entry logic and what to skip.',
   },
-];
+]
 
 export default function AuthorsHubPage() {
-  const articles = getArticlesByCategory('author');
+  const articles = getArticlesByCategory('author')
   const priorityArticles = priorityAuthorGuideSlugs
     .map((slug) => articles.find((article) => article.slug === slug))
-    .filter((article): article is (typeof articles)[number] => Boolean(article));
+    .filter((article): article is (typeof articles)[number] => Boolean(article))
 
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Best Books by Author',
-    description: 'Curated reading guides for the world\'s most popular authors.',
+    description: "Curated reading guides for the world's most popular authors.",
     url: 'https://bestpickzone.com/books/authors',
     publisher: { '@type': 'Organization', name: 'BestPickZone' },
-  };
+  }
 
   return (
     <>
@@ -73,18 +98,18 @@ export default function AuthorsHubPage() {
 
         <header className="mb-10">
           <h1
-            className="text-4xl font-extrabold text-gray-900 mb-4"
+            className="mb-4 text-4xl font-extrabold text-gray-900"
             style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             Best Books by Author
           </h1>
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg leading-relaxed text-gray-700">
             Not sure where to start with a new author? Each guide below covers the essential
             reads — ranked by quality, accessibility, and what kind of reader will love them
-            most. We cover Stephen King's scariest page-turners, Colleen Hoover's most
-            emotional romances, James Clear's productivity framework, and 12 more household
-            names. Every recommendation includes an honest "skip this if" note so you never
-            waste time on the wrong book.
+            most. We cover Stephen King&apos;s scariest page-turners, Colleen Hoover&apos;s most
+            emotional romances, James Clear&apos;s productivity framework, and 12 more household
+            names. Every recommendation includes an honest &quot;skip this if&quot; note so you
+            never waste time on the wrong book.
           </p>
         </header>
 
@@ -92,10 +117,13 @@ export default function AuthorsHubPage() {
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
             Priority Author Roundups
           </p>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900">Author guides we want crawled and indexed next</h2>
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
+            Author guides we want crawled and indexed next
+          </h2>
           <p className="mb-5 text-sm leading-relaxed text-gray-600">
-            These links point directly to the priority author pages that need stronger crawl paths from the author hub.
-            The anchor text is intentionally descriptive so search engines and readers can both understand what each page covers.
+            These links point directly to the priority author pages that need stronger crawl
+            paths from the author hub. The anchor text is intentionally descriptive so search
+            engines and readers can both understand what each page covers.
           </p>
           <div className="grid gap-3 md:grid-cols-2">
             {priorityArticles.map((article) => (
@@ -114,7 +142,9 @@ export default function AuthorsHubPage() {
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-stone-700">
             Standalone Author Guides
           </p>
-          <h2 className="mb-4 text-2xl font-bold text-gray-900">Richer editorial pages outside the generic author grid</h2>
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">
+            Richer editorial pages outside the generic author grid
+          </h2>
           <div className="grid gap-4 md:grid-cols-2">
             {standaloneAuthorSpotlights.map((guide) => (
               <Link
@@ -129,35 +159,35 @@ export default function AuthorsHubPage() {
           </div>
         </section>
 
-        <section className="grid md:grid-cols-2 gap-4">
+        <section className="grid gap-4 md:grid-cols-2">
           {articles.map((article) => (
             <Link
               key={article.slug}
               href={`/books/${article.slug}`}
-              className="card-hover bg-white rounded-xl border border-gray-200 p-5 shadow-sm no-underline block"
+              className="card-hover block rounded-xl border border-gray-200 bg-white p-5 shadow-sm no-underline"
             >
               <h2
-                className="text-lg font-bold text-gray-900 mb-2"
+                className="mb-2 text-lg font-bold text-gray-900"
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 {article.title}
               </h2>
-              <p className="text-sm text-gray-600 leading-relaxed line-clamp-3">
+              <p className="line-clamp-3 text-sm leading-relaxed text-gray-600">
                 {article.metaDescription}
               </p>
-              <span className="text-sm font-semibold text-blue-600 mt-3 block">
+              <span className="mt-3 block text-sm font-semibold text-blue-600">
                 Read guide →
               </span>
             </Link>
           ))}
         </section>
 
-        <div className="mt-10 pt-6 border-t border-gray-200">
-          <Link href="/books" className="text-blue-600 hover:underline text-sm font-medium">
+        <div className="mt-10 border-t border-gray-200 pt-6">
+          <Link href="/books" className="text-sm font-medium text-blue-600 hover:underline">
             ← Back to All Books
           </Link>
         </div>
       </main>
     </>
-  );
+  )
 }

@@ -24,6 +24,11 @@ export default function ReaderPicksHubPage() {
     );
   const newReleaseSpotlights = [
     {
+      href: '/books/books-like-it-ends-with-us',
+      title: 'Books Like It Ends With Us',
+      text: 'A dedicated emotional-fiction readalike page for readers who want more than a generic BookTok romance list.',
+    },
+    {
       href: '/books/reader-picks/best-new-books-june-2026',
       title: 'Best New Books in June 2026',
       text: 'A stronger current-month guide for readers who care about fresh releases, not just evergreen lists.',
@@ -88,7 +93,7 @@ export default function ReaderPicksHubPage() {
             New release guides
           </p>
           <h2 className="mb-5 text-2xl font-bold text-gray-900">Month-by-month release pages with stronger freshness signals</h2>
-          <div className="grid gap-4 md:grid-cols-2">
+          <div className="grid gap-4 md:grid-cols-3">
             {newReleaseSpotlights.map((guide) => (
               <Link
                 key={guide.href}

@@ -89,19 +89,27 @@ const quickAnswers = [
   {
     label: 'Best overall',
     answer: 'The Silent Patient',
+    author: 'Alex Michaelides',
     text: 'The easiest recommendation because the premise lands instantly and the pacing stays locked in.',
   },
   {
     label: 'Best mood pick',
     answer: 'The Maidens',
+    author: 'Alex Michaelides',
     text: 'The one for readers who care more about eerie atmosphere, academia, and obsession than mechanical neatness.',
   },
   {
     label: 'Most fun after book one',
     answer: 'The Fury',
+    author: 'Alex Michaelides',
     text: 'The best second stop if you want something glossier, more playful, and more openly manipulative.',
   },
 ]
+
+function getAmazonSearchUrl(title: string, author: string) {
+  const query = encodeURIComponent(`${title} ${author}`)
+  return `https://www.amazon.com/s?k=${query}&tag=althcu-20`
+}
 
 const faqs = [
   {
@@ -274,6 +282,14 @@ export default function BestAlexMichaelidesBooksPage() {
               </p>
               <h2 className="mb-2 text-2xl font-bold text-slate-950">{item.answer}</h2>
               <p className="text-sm leading-relaxed text-slate-600">{item.text}</p>
+              <Link
+                href={getAmazonSearchUrl(item.answer, item.author)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center text-sm font-bold text-amber-700 transition-colors hover:text-amber-800"
+              >
+                Click here to find on Amazon
+              </Link>
             </div>
           ))}
         </section>
