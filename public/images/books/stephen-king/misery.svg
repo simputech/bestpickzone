@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">Misery custom cover art</title>
+  <desc id="desc">Custom thriller recommendation artwork for Misery by Stephen King with stark medical whites and threatening shadows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#6b7280"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="72" y="90" width="496" height="780" rx="28" fill="none" stroke="#f3f4f6" stroke-width="3" opacity="0.5"/>
+  <line x1="118" y1="246" x2="524" y2="246" stroke="#f9fafb" stroke-width="5" opacity="0.2"/>
+  <line x1="118" y1="276" x2="524" y2="276" stroke="#f9fafb" stroke-width="5" opacity="0.15"/>
+  <text x="118" y="132" fill="#e5e7eb" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="7">NO GHOSTS NEEDED</text>
+  <text x="118" y="484" fill="#ffffff" font-family="Georgia, serif" font-size="116" font-weight="700">Misery</text>
+  <text x="118" y="558" fill="#e5e7eb" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">Stephen King</text>
+  <text x="118" y="642" fill="#d1d5db" font-family="Arial, Helvetica, sans-serif" font-size="26">A writer, a fan, a bed, and nowhere safe to go.</text>
+  <text x="118" y="678" fill="#d1d5db" font-family="Arial, Helvetica, sans-serif" font-size="26">The tightest and most controlled King thriller.</text>
+</svg>

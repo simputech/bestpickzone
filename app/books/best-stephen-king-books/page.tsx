@@ -8,6 +8,7 @@ const books = [
   {
     title: 'The Shining',
     author: 'Stephen King',
+    cover: '/images/books/stephen-king/the-shining.svg',
     label: 'Start Here',
     pages: '447 pages',
     tone: 'claustrophobic psychological horror',
@@ -30,6 +31,7 @@ const books = [
   {
     title: 'Misery',
     author: 'Stephen King',
+    cover: '/images/books/stephen-king/misery.svg',
     label: 'Best If You Hate Supernatural Horror',
     pages: '368 pages',
     tone: 'tight, intimate, human menace',
@@ -53,6 +55,7 @@ const books = [
   {
     title: '11/22/63',
     author: 'Stephen King',
+    cover: '/images/books/stephen-king/11-22-63.svg',
     label: 'Best If You Think You Do Not Like Horror',
     pages: '849 pages',
     tone: 'wistful time-travel suspense with a romantic core',
@@ -76,6 +79,7 @@ const books = [
   {
     title: 'It',
     author: 'Stephen King',
+    cover: '/images/books/stephen-king/it.svg',
     label: 'Best Big Swing',
     pages: '1168 pages',
     tone: 'coming-of-age horror with mythic scale',
@@ -99,6 +103,7 @@ const books = [
   {
     title: 'Pet Sematary',
     author: 'Stephen King',
+    cover: '/images/books/stephen-king/pet-sematary.svg',
     label: 'Scariest Pick',
     pages: '416 pages',
     tone: 'bleak grief horror',
@@ -123,10 +128,6 @@ const books = [
 
 function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
-}
-
-function coverImage(title: string) {
-  return `https://dummyimage.com/320x480/f5f1e8/1f2937.png&text=${encodeURIComponent(title)}`
 }
 
 export const metadata: Metadata = {
@@ -311,11 +312,11 @@ export default function BestStephenKingBooksPage() {
                 with King than with many genre writers because the reading experience changes
                 completely depending on whether you want compression or total immersion.
               </p>
-              <a href={href} target="_blank" rel="noopener nofollow">
+              <a href={href} target="_blank" rel="noopener nofollow" className="mb-4 inline-flex">
                 <img
-                  src={coverImage(book.title)}
-                  alt={`${book.title} by Stephen King cover-style recommendation image`}
-                  className="mb-4 w-full max-w-[260px] rounded-xl border border-gray-200"
+                  src={book.cover}
+                  alt={`${book.title} by Stephen King custom recommendation cover art`}
+                  className="w-full max-w-[180px] rounded-xl border border-gray-200 shadow-sm md:max-w-[200px]"
                 />
               </a>
               <p className="mb-4 leading-relaxed text-gray-700">{book.why}</p>

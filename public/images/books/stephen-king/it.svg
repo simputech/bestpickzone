@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">It custom cover art</title>
+  <desc id="desc">Custom large-scale horror recommendation artwork for It by Stephen King with ominous red accents and a huge title treatment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="70" y="90" width="500" height="780" rx="28" fill="none" stroke="#fecaca" stroke-width="3" opacity="0.45"/>
+  <circle cx="508" cy="170" r="46" fill="#ef4444" opacity="0.25"/>
+  <path d="M496 210 C520 250, 532 282, 520 320" fill="none" stroke="#fecaca" stroke-width="3" opacity="0.45"/>
+  <text x="118" y="132" fill="#fca5a5" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="7">BIG SWING</text>
+  <text x="118" y="500" fill="#fff1f2" font-family="Georgia, serif" font-size="170" font-weight="700">It</text>
+  <text x="118" y="580" fill="#fecaca" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">Stephen King</text>
+  <text x="118" y="662" fill="#fda4af" font-family="Arial, Helvetica, sans-serif" font-size="26">The giant, mythic, messy, unforgettable one.</text>
+  <text x="118" y="698" fill="#fda4af" font-family="Arial, Helvetica, sans-serif" font-size="26">Better once you already know you like maximal King.</text>
+</svg>

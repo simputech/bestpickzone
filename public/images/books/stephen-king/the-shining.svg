@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">The Shining custom cover art</title>
+  <desc id="desc">Custom horror recommendation artwork for The Shining by Stephen King with gold hotel tones and a cold winter atmosphere.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#24160f"/>
+      <stop offset="100%" stop-color="#6b4f2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="74" y="92" width="492" height="776" rx="28" fill="none" stroke="#fef3c7" stroke-width="3" opacity="0.5"/>
+  <rect x="118" y="180" width="404" height="160" rx="18" fill="#fff7ed" opacity="0.08"/>
+  <text x="118" y="132" fill="#fde68a" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="8">START HERE</text>
+  <text x="118" y="488" fill="#fffbeb" font-family="Georgia, serif" font-size="100" font-weight="700">The</text>
+  <text x="118" y="582" fill="#fffbeb" font-family="Georgia, serif" font-size="100" font-weight="700">Shining</text>
+  <text x="118" y="654" fill="#fde68a" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">Stephen King</text>
+  <text x="118" y="732" fill="#fcd34d" font-family="Arial, Helvetica, sans-serif" font-size="26">Family breakdown, dread, and a haunted hotel</text>
+  <text x="118" y="768" fill="#fcd34d" font-family="Arial, Helvetica, sans-serif" font-size="26">that still works as the cleanest first King pick.</text>
+</svg>

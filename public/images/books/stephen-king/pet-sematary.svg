@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">Pet Sematary custom cover art</title>
+  <desc id="desc">Custom grief-horror recommendation artwork for Pet Sematary by Stephen King with woodland green tones and a grave marker feel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#365314"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="72" y="92" width="496" height="776" rx="28" fill="none" stroke="#d9f99d" stroke-width="3" opacity="0.45"/>
+  <path d="M132 306 C218 254, 322 254, 410 306 C460 334, 492 376, 520 430" fill="none" stroke="#bef264" stroke-width="3" opacity="0.25"/>
+  <text x="118" y="132" fill="#d9f99d" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="7">SCARIEST PICK</text>
+  <text x="118" y="474" fill="#f7fee7" font-family="Georgia, serif" font-size="94" font-weight="700">Pet</text>
+  <text x="118" y="564" fill="#f7fee7" font-family="Georgia, serif" font-size="94" font-weight="700">Sematary</text>
+  <text x="118" y="638" fill="#d9f99d" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">Stephen King</text>
+  <text x="118" y="716" fill="#bef264" font-family="Arial, Helvetica, sans-serif" font-size="26">A grief novel wearing the shape of supernatural horror.</text>
+  <text x="118" y="752" fill="#bef264" font-family="Arial, Helvetica, sans-serif" font-size="26">Often the King book readers call the hardest to shake.</text>
+</svg>

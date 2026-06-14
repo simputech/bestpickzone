@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">11/22/63 custom cover art</title>
+  <desc id="desc">Custom time-travel recommendation artwork for 11/22/63 by Stephen King with retro Americana colors and a dramatic date treatment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f3d5e"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bg)"/>
+  <rect x="72" y="92" width="496" height="776" rx="28" fill="none" stroke="#fde68a" stroke-width="3" opacity="0.5"/>
+  <circle cx="486" cy="188" r="74" fill="#fef3c7" opacity="0.1"/>
+  <text x="118" y="132" fill="#fde68a" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="7">NON-HORROR PICK</text>
+  <text x="118" y="468" fill="#fff7ed" font-family="Georgia, serif" font-size="116" font-weight="700">11/22/63</text>
+  <text x="118" y="544" fill="#fde68a" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="3">Stephen King</text>
+  <text x="118" y="626" fill="#fdba74" font-family="Arial, Helvetica, sans-serif" font-size="26">Time travel, history, suspense, and a real heart.</text>
+  <text x="118" y="662" fill="#fdba74" font-family="Arial, Helvetica, sans-serif" font-size="26">The King recommendation for readers who avoid horror.</text>
+</svg>
