@@ -727,3 +727,122 @@ If a future request is ambiguous, default to this:
 - prefer a smaller number of better pages over a larger number of shallow ones
 
 This is the operating rule for BestPickZone until explicitly changed.
+
+## 27. Default Article Layout For Product Pages
+
+As of June 14, 2026, the default commercial article layout for new BestPickZone product pages is the **conversion showdown layout**.
+
+Live reference:
+
+- `https://bestpickzone.com/home-kitchen/oxo-vs-fullstar-avocado-slicer`
+
+Code references:
+
+- `components/article/CommerceShowdownArticlePage.tsx`
+- `lib/home-kitchen-showdowns.ts`
+- `app/home-kitchen/oxo-vs-fullstar-avocado-slicer/page.tsx`
+
+Use this layout when the page intent is:
+
+- a two-product head-to-head
+- a kitchen/home/consumer product comparison
+- a page where the main goal is qualified Amazon clicks
+- a page that benefits from a stronger visual hierarchy than the standard shared comparison body
+
+### Required structure
+
+The default structure is:
+
+1. breadcrumb
+2. dark answer-first hero
+3. affiliate disclosure above the fold
+4. quick verdict cards
+5. intro section
+6. product block A
+7. callout or safety note
+8. product block B
+9. comparison table
+10. verdict section with CTA buttons
+11. FAQ
+12. related internal links
+13. sticky bottom CTA bar
+
+### Why this is the default right now
+
+This layout works because it:
+
+- gives the page a stronger visual identity
+- supports skimmers without weakening the copy
+- places Amazon CTAs at multiple high-intent moments
+- makes the winner and budget pick obvious quickly
+- feels more like a publishable editorial product page than a generic AI article
+
+### Non-negotiable content rules inside this layout
+
+Even when using this richer design, still follow these rules:
+
+- do not claim fake testing
+- do not write "we tested" unless we actually tested
+- use `althcu-20`
+- use `rel="sponsored noopener"` on Amazon links
+- keep the intro answer-first
+- make the verdict explicit
+- keep pros and cons practical
+- make related links point only to live pages
+
+### HTML example structure
+
+Use this as the reference skeleton when translating raw HTML or designing future article pages:
+
+```html
+<main class="commerce-showdown-page">
+  <section class="hero">
+    <nav class="breadcrumb"></nav>
+    <span class="hero-label">Product Showdown</span>
+    <h1>Primary title with clear buyer intent</h1>
+    <p class="hero-sub">Direct answer-first subtitle.</p>
+  </section>
+
+  <section class="disclosure">
+    <p>Affiliate disclosure and sourcing note.</p>
+  </section>
+
+  <section class="quick-verdict">
+    <article class="verdict-card winner"></article>
+    <article class="verdict-card budget"></article>
+  </section>
+
+  <section class="intro"></section>
+
+  <section class="product-block product-a">
+    <div class="stats-row"></div>
+    <div class="score-block"></div>
+    <div class="pros-cons"></div>
+    <a class="amazon-button" href="https://www.amazon.com/...?...tag=althcu-20" rel="sponsored noopener">Click Here to Check Price on Amazon</a>
+  </section>
+
+  <section class="callout"></section>
+
+  <section class="product-block product-b">
+    <div class="stats-row"></div>
+    <div class="score-block"></div>
+    <div class="pros-cons"></div>
+    <a class="amazon-button" href="https://www.amazon.com/...?...tag=althcu-20" rel="sponsored noopener">Click Here to Check Price on Amazon</a>
+  </section>
+
+  <section class="comparison-table"></section>
+  <section class="verdict"></section>
+  <section class="faq"></section>
+  <section class="related-links"></section>
+  <section class="sticky-buy-bar"></section>
+</main>
+```
+
+### When not to use this layout
+
+Do not use this as the default when:
+
+- the page is books-first editorial content
+- the page compares many products instead of two
+- the page is a spec-verified coffee, beauty, or WFH page already using the shared comparison renderer
+- the page lacks real Amazon-fit or clear commercial intent

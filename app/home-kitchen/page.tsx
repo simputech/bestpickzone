@@ -17,6 +17,15 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'oxo-vs-fullstar-avocado-slicer',
+    title: 'OXO vs Fullstar Avocado Slicer',
+    description:
+      'A conversion-focused showdown page for two popular avocado tools, built around grip quality, pitting control, and direct Amazon-buy intent.',
+    badge: 'Head-to-Head',
+    badgeColor: 'bg-emerald-100 text-emerald-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-solar-powered-attic-fans',
     title: 'Best Solar-Powered Attic Fans',
     description:
@@ -94,6 +103,13 @@ export default function HomeKitchenPage() {
       <div className="mb-8 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">
         <strong>New live guides:</strong> Our latest Home &amp; Kitchen pages are{' '}
         <Link
+          href="/home-kitchen/oxo-vs-fullstar-avocado-slicer"
+          className="font-semibold underline underline-offset-2"
+        >
+          OXO vs Fullstar Avocado Slicer
+        </Link>
+        ,{' '}
+        <Link
           href="/home-kitchen/best-solar-powered-attic-fans"
           className="font-semibold underline underline-offset-2"
         >
@@ -157,10 +173,10 @@ export default function HomeKitchenPage() {
           What to Expect from Our Home &amp; Kitchen Guides
         </h2>
         <p className="text-gray-600">
-          Each Home &amp; Kitchen article on BestPickZone covers 4–6 products in depth, with
-          specs, pros and cons, a buying guide explaining what to look for, an FAQ targeting
-          common questions, and a final verdict segmented by buyer type. All prices are
-          verified against Amazon and Best Buy at the time of publication.
+          Each Home &amp; Kitchen article on BestPickZone should feel complete, skimmable,
+          and conversion-ready. That now includes showdown-style pages with an answer-first
+          hero, quick verdict cards, product-by-product breakdowns, a visual comparison table,
+          FAQ support, and direct Amazon CTAs placed where buyer intent is strongest.
         </p>
       </section>
     </main>
