@@ -116,6 +116,10 @@
     @apply font-semibold text-amber-800 underline underline-offset-2;
   }
 
+  .comparison-html a.amazon-price-button {
+    @apply mt-3 inline-flex items-center justify-center rounded-xl bg-amber-500 px-4 py-3 text-sm font-bold text-white no-underline transition-colors hover:bg-amber-600;
+  }
+
   .comparison-html em {
     @apply text-gray-600;
   }

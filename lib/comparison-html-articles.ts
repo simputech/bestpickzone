@@ -691,7 +691,7 @@ export const beautyComparisonArticles: HtmlComparisonArticle[] = [
 <tr><td>Dry-hair finishing mode</td><td>Dry mode for touchups and refresh</td><td>Shine Shot mode for dry-hair finishing</td></tr>
 <tr><td>Heat story</td><td>No hot plates and no heat damage claim language</td><td>Air-fusion system with low plate temperatures and no heat damage claim language</td></tr>
 <tr><td>Mechanics</td><td>Arms lock and unlock for root drying and styling passes</td><td>Closed chamber with airflow plus low-temperature plates</td></tr>
-<tr><td>Price at last check</td><td>$499.99 on Dyson</td><td>$254 promotional price on ghd US, down from $429</td></tr>
+<tr><td>Price at last check</td><td>$499.99 on Dyson<br /><a class="amazon-price-button" href="https://www.amazon.com/dp/B0CV7L12SS?tag=althcu-20" target="_blank" rel="sponsored noopener">Click Here to See Live Price on Amazon</a></td><td>$254 promotional price on ghd US, down from $429</td></tr>
 </tbody>
 </table>
 <h2>Is the Dyson Airstrait the better wet-to-dry straightener?</h2>
@@ -703,7 +703,7 @@ export const beautyComparisonArticles: HtmlComparisonArticle[] = [
 <li><strong>Cons:</strong> expensive; more specialized around straight looks; less value if you do not care about the no-hot-plate distinction.</li>
 </ul>
 <p><strong>Skip this if</strong> you want the cheaper tool or you care more about styling flexibility than about the Airstrait's airflow-only design.</p>
-<p><a href="https://www.amazon.com/s?k=Dyson+Airstrait&tag=althcu-20" target="_blank" rel="sponsored noopener">Click Here to Buy on Amazon</a></p>
+<p><a href="https://www.amazon.com/dp/B0CV7L12SS?tag=althcu-20" target="_blank" rel="sponsored noopener">Click Here to Buy on Amazon</a></p>
 <h2>Is the ghd Duet Style the better value buy?</h2>
 <p>Yes for many shoppers. The Duet Style is easier to justify if you want a wet-to-dry styler that still gives you a more familiar plate-based finish mode, especially when ghd is discounting it heavily below Dyson. It is not the same concept as the Airstrait, but it can be the smarter spend.</p>
 <p>The <a href="https://www.amazon.com/s?k=ghd+Duet+Style&tag=althcu-20" target="_blank" rel="sponsored noopener">ghd Duet Style</a> leans into being a hybrid. ghd describes it as a 2-in-1 hot air styler using Air-fusion technology plus four smart plates inside the styling chamber. That means it is not trying to eliminate plate contact the way Dyson does. Instead, it is trying to make a wet-to-dry styler feel more familiar to someone who already likes the polished finish of a straightener.</p>
