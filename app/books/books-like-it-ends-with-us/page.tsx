@@ -116,10 +116,6 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-function coverImage(title: string) {
-  return `https://dummyimage.com/320x480/f4ece8/1f2937.png&text=${encodeURIComponent(title)}`
-}
-
 export const metadata: Metadata = {
   title: 'Books Like It Ends With Us',
   description:
@@ -323,13 +319,6 @@ export default function BooksLikeItEndsWithUsPage() {
                 it offers the same kind of emotionally legible commercial fiction that readers often
                 want after Hoover, but the dramatic engine is different enough to avoid simple repetition.
               </p>
-              <a href={href} target="_blank" rel="noopener nofollow">
-                <img
-                  src={coverImage(book.title)}
-                  alt={`${book.title} by ${book.author} cover-style recommendation image`}
-                  className="mb-4 w-full max-w-[260px] rounded-xl border border-gray-200"
-                />
-              </a>
               <p className="mb-4 leading-relaxed text-gray-700">{book.reason}</p>
               <table className="mb-4 w-full border-collapse text-left text-sm">
                 <thead>
