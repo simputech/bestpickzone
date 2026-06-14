@@ -32,6 +32,18 @@ export default function UrbanFantasyCompletedPage() {
         Titles, authors, and availability verified against Amazon as of June 2026. Availability and price can change — confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
+        <h2 className="mb-4 text-2xl font-bold text-gray-900">What is urban fantasy, and why do readers like it so much?</h2>
+        <p className="mb-4 leading-relaxed text-gray-700">
+          Urban fantasy usually takes supernatural forces like magic, fae politics, vampires, shapeshifters, witches, or hidden gods and drops them into a recognizable modern world.
+          Instead of building a fully separate secondary realm from scratch, the genre lets enchantment and danger collide with cities, jobs, traffic, apartments, police work, dating, and everyday survival.
+          That mix is a big part of the appeal. Readers get the momentum and familiarity of modern settings with the escalation, myth, and power-play energy of fantasy.
+        </p>
+        <p className="leading-relaxed text-gray-700">
+          People also like urban fantasy because it tends to be highly bingeable. The best series give you a recurring city ecosystem, a protagonist who keeps growing into new levels of power or responsibility,
+          and faction politics that can stretch across many books without losing the intimacy of a close-up character story. When that series is completed, the appeal gets even stronger, because you know the payoff is actually there.
+        </p>
+      </section>
+      <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-4 text-2xl font-bold text-gray-900">Which completed urban fantasy series are worth starting now?</h2>
         <table className="w-full border-collapse text-left text-sm">
           <thead><tr className="border-b border-gray-200 bg-gray-50"><th className="px-3 py-3 font-semibold">Series</th><th className="px-3 py-3 font-semibold">Best For</th><th className="px-3 py-3 font-semibold">Amazon</th></tr></thead>
