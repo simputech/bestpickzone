@@ -43,6 +43,9 @@ const data: ComparisonPageData = {
     width: 1200,
     height: 800,
   },
+  specsQuestion: 'Which specs separate the Breville Bambino Plus and Gaggia Classic Pro E24 the fastest?',
+  specsAnswer:
+    'The fastest way to separate these machines is to look at heating style, portafilter size, steam behavior, footprint, and reservoir size. The Bambino Plus wins on speed and automation, while the Gaggia Classic Pro E24 wins on traditional 58mm hardware, brass-boiler construction, and heavier long-term platform feel.',
   specs: [
     {
       label: 'Heating system',
@@ -141,6 +144,9 @@ const data: ComparisonPageData = {
     skipIf:
       'your priority is fast warm-up, automatic milk texturing, and the easiest route from unopened box to first cappuccino.',
   },
+  faqQuestion: 'What do buyers usually ask before choosing between the Bambino Plus and the Gaggia Classic Pro E24?',
+  faqAnswer:
+    'Most buyers ask the same four things first: which one heats faster, which one is better for milk drinks, which one has the stronger long-term upgrade path, and whether the price gap is actually meaningful. Those questions map directly to the real differences in this comparison.',
   faq: [
     {
       question: 'Which machine heats up faster: Bambino Plus or Gaggia Classic Pro E24?',

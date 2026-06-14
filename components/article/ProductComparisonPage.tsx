@@ -75,9 +75,8 @@ export default function ProductComparisonPage({ data }: { data: ComparisonPageDa
         </p>
       ))}
       <section className="mb-8 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-        <h2 className="mb-4 text-2xl font-bold text-gray-900">
-          Which specs separate these two products the fastest?
-        </h2>
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">{data.specsQuestion}</h2>
+        <p className="mb-4 leading-relaxed text-gray-700">{data.specsAnswer}</p>
         <table className="w-full border-collapse text-left text-sm">
           <thead>
             <tr className="border-b border-gray-200 bg-gray-50">
@@ -107,9 +106,8 @@ export default function ProductComparisonPage({ data }: { data: ComparisonPageDa
       <ProductBlock product={data.productA} />
       <ProductBlock product={data.productB} />
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-        <h2 className="mb-4 text-2xl font-bold text-gray-900">
-          What do buyers usually ask before picking between these two products?
-        </h2>
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">{data.faqQuestion}</h2>
+        <p className="mb-4 leading-relaxed text-gray-700">{data.faqAnswer}</p>
         {data.faq.map((item) => (
           <div key={item.question} className="mb-5 last:mb-0">
             <h3 className="mb-2 text-lg font-bold text-gray-900">{item.question}</h3>

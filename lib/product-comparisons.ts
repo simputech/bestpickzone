@@ -38,9 +38,13 @@ export type ComparisonPageData = {
     width: number
     height: number
   }
+  specsQuestion: string
+  specsAnswer: string
   specs: ComparisonSpecRow[]
   productA: ComparisonProductSection
   productB: ComparisonProductSection
+  faqQuestion: string
+  faqAnswer: string
   faq: ComparisonFaq[]
   relatedLinks: ComparisonRelatedLink[]
   closing: {
