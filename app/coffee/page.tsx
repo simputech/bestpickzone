@@ -22,7 +22,7 @@ const groups = [
     name: 'Entry-Level Espresso',
     note: 'Heat-up time, boiler style, steam workflow, and footprint decide these pages.',
     items: [
-      { slug: 'breville-bambino-plus-vs-gaggia-classic-pro', title: 'Breville Bambino Plus vs Gaggia Classic Pro', spec: 'ThermoJet speed vs 58mm brass-boiler workflow', live: false },
+      { slug: 'breville-bambino-plus-vs-gaggia-classic-pro', title: 'Breville Bambino Plus vs Gaggia Classic Pro', spec: 'ThermoJet speed vs 58mm brass-boiler workflow', live: true },
       { slug: 'breville-barista-express-vs-delonghi-la-specialista', title: 'Breville Barista Express vs DeLonghi La Specialista', spec: 'Built-in grinder workflow vs assisted tamping', live: false },
       { slug: 'flair-58-vs-la-pavoni-europiccola', title: 'Flair 58 vs La Pavoni Europiccola', spec: 'Lever control vs countertop ritual', live: false },
     ],

@@ -90,6 +90,7 @@ export const beautyPages: SitemapEntry[] = [
 
 export const coffeePages: SitemapEntry[] = [
   { url: `${baseUrl}/coffee`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 0.92 },
+  { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
 ]
 
 export const wfhPages: SitemapEntry[] = [

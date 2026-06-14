@@ -19,6 +19,8 @@ export type ComparisonProductSection = {
   shortName: string
   amazonQuery: string
   verdict: string
+  question: string
+  snippetAnswer: string
   paragraphs: string[]
   pros: string[]
   cons: string[]
@@ -37,10 +39,6 @@ export type ComparisonPageData = {
     height: number
   }
   specs: ComparisonSpecRow[]
-  snippetSections: Array<{
-    question: string
-    answer: string
-  }>
   productA: ComparisonProductSection
   productB: ComparisonProductSection
   faq: ComparisonFaq[]

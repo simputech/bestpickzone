@@ -6,12 +6,10 @@ function ProductBlock({ product }: { product: ComparisonProductSection }) {
 
   return (
     <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-      <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">
-        {product.verdict}
-      </p>
-      <h2 className="mb-4 text-2xl font-bold text-gray-900">
-        {product.name}
-      </h2>
+      <h2 className="mb-3 text-2xl font-bold text-gray-900">{product.question}</h2>
+      <p className="mb-4 leading-relaxed text-gray-700">{product.snippetAnswer}</p>
+      <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">{product.verdict}</p>
+      <h3 className="mb-4 text-xl font-bold text-gray-900">{product.name}</h3>
       {product.paragraphs.map((paragraph, index) => (
         <p key={`${product.shortName}-${index}`} className="mb-4 leading-relaxed text-gray-700">
           {index === 0 ? (
@@ -106,12 +104,6 @@ export default function ProductComparisonPage({ data }: { data: ComparisonPageDa
         height={data.heroImage.height}
         className="mb-8 w-full rounded-xl shadow-sm"
       />
-      {data.snippetSections.map((section) => (
-        <section key={section.question} className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-          <h2 className="mb-3 text-2xl font-bold text-gray-900">{section.question}</h2>
-          <p className="leading-relaxed text-gray-700">{section.answer}</p>
-        </section>
-      ))}
       <ProductBlock product={data.productA} />
       <ProductBlock product={data.productB} />
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
