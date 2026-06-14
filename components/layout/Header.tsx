@@ -4,11 +4,13 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const navLinks = [
+  { href: '/coffee', label: 'Coffee' },
+  { href: '/beauty', label: 'Beauty' },
+  { href: '/wfh', label: 'WFH' },
   { href: '/books', label: 'All Books' },
   { href: '/books/authors', label: 'By Author' },
   { href: '/books/genre-fiction', label: 'Genre Fiction' },
-  { href: '/books/self-help', label: 'Self-Help' },
-  { href: '/books/kids-and-ya', label: 'Kids & YA' },
+  { href: '/home-kitchen', label: 'Home & Kitchen' },
 ]
 
 export default function Header() {

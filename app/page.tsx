@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'BestPickZone — Best Book Recommendations & Reading Guides 2026',
+  title: 'BestPickZone — Buyer Guides and Product Comparisons 2026',
   description:
-    'Find the right book for every reader. BestPickZone covers 100+ curated book lists — author roundups, genre guides, self-help rankings, kids & YA picks, and reader-intent lists.',
+    'BestPickZone publishes buyer-first product comparisons and curated book guides across coffee gear, beauty tech, work-from-home setups, and reader-focused lists.',
   openGraph: {
-    title: 'BestPickZone — Best Book Recommendations 2026',
+    title: 'BestPickZone — Buyer Guides and Product Comparisons 2026',
     description:
-      'Honest book recommendations for every reader type — from debut novels to all-time classics.',
+      'High-intent product comparisons plus curated book guides built to help buyers make faster decisions.',
     url: 'https://bestpickzone.com',
     siteName: 'BestPickZone',
     type: 'website',
@@ -19,6 +19,36 @@ export const metadata: Metadata = {
 }
 
 const categories = [
+  {
+    href: '/coffee',
+    emoji: '☕',
+    title: 'Coffee Gear Comparisons',
+    description:
+      'Espresso machines, grinders, kettles, brewers, and scales compared by heat-up time, burr design, workflow friction, and actual countertop fit.',
+    color: 'bg-amber-50 border-amber-200',
+    accent: 'text-amber-800',
+    tag: 'New Comparison Hub',
+  },
+  {
+    href: '/beauty',
+    emoji: '✨',
+    title: 'Beauty Tech & Ingredients',
+    description:
+      'Hair tools, LED masks, microcurrent devices, and ingredient head-to-heads built around treatment goals, not vague before-and-after promises.',
+    color: 'bg-rose-50 border-rose-200',
+    accent: 'text-rose-700',
+    tag: 'New Comparison Hub',
+  },
+  {
+    href: '/wfh',
+    emoji: '🪑',
+    title: 'WFH Ergonomic Comparisons',
+    description:
+      'Chairs, standing desks, mice, keyboards, and smart office gear compared by footprint, adjustment range, and all-day comfort tradeoffs.',
+    color: 'bg-sky-50 border-sky-200',
+    accent: 'text-sky-700',
+    tag: 'New Comparison Hub',
+  },
   {
     href: '/books/authors',
     emoji: '✍️',
@@ -177,6 +207,22 @@ export default function HomePage() {
               <p className={`text-sm font-bold mt-4 ${cat.accent}`}>Explore guides →</p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 pb-8">
+        <div className="rounded-3xl border border-gray-200 bg-gray-50 p-6">
+          <h2
+            className="text-3xl font-black text-gray-900 mb-3"
+            style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}
+          >
+            The New High-Intent Hubs
+          </h2>
+          <p className="text-gray-600 text-lg max-w-3xl">
+            BestPickZone is expanding beyond book lists into product comparisons where the buying
+            decision comes down to verified specs, dimensions, active ingredients, and upgrade path.
+            These three directories are the new commercial engine.
+          </p>
         </div>
       </section>
 
