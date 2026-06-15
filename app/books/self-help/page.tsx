@@ -40,6 +40,11 @@ export default function SelfHelpHubPage() {
   ];
   const editorialSpotlights = [
     {
+      href: '/books/self-help/best-james-clear-books',
+      title: 'The Best James Clear Books',
+      text: 'A habits-first author guide that uses Atomic Habits as the starting point, then branches into the best adjacent books to read next.',
+    },
+    {
       href: '/books/self-help/best-book-to-learn-scrum',
       title: 'Best Book to Learn Scrum',
       text: 'A sharper answer for agile learners who need the right book by role, not a vague reading list.',

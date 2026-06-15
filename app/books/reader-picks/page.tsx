@@ -24,6 +24,11 @@ export default function ReaderPicksHubPage() {
     );
   const newReleaseSpotlights = [
     {
+      href: '/books/reader-picks/best-true-crime-books',
+      title: 'Best True Crime Books',
+      text: 'A stronger true-crime path arranged by reader intention: literary classic, investigative epic, insider account, and victim-centered reporting.',
+    },
+    {
       href: '/books/best-short-classic-books-for-a-flight',
       title: 'Best Short Classic Books for a Flight',
       text: 'A travel-specific classics page for readers who want something serious that still fits airport attention spans.',

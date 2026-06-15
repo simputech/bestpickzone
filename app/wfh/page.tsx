@@ -23,20 +23,20 @@ const sections = [
     title: 'Chairs and Seating',
     copy: 'Weight capacity, recline behavior, lumbar approach, and seat geometry are the real buying questions here.',
     items: [
-      ['Herman Miller Aeron vs Steelcase Gesture', 'High-ticket flagship chair showdown'],
-      ['Secretlab Titan Evo vs Ergotune Supreme', 'Gaming-first posture vs office adjustability'],
-      ['Autonomous ErgoChair Pro vs Hinomi H1 Pro', 'Foldability vs mainstream desk-chair setup'],
-      ['Purple Royal Seat Cushion vs Cushion Lab', 'Pressure relief vs structured support'],
+      ['Herman Miller Aeron vs Steelcase Gesture', 'High-ticket flagship chair showdown', '/wfh/herman-miller-aeron-vs-steelcase-gesture'],
+      ['Secretlab Titan Evo vs Ergotune Supreme', 'Gaming-first posture vs office adjustability', '/wfh/secretlab-titan-evo-vs-ergotune-supreme'],
+      ['Autonomous ErgoChair Pro vs Hinomi H1 Pro', 'Foldability vs mainstream desk-chair setup', '/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro'],
+      ['Purple Royal Seat Cushion vs Cushion Lab', 'Pressure relief vs structured support', '/wfh/purple-royal-seat-cushion-vs-cushion-lab'],
     ],
   },
   {
     title: 'Desks and Input Gear',
     copy: 'These pages convert when they foreground footprint, adjustment planes, typing angle, and all-day hand comfort.',
     items: [
-      ['Fully Jarvis vs Uplift V2 Standing Desk', 'Stability, frame options, and desktop sizing'],
-      ['Logitech MX Master 3S vs Apple Magic Mouse', 'Ergonomic control vs low-profile Apple workflow'],
-      ['Logitech MX Keys S vs Apple Magic Keyboard', 'Travel, layout, and device switching'],
-      ['VariDesk Converter vs Vivo Desk Riser', 'Temporary standing setup vs budget riser logic'],
+      ['Fully Jarvis vs Uplift V2 Standing Desk', 'Stability, frame options, and desktop sizing', '/wfh/fully-jarvis-vs-uplift-v2-standing-desk'],
+      ['Logitech MX Master 3S vs Apple Magic Mouse', 'Ergonomic control vs low-profile Apple workflow', '/wfh/logitech-mx-master-3s-vs-apple-magic-mouse'],
+      ['Logitech MX Keys S vs Apple Magic Keyboard', 'Travel, layout, and device switching', '/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard'],
+      ['VariDesk Converter vs Vivo Desk Riser', 'Temporary standing setup vs budget riser logic', '/wfh/varidesk-converter-vs-vivo-desk-riser'],
     ],
   },
 ]
@@ -95,11 +95,17 @@ export default function WfhHubPage() {
           <p className="mb-5 text-gray-600">{section.copy}</p>
           <div className="grid gap-4 md:grid-cols-2">
             {section.items.map((item) => (
-              <div key={item[0]} className="rounded-2xl border border-gray-200 bg-slate-50 p-5">
-                <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">Queued Topic</p>
+              <Link
+                key={item[0]}
+                href={item[2]}
+                className="rounded-2xl border border-gray-200 bg-slate-50 p-5 transition hover:-translate-y-0.5 hover:border-sky-300 hover:shadow-md"
+              >
+                <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+                  Live Topic
+                </p>
                 <h3 className="mb-2 text-xl font-bold text-gray-900">{item[0]}</h3>
                 <p className="text-sm leading-relaxed text-gray-700">{item[1]}</p>
-              </div>
+              </Link>
             ))}
           </div>
         </section>

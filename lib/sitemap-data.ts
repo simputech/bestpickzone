@@ -50,6 +50,10 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/fredrik-backman-books-ranked`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-short-classic-books-for-a-flight`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/top-fantasy-romance-novels`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/books/genre-fiction/best-historical-epics-2026`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/genre-fiction/best-historical-fiction-books`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/self-help/best-james-clear-books`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/reader-picks/best-true-crime-books`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-high-school-students`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.85 },
@@ -124,6 +128,10 @@ export const coffeePages: SitemapEntry[] = [
 
 export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 0.92 },
+  { url: `${baseUrl}/wfh/secretlab-titan-evo-vs-ergotune-supreme`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/wfh/purple-royal-seat-cushion-vs-cushion-lab`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/wfh/fully-jarvis-vs-uplift-v2-standing-desk`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
   ...wfhComparisonArticles.map((article) => ({
     url: `${baseUrl}/wfh/${article.slug}`,
     lastModified: '2026-06-14',

@@ -25,6 +25,16 @@ export default function GenreFictionHubPage() {
       text: 'A stronger current-year historical-fiction guide built around reading mood, not just era labels.',
     },
     {
+      href: '/books/genre-fiction/best-historical-fiction-books',
+      title: 'Best Historical Fiction Books',
+      text: 'A broader evergreen historical-fiction guide arranged by reader type instead of publication year.',
+    },
+    {
+      href: '/books/genre-fiction/best-historical-epics-2026',
+      title: 'Best Historical Epics to Read in 2026',
+      text: 'A heavier long-form historical-fiction page for readers choosing between Follett, Clavell, Verghese, and other big-commitment epics.',
+    },
+    {
       href: '/books/books-like-fourth-wing-fantasy-romance',
       title: 'Books Like Fourth Wing',
       text: 'A romantasy readalike page for readers chasing dragon-school pressure, trials, and dangerous attraction.',
