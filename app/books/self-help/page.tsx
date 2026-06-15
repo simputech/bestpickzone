@@ -163,14 +163,4 @@ export default function SelfHelpHubPage() {
             they dominated a bestseller list. Some help you change behavior, some help you understand your mind, and
             some help you survive hard seasons without drifting into generic motivational filler.
           </p>
-        </section>
-
-        <div className="mt-10 pt-6 border-t border-gray-200">
-          <Link href="/books" className="text-blue-600 hover:underline text-sm font-medium">
-            ← Back to All Books
-          </Link>
-        </div>
-      </main>
-    </>
-  );
-}
+        </sec

@@ -119,17 +119,4 @@ export default function WfhHubPage() {
         <div className="grid gap-4 md:grid-cols-2">
           {wfhComparisonArticles.map((article) => (
             <Link
-              key={article.slug}
-              href={`/wfh/${article.slug}`}
-              className="rounded-2xl border border-sky-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
-            >
-              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-sky-700">Live Comparison</p>
-              <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
-              <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
-            </Link>
-          ))}
-        </div>
-      </section>
-    </main>
-  )
-}
+              key={

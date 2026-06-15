@@ -162,25 +162,4 @@ export default function GenreFictionHubPage() {
             Standalone genre pages worth crawling next
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
-            {editorSpotlights.map((spotlight) => (
-              <Link
-                key={spotlight.href}
-                href={spotlight.href}
-                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-              >
-                <h3 className="mb-2 text-lg font-bold text-gray-900">{spotlight.title}</h3>
-                <p className="text-sm leading-relaxed text-gray-600">{spotlight.text}</p>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <div className="mt-10 border-t border-gray-200 pt-6">
-          <Link href="/books" className="text-sm font-medium text-blue-600 hover:underline">
-            ← Back to All Books
-          </Link>
-        </div>
-      </main>
-    </>
-  )
-}
+      
