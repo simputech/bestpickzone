@@ -157,7 +157,7 @@ const featuredGuides = [
     },
   ];
 
-  const quickStartPaths = [
+const quickStartPaths = [
     {
       title: 'Need one sure recommendation',
       text: 'Start with the guide that matches your actual reading problem, not the broadest bestseller query. That usually means self-help, book club, or all-time favorites first.',
@@ -171,6 +171,39 @@ const featuredGuides = [
       text: 'Genre Fiction and Reader-Intent lists are the fastest path when you want momentum, strong mood fit, and cleaner tradeoffs between options.',
     },
   ];
+
+const topicClusters = [
+  {
+    title: 'Start with mood and momentum',
+    text: 'These pages tend to convert best when the shopper already knows the experience they want: fast, immersive, emotional, or discussion-ready.',
+    links: [
+      { href: '/books/best-book-club-books', label: 'Best Book Club Books' },
+      { href: '/books/best-one-sitting-reads', label: 'Best One-Sitting Reads' },
+      { href: '/books/best-feel-good-books', label: 'Best Feel-Good Books' },
+      { href: '/books/best-psychological-thrillers', label: 'Best Psychological Thrillers' },
+    ],
+  },
+  {
+    title: 'Need a smarter gift or parent-buy path',
+    text: 'Age, reading confidence, and attention span matter more than prestige when you are buying for a child or teen.',
+    links: [
+      { href: '/books/best-bedtime-books-for-toddlers', label: 'Best Bedtime Books for Toddlers' },
+      { href: '/books/best-books-for-boys-ages-8-12', label: 'Best Books for Boys Ages 8-12' },
+      { href: '/books/best-books-for-girls-ages-8-12', label: 'Best Books for Girls Ages 8-12' },
+      { href: '/books/best-fantasy-books-for-teens', label: 'Best Fantasy Books for Teens' },
+    ],
+  },
+  {
+    title: 'Shopping for a problem, not a genre',
+    text: 'Self-help and practical nonfiction work best when the page solves a specific question instead of chasing vague motivation.',
+    links: [
+      { href: '/books/best-books-on-habits-and-productivity', label: 'Best Books on Habits and Productivity' },
+      { href: '/books/best-books-on-psychology', label: 'Best Books on Psychology' },
+      { href: '/books/best-personal-finance-books', label: 'Best Personal Finance Books' },
+      { href: '/books/best-books-about-anxiety-and-mental-health', label: 'Best Books About Anxiety and Mental Health' },
+    ],
+  },
+]
 
   const allAuthorGuides = authorGuideSlugs
     .map((slug) => authorArticles.find((article) => article.slug === slug))
@@ -318,6 +351,32 @@ const featuredGuides = [
                 right next book and enough context to know why it fits.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="mb-14 rounded-[28px] border border-rose-200 bg-gradient-to-br from-rose-50 via-white to-orange-50 p-6 shadow-sm">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Browse by real shopping intent</h2>
+          <p className="mb-5 max-w-3xl text-sm leading-relaxed text-gray-600">
+            Thin directory pages rarely help anyone decide. These clusters are meant to move readers toward
+            the pages that answer a concrete need quickly, while also strengthening internal crawl paths to
+            the pages that deserve a fresh indexing pass.
+          </p>
+          <div className="grid gap-4 md:grid-cols-3">
+            {topicClusters.map((cluster) => (
+              <div key={cluster.title} className="rounded-3xl border border-white bg-white p-5 shadow-sm">
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{cluster.title}</h3>
+                <p className="mb-4 text-sm leading-relaxed text-gray-600">{cluster.text}</p>
+                <ul className="space-y-2">
+                  {cluster.links.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="text-sm font-medium text-blue-600 hover:underline">
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </section>
 

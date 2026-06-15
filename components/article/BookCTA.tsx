@@ -14,10 +14,10 @@ export default function BookCTA({ title, author }: BookCTAProps) {
       <Link
         href={url}
         target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 px-6 rounded-xl transition-colors min-h-[44px] text-base w-full sm:w-auto"
+        rel="noopener nofollow sponsored"
+        className="inline-flex items-center justify-center gap-2 rounded-xl bg-yellow-400 px-6 py-3 text-base font-bold text-gray-900 transition-colors min-h-[44px] w-full hover:bg-yellow-300 sm:w-auto"
       >
-        <span>Click Here to Buy on Amazon</span>
+        <span>{`Check the current paperback price for ${title} on Amazon`}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

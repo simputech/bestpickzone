@@ -55,6 +55,35 @@ export default function KidsYAHubPage() {
       text: 'Graphic novels, illustrated fiction, and hybrid formats are often the smartest doorway for reluctant or developing readers.',
     },
   ]
+  const buyerIntentClusters = [
+    {
+      title: 'Fast wins for reluctant readers',
+      text: 'These pages are better when the goal is finishing a book, building confidence, and keeping the reading streak alive.',
+      links: [
+        { href: '/books/best-books-for-reluctant-readers', label: 'Best Books for Reluctant Readers' },
+        { href: '/books/best-books-for-people-who-dont-like-reading', label: 'Best Books for People Who Do Not Like Reading' },
+        { href: '/books/best-kids-book-series', label: 'Best Kids Book Series' },
+      ],
+    },
+    {
+      title: 'Age-targeted family shopping',
+      text: 'Useful when the buyer already knows the age band and needs cleaner recommendations than a giant generic children’s list.',
+      links: [
+        { href: '/books/best-bedtime-books-for-toddlers', label: 'Best Bedtime Books for Toddlers' },
+        { href: '/books/best-books-for-boys-ages-8-12', label: 'Best Books for Boys Ages 8-12' },
+        { href: '/books/best-books-for-girls-ages-8-12', label: 'Best Books for Girls Ages 8-12' },
+      ],
+    },
+    {
+      title: 'Older kids and teen crossover readers',
+      text: 'These are the better paths when the reader wants series momentum, fantasy worlds, or more mature coming-of-age themes.',
+      links: [
+        { href: '/books/best-fantasy-books-for-teens', label: 'Best Fantasy Books for Teens' },
+        { href: '/books/best-middle-grade-books', label: 'Best Middle Grade Books' },
+        { href: '/books/best-ya-coming-of-age-books', label: 'Best YA Coming-of-Age Books' },
+      ],
+    },
+  ]
 
   const schema = {
     '@context': 'https://schema.org',
@@ -196,6 +225,31 @@ export default function KidsYAHubPage() {
             for boys and girls. The goal is to make this section feel more like a smart
             children&apos;s books desk than a thin directory of titles.
           </p>
+        </section>
+
+        <section className="mt-12 rounded-[28px] border border-sky-200 bg-gradient-to-br from-sky-50 via-white to-indigo-50 p-6 shadow-sm">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Browse by the child in front of you</h2>
+          <p className="mb-5 max-w-3xl text-sm leading-relaxed text-gray-600">
+            The most useful kids-book pages are the ones that respect how differently children read. These internal
+            paths are organized around real shopping situations instead of one-size-fits-all children&apos;s-book advice.
+          </p>
+          <div className="grid gap-4 md:grid-cols-3">
+            {buyerIntentClusters.map((cluster) => (
+              <div key={cluster.title} className="rounded-3xl border border-white bg-white p-5 shadow-sm">
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{cluster.title}</h3>
+                <p className="mb-4 text-sm leading-relaxed text-gray-600">{cluster.text}</p>
+                <ul className="space-y-2">
+                  {cluster.links.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="text-sm font-medium text-blue-600 hover:underline">
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </section>
 
         <div className="mt-10 border-t border-gray-200 pt-6">

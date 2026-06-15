@@ -60,6 +60,35 @@ export default function SelfHelpHubPage() {
       text: 'The broader gateway page when the problem is personal change rather than professional upskilling.',
     },
   ];
+  const buyerIntentClusters = [
+    {
+      title: 'Habits and follow-through',
+      text: 'These guides work best when the real issue is execution, consistency, or systems rather than motivation alone.',
+      links: [
+        { href: '/books/best-books-on-habits-and-productivity', label: 'Best Books on Habits and Productivity' },
+        { href: '/books/best-self-help-books', label: 'Best Self-Help Books' },
+        { href: '/books/best-james-clear-books', label: 'Best James Clear Books' },
+      ],
+    },
+    {
+      title: 'Money, thinking, and adult life decisions',
+      text: 'Useful when the buyer wants a practical book that changes behavior in the real world rather than just sounding inspiring.',
+      links: [
+        { href: '/books/best-personal-finance-books', label: 'Best Personal Finance Books' },
+        { href: '/books/best-books-about-money-and-wealth', label: 'Best Books About Money and Wealth' },
+        { href: '/books/best-books-on-psychology', label: 'Best Books on Psychology' },
+      ],
+    },
+    {
+      title: 'Mental health, relationships, and emotional reset',
+      text: 'These pages are the better starting point when the question is emotional resilience, not productivity theater.',
+      links: [
+        { href: '/books/best-books-about-anxiety-and-mental-health', label: 'Best Books About Anxiety and Mental Health' },
+        { href: '/books/best-books-on-relationships', label: 'Best Books on Relationships' },
+        { href: '/books/best-inspirational-books', label: 'Best Inspirational Books' },
+      ],
+    },
+  ];
 
   const schema = {
     '@context': 'https://schema.org',
@@ -163,6 +192,31 @@ export default function SelfHelpHubPage() {
             they dominated a bestseller list. Some help you change behavior, some help you understand your mind, and
             some help you survive hard seasons without drifting into generic motivational filler.
           </p>
+        </section>
+
+        <section className="mt-12 rounded-[28px] border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-cyan-50 p-6 shadow-sm">
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Browse by the problem you are trying to solve</h2>
+          <p className="mb-5 max-w-3xl text-sm leading-relaxed text-gray-600">
+            Self-help pages usually get thin when they stay abstract. This section is intentionally organized around
+            buying intent, so readers can move directly to the pages that match the pressure they are under right now.
+          </p>
+          <div className="grid gap-4 md:grid-cols-3">
+            {buyerIntentClusters.map((cluster) => (
+              <div key={cluster.title} className="rounded-3xl border border-white bg-white p-5 shadow-sm">
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{cluster.title}</h3>
+                <p className="mb-4 text-sm leading-relaxed text-gray-600">{cluster.text}</p>
+                <ul className="space-y-2">
+                  {cluster.links.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="text-sm font-medium text-blue-600 hover:underline">
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </section>
 
         <div className="mt-10 pt-6 border-t border-gray-200">

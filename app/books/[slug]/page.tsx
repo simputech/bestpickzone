@@ -7,6 +7,15 @@ import {
   getArticlesByCategory,
   getArticlesBySlugs,
 } from '@/lib/books-data';
+import {
+  buildBookFitParagraph,
+  buildBookTradeoffParagraph,
+  buildCategoryContext,
+  buildDirectAnswerDetail,
+  buildReaderSignals,
+  buildVerdictBridge,
+  verificationLabel,
+} from '@/lib/book-article-enrichment';
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time';
 import BookCTA from '@/components/article/BookCTA';
 import Breadcrumb from '@/components/ui/Breadcrumb';
@@ -102,9 +111,15 @@ export default function ArticlePage({ params }: Props) {
   const topPick = article.books[0];
   const alternatePick = article.books[1];
   const visualMapBooks = article.books.slice(0, 4);
+  const readerSignals = buildReaderSignals(article);
+  const categoryContext = buildCategoryContext(article);
+  const directAnswerDetail = buildDirectAnswerDetail(article);
+  const verifiedAsOf = verificationLabel(article.publishedDate);
 
   const fullText = [
     article.intro,
+    categoryContext,
+    directAnswerDetail,
     ...article.books.map((b) => `${b.title} ${b.description} ${b.bestFor} ${b.skipIf}`),
     ...article.buyingGuide.map((g) => `${g.title} ${g.text}`),
     ...article.faqs.map((f) => `${f.question} ${f.answer}`),
@@ -227,11 +242,18 @@ export default function ArticlePage({ params }: Props) {
 
         {/* Affiliate Disclosure */}
         <div className="affiliate-disclosure mb-8">
-          <p className="text-sm text-gray-600">
-            <strong>Disclosure:</strong> BestPickZone earns a small commission from qualifying
-            Amazon purchases at no extra cost to you. We research every pick independently.
+          <p className="text-sm leading-relaxed text-gray-600">
+            Affiliate disclosure: BestPickZone participates in the Amazon Services LLC Associates
+            Program. When you purchase through links on this page, we may earn a commission at no
+            extra cost to you. Recommendations are based on reader fit, book quality, and editorial
+            analysis — not commission rates.
           </p>
         </div>
+
+        <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-3 text-2xl font-bold text-gray-900">How to use this guide</h2>
+          <p className="text-gray-700 leading-relaxed">{categoryContext}</p>
+        </section>
 
         <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-gray-500">
@@ -258,6 +280,7 @@ export default function ArticlePage({ params }: Props) {
             <strong>{topPick.bestFor.toLowerCase()}</strong>. If that does not sound like you, the best
             alternate starting point is <strong>{alternatePick?.title}</strong>.
           </p>
+          <p className="text-gray-700 leading-relaxed">{directAnswerDetail}</p>
           <div id="quick-picks" className="grid gap-4 md:grid-cols-2">
             <div className="rounded-2xl border border-white/70 bg-white p-4 shadow-sm">
               <p className={`mb-2 text-xs font-semibold uppercase tracking-[0.2em] ${theme.accent}`}>
@@ -278,6 +301,18 @@ export default function ArticlePage({ params }: Props) {
               </div>
             )}
           </div>
+        </section>
+
+        <section className="mb-10 grid gap-4 md:grid-cols-3">
+          {readerSignals.map((signal) => (
+            <div key={signal.title} className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
+              <p className={`mb-2 text-xs font-semibold uppercase tracking-[0.18em] ${theme.accent}`}>
+                Reader fit
+              </p>
+              <h2 className="mb-2 text-lg font-bold text-gray-900">{signal.title}</h2>
+              <p className="text-sm leading-relaxed text-gray-600">{signal.text}</p>
+            </div>
+          ))}
         </section>
 
         <section id="visual-map" className="mb-10">
@@ -333,10 +368,10 @@ export default function ArticlePage({ params }: Props) {
                     <a
                       href={`https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=althcu-20`}
                       target="_blank"
-                      rel="noopener noreferrer sponsored"
+                      rel="noopener nofollow sponsored"
                       className="btn-amazon inline-flex min-h-[44px] items-center px-3 py-2 text-xs"
                     >
-                      Buy on Amazon
+                      See current availability
                     </a>
                   </td>
                 </tr>
@@ -363,8 +398,14 @@ export default function ArticlePage({ params }: Props) {
                 <span className="reader-badge shrink-0">{book.bestFor}</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-3">{book.description}</p>
+              <p className="mb-3 text-gray-700 leading-relaxed">
+                {buildBookFitParagraph(article, book, i)}
+              </p>
               <p className="skip-if text-sm text-gray-500 mb-4">
                 <strong>Skip this if:</strong> {book.skipIf}
+              </p>
+              <p className="mb-4 text-sm leading-relaxed text-gray-600">
+                {buildBookTradeoffParagraph(book)}
               </p>
               <BookCTA title={book.title} author={book.author} />
             </div>
@@ -411,11 +452,21 @@ export default function ArticlePage({ params }: Props) {
           </section>
         )}
 
+        <section className="mb-10 rounded-3xl border border-gray-200 bg-gray-50 p-6">
+          <h2 className="mb-3 text-xl font-bold text-gray-900">Verification note</h2>
+          <p className="verification-note text-sm leading-relaxed text-gray-600">
+            Titles, authors, publication details, and availability were verified against Amazon and
+            public bibliographic sources as of {verifiedAsOf}. Availability, editions, and prices
+            can change — confirm before purchasing.
+          </p>
+        </section>
+
         {/* Verdict */}
         <section className="mb-10">
           <div className="verdict-box bg-yellow-50 border border-yellow-300 rounded-xl p-6">
             <h2 className="mb-3 text-xl font-bold text-gray-900">Our verdict</h2>
             <p className="text-gray-700 leading-relaxed">{article.verdict}</p>
+            <p className="mt-3 text-sm leading-relaxed text-gray-600">{buildVerdictBridge(article)}</p>
           </div>
         </section>
 
