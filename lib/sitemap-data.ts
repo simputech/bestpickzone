@@ -72,13 +72,17 @@ export const standaloneBookPages: SitemapEntry[] = [
 export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 1.0 },
   { url: `${baseUrl}/tech`, lastModified: '2026-06-13', changeFrequency: 'weekly', priority: 0.9 },
-  { url: `${baseUrl}/home-kitchen`, lastModified: '2026-06-13', changeFrequency: 'weekly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 0.8 },
   { url: `${baseUrl}/finance-software`, lastModified: '2026-04-09', changeFrequency: 'weekly', priority: 0.75 },
   { url: `${baseUrl}/health-fitness`, lastModified: '2026-04-09', changeFrequency: 'weekly', priority: 0.75 },
   { url: `${baseUrl}/home-kitchen/oxo-vs-chefn-corn-stripper`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/oxo-vs-fullstar-avocado-slicer`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-solar-powered-attic-fans`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-kids-fort-for-girls-2026`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/instant-pot-vs-ninja-foodi`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-robot-vacuums`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-coffee-makers-under-100`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-air-fryers`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.8 },
   ...techSlugs.map(({ slug, date }) => ({
     url: `${baseUrl}/tech/${slug}`,
     lastModified: date,

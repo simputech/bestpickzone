@@ -56,37 +56,37 @@ const articles = [
     slug: 'best-air-fryers',
     title: 'Best Air Fryers in 2026',
     description:
-      'Crispy food with less oil and less mess. We ranked the top air fryers by cooking performance, capacity, ease of cleaning, and value.',
+      "A polished head-to-head between the Cosori Pro II and Ninja AF101, focused on capacity, cooking performance, noise, and which air fryer actually fits your kitchen.",
     badge: 'Best Roundup',
     badgeColor: 'bg-orange-100 text-orange-700',
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     slug: 'best-coffee-makers-under-100',
     title: 'Best Coffee Makers Under $100 in 2026',
     description:
-      "You don't need to spend a fortune for a great cup. These drip machines, pod brewers, and pour-over setups deliver cafe-quality coffee on a budget.",
+      "A budget coffee showdown between Cuisinart and Hamilton Beach, built around brew quality, flexibility, footprint, and what actually feels worth buying under $100.",
     badge: 'Best Roundup',
     badgeColor: 'bg-orange-100 text-orange-700',
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     slug: 'best-robot-vacuums',
     title: 'Best Robot Vacuums in 2026',
     description:
-      'Smart mapping, self-emptying bases, and powerful suction — robot vacuums have come a long way. Here are the best ones for every home and budget.',
+      'A premium robot vacuum comparison between the Roomba j7+ and Roborock Q5+, with a clear breakdown of navigation, suction, pet-hair handling, and real-home fit.',
     badge: 'Best Roundup',
     badgeColor: 'bg-orange-100 text-orange-700',
-    comingSoon: true,
+    comingSoon: false,
   },
   {
     slug: 'instant-pot-vs-ninja-foodi',
     title: 'Instant Pot vs Ninja Foodi: Which Is Better?',
     description:
-      'Both are wildly popular multi-cookers, but they do different things best. We compare pressure cooking, air frying, sauté performance, and price.',
+      'A direct multi-cooker comparison that shows when the Instant Pot still wins on value and when the Ninja Foodi earns its extra footprint with air frying.',
     badge: 'Head-to-Head',
     badgeColor: 'bg-purple-100 text-purple-700',
-    comingSoon: true,
+    comingSoon: false,
   },
 ]
 
@@ -138,7 +138,35 @@ export default function HomeKitchenPage() {
         >
           Best Kids Fort for Girls in 2026
         </Link>
-        . More room-product roundups are still on the way.
+        ,{' '}
+        <Link
+          href="/home-kitchen/best-air-fryers"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Air Fryers in 2026
+        </Link>
+        ,{' '}
+        <Link
+          href="/home-kitchen/best-coffee-makers-under-100"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Coffee Makers Under $100 in 2026
+        </Link>
+        ,{' '}
+        <Link
+          href="/home-kitchen/best-robot-vacuums"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Robot Vacuums in 2026
+        </Link>{' '}
+        and{' '}
+        <Link
+          href="/home-kitchen/instant-pot-vs-ninja-foodi"
+          className="font-semibold underline underline-offset-2"
+        >
+          Instant Pot vs Ninja Foodi
+        </Link>
+        .
       </div>
 
       <div className="grid gap-6 sm:grid-cols-2">
