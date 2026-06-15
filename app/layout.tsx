@@ -1,6 +1,7 @@
 import Script from 'next/script'
 import type { Metadata } from 'next'
 import './globals.css'
+import AmazonClickTracker from '@/components/analytics/AmazonClickTracker'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <div className="flex-1">{children}</div>
         <Footer />
+        <AmazonClickTracker />
       
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-ZQZWSDYK8H"
