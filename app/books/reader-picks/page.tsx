@@ -133,4 +133,14 @@ export default function ReaderPicksHubPage() {
               </span>
             </Link>
           ))}
-     
+        </section>
+
+        <div className="mt-10 pt-6 border-t border-gray-200">
+          <Link href="/books" className="text-blue-600 hover:underline text-sm font-medium">
+            ← Back to All Books
+          </Link>
+        </div>
+      </main>
+    </>
+  );
+}
