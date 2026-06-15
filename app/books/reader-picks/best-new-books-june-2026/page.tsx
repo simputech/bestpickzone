@@ -349,7 +349,7 @@ export default function BestNewBooksJune2026Page() {
 
         <section
           id="visual-map"
-          className="mb-12 overflow-hidden rounded-[32px] border border-gray-200 bg-white p-6 shadow-sm"
+          className="mb-12 overflow-hidden rounded-[32px] border border-gray-200 bg-[radial-gradient(circle_at_top_left,_#fff7d6_0%,_#fff2f2_35%,_#f8fbff_72%,_#ffffff_100%)] p-6 shadow-sm"
         >
           <div className="mb-5">
             <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-gray-500">
@@ -358,32 +358,122 @@ export default function BestNewBooksJune2026Page() {
             <h2 className="text-2xl font-bold text-gray-900">
               Which kind of June reader are you?
             </h2>
+            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-gray-600">
+              Think of this like a fast summer mood board, not a strict flowchart.
+              Start with the reading mood that sounds most like you, then use the
+              bonus detours if you want something lighter or bloodier.
+            </p>
           </div>
-          <svg viewBox="0 0 920 300" className="w-full" role="img" aria-label="June 2026 new books reader map">
-            <rect x="38" y="48" width="190" height="82" rx="24" fill="#fef3c7" />
-            <rect x="258" y="48" width="190" height="82" rx="24" fill="#e9d5ff" />
-            <rect x="478" y="48" width="190" height="82" rx="24" fill="#dbeafe" />
-            <rect x="698" y="48" width="184" height="82" rx="24" fill="#dcfce7" />
-            <rect x="258" y="182" width="190" height="82" rx="24" fill="#fee2e2" />
-            <rect x="478" y="182" width="190" height="82" rx="24" fill="#e0f2fe" />
-            <path d="M228 88 H258" stroke="#94a3b8" strokeWidth="4" strokeDasharray="8 8" />
-            <path d="M448 88 H478" stroke="#94a3b8" strokeWidth="4" strokeDasharray="8 8" />
-            <path d="M668 88 H698" stroke="#94a3b8" strokeWidth="4" strokeDasharray="8 8" />
-            <path d="M352 130 V182" stroke="#94a3b8" strokeWidth="4" strokeDasharray="8 8" />
-            <path d="M572 130 V182" stroke="#94a3b8" strokeWidth="4" strokeDasharray="8 8" />
-            <text x="68" y="82" fill="#0f172a" fontSize="18" fontWeight="700">Want the biggest crowd-pleaser</text>
-            <text x="68" y="108" fill="#334155" fontSize="15">Read The Shampoo Effect</text>
-            <text x="288" y="82" fill="#0f172a" fontSize="18" fontWeight="700">Need book club fuel</text>
-            <text x="288" y="108" fill="#334155" fontSize="15">Read Little Wonder</text>
-            <text x="508" y="82" fill="#0f172a" fontSize="18" fontWeight="700">Want historical pace</text>
-            <text x="508" y="108" fill="#334155" fontSize="15">Read A Pair of Aces</text>
-            <text x="724" y="82" fill="#0f172a" fontSize="18" fontWeight="700">Want real reporting</text>
-            <text x="724" y="108" fill="#334155" fontSize="15">Read The Housewives Underground</text>
-            <text x="288" y="216" fill="#0f172a" fontSize="18" fontWeight="700">Need a beach bag book</text>
-            <text x="288" y="242" fill="#334155" fontSize="15">Try Road Trip instead</text>
-            <text x="506" y="216" fill="#0f172a" fontSize="18" fontWeight="700">Want bloodier fun</text>
-            <text x="506" y="242" fill="#334155" fontSize="15">Try Slasher Summer instead</text>
-          </svg>
+          <div className="relative">
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute left-[12%] right-[12%] top-[94px] hidden h-px border-t-2 border-dashed border-gray-300 lg:block"
+            />
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute left-1/2 top-[188px] hidden h-16 -translate-x-1/2 border-l-2 border-dashed border-gray-300 lg:block"
+            />
+
+            <div className="grid gap-4 lg:grid-cols-4">
+              <div className="relative rounded-[28px] border border-yellow-300 bg-yellow-100/90 p-5 shadow-[0_18px_40px_rgba(250,204,21,0.18)]">
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white text-2xl shadow-sm">
+                    ☀️
+                  </span>
+                  <span className="rounded-full bg-white/85 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-yellow-800">
+                    Biggest Crowd-Pleaser
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">Read <em>The Shampoo Effect</em></h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-700">
+                  Pick this if you want the June book most likely to travel from
+                  beach tote to group chat to book club without losing momentum.
+                </p>
+              </div>
+
+              <div className="relative rounded-[28px] border border-purple-300 bg-purple-100/90 p-5 shadow-[0_18px_40px_rgba(168,85,247,0.14)]">
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white text-2xl shadow-sm">
+                    💬
+                  </span>
+                  <span className="rounded-full bg-white/85 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-purple-800">
+                    Book Club Fuel
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">Read <em>Little Wonder</em></h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-700">
+                  This is the pick for readers who want emotion, setting, and
+                  enough interpretive room to argue about it afterward.
+                </p>
+              </div>
+
+              <div className="relative rounded-[28px] border border-blue-300 bg-blue-100/90 p-5 shadow-[0_18px_40px_rgba(59,130,246,0.14)]">
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white text-2xl shadow-sm">
+                    ♠️
+                  </span>
+                  <span className="rounded-full bg-white/85 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-blue-800">
+                    Historical Pace
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">Read <em>A Pair of Aces</em></h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-700">
+                  Go here if you want period detail, recognizable stakes, and a
+                  story that moves like a commercial thriller.
+                </p>
+              </div>
+
+              <div className="relative rounded-[28px] border border-green-300 bg-green-100/90 p-5 shadow-[0_18px_40px_rgba(34,197,94,0.14)]">
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white text-2xl shadow-sm">
+                    🔎
+                  </span>
+                  <span className="rounded-full bg-white/85 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-green-800">
+                    Real Reporting
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">Read <em>The Housewives Underground</em></h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-700">
+                  Choose this lane if you want the June book with the most
+                  reporting weight and the least interest in being breezy.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-5 grid gap-4 lg:mx-auto lg:max-w-3xl lg:grid-cols-2">
+              <div className="rounded-[24px] border border-rose-300 bg-rose-100/90 p-5 shadow-[0_18px_36px_rgba(244,114,182,0.12)]">
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-xl shadow-sm">
+                    🏖️
+                  </span>
+                  <span className="rounded-full bg-white/85 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-rose-700">
+                    Lighter Detour
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">Try <em>Road Trip</em> instead</h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-700">
+                  If all of the main picks sound a little too serious, this is the
+                  easier beach-bag pivot with movement, charm, and family-friction fun.
+                </p>
+              </div>
+
+              <div className="rounded-[24px] border border-cyan-300 bg-cyan-100/90 p-5 shadow-[0_18px_36px_rgba(34,211,238,0.12)]">
+                <div className="mb-3 flex items-center justify-between gap-3">
+                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-xl shadow-sm">
+                    🩸
+                  </span>
+                  <span className="rounded-full bg-white/85 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-cyan-800">
+                    Wilder Detour
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-gray-900">Try <em>Slasher Summer</em> instead</h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-700">
+                  This is the off-ramp for readers who want June to be messier,
+                  campier, and a lot more gleefully bloody.
+                </p>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section className="mb-12">
