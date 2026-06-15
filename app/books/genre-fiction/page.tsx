@@ -30,6 +30,11 @@ export default function GenreFictionHubPage() {
       text: 'A romantasy readalike page for readers chasing dragon-school pressure, trials, and dangerous attraction.',
     },
     {
+      href: '/books/top-fantasy-romance-novels',
+      title: 'Top Fantasy Romance Novels to Read in 2026',
+      text: 'A broader romantasy listicle built for readers deciding between ACOTAR, Fourth Wing, vampire picks, fairytale picks, and the best 2026 release.',
+    },
+    {
       href: '/books/best-cyberpunk-novels-all-time',
       title: 'Best Cyberpunk Novels Of All Time',
       text: 'A tighter neon-and-corporate-rot page for readers who want the genre’s foundational books.',

@@ -26,10 +26,33 @@ const concernRows = [
 ]
 
 const deviceRows = [
-  ['Hair styling', 'Dyson Airwrap vs Shark FlexStyle', 'Attachments, airflow logic, and cost-to-results'],
-  ['LED masks', 'Dr. Dennis Gross vs Omnilux Contour', 'Coverage area, treatment cadence, and diode positioning'],
-  ['Microcurrent', 'NuFACE Trinity vs Solawave Wand', 'Treatment speed vs portability'],
-  ['Straightening tools', 'Dyson Airstrait vs ghd Duet Style', 'Wet-to-dry workflow vs finish quality'],
+  ['Hair styling', 'Dyson Airwrap vs Shark FlexStyle', 'Attachments, airflow logic, and cost-to-results', '/beauty/dyson-airwrap-vs-shark-flexstyle'],
+  ['LED masks', 'Dr. Dennis Gross vs Omnilux Contour', 'Coverage area, treatment cadence, and diode positioning', '/beauty/dr-dennis-gross-vs-omnilux-contour'],
+  ['Microcurrent', 'NuFACE Trinity vs Solawave Wand', 'Treatment speed vs portability', '/beauty/nuface-trinity-vs-solawave-wand'],
+  ['Straightening tools', 'Dyson Airstrait vs ghd Duet Style', 'Wet-to-dry workflow vs finish quality', '/beauty/dyson-airstrait-vs-ghd-duet-style'],
+]
+
+const ingredientPages = [
+  {
+    href: '/beauty/vitamin-c-vs-niacinamide',
+    title: 'Vitamin C vs. Niacinamide',
+    note: 'A brightening-focused comparison that separates dark-spot fading from barrier support instead of pretending they do the same job.',
+  },
+  {
+    href: '/beauty/retinol-vs-bakuchiol-for-sensitive-skin',
+    title: 'Retinol vs. Bakuchiol',
+    note: 'A gentler-versus-stronger anti-aging page for readers deciding whether results or irritation tolerance matters more right now.',
+  },
+  {
+    href: '/beauty/salicylic-acid-vs-benzoyl-peroxide',
+    title: 'Salicylic Acid vs. Benzoyl Peroxide',
+    note: 'A breakout-treatment comparison built around clog type, inflammation, and why the wrong active can make acne worse.',
+  },
+  {
+    href: '/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide',
+    title: 'Laneige Lip Sleeping Mask vs. Rhode',
+    note: 'A lip-treatment showdown that frames overnight repair against day-bag portability and texture preference.',
+  },
 ]
 
 export default function BeautyHubPage() {
@@ -72,7 +95,22 @@ export default function BeautyHubPage() {
               {concernRows.map((row) => (
                 <tr key={row[0]} className="border-b border-gray-100 align-top">
                   <td className="px-3 py-3 font-semibold text-gray-900">{row[0]}</td>
-                  <td className="px-3 py-3 text-gray-700">{row[1]}</td>
+                  <td className="px-3 py-3 text-gray-700">
+                    <Link
+                      href={
+                        row[1] === 'Vitamin C vs Niacinamide'
+                          ? '/beauty/vitamin-c-vs-niacinamide'
+                          : row[1] === 'Retinol vs Bakuchiol'
+                            ? '/beauty/retinol-vs-bakuchiol-for-sensitive-skin'
+                            : row[1] === 'Salicylic Acid vs Benzoyl Peroxide'
+                              ? '/beauty/salicylic-acid-vs-benzoyl-peroxide'
+                              : '/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide'
+                      }
+                      className="font-semibold text-rose-700 hover:underline"
+                    >
+                      {row[1]}
+                    </Link>
+                  </td>
                   <td className="px-3 py-3 text-gray-700">{row[2]}</td>
                 </tr>
               ))}
@@ -93,7 +131,11 @@ export default function BeautyHubPage() {
               {deviceRows.map((row) => (
                 <tr key={row[0]} className="border-b border-gray-100 align-top">
                   <td className="px-3 py-3 font-semibold text-gray-900">{row[0]}</td>
-                  <td className="px-3 py-3 text-gray-700">{row[1]}</td>
+                  <td className="px-3 py-3 text-gray-700">
+                    <Link href={row[3]} className="font-semibold text-fuchsia-700 hover:underline">
+                      {row[1]}
+                    </Link>
+                  </td>
                   <td className="px-3 py-3 text-gray-700">{row[2]}</td>
                 </tr>
               ))}
@@ -117,6 +159,26 @@ export default function BeautyHubPage() {
               <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-rose-700">Live Comparison</p>
               <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
               <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10 rounded-3xl border border-amber-200 bg-white p-6 shadow-sm">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">Queued beauty topics now live</h2>
+        <p className="mb-5 text-gray-700">
+          The ingredient and lip-treatment topics that were previously only listed as beauty queue items now have live comparison pages and real crawl paths from this hub.
+        </p>
+        <div className="grid gap-4 md:grid-cols-2">
+          {ingredientPages.map((page) => (
+            <Link
+              key={page.href}
+              href={page.href}
+              className="rounded-2xl border border-amber-200 bg-amber-50 p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-amber-700">Now Live</p>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">{page.title}</h3>
+              <p className="text-sm leading-relaxed text-gray-700">{page.note}</p>
             </Link>
           ))}
         </div>

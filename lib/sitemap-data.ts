@@ -49,6 +49,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/best-urban-fantasy-series-completed`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/fredrik-backman-books-ranked`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-short-classic-books-for-a-flight`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/books/top-fantasy-romance-novels`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-high-school-students`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026`, lastModified: '2026-06-13', changeFrequency: 'monthly', priority: 0.85 },
@@ -97,6 +98,11 @@ export const mainPages: SitemapEntry[] = [
 
 export const beautyPages: SitemapEntry[] = [
   { url: `${baseUrl}/beauty`, lastModified: '2026-06-14', changeFrequency: 'weekly', priority: 0.92 },
+  { url: `${baseUrl}/beauty/vitamin-c-vs-niacinamide`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/beauty/retinol-vs-bakuchiol-for-sensitive-skin`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/beauty/salicylic-acid-vs-benzoyl-peroxide`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/beauty/dr-dennis-gross-vs-omnilux-contour`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
   ...beautyComparisonArticles.map((article) => ({
     url: `${baseUrl}/beauty/${article.slug}`,
     lastModified: '2026-06-14',
