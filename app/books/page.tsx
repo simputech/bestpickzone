@@ -111,7 +111,7 @@ export default function BooksHubPage() {
     publisher: { '@type': 'Organization', name: 'BestPickZone' },
   };
 
-  const featuredGuides = [
+const featuredGuides = [
   {
     title: 'Haruki Murakami Reading Order',
     href: '/books/haruki-murakami-reading-order',
@@ -131,6 +131,29 @@ export default function BooksHubPage() {
       title: 'Best Books of All Time',
       href: '/books/best-books-of-all-time',
       note: 'For readers who want a canon list with honest tradeoffs instead of prestige-name dumping.',
+    },
+  ];
+
+  const comparisonEssays = [
+    {
+      title: 'Lord of the Rings vs. Harry Potter',
+      href: '/books/lord-of-the-rings-vs-harry-potter',
+      note: 'A direct franchise-versus-franchise breakdown for readers deciding which fantasy world still wins on books, films, and total cultural reach.',
+    },
+    {
+      title: 'Stephen King vs. Dean Koontz',
+      href: '/books/stephen-king-vs-dean-koontz',
+      note: 'A horror-shelf showdown built around style, consistency, best entry point, and which author actually fits your reading taste.',
+    },
+    {
+      title: 'Agatha Christie vs. Arthur Conan Doyle',
+      href: '/books/agatha-christie-vs-arthur-conan-doyle',
+      note: 'A classic detective comparison page that weighs Holmes against Christie’s puzzle-box plotting instead of treating them as interchangeable legends.',
+    },
+    {
+      title: 'Hemingway vs. Fitzgerald',
+      href: '/books/hemingway-vs-fitzgerald',
+      note: 'A literary rivalry page that treats style, legacy, and readability as separate questions instead of flattening both writers into school-syllabus icons.',
     },
   ];
 
@@ -208,6 +231,29 @@ export default function BooksHubPage() {
               <p className="text-sm leading-relaxed text-gray-600">{path.text}</p>
             </div>
           ))}
+        </section>
+
+        <section className="mb-14 rounded-[28px] border border-indigo-200 bg-gradient-to-br from-indigo-50 via-white to-sky-50 p-6 shadow-sm">
+          <div className="mb-5 flex items-center justify-between gap-4">
+            <div>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-indigo-700">
+                New Comparison Essays
+              </p>
+              <h2 className="text-2xl font-bold text-gray-900">Fresh head-to-head book debates now live</h2>
+            </div>
+          </div>
+          <div className="grid gap-4 md:grid-cols-2">
+            {comparisonEssays.map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{guide.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-600">{guide.note}</p>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <section className="mb-14 rounded-[28px] border border-amber-200 bg-white p-6 shadow-sm">

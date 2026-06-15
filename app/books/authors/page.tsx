@@ -85,6 +85,21 @@ const standaloneAuthorSpotlights = [
     title: 'Best Lee Child Books in Order',
     text: 'The strongest currently published standalone guide in this section for series-entry logic and what to skip.',
   },
+  {
+    href: '/books/stephen-king-vs-dean-koontz',
+    title: 'Stephen King vs. Dean Koontz',
+    text: 'A direct horror-author showdown for readers deciding between King’s depth and Koontz’s speed-driven suspense.',
+  },
+  {
+    href: '/books/agatha-christie-vs-arthur-conan-doyle',
+    title: 'Agatha Christie vs. Arthur Conan Doyle',
+    text: 'A mystery-canon comparison page that helps readers choose between Christie’s plots and Doyle’s iconic detective world.',
+  },
+  {
+    href: '/books/hemingway-vs-fitzgerald',
+    title: 'Hemingway vs. Fitzgerald',
+    text: 'A literary rivalry guide for readers who want a clearer entry point into two towering twentieth-century names.',
+  },
 ]
 
 export default function AuthorsHubPage() {

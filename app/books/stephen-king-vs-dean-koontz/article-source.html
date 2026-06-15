@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stephen King vs. Dean Koontz: The Definitive Author Showdown | BestPickZone</title>
+  <meta name="description" content="They've shared the same bookstore shelf for 40 years. One is the undisputed Master of Horror. One has outsold almost every author alive. Here's how they actually compare — category by category."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red: #B91C1C;
+      --red-mid: #DC2626;
+      --red-light: #FEF2F2;
+      --red-dark: #7F1D1D;
+      --teal: #0D7377;
+      --teal-mid: #14A085;
+      --teal-light: #E6FAFA;
+      --teal-dark: #064E52;
+      --charcoal: #111827;
+      --slate: #1F2937;
+      --mid: #6B7280;
+      --light: #F9FAFB;
+      --border: #E5E7EB;
+      --amazon: #FF9900;
+      --white: #fff;
+    }
+
+    body { font-family: 'Inter', sans-serif; background: #fff; color: var(--charcoal); line-height: 1.7; font-size: 17px; }
+
+    .topbar { background: #0A0A0A; color: #666; font-size: 12px; text-align: center; padding: 8px 16px; letter-spacing: .4px; }
+    .topbar a { color: #B91C1C; text-decoration: none; }
+
+    nav { border-bottom: 1px solid var(--border); background: #fff; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 6px rgba(0,0,0,.06); }
+    .logo { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 900; color: var(--charcoal); text-decoration: none; }
+    .logo span { color: var(--red); }
+    .nav-links { display: flex; gap: 20px; font-size: 13px; font-weight: 600; }
+    .nav-links a { color: var(--mid); text-decoration: none; }
+    .nav-links a:hover { color: var(--red); }
+
+    /* HERO */
+    .hero {
+      background: #0A0A0A;
+      padding: 64px 24px 56px;
+      text-align: center;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-texture {
+      position: absolute; inset: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(185,28,28,.25) 0%, transparent 55%),
+        radial-gradient(ellipse at 80% 50%, rgba(13,115,119,.2) 0%, transparent 55%);
+    }
+    .hero::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(to right, #B91C1C, #4B5563, #0D7377);
+    }
+    .hero-label { display: inline-block; background: rgba(255,255,255,.08); color: #ccc; font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; padding: 5px 16px; border-radius: 20px; margin-bottom: 24px; position: relative; border: 1px solid rgba(255,255,255,.1); }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 5.5vw, 54px); font-weight: 900; line-height: 1.1; max-width: 820px; margin: 0 auto 20px; position: relative; }
+    .hero h1 .king { color: #EF4444; }
+    .hero h1 .vs { color: #4B5563; font-size: 0.6em; display: block; margin: 8px 0; font-weight: 600; letter-spacing: 6px; text-transform: uppercase; }
+    .hero h1 .koontz { color: #2DD4BF; }
+    .hero-sub { font-size: 18px; color: #9CA3AF; max-width: 600px; margin: 0 auto 30px; position: relative; }
+    .hero-meta { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; font-size: 13px; color: #4B5563; position: relative; }
+
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+
+    .disclosure { background: #FFF9F9; border-left: 4px solid var(--red); border-radius: 4px; padding: 14px 18px; font-size: 13px; color: #7F1D1D; margin: 30px 0; }
+
+    /* SCOREBOARD */
+    .scoreboard {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      margin: 0 0 40px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      overflow: hidden;
+    }
+    .score-side { padding: 28px 22px; text-align: center; }
+    .score-side.king-side { background: linear-gradient(135deg, #1A0000, #2D0A0A); }
+    .score-side.koontz-side { background: linear-gradient(135deg, #001A1A, #022D2D); }
+    .score-middle { background: var(--charcoal); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 14px; min-width: 76px; }
+    .score-middle .vs-text { font-size: 10px; font-weight: 800; letter-spacing: 3px; color: #4B5563; text-transform: uppercase; margin-bottom: 6px; }
+    .score-nums { font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 900; line-height: 1; }
+    .score-nums .s1 { color: #EF4444; }
+    .score-nums .div { color: #4B5563; margin: 0 1px; }
+    .score-nums .s2 { color: #2DD4BF; }
+    .side-title { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 900; margin-bottom: 4px; }
+    .king-title { color: #EF4444; }
+    .koontz-title { color: #2DD4BF; }
+    .side-sub { font-size: 12px; color: #6B7280; margin-bottom: 12px; }
+    .side-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: .5px; text-transform: uppercase; }
+    .king-tag { background: rgba(239,68,68,.15); color: #EF4444; border: 1px solid rgba(239,68,68,.3); }
+    .koontz-tag { background: rgba(45,212,191,.1); color: #2DD4BF; border: 1px solid rgba(45,212,191,.25); }
+    @media (max-width: 520px) {
+      .scoreboard { grid-template-columns: 1fr; }
+      .score-middle { flex-direction: row; gap: 16px; padding: 14px 20px; min-width: auto; }
+    }
+
+    /* STAT COMPARE BOXES */
+    .stat-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 24px 0; }
+    @media (max-width: 520px) { .stat-compare { grid-template-columns: 1fr; } }
+    .stat-box { border-radius: 12px; padding: 18px; border: 1px solid var(--border); }
+    .stat-box.king-box { background: linear-gradient(135deg, #FEF2F2, #FEE2E2); border-color: rgba(239,68,68,.25); }
+    .stat-box.koontz-box { background: linear-gradient(135deg, #E6FAFA, #CCFBF1); border-color: rgba(45,212,191,.25); }
+    .stat-box h4 { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .8px; margin-bottom: 12px; }
+    .king-box h4 { color: var(--red); }
+    .koontz-box h4 { color: var(--teal); }
+    .stat-row { display: flex; justify-content: space-between; font-size: 13px; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,.05); }
+    .stat-row:last-child { border-bottom: none; }
+    .stat-row .label { color: var(--mid); }
+    .stat-row .val { font-weight: 700; color: var(--charcoal); }
+
+    /* SECTIONS */
+    .section-label { font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+    h2.section-title { font-family: 'Playfair Display', serif; font-size: 30px; line-height: 1.2; margin-bottom: 16px; }
+    .prose p { margin-bottom: 18px; color: #374151; }
+    .prose p:last-child { margin-bottom: 0; }
+    .prose strong { font-weight: 700; color: var(--charcoal); }
+    .divider { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+
+    /* ROUND BLOCKS */
+    .round-block { border: 1px solid var(--border); border-radius: 16px; overflow: hidden; margin: 32px 0; }
+    .round-header { display: flex; align-items: center; justify-content: space-between; padding: 18px 24px; background: var(--charcoal); color: #fff; flex-wrap: wrap; gap: 10px; }
+    .round-label { font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: #4B5563; }
+    .round-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 900; margin-top: 2px; }
+    .round-winner-chip { font-size: 12px; font-weight: 800; padding: 6px 16px; border-radius: 20px; white-space: nowrap; }
+    .chip-king { background: rgba(239,68,68,.2); color: #EF4444; border: 1px solid rgba(239,68,68,.35); }
+    .chip-koontz { background: rgba(45,212,191,.15); color: #2DD4BF; border: 1px solid rgba(45,212,191,.3); }
+    .chip-tie { background: rgba(107,114,128,.15); color: #9CA3AF; border: 1px solid rgba(107,114,128,.3); }
+    .round-body { padding: 26px; }
+
+    /* DUAL FEATURE CARDS */
+    .dual-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 18px 0; }
+    @media (max-width: 540px) { .dual-cards { grid-template-columns: 1fr; } }
+    .dual-card { border-radius: 12px; padding: 18px; border: 1px solid var(--border); }
+    .dual-card.king-card { background: var(--red-light); border-color: rgba(239,68,68,.2); }
+    .dual-card.koontz-card { background: var(--teal-light); border-color: rgba(45,212,191,.2); }
+    .dual-card h4 { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 10px; }
+    .king-card h4 { color: var(--red); }
+    .koontz-card h4 { color: var(--teal); }
+    .dual-card ul { list-style: none; }
+    .dual-card ul li { font-size: 14px; padding: 5px 0; border-bottom: 1px solid rgba(0,0,0,.05); display: flex; gap: 8px; color: #374151; line-height: 1.4; }
+    .dual-card ul li:last-child { border-bottom: none; }
+    .king-card ul li::before { content: "💀"; font-size: 12px; flex-shrink: 0; margin-top: 2px; }
+    .koontz-card ul li::before { content: "🔦"; font-size: 12px; flex-shrink: 0; margin-top: 2px; }
+
+    /* SCORE BARS */
+    .score-bars { margin: 20px 0; }
+    .sb-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+    .sb-name { width: 80px; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+    .sb-name.king-n { color: var(--red); }
+    .sb-name.koontz-n { color: var(--teal); }
+    .sb-bg { flex: 1; height: 10px; background: #E9ECEF; border-radius: 5px; overflow: hidden; }
+    .sb-fill { height: 100%; border-radius: 5px; }
+    .fill-king { background: linear-gradient(to right, #B91C1C, #DC2626); }
+    .fill-koontz { background: linear-gradient(to right, #0D7377, #14A085); }
+    .sb-val { width: 28px; font-size: 13px; font-weight: 800; text-align: right; }
+    .king-val { color: var(--red); }
+    .koontz-val { color: var(--teal); }
+
+    /* ROUND VERDICT */
+    .round-verdict { background: var(--light); border-radius: 10px; padding: 15px 18px; margin-top: 18px; font-size: 15px; color: #374151; border-left: 3px solid var(--red); }
+    .round-verdict.koontz-verdict { border-left-color: var(--teal); }
+    .round-verdict.tie-verdict { border-left-color: #6B7280; }
+    .round-verdict strong { color: var(--charcoal); }
+
+    /* BOOK SHELF CARDS */
+    .book-shelf { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 20px 0; }
+    @media (max-width: 500px) { .book-shelf { grid-template-columns: 1fr; } }
+    .book-card { display: flex; gap: 12px; align-items: flex-start; background: var(--light); border: 1px solid var(--border); border-radius: 10px; padding: 14px; text-decoration: none; color: var(--charcoal); transition: all .2s; }
+    .book-card:hover { border-color: var(--red); box-shadow: 0 4px 12px rgba(0,0,0,.08); }
+    .book-card.koontz-book:hover { border-color: var(--teal); }
+    .book-spine { width: 10px; border-radius: 3px; flex-shrink: 0; align-self: stretch; min-height: 50px; }
+    .spine-king { background: linear-gradient(to bottom, #B91C1C, #7F1D1D); }
+    .spine-koontz { background: linear-gradient(to bottom, #0D7377, #064E52); }
+    .book-info h5 { font-size: 14px; font-weight: 800; margin-bottom: 2px; color: var(--charcoal); }
+    .book-info .book-sub { font-size: 12px; color: var(--mid); margin-bottom: 6px; }
+    .book-info .amazon-tag { font-size: 12px; font-weight: 700; color: var(--amazon); }
+
+    /* BUY STRIP */
+    .buy-strip { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; border-radius: 12px; padding: 16px 18px; margin: 20px 0; }
+    .buy-strip.king-strip { background: var(--red-light); border: 1px solid rgba(239,68,68,.2); }
+    .buy-strip.koontz-strip { background: var(--teal-light); border: 1px solid rgba(45,212,191,.2); }
+    .buy-strip .bs-text { flex: 1; min-width: 180px; font-size: 14px; font-weight: 600; }
+    .king-strip .bs-text { color: var(--red-dark); }
+    .koontz-strip .bs-text { color: var(--teal-dark); }
+    .btn-buy { display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(to bottom, #FFD814, #F7CA00); color: #0F1111; font-size: 13px; font-weight: 700; padding: 10px 18px; border-radius: 7px; text-decoration: none; border: 1px solid #F0C14B; white-space: nowrap; transition: all .15s; }
+    .btn-buy:hover { transform: translateY(-1px); box-shadow: 0 4px 10px rgba(0,0,0,.15); }
+
+    /* PULL QUOTE */
+    .pull-quote { font-family: 'Playfair Display', serif; font-size: clamp(17px, 2.8vw, 23px); font-style: italic; color: var(--charcoal); border-left: 4px solid var(--red); padding: 14px 22px; margin: 32px 0; line-height: 1.5; }
+    .pull-quote.koontz-pq { border-left-color: var(--teal); }
+    .pull-quote cite { font-style: normal; font-size: 13px; font-weight: 700; color: var(--mid); display: block; margin-top: 8px; }
+
+    /* CALLOUT */
+    .callout { border-radius: 14px; padding: 22px 26px; margin: 30px 0; display: flex; align-items: flex-start; gap: 16px; }
+    .callout.king-callout { background: var(--red-light); border: 1px solid rgba(239,68,68,.2); }
+    .callout.koontz-callout { background: var(--teal-light); border: 1px solid rgba(45,212,191,.2); }
+    .callout-icon { font-size: 30px; flex-shrink: 0; }
+    .callout h4 { font-size: 16px; font-weight: 800; margin-bottom: 6px; }
+    .king-callout h4 { color: var(--red-dark); }
+    .king-callout p { font-size: 14px; color: var(--red-dark); margin: 0; opacity: .9; }
+    .koontz-callout h4 { color: var(--teal-dark); }
+    .koontz-callout p { font-size: 14px; color: var(--teal-dark); margin: 0; opacity: .9; }
+
+    /* FINAL TABLE */
+    .score-table-wrap { margin: 36px 0; overflow-x: auto; }
+    .score-table-wrap h2 { font-family: 'Playfair Display', serif; font-size: 26px; margin-bottom: 18px; }
+    table.score-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+    table.score-table th { padding: 14px 16px; font-weight: 800; font-size: 13px; background: var(--charcoal); color: #fff; text-align: center; }
+    table.score-table th:first-child { text-align: left; }
+    table.score-table td { padding: 13px 16px; border-bottom: 1px solid var(--border); text-align: center; }
+    table.score-table td:first-child { text-align: left; font-weight: 600; color: var(--mid); font-size: 14px; }
+    table.score-table tr:nth-child(even) td { background: var(--light); }
+    .td-king { color: var(--red); font-weight: 800; background: var(--red-light) !important; }
+    .td-koontz { color: var(--teal-dark); font-weight: 800; background: var(--teal-light) !important; }
+    .td-tie { color: #6B7280; font-weight: 700; }
+    .total-row td { font-weight: 900 !important; font-size: 16px; background: var(--charcoal) !important; color: #fff !important; border: none; }
+    .total-row .td-king-total { color: #EF4444 !important; background: var(--charcoal) !important; }
+    .total-row .td-koontz-total { color: #2DD4BF !important; background: var(--charcoal) !important; }
+
+    /* VERDICT */
+    .verdict-section { background: #0A0A0A; color: #fff; border-radius: 20px; padding: 44px 36px; margin: 40px 0; position: relative; overflow: hidden; }
+    .verdict-section::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 25% 50%, rgba(185,28,28,.15) 0%, transparent 60%), radial-gradient(ellipse at 75% 50%, rgba(13,115,119,.12) 0%, transparent 60%); pointer-events: none; }
+    .verdict-section .section-label { color: #EF4444; position: relative; }
+    .verdict-section h2 { font-family: 'Playfair Display', serif; font-size: 30px; margin-bottom: 18px; position: relative; }
+    .verdict-section p { color: #9CA3AF; font-size: 16px; margin-bottom: 16px; line-height: 1.75; position: relative; }
+    .verdict-section p:last-of-type { margin-bottom: 28px; }
+    .verdict-btns { display: flex; gap: 14px; flex-wrap: wrap; position: relative; }
+    .btn-king { display: inline-flex; align-items: center; gap: 8px; background: var(--red); color: #fff; font-size: 14px; font-weight: 800; padding: 13px 24px; border-radius: 8px; text-decoration: none; transition: all .15s; }
+    .btn-king:hover { background: var(--red-mid); transform: translateY(-1px); }
+    .btn-koontz { display: inline-flex; align-items: center; gap: 8px; background: rgba(45,212,191,.12); color: #2DD4BF; border: 2px solid rgba(45,212,191,.35); font-size: 14px; font-weight: 800; padding: 11px 22px; border-radius: 8px; text-decoration: none; transition: all .15s; }
+    .btn-koontz:hover { background: rgba(45,212,191,.2); }
+
+    /* RELATED */
+    .related { margin: 40px 0; }
+    .related h3 { font-family: 'Playfair Display', serif; font-size: 22px; margin-bottom: 18px; }
+    .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    @media (max-width: 560px) { .related-grid { grid-template-columns: 1fr; } }
+    .related-card { background: var(--light); border-radius: 12px; padding: 18px 16px; text-decoration: none; color: var(--charcoal); border: 1px solid var(--border); transition: all .2s; }
+    .related-card:hover { border-color: var(--red); box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+    .related-card .rc-emoji { font-size: 28px; margin-bottom: 8px; }
+    .related-card h4 { font-size: 14px; font-weight: 700; line-height: 1.3; margin-bottom: 6px; }
+    .related-card .rc-price { font-size: 13px; color: var(--red); font-weight: 700; }
+
+    footer { background: #0A0A0A; color: #4B5563; text-align: center; padding: 28px 20px; font-size: 13px; }
+    footer a { color: #EF4444; text-decoration: none; }
+
+    .buy-bar { position: fixed; bottom: 0; left: 0; right: 0; background: #0A0A0A; color: #fff; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; z-index: 200; box-shadow: 0 -4px 24px rgba(0,0,0,.5); flex-wrap: wrap; border-top: 1px solid #1F2937; }
+    .buy-bar-text { font-size: 14px; font-weight: 600; flex: 1; min-width: 160px; }
+    .buy-bar-text .king-c { color: #EF4444; }
+    .buy-bar-text .koontz-c { color: #2DD4BF; }
+    .buy-bar-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-bar { display: inline-block; padding: 10px 16px; border-radius: 7px; font-size: 13px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+    .btn-bar-king { background: var(--red); color: #fff; }
+    .btn-bar-koontz { border: 1px solid rgba(45,212,191,.4); color: #2DD4BF; }
+    .btn-bar-close { background: none; border: none; color: #4B5563; font-size: 20px; cursor: pointer; padding: 0 4px; line-height: 1; }
+  </style>
+</head>
+<body>
+
+<div class="topbar">📚 BestPickZone · Books &amp; Authors &nbsp;·&nbsp; <a href="#">Horror</a> · <a href="#">Thriller</a> · <a href="#">Bestsellers</a></div>
+
+<nav>
+  <a href="#" class="logo">Best<span>Pick</span>Zone</a>
+  <div class="nav-links"><a href="#">Books</a><a href="#">Authors</a><a href="#">Deals</a></div>
+</nav>
+
+<div class="hero">
+  <div class="hero-texture"></div>
+  <div class="hero-label">📚 Author Showdown</div>
+  <h1>
+    <span class="king">Stephen King</span>
+    <span class="vs">vs</span>
+    <span class="koontz">Dean Koontz</span>
+  </h1>
+  <p class="hero-sub">They've shared the same bookstore shelf for 40 years. One is the undisputed Master of Horror. One has sold 500 million books. Here's how they actually compare.</p>
+  <div class="hero-meta">
+    <span>✍️ By the BestPickZone Editors</span>
+    <span>📅 Updated June 2026</span>
+    <span>⏱ 8-min read</span>
+    <span>📚 8 categories judged</span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="disclosure">
+    <strong>Affiliate disclosure:</strong> BestPickZone earns a small commission on Amazon purchases through our links — at no extra cost to you. All books listed are confirmed in stock on Amazon as of June 2026.
+  </div>
+
+  <div class="scoreboard">
+    <div class="score-side king-side">
+      <div class="side-title king-title">💀 Stephen King</div>
+      <div class="side-sub">400M+ books sold · "Master of Horror"</div>
+      <span class="side-tag king-tag">Literary Champion</span>
+    </div>
+    <div class="score-middle">
+      <div class="vs-text">Score</div>
+      <div class="score-nums"><span class="s1">5</span><span class="div">–</span><span class="s2">3</span></div>
+    </div>
+    <div class="score-side koontz-side">
+      <div class="side-title koontz-title">🔦 Dean Koontz</div>
+      <div class="side-sub">500M+ books sold · 14 #1 NYT hardcovers</div>
+      <span class="side-tag koontz-tag">Pacing Master</span>
+    </div>
+  </div>
+
+  <div class="prose">
+    <div class="section-label">The Setup</div>
+    <h2 class="section-title">The Rivalry Nobody Officially Acknowledges — But Everyone Has an Opinion On</h2>
+    <p>Walk into any used bookstore and you'll find them side by side in the horror section: thick King paperbacks with cracked spines and Koontz novels with their distinctive embossed titles. They've been neighbors on shelves since the late 1970s, they've both dominated bestseller lists for decades, and fans have been debating which one is "better" ever since.</p>
+    <p>The honest answer is that they're doing different things. King writes literary horror — sprawling, character-driven, emotionally complex, occasionally shaggy. Koontz writes precision thrillers — faster, leaner, more optimistic, more focused on plot momentum. Calling one "better" depends entirely on what you want from a night with a book. But that doesn't mean the comparison isn't worth making. Here's ours.</p>
+  </div>
+
+  <div class="stat-compare">
+    <div class="stat-box king-box">
+      <h4>💀 Stephen King — By the Numbers</h4>
+      <div class="stat-row"><span class="label">Books sold</span><span class="val">400M+</span></div>
+      <div class="stat-row"><span class="label">Novels published</span><span class="val">65+</span></div>
+      <div class="stat-row"><span class="label">Major film adaptations</span><span class="val">50+</span></div>
+      <div class="stat-row"><span class="label">National Book Award</span><span class="val">2003, Medal</span></div>
+      <div class="stat-row"><span class="label">Est. net worth</span><span class="val">~$400M</span></div>
+    </div>
+    <div class="stat-box koontz-box">
+      <h4>🔦 Dean Koontz — By the Numbers</h4>
+      <div class="stat-row"><span class="label">Books sold</span><span class="val">500M+</span></div>
+      <div class="stat-row"><span class="label">Novels published</span><span class="val">100+</span></div>
+      <div class="stat-row"><span class="label">#1 NYT Hardcovers</span><span class="val">14</span></div>
+      <div class="stat-row"><span class="label">Languages translated</span><span class="val">38</span></div>
+      <div class="stat-row"><span class="label">Est. net worth</span><span class="val">~$145M</span></div>
+    </div>
+  </div>
+
+  <hr class="divider"/>
+
+  <!-- ROUND 1: PROSE STYLE -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 1 of 8</div>
+        <div class="round-title">✍️ Prose Style</div>
+      </div>
+      <div class="round-winner-chip chip-king">💀 King Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>King's prose is conversational, digressive, and deeply American. He writes the way people actually think — in fragments, in slang, in internal monologue that wanders before it sharpens. At his best, a King paragraph feels like someone you know telling you something that happened to them, except something is deeply wrong. That vernacular intimacy is extremely hard to fake, and King has it naturally.</p>
+        <p>Koontz writes with more elegance and more economy. His sentences are tighter, his descriptions more controlled — there's a poetic precision in his best work that King rarely reaches. But where King earns his digressions (a 10-page backstory on a minor character in <em>It</em> ends up mattering enormously), Koontz's leaner approach occasionally sacrifices depth for pace. Readers consistently praise Koontz's prose in Amazon reviews as "beautiful" and "lyrical" — while King's gets called "addictive" and "impossible to put down." Both are true. Both are different skills.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:93%"></div></div><span class="sb-val king-val">9.3</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:84%"></div></div><span class="sb-val koontz-val">8.4</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: King.</strong> His voice is one of the most distinctive in American fiction. The best Koontz prose is more polished — but King's is more alive.</div>
+      <div class="buy-strip king-strip">
+        <div class="bs-text">📦 In Stock: <em>On Writing</em> by Stephen King — half memoir, half craft masterclass. The most recommended book on writing in any genre.</div>
+        <a class="btn-buy" href="https://www.amazon.com/Writing-Memoir-Craft-Stephen-King/dp/1982159375?tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUND 2: THE SCARES -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 2 of 8</div>
+        <div class="round-title">😱 The Scares</div>
+      </div>
+      <div class="round-winner-chip chip-king">💀 King Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>King understands something about horror that most writers miss: <strong>the scariest thing is almost never the monster</strong>. It's the slow accumulation of wrongness. The Overlook Hotel in <em>The Shining</em> is terrifying not because of the ghosts but because of what it does to a man's mind over weeks. Pennywise in <em>It</em> is frightening not as a clown but as childhood fear itself, given form. King builds dread architecturally — carefully, over hundreds of pages — and then releases it.</p>
+        <p>Koontz goes for a different kind of tension: immediate, propulsive, visceral. <em>Intensity</em> — arguably his scariest book — keeps the reader in a state of sustained hyperventilation for 300 pages through pure pacing. There's no slow build; the threat is present from page one and never lets up. Amazon reviewers consistently say things like "I had to check my locks three times before bed." That's effective horror by a different method.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:96%"></div></div><span class="sb-val king-val">9.6</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:87%"></div></div><span class="sb-val koontz-val">8.7</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: King.</strong> Deeper, more lasting dread. But Koontz's <em>Intensity</em> might be the most viscerally terrifying single reading experience either author has produced.</div>
+      <div class="buy-strip koontz-strip">
+        <div class="bs-text">📦 In Stock: <em>Intensity</em> by Dean Koontz — his scariest book. Reviewers call it "the most nerve-wracking novel I've ever read."</div>
+        <a class="btn-buy" href="https://www.amazon.com/Intensity-Dean-Koontz/dp/0553572369?tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull-quote">"Monsters are real, and ghosts are real too. They live inside us, and sometimes, they win."
+    <cite>— Stephen King</cite>
+  </div>
+
+  <!-- ROUND 3: CHARACTERS -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 3 of 8</div>
+        <div class="round-title">👥 Characters</div>
+      </div>
+      <div class="round-winner-chip chip-king">💀 King Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>King's characters are his greatest strength and arguably his greatest contribution to popular fiction. Annie Wilkes in <em>Misery</em>. Jack Torrance in <em>The Shining</em>. The Losers Club in <em>It</em>. These are people with full inner lives, contradictions, histories, and voices so specific you'd recognize them from a single line of dialogue. King has said he never outlines — he puts characters in situations and watches what they do. The results are often messy, but they're deeply human.</p>
+        <p>Koontz's protagonists tend toward a consistent type: competent, decent, moral people in extraordinary circumstances. They're likable, they're skilled, and readers root for them — but they're less likely to surprise you. His supporting characters can be memorably eccentric (Odd Thomas is one of the most warmly received narrator-characters in the genre), but the emotional complexity King reaches with his leads is rarer in Koontz's catalog.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:97%"></div></div><span class="sb-val king-val">9.7</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:79%"></div></div><span class="sb-val koontz-val">7.9</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: King.</strong> By a significant margin. Some of the most memorable characters in popular fiction live in his books. Koontz's heroes are reliable; King's are unforgettable.</div>
+    </div>
+  </div>
+
+  <!-- ROUND 4: PACING -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 4 of 8</div>
+        <div class="round-title">⚡ Pacing & Page-Turn Factor</div>
+      </div>
+      <div class="round-winner-chip chip-koontz">🔦 Koontz Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>This is Koontz's signature advantage. His books are engineered for momentum — short chapters, cliffhangers, immediate threats, relentless forward motion. A Koontz reader rarely looks up. Amazon reviews across his catalog return to the same phrases: "read it in one sitting," "couldn't put it down," "missed an entire night's sleep." That's not accidental. Koontz is one of the most technically skilled thriller-pacing writers in the business.</p>
+        <p>King is famously slow to build. <em>The Stand</em> is 1,153 pages. <em>It</em> is 1,138. His most devoted fans will tell you the length is justified — that every page earns its place. But his critics aren't wrong that King novels can drag, especially in their second acts. The famous ending problem (King endings are notoriously divisive among readers) is a pacing issue as much as a craft one.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:74%"></div></div><span class="sb-val king-val">7.4</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:96%"></div></div><span class="sb-val koontz-val">9.6</span></div>
+      </div>
+      <div class="round-verdict koontz-verdict"><strong>Winner: Koontz.</strong> For sheer propulsive momentum, he's the better technician. If you want a book that won't let you sleep, start with Koontz.</div>
+      <div class="buy-strip koontz-strip">
+        <div class="bs-text">📦 In Stock: <em>Watchers</em> by Dean Koontz — his most beloved novel. 6,000+ Amazon reviews call it "impossible to put down."</div>
+        <a class="btn-buy" href="https://www.amazon.com/Watchers-Dean-Koontz/dp/0425188809?tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUND 5: ICONIC WORKS -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 5 of 8</div>
+        <div class="round-title">🏆 Most Iconic Works</div>
+      </div>
+      <div class="round-winner-chip chip-king">💀 King Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="dual-cards">
+        <div class="dual-card king-card">
+          <h4>💀 King's Greatest Hits</h4>
+          <ul>
+            <li><em>The Shining</em> — the gold standard of psychological horror</li>
+            <li><em>It</em> — 1,100 pages; readers finish it and feel bereft</li>
+            <li><em>The Stand</em> — an American mythology of good vs. evil</li>
+            <li><em>Misery</em> — the tightest thriller he's ever written</li>
+            <li><em>Pet Sematary</em> — his most personally frightening, he says</li>
+          </ul>
+        </div>
+        <div class="dual-card koontz-card">
+          <h4>🔦 Koontz's Greatest Hits</h4>
+          <ul>
+            <li><em>Watchers</em> — the fan favorite; man and a very special dog</li>
+            <li><em>Intensity</em> — his scariest; a masterclass in sustained tension</li>
+            <li><em>Odd Thomas</em> — his warmest; launched a beloved series</li>
+            <li><em>Lightning</em> — underrated WWII time-travel thriller</li>
+            <li><em>Darkfall</em> — pure supernatural horror at his bleakest</li>
+          </ul>
+        </div>
+      </div>
+      <div class="prose">
+        <p>The titles in King's column are cultural objects — <em>The Shining</em>, <em>It</em>, <em>Pet Sematary</em>, <em>Carrie</em>. They're referenced in other art, parodied in comedy, taught in schools. Koontz's best books are beloved by their readers but haven't achieved that same level of cultural permanence. <em>Watchers</em> is an extraordinary novel — but it hasn't spawned 50 years of references the way <em>The Shining</em> has.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:98%"></div></div><span class="sb-val king-val">9.8</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:80%"></div></div><span class="sb-val koontz-val">8.0</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: King.</strong> His peak works are cultural touchstones. Koontz's peaks are excellent novels. That's a meaningful difference.</div>
+
+      <div class="book-shelf">
+        <a class="book-card" href="https://www.amazon.com/Shining-Stephen-King/dp/0307743659?tag=althcu-20" target="_blank" rel="noopener">
+          <div class="book-spine spine-king"></div>
+          <div class="book-info"><h5>The Shining</h5><div class="book-sub">Stephen King · In Stock</div><div class="amazon-tag">🛒 View on Amazon →</div></div>
+        </a>
+        <a class="book-card" href="https://www.amazon.com/Stand-Stephen-King/dp/0307947300?tag=althcu-20" target="_blank" rel="noopener">
+          <div class="book-spine spine-king"></div>
+          <div class="book-info"><h5>The Stand</h5><div class="book-sub">Stephen King · In Stock</div><div class="amazon-tag">🛒 View on Amazon →</div></div>
+        </a>
+        <a class="book-card koontz-book" href="https://www.amazon.com/Odd-Thomas-Dean-Koontz/dp/0553584197?tag=althcu-20" target="_blank" rel="noopener">
+          <div class="book-spine spine-koontz"></div>
+          <div class="book-info"><h5>Odd Thomas</h5><div class="book-sub">Dean Koontz · In Stock</div><div class="amazon-tag">🛒 View on Amazon →</div></div>
+        </a>
+        <a class="book-card koontz-book" href="https://www.amazon.com/Watchers-Dean-Koontz/dp/0425188809?tag=althcu-20" target="_blank" rel="noopener">
+          <div class="book-spine spine-koontz"></div>
+          <div class="book-info"><h5>Watchers</h5><div class="book-sub">Dean Koontz · In Stock</div><div class="amazon-tag">🛒 View on Amazon →</div></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull-quote koontz-pq">"Once you have accepted the truth that you and every person you love will die, a kind of peace settles over you."
+    <cite>— Dean Koontz, <em>Odd Thomas</em></cite>
+  </div>
+
+  <!-- ROUND 6: ADAPTATIONS -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 6 of 8</div>
+        <div class="round-title">🎬 Film & TV Adaptations</div>
+      </div>
+      <div class="round-winner-chip chip-king">💀 King Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>Stephen King adaptations include <em>The Shawshank Redemption</em>, <em>Stand By Me</em>, <em>Misery</em>, <em>The Green Mile</em>, <em>Carrie</em>, <em>It</em> (the highest-grossing horror film in history at the time of release), <em>Doctor Sleep</em>, and Kubrick's <em>The Shining</em> — one of the most studied films in cinema. This is a staggering legacy of adaptation, spanning every decade from the 1970s to today, with more projects perpetually in development.</p>
+        <p>Koontz has had more mixed results on screen. <em>Watchers</em> was adapted badly multiple times. <em>Odd Thomas</em> got a faithful but underseen adaptation in 2013. <em>Intensity</em> became a solid TV movie. The honest assessment: Koontz's books are harder to adapt, and Hollywood hasn't found the formula. His stories often rely heavily on interior voice — the thing that makes them work on the page — which is difficult to translate.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:97%"></div></div><span class="sb-val king-val">9.7</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:58%"></div></div><span class="sb-val koontz-val">5.8</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: King.</strong> This one isn't close. His adaptations include some of the greatest films ever made. Koontz adaptations are an ongoing missed opportunity.</div>
+    </div>
+  </div>
+
+  <!-- ROUND 7: CONSISTENCY -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 7 of 8</div>
+        <div class="round-title">📈 Consistency Across the Catalog</div>
+      </div>
+      <div class="round-winner-chip chip-koontz">🔦 Koontz Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>King is famously inconsistent. For every <em>The Shining</em> there's a <em>Dreamcatcher</em>. For every <em>Misery</em> there's a <em>Cell</em>. He writes prolifically and accepts that not everything will work — and his misses can be genuinely poor. His Amazon reviews reflect this: 5-star raves alongside 2-star complaints that the ending wasted 1,000 pages of setup. The highs are exceptional. The lows are real.</p>
+        <p>Koontz is more consistent. His floor is higher — a mediocre Koontz novel is still a competent, propulsive thriller with a satisfying ending. Amazon reviewers cite this reliability constantly: "I know what I'm getting with Koontz," "Never been disappointed," "Exactly what I wanted." For a reader who values certainty over ceiling, Koontz is the safer bet.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:72%"></div></div><span class="sb-val king-val">7.2</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:88%"></div></div><span class="sb-val koontz-val">8.8</span></div>
+      </div>
+      <div class="round-verdict koontz-verdict"><strong>Winner: Koontz.</strong> The most consistent thriller writer in the genre. King's catalog has more peaks — and more valleys.</div>
+    </div>
+  </div>
+
+  <div class="callout koontz-callout">
+    <div class="callout-icon">🔦</div>
+    <div>
+      <h4>The Koontz Guarantee</h4>
+      <p>Koontz's Amazon reviews return again and again to the same word: <em>reliable</em>. His books end. They resolve. His heroes win, or if they don't, there's meaning in the loss. After a divisive King ending — and King has produced some of the most debated endings in popular fiction — that reliability is genuinely appealing.</p>
+    </div>
+  </div>
+
+  <!-- ROUND 8: WHERE TO START -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 8 of 8</div>
+        <div class="round-title">🚪 Where to Start — Accessibility</div>
+      </div>
+      <div class="round-winner-chip chip-koontz">🔦 Koontz Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>If someone has never read either author and wants to start tonight, Koontz is the easier entry point. <em>Watchers</em> opens with a man encountering an unusually intelligent golden retriever in the mountains. Within 30 pages, you're hooked. The books are self-contained, the tone is accessible, and the satisfaction is almost guaranteed.</p>
+        <p>King has a higher barrier. His best-recommended starter — <em>Misery</em> — is excellent, compact (by King standards), and self-contained. But even then, a reader expecting thriller pacing will find King's setup slower than they're used to. That slowness pays off, but it requires trust. Amazon reviews of King's work are full of people who "tried him once and bounced off" before being convinced to try again — and then couldn't stop.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name king-n">King</span><div class="sb-bg"><div class="sb-fill fill-king" style="width:73%"></div></div><span class="sb-val king-val">7.3</span></div>
+        <div class="sb-row"><span class="sb-name koontz-n">Koontz</span><div class="sb-bg"><div class="sb-fill fill-koontz" style="width:92%"></div></div><span class="sb-val koontz-val">9.2</span></div>
+      </div>
+      <div class="round-verdict koontz-verdict"><strong>Winner: Koontz.</strong> Lower activation energy, faster hook, more reliable reward. Start here — then graduate to King once you're ready for something slower and deeper.</div>
+      <div class="buy-strip king-strip">
+        <div class="bs-text">📦 In Stock: <em>Misery</em> by Stephen King — the best King starter. Compact, terrifying, perfectly paced for first-timers. 25,000+ Amazon reviews.</div>
+        <a class="btn-buy" href="https://www.amazon.com/Misery-Stephen-King/dp/1501156700?tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL TABLE -->
+  <div class="score-table-wrap">
+    <div class="section-label">Final Scorecard</div>
+    <h2>All 8 Rounds — The Complete Verdict</h2>
+    <table class="score-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th style="color:#EF4444;">💀 King</th>
+          <th style="color:#2DD4BF;">🔦 Koontz</th>
+          <th>Winner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>✍️ Prose Style</td><td class="td-king">9.3</td><td>8.4</td><td class="td-king">💀 King</td></tr>
+        <tr><td>😱 The Scares</td><td class="td-king">9.6</td><td>8.7</td><td class="td-king">💀 King</td></tr>
+        <tr><td>👥 Characters</td><td class="td-king">9.7</td><td>7.9</td><td class="td-king">💀 King</td></tr>
+        <tr><td>⚡ Pacing</td><td>7.4</td><td class="td-koontz">9.6</td><td class="td-koontz">🔦 Koontz</td></tr>
+        <tr><td>🏆 Iconic Works</td><td class="td-king">9.8</td><td>8.0</td><td class="td-king">💀 King</td></tr>
+        <tr><td>🎬 Adaptations</td><td class="td-king">9.7</td><td>5.8</td><td class="td-king">💀 King</td></tr>
+        <tr><td>📈 Consistency</td><td>7.2</td><td class="td-koontz">8.8</td><td class="td-koontz">🔦 Koontz</td></tr>
+        <tr><td>🚪 Accessibility</td><td>7.3</td><td class="td-koontz">9.2</td><td class="td-koontz">🔦 Koontz</td></tr>
+        <tr class="total-row">
+          <td>🏆 Final</td>
+          <td class="td-king-total">5 Wins</td>
+          <td class="td-koontz-total">3 Wins</td>
+          <td style="color:#EF4444; font-weight:900; background:var(--charcoal)!important;">💀 King Wins</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-section">
+    <div class="section-label">The Verdict</div>
+    <h2>King Wins — But Koontz Is the Right Author for More People</h2>
+    <p>Stephen King is the better author by most literary measures — richer prose, more complex characters, more culturally significant works, a film adaptation legacy that includes some of the greatest movies ever made. <em>The Shining</em> alone would win this argument. If you want to understand what makes horror fiction great, King is the answer.</p>
+    <p>But Dean Koontz is the right author for more readers, more of the time. His books are more accessible, more consistent, faster-moving, and more reliably satisfying. He doesn't produce <em>The Stand</em> — but he also doesn't produce <em>Dreamcatcher</em>. Every Koontz novel delivers on its promise. That matters at 11pm on a Tuesday when you just want a book that earns your attention and pays it back.</p>
+    <p><strong>Our honest advice: start with Koontz's <em>Watchers</em>. Then read King's <em>Misery</em>. Then read <em>It</em>. Then you'll understand why this argument has run for 40 years.</strong></p>
+    <div class="verdict-btns">
+      <a class="btn-king" href="https://www.amazon.com/Misery-Stephen-King/dp/1501156700?tag=althcu-20" target="_blank" rel="noopener">💀 Start With King's <em>Misery</em> →</a>
+      <a class="btn-koontz" href="https://www.amazon.com/Watchers-Dean-Koontz/dp/0425188809?tag=althcu-20" target="_blank" rel="noopener">🔦 Start With Koontz's <em>Watchers</em> →</a>
+    </div>
+  </div>
+
+  <div class="related">
+    <div class="section-label">Keep Reading</div>
+    <h3>If You Love These, Try These Next</h3>
+    <div class="related-grid">
+      <a class="related-card" href="https://www.amazon.com/s?k=shirley+jackson+we+have+always+lived+in+the+castle&tag=althcu-20" target="_blank" rel="noopener">
+        <div class="rc-emoji">🏚️</div>
+        <h4>Shirley Jackson — The Haunting of Hill House. King's biggest influence.</h4>
+        <div class="rc-price">In Stock on Amazon →</div>
+      </a>
+      <a class="related-card" href="https://www.amazon.com/s?k=joe+hill+heart+shaped+box&tag=althcu-20" target="_blank" rel="noopener">
+        <div class="rc-emoji">🎸</div>
+        <h4>Joe Hill — King's son. Heart-Shaped Box is a stunning debut.</h4>
+        <div class="rc-price">In Stock on Amazon →</div>
+      </a>
+      <a class="related-card" href="bestpickzone-lotr-vs-harry-potter.html">
+        <div class="rc-emoji">⚔️</div>
+        <h4>LotR vs. Harry Potter — Our Previous Fantasy Author Showdown</h4>
+        <div class="rc-price">Read the Article →</div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 BestPickZone · <a href="#">Privacy</a> · <a href="#">Affiliate Disclosure</a> · <a href="#">Contact</a></p>
+  <p style="margin-top:8px; max-width:600px; margin-left:auto; margin-right:auto;">BestPickZone participates in the Amazon Services LLC Associates Program. All books confirmed in stock on Amazon at time of publication.</p>
+</footer>
+
+<div class="buy-bar" id="buyBar">
+  <div class="buy-bar-text">💀 <span class="king-c">King: <em>Misery</em></span> &nbsp;|&nbsp; 🔦 <span class="koontz-c">Koontz: <em>Watchers</em></span></div>
+  <div class="buy-bar-btns">
+    <a class="btn-bar btn-bar-king" href="https://www.amazon.com/Misery-Stephen-King/dp/1501156700?tag=althcu-20" target="_blank" rel="noopener">💀 Get Misery →</a>
+    <a class="btn-bar btn-bar-koontz" href="https://www.amazon.com/Watchers-Dean-Koontz/dp/0425188809?tag=althcu-20" target="_blank" rel="noopener">🔦 Get Watchers →</a>
+  </div>
+  <button class="btn-bar-close" onclick="document.getElementById('buyBar').style.display='none'">✕</button>
+</div>
+<div style="height:68px;"></div>
+
+</body>
+</html>

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lord of the Rings vs. Harry Potter: The Definitive 2026 Breakdown | BestPickZone</title>
+  <meta name="description" content="Two fantasy worlds. One debate that's raged for 25 years. We scored them head-to-head across 8 categories — books, films, world-building, characters, and more. Here's the honest verdict."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #C8973A;
+      --gold-light: #FFF8E7;
+      --gold-dark: #8B6914;
+      --crimson: #8B1A1A;
+      --crimson-light: #FFF0F0;
+      --navy: #0F1B35;
+      --slate: #1E2D4A;
+      --mid: #5A6478;
+      --light: #F8F9FC;
+      --border: #E4E8F0;
+      --amazon: #FF9900;
+      --white: #fff;
+    }
+
+    body { font-family: 'Inter', sans-serif; background: #fff; color: var(--navy); line-height: 1.7; font-size: 17px; }
+
+    .topbar { background: #0A1020; color: #8899BB; font-size: 12px; text-align: center; padding: 8px 16px; letter-spacing: .4px; }
+    .topbar a { color: #C8973A; text-decoration: none; }
+
+    nav { border-bottom: 1px solid var(--border); background: #fff; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 6px rgba(0,0,0,.06); }
+    .logo { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 900; color: var(--navy); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 20px; font-size: 13px; font-weight: 600; }
+    .nav-links a { color: var(--mid); text-decoration: none; }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(170deg, #0A1020 0%, #0F1B35 40%, #1A0A0A 100%);
+      padding: 64px 24px 56px;
+      text-align: center;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-stars {
+      position: absolute; inset: 0; pointer-events: none; overflow: hidden;
+    }
+    .star { position: absolute; background: #fff; border-radius: 50%; }
+    .hero::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(to right, #C8973A, #8B1A1A, #C8973A);
+    }
+    .hero-label { display: inline-block; background: linear-gradient(135deg, #C8973A, #8B6914); color: #fff; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; padding: 5px 16px; border-radius: 20px; margin-bottom: 22px; position: relative; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 5.5vw, 52px); font-weight: 900; line-height: 1.1; max-width: 820px; margin: 0 auto 20px; position: relative; }
+    .hero h1 .lotr { color: #C8973A; }
+    .hero h1 .vs { color: #888; font-size: 0.7em; display: block; margin: 6px 0; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; }
+    .hero h1 .hp { color: #E57373; }
+    .hero-sub { font-size: 18px; opacity: .82; max-width: 600px; margin: 0 auto 28px; position: relative; }
+    .hero-meta { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; font-size: 13px; opacity: .55; position: relative; }
+
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+
+    .disclosure { background: var(--gold-light); border-left: 4px solid var(--gold); border-radius: 4px; padding: 14px 18px; font-size: 13px; color: var(--gold-dark); margin: 30px 0; }
+
+    /* SCOREBOARD */
+    .scoreboard {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 0;
+      margin: 0 0 40px;
+      border: 2px solid var(--border);
+      border-radius: 18px;
+      overflow: hidden;
+      background: var(--light);
+    }
+    .score-side { padding: 28px 20px; text-align: center; }
+    .score-side.lotr-side { background: linear-gradient(135deg, #1A130A, #2C1D0A); color: #fff; }
+    .score-side.hp-side { background: linear-gradient(135deg, #1A0A0A, #2C0A0A); color: #fff; }
+    .score-middle { background: var(--navy); color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px 16px; min-width: 80px; }
+    .score-middle .vs-text { font-size: 11px; font-weight: 800; letter-spacing: 3px; color: #8899BB; text-transform: uppercase; margin-bottom: 6px; }
+    .score-middle .score-nums { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 900; line-height: 1; }
+    .score-middle .score-nums .s1 { color: #C8973A; }
+    .score-middle .score-nums .div { color: #8899BB; margin: 0 2px; }
+    .score-middle .score-nums .s2 { color: #E57373; }
+    .side-title { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 900; margin-bottom: 4px; }
+    .side-title.lotr-title { color: #C8973A; }
+    .side-title.hp-title { color: #E57373; }
+    .side-sub { font-size: 12px; opacity: .7; margin-bottom: 14px; }
+    .side-tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 20px; letter-spacing: .5px; text-transform: uppercase; }
+    .lotr-tag { background: rgba(200,151,58,.2); color: #C8973A; border: 1px solid rgba(200,151,58,.4); }
+    .hp-tag { background: rgba(229,115,115,.2); color: #E57373; border: 1px solid rgba(229,115,115,.4); }
+    @media (max-width: 520px) {
+      .scoreboard { grid-template-columns: 1fr; }
+      .score-middle { flex-direction: row; gap: 16px; padding: 16px 20px; min-width: auto; }
+    }
+
+    /* SECTION LABELS */
+    .section-label { font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+    h2.section-title { font-family: 'Playfair Display', serif; font-size: 30px; line-height: 1.2; margin-bottom: 16px; }
+    .prose p { margin-bottom: 18px; color: #374151; }
+    .prose p:last-child { margin-bottom: 0; }
+    .prose strong { font-weight: 700; color: var(--navy); }
+
+    .divider { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+
+    /* ROUND BLOCK */
+    .round-block {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      margin: 32px 0;
+    }
+    .round-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 24px;
+      background: var(--navy);
+      color: #fff;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .round-label { font-size: 11px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: #8899BB; }
+    .round-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 900; margin-top: 2px; }
+    .round-winner-chip { font-size: 12px; font-weight: 800; padding: 6px 16px; border-radius: 20px; white-space: nowrap; }
+    .chip-lotr { background: rgba(200,151,58,.25); color: #C8973A; border: 1px solid rgba(200,151,58,.4); }
+    .chip-hp { background: rgba(229,115,115,.25); color: #E57373; border: 1px solid rgba(229,115,115,.4); }
+    .chip-tie { background: rgba(136,153,187,.2); color: #8899BB; border: 1px solid rgba(136,153,187,.3); }
+    .round-body { padding: 24px; }
+
+    /* DUAL CARDS */
+    .dual-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 18px 0 20px; }
+    @media (max-width: 540px) { .dual-cards { grid-template-columns: 1fr; } }
+    .dual-card { border-radius: 12px; padding: 18px; border: 2px solid transparent; }
+    .dual-card.lotr-card { background: linear-gradient(135deg, #FFF8E7, #FEF0CC); border-color: rgba(200,151,58,.4); }
+    .dual-card.hp-card { background: linear-gradient(135deg, #FFF0F0, #FFE0E0); border-color: rgba(229,115,115,.4); }
+    .dual-card h4 { font-size: 14px; font-weight: 800; margin-bottom: 10px; text-transform: uppercase; letter-spacing: .5px; }
+    .lotr-card h4 { color: var(--gold-dark); }
+    .hp-card h4 { color: var(--crimson); }
+    .dual-card ul { list-style: none; }
+    .dual-card ul li { font-size: 14px; padding: 5px 0; border-bottom: 1px solid rgba(0,0,0,.05); display: flex; gap: 8px; color: #374151; }
+    .dual-card ul li:last-child { border-bottom: none; }
+    .lotr-card ul li::before { content: "⚔️"; font-size: 13px; flex-shrink: 0; }
+    .hp-card ul li::before { content: "⚡"; font-size: 13px; flex-shrink: 0; }
+
+    /* SCORE BAR */
+    .score-bars { margin: 20px 0; }
+    .sb-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+    .sb-name { width: 90px; font-size: 13px; font-weight: 700; flex-shrink: 0; }
+    .sb-name.lotr-name { color: var(--gold-dark); }
+    .sb-name.hp-name { color: var(--crimson); }
+    .sb-bg { flex: 1; height: 10px; background: #E9ECEF; border-radius: 5px; overflow: hidden; }
+    .sb-fill { height: 100%; border-radius: 5px; }
+    .fill-gold { background: linear-gradient(to right, #C8973A, #D4A84B); }
+    .fill-crimson { background: linear-gradient(to right, #8B1A1A, #C0392B); }
+    .sb-score { width: 28px; font-size: 13px; font-weight: 800; text-align: right; }
+    .sb-score.gold-score { color: var(--gold-dark); }
+    .sb-score.crimson-score { color: var(--crimson); }
+
+    .round-verdict { background: var(--light); border-radius: 10px; padding: 16px 18px; margin-top: 16px; font-size: 15px; color: #374151; border-left: 3px solid var(--gold); }
+    .round-verdict.hp-verdict { border-left-color: var(--crimson); }
+    .round-verdict.tie-verdict { border-left-color: var(--slate); }
+    .round-verdict strong { color: var(--navy); }
+
+    /* AMAZON CTA INLINE */
+    .buy-strip {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+      background: var(--gold-light);
+      border: 1px solid rgba(200,151,58,.3);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 20px 0;
+    }
+    .buy-strip .bs-text { flex: 1; min-width: 180px; font-size: 14px; font-weight: 600; color: var(--gold-dark); }
+    .btn-buy { display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(to bottom, #FFD814, #F7CA00); color: #0F1111; font-size: 13px; font-weight: 700; padding: 10px 18px; border-radius: 7px; text-decoration: none; border: 1px solid #F0C14B; white-space: nowrap; transition: all .15s; }
+    .btn-buy:hover { transform: translateY(-1px); box-shadow: 0 4px 10px rgba(0,0,0,.15); }
+
+    .buy-strip.hp-strip { background: var(--crimson-light); border-color: rgba(139,26,26,.2); }
+    .buy-strip.hp-strip .bs-text { color: var(--crimson); }
+
+    /* QUOTE PULL */
+    .pull-quote { font-family: 'Playfair Display', serif; font-size: clamp(18px, 3vw, 26px); font-style: italic; color: var(--navy); border-left: 4px solid var(--gold); padding: 16px 24px; margin: 32px 0; line-height: 1.45; }
+    .pull-quote.crimson-quote { border-left-color: var(--crimson); }
+
+    /* CALLOUT */
+    .callout { border-radius: 14px; padding: 22px 26px; margin: 30px 0; display: flex; align-items: flex-start; gap: 16px; }
+    .callout.gold-callout { background: linear-gradient(135deg, #FFF8E7, #FEF0CC); border: 1px solid rgba(200,151,58,.4); }
+    .callout.crimson-callout { background: linear-gradient(135deg, #FFF0F0, #FFE0E0); border: 1px solid rgba(139,26,26,.3); }
+    .callout-icon { font-size: 30px; flex-shrink: 0; }
+    .callout h4 { font-size: 16px; font-weight: 800; margin-bottom: 6px; }
+    .gold-callout h4 { color: var(--gold-dark); }
+    .gold-callout p { font-size: 14px; color: #5a3e00; margin: 0; }
+    .crimson-callout h4 { color: var(--crimson); }
+    .crimson-callout p { font-size: 14px; color: #7a0000; margin: 0; }
+
+    /* FINAL TABLE */
+    .score-table-wrap { margin: 36px 0; overflow-x: auto; }
+    .score-table-wrap h2 { font-family: 'Playfair Display', serif; font-size: 26px; margin-bottom: 18px; }
+    table.score-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+    table.score-table th { padding: 14px 16px; font-weight: 800; font-size: 13px; background: var(--navy); color: #fff; text-align: center; }
+    table.score-table th:first-child { text-align: left; }
+    table.score-table td { padding: 13px 16px; border-bottom: 1px solid var(--border); text-align: center; }
+    table.score-table td:first-child { text-align: left; font-weight: 600; color: var(--mid); font-size: 14px; }
+    table.score-table tr:nth-child(even) td { background: var(--light); }
+    .td-lotr { color: var(--gold-dark); font-weight: 800; background: var(--gold-light) !important; }
+    .td-hp { color: var(--crimson); font-weight: 800; background: var(--crimson-light) !important; }
+    .td-tie { color: var(--slate); font-weight: 700; }
+    .score-trophy { font-size: 16px; }
+    .total-row td { font-weight: 900 !important; font-size: 16px; background: var(--navy) !important; color: #fff !important; border-bottom: none; }
+    .total-row td.td-lotr-total { color: #C8973A !important; background: var(--navy) !important; }
+    .total-row td.td-hp-total { color: #E57373 !important; background: var(--navy) !important; }
+
+    /* VERDICT */
+    .verdict-section {
+      background: linear-gradient(170deg, #0A1020 0%, #0F1B35 60%, #1A0A0A 100%);
+      color: #fff;
+      border-radius: 20px;
+      padding: 44px 36px;
+      margin: 40px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .verdict-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 30% 50%, rgba(200,151,58,.12) 0%, transparent 60%),
+                  radial-gradient(ellipse at 70% 50%, rgba(139,26,26,.12) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .verdict-section .section-label { color: var(--gold); position: relative; }
+    .verdict-section h2 { font-family: 'Playfair Display', serif; font-size: 30px; margin-bottom: 18px; position: relative; }
+    .verdict-section p { color: #B0BFDE; font-size: 16px; margin-bottom: 16px; line-height: 1.75; position: relative; }
+    .verdict-section p:last-of-type { margin-bottom: 28px; }
+    .verdict-btns { display: flex; gap: 14px; flex-wrap: wrap; position: relative; }
+    .btn-gold { display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #C8973A, #D4A84B); color: #0A1020; font-size: 14px; font-weight: 800; padding: 13px 24px; border-radius: 8px; text-decoration: none; transition: all .15s; }
+    .btn-gold:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(200,151,58,.4); }
+    .btn-crimson { display: inline-flex; align-items: center; gap: 8px; background: rgba(229,115,115,.15); color: #E57373; border: 2px solid rgba(229,115,115,.4); font-size: 14px; font-weight: 800; padding: 11px 22px; border-radius: 8px; text-decoration: none; transition: all .15s; }
+    .btn-crimson:hover { background: rgba(229,115,115,.25); }
+
+    /* RELATED */
+    .related { margin: 40px 0; }
+    .related h3 { font-family: 'Playfair Display', serif; font-size: 22px; margin-bottom: 18px; }
+    .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    @media (max-width: 560px) { .related-grid { grid-template-columns: 1fr; } }
+    .related-card { background: var(--light); border-radius: 12px; padding: 18px 16px; text-decoration: none; color: var(--navy); border: 1px solid var(--border); transition: all .2s; }
+    .related-card:hover { border-color: var(--gold); box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+    .related-card .rc-emoji { font-size: 28px; margin-bottom: 8px; }
+    .related-card h4 { font-size: 14px; font-weight: 700; line-height: 1.3; margin-bottom: 6px; }
+    .related-card .rc-price { font-size: 13px; color: var(--gold); font-weight: 700; }
+
+    footer { background: var(--navy); color: #5A6478; text-align: center; padding: 28px 20px; font-size: 13px; }
+    footer a { color: var(--gold); text-decoration: none; }
+
+    .buy-bar { position: fixed; bottom: 0; left: 0; right: 0; background: #0A1020; color: #fff; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; z-index: 200; box-shadow: 0 -4px 20px rgba(0,0,0,.4); flex-wrap: wrap; border-top: 1px solid #1E2D4A; }
+    .buy-bar-text { font-size: 14px; font-weight: 600; flex: 1; min-width: 160px; }
+    .buy-bar-text .lotr-c { color: #C8973A; }
+    .buy-bar-text .hp-c { color: #E57373; }
+    .buy-bar-btns { display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn-bar { display: inline-block; padding: 10px 16px; border-radius: 7px; font-size: 13px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+    .btn-bar-gold { background: linear-gradient(135deg, #C8973A, #D4A84B); color: #0A1020; }
+    .btn-bar-crimson { border: 1px solid rgba(229,115,115,.5); color: #E57373; }
+    .btn-bar-close { background: none; border: none; color: #5A6478; font-size: 20px; cursor: pointer; padding: 0 4px; line-height: 1; }
+  </style>
+</head>
+<body>
+
+<div class="topbar">📚 BestPickZone · Books &amp; Entertainment &nbsp;·&nbsp; <a href="#">Fantasy</a> · <a href="#">Sci-Fi</a> · <a href="#">Box Sets</a></div>
+
+<nav>
+  <a href="#" class="logo">Best<span>Pick</span>Zone</a>
+  <div class="nav-links"><a href="#">Books</a><a href="#">Movies</a><a href="#">Deals</a></div>
+</nav>
+
+<div class="hero">
+  <div class="hero-stars">
+    <div class="star" style="width:2px;height:2px;top:8%;left:12%;opacity:.8"></div>
+    <div class="star" style="width:3px;height:3px;top:15%;left:34%;opacity:.5"></div>
+    <div class="star" style="width:2px;height:2px;top:5%;left:67%;opacity:.7"></div>
+    <div class="star" style="width:1px;height:1px;top:22%;left:80%;opacity:.6"></div>
+    <div class="star" style="width:3px;height:3px;top:40%;left:5%;opacity:.4"></div>
+    <div class="star" style="width:2px;height:2px;top:60%;left:90%;opacity:.5"></div>
+    <div class="star" style="width:2px;height:2px;top:70%;left:45%;opacity:.3"></div>
+    <div class="star" style="width:1px;height:1px;top:30%;left:55%;opacity:.6"></div>
+  </div>
+  <div class="hero-label">⚔️ The Great Fantasy Debate</div>
+  <h1>
+    <span class="lotr">Lord of the Rings</span>
+    <span class="vs">vs</span>
+    <span class="hp">Harry Potter</span>
+  </h1>
+  <p class="hero-sub">Two generations. Two fantasy worlds. One debate that's run for 25 years. We scored them head-to-head across 8 categories — and the results might surprise you.</p>
+  <div class="hero-meta">
+    <span>✍️ By the BestPickZone Editors</span>
+    <span>📅 Updated June 2026</span>
+    <span>⏱ 8-min read</span>
+    <span>📚 8 categories judged</span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="disclosure">
+    <strong>Note:</strong> BestPickZone earns a small commission on Amazon purchases made through our links — at no extra cost to you. All book sets and Blu-rays listed are confirmed in stock on Amazon as of June 2026.
+  </div>
+
+  <!-- SCOREBOARD -->
+  <div class="scoreboard">
+    <div class="score-side lotr-side">
+      <div class="side-title lotr-title">⚔️ Lord of the Rings</div>
+      <div class="side-sub">J.R.R. Tolkien · Peter Jackson</div>
+      <span class="side-tag lotr-tag">Literary Masterpiece</span>
+    </div>
+    <div class="score-middle">
+      <div class="vs-text">Final Score</div>
+      <div class="score-nums"><span class="s1">5</span><span class="div">–</span><span class="s2">3</span></div>
+    </div>
+    <div class="score-side hp-side">
+      <div class="side-title hp-title">⚡ Harry Potter</div>
+      <div class="side-sub">J.K. Rowling · Warner Bros.</div>
+      <span class="side-tag hp-tag">Cultural Phenomenon</span>
+    </div>
+  </div>
+
+  <div class="prose">
+    <div class="section-label">Let's Be Honest</div>
+    <h2 class="section-title">This Isn't Really a Fair Fight. But It's the Most Interesting One.</h2>
+    <p>Tolkien and Rowling are answering different questions. Tolkien asked: <em>what if the world had a mythology as deep and ancient as Norse legend, but written in English?</em> Rowling asked: <em>what if magic school was a place that made every lonely kid feel seen?</em> Both questions are legitimate. Both answers changed the world.</p>
+    <p>But if you're buying a box set, deciding what to read first, or settling a debate that's been running since 1999 — you need a verdict. So here's ours, category by category, with no nostalgia bias and no fan-service.</p>
+  </div>
+
+  <hr class="divider"/>
+
+  <!-- ROUND 1: THE BOOKS -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 1 of 8</div>
+        <div class="round-title">📖 The Books</div>
+      </div>
+      <div class="round-winner-chip chip-lotr">🏆 LotR Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>As a literary achievement, <em>The Lord of the Rings</em> is simply in a different category. Tolkien didn't just write a story — he constructed a world with its own languages (Quenya, Sindarin), its own creation myth (<em>The Silmarillion</em>), its own calendars and alphabets and histories spanning thousands of years. The prose is dense, deliberate, and occasionally slow — but it earns every word. The Shire feels real in a way few fictional places ever have.</p>
+        <p>The Harry Potter books are <strong>vastly more readable and genuinely addictive</strong> — reviewers on Amazon consistently describe finishing books in single sittings, something vanishingly rare with Tolkien. Rowling's plotting is masterful, her mysteries satisfying, and her characters stick with readers in a way that's deeply personal. But at the level of language, depth, and literary ambition, Tolkien wins this round decisively.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name lotr-name">LotR</span><div class="sb-bg"><div class="sb-fill fill-gold" style="width:97%"></div></div><span class="sb-score gold-score">9.7</span></div>
+        <div class="sb-row"><span class="sb-name hp-name">Harry Potter</span><div class="sb-bg"><div class="sb-fill fill-crimson" style="width:84%"></div></div><span class="sb-score crimson-score">8.4</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: Lord of the Rings.</strong> As a work of literature, it's among the most ambitious in the English language. The HP books are enormously enjoyable — just not operating at the same literary altitude.</div>
+
+      <div class="buy-strip">
+        <div class="bs-text">📦 In Stock on Amazon: J.R.R. Tolkien 4-Book Boxed Set (The Hobbit + LotR trilogy)</div>
+        <a class="btn-buy" href="https://www.amazon.com/J-R-R-Tolkien-4-Book-Boxed-Set/dp/0345538374?tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+      <div class="buy-strip hp-strip">
+        <div class="bs-text">📦 In Stock on Amazon: Harry Potter Complete 7-Book Paperback Box Set</div>
+        <a class="btn-buy" href="https://www.amazon.com/Harry-Potter-Complete-Paperback-Volumes/dp/B0CT1BDNH9?tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUND 2: THE FILMS -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 2 of 8</div>
+        <div class="round-title">🎬 The Films</div>
+      </div>
+      <div class="round-winner-chip chip-lotr">🏆 LotR Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>Peter Jackson's <em>Lord of the Rings</em> trilogy is the most ambitious film adaptation in cinema history. Shot over 16 months across New Zealand with thousands of practical effects, custom-built locations, and a cast of hundreds — it won <strong>17 Academy Awards</strong> across three films, including Best Picture for <em>Return of the King</em>. Howard Shore's score is one of the greatest in film history. The production design is unmatched.</p>
+        <p>The Harry Potter films are beloved and genuinely good — the early ones directed by Chris Columbus are charming, and the later David Yates films find real emotional darkness. But as cinema, they're adaptations first and films second. With some exceptions (<em>Prisoner of Azkaban</em>, directed by Alfonso Cuarón, is genuinely excellent), they rarely transcend their source material. The LotR films transcend theirs.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name lotr-name">LotR</span><div class="sb-bg"><div class="sb-fill fill-gold" style="width:98%"></div></div><span class="sb-score gold-score">9.8</span></div>
+        <div class="sb-row"><span class="sb-name hp-name">Harry Potter</span><div class="sb-bg"><div class="sb-fill fill-crimson" style="width:79%"></div></div><span class="sb-score crimson-score">7.9</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: Lord of the Rings.</strong> Not close. The Extended Editions are some of the greatest films ever made. The HP films are enjoyable franchise entertainment at their best.</div>
+
+      <div class="buy-strip">
+        <div class="bs-text">📦 In Stock: LotR Theatrical + Extended Editions — 4K Ultra HD Available</div>
+        <a class="btn-buy" href="https://www.amazon.com/s?k=lord+of+the+rings+extended+edition+4k+blu+ray&tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+      <div class="buy-strip hp-strip">
+        <div class="bs-text">📦 In Stock: Harry Potter Complete 8-Film Collection (Blu-ray)</div>
+        <a class="btn-buy" href="https://www.amazon.com/Harry-Potter-Complete-8-Film-Collection/dp/B005OCFGTO?tag=althcu-20" target="_blank" rel="noopener">🛒 Check Price →</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull-quote">"Not all those who wander are lost." — J.R.R. Tolkien, <em>The Fellowship of the Ring</em></div>
+
+  <!-- ROUND 3: WORLD-BUILDING -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 3 of 8</div>
+        <div class="round-title">🗺️ World-Building & Lore</div>
+      </div>
+      <div class="round-winner-chip chip-lotr">🏆 LotR Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>This round isn't a competition. Middle-earth has <strong>thousands of years of documented history</strong> across <em>The Silmarillion</em>, <em>Unfinished Tales</em>, <em>The Children of Húrin</em>, and 12 volumes of <em>The History of Middle-earth</em>. Tolkien invented two complete elvish languages with their own grammatical rules, etymology, and phonology. The world exists at a level of depth that no other fantasy universe has ever matched.</p>
+        <p>The Wizarding World is rich and deeply imaginative — Diagon Alley, Hogwarts, Quidditch, the Ministry of Magic. Rowling has an extraordinary gift for world-building details that feel both surprising and inevitable. But it operates at a different scale. Hogwarts is a wonderful place. Middle-earth is a world.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name lotr-name">LotR</span><div class="sb-bg"><div class="sb-fill fill-gold" style="width:99%"></div></div><span class="sb-score gold-score">9.9</span></div>
+        <div class="sb-row"><span class="sb-name hp-name">Harry Potter</span><div class="sb-bg"><div class="sb-fill fill-crimson" style="width:82%"></div></div><span class="sb-score crimson-score">8.2</span></div>
+      </div>
+      <div class="round-verdict"><strong>Winner: Lord of the Rings.</strong> The most complete secondary world ever created in fiction. The Wizarding World is delightful — but it wasn't built to the same depth.</div>
+    </div>
+  </div>
+
+  <div class="callout gold-callout">
+    <div class="callout-icon">📜</div>
+    <div>
+      <h4>Tolkien Invented an Entire Language. Two of Them.</h4>
+      <p>Quenya and Sindarin are functional languages with complete grammar, vocabulary, and sound systems. Tolkien was a professional philologist at Oxford. The world-building in LotR isn't a product of a novelist imagining a world — it's a linguist who built a world to give his languages somewhere to exist.</p>
+    </div>
+  </div>
+
+  <!-- ROUND 4: CHARACTERS -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 4 of 8</div>
+        <div class="round-title">👥 Characters</div>
+      </div>
+      <div class="round-winner-chip chip-hp">⚡ HP Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>This is Harry Potter's strongest round — and it wins clearly. Rowling writes characters with a specificity and psychological depth that Tolkien rarely achieves. Hermione Granger, Ron Weasley, Severus Snape, Dumbledore, Neville Longbottom, Luna Lovegood — these characters feel <em>known</em> in a way that Frodo, Sam, and Aragorn, for all their nobility, don't quite reach. Snape in particular is one of the great character arcs in 20th-century fiction.</p>
+        <p>Tolkien's characters are archetypes: the reluctant hero, the wise wizard, the corrupted king. They serve the myth. That's intentional — <em>LotR</em> is a myth in the tradition of Beowulf and the Elder Edda, not a character novel. But it means that when you finish Harry Potter you miss specific people. When you finish LotR you miss a world.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name lotr-name">LotR</span><div class="sb-bg"><div class="sb-fill fill-gold" style="width:76%"></div></div><span class="sb-score gold-score">7.6</span></div>
+        <div class="sb-row"><span class="sb-name hp-name">Harry Potter</span><div class="sb-bg"><div class="sb-fill fill-crimson" style="width:96%"></div></div><span class="sb-score crimson-score">9.6</span></div>
+      </div>
+      <div class="round-verdict hp-verdict"><strong>Winner: Harry Potter.</strong> Rowling's greatest gift is characterization. Snape alone might win this round for her. The HP cast is one of the richest ensembles in popular fiction.</div>
+    </div>
+  </div>
+
+  <div class="pull-quote crimson-quote">"It does not do to dwell on dreams and forget to live." — Albus Dumbledore, <em>Harry Potter and the Philosopher's Stone</em></div>
+
+  <!-- ROUND 5: ACCESSIBILITY -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 5 of 8</div>
+        <div class="round-title">🚀 Accessibility & Gateway Power</div>
+      </div>
+      <div class="round-winner-chip chip-hp">⚡ HP Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>Harry Potter wins this round by a landslide — and it matters. Millions of people who had never voluntarily read a book finished <em>The Goblet of Fire</em> in a weekend. The series created a generation of readers, many of whom then went on to read everything else — including, eventually, Tolkien. Reading researchers have documented the "Harry Potter effect" on childhood literacy: measurable increases in reading frequency among kids who encountered the series.</p>
+        <p><em>The Fellowship of the Ring</em> is wonderful, but it opens with 50 pages about Hobbits and pipe-weed before anything happens. It rewards patient readers enormously — but it requires patient readers. As a gateway drug to fantasy and to reading itself, Harry Potter is unmatched in the history of literature.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name lotr-name">LotR</span><div class="sb-bg"><div class="sb-fill fill-gold" style="width:68%"></div></div><span class="sb-score gold-score">6.8</span></div>
+        <div class="sb-row"><span class="sb-name hp-name">Harry Potter</span><div class="sb-bg"><div class="sb-fill fill-crimson" style="width:99%"></div></div><span class="sb-score crimson-score">9.9</span></div>
+      </div>
+      <div class="round-verdict hp-verdict"><strong>Winner: Harry Potter.</strong> The most accessible great fantasy ever written. Start here if you're introducing someone to the genre — or returning to it.</div>
+    </div>
+  </div>
+
+  <div class="callout crimson-callout">
+    <div class="callout-icon">📊</div>
+    <div>
+      <h4>500 Million Copies Sold — and Counting</h4>
+      <p>The Harry Potter series has sold over 500 million copies in 80+ languages, making it the best-selling book series in history. The Amazon reviews for the complete box set include thousands of entries from parents describing their children reading until 2am. That cultural reach — and the readers it created — is a legacy no other fantasy series can claim.</p>
+    </div>
+  </div>
+
+  <!-- ROUND 6: EMOTIONAL IMPACT -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 6 of 8</div>
+        <div class="round-title">💔 Emotional Impact</div>
+      </div>
+      <div class="round-winner-chip chip-tie">🤝 Too Close — Split Decision</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>The death of Sirius Black. Fred Weasley. Dobby. Snape's memories in the Pensieve. Harry walking into the Forbidden Forest. Rowling earns genuine grief from her readers — the Amazon reviews for <em>Deathly Hallows</em> are full of people describing crying for hours, re-reading chapters, needing days to recover.</p>
+        <p>But "the grey rain-curtain of this world rolls back, and all turns to silver glass, and then you see it…" — the Grey Havens sequence that closes <em>Return of the King</em> is one of the most devastating endings in all of literature. The sense of <em>eucatastrophe</em> — Tolkien's word for the sudden turn from sorrow to joy — hits harder than almost anything Rowling writes. Different kind of emotional impact. Equally real.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name lotr-name">LotR</span><div class="sb-bg"><div class="sb-fill fill-gold" style="width:91%"></div></div><span class="sb-score gold-score">9.1</span></div>
+        <div class="sb-row"><span class="sb-name hp-name">Harry Potter</span><div class="sb-bg"><div class="sb-fill fill-crimson" style="width:92%"></div></div><span class="sb-score crimson-score">9.2</span></div>
+      </div>
+      <div class="round-verdict tie-verdict"><strong>Split decision.</strong> LotR's emotional register is slower and deeper. HP's is more immediate and personal. Both will make you cry. We're giving this one to HP by the slimmest margin — Snape's chapter alone.</div>
+    </div>
+  </div>
+
+  <!-- ROUND 7: VILLAIN -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 7 of 8</div>
+        <div class="round-title">🦹 The Villains</div>
+      </div>
+      <div class="round-winner-chip chip-lotr">🏆 LotR Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="dual-cards">
+        <div class="dual-card lotr-card">
+          <h4>⚔️ Sauron / The Ring</h4>
+          <ul>
+            <li>The Eye of Sauron — pure corrupting dread</li>
+            <li>The Ring itself as villain — corrupts everyone</li>
+            <li>Gollum as a tragic portrait of evil's consequence</li>
+            <li>No monologues, no backstory — just ancient malice</li>
+          </ul>
+        </div>
+        <div class="dual-card hp-card">
+          <h4>⚡ Lord Voldemort</h4>
+          <ul>
+            <li>Compelling backstory — tragic orphan to monster</li>
+            <li>Ralph Fiennes' film performance is iconic</li>
+            <li>Real menace in the later books</li>
+            <li>Loses some menace when present on-page frequently</li>
+          </ul>
+        </div>
+      </div>
+      <div class="prose">
+        <p>Sauron never appears. He is a disembodied Eye, an ancient malice that warps everything around it. That absence is the point — evil in <em>LotR</em> is a force, not a person, and the Ring is its physical avatar. Gollum, the most compelling character in the trilogy, is what happens to a person after generations of corruption by that force. It's a more sophisticated conception of evil than almost anything in fantasy literature.</p>
+        <p>Voldemort is a genuinely effective villain — more so in the books than the films — but his repeated failures and resurrections across seven books inevitably diminish his menace. His backstory (Half-blood orphan, racist ideology, fear of death) is interesting, but his actual screen presence is often underwhelming compared to the fear he's supposed to project.</p>
+      </div>
+      <div class="round-verdict"><strong>Winner: Lord of the Rings.</strong> Sauron is one of literature's great monsters precisely because he barely appears. The Ring as the true villain is a more sophisticated and frightening concept than any individual antagonist.</div>
+    </div>
+  </div>
+
+  <!-- ROUND 8: REWATCH/REREAD -->
+  <div class="round-block">
+    <div class="round-header">
+      <div>
+        <div class="round-label">Round 8 of 8</div>
+        <div class="round-title">🔄 Re-readability / Re-watchability</div>
+      </div>
+      <div class="round-winner-chip chip-hp">⚡ HP Wins</div>
+    </div>
+    <div class="round-body">
+      <div class="prose">
+        <p>Amazon reviews for the Harry Potter box set are full of adults describing their fifth, sixth, seventh re-reads. The books reward return visits because Rowling seeds the entire series with foreshadowing — details in Book 1 that only make sense after Book 7. Reviewers report noticing new things on every re-read, particularly around Snape. The emotional hits land differently once you know what's coming.</p>
+        <p>The LotR Extended Editions are among the most rewatched films in cinema — but re-reading the books is a more demanding proposition. Tolkien's prose is richly rewarding on return, but it requires the same patience the second time. For casual re-consumption, Harry Potter has a lower activation energy and a faster pace that makes it easier to pick up and fall back into.</p>
+      </div>
+      <div class="score-bars">
+        <div class="sb-row"><span class="sb-name lotr-name">LotR</span><div class="sb-bg"><div class="sb-fill fill-gold" style="width:83%"></div></div><span class="sb-score gold-score">8.3</span></div>
+        <div class="sb-row"><span class="sb-name hp-name">Harry Potter</span><div class="sb-bg"><div class="sb-fill fill-crimson" style="width:95%"></div></div><span class="sb-score crimson-score">9.5</span></div>
+      </div>
+      <div class="round-verdict hp-verdict"><strong>Winner: Harry Potter.</strong> Structurally designed for re-reading. The foreshadowing alone justifies multiple passes, and the comfort factor for returning readers is unmatched.</div>
+    </div>
+  </div>
+
+  <!-- FINAL SCORE TABLE -->
+  <div class="score-table-wrap">
+    <div class="section-label">Final Scorecard</div>
+    <h2>Category by Category — The Verdict</h2>
+    <table class="score-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th style="color:#C8973A;">⚔️ LotR</th>
+          <th style="color:#E57373;">⚡ Harry Potter</th>
+          <th>Winner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>📖 The Books</td><td class="td-lotr">9.7</td><td>8.4</td><td class="td-lotr">⚔️ LotR</td></tr>
+        <tr><td>🎬 The Films</td><td class="td-lotr">9.8</td><td>7.9</td><td class="td-lotr">⚔️ LotR</td></tr>
+        <tr><td>🗺️ World-Building</td><td class="td-lotr">9.9</td><td>8.2</td><td class="td-lotr">⚔️ LotR</td></tr>
+        <tr><td>👥 Characters</td><td>7.6</td><td class="td-hp">9.6</td><td class="td-hp">⚡ HP</td></tr>
+        <tr><td>🚀 Accessibility</td><td>6.8</td><td class="td-hp">9.9</td><td class="td-hp">⚡ HP</td></tr>
+        <tr><td>💔 Emotional Impact</td><td>9.1</td><td class="td-hp">9.2</td><td class="td-hp">⚡ HP</td></tr>
+        <tr><td>🦹 The Villain</td><td class="td-lotr">9.5</td><td>7.8</td><td class="td-lotr">⚔️ LotR</td></tr>
+        <tr><td>🔄 Re-readability</td><td>8.3</td><td class="td-hp">9.5</td><td class="td-hp">⚡ HP</td></tr>
+        <tr class="total-row">
+          <td>🏆 Final Score</td>
+          <td class="td-lotr-total">5 Wins</td>
+          <td class="td-hp-total">3 Wins</td>
+          <td style="color:#C8973A; font-weight:900;">⚔️ LotR Wins</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-section">
+    <div class="section-label">The Verdict</div>
+    <h2>Lord of the Rings Wins. But Harry Potter Is More Important.</h2>
+    <p>On the scorecard, <em>Lord of the Rings</em> wins 5–3. As a literary and cinematic achievement, as a feat of world-building, as a work of art — it is the greater accomplishment. There is no fantasy universe more completely realized, no film trilogy more deserving of its reputation, no mythology built with more care and depth by a single human being.</p>
+    <p>But here's what the scorecard doesn't capture: <em>Harry Potter</em> may have done more good in the world. It created readers. It made children who had never finished a book read 700 pages in a weekend. It gave a generation a shared language — references, values, a sense that loyalty and courage and love defeat cruelty. The 500 million copies sold aren't just sales numbers. They're lives that were shaped by Hogwarts.</p>
+    <p><strong>Read Lord of the Rings for the greatest fantasy ever written. Read Harry Potter first — because it'll make you love reading enough to get to Tolkien.</strong></p>
+    <div class="verdict-btns">
+      <a class="btn-gold" href="https://www.amazon.com/J-R-R-Tolkien-4-Book-Boxed-Set/dp/0345538374?tag=althcu-20" target="_blank" rel="noopener">⚔️ Get the LotR 4-Book Set →</a>
+      <a class="btn-crimson" href="https://www.amazon.com/Harry-Potter-Complete-Paperback-Volumes/dp/B0CT1BDNH9?tag=althcu-20" target="_blank" rel="noopener">⚡ Get the HP 7-Book Set →</a>
+    </div>
+  </div>
+
+  <div class="related">
+    <div class="section-label">Keep Reading</div>
+    <h3>More from BestPickZone Books</h3>
+    <div class="related-grid">
+      <a class="related-card" href="https://www.amazon.com/s?k=the+hobbit+annotated+edition&tag=althcu-20" target="_blank" rel="noopener">
+        <div class="rc-emoji">🏔️</div>
+        <h4>The Hobbit — Start Here Before Fellowship</h4>
+        <div class="rc-price">In Stock on Amazon →</div>
+      </a>
+      <a class="related-card" href="https://www.amazon.com/s?k=harry+potter+illustrated+edition+book+1&tag=althcu-20" target="_blank" rel="noopener">
+        <div class="rc-emoji">🎨</div>
+        <h4>Harry Potter Illustrated Editions — Gift-Ready and Stunning</h4>
+        <div class="rc-price">In Stock on Amazon →</div>
+      </a>
+      <a class="related-card" href="https://www.amazon.com/s?k=name+of+the+wind+kingkiller+chronicle&tag=althcu-20" target="_blank" rel="noopener">
+        <div class="rc-emoji">📖</div>
+        <h4>Read Both? Try The Kingkiller Chronicle Next</h4>
+        <div class="rc-price">In Stock on Amazon →</div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 BestPickZone · <a href="#">Privacy</a> · <a href="#">Affiliate Disclosure</a> · <a href="#">Contact</a></p>
+  <p style="margin-top:8px; max-width:600px; margin-left:auto; margin-right:auto;">BestPickZone participates in the Amazon Services LLC Associates Program. All products confirmed in stock at time of publication.</p>
+</footer>
+
+<div class="buy-bar" id="buyBar">
+  <div class="buy-bar-text">⚔️ <span class="lotr-c">LotR 4-Book Set</span> &nbsp;|&nbsp; ⚡ <span class="hp-c">HP 7-Book Set</span> — both in stock</div>
+  <div class="buy-bar-btns">
+    <a class="btn-bar btn-bar-gold" href="https://www.amazon.com/J-R-R-Tolkien-4-Book-Boxed-Set/dp/0345538374?tag=althcu-20" target="_blank" rel="noopener">⚔️ Get LotR →</a>
+    <a class="btn-bar btn-bar-crimson" href="https://www.amazon.com/Harry-Potter-Complete-Paperback-Volumes/dp/B0CT1BDNH9?tag=althcu-20" target="_blank" rel="noopener">⚡ Get HP →</a>
+  </div>
+  <button class="btn-bar-close" onclick="document.getElementById('buyBar').style.display='none'">✕</button>
+</div>
+<div style="height:68px;"></div>
+
+</body>
+</html>
