@@ -790,6 +790,17 @@ Even when using this richer design, still follow these rules:
 - keep pros and cons practical
 - make related links point only to live pages
 
+### Raw HTML publishing rule
+
+When a user provides finished HTML and explicitly asks to post it as-is:
+
+- keep the provided HTML structure and copy intact by default
+- only change the Amazon referral tag if it is wrong
+- check every Amazon link for the correct `althcu-20` tag before publishing
+- only make extra edits if there is a real rendering or publish-blocking error
+
+In short: verify the affiliate link first, then publish the supplied HTML unless it would break on-site.
+
 ### HTML example structure
 
 Use this as the reference skeleton when translating raw HTML or designing future article pages:

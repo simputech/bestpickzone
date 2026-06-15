@@ -17,6 +17,15 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: 'oxo-vs-chefn-corn-stripper',
+    title: "OXO vs Chef'n Corn Stripper",
+    description:
+      'A raw-HTML summer kitchen showdown between two popular corn strippers, posted as provided with the corrected BestPickZone Amazon affiliate tag.',
+    badge: 'Head-to-Head',
+    badgeColor: 'bg-lime-100 text-lime-700',
+    comingSoon: false,
+  },
+  {
     slug: 'oxo-vs-fullstar-avocado-slicer',
     title: 'OXO vs Fullstar Avocado Slicer',
     description:
@@ -103,6 +112,13 @@ export default function HomeKitchenPage() {
       <div className="mb-8 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">
         <strong>New live guides:</strong> Our latest Home &amp; Kitchen pages are{' '}
         <Link
+          href="/home-kitchen/oxo-vs-chefn-corn-stripper"
+          className="font-semibold underline underline-offset-2"
+        >
+          OXO vs Chef&apos;n Corn Stripper
+        </Link>
+        ,{' '}
+        <Link
           href="/home-kitchen/oxo-vs-fullstar-avocado-slicer"
           className="font-semibold underline underline-offset-2"
         >
@@ -176,7 +192,9 @@ export default function HomeKitchenPage() {
           Each Home &amp; Kitchen article on BestPickZone should feel complete, skimmable,
           and conversion-ready. That now includes showdown-style pages with an answer-first
           hero, quick verdict cards, product-by-product breakdowns, a visual comparison table,
-          FAQ support, and direct Amazon CTAs placed where buyer intent is strongest.
+          FAQ support, direct Amazon CTAs placed where buyer intent is strongest, and
+          occasional raw-HTML launches when the supplied design is already strong and
+          publishable.
         </p>
       </section>
     </main>
