@@ -34,6 +34,7 @@ const sections = [
     copy: 'These pages convert when they foreground footprint, adjustment planes, typing angle, and all-day hand comfort.',
     items: [
       ['Fully Jarvis vs Uplift V2 Standing Desk', 'Stability, frame options, and desktop sizing', '/wfh/fully-jarvis-vs-uplift-v2-standing-desk'],
+      ['Ergotron LX vs Amazon Basics Monitor Arm', 'The $28 arm is secretly made by Ergotron — here is where the gap actually shows', '/wfh/ergotron-lx-vs-amazon-basics-monitor-arm'],
       ['Logitech MX Master 3S vs Apple Magic Mouse', 'Ergonomic control vs low-profile Apple workflow', '/wfh/logitech-mx-master-3s-vs-apple-magic-mouse'],
       ['Logitech MX Keys S vs Apple Magic Keyboard', 'Travel, layout, and device switching', '/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard'],
       ['VariDesk Converter vs Vivo Desk Riser', 'Temporary standing setup vs budget riser logic', '/wfh/varidesk-converter-vs-vivo-desk-riser'],

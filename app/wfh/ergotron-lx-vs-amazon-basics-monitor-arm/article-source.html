@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ergotron LX vs Amazon Basics Monitor Arm: Is the $28 Version Actually the Same? | BestPickZone</title>
+<meta name="description" content="The Amazon Basics Lift Engine Arm is secretly made by Ergotron. So is the $28 version the same as the $160 original? We break down every difference.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --navy: #08142e;
+    --navy-mid: #0f1f42;
+    --navy-light: #1a2f5e;
+    --blue: #3b82f6;
+    --blue-bright: #60a5fa;
+    --cyan: #06b6d4;
+    --silver: #94a3b8;
+    --silver-light: #cbd5e1;
+    --white: #f8fafc;
+    --card-bg: #111d3a;
+    --card-border: #1e3055;
+    --pill-a: #1d4ed8;
+    --pill-b: #0e7490;
+    --win-gold: #f59e0b;
+    --text-muted: #64748b;
+    --pro-green: #10b981;
+    --con-red: #ef4444;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--navy);
+    color: var(--white);
+    line-height: 1.7;
+  }
+
+  /* NAV */
+  nav {
+    background: rgba(8,20,46,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--card-border);
+    padding: 0 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+  }
+  .logo span { color: var(--blue); }
+  .nav-links { display: flex; gap: 24px; }
+  .nav-links a {
+    color: var(--silver);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--white); }
+
+  /* BUY BAR */
+  .buy-bar {
+    background: linear-gradient(90deg, #1d3a6e, #0a2040);
+    border-bottom: 2px solid var(--blue);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 60px;
+    z-index: 99;
+  }
+  .buy-bar span {
+    font-size: 0.82rem;
+    color: var(--silver-light);
+    font-weight: 500;
+  }
+  .buy-bar .bar-btns { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .bar-btn {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s;
+    letter-spacing: 0.3px;
+  }
+  .bar-btn.a { background: var(--pill-a); color: #fff; }
+  .bar-btn.b { background: var(--pill-b); color: #fff; }
+  .bar-btn:hover { opacity: 0.85; transform: translateY(-1px); }
+  .bar-close {
+    background: none;
+    border: none;
+    color: var(--silver);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 4px;
+    margin-left: 8px;
+  }
+  .bar-close:hover { color: var(--white); }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #08142e 0%, #0f1f42 50%, #0a1a3a 100%);
+    padding: 60px 20px 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: 50%; transform: translateX(-50%);
+    width: 600px; height: 300px;
+    background: radial-gradient(ellipse, rgba(59,130,246,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hub-tag {
+    display: inline-block;
+    background: rgba(59,130,246,0.15);
+    color: var(--blue-bright);
+    border: 1px solid rgba(59,130,246,0.3);
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    max-width: 800px;
+    margin: 0 auto 16px;
+    color: var(--white);
+  }
+  .hero h1 .vs { color: var(--cyan); font-style: italic; }
+  .hero-sub {
+    font-size: 1.05rem;
+    color: var(--silver-light);
+    max-width: 600px;
+    margin: 0 auto 28px;
+    line-height: 1.6;
+  }
+  .hero-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--silver);
+  }
+  .hero-meta span::before { content: '·'; margin-right: 20px; }
+  .hero-meta span:first-child::before { content: ''; margin-right: 0; }
+
+  /* CONTENDERS STRIP */
+  .contenders {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-top: 36px;
+  }
+  .contender-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+  }
+  .contender-card.winner { border-color: var(--win-gold); }
+  .c-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .c-label.a { color: var(--blue-bright); }
+  .c-label.b { color: var(--cyan); }
+  .c-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+  .c-price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--win-gold);
+  }
+  .c-badge {
+    display: inline-block;
+    background: var(--win-gold);
+    color: #000;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+  .vs-badge {
+    width: 50px;
+    height: 50px;
+    background: var(--navy-mid);
+    border: 2px solid var(--card-border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--silver);
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+
+  /* MAIN */
+  .main { max-width: 860px; margin: 0 auto; padding: 48px 20px 80px; }
+
+  /* DISCLOSURE */
+  .disclosure {
+    background: rgba(59,130,246,0.07);
+    border: 1px solid rgba(59,130,246,0.2);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.78rem;
+    color: var(--silver);
+    margin-bottom: 36px;
+    line-height: 1.5;
+  }
+  .disclosure strong { color: var(--blue-bright); }
+
+  /* SECTION HEADERS */
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--white);
+    line-height: 1.2;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--white);
+  }
+  p { color: var(--silver-light); margin-bottom: 16px; }
+
+  /* QUICK VERDICT */
+  .quick-verdict {
+    background: linear-gradient(135deg, #0f1f42, #111d3a);
+    border: 1px solid var(--card-border);
+    border-top: 3px solid var(--win-gold);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 48px;
+  }
+  .qv-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--win-gold);
+    margin-bottom: 10px;
+  }
+  .qv-body { font-size: 1.02rem; color: var(--silver-light); line-height: 1.7; }
+  .qv-body strong { color: var(--white); }
+
+  /* SECRET REVEAL CALLOUT */
+  .secret-box {
+    background: linear-gradient(135deg, rgba(6,182,212,0.1), rgba(59,130,246,0.08));
+    border: 1px solid rgba(6,182,212,0.3);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 48px;
+  }
+  .secret-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--cyan);
+    margin-bottom: 10px;
+  }
+  .secret-box h3 { font-size: 1.2rem; margin-bottom: 12px; color: var(--cyan); }
+  .secret-box p { margin-bottom: 0; }
+
+  /* PRODUCT BLOCKS */
+  .product-block {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 32px;
+    margin-bottom: 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-block.a { border-top: 4px solid var(--blue); }
+  .product-block.b { border-top: 4px solid var(--cyan); }
+  .product-block.winner-block { border-color: var(--win-gold); border-top-width: 4px; }
+
+  .pb-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .pb-title-group { flex: 1; min-width: 200px; }
+  .pb-brand {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .pb-brand.a { color: var(--blue-bright); }
+  .pb-brand.b { color: var(--cyan); }
+  .pb-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .winner-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--win-gold);
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+  .pb-pricing { text-align: right; }
+  .pb-price { font-size: 2rem; font-weight: 800; color: var(--win-gold); }
+  .pb-note { font-size: 0.75rem; color: var(--silver); margin-top: 2px; }
+
+  /* RATINGS */
+  .ratings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .rating-item { display: flex; flex-direction: column; gap: 5px; }
+  .rating-label { font-size: 0.75rem; font-weight: 600; color: var(--silver); }
+  .rating-bar-bg {
+    height: 6px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .rating-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+  }
+  .fill-blue { background: linear-gradient(90deg, var(--blue), var(--blue-bright)); }
+  .fill-cyan { background: linear-gradient(90deg, var(--cyan), #67e8f9); }
+  .rating-score { font-size: 0.75rem; font-weight: 700; color: var(--white); }
+
+  /* SPECS LIST */
+  .specs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .spec-item {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+  .spec-key { font-size: 0.7rem; color: var(--silver); font-weight: 600; margin-bottom: 2px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .spec-val { font-size: 0.9rem; font-weight: 700; color: var(--white); }
+
+  /* PROS CONS */
+  .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  .pro-con-list { display: flex; flex-direction: column; gap: 8px; }
+  .pro-con-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .pro-con-title.pros { color: var(--pro-green); }
+  .pro-con-title.cons { color: var(--con-red); }
+  .pro-item, .con-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--silver-light);
+    line-height: 1.4;
+  }
+  .pro-dot { color: var(--pro-green); font-size: 1rem; line-height: 1; flex-shrink: 0; margin-top: 1px; }
+  .con-dot { color: var(--con-red); font-size: 1rem; line-height: 1; flex-shrink: 0; margin-top: 1px; }
+
+  /* BUY BUTTON */
+  .buy-btn {
+    display: block;
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.3px;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+  }
+  .buy-btn.a { background: var(--blue); color: #fff; }
+  .buy-btn.b { background: var(--cyan); color: #08142e; }
+  .buy-btn:hover { opacity: 0.88; transform: translateY(-2px); }
+  .buy-sub { font-size: 0.72rem; color: var(--silver); text-align: center; margin-top: 6px; }
+
+  /* HEAD TO HEAD */
+  .h2h-section { margin-bottom: 48px; }
+  .h2h-entry {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .h2h-topic {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--silver);
+    margin-bottom: 8px;
+  }
+  .h2h-entry h3 { font-size: 1.05rem; margin-bottom: 12px; }
+  .winner-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+  .chip-a { background: rgba(59,130,246,0.2); color: var(--blue-bright); border: 1px solid rgba(59,130,246,0.3); }
+  .chip-b { background: rgba(6,182,212,0.15); color: var(--cyan); border: 1px solid rgba(6,182,212,0.3); }
+  .chip-tie { background: rgba(245,158,11,0.15); color: var(--win-gold); border: 1px solid rgba(245,158,11,0.3); }
+
+  /* COMPARISON TABLE */
+  .table-wrap { overflow-x: auto; margin-bottom: 48px; border-radius: 14px; border: 1px solid var(--card-border); }
+  table { width: 100%; border-collapse: collapse; background: var(--card-bg); }
+  th {
+    background: var(--navy-mid);
+    padding: 14px 16px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: var(--silver);
+  }
+  th:first-child { color: var(--white); }
+  th.col-a { color: var(--blue-bright); }
+  th.col-b { color: var(--cyan); }
+  td {
+    padding: 12px 16px;
+    font-size: 0.85rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    color: var(--silver-light);
+  }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .td-feature { font-weight: 600; color: var(--white); }
+  .td-win { color: var(--win-gold); font-weight: 700; }
+  .td-check { color: var(--pro-green); }
+  .td-no { color: var(--text-muted); }
+
+  /* WHO SECTION */
+  .who-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+  .who-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .who-card.a { border-top: 3px solid var(--blue); }
+  .who-card.b { border-top: 3px solid var(--cyan); }
+  .who-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; }
+  .who-label.a { color: var(--blue-bright); }
+  .who-label.b { color: var(--cyan); }
+  .who-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 14px; }
+  .who-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--silver-light);
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  .who-arrow { color: var(--blue-bright); font-size: 0.9rem; flex-shrink: 0; margin-top: 1px; }
+  .who-arrow.b { color: var(--cyan); }
+
+  /* VERDICT */
+  .verdict-box {
+    background: linear-gradient(135deg, #0f1f42, #111d3a);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    padding: 36px;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  .verdict-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--win-gold); margin-bottom: 12px; }
+  .verdict-box h2 { font-size: 1.8rem; margin-bottom: 16px; }
+  .verdict-body { font-size: 1rem; color: var(--silver-light); max-width: 640px; margin: 0 auto 24px; line-height: 1.7; }
+  .verdict-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .v-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .v-btn.primary { background: var(--blue); color: #fff; }
+  .v-btn.secondary { background: var(--cyan); color: #08142e; }
+  .v-btn:hover { opacity: 0.85; transform: translateY(-2px); }
+
+  /* RELATED */
+  .related-section { margin-bottom: 20px; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .related-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .related-card:hover { border-color: var(--blue); transform: translateY(-3px); }
+  .related-tag { font-size: 0.65rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--blue-bright); margin-bottom: 6px; }
+  .related-title { font-size: 0.9rem; font-weight: 700; color: var(--white); line-height: 1.3; }
+
+  /* FOOTER */
+  footer {
+    background: var(--navy-mid);
+    border-top: 1px solid var(--card-border);
+    padding: 32px 20px;
+    text-align: center;
+  }
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .footer-logo span { color: var(--blue); }
+  footer p { font-size: 0.75rem; color: var(--text-muted); margin: 0; }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .contenders { grid-template-columns: 1fr; gap: 12px; }
+    .vs-badge { display: none; }
+    .ratings-grid { grid-template-columns: 1fr; }
+    .specs-grid { grid-template-columns: 1fr; }
+    .pros-cons { grid-template-columns: 1fr; }
+    .who-grid { grid-template-columns: 1fr; }
+    .product-block { padding: 22px; }
+    .pb-header { flex-direction: column; }
+    .pb-pricing { text-align: left; }
+    nav { padding: 0 16px; }
+    .nav-links { gap: 14px; }
+    .nav-links a { font-size: 0.78rem; }
+  }
+  @media (max-width: 480px) {
+    .nav-links { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="https://bestpickzone.com" class="logo">Best<span>Pick</span>Zone</a>
+  <div class="nav-links">
+    <a href="https://bestpickzone.com/coffee">Coffee</a>
+    <a href="https://bestpickzone.com/beauty">Beauty</a>
+    <a href="https://bestpickzone.com/wfh">WFH</a>
+    <a href="https://bestpickzone.com/home-kitchen">Home & Kitchen</a>
+  </div>
+</nav>
+
+<!-- STICKY BUY BAR -->
+<div class="buy-bar" id="buyBar">
+  <span>Quick pick:</span>
+  <div class="bar-btns">
+    <a href="https://www.amazon.com/dp/B00358RIRC?tag=bestpickzone-20" class="bar-btn a" target="_blank" rel="noopener">Ergotron LX →</a>
+    <a href="https://www.amazon.com/dp/B00MIBN16O?tag=bestpickzone-20" class="bar-btn b" target="_blank" rel="noopener">Amazon Basics →</a>
+  </div>
+  <button class="bar-close" onclick="document.getElementById('buyBar').style.display='none'">✕</button>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hub-tag">WFH Hub</div>
+  <h1>Ergotron LX <span class="vs">vs</span> Amazon Basics<br>Monitor Arm</h1>
+  <p class="hero-sub">The Amazon Basics arm is secretly built by Ergotron. So is the $28 version the same as the $160 original — or are you paying for a reason?</p>
+  <div class="hero-meta">
+    <span>By BestPickZone Editors</span>
+    <span>Updated June 2026</span>
+    <span>Both in stock on Amazon</span>
+  </div>
+
+  <div class="contenders">
+    <div class="contender-card winner">
+      <div class="c-label a">Editor's Pick</div>
+      <div class="c-name">Ergotron LX<br>Monitor Arm</div>
+      <div class="c-price">~$159</div>
+      <div class="c-badge">⭐ Best Overall</div>
+    </div>
+    <div class="vs-badge">VS</div>
+    <div class="contender-card">
+      <div class="c-label b">Budget Pick</div>
+      <div class="c-name">Amazon Basics<br>Lift Engine Arm</div>
+      <div class="c-price">~$28</div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<main class="main">
+
+  <!-- DISCLOSURE -->
+  <div class="disclosure">
+    <strong>Disclosure:</strong> BestPickZone earns a commission on purchases made through links on this page at no extra cost to you. Prices and availability verified on Amazon as of June 2026. Both arms were confirmed in stock at time of publication.
+  </div>
+
+  <!-- QUICK VERDICT -->
+  <div class="quick-verdict">
+    <div class="qv-label">⚡ Quick Verdict</div>
+    <p class="qv-body">
+      <strong>The Amazon Basics Lift Engine Arm is genuinely made by Ergotron</strong> — the OEM relationship is not a rumor. But "made by Ergotron" doesn't mean "the same as the Ergotron LX." The LX wins on cable management (fully internal vs. clip-on), warranty (10 years vs. 1 year), maximum monitor size (34" vs. 30"), and build finish. The Basics arm works well and is a real value at $28. <strong>Choose the LX if this is a permanent setup</strong> and you want cables disappearing inside the arm. <strong>Choose the Basics arm if you're on a tight budget</strong> or setting up a temporary desk.
+    </p>
+  </div>
+
+  <!-- SECRET REVEAL BOX -->
+  <div class="secret-box">
+    <div class="secret-label">🔍 The OEM Secret</div>
+    <h3>Wait — Amazon Basics pays Ergotron to build their monitor arm?</h3>
+    <p>Yes. The Amazon Basics "Lift Engine Arm" (B00MIBN16O) is manufactured by Ergotron under a white-label arrangement. It uses a counterbalance spring mechanism similar to Ergotron's own internal design. This is why it reviews unusually well for a $28 product — the underlying engineering isn't budget hardware. What Amazon cut to hit that price: the internal cable channel, the wider monitor compatibility, the premium aluminum finish, and the 10-year warranty that makes Ergotron's branded arm a genuine lifetime buy.</p>
+  </div>
+
+  <!-- PRODUCT BLOCK: ERGOTRON LX -->
+  <div class="product-block a winner-block">
+    <div class="pb-header">
+      <div class="pb-title-group">
+        <div class="pb-brand a">Ergotron</div>
+        <div class="pb-name">LX Desk Mount Single<br>Monitor Arm</div>
+        <div class="winner-tag">⭐ Editor's Pick</div>
+      </div>
+      <div class="pb-pricing">
+        <div class="pb-price">~$159</div>
+        <div class="pb-note">on Amazon · verified in stock</div>
+      </div>
+    </div>
+
+    <div class="ratings-grid">
+      <div class="rating-item">
+        <div class="rating-label">Build Quality</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-blue" style="width:95%"></div></div>
+        <div class="rating-score">9.5 / 10</div>
+      </div>
+      <div class="rating-item">
+        <div class="rating-label">Cable Management</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-blue" style="width:98%"></div></div>
+        <div class="rating-score">9.8 / 10</div>
+      </div>
+      <div class="rating-item">
+        <div class="rating-label">Motion Smoothness</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-blue" style="width:92%"></div></div>
+        <div class="rating-score">9.2 / 10</div>
+      </div>
+      <div class="rating-item">
+        <div class="rating-label">Value for Price</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-blue" style="width:80%"></div></div>
+        <div class="rating-score">8.0 / 10</div>
+      </div>
+    </div>
+
+    <div class="specs-grid">
+      <div class="spec-item"><div class="spec-key">Price</div><div class="spec-val">~$159.99</div></div>
+      <div class="spec-item"><div class="spec-key">Weight Capacity</div><div class="spec-val">7 – 25 lbs</div></div>
+      <div class="spec-item"><div class="spec-key">Max Screen Size</div><div class="spec-val">Up to 34"</div></div>
+      <div class="spec-item"><div class="spec-key">VESA</div><div class="spec-val">75×75 / 100×100 mm</div></div>
+      <div class="spec-item"><div class="spec-key">Mechanism</div><div class="spec-val">Gas spring (CFM)</div></div>
+      <div class="spec-item"><div class="spec-key">Cable Management</div><div class="spec-val">Internal channel</div></div>
+      <div class="spec-item"><div class="spec-key">Finish</div><div class="spec-val">Polished aluminum</div></div>
+      <div class="spec-item"><div class="spec-key">Warranty</div><div class="spec-val">10 years</div></div>
+    </div>
+
+    <div class="pros-cons">
+      <div class="pro-con-list">
+        <div class="pro-con-title pros">✓ Strengths</div>
+        <div class="pro-item"><span class="pro-dot">●</span>Cables route fully inside the arm — invisible from the front</div>
+        <div class="pro-item"><span class="pro-dot">●</span>10-year warranty covers the life of most desk setups</div>
+        <div class="pro-item"><span class="pro-dot">●</span>Supports up to 34" ultrawide monitors and heavier displays (up to 25 lbs)</div>
+        <div class="pro-item"><span class="pro-dot">●</span>Polished aluminum finish holds up on camera for remote calls and video backgrounds</div>
+        <div class="pro-item"><span class="pro-dot">●</span>Over 58,000 Amazon reviews averaging 4.7 stars</div>
+      </div>
+      <div class="pro-con-list">
+        <div class="pro-con-title cons">✗ Weaknesses</div>
+        <div class="con-item"><span class="con-dot">●</span>$159 is steep if you just need your monitor off the stand</div>
+        <div class="con-item"><span class="con-dot">●</span>Requires periodic tension adjustment if monitor weight changes</div>
+        <div class="con-item"><span class="con-dot">●</span>Only includes grommet and C-clamp mount — no wall option in base model</div>
+      </div>
+    </div>
+
+    <a href="https://www.amazon.com/dp/B00358RIRC?tag=bestpickzone-20" class="buy-btn a" target="_blank" rel="noopener">
+      Check Price on Amazon →
+    </a>
+    <div class="buy-sub">Verified in stock · Amazon Prime eligible</div>
+  </div>
+
+  <!-- PRODUCT BLOCK: AMAZON BASICS -->
+  <div class="product-block b">
+    <div class="pb-header">
+      <div class="pb-title-group">
+        <div class="pb-brand b">Amazon Basics</div>
+        <div class="pb-name">Single Monitor Stand<br>Lift Engine Arm</div>
+      </div>
+      <div class="pb-pricing">
+        <div class="pb-price">~$28</div>
+        <div class="pb-note">on Amazon · verified in stock</div>
+      </div>
+    </div>
+
+    <div class="ratings-grid">
+      <div class="rating-item">
+        <div class="rating-label">Build Quality</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-cyan" style="width:72%"></div></div>
+        <div class="rating-score">7.2 / 10</div>
+      </div>
+      <div class="rating-item">
+        <div class="rating-label">Cable Management</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-cyan" style="width:52%"></div></div>
+        <div class="rating-score">5.2 / 10</div>
+      </div>
+      <div class="rating-item">
+        <div class="rating-label">Motion Smoothness</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-cyan" style="width:80%"></div></div>
+        <div class="rating-score">8.0 / 10</div>
+      </div>
+      <div class="rating-item">
+        <div class="rating-label">Value for Price</div>
+        <div class="rating-bar-bg"><div class="rating-bar-fill fill-cyan" style="width:97%"></div></div>
+        <div class="rating-score">9.7 / 10</div>
+      </div>
+    </div>
+
+    <div class="specs-grid">
+      <div class="spec-item"><div class="spec-key">Price</div><div class="spec-val">~$27.99</div></div>
+      <div class="spec-item"><div class="spec-key">Weight Capacity</div><div class="spec-val">Up to 22 lbs</div></div>
+      <div class="spec-item"><div class="spec-key">Max Screen Size</div><div class="spec-val">Up to 30"</div></div>
+      <div class="spec-item"><div class="spec-key">VESA</div><div class="spec-val">75×75 / 100×100 mm</div></div>
+      <div class="spec-item"><div class="spec-key">Mechanism</div><div class="spec-val">Lift engine (spring)</div></div>
+      <div class="spec-item"><div class="spec-key">Cable Management</div><div class="spec-val">External clips</div></div>
+      <div class="spec-item"><div class="spec-key">Finish</div><div class="spec-val">Painted steel/plastic</div></div>
+      <div class="spec-item"><div class="spec-key">Warranty</div><div class="spec-val">1 year</div></div>
+    </div>
+
+    <div class="pros-cons">
+      <div class="pro-con-list">
+        <div class="pro-con-title pros">✓ Strengths</div>
+        <div class="pro-item"><span class="pro-dot">●</span>$28 — hard to beat for a spring-mechanism arm at this price</div>
+        <div class="pro-item"><span class="pro-dot">●</span>Made by Ergotron — the underlying engineering is reliable, not cheap</div>
+        <div class="pro-item"><span class="pro-dot">●</span>Smooth repositioning for most monitors under 22 lbs</div>
+        <div class="pro-item"><span class="pro-dot">●</span>Good starter arm for first-time monitor arm buyers</div>
+      </div>
+      <div class="pro-con-list">
+        <div class="pro-con-title cons">✗ Weaknesses</div>
+        <div class="con-item"><span class="con-dot">●</span>No internal cable channel — cables hang externally or clip on</div>
+        <div class="con-item"><span class="con-dot">●</span>Painted finish shows wear faster than polished aluminum</div>
+        <div class="con-item"><span class="con-dot">●</span>Only 1-year warranty — a real downside on a product you buy once</div>
+        <div class="con-item"><span class="con-dot">●</span>Maxes out at 30" — won't fit ultrawide or 32"+ displays</div>
+      </div>
+    </div>
+
+    <a href="https://www.amazon.com/dp/B00MIBN16O?tag=bestpickzone-20" class="buy-btn b" target="_blank" rel="noopener">
+      Check Price on Amazon →
+    </a>
+    <div class="buy-sub">Verified in stock · Amazon Prime eligible</div>
+  </div>
+
+  <!-- HEAD TO HEAD -->
+  <section class="h2h-section">
+    <h2>Round by Round: Where the Gap Actually Shows</h2>
+
+    <div class="h2h-entry">
+      <div class="h2h-topic">Cable Management</div>
+      <h3>The biggest real-world difference between these two arms</h3>
+      <div class="winner-chip chip-a">● Ergotron LX Wins</div>
+      <p>The LX routes cables completely inside the arm through a dedicated internal channel. From the front, your desk looks like the monitor is floating — no visible wires. The Amazon Basics arm includes external cable clips. They work, but the cables are visible, and they tend to pop off when you reposition the arm. If you care about a clean desk aesthetic (especially on video calls), this difference alone can justify the LX's price premium.</p>
+    </div>
+
+    <div class="h2h-entry">
+      <div class="h2h-topic">Mechanism &amp; Motion</div>
+      <h3>Gas spring vs. lift engine — closer than you'd expect</h3>
+      <div class="winner-chip chip-a">● Ergotron LX Slight Edge</div>
+      <p>Both arms use spring-counterbalance mechanisms — the Amazon Basics Lift Engine is closer to the LX here than you'd expect at the price. Reviewers consistently rate the Basics arm better than friction-based budget arms. The LX's Constant Force mechanism (CFM) holds position more precisely and handles the full 7–25 lb weight range more gracefully. The Basics arm works well under 15 lbs but can drift slightly with heavier panels. For a standard 24"–27" monitor, the difference in daily use is minimal.</p>
+    </div>
+
+    <div class="h2h-entry">
+      <div class="h2h-topic">Monitor Compatibility</div>
+      <h3>The LX covers displays the Basics arm simply can't</h3>
+      <div class="winner-chip chip-a">● Ergotron LX Wins</div>
+      <p>Ergotron LX: up to 34" ultrawide, up to 25 lbs. Amazon Basics: up to 30", up to 22 lbs. If you're running a 32" or 34" ultrawide — increasingly common in WFH setups — the Basics arm isn't an option. If you have a standard 24" or 27" monitor, both arms cover you fine.</p>
+    </div>
+
+    <div class="h2h-entry">
+      <div class="h2h-topic">Warranty &amp; Longevity</div>
+      <h3>10 years vs. 1 year is a real purchase decision, not fine print</h3>
+      <div class="winner-chip chip-a">● Ergotron LX Wins</div>
+      <p>Monitor arms are "buy once" products for most people. A 10-year warranty on the Ergotron LX means if anything loosens, sticks, or fails, you're covered for the decade. The Amazon Basics 1-year warranty means if the spring weakens in year two (which some reviewers report), you're replacing it. Over a 5-year WFH setup, the true cost difference narrows considerably once you factor in a replacement arm purchase.</p>
+    </div>
+
+    <div class="h2h-entry">
+      <div class="h2h-topic">Value</div>
+      <h3>At $28, the Basics arm is genuinely hard to beat</h3>
+      <div class="winner-chip chip-b">● Amazon Basics Wins</div>
+      <p>For first-time monitor arm buyers, students, renters who move frequently, or secondary workstations, the Amazon Basics Lift Engine Arm delivers 80% of the LX experience at 17% of the price. The spring mechanism works, the VESA mount fits standard displays, and the repositioning is smooth. It's not a permanent solution, but it's a legitimate one.</p>
+    </div>
+  </section>
+
+  <!-- COMPARISON TABLE -->
+  <h2>Full Spec Comparison</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th class="col-a">Ergotron LX</th>
+          <th class="col-b">Amazon Basics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-feature">Price</td>
+          <td>~$159.99</td>
+          <td>~$27.99</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Manufacturer</td>
+          <td>Ergotron</td>
+          <td>Ergotron (OEM)</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Mechanism</td>
+          <td class="td-win">Gas spring (CFM)</td>
+          <td>Lift engine spring</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Weight Range</td>
+          <td class="td-win">7 – 25 lbs</td>
+          <td>Up to 22 lbs</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Max Screen Size</td>
+          <td class="td-win">34" ultrawide</td>
+          <td>30"</td>
+        </tr>
+        <tr>
+          <td class="td-feature">VESA Compatibility</td>
+          <td class="td-check">75×75 / 100×100</td>
+          <td class="td-check">75×75 / 100×100</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Cable Management</td>
+          <td class="td-win">Internal channel</td>
+          <td>External clips</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Finish</td>
+          <td class="td-win">Polished aluminum</td>
+          <td>Painted steel/plastic</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Warranty</td>
+          <td class="td-win">10 years</td>
+          <td>1 year</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Tilt Adjustment</td>
+          <td class="td-check">90° back / 5° forward</td>
+          <td class="td-check">70° back / 5° forward</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Rotation</td>
+          <td class="td-check">360°</td>
+          <td class="td-check">360°</td>
+        </tr>
+        <tr>
+          <td class="td-feature">Best For</td>
+          <td>Permanent WFH setup, ultrawide users, clean desk builds</td>
+          <td>Budget setups, students, secondary workstations</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- WHO IT'S FOR -->
+  <h2>Which One Should You Buy?</h2>
+  <div class="who-grid">
+    <div class="who-card a">
+      <div class="who-label a">Choose the Ergotron LX if...</div>
+      <div class="who-name">Ergotron LX (~$159)</div>
+      <div class="who-item"><span class="who-arrow">→</span>You have a 32"+ or ultrawide monitor that needs up to 25 lbs of support</div>
+      <div class="who-item"><span class="who-arrow">→</span>Clean cable routing matters — on video calls or for desk aesthetics</div>
+      <div class="who-item"><span class="who-arrow">→</span>This is your permanent WFH desk and you want a "never buy again" arm</div>
+      <div class="who-item"><span class="who-arrow">→</span>You want the 10-year warranty covering the full life of your setup</div>
+      <div class="who-item"><span class="who-arrow">→</span>You've already bought a good chair and desk — the arm is the last piece</div>
+    </div>
+    <div class="who-card b">
+      <div class="who-label b">Choose the Amazon Basics if...</div>
+      <div class="who-name">Amazon Basics Lift Engine (~$28)</div>
+      <div class="who-item"><span class="who-arrow b">→</span>You have a standard 24"–27" monitor under 22 lbs</div>
+      <div class="who-item"><span class="who-arrow b">→</span>You want to try a monitor arm before committing to a premium one</div>
+      <div class="who-item"><span class="who-arrow b">→</span>Budget is tight and you'd rather spend more on the chair or desk</div>
+      <div class="who-item"><span class="who-arrow b">→</span>It's a secondary workstation, guest desk, or temporary setup</div>
+      <div class="who-item"><span class="who-arrow b">→</span>You're a student or early-career remote worker setting up your first desk</div>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <div class="verdict-label">🏆 Final Verdict</div>
+    <h2>The LX is the better arm. The Basics is the smarter starter.</h2>
+    <p class="verdict-body">
+      If money were no object, everyone would buy the Ergotron LX — the cable management alone is worth it for a permanent desk. But the Amazon Basics Lift Engine Arm earns its reputation precisely because it shares Ergotron's manufacturing. At $28, with a real spring mechanism and universal VESA mounting, it does the job better than any friction arm in its price class. The honest answer: <strong>if this is your main WFH desk and you're in it for the long haul, buy the LX.</strong> If you're not sure you even like monitor arms yet, start with the Basics and upgrade later.
+    </p>
+    <div class="verdict-btns">
+      <a href="https://www.amazon.com/dp/B00358RIRC?tag=bestpickzone-20" class="v-btn primary" target="_blank" rel="noopener">Buy Ergotron LX on Amazon</a>
+      <a href="https://www.amazon.com/dp/B00MIBN16O?tag=bestpickzone-20" class="v-btn secondary" target="_blank" rel="noopener">Buy Amazon Basics Arm</a>
+    </div>
+  </div>
+
+  <!-- RELATED -->
+  <section class="related-section">
+    <h2>More WFH Picks</h2>
+    <div class="related-grid">
+      <a href="bestpickzone-fully-jarvis-vs-uplift-v2.html" class="related-card">
+        <div class="related-tag">WFH · Standing Desks</div>
+        <div class="related-title">Fully Jarvis vs. Uplift V2: Which Standing Desk Is Actually Worth It?</div>
+      </a>
+      <a href="bestpickzone-secretlab-titan-vs-ergotune-supreme.html" class="related-card">
+        <div class="related-tag">WFH · Chairs</div>
+        <div class="related-title">Secretlab Titan Evo vs. Ergotune Supreme: Gaming Chair or Office Chair?</div>
+      </a>
+      <a href="bestpickzone-autonomous-ergchair-vs-hinomi-h1-pro.html" class="related-card">
+        <div class="related-tag">WFH · Chairs</div>
+        <div class="related-title">Autonomous ErgoChair Pro vs. Hinomi H1 Pro: Which Budget Ergonomic Chair Wins?</div>
+      </a>
+      <a href="bestpickzone-purple-seat-cushion-vs-cushion-lab.html" class="related-card">
+        <div class="related-tag">WFH · Accessories</div>
+        <div class="related-title">Purple Royal vs. Cushion Lab: Two Very Different Ways to Fix Chair Discomfort</div>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <a href="https://bestpickzone.com" class="footer-logo">Best<span>Pick</span>Zone</a>
+  <p>Independent comparisons. Honest picks. Affiliate commissions help keep the site running at no cost to you.</p>
+</footer>
+
+</body>
+</html>

@@ -132,6 +132,7 @@ export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/purple-royal-seat-cushion-vs-cushion-lab`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/fully-jarvis-vs-uplift-v2-standing-desk`, lastModified: '2026-06-15', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/wfh/ergotron-lx-vs-amazon-basics-monitor-arm`, lastModified: '2026-06-18', changeFrequency: 'monthly', priority: 0.88 },
   ...wfhComparisonArticles.map((article) => ({
     url: `${baseUrl}/wfh/${article.slug}`,
     lastModified: '2026-06-14',
