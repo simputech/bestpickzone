@@ -25,7 +25,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/self-help`, lastModified: '2026-06-13', changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/books/kids-and-ya`, lastModified: '2026-06-13', changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/books/reader-picks`, lastModified: '2026-04-20', changeFrequency: 'weekly', priority: 0.9 },
-  { url: `${baseUrl}/books/best-stephen-king-books`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/books/best-stephen-king-books`, lastModified: '2026-06-21', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/haruki-murakami-reading-order`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/books-like-it-ends-with-us`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-spy-thrillers-realistic`, lastModified: '2026-06-14', changeFrequency: 'monthly', priority: 0.88 },
@@ -163,13 +163,16 @@ export function buildSitemapXml(entries: SitemapEntry[]) {
 
 export function buildSitemapIndexXml() {
   const sitemaps = [
-    `${baseUrl}/sitemap-main.xml`,
-    `${baseUrl}/sitemap-books.xml`,
-    `${baseUrl}/sitemap-beauty.xml`,
-    `${baseUrl}/sitemap-coffee.xml`,
-    `${baseUrl}/sitemap-wfh.xml`,
+    { url: `${baseUrl}/sitemap-main.xml`, lastModified: '2026-06-14' },
+    { url: `${baseUrl}/sitemap-books.xml`, lastModified: '2026-06-21' },
+    { url: `${baseUrl}/sitemap-beauty.xml`, lastModified: '2026-06-14' },
+    { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: '2026-06-14' },
+    { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: '2026-06-14' },
   ]
-    .map((url) => `<sitemap><loc>${url}</loc><lastmod>2026-06-14</lastmod></sitemap>`)
+    .map(
+      (sitemap) =>
+        `<sitemap><loc>${sitemap.url}</loc><lastmod>${sitemap.lastModified}</lastmod></sitemap>`
+    )
     .join('')
 
   return `<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${sitemaps}</sitemapindex>`
