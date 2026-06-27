@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/books-like-dune-hard-sci-fi'
 const heroImage =
@@ -56,12 +57,12 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Books Like Dune',
   description:
     'Books like Dune for readers who want political scale, ecology, empire, and science fiction with real civilizational depth.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function BooksLikeDunePage() {
   return (

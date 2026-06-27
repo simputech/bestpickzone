@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Health & Fitness Gear Reviews 2026 | BestPickZone',
   description:
     'Expert comparisons of fitness trackers, adjustable dumbbells, yoga mats, and more. Research-backed picks with Amazon and Best Buy links.',
@@ -13,7 +14,10 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'website',
   },
-}
+  alternates: {
+    canonical: 'https://bestpickzone.com/health-fitness',
+  },
+}, { category: 'health-fitness', metadataType: 'website' })
 
 const articles = [
   {

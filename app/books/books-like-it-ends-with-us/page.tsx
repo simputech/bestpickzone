@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/books-like-it-ends-with-us'
 const heroImage =
   'https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&q=80'
+const publishedDate = '2026-06-14'
+const updatedDate = '2026-06-26'
 
 const picks = [
   {
@@ -116,7 +119,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Books Like It Ends With Us',
   description:
     'Books like It Ends With Us for readers who want emotionally intense contemporary fiction, relationship pressure, and direct Amazon links.',
@@ -128,7 +131,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     type: 'article',
   },
-}
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
 
 export default function BooksLikeItEndsWithUsPage() {
   const articleSchema = {
@@ -137,8 +140,8 @@ export default function BooksLikeItEndsWithUsPage() {
     headline: 'Books Like It Ends With Us',
     description:
       'Books like It Ends With Us for readers who want emotionally intense contemporary fiction, relationship pressure, and direct Amazon links.',
-    datePublished: '2026-06-14',
-    dateModified: '2026-06-14',
+    datePublished: publishedDate,
+    dateModified: updatedDate,
     author: { '@type': 'Organization', name: 'BestPickZone' },
     publisher: { '@type': 'Organization', name: 'BestPickZone' },
     mainEntityOfPage: pageUrl,

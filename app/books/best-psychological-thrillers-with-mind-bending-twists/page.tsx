@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-psychological-thrillers-with-mind-bending-twists'
 const heroImage =
@@ -46,12 +47,12 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Psychological Thrillers With Mind-Bending Twists',
   description:
     'Best psychological thrillers with mind-bending twists, including fuller descriptions, author names, and extra context on Gone Girl and Shutter Island.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function MindBendingThrillersPage() {
   return (

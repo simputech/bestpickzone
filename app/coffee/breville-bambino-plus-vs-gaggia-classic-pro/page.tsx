@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import ProductComparisonPage from '@/components/article/ProductComparisonPage'
 import type { ComparisonPageData } from '@/lib/product-comparisons'
 
 const pageUrl = 'https://bestpickzone.com/coffee/breville-bambino-plus-vs-gaggia-classic-pro'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Breville Bambino Plus vs Gaggia Classic Pro: Which Wins',
   description:
     'Breville Bambino Plus vs Gaggia Classic Pro - thermoblock speed vs. brass-boiler control. Specs, steam, footprint, and which espresso machine to buy first.',
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description:
       'Thermoblock convenience vs. boiler-grade control. The specs that decide it, and which to buy first.',
   },
-}
+}, { category: 'coffee' })
 
 const data: ComparisonPageData = {
   title: 'Breville Bambino Plus vs Gaggia Classic Pro',

@@ -1,9 +1,10 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 
 const productUrl = 'https://www.amazon.com/dp/B0FJF95P9J?tag=althcu-20'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Kids Fort for Girls in 2026',
   description:
     'Our pick for the best kids fort for girls in 2026 is the besrey Kids Play Tent, a roomy hexagonal playhouse with one door, three windows, and enough space for shared imaginative play.',
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/home-kitchen/best-kids-fort-for-girls-2026',
     type: 'article',
   },
-}
+}, { category: 'home-kitchen' })
 
 const faqs = [
   {
@@ -45,7 +46,7 @@ const articleSchema = {
   description:
     'A direct product recommendation for the best kids fort for girls in 2026, based on usable play space, flexibility, and room presence.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage: 'https://bestpickzone.com/home-kitchen/best-kids-fort-for-girls-2026',

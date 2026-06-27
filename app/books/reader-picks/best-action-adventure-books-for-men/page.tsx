@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Action Adventure Books for Men — Ranked with Winner Logic',
   description:
     "The best action adventure books for men, ranked honestly: Lee Child's Killing Floor, Weir's The Martian, Flynn's American Assassin, McCarthy's No Country for Old Men, Krakauer's Into Thin Air, and Hillenbrand's Unbroken — each with a skip-this-if recommendation.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'reader-picks' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -186,7 +187,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-20',
-  dateModified: '2026-04-20',
+  dateModified: '2026-06-26',
   mainEntityOfPage:
     'https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men',
 }

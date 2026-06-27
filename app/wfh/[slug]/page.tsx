@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import HtmlComparisonArticlePage from '@/components/article/HtmlComparisonArticlePage'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
 type Params = { slug: string }
@@ -22,7 +23,7 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
 
   const pageUrl = `https://bestpickzone.com/wfh/${article.slug}`
 
-  return {
+  return withArticleMetadataDefaults({
     title: article.title,
     description: article.description,
     alternates: { canonical: pageUrl },
@@ -37,7 +38,7 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
       title: article.twitterTitle,
       description: article.twitterDescription,
     },
-  }
+  }, { url: pageUrl, category: 'wfh', section: 'Work From Home' })
 }
 
 export default function WfhComparisonArticlePage({ params }: { params: Params }) {

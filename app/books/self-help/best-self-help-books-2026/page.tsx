@@ -1,25 +1,58 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+const publishedDate = '2026-04-19'
+const updatedDate = '2026-06-26'
+
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Self-Help Books to Read in 2026 — Honest Picks with Skip-This-If Guidance',
   description:
     "The best self-help books to read right now in 2026: Mel Robbins's The Let Them Theory, Cal Newport's Slow Productivity, Morgan Housel's The Psychology of Money, and James Clear's Atomic Habits (with the 2026 workbook) — ranked with honest winner logic.",
+  keywords: [
+    'best self-help books 2026',
+    'best self help books 2026',
+    'best self-help books',
+    'best self help books',
+    'top self-help books 2026',
+    'top self help books 2026',
+    'self-help books to read in 2026',
+    'self help books to read in 2026',
+    'best motivational books 2026',
+    'best personal development books 2026',
+    'best mindset books 2026',
+    'best productivity books 2026',
+    'best habit books 2026',
+    'best books for self improvement 2026',
+    'self improvement books 2026',
+    'books like atomic habits',
+    'best books like atomic habits',
+    'best mel robbins book',
+    'best cal newport book',
+    'best personal finance mindset books',
+    'best psychology of money alternatives',
+  ],
   alternates: {
     canonical: 'https://bestpickzone.com/books/self-help/best-self-help-books-2026',
   },
   openGraph: {
     title: 'Best Self-Help Books to Read in 2026',
     description:
-      "The most useful self-help books available right now — applied behavior, productivity, finance, and habits — with clear skip-this-if guidance.",
+      "The best self-help books in 2026 for productivity, habits, mindset, motivation, and personal growth — with clear skip-this-if guidance.",
     url: 'https://bestpickzone.com/books/self-help/best-self-help-books-2026',
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Self-Help Books to Read in 2026',
+    description:
+      "The best self-help books in 2026 for productivity, habits, mindset, motivation, and personal growth — ranked with honest winner logic.",
+  },
+}, { category: 'self-help', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Self-Help' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -151,8 +184,8 @@ const articleSchema = {
     name: 'BestPickZone',
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
-  datePublished: '2026-04-19',
-  dateModified: '2026-04-19',
+  datePublished: publishedDate,
+  dateModified: updatedDate,
   mainEntityOfPage:
     'https://bestpickzone.com/books/self-help/best-self-help-books-2026',
 }

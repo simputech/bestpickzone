@@ -1,9 +1,10 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import BookCTA from '@/components/article/BookCTA';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best 2026 Summer Reading for 12-Year-Old Girls | BestPickZone',
   description:
     'The best 2026 summer reading for 12-year-old girls, ranked with honest reader-fit logic: Are You There God? It\'s Me, Margaret, A Wrinkle in Time, Anne of Green Gables, and more.',
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls',
     type: 'article',
   },
-};
+}, { category: 'kids-and-ya' });
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -140,7 +141,7 @@ const articleSchema = {
   description:
     'The best 2026 summer reading for 12-year-old girls, ranked with honest reader-fit logic and clear reasons to choose each book.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage:

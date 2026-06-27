@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-cyberpunk-novels-all-time'
 const heroImage =
   'https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1200&q=80'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Cyberpunk Novels All Time',
   description:
     'Best cyberpunk novels of all time, from Neuromancer to Snow Crash, for readers who want neon, code, surveillance, and corporate rot.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function CyberpunkPage() {
   const picks = [

@@ -1,14 +1,15 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import { getArticlesByCategory } from '@/lib/books-data';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Self-Help & Non-Fiction Books 2026 | BestPickZone',
   description:
     'The best self-help and non-fiction books on habits, leadership, personal finance, mindfulness, psychology, biographies, and more. Honest picks that actually deliver.',
   alternates: { canonical: 'https://bestpickzone.com/books/self-help' },
-};
+}, { category: 'self-help' });
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

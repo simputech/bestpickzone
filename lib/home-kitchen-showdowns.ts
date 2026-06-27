@@ -56,9 +56,9 @@ export const avocadoShowdownArticle: ShowdownArticle = {
   heroAccent: 'Which One Is Better for Most Kitchens?',
   heroSub:
     "Two popular avocado tools under $15, but only one feels like a long-term keeper once you look at grip, pitting control, and everyday ease.",
-  metaLine: ['By the BestPickZone Editors', 'Updated June 14, 2026', '5-minute read', '2 products compared'],
+  metaLine: ['By the BestPickZone Editors', 'Updated June 26, 2026', '5-minute read', '2 products compared'],
   publishedDate: '2026-06-14',
-  updatedDate: '2026-06-14',
+  updatedDate: '2026-06-26',
   categoryLabel: 'Kitchen Tool Comparison',
   categoryAccentClass: 'text-emerald-700 bg-emerald-100',
   introLabel: 'The Setup',

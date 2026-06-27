@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Laptops for College Students in 2026 (Every Budget)',
   description:
     'From $400 Chromebooks to premium MacBooks, we ranked the best laptops for college students by battery life, portability, performance, and value.',
@@ -16,7 +17,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://bestpickzone.com/tech/best-laptops-for-college-students',
   },
-}
+}, {
+  category: 'tech',
+  publishedTime: '2026-04-09',
+  modifiedTime: '2026-06-26',
+  section: 'Tech',
+})
 
 const products = [
   {

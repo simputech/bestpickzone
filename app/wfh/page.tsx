@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'WFH Ergonomic Comparisons 2026',
   description:
     'High-intent work-from-home comparisons built around dimensions, weight capacity, adjustment range, and real ergonomic tradeoffs.',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/wfh',
     type: 'website',
   },
-}
+}, { category: 'wfh' })
 
 const sections = [
   {

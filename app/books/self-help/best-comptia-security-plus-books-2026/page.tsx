@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best CompTIA Security+ Books for 2026',
   description:
     'The best CompTIA Security+ books for SY0-701 in 2026, ranked by who they help most: study guide, practice tests, certification kit, and the strongest beginner-friendly alternative.',
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/books/self-help/best-comptia-security-plus-books-2026',
     type: 'article',
   },
-}
+}, { category: 'self-help' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -134,7 +135,7 @@ const articleSchema = {
   description:
     'A 2026 buying guide to the best CompTIA Security+ books for the current SY0-701 exam.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage:

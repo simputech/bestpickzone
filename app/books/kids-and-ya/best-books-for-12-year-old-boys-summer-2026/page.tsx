@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Books for 12-Year-Old Boys Summer 2026',
   description:
     'The best books for 12-year-old boys in summer 2026, ranked by reader fit: Holes, Hatchet, The Lightning Thief, The Crossover, and The Wild Robot.',
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026',
     type: 'article',
   },
-}
+}, { category: 'kids-and-ya' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -147,7 +148,7 @@ const articleSchema = {
   description:
     'The best books for 12-year-old boys in summer 2026, ranked by reading fit, pacing, and honest tradeoffs.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage:

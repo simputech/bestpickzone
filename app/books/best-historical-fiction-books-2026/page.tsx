@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-historical-fiction-books-2026'
 const heroImage =
@@ -46,12 +47,12 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Historical Fiction Books 2026',
   description:
     'Best historical fiction books to read in 2026, now with fuller book descriptions and added context on why Pachinko is such an important novel.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function HistoricalFiction2026Page() {
   return (

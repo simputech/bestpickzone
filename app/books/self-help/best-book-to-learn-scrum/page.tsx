@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Book to Learn Scrum',
   description:
     'The best book to learn Scrum is Essential Scrum if you want one paid book, but the official Scrum Guide should be your first read. Here is how the top Scrum books split by reader type.',
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/books/self-help/best-book-to-learn-scrum',
     type: 'article',
   },
-}
+}, { category: 'self-help' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -146,7 +147,7 @@ const articleSchema = {
   description:
     'A practical ranking of the best Scrum books for beginners, Scrum Masters, executives, and teams trying to fix weak Scrum.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage: 'https://bestpickzone.com/books/self-help/best-book-to-learn-scrum',

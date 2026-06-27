@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'BestPickZone — Buyer Guides and Product Comparisons 2026',
   description:
     'BestPickZone publishes buyer-first product comparisons and curated book guides across coffee gear, beauty tech, work-from-home setups, and reader-focused lists.',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://bestpickzone.com',
   },
-}
+}, { category: 'shopping', metadataType: 'website' })
 
 const categories = [
   {

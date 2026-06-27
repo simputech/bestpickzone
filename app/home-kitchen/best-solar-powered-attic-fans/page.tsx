@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 
 const picks = [
@@ -99,7 +100,7 @@ const articleSchema = {
   description:
     'The best solar-powered attic fans for lowering attic heat, reducing AC strain, and improving roof ventilation.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage: 'https://bestpickzone.com/home-kitchen/best-solar-powered-attic-fans',
@@ -118,7 +119,7 @@ const faqSchema = {
   })),
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Solar-Powered Attic Fans',
   description:
     'The best solar-powered attic fans to reduce attic heat, lower AC strain, and improve roof ventilation, with direct Amazon links for each pick.',
@@ -132,7 +133,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/home-kitchen/best-solar-powered-attic-fans',
     type: 'article',
   },
-}
+}, { category: 'home-kitchen' })
 
 export default function BestSolarPoweredAtticFansPage() {
   return (

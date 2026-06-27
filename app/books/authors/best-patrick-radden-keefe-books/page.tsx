@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Patrick Radden Keefe Books',
   description:
     'The best Patrick Radden Keefe books, ranked by reader intent: Say Nothing, Empire of Pain, Rogues, London Falling, The Snakehead, and where Chatter fits.',
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'authors' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -183,7 +184,7 @@ const articleSchema = {
   description:
     'Where to start with Patrick Radden Keefe, what to read next, and which book to skip first depending on reader intent.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage:

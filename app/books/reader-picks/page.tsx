@@ -1,14 +1,15 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import { getArticlesByCategory } from '@/lib/books-data';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Reader-Intent Book Lists — Beach Reads, Book Clubs, One-Sitting Reads & More | BestPickZone',
   description:
     'Curated book lists for every reading mood and situation: beach reads, book club picks, one-sitting reads, audiobooks, feel-good books, and 25 more intent-based lists.',
   alternates: { canonical: 'https://bestpickzone.com/books/reader-picks' },
-};
+}, { category: 'reader-picks' });
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

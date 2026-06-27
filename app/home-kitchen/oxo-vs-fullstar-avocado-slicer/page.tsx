@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import CommerceShowdownArticlePage from '@/components/article/CommerceShowdownArticlePage'
 import { avocadoShowdownArticle } from '@/lib/home-kitchen-showdowns'
 
@@ -30,7 +31,7 @@ const faqSchema = {
   })),
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: article.title,
   description: article.description,
   alternates: {
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     type: 'article',
   },
-}
+}, { category: 'home-kitchen' })
 
 export default function OxoVsFullstarAvocadoSlicerPage() {
   return (

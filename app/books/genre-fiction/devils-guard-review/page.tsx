@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: "Devil's Guard Review: Best WWII and Vietnam War Book?",
   description:
     "A direct Devil's Guard review for readers searching for the best WWII and Vietnam book: what the novel-memoir hybrid does well, where it is controversial, and who should skip it.",
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/books/genre-fiction/devils-guard-review',
     type: 'article',
   },
-}
+}, { category: 'genre-fiction' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -99,7 +100,7 @@ const articleSchema = {
   description:
     "An honest review of Devil's Guard, with a direct verdict on who should read it and who should choose a more reliable WWII book first.",
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage: 'https://bestpickzone.com/books/genre-fiction/devils-guard-review',

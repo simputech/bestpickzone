@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { beautyComparisonArticles } from '@/lib/comparison-html-articles'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Beauty Tech and Ingredient Comparisons 2026',
   description:
     'Buyer-intent beauty comparisons covering skincare ingredients, hair tools, LED masks, and microcurrent devices with spec-based reasoning.',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/beauty',
     type: 'website',
   },
-}
+}, { category: 'beauty' })
 
 const concernRows = [
   ['Dark spots', 'Vitamin C vs Niacinamide', 'Tyrosinase pressure vs barrier-friendly consistency'],

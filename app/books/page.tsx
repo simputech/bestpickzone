@@ -1,14 +1,15 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import { articlesData } from '@/lib/books-data';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Book Recommendations 2026 | BestPickZone',
   description:
     'Expert book recommendations across every genre — author spotlights, genre fiction, self-help, kids & YA, and curated reader lists. Find your next great read at BestPickZone.',
   alternates: { canonical: 'https://bestpickzone.com/books' },
-};
+}, { category: 'books' });
 
 const categories = [
   {

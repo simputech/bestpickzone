@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Wireless Earbuds in 2026: Top Picks for Every Budget',
   description:
     'We tested and compared the best wireless earbuds of 2026 — from Sony and Apple to Jabra and Anker. Find the right pair for your budget, ears, and lifestyle.',
@@ -16,7 +17,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://bestpickzone.com/tech/best-wireless-earbuds',
   },
-}
+}, {
+  category: 'tech',
+  publishedTime: '2026-04-09',
+  modifiedTime: '2026-06-26',
+  section: 'Tech',
+})
 
 const products = [
   {

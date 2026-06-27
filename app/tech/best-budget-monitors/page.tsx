@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Budget Monitors Under $300 in 2026',
   description:
     'Expert-ranked budget monitors under $300 — from sharp 1080p office displays to fast 1440p gaming monitors. Full specs, pros/cons, and Amazon + Best Buy links.',
@@ -13,7 +14,12 @@ export const metadata: Metadata = {
     type: 'article',
   },
   alternates: { canonical: 'https://bestpickzone.com/tech/best-budget-monitors' },
-}
+}, {
+  category: 'tech',
+  publishedTime: '2026-04-09',
+  modifiedTime: '2026-06-26',
+  section: 'Tech',
+})
 
 const products = [
   {

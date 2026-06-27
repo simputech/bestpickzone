@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Finance & Software Reviews 2026 | BestPickZone',
   description:
     'Honest comparisons of the best budgeting apps, password managers, VPNs, and productivity software. Research-backed picks with direct affiliate links.',
@@ -13,7 +14,10 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'website',
   },
-}
+  alternates: {
+    canonical: 'https://bestpickzone.com/finance-software',
+  },
+}, { category: 'finance-software', metadataType: 'website' })
 
 const articles = [
   {

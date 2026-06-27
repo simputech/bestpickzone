@@ -1,9 +1,10 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import BookCTA from '@/components/article/BookCTA';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best 2026 Summer Reading for High School Students | BestPickZone',
   description:
     'The best 2026 summer reading for high school students, ranked with honest reader-fit logic: The Outsiders, Fahrenheit 451, The Hate U Give, The Poet X, and more.',
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/books/kids-and-ya/best-2026-summer-reading-for-high-school-students',
     type: 'article',
   },
-};
+}, { category: 'kids-and-ya' });
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -151,7 +152,7 @@ const articleSchema = {
   description:
     'The best 2026 summer reading for high school students, ranked with honest reader-fit logic and clear reasons to choose each book.',
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   author: { '@type': 'Organization', name: 'BestPickZone' },
   publisher: { '@type': 'Organization', name: 'BestPickZone' },
   mainEntityOfPage:

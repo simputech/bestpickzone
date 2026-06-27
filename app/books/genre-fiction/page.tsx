@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { getArticlesByCategory } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Genre Fiction Books — Thrillers, Fantasy, Romance & More | BestPickZone',
   description:
     'The best books in every fiction genre: psychological thrillers, fantasy series, dark romance, cozy mysteries, historical fiction, sci-fi, horror, and more.',
   alternates: { canonical: 'https://bestpickzone.com/books/genre-fiction' },
-}
+}, { category: 'genre-fiction' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -33,6 +34,11 @@ export default function GenreFictionHubPage() {
       href: '/books/genre-fiction/best-historical-epics-2026',
       title: 'Best Historical Epics to Read in 2026',
       text: 'A heavier long-form historical-fiction page for readers choosing between Follett, Clavell, Verghese, and other big-commitment epics.',
+    },
+    {
+      href: '/books/genre-fiction/best-wwii-novels-2026',
+      title: 'Best WWII Novels to Read in 2026',
+      text: 'A start-here WWII fiction page ranked by emotional weight, prose style, and the kind of reader each novel fits best.',
     },
     {
       href: '/books/books-like-fourth-wing-fantasy-romance',

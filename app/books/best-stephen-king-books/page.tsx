@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
@@ -7,7 +8,7 @@ const pageUrl = 'https://bestpickzone.com/books/best-stephen-king-books'
 const heroImage =
   'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80'
 const publishedDate = '2026-06-14'
-const updatedDate = '2026-06-21'
+const updatedDate = '2026-06-26'
 
 const books = [
   {
@@ -158,7 +159,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Stephen King Books Ranked for New and Returning Readers',
   description:
     'Best Stephen King books ranked for beginners and longtime horror readers, with a clear start-here pick, skip-first advice, and direct Amazon links for every recommendation.',
@@ -172,7 +173,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [heroImage],
   },
-}
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
 
 export default function BestStephenKingBooksPage() {
   const breadcrumbItems = [

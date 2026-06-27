@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/cormac-mccarthy-where-to-start'
 const heroImage =
@@ -43,12 +44,12 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Cormac McCarthy`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Cormac McCarthy Where To Start',
   description:
     'Where to start with Cormac McCarthy, with the best first book, what to save for later, and direct Amazon links.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function CormacPage() {
   return (

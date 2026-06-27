@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { getArticlesByCategory } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Books by Author — Stephen King, Colleen Hoover & More | BestPickZone',
   description:
     'Author-by-author reading guides covering Stephen King, Colleen Hoover, James Clear, Malcolm Gladwell, and 11 more. Find the best books from your favorite author.',
   alternates: { canonical: 'https://bestpickzone.com/books/authors' },
-}
+}, { category: 'authors' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

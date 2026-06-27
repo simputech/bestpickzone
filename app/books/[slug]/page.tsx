@@ -16,6 +16,7 @@ import {
   buildVerdictBridge,
   verificationLabel,
 } from '@/lib/book-article-enrichment';
+import { ARTICLE_REFRESH_DATE, withArticleMetadataDefaults } from '@/lib/article-metadata';
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time';
 import BookCTA from '@/components/article/BookCTA';
 import Breadcrumb from '@/components/ui/Breadcrumb';
@@ -88,7 +89,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (!article) return {};
 
-  return {
+  return withArticleMetadataDefaults({
     title: article.metaTitle,
     description: article.metaDescription,
     alternates: {
@@ -101,7 +102,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: article.publishedDate,
     },
-  };
+  }, {
+    url: `https://bestpickzone.com/books/${article.slug}`,
+    category:
+      article.category === 'author'
+        ? 'authors'
+        : article.category === 'genre'
+          ? 'genre-fiction'
+          : article.category === 'self-help'
+            ? 'self-help'
+          : article.category === 'kids-ya'
+              ? 'kids-and-ya'
+              : 'reader-picks',
+    publishedTime: article.publishedDate,
+    section: article.categoryLabel,
+    keywords: article.books.slice(0, 4).map((book) => book.title),
+    tags: article.books.slice(0, 6).map((book) => book.title),
+  });
 }
 
 export default function ArticlePage({ params }: Props) {
@@ -151,6 +168,7 @@ export default function ArticlePage({ params }: Props) {
     headline: article.title,
     description: article.metaDescription,
     datePublished: article.publishedDate,
+    dateModified: ARTICLE_REFRESH_DATE,
     author: { '@type': 'Organization', name: 'BestPickZone' },
     publisher: {
       '@type': 'Organization',

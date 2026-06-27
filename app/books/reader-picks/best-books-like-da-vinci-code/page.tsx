@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Books Like The Da Vinci Code — Ranked with Winner Logic',
   description:
     "If you loved The Da Vinci Code, these are the best follow-up reads: Eco's Name of the Rose, Berry's Cotton Malone series, Mosse's Labyrinth, Kostova's The Historian, and Caldwell/Thomason's Rule of Four — each with a skip-this-if recommendation.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'reader-picks' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -167,7 +168,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-20',
-  dateModified: '2026-04-20',
+  dateModified: '2026-06-26',
   mainEntityOfPage:
     'https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code',
 }

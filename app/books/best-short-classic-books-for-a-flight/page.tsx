@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-short-classic-books-for-a-flight'
 const heroImage =
@@ -71,12 +72,12 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Short Classic Books For A Flight',
   description:
     'Best short classic books for a flight, with fuller story descriptions, writer background, and the smartest picks for different reading moods.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function ShortClassicsFlightPage() {
   return (

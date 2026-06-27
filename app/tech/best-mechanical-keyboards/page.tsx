@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Mechanical Keyboards in 2026: Top Picks for Typing & Gaming',
   description:
     'Expert-ranked mechanical keyboards for every budget and use case — from office typing to competitive gaming. Real specs, honest pros and cons, and Amazon + Best Buy links.',
@@ -13,7 +14,12 @@ export const metadata: Metadata = {
     type: 'article',
   },
   alternates: { canonical: 'https://bestpickzone.com/tech/best-mechanical-keyboards' },
-}
+}, {
+  category: 'tech',
+  publishedTime: '2026-04-09',
+  modifiedTime: '2026-06-26',
+  section: 'Tech',
+})
 
 const products = [
   {

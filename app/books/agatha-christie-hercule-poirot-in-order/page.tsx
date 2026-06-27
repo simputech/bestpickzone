@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/agatha-christie-hercule-poirot-in-order'
 const heroImage =
@@ -63,12 +64,12 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Agatha Christie`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Hercule Poirot Books in Order',
   description:
     'Hercule Poirot books in order with the best place to start, what to read early, and which final Poirot novel to save for last.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function PoirotOrderPage() {
   return (

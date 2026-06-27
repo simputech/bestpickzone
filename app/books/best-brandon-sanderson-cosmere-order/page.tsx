@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-brandon-sanderson-cosmere-order'
 const heroImage =
@@ -105,7 +106,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Brandon Sanderson Cosmere Order',
   description:
     'Best Brandon Sanderson Cosmere order for new readers, including where to start, when to read Warbreaker, and why Stormlight should wait.',
@@ -117,7 +118,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     type: 'article',
   },
-}
+}, { category: 'books' })
 
 export default function CosmereOrderPage() {
   return (

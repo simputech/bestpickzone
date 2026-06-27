@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Personal Finance Books for Young Adults — Matched to Your Situation',
   description:
     'Five personal finance books matched to where you actually are: Housel for mindset, Sethi for a 6-week action plan, Ramsey for debt, Collins for investing, Kiyosaki for framework. Each with a skip-this-if.',
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'self-help' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -170,7 +171,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-20',
-  dateModified: '2026-04-20',
+  dateModified: '2026-06-26',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id':

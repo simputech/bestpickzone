@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/books-like-verity-psychological-thrillers'
 const heroImage =
@@ -71,7 +72,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Books Like Verity',
   description:
     'Books like Verity for readers who want dark marriage suspense, manipulative psychological thrillers, and strong Amazon-ready recommendations.',
@@ -83,7 +84,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     type: 'article',
   },
-}
+}, { category: 'books' })
 
 export default function BooksLikeVerityPage() {
   return (

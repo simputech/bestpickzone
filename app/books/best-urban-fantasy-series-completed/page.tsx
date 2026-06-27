@@ -1,15 +1,16 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-urban-fantasy-series-completed'
 const heroImage =
   'https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=800&q=80'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Urban Fantasy Series Completed',
   description:
     'Best completed urban fantasy series for readers who want the payoff of a finished world instead of an endless wait.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function UrbanFantasyCompletedPage() {
   const picks = [

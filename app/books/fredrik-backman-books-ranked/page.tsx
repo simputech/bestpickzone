@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/fredrik-backman-books-ranked'
 const heroImage =
@@ -55,12 +56,12 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Fredrik Backman`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Fredrik Backman Books Ranked',
   description:
     'Fredrik Backman books ranked with fuller book descriptions, author history, style notes, and a clear start-here recommendation.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function BackmanRankedPage() {
   return (

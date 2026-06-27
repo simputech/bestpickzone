@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: "Best Books for People Who Don't Like Reading — Ranked by Why They Work",
   description:
     "If you don't like reading, the issue is usually the book — not you. These five picks (The Martian, Old Man and the Sea, Born a Crime, Educated, Killing Floor) are matched to the specific reason reluctant readers bounce off most books.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'reader-picks' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -166,7 +167,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-20',
-  dateModified: '2026-04-20',
+  dateModified: '2026-06-26',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id':

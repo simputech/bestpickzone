@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { coffeeComparisonArticles } from '@/lib/comparison-html-articles'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Coffee Gear Comparisons 2026',
   description:
     'Spec-driven coffee gear comparisons for espresso machines, grinders, kettles, brewers, and scales built for high-intent buyers.',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     url: 'https://bestpickzone.com/coffee',
     type: 'website',
   },
-}
+}, { category: 'coffee' })
 
 const groups = [
   {

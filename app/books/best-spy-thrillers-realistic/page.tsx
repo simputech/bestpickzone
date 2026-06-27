@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-spy-thrillers-realistic'
 const heroImage =
   'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80'
+const publishedDate = '2026-06-14'
+const updatedDate = '2026-06-26'
 
 const picks = [
   {
@@ -71,7 +74,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Realistic Spy Thrillers',
   description:
     'Best realistic spy thrillers ranked for tradecraft, bureaucracy, and Cold War credibility, with direct Amazon links.',
@@ -83,7 +86,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     type: 'article',
   },
-}
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
 
 export default function BestRealisticSpyThrillersPage() {
   return (
@@ -97,8 +100,8 @@ export default function BestRealisticSpyThrillersPage() {
             headline: 'Best Realistic Spy Thrillers',
             description:
               'Best realistic spy thrillers ranked for tradecraft, bureaucracy, and Cold War credibility, with direct Amazon links.',
-            datePublished: '2026-06-14',
-            dateModified: '2026-06-14',
+            datePublished: publishedDate,
+            dateModified: updatedDate,
             author: { '@type': 'Organization', name: 'BestPickZone' },
             publisher: { '@type': 'Organization', name: 'BestPickZone' },
             mainEntityOfPage: pageUrl,

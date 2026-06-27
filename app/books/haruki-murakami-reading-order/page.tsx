@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/haruki-murakami-reading-order'
 const heroImage =
   'https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&q=80'
+const publishedDate = '2026-06-14'
+const updatedDate = '2026-06-26'
 
 const roadmap = [
   {
@@ -85,7 +88,7 @@ function coverImage(title: string) {
   return `https://dummyimage.com/320x480/e8edf4/1f2937.png&text=${encodeURIComponent(title)}`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Haruki Murakami Reading Order',
   description:
     'Haruki Murakami reading order with the best place to start, what to read next, and which big books to save for later.',
@@ -97,7 +100,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     type: 'article',
   },
-}
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
 
 export default function HarukiMurakamiReadingOrderPage() {
   const articleSchema = {
@@ -106,8 +109,8 @@ export default function HarukiMurakamiReadingOrderPage() {
     headline: 'Haruki Murakami Reading Order',
     description:
       'Haruki Murakami reading order with the best place to start, what to read next, and which big books to save for later.',
-    datePublished: '2026-06-14',
-    dateModified: '2026-06-14',
+    datePublished: publishedDate,
+    dateModified: updatedDate,
     author: { '@type': 'Organization', name: 'BestPickZone' },
     publisher: { '@type': 'Organization', name: 'BestPickZone' },
     mainEntityOfPage: pageUrl,

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Military Fiction Books — Ranked with Winner Logic',
   description:
     "The best military fiction books available now, ranked honestly: Tim O'Brien's The Things They Carried, Remarque's All Quiet on the Western Front, Kevin Powers's The Yellow Birds, Bowden's Black Hawk Down, and Luttrell's Lone Survivor — each with a skip-this-if recommendation.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'genre-fiction' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -166,7 +167,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-19',
-  dateModified: '2026-04-19',
+  dateModified: '2026-06-26',
   mainEntityOfPage:
     'https://bestpickzone.com/books/genre-fiction/best-military-fiction-books',
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-cozy-mystery-series-to-read'
 const heroImage =
@@ -71,12 +72,12 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Cozy Mystery Series To Read',
   description:
     'Best cozy mystery series to read, including the strongest place to start for village mysteries, culinary cozies, and witty modern ensemble picks.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function CozyMysterySeriesPage() {
   return (

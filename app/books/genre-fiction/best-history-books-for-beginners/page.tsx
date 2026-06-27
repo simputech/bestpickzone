@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best History Books for Beginners — Ranked with Winner Logic',
   description:
     "The best history books for beginners, ranked honestly: Harari's Sapiens, Larson's Devil in the White City, Beard's SPQR, Bryson's Short History, and Tuchman's Guns of August — each with a clear skip-this-if recommendation.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'genre-fiction' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -165,7 +166,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-20',
-  dateModified: '2026-04-20',
+  dateModified: '2026-06-26',
   mainEntityOfPage:
     'https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners',
 }

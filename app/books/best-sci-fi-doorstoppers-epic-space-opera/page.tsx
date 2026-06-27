@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/best-sci-fi-doorstoppers-epic-space-opera'
 const heroImage =
@@ -71,12 +72,12 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Sci-Fi Doorstoppers And Epic Space Opera',
   description:
     'Best sci-fi doorstoppers and epic space opera books for readers who want serious scale, politics, and immersive long-form storytelling.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function SpaceOperaDoorstoppersPage() {
   return (

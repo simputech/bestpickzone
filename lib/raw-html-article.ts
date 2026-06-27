@@ -3,6 +3,8 @@ import path from 'node:path'
 
 import type { Metadata } from 'next'
 
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+
 type RawHtmlArticle = {
   metadata: Metadata
   rawCss: string
@@ -30,9 +32,21 @@ export function loadRawHtmlArticle(relativeSourcePath: string, pageUrl: string):
   )
   const rawCss = extractOrThrow(source, /<style>([\s\S]*?)<\/style>/i, 'style block')
   const rawHtml = extractOrThrow(source, /<body[^>]*>([\s\S]*?)<\/body>/i, 'body block')
+  const category =
+    relativeSourcePath.startsWith('app/books/')
+      ? 'books'
+      : relativeSourcePath.startsWith('app/beauty/')
+        ? 'beauty'
+        : relativeSourcePath.startsWith('app/coffee/')
+          ? 'coffee'
+          : relativeSourcePath.startsWith('app/wfh/')
+            ? 'wfh'
+            : relativeSourcePath.startsWith('app/home-kitchen/')
+              ? 'home-kitchen'
+              : undefined
 
   return {
-    metadata: {
+    metadata: withArticleMetadataDefaults({
       title,
       description,
       alternates: {
@@ -44,7 +58,7 @@ export function loadRawHtmlArticle(relativeSourcePath: string, pageUrl: string):
         url: pageUrl,
         type: 'article',
       },
-    },
+    }, { url: pageUrl, category, section: category }),
     rawCss,
     rawHtml,
   }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/taylor-jenkins-reid-books-in-order'
 const heroImage =
@@ -83,12 +84,12 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Taylor Jenkins Reid`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Taylor Jenkins Reid Books In Order',
   description:
     'Taylor Jenkins Reid books in order, plus where to start, how her career changed, and why Evelyn Hugo is still the best first read for most people.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function TJRBooksInOrderPage() {
   return (

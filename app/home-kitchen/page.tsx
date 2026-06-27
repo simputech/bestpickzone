@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
   description:
     'Expert comparisons of the best air fryers, coffee makers, robot vacuums, kids room picks, instant pots, and more. Honest picks with affiliate links and clear buyer-fit guidance.',
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'website',
   },
-}
+}, { category: 'home-kitchen', metadataType: 'website' })
 
 const articles = [
   {

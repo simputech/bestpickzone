@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/colleen-hoover-books-ranked-worst-to-best'
 const heroImage =
@@ -61,12 +62,12 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Colleen Hoover`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Colleen Hoover Books Ranked Worst To Best',
   description:
     'Colleen Hoover books ranked worst to best with honest reasons, a real start-here recommendation, and direct Amazon links.',
   alternates: { canonical: pageUrl },
-}
+}, { category: 'books' })
 
 export default function CoHoRankedPage() {
   return (

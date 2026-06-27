@@ -1,9 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/books/top-fantasy-romance-novels'
 const heroImage = '/images/books/romantasy/fantasy-romance-hero-2026.svg'
+const publishedDate = '2026-06-15'
+const updatedDate = '2026-06-26'
 
 const picks = [
   {
@@ -210,7 +213,7 @@ function amazonLink(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Top 15 Fantasy Romance Novels to Read in 2026',
   description:
     'The best fantasy romance novels to read in 2026, ranked by reader type, with clear start-here picks, books like ACOTAR and Fourth Wing, and Amazon links throughout.',
@@ -226,7 +229,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [heroImage],
   },
-}
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
 
 export default function TopFantasyRomanceNovelsPage() {
   const articleSchema = {
@@ -235,8 +238,8 @@ export default function TopFantasyRomanceNovelsPage() {
     headline: 'Top 15 Fantasy Romance Novels to Read in 2026',
     description:
       'The best fantasy romance novels to read in 2026, ranked by reader type, with clear start-here picks, books like ACOTAR and Fourth Wing, and Amazon links throughout.',
-    datePublished: '2026-06-15',
-    dateModified: '2026-06-15',
+    datePublished: publishedDate,
+    dateModified: updatedDate,
     author: { '@type': 'Organization', name: 'BestPickZone' },
     publisher: { '@type': 'Organization', name: 'BestPickZone' },
     mainEntityOfPage: pageUrl,

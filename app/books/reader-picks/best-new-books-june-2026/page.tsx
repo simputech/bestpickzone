@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: "Best New Books in June 2026 — This Month's Standout Releases",
   description:
     "The best new books published in June 2026, ranked with winner logic: The Shampoo Effect, Little Wonder, A Pair of Aces, and The Housewives Underground.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'reader-picks' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -209,7 +210,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-06-13',
-  dateModified: '2026-06-13',
+  dateModified: '2026-06-26',
   mainEntityOfPage: 'https://bestpickzone.com/books/reader-picks/best-new-books-june-2026',
 }
 

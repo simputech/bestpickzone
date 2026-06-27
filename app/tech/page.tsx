@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Tech & Electronics Reviews 2026 | BestPickZone',
   description:
     'Expert reviews and comparisons of the best laptops, headphones, keyboards, monitors, and more. Every pick backed by hands-on research with Amazon and Best Buy links.',
@@ -13,7 +14,10 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'website',
   },
-}
+  alternates: {
+    canonical: 'https://bestpickzone.com/tech',
+  },
+}, { category: 'tech', metadataType: 'website' })
 
 const articles = [
   {

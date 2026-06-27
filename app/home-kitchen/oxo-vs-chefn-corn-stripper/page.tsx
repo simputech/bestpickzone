@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/home-kitchen/oxo-vs-chefn-corn-stripper'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: "OXO vs. Chef'n Corn Stripper: The Summer Kitchen Gadget Nobody Talks About",
   description:
     "We compared the two most popular corn strippers on Amazon — one swipes, one twists. Both are under $15. Here's which one actually belongs on your counter this summer.",
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     type: 'article',
   },
-}
+}, { category: 'home-kitchen' })
 
 const rawHtml = `
 <div class="topbar">

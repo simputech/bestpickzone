@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { getArticlesByCategory } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Kids & Young Adult Books 2026 — Series, Picture Books & YA | BestPickZone',
   description:
     'The best books for kids and teens: picture books, middle-grade series, YA fantasy, YA romance, reluctant reader picks, and more. Age-matched recommendations parents and kids trust.',
   alternates: { canonical: 'https://bestpickzone.com/books/kids-and-ya' },
-}
+}, { category: 'kids-and-ya' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Lee Child Books in Order — Jack Reacher Reading Guide (2026)',
   description:
     "Where to start the Jack Reacher series and what to read next: Killing Floor, One Shot, 61 Hours, and the honest verdict on the Andrew Child continuation novels. All 29 books covered.",
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'BestPickZone',
     type: 'article',
   },
-}
+}, { category: 'authors' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
@@ -146,7 +147,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-19',
-  dateModified: '2026-04-19',
+  dateModified: '2026-06-26',
   mainEntityOfPage: 'https://bestpickzone.com/books/authors/best-lee-child-books',
 }
 
