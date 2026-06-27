@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">The Mysterious Affair at Styles custom cover art</title>
+  <desc id="desc">Custom recommendation artwork for The Mysterious Affair at Styles by Agatha Christie, showing a candlelit country-house study with a poison bottle and a teacup on a writing desk.</desc>
+  <defs>
+    <linearGradient id="bgStyles" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d2a1f"/>
+      <stop offset="100%" stop-color="#4d6b4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bgStyles)"/>
+  <rect x="74" y="92" width="492" height="776" rx="28" fill="none" stroke="#f1e9d2" stroke-width="3" opacity="0.5"/>
+  <ellipse cx="320" cy="700" rx="200" ry="40" fill="#0f1810" opacity="0.4"/>
+  <rect x="170" y="660" width="300" height="22" rx="6" fill="#5b3f24"/>
+  <circle cx="240" cy="630" r="34" fill="#0b2a17" stroke="#cfe3c8" stroke-width="2"/>
+  <rect x="232" y="560" width="16" height="80" fill="#8c6b3f"/>
+  <ellipse cx="240" cy="556" rx="22" ry="10" fill="#3a2a16"/>
+  <path d="M390 600 q20 -40 0 -70 q-20 30 0 70 Z" fill="#caa86a" opacity="0.8"/>
+  <ellipse cx="390" cy="612" rx="34" ry="16" fill="#e7d6ad"/>
+  <ellipse cx="390" cy="608" rx="26" ry="11" fill="#caa86a"/>
+  <text x="118" y="140" fill="#f1e9d2" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="8">START HERE</text>
+  <text x="118" y="250" fill="#fbf7ea" font-family="Georgia, serif" font-size="56" font-weight="700">The Mysterious</text>
+  <text x="118" y="316" fill="#fbf7ea" font-family="Georgia, serif" font-size="56" font-weight="700">Affair at Styles</text>
+  <text x="118" y="370" fill="#dcceac" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="3">Agatha Christie</text>
+  <text x="118" y="850" fill="#e9dcc0" font-family="Arial, Helvetica, sans-serif" font-size="24">A country-house poisoning that introduces</text>
+  <text x="118" y="884" fill="#e9dcc0" font-family="Arial, Helvetica, sans-serif" font-size="24">Poirot's vanity, method, and theatrical certainty.</text>
+</svg>

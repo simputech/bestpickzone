@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">Murder on the Orient Express custom cover art</title>
+  <desc id="desc">Custom recommendation artwork for Murder on the Orient Express by Agatha Christie, showing a snowbound train carriage at night with falling snow and a single lit window.</desc>
+  <defs>
+    <linearGradient id="bgOrient" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1320"/>
+      <stop offset="100%" stop-color="#1f3a52"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bgOrient)"/>
+  <rect x="74" y="92" width="492" height="776" rx="28" fill="none" stroke="#dceaf5" stroke-width="3" opacity="0.5"/>
+  <rect x="150" y="600" width="340" height="120" rx="10" fill="#142233"/>
+  <rect x="172" y="624" width="50" height="50" rx="4" fill="#f6c453" opacity="0.85"/>
+  <rect x="238" y="624" width="50" height="50" rx="4" fill="#142233" stroke="#3c5a73" stroke-width="2"/>
+  <rect x="304" y="624" width="50" height="50" rx="4" fill="#142233" stroke="#3c5a73" stroke-width="2"/>
+  <rect x="370" y="624" width="50" height="50" rx="4" fill="#142233" stroke="#3c5a73" stroke-width="2"/>
+  <rect x="150" y="716" width="340" height="14" fill="#0b1320"/>
+  <circle cx="190" cy="744" r="14" fill="#0b1320" stroke="#3c5a73" stroke-width="3"/>
+  <circle cx="450" cy="744" r="14" fill="#0b1320" stroke="#3c5a73" stroke-width="3"/>
+  <g fill="#eaf3fb" opacity="0.8">
+    <circle cx="140" cy="200" r="3"/>
+    <circle cx="220" cy="260" r="2.5"/>
+    <circle cx="340" cy="180" r="3"/>
+    <circle cx="430" cy="240" r="2"/>
+    <circle cx="500" cy="160" r="3"/>
+    <circle cx="180" cy="430" r="2.5"/>
+    <circle cx="380" cy="470" r="2"/>
+    <circle cx="470" cy="520" r="2.5"/>
+  </g>
+  <text x="118" y="140" fill="#dceaf5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="6">THE ICONIC PICK</text>
+  <text x="118" y="250" fill="#f6f9fc" font-family="Georgia, serif" font-size="48" font-weight="700">Murder on the</text>
+  <text x="118" y="312" fill="#f6f9fc" font-family="Georgia, serif" font-size="48" font-weight="700">Orient Express</text>
+  <text x="118" y="366" fill="#bcd4e6" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="3">Agatha Christie</text>
+  <text x="118" y="856" fill="#e3edf5" font-family="Arial, Helvetica, sans-serif" font-size="24">A snowbound train, an impossible murder,</text>
+  <text x="118" y="890" fill="#e3edf5" font-family="Arial, Helvetica, sans-serif" font-size="24">and Poirot turned moral arbiter.</text>
+</svg>

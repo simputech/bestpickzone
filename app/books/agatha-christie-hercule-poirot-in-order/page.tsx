@@ -4,6 +4,14 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 const pageUrl = 'https://bestpickzone.com/books/agatha-christie-hercule-poirot-in-order'
 const heroImage =
   'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80'
+const coverImages: Record<string, string> = {
+  'The Mysterious Affair at Styles': '/images/books/agatha-christie/the-mysterious-affair-at-styles.svg',
+  'The Murder of Roger Ackroyd': '/images/books/agatha-christie/the-murder-of-roger-ackroyd.svg',
+  'Murder on the Orient Express': '/images/books/agatha-christie/murder-on-the-orient-express.svg',
+  'Death on the Nile': '/images/books/agatha-christie/death-on-the-nile.svg',
+  'Five Little Pigs': '/images/books/agatha-christie/five-little-pigs.svg',
+  Curtain: '/images/books/agatha-christie/curtain.svg',
+}
 
 const entries = [
   ['1', 'The Mysterious Affair at Styles', 'Best place to meet Poirot at the beginning'],
@@ -69,6 +77,15 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Hercule Poirot books in order with the best place to start, what to read early, and which final Poirot novel to save for last.',
   alternates: { canonical: pageUrl },
+  openGraph: {
+    title: 'Hercule Poirot Books in Order',
+    description:
+      'Hercule Poirot books in order with the best place to start, what to read early, and which final Poirot novel to save for last.',
+    url: pageUrl,
+    siteName: 'BestPickZone',
+    type: 'article',
+    images: [heroImage],
+  },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
   category: 'books' })
@@ -141,7 +158,13 @@ export default function PoirotOrderPage() {
               is the best Poirot recommendation for <strong>{book.fit.toLowerCase()}</strong>.
             </p>
             <a href={href} target="_blank" rel="noopener nofollow">
-              <img src={`https://dummyimage.com/320x480/f7f3e8/1f2937.png&text=${encodeURIComponent(book.title)}`} alt={`${book.title} by Agatha Christie cover-style recommendation image`} className="mb-4 w-full max-w-[260px] rounded-xl border border-gray-200" />
+              <img
+                src={coverImages[book.title]}
+                alt={`Custom illustrated recommendation artwork for ${book.title} by Agatha Christie`}
+                width={320}
+                height={480}
+                className="mb-4 w-full max-w-[260px] rounded-xl border border-gray-200"
+              />
             </a>
             <p className="mb-4 leading-relaxed text-gray-700">{book.body}</p>
             <table className="mb-4 w-full border-collapse text-left text-sm">

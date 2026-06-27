@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 960" role="img" aria-labelledby="title desc">
+  <title id="title">Five Little Pigs custom cover art</title>
+  <desc id="desc">Custom recommendation artwork for Five Little Pigs by Agatha Christie, showing five faded portrait frames in a row representing five conflicting memories of one old murder.</desc>
+  <defs>
+    <linearGradient id="bgPigs" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2a1f33"/>
+      <stop offset="100%" stop-color="#5a4070"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="960" fill="url(#bgPigs)"/>
+  <rect x="74" y="92" width="492" height="776" rx="28" fill="none" stroke="#ece3f3" stroke-width="3" opacity="0.5"/>
+  <g>
+    <rect x="120" y="560" width="60" height="80" rx="4" fill="#1c1424" stroke="#cdb8e0" stroke-width="2" opacity="0.9"/>
+    <rect x="195" y="540" width="60" height="100" rx="4" fill="#1c1424" stroke="#cdb8e0" stroke-width="2" opacity="0.95"/>
+    <rect x="270" y="555" width="60" height="85" rx="4" fill="#1c1424" stroke="#cdb8e0" stroke-width="2"/>
+    <rect x="345" y="535" width="60" height="105" rx="4" fill="#1c1424" stroke="#cdb8e0" stroke-width="2" opacity="0.95"/>
+    <rect x="420" y="560" width="60" height="80" rx="4" fill="#1c1424" stroke="#cdb8e0" stroke-width="2" opacity="0.9"/>
+  </g>
+  <text x="150" y="616" fill="#ece3f3" font-family="Georgia, serif" font-size="20" opacity="0.7">I</text>
+  <text x="220" y="600" fill="#ece3f3" font-family="Georgia, serif" font-size="20" opacity="0.7">II</text>
+  <text x="295" y="612" fill="#ece3f3" font-family="Georgia, serif" font-size="20" opacity="0.7">III</text>
+  <text x="365" y="598" fill="#ece3f3" font-family="Georgia, serif" font-size="20" opacity="0.7">IV</text>
+  <text x="440" y="616" fill="#ece3f3" font-family="Georgia, serif" font-size="20" opacity="0.7">V</text>
+  <text x="118" y="140" fill="#ece3f3" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="6">PSYCHOLOGICAL PICK</text>
+  <text x="118" y="250" fill="#fbf7fd" font-family="Georgia, serif" font-size="58" font-weight="700">Five Little</text>
+  <text x="118" y="316" fill="#fbf7fd" font-family="Georgia, serif" font-size="58" font-weight="700">Pigs</text>
+  <text x="118" y="370" fill="#d9c7ea" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="3">Agatha Christie</text>
+  <text x="118" y="852" fill="#f1e7f8" font-family="Arial, Helvetica, sans-serif" font-size="24">Five witnesses, five private versions of the past,</text>
+  <text x="118" y="886" fill="#f1e7f8" font-family="Arial, Helvetica, sans-serif" font-size="24">and a cold case Poirot reconstructs from memory.</text>
+</svg>
