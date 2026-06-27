@@ -13,6 +13,15 @@ export const metadata: Metadata = {
   description:
     'BestPickZone delivers expert book recommendations across author roundups, genre fiction, self-help, kids & YA, and reader-intent guides — with Amazon buy links on every pick.',
   metadataBase: new URL('https://bestpickzone.com'),
+  icons: {
+    icon: [
+      { url: '/icon.png', type: 'image/png', sizes: '180x180' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', type: 'image/png', sizes: '180x180' },
+    ],
+    shortcut: ['/icon.png'],
+  },
   openGraph: {
     type: 'website',
     siteName: 'BestPickZone',
