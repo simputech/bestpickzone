@@ -17,7 +17,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/beauty',
     type: 'website',
   },
-}, { category: 'beauty' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'beauty' })
 
 const concernRows = [
   ['Dark spots', 'Vitamin C vs Niacinamide', 'Tyrosinase pressure vs barrier-friendly consistency'],

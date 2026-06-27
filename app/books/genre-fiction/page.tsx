@@ -9,7 +9,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'The best books in every fiction genre: psychological thrillers, fantasy series, dark romance, cozy mysteries, historical fiction, sci-fi, horror, and more.',
   alternates: { canonical: 'https://bestpickzone.com/books/genre-fiction' },
-}, { category: 'genre-fiction' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'genre-fiction' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

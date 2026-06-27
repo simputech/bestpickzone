@@ -62,7 +62,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Books like Fourth Wing for readers who want dragon-school intensity, fantasy romance momentum, and stronger explanations of why each recommendation fits.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function FourthWingReadalikesPage() {
   return (

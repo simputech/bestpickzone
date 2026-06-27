@@ -77,7 +77,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Best cozy mystery series to read, including the strongest place to start for village mysteries, culinary cozies, and witty modern ensemble picks.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function CozyMysterySeriesPage() {
   return (

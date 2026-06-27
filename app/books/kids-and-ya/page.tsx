@@ -9,7 +9,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'The best books for kids and teens: picture books, middle-grade series, YA fantasy, YA romance, reluctant reader picks, and more. Age-matched recommendations parents and kids trust.',
   alternates: { canonical: 'https://bestpickzone.com/books/kids-and-ya' },
-}, { category: 'kids-and-ya' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'kids-and-ya' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

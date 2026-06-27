@@ -77,7 +77,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Best sci-fi doorstoppers and epic space opera books for readers who want serious scale, politics, and immersive long-form storytelling.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function SpaceOperaDoorstoppersPage() {
   return (

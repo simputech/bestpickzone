@@ -17,7 +17,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   alternates: {
     canonical: 'https://bestpickzone.com/finance-software',
   },
-}, { category: 'finance-software', metadataType: 'website' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'finance-software', metadataType: 'website' })
 
 const articles = [
   {

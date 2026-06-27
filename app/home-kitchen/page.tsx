@@ -14,7 +14,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     siteName: 'BestPickZone',
     type: 'website',
   },
-}, { category: 'home-kitchen', metadataType: 'website' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'home-kitchen', metadataType: 'website' })
 
 const articles = [
   {

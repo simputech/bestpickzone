@@ -9,7 +9,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Curated book lists for every reading mood and situation: beach reads, book club picks, one-sitting reads, audiobooks, feel-good books, and 25 more intent-based lists.',
   alternates: { canonical: 'https://bestpickzone.com/books/reader-picks' },
-}, { category: 'reader-picks' });
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'reader-picks' });
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

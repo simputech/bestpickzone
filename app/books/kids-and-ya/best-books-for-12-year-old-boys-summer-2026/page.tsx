@@ -20,7 +20,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026',
     type: 'article',
   },
-}, { category: 'kids-and-ya' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'kids-and-ya' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

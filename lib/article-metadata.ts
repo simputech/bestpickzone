@@ -2,6 +2,23 @@ import type { Metadata } from 'next'
 
 export const ARTICLE_REFRESH_DATE = '2026-06-26'
 
+const CATEGORY_OG_IMAGE: Record<string, string> = {
+  books: 'https://bestpickzone.com/og-books.png',
+  'genre-fiction': 'https://bestpickzone.com/og-books.png',
+  authors: 'https://bestpickzone.com/og-books.png',
+  'reader-picks': 'https://bestpickzone.com/og-books.png',
+  'self-help': 'https://bestpickzone.com/og-books.png',
+  'kids-and-ya': 'https://bestpickzone.com/og-books.png',
+  'home-kitchen': 'https://bestpickzone.com/og-home-kitchen.png',
+  'health-fitness': 'https://bestpickzone.com/og-health-fitness.png',
+  'finance-software': 'https://bestpickzone.com/og-finance-software.png',
+  beauty: 'https://bestpickzone.com/og-beauty.png',
+  coffee: 'https://bestpickzone.com/og-coffee.png',
+  wfh: 'https://bestpickzone.com/og-wfh.png',
+}
+
+const DEFAULT_OG_IMAGE = 'https://bestpickzone.com/og-default.png'
+
 type ArticleMetadataOptions = {
   authorName?: string
   category?: string
@@ -155,6 +172,7 @@ export function withArticleMetadataDefaults(
     typeof metadata.openGraph?.description === 'string'
       ? metadata.openGraph.description
       : description
+  const ogImage = (options.category && CATEGORY_OG_IMAGE[options.category]) ?? DEFAULT_OG_IMAGE
 
   return {
     ...metadata,
@@ -181,6 +199,14 @@ export function withArticleMetadataDefaults(
       url,
       title: openGraphTitle,
       description: openGraphDescription,
+      images: metadata.openGraph?.images ?? [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: openGraphTitle,
+        },
+      ],
       publishedTime: metadataType === 'article' ? options.publishedTime : undefined,
       modifiedTime: metadataType === 'article' ? modifiedTime : undefined,
       section: metadataType === 'article' ? (options.section ?? options.category) : undefined,
@@ -193,6 +219,7 @@ export function withArticleMetadataDefaults(
       card: 'summary_large_image',
       title: openGraphTitle,
       description: openGraphDescription,
+      images: metadata.twitter?.images ?? [ogImage],
       ...metadata.twitter,
     },
   }

@@ -20,7 +20,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     siteName: 'BestPickZone',
     type: 'article',
   },
-}, { category: 'reader-picks' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'reader-picks' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

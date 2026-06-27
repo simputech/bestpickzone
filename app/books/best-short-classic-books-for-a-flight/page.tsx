@@ -77,7 +77,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Best short classic books for a flight, with fuller story descriptions, writer background, and the smartest picks for different reading moods.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function ShortClassicsFlightPage() {
   return (

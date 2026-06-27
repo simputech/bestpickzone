@@ -84,7 +84,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: pageUrl,
     type: 'article',
   },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function BooksLikeVerityPage() {
   return (

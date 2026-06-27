@@ -18,7 +18,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/home-kitchen/best-kids-fort-for-girls-2026',
     type: 'article',
   },
-}, { category: 'home-kitchen' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'home-kitchen' })
 
 const faqs = [
   {

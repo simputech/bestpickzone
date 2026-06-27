@@ -19,7 +19,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls',
     type: 'article',
   },
-}, { category: 'kids-and-ya' });
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'kids-and-ya' });
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

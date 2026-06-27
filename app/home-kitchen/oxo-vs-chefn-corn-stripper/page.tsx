@@ -17,7 +17,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: pageUrl,
     type: 'article',
   },
-}, { category: 'home-kitchen' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'home-kitchen' })
 
 const rawHtml = `
 <div class="topbar">

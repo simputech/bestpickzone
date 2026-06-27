@@ -10,7 +10,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Best completed urban fantasy series for readers who want the payoff of a finished world instead of an endless wait.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function UrbanFantasyCompletedPage() {
   const picks = [

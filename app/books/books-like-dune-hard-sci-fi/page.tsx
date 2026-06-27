@@ -62,7 +62,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Books like Dune for readers who want political scale, ecology, empire, and science fiction with real civilizational depth.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function BooksLikeDunePage() {
   return (

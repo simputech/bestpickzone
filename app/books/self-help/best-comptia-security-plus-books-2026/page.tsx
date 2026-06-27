@@ -19,7 +19,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/books/self-help/best-comptia-security-plus-books-2026',
     type: 'article',
   },
-}, { category: 'self-help' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'self-help' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

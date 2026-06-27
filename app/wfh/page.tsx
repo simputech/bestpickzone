@@ -17,7 +17,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/wfh',
     type: 'website',
   },
-}, { category: 'wfh' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'wfh' })
 
 const sections = [
   {

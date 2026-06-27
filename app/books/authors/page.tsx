@@ -9,7 +9,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Author-by-author reading guides covering Stephen King, Colleen Hoover, James Clear, Malcolm Gladwell, and 11 more. Find the best books from your favorite author.',
   alternates: { canonical: 'https://bestpickzone.com/books/authors' },
-}, { category: 'authors' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'authors' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

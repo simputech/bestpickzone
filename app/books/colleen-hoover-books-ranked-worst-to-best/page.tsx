@@ -67,7 +67,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Colleen Hoover books ranked worst to best with honest reasons, a real start-here recommendation, and direct Amazon links.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function CoHoRankedPage() {
   return (

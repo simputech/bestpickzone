@@ -17,7 +17,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   alternates: {
     canonical: 'https://bestpickzone.com/tech',
   },
-}, { category: 'tech', metadataType: 'website' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'tech', metadataType: 'website' })
 
 const articles = [
   {

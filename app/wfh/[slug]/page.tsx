@@ -38,7 +38,9 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
       title: article.twitterTitle,
       description: article.twitterDescription,
     },
-  }, { url: pageUrl, category: 'wfh', section: 'Work From Home' })
+  }, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  url: pageUrl, category: 'wfh', section: 'Work From Home' })
 }
 
 export default function WfhComparisonArticlePage({ params }: { params: Params }) {

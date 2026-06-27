@@ -17,7 +17,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/coffee',
     type: 'website',
   },
-}, { category: 'coffee' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'coffee' })
 
 const groups = [
   {

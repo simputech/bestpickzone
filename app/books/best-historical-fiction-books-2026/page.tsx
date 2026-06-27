@@ -52,7 +52,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Best historical fiction books to read in 2026, now with fuller book descriptions and added context on why Pachinko is such an important novel.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function HistoricalFiction2026Page() {
   return (

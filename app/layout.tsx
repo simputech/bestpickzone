@@ -17,6 +17,21 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'BestPickZone',
     url: 'https://bestpickzone.com',
+    images: [
+      {
+        url: 'https://bestpickzone.com/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'BestPickZone',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BestPickZone — Best Book Recommendations & Reviews 2026',
+    description:
+      'BestPickZone delivers expert book recommendations across author roundups, genre fiction, self-help, kids & YA, and reader-intent guides.',
+    images: ['https://bestpickzone.com/og-default.png'],
   },
   robots: {
     index: true,

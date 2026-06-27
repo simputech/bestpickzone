@@ -52,7 +52,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Best psychological thrillers with mind-bending twists, including fuller descriptions, author names, and extra context on Gone Girl and Shutter Island.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function MindBendingThrillersPage() {
   return (

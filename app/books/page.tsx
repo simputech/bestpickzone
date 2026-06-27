@@ -9,7 +9,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Expert book recommendations across every genre — author spotlights, genre fiction, self-help, kids & YA, and curated reader lists. Find your next great read at BestPickZone.',
   alternates: { canonical: 'https://bestpickzone.com/books' },
-}, { category: 'books' });
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' });
 
 const categories = [
   {

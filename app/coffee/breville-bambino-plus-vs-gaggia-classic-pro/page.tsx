@@ -25,7 +25,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     description:
       'Thermoblock convenience vs. boiler-grade control. The specs that decide it, and which to buy first.',
   },
-}, { category: 'coffee' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'coffee' })
 
 const data: ComparisonPageData = {
   title: 'Breville Bambino Plus vs Gaggia Classic Pro',

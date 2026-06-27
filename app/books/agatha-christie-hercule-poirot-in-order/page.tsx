@@ -69,7 +69,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'Hercule Poirot books in order with the best place to start, what to read early, and which final Poirot novel to save for last.',
   alternates: { canonical: pageUrl },
-}, { category: 'books' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'books' })
 
 export default function PoirotOrderPage() {
   return (

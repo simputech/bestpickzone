@@ -19,7 +19,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: 'https://bestpickzone.com/books/genre-fiction/devils-guard-review',
     type: 'article',
   },
-}, { category: 'genre-fiction' })
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'genre-fiction' })
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

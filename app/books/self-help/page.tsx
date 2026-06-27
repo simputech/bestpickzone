@@ -9,7 +9,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   description:
     'The best self-help and non-fiction books on habits, leadership, personal finance, mindfulness, psychology, biographies, and more. Honest picks that actually deliver.',
   alternates: { canonical: 'https://bestpickzone.com/books/self-help' },
-}, { category: 'self-help' });
+}, {
+  publishedTime: '2026-01-01T00:00:00Z',
+  category: 'self-help' });
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
