@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-export const ARTICLE_REFRESH_DATE = '2026-06-26'
+export const ARTICLE_REFRESH_DATE = '2026-06-27'
 
 const CATEGORY_OG_IMAGE: Record<string, string> = {
   books: 'https://bestpickzone.com/og-books.png',

@@ -2,7 +2,7 @@ import { articlesData } from '@/lib/books-data'
 import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
 export const baseUrl = 'https://bestpickzone.com'
-export const contentRefreshDate = '2026-06-26'
+export const contentRefreshDate = '2026-06-27'
 
 export type SitemapEntry = {
   url: string
@@ -66,6 +66,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/genre-fiction/best-military-fiction-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-history-books-for-beginners`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/devils-guard-review`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/authors/authors-like-colleen-hoover`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/best-alex-michaelides-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/best-lee-child-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/best-patrick-radden-keefe-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },

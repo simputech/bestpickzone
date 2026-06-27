@@ -74,6 +74,11 @@ const standaloneAuthorSpotlights = [
     text: 'A sharper CoHo ranking page for readers who want a clear hierarchy rather than a generic best-books roundup.',
   },
   {
+    href: '/books/authors/authors-like-colleen-hoover',
+    title: 'Authors Like Colleen Hoover',
+    text: 'A readalike author-discovery page that matches Hoover readers to specific follow-up authors based on twist, ache, cry-romance, or binge factor.',
+  },
+  {
     href: '/books/authors/best-alex-michaelides-books',
     title: 'Best Alex Michaelides Books',
     text: 'A thriller-first author guide built around where to start, which title is moodiest, and which one to save for later.',
