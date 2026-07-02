@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
+import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Tech & Electronics Reviews 2026 | BestPickZone',
@@ -70,6 +71,10 @@ export default function TechPage() {
     <main className="max-w-5xl mx-auto px-4 py-10">
       {/* Breadcrumb */}
       <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Tech"}]} />
+      <ItemListJsonLd
+        name="Tech Reviews & Comparisons"
+        items={articles.map((article) => ({ name: article.title, path: `/tech/${article.slug}` }))}
+      />
       <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-2">/</span>

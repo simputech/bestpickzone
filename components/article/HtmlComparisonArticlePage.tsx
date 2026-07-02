@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
+import FaqJsonLd, { extractFaqPairs } from '@/components/seo/FaqJsonLd'
 
 export type HtmlComparisonArticle = {
   slug: string
@@ -35,6 +36,7 @@ export default function HtmlComparisonArticlePage({ article }: { article: HtmlCo
           { name: article.title },
         ]}
       />
+      <FaqJsonLd faqs={extractFaqPairs(article.bodyHtml)} />
       <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-amber-700">
           Home

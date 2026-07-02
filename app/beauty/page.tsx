@@ -3,6 +3,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { beautyComparisonArticles } from '@/lib/comparison-html-articles'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
+import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Beauty Tech and Ingredient Comparisons 2026',
@@ -59,10 +60,17 @@ const ingredientPages = [
   },
 ]
 
+const itemListItems = [
+  ...ingredientPages.map((page) => ({ name: page.title, path: page.href })),
+  ...deviceRows.map((row) => ({ name: row[1], path: row[3] })),
+  ...beautyComparisonArticles.map((article) => ({ name: article.title, path: `/beauty/${article.slug}` })),
+].filter((item, index, all) => all.findIndex((other) => other.path === item.path) === index)
+
 export default function BeautyHubPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Beauty"}]} />
+      <ItemListJsonLd name="Beauty Tech & Ingredient Comparisons" items={itemListItems} />
       <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-rose-700">
           Home

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
+import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
@@ -97,10 +98,15 @@ const articles = [
   },
 ]
 
+const itemListItems = articles
+  .filter((article) => !article.comingSoon)
+  .map((article) => ({ name: article.title, path: `/home-kitchen/${article.slug}` }))
+
 export default function HomeKitchenPage() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
       <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Home & Kitchen"}]} />
+      <ItemListJsonLd name="Home & Kitchen Reviews" items={itemListItems} />
       <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-blue-600">
           Home

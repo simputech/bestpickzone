@@ -1,5 +1,6 @@
 import type { ComparisonPageData, ComparisonProductSection } from '@/lib/product-comparisons'
 import { amazonSearchUrl } from '@/lib/product-comparisons'
+import FaqJsonLd from '@/components/seo/FaqJsonLd'
 
 function ProductBlock({ product }: { product: ComparisonProductSection }) {
   const amazonUrl = amazonSearchUrl(product.amazonQuery)
@@ -60,6 +61,7 @@ function ProductBlock({ product }: { product: ComparisonProductSection }) {
 export default function ProductComparisonPage({ data }: { data: ComparisonPageData }) {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <FaqJsonLd faqs={data.faq} />
       <p className="mb-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-950">
         <em>{data.disclosure}</em>
       </p>

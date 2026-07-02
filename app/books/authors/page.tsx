@@ -3,6 +3,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { getArticlesByCategory } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
+import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Books by Author — Stephen King, Colleen Hoover & More | BestPickZone',
@@ -133,6 +134,10 @@ export default function AuthorsHubPage() {
       />
       <main className="max-w-4xl mx-auto px-4 py-10">
         <Breadcrumb items={breadcrumbItems} />
+        <ItemListJsonLd
+          name="Author Book Guides"
+          items={articles.map((article) => ({ name: article.title, path: `/books/${article.slug}` }))}
+        />
 
         <header className="mb-10">
           <h1

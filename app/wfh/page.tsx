@@ -3,6 +3,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
+import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'WFH Ergonomic Comparisons 2026',
@@ -41,15 +42,21 @@ const sections = [
       ['Ergotron LX vs Amazon Basics Monitor Arm', 'The $28 arm is secretly made by Ergotron — here is where the gap actually shows', '/wfh/ergotron-lx-vs-amazon-basics-monitor-arm'],
       ['Logitech MX Master 3S vs Apple Magic Mouse', 'Ergonomic control vs low-profile Apple workflow', '/wfh/logitech-mx-master-3s-vs-apple-magic-mouse'],
       ['Logitech MX Keys S vs Apple Magic Keyboard', 'Travel, layout, and device switching', '/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard'],
-      ['VariDesk Converter vs Vivo Desk Riser', 'Temporary standing setup vs budget riser logic', '/wfh/varidesk-converter-vs-vivo-desk-riser'],
+      ['VariDesk Converter vs Vivo Desk Riser', 'Temporary standing setup vs budget riser logic', '/wfh/vari-desk-converter-vs-vivo-desk-riser'],
     ],
   },
 ]
+
+const itemListItems = [
+  ...sections.flatMap((section) => section.items.map((item) => ({ name: item[0], path: item[2] }))),
+  ...wfhComparisonArticles.map((article) => ({ name: article.title, path: `/wfh/${article.slug}` })),
+].filter((item, index, all) => all.findIndex((other) => other.path === item.path) === index)
 
 export default function WfhHubPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "WFH"}]} />
+      <ItemListJsonLd name="WFH Ergonomic Comparisons" items={itemListItems} />
       <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-sky-700">
           Home

@@ -3,6 +3,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import { articlesData } from '@/lib/books-data';
 import Breadcrumb from '@/components/ui/Breadcrumb';
+import ItemListJsonLd from '@/components/seo/ItemListJsonLd';
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Book Recommendations 2026 | BestPickZone',
@@ -221,6 +222,10 @@ const topicClusters = [
 
       <main className="max-w-5xl mx-auto px-4 py-10">
         <Breadcrumb items={breadcrumbItems} />
+        <ItemListJsonLd
+          name="Book Recommendation Categories"
+          items={categories.map((category) => ({ name: category.label, path: category.href }))}
+        />
 
         <header className="mb-10">
           <h1 className="mb-4 text-4xl font-extrabold text-gray-900">Best Book Recommendations</h1>

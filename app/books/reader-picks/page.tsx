@@ -3,6 +3,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import { getArticlesByCategory } from '@/lib/books-data';
 import Breadcrumb from '@/components/ui/Breadcrumb';
+import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Reader-Intent Book Lists — Beach Reads, Book Clubs, One-Sitting Reads & More | BestPickZone',
@@ -70,6 +71,10 @@ export default function ReaderPicksHubPage() {
       />
       <main className="max-w-4xl mx-auto px-4 py-10">
         <Breadcrumb items={breadcrumbItems} />
+        <ItemListJsonLd
+          name="Reader-Intent Book Lists"
+          items={articles.map((article) => ({ name: article.title, path: `/books/${article.slug}` }))}
+        />
 
         <header className="mb-10">
           <h1 className="mb-4 text-4xl font-extrabold text-gray-900">Reader-Intent Book Lists</h1>

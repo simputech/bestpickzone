@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { buildBreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd'
+import { buildFaqJsonLd, extractFaqPairs } from '@/components/seo/FaqJsonLd'
 
 type RawHtmlArticle = {
   metadata: Metadata
@@ -92,6 +93,19 @@ export function loadRawHtmlArticle(relativeSourcePath: string, pageUrl: string):
       },
     }, { url: pageUrl, category, section: category }),
     rawCss,
-    rawHtml: rawHtml + buildBreadcrumbScript(pageUrl, title.replace(/\s*[|—-]\s*BestPickZone\s*$/i, '')),
+    rawHtml:
+      rawHtml +
+      buildBreadcrumbScript(pageUrl, title.replace(/\s*[|—-]\s*BestPickZone\s*$/i, '')) +
+      buildFaqScript(rawHtml),
   }
+}
+
+function buildFaqScript(rawHtml: string) {
+  const faqs = extractFaqPairs(rawHtml)
+
+  if (faqs.length === 0) {
+    return ''
+  }
+
+  return `<script type="application/ld+json">${JSON.stringify(buildFaqJsonLd(faqs))}</script>`
 }
