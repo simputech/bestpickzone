@@ -6,6 +6,9 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
   description:
     'Expert comparisons of the best air fryers, coffee makers, robot vacuums, kids room picks, instant pots, and more. Honest picks with affiliate links and clear buyer-fit guidance.',
+  alternates: {
+    canonical: 'https://bestpickzone.com/home-kitchen',
+  },
   openGraph: {
     title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
     description:
