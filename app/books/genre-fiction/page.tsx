@@ -23,6 +23,11 @@ export default function GenreFictionHubPage() {
   const articles = getArticlesByCategory('genre')
   const editorSpotlights = [
     {
+      href: '/books/genre-fiction/best-civil-war-soldier-memoirs',
+      title: 'Best Civil War Soldier Memoirs',
+      text: 'A first-hand Civil War reading guide ranked around authenticity, voice, and whether you want battlefield drama or camp-life detail.',
+    },
+    {
       href: '/books/best-historical-fiction-books-2026',
       title: 'Best Historical Fiction Books In 2026',
       text: 'A stronger current-year historical-fiction guide built around reading mood, not just era labels.',

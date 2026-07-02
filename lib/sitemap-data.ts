@@ -2,7 +2,7 @@ import { articlesData } from '@/lib/books-data'
 import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
 export const baseUrl = 'https://bestpickzone.com'
-export const contentRefreshDate = '2026-06-27'
+export const contentRefreshDate = '2026-07-01'
 
 export type SitemapEntry = {
   url: string
@@ -53,6 +53,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/top-fantasy-romance-novels`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/genre-fiction/best-historical-epics-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-historical-fiction-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/genre-fiction/best-civil-war-soldier-memoirs`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-wwii-novels-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/self-help/best-james-clear-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-true-crime-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
