@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'AirPods Pro 2 vs Sony WF-1000XM5: Which Should You Buy in 2026?',
@@ -83,6 +84,7 @@ const faqs = [
 export default function AirPodsProVsSonyPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Tech", path: "/tech"}, {name: "AirPods Pro 2 vs Sony WF-1000XM5: Which Should You Buy in 2026?"}]} />
       <nav className="text-sm text-gray-500 mb-5" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-2">/</span>

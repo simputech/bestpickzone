@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/haruki-murakami-reading-order'
 const heroImage =
@@ -150,6 +151,7 @@ export default function HarukiMurakamiReadingOrderPage() {
 
   return (
     <>
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Haruki Murakami Reading Order"}]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}

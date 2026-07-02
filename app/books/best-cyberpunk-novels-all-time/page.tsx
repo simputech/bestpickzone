@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/best-cyberpunk-novels-all-time'
 const heroImage =
@@ -24,6 +25,7 @@ export default function CyberpunkPage() {
   ] as const
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Best Cyberpunk Novels All Time"}]} />
       <h1 className="mb-4 text-4xl font-extrabold text-gray-900 md:text-5xl">Best Cyberpunk Novels Of All Time</h1>
       <p className="mb-4 text-lg leading-relaxed text-gray-700">
         The best cyberpunk novel of all time is still <strong>Neuromancer</strong> because it gave the genre its most enduring texture:

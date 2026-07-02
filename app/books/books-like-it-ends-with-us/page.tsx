@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/books-like-it-ends-with-us'
 const heroImage =
@@ -181,6 +182,7 @@ export default function BooksLikeItEndsWithUsPage() {
 
   return (
     <>
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Books Like It Ends With Us"}]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}

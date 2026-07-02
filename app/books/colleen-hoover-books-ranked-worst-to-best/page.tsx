@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/colleen-hoover-books-ranked-worst-to-best'
 const heroImage =
@@ -74,6 +75,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 export default function CoHoRankedPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Colleen Hoover Books Ranked Worst To Best"}]} />
       <h1 className="mb-4 text-4xl font-extrabold text-gray-900 md:text-5xl">
         Colleen Hoover Books Ranked Worst To Best
       </h1>

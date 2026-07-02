@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/best-spy-thrillers-realistic'
 const heroImage =
@@ -91,6 +92,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 export default function BestRealisticSpyThrillersPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Best Realistic Spy Thrillers"}]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

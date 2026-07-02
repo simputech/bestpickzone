@@ -230,22 +230,6 @@ const faqSchema = {
   })),
 }
 
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://bestpickzone.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Books', item: 'https://bestpickzone.com/books' },
-    {
-      '@type': 'ListItem',
-      position: 3,
-      name: 'Genre Fiction',
-      item: 'https://bestpickzone.com/books/genre-fiction',
-    },
-    { '@type': 'ListItem', position: 4, name: 'Best Civil War Soldier Memoirs', item: CANONICAL },
-  ],
-}
-
 export default function BestCivilWarSoldierMemoirsPage() {
   return (
     <>
@@ -260,10 +244,6 @@ export default function BestCivilWarSoldierMemoirsPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       <main className="max-w-3xl mx-auto px-4 py-10">

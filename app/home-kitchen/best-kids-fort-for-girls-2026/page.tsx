@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const productUrl = 'https://www.amazon.com/dp/B0FJF95P9J?tag=althcu-20'
 
@@ -80,6 +81,7 @@ export default function BestKidsFortForGirlsPage() {
       />
 
       <main className="max-w-4xl mx-auto px-4 py-10">
+        <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Home & Kitchen", path: "/home-kitchen"}, {name: "Best Kids Fort for Girls in 2026"}]} />
         <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
           <Link href="/" className="hover:text-blue-600">Home</Link>
           <span className="mx-2">/</span>

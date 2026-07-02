@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import CommerceShowdownArticlePage from '@/components/article/CommerceShowdownArticlePage'
 import { avocadoShowdownArticle } from '@/lib/home-kitchen-showdowns'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const article = avocadoShowdownArticle
 const pageUrl = `https://bestpickzone.com/home-kitchen/${article.slug}`
@@ -50,6 +51,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 export default function OxoVsFullstarAvocadoSlicerPage() {
   return (
     <>
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Home & Kitchen", path: "/home-kitchen"}, {name: "OXO vs Fullstar Avocado Slicer"}]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}

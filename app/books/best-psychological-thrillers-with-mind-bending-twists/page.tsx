@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/best-psychological-thrillers-with-mind-bending-twists'
 const heroImage =
@@ -59,6 +60,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 export default function MindBendingThrillersPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Best Psychological Thrillers With Mind-Bending Twists"}]} />
       <h1 className="mb-4 text-4xl font-extrabold text-gray-900 md:text-5xl">
         Best Psychological Thrillers With Mind-Bending Twists
       </h1>

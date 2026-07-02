@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/home-kitchen/oxo-vs-chefn-corn-stripper'
 
@@ -610,6 +611,7 @@ body > footer {
 export default function OxoVsChefnCornStripperPage() {
   return (
     <>
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Home & Kitchen", path: "/home-kitchen"}, {name: "OXO vs. Chef'n Corn Stripper: The Summer Kitchen Gadget Nobody Talks About"}]} />
       <style dangerouslySetInnerHTML={{ __html: rawCss }} />
       <div className="raw-corn-page" dangerouslySetInnerHTML={{ __html: rawHtml }} />
     </>

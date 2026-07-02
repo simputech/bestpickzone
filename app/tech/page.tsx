@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Tech & Electronics Reviews 2026 | BestPickZone',
@@ -68,6 +69,7 @@ export default function TechPage() {
   return (
     <main className="max-w-5xl mx-auto px-4 py-10">
       {/* Breadcrumb */}
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Tech"}]} />
       <nav className="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-2">/</span>

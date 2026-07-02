@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/top-fantasy-romance-novels'
 const heroImage = '/images/books/romantasy/fantasy-romance-hero-2026.svg'
@@ -287,6 +288,7 @@ export default function TopFantasyRomanceNovelsPage() {
 
       <main className="bg-[radial-gradient(circle_at_top,#fff8fb_0%,#fffdf8_35%,#ffffff_100%)]">
         <section className="mx-auto max-w-6xl px-4 py-10">
+          <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Top 15 Fantasy Romance Novels to Read in 2026"}]} />
           <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-fuchsia-700">
               Home

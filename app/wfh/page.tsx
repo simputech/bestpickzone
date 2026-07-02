@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'WFH Ergonomic Comparisons 2026',
@@ -48,6 +49,7 @@ const sections = [
 export default function WfhHubPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "WFH"}]} />
       <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-sky-700">
           Home

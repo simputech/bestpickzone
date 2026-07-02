@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import ProductComparisonPage from '@/components/article/ProductComparisonPage'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import type { ComparisonPageData } from '@/lib/product-comparisons'
 
 const pageUrl = 'https://bestpickzone.com/coffee/breville-bambino-plus-vs-gaggia-classic-pro'
@@ -187,5 +188,16 @@ const data: ComparisonPageData = {
 }
 
 export default function BrevilleVsGaggiaPage() {
-  return <ProductComparisonPage data={data} />
+  return (
+    <>
+      <BreadcrumbJsonLd
+        trail={[
+          { name: 'Home', path: '/' },
+          { name: 'Coffee', path: '/coffee' },
+          { name: 'Breville Bambino Plus vs Gaggia Classic Pro' },
+        ]}
+      />
+      <ProductComparisonPage data={data} />
+    </>
+  )
 }

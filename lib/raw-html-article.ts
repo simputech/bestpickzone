@@ -4,11 +4,43 @@ import path from 'node:path'
 import type { Metadata } from 'next'
 
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import { buildBreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd'
 
 type RawHtmlArticle = {
   metadata: Metadata
   rawCss: string
   rawHtml: string
+}
+
+const SEGMENT_LABELS: Record<string, string> = {
+  books: 'Books',
+  authors: 'By Author',
+  'genre-fiction': 'Genre Fiction',
+  'self-help': 'Self-Help',
+  'kids-and-ya': 'Kids & YA',
+  'reader-picks': 'Reader Picks',
+  beauty: 'Beauty',
+  coffee: 'Coffee',
+  wfh: 'WFH',
+  'home-kitchen': 'Home & Kitchen',
+  tech: 'Tech',
+  'finance-software': 'Finance Software',
+  'health-fitness': 'Health & Fitness',
+}
+
+function buildBreadcrumbScript(pageUrl: string, title: string) {
+  const segments = new URL(pageUrl).pathname.split('/').filter(Boolean)
+  const trail = [{ name: 'Home', path: '/' }]
+  let currentPath = ''
+
+  for (const segment of segments.slice(0, -1)) {
+    currentPath += `/${segment}`
+    trail.push({ name: SEGMENT_LABELS[segment] ?? segment, path: currentPath })
+  }
+
+  trail.push({ name: title } as { name: string; path: string })
+
+  return `<script type="application/ld+json">${JSON.stringify(buildBreadcrumbJsonLd(trail))}</script>`
 }
 
 function extractOrThrow(source: string, pattern: RegExp, label: string) {
@@ -60,6 +92,6 @@ export function loadRawHtmlArticle(relativeSourcePath: string, pageUrl: string):
       },
     }, { url: pageUrl, category, section: category }),
     rawCss,
-    rawHtml,
+    rawHtml: rawHtml + buildBreadcrumbScript(pageUrl, title.replace(/\s*[|—-]\s*BestPickZone\s*$/i, '')),
   }
 }

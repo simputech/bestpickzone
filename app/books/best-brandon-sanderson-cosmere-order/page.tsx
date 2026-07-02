@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/best-brandon-sanderson-cosmere-order'
 const heroImage =
@@ -125,6 +126,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 export default function CosmereOrderPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Best Brandon Sanderson Cosmere Order"}]} />
       <h1 className="mb-4 text-4xl font-extrabold text-gray-900 md:text-5xl">
         Best Brandon Sanderson Cosmere Order
       </h1>

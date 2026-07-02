@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/books/best-urban-fantasy-series-completed'
 const heroImage =
@@ -24,6 +25,7 @@ export default function UrbanFantasyCompletedPage() {
   ] as const
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Books", path: "/books"}, {name: "Best Urban Fantasy Series Completed"}]} />
       <h1 className="mb-4 text-4xl font-extrabold text-gray-900 md:text-5xl">Best Completed Urban Fantasy Series</h1>
       <p className="mb-4 text-lg leading-relaxed text-gray-700">
         The best completed urban fantasy series for most readers is <strong>Kate Daniels</strong> because it gives you city-scale magic,

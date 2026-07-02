@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const picks = [
   {
@@ -150,6 +151,7 @@ export default function BestSolarPoweredAtticFansPage() {
       />
 
       <main className="max-w-4xl mx-auto px-4 py-10 font-sans leading-relaxed">
+        <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Home & Kitchen", path: "/home-kitchen"}, {name: "Best Solar-Powered Attic Fans"}]} />
         <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
           <Link href="/" className="hover:text-blue-600">
             Home

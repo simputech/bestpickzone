@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 export type HtmlComparisonArticle = {
   slug: string
@@ -27,6 +28,13 @@ const siloLabels: Record<HtmlComparisonArticle['silo'], string> = {
 export default function HtmlComparisonArticlePage({ article }: { article: HtmlComparisonArticle }) {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <BreadcrumbJsonLd
+        trail={[
+          { name: 'Home', path: '/' },
+          { name: siloLabels[article.silo], path: `/${article.silo}` },
+          { name: article.title },
+        ]}
+      />
       <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-amber-700">
           Home

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Wireless Earbuds in 2026: Top Picks for Every Budget',
@@ -228,6 +229,7 @@ export default function BestWirelessEarbudsPage() {
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
       {/* Breadcrumb */}
+      <BreadcrumbJsonLd trail={[{name: "Home", path: "/"}, {name: "Tech", path: "/tech"}, {name: "Best Wireless Earbuds in 2026: Top Picks for Every Budget"}]} />
       <nav className="text-sm text-gray-500 mb-5" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         <span className="mx-2">/</span>
