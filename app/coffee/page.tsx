@@ -26,37 +26,39 @@ const groups = [
     name: 'Entry-Level Espresso',
     note: 'Heat-up time, boiler style, steam workflow, and footprint decide these pages.',
     items: [
-      { slug: 'breville-bambino-plus-vs-gaggia-classic-pro', title: 'Breville Bambino Plus vs Gaggia Classic Pro', spec: 'ThermoJet speed vs 58mm brass-boiler workflow', live: true },
-      { slug: 'breville-barista-express-vs-delonghi-la-specialista', title: 'Breville Barista Express vs DeLonghi La Specialista', spec: 'Built-in grinder workflow vs assisted tamping', live: false },
-      { slug: 'flair-58-vs-la-pavoni-europiccola', title: 'Flair 58 vs La Pavoni Europiccola', spec: 'Lever control vs countertop ritual', live: false },
+      { slug: 'breville-bambino-plus-vs-gaggia-classic-pro', title: 'Breville Bambino Plus vs Gaggia Classic Pro', spec: 'ThermoJet speed vs 58mm brass-boiler workflow' },
+      { slug: 'breville-barista-express-vs-delonghi-la-specialista', title: "Breville Barista Express vs De'Longhi La Specialista", spec: 'Built-in grinder workflow vs assisted tamping' },
     ],
   },
   {
     name: 'Manual Grinders',
     note: 'These comparisons focus on burr size, click resolution, and grind-speed feel.',
     items: [
-      { slug: '1zpresso-jx-pro-vs-comandante-c40', title: '1Zpresso JX-Pro vs Comandante C40', spec: 'Adjustment precision vs iconic burr profile', live: false },
-      { slug: 'timemore-chestnut-c3-vs-kingrinder-k6', title: 'Timemore Chestnut C3 vs Kingrinder K6', spec: 'Budget grind quality vs range for espresso', live: false },
+      { slug: '1zpresso-jx-pro-vs-comandante-c40', title: '1Zpresso JX-Pro vs Comandante C40', spec: 'Adjustment precision vs iconic burr profile' },
+      { slug: 'timemore-chestnut-c3-vs-kingrinder-k6', title: 'Timemore Chestnut C3 vs Kingrinder K6', spec: 'Budget grind quality vs range for espresso' },
     ],
   },
   {
     name: 'Pour-Over and Brewing Tools',
     note: 'The best pages here help shoppers decide by heat retention, pour control, and brew volume.',
     items: [
-      { slug: 'fellow-stagg-ekg-vs-cosori-gooseneck', title: 'Fellow Stagg EKG vs Cosori Gooseneck', spec: 'Temperature control feel vs value', live: false },
-      { slug: 'hario-v60-vs-chemex-classic', title: 'Hario V60 vs Chemex Classic', spec: 'Clarity, filter style, and brew ritual', live: false },
-      { slug: 'aeropress-original-vs-aeropress-premium', title: 'AeroPress Original vs AeroPress Premium', spec: 'Material upgrade vs same core brew logic', live: false },
+      { slug: 'fellow-stagg-ekg-vs-cosori-gooseneck', title: 'Fellow Stagg EKG vs Cosori Gooseneck Kettle', spec: 'Temperature control feel vs value' },
+      { slug: 'hario-v60-vs-chemex-classic', title: 'Hario V60 vs Chemex', spec: 'Clarity, filter style, and brew ritual' },
+      { slug: 'aeropress-original-vs-aeropress-premium', title: 'AeroPress Original vs AeroPress Premium', spec: 'Material upgrade vs same core brew logic' },
     ],
   },
   {
     name: 'Scales and Electric Grinders',
     note: 'Quick-read timing, workflow speed, and dial range matter more than generic review scores.',
     items: [
-      { slug: 'baratza-virtuoso-plus-vs-fellow-ode-gen-2', title: 'Baratza Virtuoso Plus vs Fellow Ode Gen 2', spec: 'All-purpose burr range vs filter-first design', live: false },
-      { slug: 'acaia-lunar-vs-timemore-black-mirror-nano', title: 'Acaia Lunar vs Timemore Black Mirror Nano', spec: 'Speed, app polish, and espresso footprint', live: false },
+      { slug: 'baratza-virtuoso-plus-vs-fellow-ode-gen-2', title: 'Baratza Virtuoso+ vs Fellow Ode Gen 2', spec: 'All-purpose burr range vs filter-first design' },
+      { slug: 'acaia-lunar-vs-timemore-black-mirror-nano', title: 'Acaia Lunar vs Timemore Black Mirror Nano', spec: 'Speed, app polish, and espresso footprint' },
     ],
   },
 ]
+
+const groupedSlugs = new Set(groups.flatMap((group) => group.items.map((item) => item.slug)))
+const uncategorizedArticles = coffeeComparisonArticles.filter((article) => !groupedSlugs.has(article.slug))
 
 export default function CoffeeHubPage() {
   return (
@@ -102,7 +104,7 @@ export default function CoffeeHubPage() {
         <div className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-stone-500">Linking</p>
           <p className="mt-3 text-3xl font-extrabold text-gray-900">Hub-first</p>
-          <p className="mt-2 text-sm leading-relaxed text-gray-600">Every live comparison will link back here first, then across only to real sibling pages.</p>
+          <p className="mt-2 text-sm leading-relaxed text-gray-600">Every comparison links back to this hub and across to related gear pages.</p>
         </div>
       </section>
 
@@ -111,49 +113,42 @@ export default function CoffeeHubPage() {
           <h2 className="mb-2 text-2xl font-bold text-gray-900">{group.name}</h2>
           <p className="mb-5 text-gray-600">{group.note}</p>
           <div className="grid gap-4 md:grid-cols-2">
-            {group.items.map((item) =>
-              item.live ? (
-                <Link
-                  key={item.slug}
-                  href={`/coffee/${item.slug}`}
-                  className="rounded-2xl border border-amber-200 bg-amber-50 p-5 transition hover:-translate-y-0.5 hover:shadow-md"
-                >
-                  <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-amber-800">Live Comparison</p>
-                  <h3 className="mb-2 text-xl font-bold text-gray-900">{item.title}</h3>
-                  <p className="text-sm leading-relaxed text-gray-700">{item.spec}</p>
-                </Link>
-              ) : (
-                <div key={item.slug} className="rounded-2xl border border-gray-200 bg-gray-50 p-5">
-                  <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-gray-500">Queued Topic</p>
-                  <h3 className="mb-2 text-xl font-bold text-gray-900">{item.title}</h3>
-                  <p className="text-sm leading-relaxed text-gray-700">{item.spec}</p>
-                </div>
-              )
-            )}
+            {group.items.map((item) => (
+              <Link
+                key={item.slug}
+                href={`/coffee/${item.slug}`}
+                className="rounded-2xl border border-amber-200 bg-amber-50 p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-amber-800">Head-to-Head</p>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">{item.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-700">{item.spec}</p>
+              </Link>
+            ))}
           </div>
         </section>
       ))}
 
-      <section className="rounded-3xl border border-amber-200 bg-amber-50 p-6 shadow-sm">
-        <h2 className="mb-3 text-2xl font-bold text-gray-900">Newest live coffee comparisons</h2>
-        <p className="mb-5 text-gray-700">
-          These are the active pages shipping the current comparison pattern across espresso, grinders,
-          brewers, and scales.
-        </p>
-        <div className="grid gap-4 md:grid-cols-2">
-          {coffeeComparisonArticles.map((article) => (
-            <Link
-              key={article.slug}
-              href={`/coffee/${article.slug}`}
-              className="rounded-2xl border border-amber-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
-            >
-              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-amber-800">Live Comparison</p>
-              <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
-              <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
-            </Link>
-          ))}
-        </div>
-      </section>
+      {uncategorizedArticles.length > 0 && (
+        <section className="rounded-3xl border border-amber-200 bg-amber-50 p-6 shadow-sm">
+          <h2 className="mb-3 text-2xl font-bold text-gray-900">More coffee comparisons</h2>
+          <p className="mb-5 text-gray-700">
+            The latest additions across espresso, grinders, brewers, and scales.
+          </p>
+          <div className="grid gap-4 md:grid-cols-2">
+            {uncategorizedArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/coffee/${article.slug}`}
+                className="rounded-2xl border border-amber-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+              >
+                <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-amber-800">Head-to-Head</p>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
+                <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </main>
   )
 }
