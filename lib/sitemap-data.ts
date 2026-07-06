@@ -4,6 +4,10 @@ import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticl
 export const baseUrl = 'https://bestpickzone.com'
 export const contentRefreshDate = '2026-07-01'
 
+function latestDate(first: string, second: string) {
+  return first > second ? first : second
+}
+
 export type SitemapEntry = {
   url: string
   lastModified: string
@@ -34,7 +38,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/best-brandon-sanderson-cosmere-order`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/books-like-verity-psychological-thrillers`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-cozy-mystery-series-to-read`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/books/colleen-hoover-books-ranked-worst-to-best`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/books/best-colleen-hoover-books`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-sci-fi-doorstoppers-epic-space-opera`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/cormac-mccarthy-where-to-start`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-historical-fiction-books-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
@@ -132,6 +136,7 @@ export const coffeePages: SitemapEntry[] = [
 
 export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.92 },
+  { url: `${baseUrl}/wfh/best-used-herman-miller-aeron-chairs-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/secretlab-titan-evo-vs-ergotune-supreme`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/purple-royal-seat-cushion-vs-cushion-lab`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
@@ -149,7 +154,7 @@ export const booksPages: SitemapEntry[] = [
   ...standaloneBookPages,
   ...articlesData.map((article) => ({
     url: `${baseUrl}/books/${article.slug}`,
-    lastModified: contentRefreshDate,
+    lastModified: latestDate(article.publishedDate, contentRefreshDate),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   })),

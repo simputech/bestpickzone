@@ -3,11 +3,29 @@ import Link from 'next/link'
 interface BookCTAProps {
   title: string
   author: string
+  affiliateUrl?: string
+  affiliateLabel?: string
+  affiliatePlatform?: 'amazon' | 'ebay'
 }
 
-export default function BookCTA({ title, author }: BookCTAProps) {
+export default function BookCTA({
+  title,
+  author,
+  affiliateUrl,
+  affiliateLabel,
+  affiliatePlatform = 'amazon',
+}: BookCTAProps) {
   const query = encodeURIComponent(`${title} ${author}`)
-  const url = `https://www.amazon.com/s?k=${query}&tag=althcu-20`
+  const url = affiliateUrl ?? `https://www.amazon.com/s?k=${query}&tag=althcu-20`
+  const label =
+    affiliateLabel ??
+    (affiliatePlatform === 'ebay'
+      ? `Check current eBay listings for ${title}`
+      : `Check the current paperback price for ${title} on Amazon`)
+  const className =
+    affiliatePlatform === 'ebay'
+      ? 'inline-flex items-center justify-center gap-2 rounded-xl bg-sky-600 px-6 py-3 text-base font-bold text-white transition-colors min-h-[44px] w-full hover:bg-sky-500 sm:w-auto'
+      : 'inline-flex items-center justify-center gap-2 rounded-xl bg-yellow-400 px-6 py-3 text-base font-bold text-gray-900 transition-colors min-h-[44px] w-full hover:bg-yellow-300 sm:w-auto'
 
   return (
     <div className="my-4">
@@ -15,9 +33,9 @@ export default function BookCTA({ title, author }: BookCTAProps) {
         href={url}
         target="_blank"
         rel="noopener nofollow sponsored"
-        className="inline-flex items-center justify-center gap-2 rounded-xl bg-yellow-400 px-6 py-3 text-base font-bold text-gray-900 transition-colors min-h-[44px] w-full hover:bg-yellow-300 sm:w-auto"
+        className={className}
       >
-        <span>{`Check the current paperback price for ${title} on Amazon`}</span>
+        <span>{label}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

@@ -116,8 +116,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
               : 'reader-picks',
     publishedTime: article.publishedDate,
     section: article.categoryLabel,
-    keywords: article.books.slice(0, 4).map((book) => book.title),
-    tags: article.books.slice(0, 6).map((book) => book.title),
+    keywords: [...(article.metadataKeywords ?? []), ...article.books.slice(0, 4).map((book) => book.title)],
+    tags: [...(article.metadataKeywords ?? []).slice(0, 3), ...article.books.slice(0, 6).map((book) => book.title)],
   });
 }
 
@@ -125,6 +125,10 @@ export default function ArticlePage({ params }: Props) {
   const article = getArticleBySlug(params.slug);
   if (!article) notFound();
   const theme = categoryThemeMap[article.category];
+  const defaultAffiliatePlatform = article.affiliatePlatform ?? 'amazon';
+  const disclosure =
+    article.affiliateDisclosure ??
+    'Affiliate disclosure: BestPickZone participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a commission at no extra cost to you. Recommendations are based on reader fit, book quality, and editorial analysis — not commission rates.';
   const topPick = article.books[0];
   const alternatePick = article.books[1];
   const visualMapBooks = article.books.slice(0, 4);
@@ -261,10 +265,7 @@ export default function ArticlePage({ params }: Props) {
         {/* Affiliate Disclosure */}
         <div className="affiliate-disclosure mb-8">
           <p className="text-sm leading-relaxed text-gray-600">
-            Affiliate disclosure: BestPickZone participates in the Amazon Services LLC Associates
-            Program. When you purchase through links on this page, we may earn a commission at no
-            extra cost to you. Recommendations are based on reader fit, book quality, and editorial
-            analysis — not commission rates.
+            {disclosure}
           </p>
         </div>
 
@@ -384,12 +385,21 @@ export default function ArticlePage({ params }: Props) {
                   <td className="p-3 text-gray-600">{book.bestFor}</td>
                   <td className="p-3">
                     <a
-                      href={`https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=althcu-20`}
+                      href={
+                        book.affiliateUrl ??
+                        `https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=althcu-20`
+                      }
                       target="_blank"
                       rel="noopener nofollow sponsored"
-                      className="btn-amazon inline-flex min-h-[44px] items-center px-3 py-2 text-xs"
+                      className={`inline-flex min-h-[44px] items-center rounded-lg px-3 py-2 text-xs font-semibold ${
+                        (book.affiliatePlatform ?? defaultAffiliatePlatform) === 'ebay'
+                          ? 'bg-sky-600 text-white hover:bg-sky-500'
+                          : 'btn-amazon'
+                      }`}
                     >
-                      See current availability
+                      {(book.affiliatePlatform ?? defaultAffiliatePlatform) === 'ebay'
+                        ? 'See current eBay listings'
+                        : 'See current availability'}
                     </a>
                   </td>
                 </tr>
@@ -425,7 +435,13 @@ export default function ArticlePage({ params }: Props) {
               <p className="mb-4 text-sm leading-relaxed text-gray-600">
                 {buildBookTradeoffParagraph(book)}
               </p>
-              <BookCTA title={book.title} author={book.author} />
+              <BookCTA
+                title={book.title}
+                author={book.author}
+                affiliateUrl={book.affiliateUrl}
+                affiliateLabel={book.affiliateLabel}
+                affiliatePlatform={book.affiliatePlatform ?? defaultAffiliatePlatform}
+              />
             </div>
           ))}
         </section>
