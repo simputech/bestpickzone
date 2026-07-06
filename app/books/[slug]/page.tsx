@@ -90,6 +90,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (!article) return {};
 
+  const isTemporaryNoindex = article.slug === 'best-colleen-hoover-books';
+
   return withArticleMetadataDefaults({
     title: article.metaTitle,
     description: article.metaDescription,
@@ -103,6 +105,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: article.publishedDate,
     },
+    robots: isTemporaryNoindex
+      ? {
+          index: false,
+          follow: false,
+          nocache: true,
+          googleBot: {
+            index: false,
+            follow: false,
+            noimageindex: true,
+            noarchive: true,
+            'max-snippet': -1,
+            'max-image-preview': 'none',
+            'max-video-preview': -1,
+          },
+        }
+      : undefined,
   }, {
     url: `https://bestpickzone.com/books/${article.slug}`,
     category:
@@ -169,6 +187,20 @@ export default function ArticlePage({ params }: Props) {
       buildAffiliateTrackingId(article.slug, book.title, placement)
     );
   };
+  const renderLinkedBookTitle = (
+    book: (typeof article.books)[number],
+    placement: string,
+    className: string
+  ) => (
+    <a
+      href={getTrackedBookUrl(book, placement)}
+      target="_blank"
+      rel="noopener nofollow sponsored"
+      className={`${className} hover:underline`}
+    >
+      {book.title}
+    </a>
+  );
   const sectionLinks = [
     { href: '#direct-answer', label: 'Direct answer' },
     { href: '#quick-picks', label: 'Quick picks' },
@@ -363,7 +395,9 @@ export default function ArticlePage({ params }: Props) {
                     {book.bestFor}
                   </span>
                 </div>
-                <h3 className="text-lg font-bold text-gray-900">{book.title}</h3>
+                <h3 className="text-lg font-bold text-gray-900">
+                  {renderLinkedBookTitle(book, 'visual-map-title', 'text-gray-900')}
+                </h3>
                 <p className="mb-2 text-sm text-gray-500">by {book.author}</p>
                 <p className="mb-3 text-sm text-gray-700 leading-relaxed">{book.description}</p>
                 <p className="text-sm text-gray-500">
@@ -391,7 +425,7 @@ export default function ArticlePage({ params }: Props) {
                 <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                   <td className="p-3 font-bold text-gray-400">{i + 1}</td>
                   <td className="p-3">
-                    <span className="font-semibold text-gray-900">{book.title}</span>
+                    {renderLinkedBookTitle(book, 'comparison-title', 'font-semibold text-gray-900')}
                     <br />
                     <span className="text-gray-500 text-xs">by {book.author}</span>
                   </td>
@@ -429,7 +463,8 @@ export default function ArticlePage({ params }: Props) {
               <div className="flex items-start justify-between gap-4 mb-3">
                 <div>
                   <h3 className="article-h3 text-xl font-bold text-gray-900">
-                    {i + 1}. {book.title}
+                    <span className="mr-1">{i + 1}.</span>
+                    {renderLinkedBookTitle(book, 'full-review-title', 'text-gray-900')}
                   </h3>
                   <p className="text-gray-500 text-sm">by {book.author}</p>
                 </div>

@@ -38,7 +38,6 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/best-brandon-sanderson-cosmere-order`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/books-like-verity-psychological-thrillers`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-cozy-mystery-series-to-read`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/books/best-colleen-hoover-books`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-sci-fi-doorstoppers-epic-space-opera`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/cormac-mccarthy-where-to-start`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-historical-fiction-books-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
@@ -155,7 +154,9 @@ export const wfhPages: SitemapEntry[] = [
 
 export const booksPages: SitemapEntry[] = [
   ...standaloneBookPages,
-  ...articlesData.map((article) => ({
+  ...articlesData
+    .filter((article) => article.slug !== 'best-colleen-hoover-books')
+    .map((article) => ({
     url: `${baseUrl}/books/${article.slug}`,
     lastModified: latestDate(article.publishedDate, contentRefreshDate),
     changeFrequency: 'monthly' as const,
