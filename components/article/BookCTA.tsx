@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { getAffiliateUrlWithTracking } from '@/lib/affiliate-links'
 
 interface BookCTAProps {
   title: string
@@ -6,6 +7,7 @@ interface BookCTAProps {
   affiliateUrl?: string
   affiliateLabel?: string
   affiliatePlatform?: 'amazon' | 'ebay'
+  trackingId?: string
 }
 
 export default function BookCTA({
@@ -14,9 +16,13 @@ export default function BookCTA({
   affiliateUrl,
   affiliateLabel,
   affiliatePlatform = 'amazon',
+  trackingId,
 }: BookCTAProps) {
   const query = encodeURIComponent(`${title} ${author}`)
-  const url = affiliateUrl ?? `https://www.amazon.com/s?k=${query}&tag=althcu-20`
+  const baseUrl = affiliateUrl ?? `https://www.amazon.com/s?k=${query}&tag=althcu-20`
+  const url = trackingId
+    ? getAffiliateUrlWithTracking(baseUrl, affiliatePlatform, trackingId)
+    : baseUrl
   const label =
     affiliateLabel ??
     (affiliatePlatform === 'ebay'

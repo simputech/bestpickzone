@@ -25,6 +25,13 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const groups = [
   {
+    name: 'Vintage and Collector Grinders',
+    note: 'These pages lean more editorial: buyer fit, restoration risk, collectible value, and which eBay searches are actually worth opening first.',
+    items: [
+      { slug: 'best-vintage-coffee-grinders-ebay', title: 'Best Vintage Coffee Grinders on eBay', spec: 'Peugeot wall mills, Zassenhaus users, Arcade Crystal collectors, and restoration-minded picks' },
+    ],
+  },
+  {
     name: 'Entry-Level Espresso',
     note: 'Heat-up time, boiler style, steam workflow, and footprint decide these pages.',
     items: [

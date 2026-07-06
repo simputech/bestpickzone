@@ -100,6 +100,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen/best-robot-vacuums`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-coffee-makers-under-100`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-air-fryers`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-vintage-countertop-milkshake-machines-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.8 },
   ...techSlugs.map(({ slug, date }) => ({
     url: `${baseUrl}/tech/${slug}`,
     lastModified: date,
@@ -125,6 +126,7 @@ export const beautyPages: SitemapEntry[] = [
 
 export const coffeePages: SitemapEntry[] = [
   { url: `${baseUrl}/coffee`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.92 },
+  { url: `${baseUrl}/coffee/best-vintage-coffee-grinders-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   ...coffeeComparisonArticles.map((article) => ({
     url: `${baseUrl}/coffee/${article.slug}`,
@@ -137,6 +139,7 @@ export const coffeePages: SitemapEntry[] = [
 export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/wfh/best-used-herman-miller-aeron-chairs-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/wfh/best-portable-monitors-under-100-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/secretlab-titan-evo-vs-ergotune-supreme`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/purple-royal-seat-cushion-vs-cushion-lab`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },

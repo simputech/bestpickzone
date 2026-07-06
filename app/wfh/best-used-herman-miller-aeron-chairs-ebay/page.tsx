@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
+import { buildAffiliateTrackingId, decorateEbayAffiliateUrl } from '@/lib/affiliate-links'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -61,6 +62,13 @@ const breadcrumbItems = [
   { label: 'Best Used Herman Miller Aeron Chairs on eBay' },
 ]
 
+function trackedEbayUrl(url: string, placement: string) {
+  return decorateEbayAffiliateUrl(
+    url,
+    buildAffiliateTrackingId('best-used-herman-miller-aeron-chairs-ebay', placement)
+  )
+}
+
 const featuredSearches = [
   {
     title: 'Best overall for most buyers',
@@ -68,8 +76,10 @@ const featuredSearches = [
     note:
       'This is the sweet spot for most people because Size B is the most common fit and usually has the deepest listing inventory.',
     cta: 'Shop Size B used Aeron listings',
-    href:
+    href: trackedEbayUrl(
       'https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Size+B+used&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1',
+      'featured-size-b'
+    ),
   },
   {
     title: 'Best premium used upgrade',
@@ -77,8 +87,10 @@ const featuredSearches = [
     note:
       'Look here if you want the newer frame and controls but still want to stay below new-chair pricing.',
     cta: 'Shop refurbished Remastered listings',
-    href:
+    href: trackedEbayUrl(
       'https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Remastered+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1',
+      'featured-remastered'
+    ),
   },
   {
     title: 'Best value older model',
@@ -86,10 +98,17 @@ const featuredSearches = [
     note:
       'A fully adjustable Classic Aeron is often the smartest value buy if condition is strong and the seller is detailed.',
     cta: 'Shop Classic fully loaded listings',
-    href:
+    href: trackedEbayUrl(
       'https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Classic+fully+loaded+used&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1',
+      'featured-classic'
+    ),
   },
 ]
+
+const hermanMillerCategoryUrl = trackedEbayUrl(
+  'https://www.ebay.com/b/Herman-Miller-Chairs-Stools/257900/bn_7112580412?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1',
+  'category-link'
+)
 
 const shoppingMoves = [
   {
@@ -441,7 +460,7 @@ export default function BestUsedHermanMillerAeronChairsEbayPage() {
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="https://www.ebay.com/b/Herman-Miller-Chairs-Stools/257900/bn_7112580412?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1"
+                href={hermanMillerCategoryUrl}
                 target="_blank"
                 rel="nofollow sponsored noopener"
                 className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-gray-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-gray-800"
@@ -537,7 +556,7 @@ export default function BestUsedHermanMillerAeronChairsEbayPage() {
               </div>
             </div>
             <p className="mt-4">
-              For official product background, see <a href="https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/" target="_blank" rel="nofollow noopener" className="font-semibold text-sky-700 hover:text-sky-800">Herman Miller&apos;s Aeron page</a>. For live resale inventory, browse <a href="https://www.ebay.com/b/Herman-Miller-Chairs-Stools/257900/bn_7112580412" target="_blank" rel="nofollow sponsored noopener" className="font-semibold text-sky-700 hover:text-sky-800">current Herman Miller chair listings on eBay</a>.
+              For official product background, see <a href="https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/" target="_blank" rel="nofollow noopener" className="font-semibold text-sky-700 hover:text-sky-800">Herman Miller&apos;s Aeron page</a>. For live resale inventory, browse <a href={hermanMillerCategoryUrl} target="_blank" rel="nofollow sponsored noopener" className="font-semibold text-sky-700 hover:text-sky-800">current Herman Miller chair listings on eBay</a>.
             </p>
           </footer>
         </article>

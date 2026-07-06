@@ -17,6 +17,7 @@ import {
   verificationLabel,
 } from '@/lib/book-article-enrichment';
 import { ARTICLE_REFRESH_DATE, withArticleMetadataDefaults } from '@/lib/article-metadata';
+import { buildAffiliateTrackingId, getAffiliateUrlWithTracking } from '@/lib/affiliate-links';
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time';
 import BookCTA from '@/components/article/BookCTA';
 import Breadcrumb from '@/components/ui/Breadcrumb';
@@ -156,6 +157,18 @@ export default function ArticlePage({ params }: Props) {
     .slice(0, 5 - curatedRelated.length);
   const related = [...curatedRelated, ...fallbackRelated].slice(0, 5);
   const moreAuthorGuides = priorityAuthorGuides.filter((guide) => guide.slug !== article.slug).slice(0, 6);
+  const getTrackedBookUrl = (book: (typeof article.books)[number], placement: string) => {
+    const platform = book.affiliatePlatform ?? defaultAffiliatePlatform;
+    const baseUrl =
+      book.affiliateUrl ??
+      `https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=althcu-20`;
+
+    return getAffiliateUrlWithTracking(
+      baseUrl,
+      platform,
+      buildAffiliateTrackingId(article.slug, book.title, placement)
+    );
+  };
   const sectionLinks = [
     { href: '#direct-answer', label: 'Direct answer' },
     { href: '#quick-picks', label: 'Quick picks' },
@@ -385,10 +398,7 @@ export default function ArticlePage({ params }: Props) {
                   <td className="p-3 text-gray-600">{book.bestFor}</td>
                   <td className="p-3">
                     <a
-                      href={
-                        book.affiliateUrl ??
-                        `https://www.amazon.com/s?k=${encodeURIComponent(book.amazonSearchQuery)}&tag=althcu-20`
-                      }
+                      href={getTrackedBookUrl(book, 'comparison-table')}
                       target="_blank"
                       rel="noopener nofollow sponsored"
                       className={`inline-flex min-h-[44px] items-center rounded-lg px-3 py-2 text-xs font-semibold ${
@@ -441,6 +451,7 @@ export default function ArticlePage({ params }: Props) {
                 affiliateUrl={book.affiliateUrl}
                 affiliateLabel={book.affiliateLabel}
                 affiliatePlatform={book.affiliatePlatform ?? defaultAffiliatePlatform}
+                trackingId={buildAffiliateTrackingId(article.slug, book.title, 'full-review')}
               />
             </div>
           ))}

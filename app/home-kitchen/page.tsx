@@ -70,6 +70,15 @@ const articles = [
     comingSoon: false,
   },
   {
+    slug: 'best-vintage-countertop-milkshake-machines-ebay',
+    title: 'Best Vintage Countertop Milkshake Machines on eBay',
+    description:
+      'A buyer-first vintage guide to Hamilton Beach DrinkMaster mixers, Malt Master machines, Waring drink mixers, Oster countertop units, and classic diner-style spindle machines.',
+    badge: 'Vintage eBay Guide',
+    badgeColor: 'bg-rose-100 text-rose-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-coffee-makers-under-100',
     title: 'Best Coffee Makers Under $100 in 2026',
     description:
@@ -158,6 +167,13 @@ export default function HomeKitchenPage() {
           className="font-semibold underline underline-offset-2"
         >
           Best Air Fryers in 2026
+        </Link>
+        ,{' '}
+        <Link
+          href="/home-kitchen/best-vintage-countertop-milkshake-machines-ebay"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Vintage Countertop Milkshake Machines on eBay
         </Link>
         ,{' '}
         <Link

@@ -8,8 +8,27 @@ declare global {
   }
 }
 
-function isTrackedAmazonLink(href: string) {
-  return href.includes('amazon.com') && href.includes('tag=althcu-20')
+type AffiliatePlatform = 'amazon' | 'ebay' | null
+
+function getAffiliatePlatform(href: string): AffiliatePlatform {
+  if (href.includes('amazon.com') && href.includes('tag=althcu-20')) {
+    return 'amazon'
+  }
+
+  if (href.includes('ebay.com') && href.includes('campid=5339164184')) {
+    return 'ebay'
+  }
+
+  return null
+}
+
+function getAffiliateTrackingId(href: string) {
+  try {
+    const url = new URL(href)
+    return url.searchParams.get('customid') || undefined
+  } catch {
+    return undefined
+  }
 }
 
 export default function AmazonClickTracker() {
@@ -27,19 +46,27 @@ export default function AmazonClickTracker() {
         return
       }
 
-      if (!isTrackedAmazonLink(link.href) || typeof window.gtag !== 'function') {
+      const affiliatePlatform = getAffiliatePlatform(link.href)
+      const affiliateTrackingId = getAffiliateTrackingId(link.href)
+
+      if (!affiliatePlatform || typeof window.gtag !== 'function') {
         return
       }
 
-      window.gtag('event', 'amazon_click', {
+      const payload = {
         event_category: 'affiliate',
+        affiliate_platform: affiliatePlatform,
+        affiliate_tracking_id: affiliateTrackingId,
         event_label: link.href,
         link_url: link.href,
-        link_text: link.textContent?.trim() || 'Amazon link',
+        link_text: link.textContent?.trim() || `${affiliatePlatform} link`,
         page_location: window.location.href,
         page_path: window.location.pathname,
         transport_type: 'beacon',
-      })
+      }
+
+      window.gtag('event', 'affiliate_click', payload)
+      window.gtag('event', `${affiliatePlatform}_click`, payload)
     }
 
     document.addEventListener('click', handleClick, true)

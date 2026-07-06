@@ -118,6 +118,15 @@ const sections = [
         href: '/wfh/ergotron-lx-vs-amazon-basics-monitor-arm',
       },
       {
+        title: 'Best Portable Monitors Under $100 on eBay',
+        label: 'Portable Monitor Buying Guide',
+        summary:
+          'A practical guide to cheap portable monitors, mixing new budget USB-C displays with refurbished Lenovo, Asus, ViewSonic, and AOC options.',
+        detail:
+          'Useful if you want a second screen for travel, hybrid work, or a flexible WFH setup without paying full retail for a premium portable monitor.',
+        href: '/wfh/best-portable-monitors-under-100-ebay',
+      },
+      {
         title: 'Logitech MX Master 3S vs Apple Magic Mouse',
         label: 'Mouse Comparison for WFH',
         summary:
