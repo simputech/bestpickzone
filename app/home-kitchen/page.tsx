@@ -52,6 +52,15 @@ const articles = [
     comingSoon: false,
   },
   {
+    slug: 'best-tech-for-college-students',
+    title: 'Best Tech for College Students (2026)',
+    description:
+      'The laptop-earbuds-tablet core, the backup and charging layer nobody budgets for, and the dorm extras that earn their space — 16 picks with buy-or-skip logic.',
+    badge: 'College Series',
+    badgeColor: 'bg-indigo-100 text-indigo-700',
+    comingSoon: false,
+  },
+  {
     slug: 'oxo-vs-chefn-corn-stripper',
     title: "OXO vs Chef'n Corn Stripper",
     description:
@@ -180,6 +189,13 @@ export default function HomeKitchenPage() {
           className="font-semibold underline underline-offset-2"
         >
           Best Productivity Products for Students
+        </Link>
+        , and{' '}
+        <Link
+          href="/home-kitchen/best-tech-for-college-students"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Tech for College Students
         </Link>
         .
       </div>
