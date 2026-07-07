@@ -43,6 +43,15 @@ const articles = [
     comingSoon: false,
   },
   {
+    slug: 'best-productivity-products-for-students',
+    title: 'Best Productivity Products for Students (2026)',
+    description:
+      'Sixteen productivity picks organized around the four student failure points: distraction, time blindness, brutal mornings, and lost notes.',
+    badge: 'College Series',
+    badgeColor: 'bg-indigo-100 text-indigo-700',
+    comingSoon: false,
+  },
+  {
     slug: 'oxo-vs-chefn-corn-stripper',
     title: "OXO vs Chef'n Corn Stripper",
     description:
@@ -164,6 +173,13 @@ export default function HomeKitchenPage() {
           className="font-semibold underline underline-offset-2"
         >
           Best Study Desk Essentials
+        </Link>
+        , and{' '}
+        <Link
+          href="/home-kitchen/best-productivity-products-for-students"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Productivity Products for Students
         </Link>
         .
       </div>
