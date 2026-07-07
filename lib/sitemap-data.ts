@@ -92,6 +92,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/finance-software`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.75 },
   { url: `${baseUrl}/health-fitness`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.75 },
   { url: `${baseUrl}/home-kitchen/best-dorm-room-essentials`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/home-kitchen/best-study-desk-essentials`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/oxo-vs-chefn-corn-stripper`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/oxo-vs-fullstar-avocado-slicer`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-solar-powered-attic-fans`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },

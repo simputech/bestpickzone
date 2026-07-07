@@ -34,6 +34,15 @@ const articles = [
     comingSoon: false,
   },
   {
+    slug: 'best-study-desk-essentials',
+    title: 'Best Study Desk Essentials for Students (2026)',
+    description:
+      'A 16-product study desk setup ranked by return on money: task lighting, the laptop-stand posture fix, focus tools, and the organization layer for a small desk.',
+    badge: 'College Series',
+    badgeColor: 'bg-indigo-100 text-indigo-700',
+    comingSoon: false,
+  },
+  {
     slug: 'oxo-vs-chefn-corn-stripper',
     title: "OXO vs Chef'n Corn Stripper",
     description:
@@ -148,6 +157,13 @@ export default function HomeKitchenPage() {
           className="font-semibold underline underline-offset-2"
         >
           Best Dorm Room Essentials
+        </Link>{' '}
+        and{' '}
+        <Link
+          href="/home-kitchen/best-study-desk-essentials"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Study Desk Essentials
         </Link>
         .
       </div>

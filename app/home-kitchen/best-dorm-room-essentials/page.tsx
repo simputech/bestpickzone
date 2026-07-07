@@ -605,6 +605,9 @@ export default function BestDormRoomEssentialsPage() {
           <Link href="/home-kitchen" className="rounded-full bg-white px-4 py-3 ring-1 ring-slate-200 transition hover:text-indigo-700">
             Explore all Home &amp; Kitchen guides
           </Link>
+          <Link href="/home-kitchen/best-study-desk-essentials" className="rounded-full bg-white px-4 py-3 ring-1 ring-slate-200 transition hover:text-indigo-700">
+            Best study desk essentials
+          </Link>
           <Link href="/tech/best-laptops-for-college-students" className="rounded-full bg-white px-4 py-3 ring-1 ring-slate-200 transition hover:text-indigo-700">
             Best laptops for college students
           </Link>
