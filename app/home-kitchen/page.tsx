@@ -70,6 +70,15 @@ const articles = [
     comingSoon: false,
   },
   {
+    slug: 'best-dorm-organization-products',
+    title: 'Best Dorm Organization Products (2026)',
+    description:
+      'Create space first, then structure it: bed risers, vacuum bags, the iconic rolling cart, and damage-free wall storage — 16 picks for 180 shared square feet.',
+    badge: 'College Series',
+    badgeColor: 'bg-indigo-100 text-indigo-700',
+    comingSoon: false,
+  },
+  {
     slug: 'oxo-vs-chefn-corn-stripper',
     title: "OXO vs Chef'n Corn Stripper",
     description:
@@ -212,6 +221,13 @@ export default function HomeKitchenPage() {
           className="font-semibold underline underline-offset-2"
         >
           Best Back-to-School Gadgets
+        </Link>
+        , and{' '}
+        <Link
+          href="/home-kitchen/best-dorm-organization-products"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Dorm Organization Products
         </Link>
         .
       </div>
