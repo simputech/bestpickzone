@@ -90,8 +90,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (!article) return {};
 
-  const isTemporaryNoindex = article.slug === 'best-colleen-hoover-books';
-
   return withArticleMetadataDefaults({
     title: article.metaTitle,
     description: article.metaDescription,
@@ -105,22 +103,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: article.publishedDate,
     },
-    robots: isTemporaryNoindex
-      ? {
-          index: false,
-          follow: false,
-          nocache: true,
-          googleBot: {
-            index: false,
-            follow: false,
-            noimageindex: true,
-            noarchive: true,
-            'max-snippet': -1,
-            'max-image-preview': 'none',
-            'max-video-preview': -1,
-          },
-        }
-      : undefined,
   }, {
     url: `https://bestpickzone.com/books/${article.slug}`,
     category:

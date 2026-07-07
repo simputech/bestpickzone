@@ -154,9 +154,7 @@ export const wfhPages: SitemapEntry[] = [
 
 export const booksPages: SitemapEntry[] = [
   ...standaloneBookPages,
-  ...articlesData
-    .filter((article) => article.slug !== 'best-colleen-hoover-books')
-    .map((article) => ({
+  ...articlesData.map((article) => ({
     url: `${baseUrl}/books/${article.slug}`,
     lastModified: latestDate(article.publishedDate, contentRefreshDate),
     changeFrequency: 'monthly' as const,
