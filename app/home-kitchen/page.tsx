@@ -25,6 +25,15 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'best-dorm-room-essentials',
+    title: 'Best Dorm Room Essentials for College (2026)',
+    description:
+      'A 16-product dorm checklist ranked by what actually gets used all year: the Twin XL sleep stack, outlet fixes, communal-bathroom logistics, and zero-damage storage.',
+    badge: 'College Series',
+    badgeColor: 'bg-indigo-100 text-indigo-700',
+    comingSoon: false,
+  },
+  {
     slug: 'oxo-vs-chefn-corn-stripper',
     title: "OXO vs Chef'n Corn Stripper",
     description:
@@ -130,6 +139,17 @@ export default function HomeKitchenPage() {
           Honest comparisons of the appliances and kitchen gear that actually earn a permanent
           spot on your countertop. We research so you don&apos;t have to.
         </p>
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-indigo-200 bg-indigo-50 px-5 py-4 text-sm text-indigo-900">
+        <strong>College Student Series:</strong> Setting up for the semester? Start with{' '}
+        <Link
+          href="/home-kitchen/best-dorm-room-essentials"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Dorm Room Essentials
+        </Link>
+        .
       </div>
 
       <div className="mb-8 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">
