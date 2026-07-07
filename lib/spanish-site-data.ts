@@ -703,6 +703,26 @@ export function getSpanishRelatedArticles(article: SpanishArticle, limit = 3) {
     .slice(0, limit)
 }
 
+export function getSpanishUrlForEnglishPath(englishPath: string) {
+  const normalizedPath = englishPath.startsWith('http')
+    ? new URL(englishPath).pathname
+    : englishPath.startsWith('/')
+      ? englishPath
+      : `/${englishPath}`
+
+  const matchingSection = spanishSections.find((section) => section.englishPath === normalizedPath)
+  if (matchingSection) {
+    return `https://bestpickzone.com/es/${matchingSection.slug}`
+  }
+
+  const matchingArticle = spanishArticles.find((article) => article.englishPath === normalizedPath)
+  if (matchingArticle) {
+    return `https://bestpickzone.com/es/${matchingArticle.section}/${matchingArticle.slug}`
+  }
+
+  return null
+}
+
 export function getSpanishStaticPaths() {
   return [
     [],

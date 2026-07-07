@@ -19,6 +19,7 @@ import {
 import { ARTICLE_REFRESH_DATE, withArticleMetadataDefaults } from '@/lib/article-metadata';
 import { buildAffiliateTrackingId, getAffiliateUrlWithTracking } from '@/lib/affiliate-links';
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time';
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data';
 import BookCTA from '@/components/article/BookCTA';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 
@@ -89,22 +90,30 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (!article) return {};
+  const canonicalUrl = `https://bestpickzone.com/books/${article.slug}`;
+  const spanishUrl = getSpanishUrlForEnglishPath(`/books/${article.slug}`);
 
   return withArticleMetadataDefaults({
     title: article.metaTitle,
     description: article.metaDescription,
     alternates: {
-      canonical: `https://bestpickzone.com/books/${article.slug}`,
+      canonical: canonicalUrl,
+      languages: spanishUrl
+        ? {
+            en: canonicalUrl,
+            es: spanishUrl,
+          }
+        : undefined,
     },
     openGraph: {
       title: article.metaTitle,
       description: article.metaDescription,
-      url: `https://bestpickzone.com/books/${article.slug}`,
+      url: canonicalUrl,
       type: 'article',
       publishedTime: article.publishedDate,
     },
   }, {
-    url: `https://bestpickzone.com/books/${article.slug}`,
+    url: canonicalUrl,
     category:
       article.category === 'author'
         ? 'authors'

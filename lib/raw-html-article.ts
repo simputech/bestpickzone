@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { buildBreadcrumbJsonLd } from '@/components/seo/BreadcrumbJsonLd'
 import { buildFaqJsonLd, extractFaqPairs } from '@/components/seo/FaqJsonLd'
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
 
 type RawHtmlArticle = {
   metadata: Metadata
@@ -84,6 +85,18 @@ export function loadRawHtmlArticle(relativeSourcePath: string, pageUrl: string):
       description,
       alternates: {
         canonical: pageUrl,
+        languages:
+          category === 'books'
+            ? (() => {
+                const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
+                return spanishUrl
+                  ? {
+                      en: pageUrl,
+                      es: spanishUrl,
+                    }
+                  : undefined
+              })()
+            : undefined,
       },
       openGraph: {
         title,

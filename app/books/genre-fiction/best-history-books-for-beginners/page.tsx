@@ -4,19 +4,29 @@ import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
+
+const pageUrl = 'https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners'
+const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best History Books for Beginners — Ranked with Winner Logic',
   description:
     "The best history books for beginners, ranked honestly: Harari's Sapiens, Larson's Devil in the White City, Beard's SPQR, Bryson's Short History, and Tuchman's Guns of August — each with a clear skip-this-if recommendation.",
   alternates: {
-    canonical: 'https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners',
+    canonical: pageUrl,
+    languages: spanishUrl
+      ? {
+          en: pageUrl,
+          es: spanishUrl,
+        }
+      : undefined,
   },
   openGraph: {
     title: 'Best History Books for Beginners',
     description:
       'Five accessible, narrative-first history books ranked with explicit winner logic — Harari, Larson, Beard, Bryson, Tuchman.',
-    url: 'https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners',
+    url: pageUrl,
     siteName: 'BestPickZone',
     type: 'article',
   },

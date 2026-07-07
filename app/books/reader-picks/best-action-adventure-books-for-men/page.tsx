@@ -4,19 +4,29 @@ import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
+
+const pageUrl = 'https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men'
+const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Action Adventure Books for Men — Ranked with Winner Logic',
   description:
     "The best action adventure books for men, ranked honestly: Lee Child's Killing Floor, Weir's The Martian, Flynn's American Assassin, McCarthy's No Country for Old Men, Krakauer's Into Thin Air, and Hillenbrand's Unbroken — each with a skip-this-if recommendation.",
   alternates: {
-    canonical: 'https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men',
+    canonical: pageUrl,
+    languages: spanishUrl
+      ? {
+          en: pageUrl,
+          es: spanishUrl,
+        }
+      : undefined,
   },
   openGraph: {
     title: 'Best Action Adventure Books for Men',
     description:
       "Six action adventure picks ranked with honest winner logic — Reacher, Martian, Rapp, McCarthy, Krakauer, Zamperini — with commute-friendly audiobook notes.",
-    url: 'https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men',
+    url: pageUrl,
     siteName: 'BestPickZone',
     type: 'article',
   },

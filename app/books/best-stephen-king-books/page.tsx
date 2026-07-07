@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
 
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
 const pageUrl = 'https://bestpickzone.com/books/best-stephen-king-books'
+const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
 const heroImage =
   'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80'
 const publishedDate = '2026-06-14'
@@ -163,7 +165,15 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Stephen King Books Ranked for New and Returning Readers',
   description:
     'Best Stephen King books ranked for beginners and longtime horror readers, with a clear start-here pick, skip-first advice, and direct Amazon links for every recommendation.',
-  alternates: { canonical: pageUrl },
+  alternates: {
+    canonical: pageUrl,
+    languages: spanishUrl
+      ? {
+          en: pageUrl,
+          es: spanishUrl,
+        }
+      : undefined,
+  },
   openGraph: {
     title: 'Best Stephen King Books Ranked for New and Returning Readers',
     description:

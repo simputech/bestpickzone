@@ -4,19 +4,29 @@ import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
+
+const pageUrl = 'https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code'
+const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Books Like The Da Vinci Code — Ranked with Winner Logic',
   description:
     "If you loved The Da Vinci Code, these are the best follow-up reads: Eco's Name of the Rose, Berry's Cotton Malone series, Mosse's Labyrinth, Kostova's The Historian, and Caldwell/Thomason's Rule of Four — each with a skip-this-if recommendation.",
   alternates: {
-    canonical: 'https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code',
+    canonical: pageUrl,
+    languages: spanishUrl
+      ? {
+          en: pageUrl,
+          es: spanishUrl,
+        }
+      : undefined,
   },
   openGraph: {
     title: 'Best Books Like The Da Vinci Code',
     description:
       'Five historical-conspiracy thrillers ranked with explicit winner logic — Eco, Berry, Mosse, Kostova, Caldwell & Thomason.',
-    url: 'https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code',
+    url: pageUrl,
     siteName: 'BestPickZone',
     type: 'article',
   },

@@ -4,19 +4,29 @@ import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
+
+const pageUrl = 'https://bestpickzone.com/books/reader-picks/best-books-for-people-who-dont-like-reading'
+const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: "Best Books for People Who Don't Like Reading — Ranked by Why They Work",
   description:
     "If you don't like reading, the issue is usually the book — not you. These five picks (The Martian, Old Man and the Sea, Born a Crime, Educated, Killing Floor) are matched to the specific reason reluctant readers bounce off most books.",
   alternates: {
-    canonical: 'https://bestpickzone.com/books/reader-picks/best-books-for-people-who-dont-like-reading',
+    canonical: pageUrl,
+    languages: spanishUrl
+      ? {
+          en: pageUrl,
+          es: spanishUrl,
+        }
+      : undefined,
   },
   openGraph: {
     title: "Best Books for People Who Don't Like Reading",
     description:
       'Five books diagnosed by why they work for reluctant readers — problem-solving structure, short length, audio-first, true story, pure momentum.',
-    url: 'https://bestpickzone.com/books/reader-picks/best-books-for-people-who-dont-like-reading',
+    url: pageUrl,
     siteName: 'BestPickZone',
     type: 'article',
   },

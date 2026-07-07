@@ -4,19 +4,29 @@ import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
+import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
+
+const pageUrl = 'https://bestpickzone.com/books/genre-fiction/best-world-war-ii-books'
+const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Books About World War II — Ranked with Winner Logic',
   description:
     "The best WWII books available now, ranked honestly: Doerr's All the Light We Cannot See, Ambrose's Band of Brothers, Wiesel's Night, Hillenbrand's Unbroken, and Zusak's The Book Thief — each with a clear skip-this-if recommendation.",
   alternates: {
-    canonical: 'https://bestpickzone.com/books/genre-fiction/best-world-war-ii-books',
+    canonical: pageUrl,
+    languages: spanishUrl
+      ? {
+          en: pageUrl,
+          es: spanishUrl,
+        }
+      : undefined,
   },
   openGraph: {
     title: 'Best Books About World War II',
     description:
       'The definitive WWII reading list — fiction, non-fiction, memoir, Pacific, European — ranked with explicit winner logic.',
-    url: 'https://bestpickzone.com/books/genre-fiction/best-world-war-ii-books',
+    url: pageUrl,
     siteName: 'BestPickZone',
     type: 'article',
   },
