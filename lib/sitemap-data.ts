@@ -137,6 +137,7 @@ export const coffeePages: SitemapEntry[] = [
 
 export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.92 },
+  { url: `${baseUrl}/wfh/best-products-for-your-home-office`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.9 },
   { url: `${baseUrl}/wfh/best-used-herman-miller-aeron-chairs-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/best-portable-monitors-under-100-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/secretlab-titan-evo-vs-ergotune-supreme`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },

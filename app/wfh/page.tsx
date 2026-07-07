@@ -100,6 +100,15 @@ const sections = [
       'A good WFH setup is not just about one expensive chair. These pages cover desk stability, monitor positioning, typing comfort, switching between devices, and the small workflow upgrades that make a home office feel calmer and less cramped.',
     items: [
       {
+        title: 'The Best Products for Your Home Office',
+        label: 'WFH Product Roundup',
+        summary:
+          'A HuffPost-style roundup of the 15 home office products that most improve comfort, desk organization, video calls, and all-day workflow.',
+        detail:
+          'Start here if you want one editorial shopping guide that covers standing desks, chairs, monitor arms, lamps, webcams, desk mats, and other Amazon-friendly WFH essentials.',
+        href: '/wfh/best-products-for-your-home-office',
+      },
+      {
         title: 'Fully Jarvis vs Uplift V2 Standing Desk',
         label: 'Standing Desk Comparison',
         summary:
