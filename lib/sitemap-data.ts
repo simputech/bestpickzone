@@ -186,6 +186,7 @@ export function buildSitemapIndexXml() {
     { url: `${baseUrl}/sitemap-beauty.xml`, lastModified: contentRefreshDate },
     { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: contentRefreshDate },
     { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: contentRefreshDate },
+    { url: `${baseUrl}/sitemap-es.xml`, lastModified: '2026-07-07' },
   ]
     .map(
       (sitemap) =>
