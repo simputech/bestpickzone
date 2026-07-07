@@ -61,6 +61,15 @@ const articles = [
     comingSoon: false,
   },
   {
+    slug: 'best-back-to-school-gadgets',
+    title: 'Best Back-to-School Gadgets (2026)',
+    description:
+      'Sixteen gadgets that pass the still-in-use-by-November test, from the USB backpack and lecture recorder to the dorm projector — most under $50.',
+    badge: 'College Series',
+    badgeColor: 'bg-indigo-100 text-indigo-700',
+    comingSoon: false,
+  },
+  {
     slug: 'oxo-vs-chefn-corn-stripper',
     title: "OXO vs Chef'n Corn Stripper",
     description:
@@ -196,6 +205,13 @@ export default function HomeKitchenPage() {
           className="font-semibold underline underline-offset-2"
         >
           Best Tech for College Students
+        </Link>
+        , and{' '}
+        <Link
+          href="/home-kitchen/best-back-to-school-gadgets"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Back-to-School Gadgets
         </Link>
         .
       </div>

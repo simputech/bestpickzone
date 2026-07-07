@@ -95,6 +95,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen/best-study-desk-essentials`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-productivity-products-for-students`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-tech-for-college-students`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/home-kitchen/best-back-to-school-gadgets`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/oxo-vs-chefn-corn-stripper`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/oxo-vs-fullstar-avocado-slicer`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-solar-powered-attic-fans`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
