@@ -22,6 +22,15 @@ export type SpanishArticle = {
   buyingTips: string[]
 }
 
+export type SpanishRecommendation = {
+  title: string
+  description: string
+  query?: string
+  affiliateUrl?: string
+  affiliatePlatform?: 'amazon' | 'ebay'
+  affiliateLabel?: string
+}
+
 export const SPANISH_SITE_DATE = '2026-07-07'
 
 export const spanishSections: SpanishSection[] = [
@@ -701,6 +710,168 @@ export function getSpanishRelatedArticles(article: SpanishArticle, limit = 3) {
   return spanishArticles
     .filter((candidate) => candidate.section === article.section && candidate.slug !== article.slug)
     .slice(0, limit)
+}
+
+function getSpanishArticleKey(section: string, slug: string) {
+  return `${section}/${slug}`
+}
+
+function spanishBookQuery(title: string, author: string) {
+  return `${title} ${author} libro en español`
+}
+
+const spanishArticleRecommendations: Record<string, SpanishRecommendation[]> = {
+  'libros/mejores-libros-de-stephen-king': [
+    { title: 'The Shining', description: 'La opcion mas segura para empezar con King en una edicion en espanol.', query: spanishBookQuery('The Shining', 'Stephen King'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'It', description: 'La recomendacion para lectores que quieren la version mas ambiciosa y larga de King.', query: spanishBookQuery('It', 'Stephen King'), affiliateLabel: 'Ver opciones en espanol en Amazon' },
+    { title: 'Misery', description: 'La mejor compra si prefieres thriller psicologico sin elemento sobrenatural pesado.', query: spanishBookQuery('Misery', 'Stephen King'), affiliateLabel: 'Buscar Misery en espanol' },
+    { title: 'Pet Sematary', description: 'La eleccion para lectores que quieren el King mas duro y perturbador.', query: spanishBookQuery('Pet Sematary', 'Stephen King'), affiliateLabel: 'Buscar Pet Sematary en espanol' },
+    { title: '11/22/63', description: 'La apuesta para quienes quieren historia alternativa y menos terror puro.', query: spanishBookQuery('11/22/63', 'Stephen King'), affiliateLabel: 'Buscar 11/22/63 en espanol' },
+  ],
+  'libros/mejores-libros-de-colleen-hoover': [
+    { title: 'It Ends With Us', description: 'El punto de entrada mas claro al estilo emocionalmente intenso de Hoover.', query: spanishBookQuery('It Ends With Us', 'Colleen Hoover'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'Verity', description: 'La mejor compra si llegas a Hoover desde thriller y suspense.', query: spanishBookQuery('Verity', 'Colleen Hoover'), affiliateLabel: 'Ver Verity en espanol' },
+    { title: 'Ugly Love', description: 'La opcion para quien quiere una lectura mas romantica y emocionalmente fuerte.', query: spanishBookQuery('Ugly Love', 'Colleen Hoover'), affiliateLabel: 'Buscar Ugly Love en espanol' },
+    { title: 'November 9', description: 'La recomendacion mas ligera y romantica dentro de esta lista.', query: spanishBookQuery('November 9', 'Colleen Hoover'), affiliateLabel: 'Buscar November 9 en espanol' },
+    { title: 'Reminders of Him', description: 'La mejor compra si prefieres culpa, redencion y un tono algo mas maduro.', query: spanishBookQuery('Reminders of Him', 'Colleen Hoover'), affiliateLabel: 'Buscar Reminders of Him en espanol' },
+  ],
+  'libros/mejores-libros-de-autoayuda-2026': [
+    { title: 'The Let Them Theory', description: 'La apuesta mas actual si quieres motivacion clara y accion inmediata.', query: spanishBookQuery('The Let Them Theory', 'Mel Robbins'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'Slow Productivity', description: 'Ideal si quieres trabajar mejor con menos saturacion y mas enfoque.', query: spanishBookQuery('Slow Productivity', 'Cal Newport'), affiliateLabel: 'Ver Slow Productivity en espanol' },
+    { title: 'The Psychology of Money', description: 'La mejor compra si tu prioridad es mentalidad financiera y decisiones practicas.', query: spanishBookQuery('The Psychology of Money', 'Morgan Housel'), affiliateLabel: 'Buscar este libro en espanol' },
+    { title: 'Atomic Habits', description: 'Sigue siendo el libro mas consistente para cambiar sistemas y rutinas.', query: spanishBookQuery('Atomic Habits', 'James Clear'), affiliateLabel: 'Buscar Atomic Habits en espanol' },
+  ],
+  'libros/mejores-libros-de-true-crime': [
+    { title: 'In Cold Blood', description: 'El clasico fundacional del true crime para lectores que quieren contexto y escritura fuerte.', query: spanishBookQuery('In Cold Blood', 'Truman Capote'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: "I'll Be Gone in the Dark", description: 'La recomendacion para lectores que quieren investigacion moderna y obsesiva.', query: spanishBookQuery("I'll Be Gone in the Dark", 'Michelle McNamara'), affiliateLabel: 'Ver opciones en espanol' },
+    { title: 'Killers of the Flower Moon', description: 'La mejor compra si te interesa crimen real con peso historico y politico.', query: spanishBookQuery('Killers of the Flower Moon', 'David Grann'), affiliateLabel: 'Buscar este libro en espanol' },
+    { title: 'Say Nothing', description: 'Una opcion mas politica y periodistica para quien quiere algo mas amplio que un caso.', query: spanishBookQuery('Say Nothing', 'Patrick Radden Keefe'), affiliateLabel: 'Buscar Say Nothing en espanol' },
+  ],
+  'libros/mejores-libros-para-quien-no-le-gusta-leer': [
+    { title: 'The Martian', description: 'La mejor compra si quieres ritmo, humor y una estructura que nunca se atasca.', query: spanishBookQuery('The Martian', 'Andy Weir'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'The Old Man and the Sea', description: 'La opcion corta para volver a leer sin sentir que tomas una tarea enorme.', query: spanishBookQuery('The Old Man and the Sea', 'Ernest Hemingway'), affiliateLabel: 'Ver en espanol' },
+    { title: 'Born a Crime', description: 'La recomendacion si prefieres memorias con voz muy fuerte y lectura agil.', query: spanishBookQuery('Born a Crime', 'Trevor Noah'), affiliateLabel: 'Buscar este libro en espanol' },
+    { title: 'Educated', description: 'La compra indicada si quieres historia real intensa y muy legible.', query: spanishBookQuery('Educated', 'Tara Westover'), affiliateLabel: 'Buscar Educated en espanol' },
+  ],
+  'libros/libros-como-el-codigo-da-vinci': [
+    { title: 'The Name of the Rose', description: 'La recomendacion mas seria para quien quiere misterio historico con mas profundidad.', query: spanishBookQuery('The Name of the Rose', 'Umberto Eco'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'The Amber Room', description: 'La compra mas cercana al ritmo rapido tipo Dan Brown.', query: spanishBookQuery('The Amber Room', 'Steve Berry'), affiliateLabel: 'Ver en espanol' },
+    { title: 'Labyrinth', description: 'La opcion para quien quiere conspiracion, historia y atmosfera.', query: spanishBookQuery('Labyrinth', 'Kate Mosse'), affiliateLabel: 'Buscar Labyrinth en espanol' },
+    { title: 'The Historian', description: 'La apuesta para lectores que quieren mas investigacion y tono oscuro.', query: spanishBookQuery('The Historian', 'Elizabeth Kostova'), affiliateLabel: 'Buscar este libro en espanol' },
+  ],
+  'libros/mejores-libros-de-aventura-para-hombres': [
+    { title: 'Killing Floor', description: 'La compra mas segura si quieres accion inmediata y lectura muy adictiva.', query: spanishBookQuery('Killing Floor', 'Lee Child'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'The Martian', description: 'La mejor opcion si prefieres supervivencia, ingenio y ciencia accesible.', query: spanishBookQuery('The Martian', 'Andy Weir'), affiliateLabel: 'Ver en espanol' },
+    { title: 'American Assassin', description: 'La recomendacion para quien quiere espionaje y violencia mas directa.', query: spanishBookQuery('American Assassin', 'Vince Flynn'), affiliateLabel: 'Buscar este libro en espanol' },
+    { title: 'Unbroken', description: 'La compra para lectores que quieren aventura real y resistencia humana.', query: spanishBookQuery('Unbroken', 'Laura Hillenbrand'), affiliateLabel: 'Buscar Unbroken en espanol' },
+  ],
+  'libros/mejores-libros-de-historia-para-principiantes': [
+    { title: 'Sapiens', description: 'La compra mas facil para un lector nuevo que quiere una gran vista general.', query: spanishBookQuery('Sapiens', 'Yuval Noah Harari'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'The Devil in the White City', description: 'La recomendacion si prefieres historia contada como thriller.', query: spanishBookQuery('The Devil in the White City', 'Erik Larson'), affiliateLabel: 'Ver en espanol' },
+    { title: 'SPQR', description: 'La mejor apuesta si te interesa Roma y una explicacion clara.', query: spanishBookQuery('SPQR', 'Mary Beard'), affiliateLabel: 'Buscar SPQR en espanol' },
+    { title: 'A Short History of Nearly Everything', description: 'Ideal si quieres una entrada muy accesible a grandes ideas historicas y cientificas.', query: spanishBookQuery('A Short History of Nearly Everything', 'Bill Bryson'), affiliateLabel: 'Buscar este libro en espanol' },
+  ],
+  'libros/mejores-libros-de-la-segunda-guerra-mundial': [
+    { title: 'All the Light We Cannot See', description: 'La mejor novela para entrar al tema desde personajes y atmosfera.', query: spanishBookQuery('All the Light We Cannot See', 'Anthony Doerr'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
+    { title: 'Band of Brothers', description: 'La compra principal si quieres no ficcion militar y relato de unidad.', query: spanishBookQuery('Band of Brothers', 'Stephen Ambrose'), affiliateLabel: 'Ver en espanol' },
+    { title: 'Night', description: 'La lectura mas corta y directa si quieres memoria y testimonio.', query: spanishBookQuery('Night', 'Elie Wiesel'), affiliateLabel: 'Buscar este libro en espanol' },
+    { title: 'The Book Thief', description: 'La recomendacion para quien quiere una novela emotiva y mas accesible.', query: spanishBookQuery('The Book Thief', 'Markus Zusak'), affiliateLabel: 'Buscar The Book Thief en espanol' },
+  ],
+  'oficina-en-casa/mejores-productos-para-tu-oficina-en-casa': [
+    { title: 'FlexiSpot E7 standing desk', description: 'El escritorio de pie recomendado en la version en ingles para una base mas seria.', query: 'FlexiSpot E7 standing desk', affiliateLabel: 'Ver en Amazon' },
+    { title: 'SIHOO Doro C300 ergonomic chair', description: 'La silla ergonomica recomendada para pasar muchas horas sin sentir el set improvisado.', query: 'SIHOO Doro C300 ergonomic office chair', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Ergotron LX single monitor arm', description: 'El brazo para monitor que mejor libera espacio y mejora la altura de pantalla.', query: 'Ergotron LX monitor arm', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Logitech MX Keys S', description: 'El teclado externo recomendado para mejorar postura y mantener el escritorio limpio.', query: 'Logitech MX Keys S keyboard', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Logitech MX Master 3S', description: 'El mouse mas facil de recomendar para trabajo largo y productividad diaria.', query: 'Logitech MX Master 3S mouse', affiliateLabel: 'Ver en Amazon' },
+    { title: 'ARZOPA 15.6-inch portable monitor', description: 'La segunda pantalla ligera recomendada si necesitas mas espacio sin una oficina fija.', query: 'ARZOPA 15.6 portable monitor', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'oficina-en-casa/oficina-en-casa-en-mesa-de-cocina': [
+    { title: 'Foldable laptop riser', description: 'La primera compra para subir la pantalla y dejar de encorvarte en la mesa.', query: 'foldable laptop riser portable', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Wireless keyboard and mouse', description: 'El combo que convierte la laptop en pantalla y hace viable una postura mejor.', query: 'wireless keyboard and mouse combo', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Portable external monitor', description: 'La pantalla extra que hace que una mesa temporal se sienta mucho mas capaz.', query: 'portable external monitor usb c', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Noise-cancelling headphones', description: 'La pieza que ayuda a crear foco cuando la cocina sigue siendo un espacio compartido.', query: 'noise cancelling headphones work from home', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Cable and power kit', description: 'Lo necesario para montar y desmontar rapido sin llenar la mesa de cables.', query: 'cable management kit desk power strip', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Adjustable portable lighting', description: 'La luz compacta recomendada si tu lugar cambia durante el dia.', query: 'adjustable portable desk lighting', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'oficina-en-casa/mejores-escritorios-de-pie': [
+    { title: 'Fully Jarvis standing desk', description: 'Una de las referencias de la comparativa en ingles para estabilidad y ajuste.', query: 'Fully Jarvis standing desk', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Uplift V2 standing desk', description: 'La otra mesa clave de la comparativa, muy fuerte en opciones y robustez.', query: 'Uplift V2 standing desk', affiliateLabel: 'Ver en Amazon' },
+    { title: 'FlexiSpot E7 standing desk', description: 'Una alternativa fuerte si quieres algo mas facil de encontrar en Amazon.', query: 'FlexiSpot E7 standing desk', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'oficina-en-casa/mejores-brazos-para-monitor': [
+    { title: 'Ergotron LX single monitor arm', description: 'La referencia premium de la comparativa original para movimiento suave y durabilidad.', query: 'Ergotron LX monitor arm', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Amazon Basics monitor arm', description: 'La opcion mas sencilla si quieres ahorrar sin perder la mejora principal.', query: 'Amazon Basics monitor arm', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'oficina-en-casa/mejores-sillas-ergonomicas-para-home-office': [
+    { title: 'Herman Miller Aeron chair', description: 'La silla para quien valora ventilacion, mesh y tallas mas precisas.', query: 'Herman Miller Aeron chair', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Steelcase Gesture office chair', description: 'La mejor compra si prefieres asiento acolchado y brazos mas flexibles.', query: 'Steelcase Gesture office chair', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'oficina-en-casa/mejores-monitores-portatiles-economicos': [
+    { title: 'New 15.6-inch generic USB-C portable monitors', description: 'La opcion nueva mas comun cuando quieres quedarte por debajo de 100 dolares.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=portable+monitor+15.6+usb+c+1080p+new&LH_BIN=1&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Ver en eBay' },
+    { title: 'Lenovo ThinkVision M14 refurbished', description: 'La recomendacion reacondicionada mas fuerte si priorizas marca y portabilidad.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=Lenovo+ThinkVision+M14+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Buscar en eBay' },
+    { title: 'Asus ZenScreen refurbished', description: 'Una busqueda util si quieres un nombre conocido sin irte por encima del presupuesto.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=Asus+ZenScreen+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Buscar en eBay' },
+    { title: 'Arzopa / InnoView / KYY open-box', description: 'La zona de valor si quieres una pantalla ligera con menos gasto inicial.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=Arzopa+InnoView+KYY+portable+monitor+open+box&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Buscar en eBay' },
+  ],
+  'tecnologia/mejores-monitores-economicos': [
+    { title: 'LG 27GP850-B', description: 'La mejor compra global de la guia inglesa si quieres 1440p y gran valor.', affiliateUrl: 'https://www.amazon.com/s?k=LG+27GP850-B&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Dell S2722DGM', description: 'La opcion curva para quien quiere contraste fuerte y buen precio.', affiliateUrl: 'https://www.amazon.com/s?k=Dell+S2722DGM&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'ASUS TUF VG249Q3A', description: 'La compra para priorizar gaming economico con panel IPS rapido.', affiliateUrl: 'https://www.amazon.com/s?k=ASUS+TUF+VG249Q3A&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Acer SB220Q bi', description: 'La opcion mas barata si solo quieres una mejora clara frente a una pantalla mediocre.', affiliateUrl: 'https://www.amazon.com/s?k=Acer+SB220Q+bi&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'tecnologia/mejores-laptops-para-estudiantes': [
+    { title: 'MacBook Air M3 13-inch', description: 'La recomendacion premium para estudiantes que priorizan bateria, peso y silencio.', affiliateUrl: 'https://www.amazon.com/s?k=MacBook+Air+M3+13+inch&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Lenovo IdeaPad Flex 5i 14-inch', description: 'La opcion equilibrada para quien quiere valor y versatilidad.', affiliateUrl: 'https://www.amazon.com/s?k=Lenovo+IdeaPad+Flex+5i+14+inch&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Dell XPS 13', description: 'La compra para quien quiere un equipo mas pulido y compacto.', affiliateUrl: 'https://www.amazon.com/s?k=Dell+XPS+13+2026&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Acer Chromebook Spin 714', description: 'La recomendacion para presupuestos mas controlados y tareas generales.', affiliateUrl: 'https://www.amazon.com/s?k=Acer+Chromebook+Spin+714&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'tecnologia/mejores-teclados-mecanicos': [
+    { title: 'Keychron Q5 Max', description: 'La opcion mas completa para quien quiere una experiencia premium de escritura.', affiliateUrl: 'https://www.amazon.com/s?k=Keychron+Q5+Max&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Logitech MX Keys S', description: 'La compra mas facil si prefieres algo mas silencioso y de oficina.', affiliateUrl: 'https://www.amazon.com/s?k=Logitech+MX+Keys+S&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Razer BlackWidow V4 75', description: 'La recomendacion fuerte para gaming y personalizacion.', affiliateUrl: 'https://www.amazon.com/s?k=Razer+BlackWidow+V4+75&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Redragon K552 Kumara', description: 'La opcion economica para entrar a esta categoria sin gastar de mas.', affiliateUrl: 'https://www.amazon.com/s?k=Redragon+K552+Kumara&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'tecnologia/mejores-audifonos-inalambricos': [
+    { title: 'Sony WF-1000XM5', description: 'La mejor compra general si priorizas ANC y sonido por encima de todo.', affiliateUrl: 'https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'AirPods Pro 2nd Generation', description: 'La opcion mas sensata si usas iPhone y quieres integracion con Apple.', affiliateUrl: 'https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Jabra Evolve2 Buds', description: 'La compra para quien vive en llamadas y trabajo remoto.', affiliateUrl: 'https://www.amazon.com/s?k=Jabra+Evolve2+Buds&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Soundcore Liberty 4 NC', description: 'La opcion con mejor equilibrio entre precio y cancelacion activa.', affiliateUrl: 'https://www.amazon.com/s?k=Soundcore+Liberty+4+NC&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'tecnologia/airpods-pro-vs-sony-wf-1000xm5': [
+    { title: 'AirPods Pro 2nd Generation', description: 'La compra recomendada para usuarios de iPhone y ecosistema Apple.', affiliateUrl: 'https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Sony WF-1000XM5', description: 'La compra ganadora para Android y para quien quiere mejor audio puro.', affiliateUrl: 'https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'hogar-cocina/mejores-freidoras-de-aire': [
+    { title: 'Cosori Pro II Air Fryer 5.8 Qt', description: 'La ganadora principal de la comparativa inglesa por equilibrio general.', affiliateUrl: 'https://www.amazon.com/s?k=cosori+pro+ii+air+fryer+5.8+qt&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Ninja AF101 Air Fryer 4 Qt', description: 'La alternativa compacta y sencilla si no necesitas tanta capacidad.', affiliateUrl: 'https://www.amazon.com/s?k=Ninja+AF101+Air+Fryer+4+Qt&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'hogar-cocina/mejores-aspiradoras-robot': [
+    { title: 'iRobot Roomba j7+ Self-Emptying', description: 'La recomendacion principal si quieres una experiencia mas pulida y fiable.', affiliateUrl: 'https://www.amazon.com/s?k=iRobot+Roomba+j7%2B+self+emptying&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Roborock Q5+ Self-Emptying', description: 'La alternativa fuerte si quieres mejor valor y navegacion muy competente.', affiliateUrl: 'https://www.amazon.com/s?k=roborock+Q5+plus+self+emptying&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'hogar-cocina/mejores-cafeteras-por-menos-de-100': [
+    { title: 'Cuisinart DCC-3200 Perfectemp 14-Cup', description: 'La mejor compra si quieres una cafetera clasica y consistente.', affiliateUrl: 'https://www.amazon.com/s?k=Cuisinart+DCC-3200+Perfectemp+14-Cup&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Hamilton Beach FlexBrew Trio 2-Way', description: 'La recomendacion si quieres flexibilidad entre jarra y taza individual.', affiliateUrl: 'https://www.amazon.com/s?k=hamilton+beach+flexbrew+trio+2+way+coffee+maker&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'hogar-cocina/mejores-articulos-para-dormitorio-universitario': [
+    { title: 'Bedsure Twin XL Sheet Set', description: 'Una compra base para empezar bien la cama del dormitorio.', query: 'twin xl sheet set dorm', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Linenspa 3-Inch Gel Memory Foam Topper', description: 'La mejora de comodidad con mas impacto para una cama universitaria regular.', query: 'twin xl mattress topper gel memory foam', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Frigidaire Retro 3.2 Cu Ft Compact Fridge', description: 'La mini nevera recomendada si quieres algo util y con un poco mas de estilo.', query: 'mini fridge dorm 3.2 cu ft', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Surge Protector Tower with USB Ports', description: 'La pieza practica que suele hacer mas facil conectar todo sin caos.', query: 'surge protector power strip tower usb dorm', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Magicteam White Noise Machine', description: 'Una compra inteligente si el piso o la residencia son ruidosos.', query: 'white noise machine dorm sleep', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Addtam LED Desk Lamp with Power Strip Base', description: 'Una buena combinacion de luz y carga para cuartos pequenos.', query: 'desk lamp usb charging port outlet dorm', affiliateLabel: 'Ver en Amazon' },
+  ],
+  'hogar-cocina/mejores-accesorios-de-escritorio-para-estudiar': [
+    { title: 'Voncerus LED Desk Lamp with Clamp', description: 'La luz de trabajo principal recomendada para escritorios pequeños.', query: 'led desk lamp clamp students', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Quntis Monitor Light Bar', description: 'La opcion para iluminar mejor sin comerte espacio frontal del escritorio.', query: 'monitor light bar usb', affiliateLabel: 'Ver en Amazon' },
+    { title: 'RIWUCT Foldable Aluminum Laptop Stand', description: 'La compra de postura mas clara para estudiantes con laptop.', query: 'laptop stand adjustable aluminum', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Logitech MK270 Wireless Combo', description: 'El combo facil para separar teclado y mejorar comodidad.', query: 'wireless keyboard and mouse combo', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Zebra Mildliner Double-Ended Highlighters', description: 'La recomendacion para tomar apuntes y marcar sin saturar la pagina.', query: 'zebra mildliner highlighters set', affiliateLabel: 'Ver en Amazon' },
+    { title: 'Marbrasse 3-Tier Mesh Desk Organizer', description: 'La pieza para mantener papeles, cables y utiles en un mismo sitio.', query: 'mesh desk organizer with drawer', affiliateLabel: 'Ver en Amazon' },
+  ],
+}
+
+export function getSpanishArticleRecommendations(article: SpanishArticle) {
+  return spanishArticleRecommendations[getSpanishArticleKey(article.section, article.slug)] ?? []
 }
 
 export function getSpanishUrlForEnglishPath(englishPath: string) {

@@ -3,8 +3,10 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import { buildAffiliateTrackingId, getAffiliateUrlWithTracking } from '@/lib/affiliate-links'
 import {
   getSpanishArticle,
+  getSpanishArticleRecommendations,
   getSpanishArticlesBySection,
   getSpanishRelatedArticles,
   getSpanishStaticPaths,
@@ -28,6 +30,25 @@ function titleCaseDate(dateString: string) {
     month: 'long',
     day: 'numeric',
   }).format(new Date(`${dateString}T00:00:00Z`))
+}
+
+function buildRecommendationUrl(
+  article: NonNullable<ReturnType<typeof getSpanishArticle>>,
+  title: string,
+  recommendation: ReturnType<typeof getSpanishArticleRecommendations>[number]
+) {
+  const trackingId = buildAffiliateTrackingId('es', article.section, article.slug, title)
+
+  if (recommendation.affiliateUrl) {
+    return getAffiliateUrlWithTracking(
+      recommendation.affiliateUrl,
+      recommendation.affiliatePlatform,
+      trackingId
+    )
+  }
+
+  const query = recommendation.query ?? title
+  return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=althcu-20`
 }
 
 export function generateStaticParams() {
@@ -220,6 +241,7 @@ function SpanishSectionPage({ sectionSlug }: { sectionSlug: keyof typeof spanish
 function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeof getSpanishArticle>> }) {
   const related = getSpanishRelatedArticles(article)
   const section = spanishSectionMap[article.section]
+  const recommendations = getSpanishArticleRecommendations(article)
 
   return (
     <main lang="es" className="mx-auto max-w-5xl px-4 py-10">
@@ -289,6 +311,56 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           </ul>
         </div>
       </section>
+
+      {recommendations.length > 0 ? (
+        <section className="mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Recomendaciones</p>
+              <h2 className="mt-2 text-2xl font-black text-slate-900">
+                Productos y libros para comprar desde esta guia
+              </h2>
+            </div>
+            <a
+              href={`https://bestpickzone.com${article.englishPath}`}
+              className="rounded-full bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-amber-700"
+            >
+              Ver la lista completa en ingles
+            </a>
+          </div>
+
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            {recommendations.map((recommendation) => {
+              const href = buildRecommendationUrl(article, recommendation.title, recommendation)
+
+              return (
+                <div
+                  key={`${recommendation.title}-${recommendation.affiliateLabel ?? recommendation.query ?? 'amazon'}`}
+                  className="rounded-[1.5rem] border border-slate-200 bg-slate-50 p-5"
+                >
+                  <h3 className="text-xl font-black text-slate-900">{recommendation.title}</h3>
+                  <p className="mt-3 text-base leading-7 text-slate-700">{recommendation.description}</p>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener nofollow sponsored"
+                    className={`mt-4 inline-flex rounded-full px-4 py-3 text-sm font-semibold transition ${
+                      recommendation.affiliatePlatform === 'ebay'
+                        ? 'bg-sky-600 text-white hover:bg-sky-500'
+                        : 'bg-yellow-400 text-slate-900 hover:bg-yellow-300'
+                    }`}
+                  >
+                    {recommendation.affiliateLabel ??
+                      (recommendation.affiliatePlatform === 'ebay'
+                        ? 'Ver opciones en eBay'
+                        : 'Ver en Amazon')}
+                  </a>
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      ) : null}
 
       <section className="mt-8 rounded-[2rem] border border-slate-200 bg-slate-900 p-6 text-slate-100">
         <h2 className="text-2xl font-black">Tambien te puede interesar</h2>
