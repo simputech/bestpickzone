@@ -76,6 +76,10 @@ const products = [
       'Most people want a motorized sit-stand desk with programmable height presets, enough surface area for a laptop plus a monitor, and a frame that does not wobble every time they type. On Amazon, this category is crowded, so the real shopping filters are depth, width, cable management, and whether the desk looks like something you can live with every day.',
     whyItMadeTheList:
       'This earns a spot because it gives the rest of the office somewhere stable to make sense. If your desk is too shallow, too shaky, or too cramped, every other upgrade feels compromised.',
+    ourPickName: 'FlexiSpot E7 standing desk',
+    ourPickWhy:
+      'A strong all-around Amazon pick because it balances a stable frame, smoother height presets, and enough size options to work for both a serious office and a mixed-use room.',
+    ourPickQuery: 'FlexiSpot E7 standing desk',
     amazonQuery: 'electric standing desk home office',
   },
   {
@@ -88,6 +92,10 @@ const products = [
       'The right Amazon chair usually means adjustable lumbar support, seat depth that does not cut off circulation, armrests that actually meet your elbows, and breathable materials that still feel decent at hour six. Fancy branding matters less than basic fit and whether the chair supports the way you naturally sit.',
     whyItMadeTheList:
       'This belongs near the top because almost every other home office fix becomes easier once the chair stops fighting you. A calm setup usually starts with a seat you do not keep thinking about.',
+    ourPickName: 'SIHOO Doro C300 ergonomic chair',
+    ourPickWhy:
+      'A practical Amazon-first recommendation because it gives buyers a credible ergonomic chair with adjustable lumbar support and a cleaner look than many bulky budget-office options.',
+    ourPickQuery: 'SIHOO Doro C300 ergonomic office chair',
     amazonQuery: 'ergonomic office chair adjustable lumbar',
   },
   {
@@ -100,6 +108,10 @@ const products = [
       'For most people, the ideal arm handles one monitor cleanly, clamps securely to the desk, and gives enough tilt, swivel, and height adjustment to fine-tune the screen instead of settling for almost right. This is especially useful on smaller desks where every inch of reclaimed depth matters.',
     whyItMadeTheList:
       'This made the list because it improves posture and visual calm at the same time. It is one of the rare desk upgrades that feels both practical and aesthetic immediately.',
+    ourPickName: 'Ergotron LX single monitor arm',
+    ourPickWhy:
+      'Still one of the easiest monitor-arm recommendations to make because it moves smoothly, lasts, and instantly frees up desk depth in a way cheaper arms often fail to do.',
+    ourPickQuery: 'Ergotron LX monitor arm',
     amazonQuery: 'single monitor arm gas spring desk mount',
   },
   {
@@ -112,6 +124,10 @@ const products = [
       'For home office use, the best keyboards on Amazon are usually low-profile wireless models with quiet keys, dependable Bluetooth or dongle pairing, and a layout that feels natural within a few minutes. If the board looks good and charges through USB-C, even better.',
     whyItMadeTheList:
       'This made the cut because it turns a visually cleaner setup into a physically better one. It is the bridge between a nice-looking desk and a truly usable desk.',
+    ourPickName: 'Logitech MX Keys S',
+    ourPickWhy:
+      'A reliable home-office keyboard choice if you want quiet typing, multi-device switching, and a polished look that still feels grown-up on a desk all day.',
+    ourPickQuery: 'Logitech MX Keys S keyboard',
     amazonQuery: 'wireless keyboard rechargeable office',
   },
   {
@@ -124,6 +140,10 @@ const products = [
       'This category includes sculpted productivity mice, quieter wireless models, and devices with scroll wheels and shortcut buttons that reduce repetitive motion. The goal is not to buy a gamer-looking gadget but to find something your hand can rest on naturally for hours.',
     whyItMadeTheList:
       'It belongs here because it affects comfort more than many people expect. If your hands are irritated by lunch, productivity advice stops mattering fast.',
+    ourPickName: 'Logitech MX Master 3S',
+    ourPickWhy:
+      'A standout Amazon pick for people who spend all day pointing, scrolling, and switching apps because it is comfortable, quiet, and genuinely useful for productivity work.',
+    ourPickQuery: 'Logitech MX Master 3S mouse',
     amazonQuery: 'ergonomic wireless mouse rechargeable productivity',
   },
   {
@@ -136,6 +156,10 @@ const products = [
       'Most good Amazon stands are aluminum or lightweight steel, fold flat, and give you enough height and angle options to raise the display without wobble. The best ones are boring in the best way: sturdy, simple, and easy to forget once they are working.',
     whyItMadeTheList:
       'This is here because it gives outsized ergonomic payoff for the money. It is one of the simplest starter upgrades for anyone still working off a bare laptop.',
+    ourPickName: 'Nulaxy foldable aluminum laptop stand',
+    ourPickWhy:
+      'A solid starter recommendation because it is simple, portable, and does the main job well: getting the screen higher without making the desk feel overbuilt.',
+    ourPickQuery: 'Nulaxy foldable laptop stand',
     amazonQuery: 'foldable laptop stand aluminum portable',
   },
   {
@@ -148,6 +172,10 @@ const products = [
       'Portable monitors are the flexible version of a dual-screen setup: thin USB-C displays that can live on a desk full-time or slide away when the room needs to reset. They are especially useful for hybrid workers or anyone whose office still has to share space with normal life.',
     whyItMadeTheList:
       'This earned a place because it makes temporary and medium-size home offices feel much more capable without demanding a permanent desktop footprint.',
+    ourPickName: 'ARZOPA 15.6-inch portable monitor',
+    ourPickWhy:
+      'A useful Amazon-first option for people who want an affordable second screen that is easy to store, easy to connect, and much better than living in one cramped laptop window.',
+    ourPickQuery: 'ARZOPA 15.6 portable monitor',
     amazonQuery: 'portable monitor usb c 15.6 inch',
   },
   {
@@ -160,6 +188,10 @@ const products = [
       'The useful Amazon versions here are dimmable LED lamps with warmer and cooler modes, a small footprint, and enough adjustability to keep light off the screen while still helping your face look more alive on camera. Good lighting makes even a simple home office feel more deliberate.',
     whyItMadeTheList:
       'This is on the list because lighting affects fatigue, video quality, and the mood of the desk more than most “must-have” gadgets do.',
+    ourPickName: 'Lepro LED desk lamp',
+    ourPickWhy:
+      'An easy Amazon recommendation for shoppers who mainly need adjustable brightness, cleaner call lighting, and something compact enough not to dominate the work surface.',
+    ourPickQuery: 'Lepro LED desk lamp',
     amazonQuery: 'dimmable led desk lamp adjustable color temperature',
   },
   {
@@ -172,6 +204,10 @@ const products = [
       'For most remote workers, a good Amazon webcam means 1080p or better, decent low-light handling, a stable mount, and a field of view that does not make your whole room part of the meeting. You want clearer presence, not influencer-level production.',
     whyItMadeTheList:
       'This made the roundup because many people spend hours on video and still treat the camera as an afterthought. A better camera is often a bigger reputation upgrade than another decorative desk piece.',
+    ourPickName: 'Logitech C920x webcam',
+    ourPickWhy:
+      'Still one of the safest work-from-home webcam picks because it is easy to find, easy to set up, and noticeably more flattering and stable than most built-in laptop cameras.',
+    ourPickQuery: 'Logitech C920x webcam',
     amazonQuery: '1080p webcam with privacy shutter',
   },
   {
@@ -184,6 +220,10 @@ const products = [
       'The right pair on Amazon should handle microphone quality, comfort, and background-noise reduction before anything flashy. This is less about audiophile taste and more about protecting your attention in a space that may still include family, pets, street noise, or appliances.',
     whyItMadeTheList:
       'They belong here because focus is partly a sound-management problem. When the room will not get quieter, headphones often become the practical answer.',
+    ourPickName: 'Sony WH-1000XM5 headphones',
+    ourPickWhy:
+      'A premium but easy recommendation if you want strong call quality, excellent noise cancelling, and a pair that actually helps a shared home feel more office-like.',
+    ourPickQuery: 'Sony WH-1000XM5 headphones',
     amazonQuery: 'noise cancelling headphones microphone work from home',
   },
   {
@@ -196,6 +236,10 @@ const products = [
       'Think of it as the base layer for your keyboard, mouse, and notebook. The good Amazon options are easy to wipe down, large enough to anchor the work area, and neutral enough that they calm the desk instead of turning it into a design experiment.',
     whyItMadeTheList:
       'This made the roundup because it is one of the cheapest ways to make a home office look and feel more cohesive. It is a styling move that also has practical value.',
+    ourPickName: 'YSAGi leather desk pad',
+    ourPickWhy:
+      'A good Amazon-friendly pick because it covers enough surface area to define the workspace and makes the desk look more finished without much cost or drama.',
+    ourPickQuery: 'YSAGi desk pad',
     amazonQuery: 'large desk mat office desk pad',
   },
   {
@@ -208,6 +252,10 @@ const products = [
       'A good home office footrest gives you a more stable lower-body position, especially if your chair has to sit a little higher to make the keyboard feel right. Amazon is full of foam, rocking, and height-adjustable versions, but the goal is the same: more support and less tension.',
     whyItMadeTheList:
       'It earns its place because many home office discomfort problems start below the desk, not above it. This is often the quiet fix that makes long sitting more sustainable.',
+    ourPickName: 'Everlasting Comfort footrest',
+    ourPickWhy:
+      'A dependable recommendation for people whose chair height and desk height never quite line up, especially if lower-back tension starts building before lunch.',
+    ourPickQuery: 'Everlasting Comfort footrest',
     amazonQuery: 'ergonomic footrest under desk',
   },
   {
@@ -220,6 +268,10 @@ const products = [
       'This usually means a compact power strip, cable sleeves or clips, and maybe an under-desk tray or box to hide the parts no one needs to admire. On Amazon, these items are not glamorous, but they are deeply useful.',
     whyItMadeTheList:
       'This belongs here because tidy infrastructure changes the whole impression of the desk. It also makes cleaning, rearranging, and resetting the space much easier.',
+    ourPickName: 'Stageek cable management kit',
+    ourPickWhy:
+      'A useful starter bundle because it helps tame the visible mess fast, and that visual cleanup does more for a home office than people usually expect.',
+    ourPickQuery: 'Stageek cable management kit',
     amazonQuery: 'cable management kit desk cord organizer',
   },
   {
@@ -232,6 +284,10 @@ const products = [
       'The useful category here is a compact all-in-one that prints reliably, scans cleanly, and does not dominate the room like a relic from 2009. If your work touches forms, invoices, mail, or side-business logistics, this stops being optional surprisingly fast.',
     whyItMadeTheList:
       'It made the list because practical office friction matters just as much as aesthetics. When you need one, you really need one.',
+    ourPickName: 'Brother MFC-J1010DW all-in-one printer',
+    ourPickWhy:
+      'A strong small-office recommendation for people who need reliable print-and-scan basics without giving up half the room to a giant machine.',
+    ourPickQuery: 'Brother MFC-J1010DW printer',
     amazonQuery: 'compact all in one printer scanner home office',
   },
   {
@@ -244,6 +300,10 @@ const products = [
       'This can be a slim drawer unit, a desktop paper organizer, or one lidded box that gives stray tools a home. On Amazon, the best versions are usually simple, durable, and visually quiet rather than hyper-compartmentalized.',
     whyItMadeTheList:
       'This product made the roundup because an office that is easy to reset is an office you actually keep using well. Good organization is less about perfection than reducing daily drag.',
+    ourPickName: 'Marbrasse desk organizer with drawer',
+    ourPickWhy:
+      'A simple Amazon-first organizer pick if your desk constantly collects paper, chargers, pens, and random small items that make the setup feel busier than it needs to.',
+    ourPickQuery: 'Marbrasse desk organizer drawer',
     amazonQuery: 'desktop organizer drawer office supplies',
   },
 ]
@@ -298,7 +358,7 @@ const itemListSchema = {
 
 const fullText = [
   metaDescription,
-  ...products.map((product) => `${product.title} ${product.summary} ${product.whatItIs} ${product.whyItMadeTheList}`),
+  ...products.map((product) => `${product.title} ${product.summary} ${product.whatItIs} ${product.whyItMadeTheList} ${product.ourPickName} ${product.ourPickWhy}`),
   ...faqs.map((faq) => `${faq.question} ${faq.answer}`),
 ].join(' ')
 
@@ -398,17 +458,30 @@ export default function BestProductsForHomeOfficePage() {
                 <p>{product.whatItIs}</p>
                 <p>{product.whyItMadeTheList}</p>
               </div>
-              <div className="rounded-3xl bg-slate-50 p-5">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Why it earns the space</p>
-                <p className="mt-3 text-base leading-7 text-slate-700">
-                  This is the kind of product that either solves a real friction point or it should not be on the desk at all. For this one, the payoff is clear enough that it belongs in the conversation for most serious home office setups.
-                </p>
-                <p className="mt-4 text-sm text-slate-500">
-                  Amazon search used: <span className="font-medium text-slate-700">{product.amazonQuery}</span>
-                </p>
+                <div className="rounded-3xl bg-slate-50 p-5">
+                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Why it earns the space</p>
+                  <p className="mt-3 text-base leading-7 text-slate-700">
+                    This is the kind of product that either solves a real friction point or it should not be on the desk at all. For this one, the payoff is clear enough that it belongs in the conversation for most serious home office setups.
+                  </p>
+                  <p className="mt-4 text-sm text-slate-500">
+                    Amazon search used: <span className="font-medium text-slate-700">{product.amazonQuery}</span>
+                  </p>
+                  <div className="mt-5 rounded-3xl border border-amber-200 bg-white p-4">
+                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Our Pick</p>
+                    <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>
+                    <p className="mt-2 text-sm leading-7 text-slate-700">{product.ourPickWhy}</p>
+                    <a
+                      href={amazon(product.ourPickQuery)}
+                      target="_blank"
+                      rel="noopener nofollow sponsored"
+                      className="mt-4 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-amber-500"
+                    >
+                      See our Amazon pick
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
         ))}
       </section>
 
