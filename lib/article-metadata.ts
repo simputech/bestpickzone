@@ -173,6 +173,7 @@ export function withArticleMetadataDefaults(
       ? metadata.openGraph.description
       : description
   const ogImage = (options.category && CATEGORY_OG_IMAGE[options.category]) ?? DEFAULT_OG_IMAGE
+  const canonicalUrl = url
 
   return {
     ...metadata,
@@ -192,11 +193,15 @@ export function withArticleMetadataDefaults(
         'max-video-preview': -1,
       },
     },
+    alternates: {
+      ...metadata.alternates,
+      canonical: metadata.alternates?.canonical ?? canonicalUrl,
+    },
     openGraph: {
       ...metadata.openGraph,
       siteName: 'BestPickZone',
       type: metadataType,
-      url,
+      url: canonicalUrl,
       title: openGraphTitle,
       description: openGraphDescription,
       images: metadata.openGraph?.images ?? [

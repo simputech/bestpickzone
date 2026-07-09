@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import { siteSections } from '@/lib/site-sections'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'BestPickZone — Buyer Guides and Product Comparisons 2026',
@@ -210,6 +211,38 @@ export default function HomePage() {
               <p className={`text-sm font-bold mt-4 ${cat.accent}`}>Explore guides →</p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 pb-16">
+        <div className="rounded-[2rem] border border-slate-200 bg-slate-50 p-6">
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[0.18em] text-slate-500">
+              Site Sections
+            </p>
+            <h2
+              className="mt-3 text-3xl font-black text-slate-900"
+              style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}
+            >
+              Every main category hub, linked from the homepage
+            </h2>
+            <p className="mt-3 text-slate-600">
+              These are the primary crawl paths for the product-comparison sections outside the book directory.
+            </p>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            {siteSections.map((section) => (
+              <Link
+                key={section.href}
+                href={section.href}
+                className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-0.5 hover:border-yellow-300 hover:shadow-md"
+              >
+                <h3 className="text-lg font-bold text-slate-900">{section.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{section.description}</p>
+                <p className="mt-4 text-sm font-semibold text-yellow-700">Visit section hub →</p>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

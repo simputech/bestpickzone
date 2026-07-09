@@ -4,6 +4,7 @@ import './globals.css'
 import AmazonClickTracker from '@/components/analytics/AmazonClickTracker'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import CategorySiblingLinks from '@/components/seo/CategorySiblingLinks'
 
 export const metadata: Metadata = {
   title: {
@@ -91,6 +92,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <Header />
         <div className="flex-1">{children}</div>
+        <CategorySiblingLinks />
         <Footer />
         <AmazonClickTracker />
       

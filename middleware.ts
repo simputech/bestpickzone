@@ -8,6 +8,7 @@ import {
 } from '@/lib/attribution'
 
 const ATTRIBUTION_COOKIE_MAX_AGE = 60 * 60 * 24 * 30
+const CANONICAL_HOST = 'bestpickzone.com'
 
 function buildAttributionFromRequest(request: NextRequest): StoredAttribution | null {
   const searchParams = request.nextUrl.searchParams
@@ -39,7 +40,8 @@ export function middleware(request: NextRequest) {
 
   if (host.startsWith('www.')) {
     const url = new URL(request.url)
-    url.host = host.replace(/^www\./, '')
+    url.protocol = 'https:'
+    url.host = CANONICAL_HOST
     return NextResponse.redirect(url, 301)
   }
 

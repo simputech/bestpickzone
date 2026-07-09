@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { siteSections } from '@/lib/site-sections'
 
 const authorLinks = [
   { href: '/books/best-stephen-king-books', label: 'Stephen King' },
@@ -30,6 +31,24 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 mt-16">
       <div className="max-w-7xl mx-auto px-4 py-14">
+        <div className="mb-10 rounded-3xl border border-gray-700 bg-gray-950/60 p-6">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-yellow-400">
+            Explore Every Section
+          </p>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {siteSections.map((section) => (
+              <Link
+                key={section.href}
+                href={section.href}
+                className="rounded-2xl border border-gray-700 bg-gray-900 px-4 py-4 transition hover:border-yellow-400 hover:text-white"
+              >
+                <p className="font-semibold text-white">{section.title}</p>
+                <p className="mt-1 text-xs leading-5 text-gray-400">{section.description}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-10">
           {/* Brand */}
           <div>
