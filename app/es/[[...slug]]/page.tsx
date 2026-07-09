@@ -312,6 +312,42 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
         </div>
       </section>
 
+      {article.bookHighlights?.length ? (
+        <section className="mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+          <div className="max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Resumen Libro Por Libro</p>
+            <h2 className="mt-2 text-2xl font-black text-slate-900">
+              Contexto extra para elegir mejor que Stephen King leer primero
+            </h2>
+            <p className="mt-3 text-base leading-7 text-slate-700">
+              Si la lista rapida se te queda corta, esta parte aterriza que ofrece cada titulo y por que
+              conviene entrar por uno u otro segun tu gusto por el terror, la longitud y el tipo de tension.
+            </p>
+          </div>
+
+          <div className="mt-6 space-y-5">
+            {article.bookHighlights.map((book) => (
+              <div
+                key={book.title}
+                className="rounded-[1.75rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_100%)] p-5"
+              >
+                <div className="flex flex-wrap items-center gap-3">
+                  <h3 className="text-2xl font-black text-slate-900">{book.title}</h3>
+                  <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-800">
+                    {book.badge}
+                  </span>
+                </div>
+                <p className="mt-4 text-base leading-7 text-slate-700">{book.summary}</p>
+                <p className="mt-4 text-base leading-7 text-slate-700">{book.insight}</p>
+                <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-sm leading-6 text-slate-800 ring-1 ring-amber-200">
+                  <strong>Mejor para:</strong> {book.bestFor}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       {recommendations.length > 0 ? (
         <section className="mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3">

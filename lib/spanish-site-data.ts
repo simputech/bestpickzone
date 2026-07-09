@@ -20,6 +20,7 @@ export type SpanishArticle = {
   perspective: string
   keyPoints: string[]
   buyingTips: string[]
+  bookHighlights?: SpanishBookHighlight[]
 }
 
 export type SpanishRecommendation = {
@@ -29,6 +30,14 @@ export type SpanishRecommendation = {
   affiliateUrl?: string
   affiliatePlatform?: 'amazon' | 'ebay'
   affiliateLabel?: string
+}
+
+export type SpanishBookHighlight = {
+  title: string
+  badge: string
+  summary: string
+  insight: string
+  bestFor: string
 }
 
 export const SPANISH_SITE_DATE = '2026-07-07'
@@ -488,6 +497,53 @@ export const spanishArticles: SpanishArticle[] = [
       'Si no lees mucho terror, empieza por algo mas contenido antes de saltar a novelas enormes.',
       'No es necesario leerlo en orden; conviene leer por tono y curiosidad.',
       'Si buscas su lado mas perturbador, prioriza novelas centradas en duelo o obsesion, no solo monstruos.',
+    ],
+    bookHighlights: [
+      {
+        title: 'The Shining',
+        badge: 'Mejor Punto De Entrada',
+        summary:
+          'Sigue siendo el libro mas facil de recomendar porque concentra casi todas las virtudes de King sin exigir una novela gigantesca. El hotel Overlook, el deterioro de Jack Torrance y la sensibilidad de Danny crean un terror que mezcla casa rota, adiccion y presencia sobrenatural con un equilibrio muy raro.',
+        insight:
+          'Lo mejor aqui no es solo el miedo. Es la manera en que King convierte resentimientos familiares y culpa en una atmosfera cada vez mas cerrada. Si alguien quiere entender por que King funciona incluso cuando no pasan “grandes cosas” en cada pagina, este libro lo explica muy rapido.',
+        bestFor: 'Lectores nuevos que quieren terror psicologico con tension constante y una puerta de entrada representativa.',
+      },
+      {
+        title: 'Misery',
+        badge: 'Mejor Si Prefieres Thriller',
+        summary:
+          'Misery demuestra que King no necesita monstruos ni mitologia para ser brutalmente eficaz. Con Paul Sheldon atrapado por Annie Wilkes, la novela reduce el escenario al minimo y saca provecho de cada gesto, cada escalera y cada cambio de humor para mantener la presion.',
+        insight:
+          'La gran ventaja de este libro es que casi nunca se dispersa. Es King en modo controlado, sin grasa y sin subtramas que alejen del conflicto principal. Por eso suele convencer a lectores que respetan su fama pero no conectan con sus novelas mas largas o sobrenaturales.',
+        bestFor: 'Quien quiere suspense humano, ritmo mas tenso y una experiencia mas corta que sus epicas.',
+      },
+      {
+        title: '11/22/63',
+        badge: 'Mejor Para Quien Cree Que No Le Gusta King',
+        summary:
+          'Aqui King se mueve mas hacia la historia alternativa, el viaje en el tiempo y una historia romantica con mucho peso emocional. La mision de impedir el asesinato de Kennedy da direccion, pero el encanto real esta en como recrea la vida cotidiana de finales de los cincuenta y principios de los sesenta.',
+        insight:
+          'Es una novela larga, si, pero tambien una de las mas calidas y legibles de su carrera. En lugar de apoyarse en sustos, se apoya en curiosidad, nostalgia, consecuencias y personajes que se quedan contigo. Para muchos lectores es la prueba de que King puede ser mucho mas amplio que la etiqueta de “autor de terror”.',
+        bestFor: 'Lectores que prefieren ficcion historica, viaje temporal y una historia con mas corazon que horror puro.',
+      },
+      {
+        title: 'It',
+        badge: 'Mejor Gran Apuesta',
+        summary:
+          'It es la recomendacion para quien ya sabe que quiere sumergirse de lleno en el King mas ambicioso. Pennywise es el gancho obvio, pero la fuerza del libro esta en Derry, en la amistad del Club de los Perdedores y en esa mezcla de infancia, trauma y memoria que atraviesa toda la novela.',
+        insight:
+          'No conviene venderlo como un simple libro “de payaso asesino” porque se queda corto. Es una experiencia larga, sentimental, grotesca y a veces caotica, justo como sus mejores novelas-rio. Cuando engancha, engancha por su escala emocional tanto como por su terror.',
+        bestFor: 'Lectores pacientes que quieren una novela enorme, coral y emocionalmente mas expansiva.',
+      },
+      {
+        title: 'Pet Sematary',
+        badge: 'La Opcion Mas Dura',
+        summary:
+          'Pet Sematary es probablemente la mejor eleccion si buscas el King mas oscuro y menos complaciente. La historia del cementerio y lo que ocurre despues importa, pero el verdadero centro es el duelo y la tentacion de deshacer una perdida que no admite arreglo.',
+        insight:
+          'Ese es el motivo por el que tanta gente la considera una de sus novelas mas perturbadoras. No depende tanto de un monstruo externo como de una pregunta insoportable: que haria una familia si tuviera una falsa oportunidad de revertir lo irreversible. Ese enfoque la vuelve mas pesada y mas memorable.',
+        bestFor: 'Lectores que quieren horror emocional fuerte y no necesitan una lectura ligera o reconfortante.',
+      },
     ],
   },
   {

@@ -6,7 +6,7 @@ import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Budget Monitors Under $300 in 2026',
   description:
-    'Expert-ranked budget monitors under $300 — from sharp 1080p office displays to fast 1440p gaming monitors. Full specs, pros/cons, and Amazon + Best Buy links.',
+    'Expert-ranked budget monitors under $300 — from sharp 1080p office displays to fast 1440p gaming monitors. Full specs, pros/cons, and Amazon + eBay shopping paths for new and refurbished buys.',
   openGraph: {
     title: 'Best Budget Monitors Under $300 in 2026',
     description: 'Top budget monitor picks under $300 for home office, gaming, and productivity in 2026.',
@@ -18,7 +18,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 }, {
   category: 'tech',
   publishedTime: '2026-04-09',
-  modifiedTime: '2026-06-26',
+  modifiedTime: '2026-07-07',
   section: 'Tech',
 })
 
@@ -34,7 +34,7 @@ const products = [
     cons: ['No built-in speakers', 'Stand is not height-adjustable (only tilt)', 'IPS glow noticeable in dark rooms', 'Requires VESA mount purchase for height adjustment'],
     verdict: 'The best monitor under $300. The 1440p/180Hz combo makes it excellent for both productivity and gaming. The USB-C with 96W PD is a rare bonus at this price.',
     amazonUrl: 'https://www.amazon.com/s?k=LG+27GP850-B&tag=althcu-20',
-    bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=LG+27GP850-B',
+    ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=LG+27GP850-B+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
     specs: [{ label: 'Resolution', value: '2560×1440 (1440p)' }, { label: 'Panel', value: 'NanoIPS' }, { label: 'Refresh Rate', value: '180Hz' }, { label: 'Response Time', value: '1ms GtG' }, { label: 'HDR', value: 'HDR400' }, { label: 'Ports', value: 'HDMI 2.0, DP 1.4, USB-C 96W' }],
   },
   {
@@ -48,7 +48,7 @@ const products = [
     cons: ['VA panel slower than IPS (4ms vs 1ms)', 'Colors less vibrant than IPS at same price', 'No USB hub or USB-C', 'Bezels are thicker than premium monitors'],
     verdict: 'The best curved budget monitor for long workdays. The curved 1440p VA panel reduces eye fatigue, and the fully adjustable stand is rare at this price point.',
     amazonUrl: 'https://www.amazon.com/s?k=Dell+S2722DGM&tag=althcu-20',
-    bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Dell+S2722DGM',
+    ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=Dell+S2722DGM+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
     specs: [{ label: 'Resolution', value: '2560×1440 (1440p)' }, { label: 'Panel', value: 'VA Curved (1500R)' }, { label: 'Refresh Rate', value: '165Hz' }, { label: 'Response Time', value: '4ms GtG' }, { label: 'Ports', value: '2x HDMI 2.0, 1x DP 1.4' }, { label: 'Stand', value: 'Tilt/Height/Pivot' }],
   },
   {
@@ -62,7 +62,7 @@ const products = [
     cons: ['1080p resolution only — not great for productivity', 'No HDR worth noting (HDR10 in name only)', 'Built-in speakers are poor', 'Maximum brightness could be higher'],
     verdict: 'The best competitive gaming monitor under $200. If you play fast-paced FPS games (Valorant, CS2, Apex), the 180Hz/0.5ms combo is a real performance upgrade over a typical office monitor.',
     amazonUrl: 'https://www.amazon.com/s?k=ASUS+TUF+VG249Q3A&tag=althcu-20',
-    bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=ASUS+TUF+VG249Q3A',
+    ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=ASUS+TUF+VG249Q3A+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
     specs: [{ label: 'Resolution', value: '1920×1080 (1080p)' }, { label: 'Panel', value: 'IPS' }, { label: 'Refresh Rate', value: '180Hz' }, { label: 'Response Time', value: '0.5ms MPRT' }, { label: 'HDR', value: 'HDR10' }, { label: 'Stand', value: 'Tilt/Height/Pivot/Swivel' }],
   },
   {
@@ -76,7 +76,7 @@ const products = [
     cons: ['1080p only — fine for 21.5" but aging for larger displays', 'No height adjustment (tilt only)', 'No DisplayPort — HDMI and VGA only', '60Hz — no gaming or high refresh use case', 'Weak built-in speakers'],
     verdict: 'The best monitor under $100 for basic home office use, students, or anyone adding a second screen. Not for gaming or creative work — but for email, docs, and web browsing it\'s perfectly sharp at 21.5".',
     amazonUrl: 'https://www.amazon.com/s?k=Acer+SB220Q+bi&tag=althcu-20',
-    bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Acer+SB220Q',
+    ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=Acer+SB220Q+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
     specs: [{ label: 'Resolution', value: '1920×1080 (1080p)' }, { label: 'Panel', value: 'IPS' }, { label: 'Refresh Rate', value: '60Hz' }, { label: 'Response Time', value: '1ms VRB' }, { label: 'Ports', value: 'HDMI, VGA' }, { label: 'Stand', value: 'Tilt only' }],
   },
 ]
@@ -102,7 +102,7 @@ export default function BestBudgetMonitorsPage() {
       </nav>
 
       <div className="text-xs text-gray-400 mb-6 flex items-center gap-2 flex-wrap">
-        <span>Last updated: March 2026</span>
+        <span>Last updated: July 2026</span>
         <span>·</span>
         <span>Affiliate disclosure: We earn a commission on purchases made through our links at no extra cost to you.</span>
       </div>
@@ -182,7 +182,7 @@ export default function BestBudgetMonitorsPage() {
                 </div>
                 <div className="flex flex-wrap gap-3">
                   <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="flex-1 min-w-[140px] bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-4 rounded-lg text-center text-sm transition-colors duration-150">View on Amazon</a>
-                  <a href={product.bestBuyUrl} target="_blank" rel="noopener noreferrer sponsored" className="flex-1 min-w-[140px] bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg text-center text-sm transition-colors duration-150">View on Best Buy</a>
+                  <a href={product.ebayUrl} target="_blank" rel="noopener noreferrer sponsored" className="flex-1 min-w-[140px] bg-slate-800 hover:bg-slate-900 text-white font-bold py-3 px-4 rounded-lg text-center text-sm transition-colors duration-150">View on eBay</a>
                 </div>
               </div>
             </article>
@@ -220,6 +220,21 @@ export default function BestBudgetMonitorsPage() {
           <p><strong>Best home office curved:</strong> Dell S2722DGM — 1440p VA curved with adjustable stand at $229.</p>
           <p><strong>Best gaming under $200:</strong> ASUS TUF VG249Q3A — 180Hz IPS with 0.5ms MPRT at $159.</p>
           <p><strong>Best under $100:</strong> Acer SB220Q bi — clean IPS display for basic home office use at $89.</p>
+        </div>
+      </section>
+
+      <section className="mb-10 rounded-xl border border-amber-200 bg-amber-50 p-6">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Where to buy: eBay for refurbished, Amazon for new</h2>
+        <div className="space-y-3 text-sm leading-relaxed text-gray-700">
+          <p>
+            If you are shopping for a <strong>refurbished</strong> budget monitor, eBay is usually the better place to look first. It often has stronger deals on open-box, seller-refurbished, and manufacturer-refurbished displays, especially if you are trying to stretch into a better 1440p panel for the same money.
+          </p>
+          <p>
+            If you are buying <strong>new</strong>, Amazon is usually the easier path. The checkout is simpler, return handling is more familiar for most buyers, and shipping is often faster, which matters when you just want the monitor on your desk without much friction.
+          </p>
+          <p>
+            The short version: <strong>eBay tends to have better refurbished deals</strong>, while <strong>Amazon is easier to buy from and usually ships faster for new units</strong>. That is why this page now points you to both paths depending on how aggressively you want to shop value.
+          </p>
         </div>
       </section>
 
