@@ -25,6 +25,24 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'best-products-for-your-backyard',
+    title: 'Best Products for Your Backyard (2026)',
+    description:
+      'A 15-product outdoor guide focused on comfort, lighting, storage, bug control, and backyard entertaining gear that actually gets used.',
+    badge: 'Outdoor Living',
+    badgeColor: 'bg-emerald-100 text-emerald-700',
+    comingSoon: false,
+  },
+  {
+    slug: 'best-products-for-your-dorm-room',
+    title: 'Best Products for Your Dorm Room (2026)',
+    description:
+      'A 15-product Amazon-focused dorm guide built around what students actually keep using: better sleep, smarter charging, calmer studying, and less clutter.',
+    badge: 'College Series',
+    badgeColor: 'bg-amber-100 text-amber-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-dorm-room-essentials',
     title: 'Best Dorm Room Essentials for College (2026)',
     description:
@@ -189,26 +207,33 @@ export default function HomeKitchenPage() {
       <div className="mb-6 rounded-2xl border border-indigo-200 bg-indigo-50 px-5 py-4 text-sm text-indigo-900">
         <strong>College Student Series:</strong> Setting up for the semester? Start with{' '}
         <Link
+          href="/home-kitchen/best-products-for-your-dorm-room"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Products for Your Dorm Room
+        </Link>
+        ,{' '}
+        <Link
           href="/home-kitchen/best-dorm-room-essentials"
           className="font-semibold underline underline-offset-2"
         >
           Best Dorm Room Essentials
-        </Link>{' '}
-        and{' '}
+        </Link>
+        ,{' '}
         <Link
           href="/home-kitchen/best-study-desk-essentials"
           className="font-semibold underline underline-offset-2"
         >
           Best Study Desk Essentials
         </Link>
-        , and{' '}
+        ,{' '}
         <Link
           href="/home-kitchen/best-productivity-products-for-students"
           className="font-semibold underline underline-offset-2"
         >
           Best Productivity Products for Students
         </Link>
-        , and{' '}
+        ,{' '}
         <Link
           href="/home-kitchen/best-tech-for-college-students"
           className="font-semibold underline underline-offset-2"
@@ -230,6 +255,17 @@ export default function HomeKitchenPage() {
           Best Dorm Organization Products
         </Link>
         .
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-emerald-200 bg-emerald-50 px-5 py-4 text-sm text-emerald-900">
+        <strong>Outdoor Living:</strong> Refreshing the yard? Start with{' '}
+        <Link
+          href="/home-kitchen/best-products-for-your-backyard"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Products for Your Backyard
+        </Link>
+        {' '}for a practical setup built around lighting, shade, seating, storage, and the smaller outdoor upgrades that make the space easier to use all season.
       </div>
 
       <div className="mb-8 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">
