@@ -25,6 +25,33 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'best-pet-travel-products',
+    title: 'Best Pet Travel Products (2026)',
+    description:
+      'A 15-product guide to safer, cleaner, calmer travel with dogs or cats, focused on car rides, stops, feeding, and practical organization.',
+    badge: 'Pet Travel',
+    badgeColor: 'bg-cyan-100 text-cyan-700',
+    comingSoon: false,
+  },
+  {
+    slug: 'best-air-fryer-accessories',
+    title: 'Best Air Fryer Accessories (2026)',
+    description:
+      'A 15-product guide to the air fryer accessories actually worth owning, focused on cleanup, better cooking results, and avoiding clutter.',
+    badge: 'Air Fryer Series',
+    badgeColor: 'bg-orange-100 text-orange-700',
+    comingSoon: false,
+  },
+  {
+    slug: 'best-picnic-essentials',
+    title: 'Best Picnic Essentials (2026)',
+    description:
+      'A 15-product picnic guide built around cold food, comfortable seating, simple cleanup, and the small upgrades that make outdoor meals easier.',
+    badge: 'Outdoor Dining',
+    badgeColor: 'bg-rose-100 text-rose-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-products-for-your-backyard',
     title: 'Best Products for Your Backyard (2026)',
     description:
@@ -266,6 +293,39 @@ export default function HomeKitchenPage() {
           Best Products for Your Backyard
         </Link>
         {' '}for a practical setup built around lighting, shade, seating, storage, and the smaller outdoor upgrades that make the space easier to use all season.
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">
+        <strong>Outdoor Dining:</strong> Packing for the park? Start with{' '}
+        <Link
+          href="/home-kitchen/best-picnic-essentials"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Picnic Essentials
+        </Link>
+        {' '}for a smarter picnic setup built around comfort, cold drinks, easy carry, and less cleanup friction.
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-orange-200 bg-orange-50 px-5 py-4 text-sm text-orange-900">
+        <strong>Air Fryer Series:</strong> Want better results without buying a giant gimmick bundle? Start with{' '}
+        <Link
+          href="/home-kitchen/best-air-fryer-accessories"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Air Fryer Accessories
+        </Link>
+        {' '}for the cleanup tools, liners, racks, and small upgrades that actually earn their drawer space.
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-cyan-200 bg-cyan-50 px-5 py-4 text-sm text-cyan-900">
+        <strong>Pet Travel:</strong> Hitting the road with a dog or cat? Start with{' '}
+        <Link
+          href="/home-kitchen/best-pet-travel-products"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Pet Travel Products
+        </Link>
+        {' '}for the carriers, seat covers, bowls, and practical road-trip gear that makes pet travel feel much less chaotic.
       </div>
 
       <div className="mb-8 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">

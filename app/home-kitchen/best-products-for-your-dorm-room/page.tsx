@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
+import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -607,11 +608,11 @@ export default function BestProductsForYourDormRoomPage() {
                     rel="noopener nofollow sponsored"
                     className="shrink-0"
                   >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <ExternalProductImage
                       src={product.image}
                       alt={product.ourPickName}
-                      loading="lazy"
+                      title={product.title}
+                      fallbackAccentClassName="from-amber-100 via-white to-sky-100"
                       className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
                     />
                   </a>
