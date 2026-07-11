@@ -37,6 +37,7 @@ const groups = [
     items: [
       { slug: 'complete-small-kitchen-home-coffee-bar-setup', title: 'Complete Small-Kitchen Home Coffee Bar Setup', spec: 'A full compact station built around under-24-inch counter logic and cart-stack accessories' },
       { slug: 'what-to-buy-with-your-breville-bambino-plus', title: 'What to Buy With Your Breville Bambino Plus', spec: 'Seven upgrades ranked by ROI for the 54mm Bambino workflow' },
+      { slug: 'best-gaggia-classic-pro-upgrades', title: 'Best Gaggia Classic Pro Upgrades', spec: 'The 58mm tools, grinder prerequisite, and machine mods that actually matter in 2026' },
       { slug: 'breville-bambino-plus-vs-gaggia-classic-pro', title: 'Breville Bambino Plus vs Gaggia Classic Pro', spec: 'ThermoJet speed vs 58mm brass-boiler workflow' },
       { slug: 'breville-barista-express-vs-delonghi-la-specialista', title: "Breville Barista Express vs De'Longhi La Specialista", spec: 'Built-in grinder workflow vs assisted tamping' },
     ],
