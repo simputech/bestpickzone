@@ -227,7 +227,7 @@ export default function TJRBooksInOrderPage() {
           </strong>{' '}
           and{' '}
           <strong>
-            <a href="/books/genre-fiction/best-beach-reads">best beach reads</a>
+            <a href="/books/best-beach-reads">best beach reads</a>
           </strong>
           . For direct author background, her{' '}
           <a href="https://taylorjenkinsreid.com/" target="_blank" rel="noopener nofollow">

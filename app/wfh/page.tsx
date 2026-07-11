@@ -109,6 +109,15 @@ const sections = [
       'A good WFH setup is not just about one expensive chair. These pages cover desk stability, monitor positioning, typing comfort, switching between devices, and the small workflow upgrades that make a home office feel calmer and less cramped.',
     items: [
       {
+        title: 'Standing Desk Setup for a Dual-Monitor Ultrawide Workflow',
+        label: 'Workflow-Specific Desk Guide',
+        summary:
+          'A standing-desk build guide focused on frame stability, monitor-arm load, desk depth, and the accessories heavy-screen setups actually need.',
+        detail:
+          'Read this if your desk has to support an ultrawide plus another display and you want guidance more specific than generic standing-desk roundups.',
+        href: '/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow',
+      },
+      {
         title: 'The Best Products for Your Home Office',
         label: 'WFH Product Roundup',
         summary:

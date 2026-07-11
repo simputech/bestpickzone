@@ -25,6 +25,15 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'ooni-vs-gozney-best-outdoor-pizza-oven',
+    title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup (2026)',
+    description:
+      'A fuel-type-first outdoor pizza oven guide that helps buyers choose between Ooni and Gozney by space, cooking style, and accessory stack.',
+    badge: 'Outdoor Cooking',
+    badgeColor: 'bg-orange-100 text-orange-700',
+    comingSoon: false,
+  },
+  {
     slug: 'is-ge-opal-2-0-nugget-ice-maker-worth-it',
     title: 'Is the GE Opal 2.0 Nugget Ice Maker Worth It? (2026)',
     description:
@@ -311,6 +320,17 @@ export default function HomeKitchenPage() {
           Best Products for Your Backyard
         </Link>
         {' '}for a practical setup built around lighting, shade, seating, storage, and the smaller outdoor upgrades that make the space easier to use all season.
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-orange-200 bg-orange-50 px-5 py-4 text-sm text-orange-900">
+        <strong>Outdoor Cooking:</strong> Debating a pizza oven? Start with{' '}
+        <Link
+          href="/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven"
+          className="font-semibold underline underline-offset-2"
+        >
+          Ooni vs Gozney
+        </Link>
+        {' '}for the fuel-type, backyard, balcony, and accessory-stack tradeoffs that actually decide this category.
       </div>
 
       <div className="mb-6 rounded-2xl border border-emerald-200 bg-emerald-50 px-5 py-4 text-sm text-emerald-900">

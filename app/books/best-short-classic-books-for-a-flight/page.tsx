@@ -209,7 +209,7 @@ export default function ShortClassicsFlightPage() {
         <p className="leading-relaxed text-gray-700">
           If this is really a travel-mood question rather than a classics question, pair it with{' '}
           <strong>
-            <a href="/books/genre-fiction/best-beach-reads">best beach reads</a>
+            <a href="/books/best-beach-reads">best beach reads</a>
           </strong>{' '}
           and{' '}
           <strong>

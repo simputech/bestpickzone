@@ -31,9 +31,9 @@ const concernRows = [
 ]
 
 const deviceRows = [
-  ['Hair styling', 'Dyson Airwrap vs Shark FlexStyle', 'Attachments, airflow logic, and cost-to-results', '/beauty/dyson-airwrap-vs-shark-flexstyle'],
+  ['Hair styling', 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair', 'Attachments, airflow logic, and whether the Dyson is worth double', '/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair'],
   ['LED masks', 'Dr. Dennis Gross vs Omnilux Contour', 'Coverage area, treatment cadence, and diode positioning', '/beauty/dr-dennis-gross-vs-omnilux-contour'],
-  ['Microcurrent', 'NuFACE Trinity vs Solawave Wand', 'Treatment speed vs portability', '/beauty/nuface-trinity-vs-solawave-wand'],
+  ['Microcurrent', 'NuFACE Trinity+ vs Foreo Bear 2 vs MyoLift QT', 'Treatment style, gel cost, and beginner-vs-pro fit', '/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt'],
   ['Straightening tools', 'Dyson Airstrait vs ghd Duet Style', 'Wet-to-dry workflow vs finish quality', '/beauty/dyson-airstrait-vs-ghd-duet-style'],
 ]
 
@@ -172,6 +172,47 @@ export default function BeautyHubPage() {
               <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-rose-700">Live Comparison</p>
               <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
               <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10 rounded-3xl border border-fuchsia-200 bg-fuchsia-50 p-6 shadow-sm">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">New live beauty tech guides</h2>
+        <p className="mb-5 text-gray-700">
+          The newest beauty pages push further into bottom-funnel device intent: microcurrent, pigment-focused LED masks, and the premium-hair-tool question people actually ask before checkout.
+        </p>
+        <div className="grid gap-4 md:grid-cols-2">
+          {[
+            {
+              href: '/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt',
+              title: 'NuFACE Trinity+ vs Foreo Bear 2 vs MyoLift QT',
+              note: 'A 3-way microcurrent showdown built around gel cost, treatment friction, and who each device really fits.',
+            },
+            {
+              href: '/beauty/best-led-mask-for-melasma-and-hyperpigmentation',
+              title: 'Best LED Mask for Melasma & Hyperpigmentation',
+              note: 'A careful, non-overpromising pigment-focused LED guide with serum and SPF layering built in.',
+            },
+            {
+              href: '/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair',
+              title: 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair',
+              note: 'A more specific head-to-head that answers whether the Dyson is worth paying double for this hair type.',
+            },
+            {
+              href: '/beauty/is-omnilux-contour-worth-it',
+              title: 'Is the Omnilux Contour Worth It?',
+              note: 'A bottom-funnel LED-mask verdict page with a cleaner yes-or-no recommendation path.',
+            },
+          ].map((page) => (
+            <Link
+              key={page.href}
+              href={page.href}
+              className="rounded-2xl border border-fuchsia-200 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-fuchsia-700">New Live Guide</p>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">{page.title}</h3>
+              <p className="text-sm leading-relaxed text-gray-700">{page.note}</p>
             </Link>
           ))}
         </div>
