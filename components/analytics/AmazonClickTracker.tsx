@@ -9,11 +9,14 @@ import {
 
 declare global {
   interface Window {
+    dataLayer?: unknown[]
     gtag?: (...args: unknown[]) => void
   }
 }
 
 type AffiliatePlatform = 'amazon' | 'ebay' | null
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID
+const GOOGLE_ADS_AMAZON_CLICK_LABEL = process.env.NEXT_PUBLIC_GOOGLE_ADS_AMAZON_CLICK_LABEL
 
 function getAffiliatePlatform(href: string): AffiliatePlatform {
   if (href.includes('amazon.com') && href.includes('tag=althcu-20')) {
@@ -42,6 +45,16 @@ function getCookie(name: string) {
   return match ? match.slice(name.length + 1) : undefined
 }
 
+function queueAnalyticsEvent(eventName: string, payload: Record<string, unknown>) {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', eventName, payload)
+    return
+  }
+
+  window.dataLayer = window.dataLayer || []
+  window.dataLayer.push(['event', eventName, payload])
+}
+
 export default function AmazonClickTracker() {
   useEffect(() => {
     const handleClick = (event: MouseEvent) => {
@@ -62,7 +75,7 @@ export default function AmazonClickTracker() {
       const attribution = parseStoredAttribution(getCookie(ATTRIBUTION_COOKIE_NAME))
       const googleAdsVisitor = isGoogleAdsAttribution(attribution)
 
-      if (!affiliatePlatform || typeof window.gtag !== 'function') {
+      if (!affiliatePlatform) {
         return
       }
 
@@ -87,14 +100,21 @@ export default function AmazonClickTracker() {
         transport_type: 'beacon',
       }
 
-      window.gtag('event', 'affiliate_click', payload)
-      window.gtag('event', `${affiliatePlatform}_click`, payload)
+      queueAnalyticsEvent('affiliate_click', payload)
+      queueAnalyticsEvent(`${affiliatePlatform}_click`, payload)
 
       if (googleAdsVisitor) {
-        window.gtag('event', 'affiliate_click_from_google_ads', payload)
+        queueAnalyticsEvent('affiliate_click_from_google_ads', payload)
 
         if (affiliatePlatform === 'amazon') {
-          window.gtag('event', 'amazon_click_from_google_ads', payload)
+          queueAnalyticsEvent('amazon_click_from_google_ads', payload)
+
+          if (GOOGLE_ADS_ID && GOOGLE_ADS_AMAZON_CLICK_LABEL) {
+            queueAnalyticsEvent('conversion', {
+              ...payload,
+              send_to: `${GOOGLE_ADS_ID}/${GOOGLE_ADS_AMAZON_CLICK_LABEL}`,
+            })
+          }
         }
       }
     }

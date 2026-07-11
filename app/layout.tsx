@@ -6,6 +6,9 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import CategorySiblingLinks from '@/components/seo/CategorySiblingLinks'
 
+const GA_MEASUREMENT_ID = 'G-ZQZWSDYK8H'
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID
+
 export const metadata: Metadata = {
   title: {
     default: 'BestPickZone — Buyer Guides, Product Comparisons & Book Recommendations',
@@ -97,15 +100,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AmazonClickTracker />
       
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-ZQZWSDYK8H"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
+          window.gtag = function gtag(){window.dataLayer.push(arguments);}
+          const gtag = window.gtag;
           gtag('js', new Date());
-          gtag('config', 'G-ZQZWSDYK8H');
+          gtag('config', '${GA_MEASUREMENT_ID}', {
+            send_page_view: true
+          });
+          ${
+            GOOGLE_ADS_ID
+              ? `
+          gtag('config', '${GOOGLE_ADS_ID}');
+          `
+              : ''
+          }
         `}
       </Script>
     </body>
