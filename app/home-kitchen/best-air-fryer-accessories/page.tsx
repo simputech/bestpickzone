@@ -597,8 +597,12 @@ export default function BestAirFryerAccessoriesPage() {
                 <p>{product.summary}</p>
                 <p>{product.whatItIs}</p>
                 <p>{product.whyItMadeTheList}</p>
-                <p>{product.review}</p>
-                <p className="font-semibold text-slate-900">{product.skipIf}</p>
+                <p>
+                  <strong className="text-slate-900">Review summary:</strong> {product.review}
+                </p>
+                <p className="font-semibold text-slate-900">
+                  <strong>Skip this if:</strong> {product.skipIf}
+                </p>
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
@@ -657,6 +661,22 @@ export default function BestAirFryerAccessoriesPage() {
             It also follows the BestPickZone structure: SEO metadata, FAQ and item-list schema, affiliate disclosure, direct Amazon product links, broader comparison links, and internal links to related Home &amp; Kitchen guides.
           </p>
         </div>
+      </section>
+
+      <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">
+        <h2 className="text-2xl font-black text-slate-900">Helpful outside resource</h2>
+        <p className="mt-3 max-w-3xl text-base leading-7 text-slate-700">
+          For actual doneness checks once you start using racks, pans, and liners, the USDA&apos;s{' '}
+          <a
+            href="https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperatures"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-orange-700 underline underline-offset-2"
+          >
+            safe minimum internal temperature chart
+          </a>
+          {' '}is a better companion than guessing from cook time alone.
+        </p>
       </section>
 
       <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">

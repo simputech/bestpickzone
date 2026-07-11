@@ -597,8 +597,12 @@ export default function BestProductsForYourDormRoomPage() {
                 <p>{product.summary}</p>
                 <p>{product.whatItIs}</p>
                 <p>{product.whyItMadeTheList}</p>
-                <p>{product.review}</p>
-                <p className="font-semibold text-slate-900">{product.skipIf}</p>
+                <p>
+                  <strong className="text-slate-900">Review summary:</strong> {product.review}
+                </p>
+                <p className="font-semibold text-slate-900">
+                  <strong>Skip this if:</strong> {product.skipIf}
+                </p>
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
@@ -657,6 +661,22 @@ export default function BestProductsForYourDormRoomPage() {
             We also kept the page aligned with BestPickZone standards: Amazon affiliate disclosure, specific Amazon product links plus broader search links, internal linking to related guides, and metadata/schema that matches the page intent.
           </p>
         </div>
+      </section>
+
+      <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">
+        <h2 className="text-2xl font-black text-slate-900">Helpful outside resource</h2>
+        <p className="mt-3 max-w-3xl text-base leading-7 text-slate-700">
+          For a non-shopping dorm reality check, the NFPA&apos;s guide to{' '}
+          <a
+            href="https://www.nfpa.org/education-and-research/home-fire-safety/tips-and-statistics/fire-safety-in-dormitories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-amber-700 underline underline-offset-2"
+          >
+            fire safety in dormitories
+          </a>
+          {' '}is worth reading before you lock in extension cords, lighting, and small-appliance choices.
+        </p>
       </section>
 
       <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">

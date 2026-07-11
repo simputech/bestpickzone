@@ -25,6 +25,24 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'is-ge-opal-2-0-nugget-ice-maker-worth-it',
+    title: 'Is the GE Opal 2.0 Nugget Ice Maker Worth It? (2026)',
+    description:
+      'An honest breakdown of who should buy the Opal 2.0, who should skip it, and how it compares with pricier or cheaper nugget-ice alternatives.',
+    badge: 'Ice Maker Guide',
+    badgeColor: 'bg-emerald-100 text-emerald-700',
+    comingSoon: false,
+  },
+  {
+    slug: 'best-car-cleaning-products',
+    title: 'Best Car Cleaning Products (2026)',
+    description:
+      'A 15-product guide to keeping interiors, glass, seats, carpets, and wheels cleaner with practical tools that work for everyday drivers.',
+    badge: 'Car Care',
+    badgeColor: 'bg-sky-100 text-sky-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-pet-travel-products',
     title: 'Best Pet Travel Products (2026)',
     description:
@@ -293,6 +311,28 @@ export default function HomeKitchenPage() {
           Best Products for Your Backyard
         </Link>
         {' '}for a practical setup built around lighting, shade, seating, storage, and the smaller outdoor upgrades that make the space easier to use all season.
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-emerald-200 bg-emerald-50 px-5 py-4 text-sm text-emerald-900">
+        <strong>Countertop Ice:</strong> If you keep wondering whether nugget ice is really worth the price and cleanup, start with{' '}
+        <Link
+          href="/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it"
+          className="font-semibold underline underline-offset-2"
+        >
+          Is the GE Opal 2.0 Nugget Ice Maker Worth It?
+        </Link>
+        {' '}for an honest look at the chewable-ice appeal, the maintenance tradeoff, and who should skip the category entirely.
+      </div>
+
+      <div className="mb-6 rounded-2xl border border-sky-200 bg-sky-50 px-5 py-4 text-sm text-sky-900">
+        <strong>Car Care:</strong> Want a cleaner daily driver without turning every wash into a huge project? Start with{' '}
+        <Link
+          href="/home-kitchen/best-car-cleaning-products"
+          className="font-semibold underline underline-offset-2"
+        >
+          Best Car Cleaning Products
+        </Link>
+        {' '}for the interior sprays, glass cleaners, wheel tools, and fast-maintenance picks that actually make a car easier to keep clean.
       </div>
 
       <div className="mb-6 rounded-2xl border border-rose-200 bg-rose-50 px-5 py-4 text-sm text-rose-900">

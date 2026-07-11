@@ -48,6 +48,15 @@ const sections = [
       'If you work from home every day, your chair decides more of the experience than almost any other product. These comparisons focus on lumbar design, seat feel, recline behavior, arm adjustability, and how each option fits long desk sessions.',
     items: [
       {
+        title: 'Best Ergonomic Chairs for Sciatica & Lower Back Pain',
+        label: 'Condition-Specific Chair Guide',
+        summary:
+          'Five ergonomic chairs ranked by lumbar behavior, seat support, adjustability, and buyer fit for people shopping with lower-back pain in mind.',
+        detail:
+          'Start here if you want chair criteria that focus on support, posture change, and realistic pain-sensitive tradeoffs rather than generic office-chair hype.',
+        href: '/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain',
+      },
+      {
         title: 'Herman Miller Aeron vs Steelcase Gesture',
         label: 'Premium Office Chair Comparison',
         summary:

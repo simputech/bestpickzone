@@ -597,8 +597,12 @@ export default function BestPetTravelProductsPage() {
                 <p>{product.summary}</p>
                 <p>{product.whatItIs}</p>
                 <p>{product.whyItMadeTheList}</p>
-                <p>{product.review}</p>
-                <p className="font-semibold text-slate-900">{product.skipIf}</p>
+                <p>
+                  <strong className="text-slate-900">Review summary:</strong> {product.review}
+                </p>
+                <p className="font-semibold text-slate-900">
+                  <strong>Skip this if:</strong> {product.skipIf}
+                </p>
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
@@ -657,6 +661,22 @@ export default function BestPetTravelProductsPage() {
             It also follows the BestPickZone structure: SEO metadata, FAQ and item-list schema, affiliate disclosure, direct Amazon product links, broader comparison links, and internal links to related Home &amp; Kitchen content.
           </p>
         </div>
+      </section>
+
+      <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">
+        <h2 className="text-2xl font-black text-slate-900">Helpful outside resource</h2>
+        <p className="mt-3 max-w-3xl text-base leading-7 text-slate-700">
+          For trip prep beyond gear, the AVMA&apos;s{' '}
+          <a
+            href="https://www.avma.org/resources-tools/pet-owners/petcare/traveling-your-pet-faq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-cyan-700 underline underline-offset-2"
+          >
+            traveling with your pet FAQ
+          </a>
+          {' '}is a useful non-shopping reference for carrier prep, travel timing, and arrival planning.
+        </p>
       </section>
 
       <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">
