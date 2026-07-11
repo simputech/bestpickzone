@@ -25,6 +25,15 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'best-kitchenaid-attachments-worth-buying',
+    title: 'Best KitchenAid Attachments Worth Buying (2026)',
+    description:
+      'A post-purchase upgrade guide for KitchenAid owners, ranking the attachments that actually earn counter space and calling out the easy ones to skip.',
+    badge: 'Owner Upgrade Guide',
+    badgeColor: 'bg-amber-100 text-amber-700',
+    comingSoon: false,
+  },
+  {
     slug: 'ooni-vs-gozney-best-outdoor-pizza-oven',
     title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup (2026)',
     description:
