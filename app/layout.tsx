@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import { Suspense } from 'react'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import CategorySiblingLinks from '@/components/seo/CategorySiblingLinks'
+import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
 
 export const metadata: Metadata = {
   title: {
@@ -80,6 +82,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="bg-white text-gray-900 flex flex-col min-h-screen">
+        <Suspense fallback={null}>
+          <GoogleAnalytics />
+        </Suspense>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
