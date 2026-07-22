@@ -2,7 +2,7 @@
 
 import Script from 'next/script'
 import { usePathname, useSearchParams } from 'next/navigation'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
 declare global {
   interface Window {
@@ -18,18 +18,27 @@ function trackPageView(url: string) {
     return
   }
 
-  window.gtag('config', measurementId, {
+  window.gtag('event', 'page_view', {
     page_path: url,
     page_title: document.title,
+    page_location: window.location.href,
   })
 }
 
 export default function GoogleAnalytics() {
   const pathname = usePathname()
   const searchParams = useSearchParams()
+  // gtag's initial config sends the first page_view itself; this effect only
+  // covers client-side route changes, where gtag is guaranteed to be loaded.
+  const isInitialLoad = useRef(true)
 
   useEffect(() => {
     if (!pathname) {
+      return
+    }
+
+    if (isInitialLoad.current) {
+      isInitialLoad.current = false
       return
     }
 
@@ -54,9 +63,7 @@ export default function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           window.gtag = gtag;
           gtag('js', new Date());
-          gtag('config', '${measurementId}', {
-            send_page_view: false
-          });
+          gtag('config', '${measurementId}');
         `}
       </Script>
     </>

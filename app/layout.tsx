@@ -5,6 +5,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import CategorySiblingLinks from '@/components/seo/CategorySiblingLinks'
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
+import AffiliateClickTracker from '@/components/analytics/AffiliateClickTracker'
 
 export const metadata: Metadata = {
   title: {
@@ -85,6 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Suspense fallback={null}>
           <GoogleAnalytics />
         </Suspense>
+        <AffiliateClickTracker />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
