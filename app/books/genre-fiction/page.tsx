@@ -108,6 +108,11 @@ export default function GenreFictionHubPage() {
       title: 'Best Military Fiction Books',
       text: 'A more genre-wide path when intensity and combat storytelling matter more than one specific title.',
     },
+    {
+      href: '/books/genre-fiction/best-legal-thriller-books',
+      title: 'Best Legal Thriller Books',
+      text: 'A courtroom-and-conspiracy guide for readers deciding between Grisham momentum, Turow procedure, and the cleanest legal-thriller starting point.',
+    },
   ]
 
   const schema = {

@@ -70,6 +70,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/genre-fiction/best-military-fiction-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-history-books-for-beginners`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/devils-guard-review`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/genre-fiction/best-legal-thriller-books`, lastModified: '2026-08-01', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/authors-like-colleen-hoover`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/best-alex-michaelides-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/best-lee-child-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
