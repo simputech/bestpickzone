@@ -208,7 +208,7 @@ export default function ArticlePage({ params }: Props) {
     headline: article.title,
     description: article.metaDescription,
     datePublished: article.publishedDate,
-    dateModified: ARTICLE_REFRESH_DATE,
+    dateModified: article.updatedDate ?? ARTICLE_REFRESH_DATE,
     author: { '@type': 'Organization', name: 'BestPickZone' },
     publisher: {
       '@type': 'Organization',
@@ -531,6 +531,30 @@ export default function ArticlePage({ params }: Props) {
             can change — confirm before purchasing.
           </p>
         </section>
+
+        {article.sources && article.sources.length > 0 && (
+          <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
+            <h2 className="mb-3 text-xl font-bold text-gray-900">Sources and editorial scope</h2>
+            <p className="mb-4 text-sm leading-relaxed text-gray-600">
+              We checked the title, series position, and premise against the official sources below on{' '}
+              {verifiedAsOf}. Reader-fit recommendations are editorial judgments, and availability can change.
+            </p>
+            <ul className="space-y-2">
+              {article.sources.map((source) => (
+                <li key={source.url}>
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-medium text-blue-600 hover:underline"
+                  >
+                    {source.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* Verdict */}
         <section className="mb-10">

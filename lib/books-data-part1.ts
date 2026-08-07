@@ -33,6 +33,8 @@ export interface ArticleData {
   metadataKeywords?: string[]
   affiliatePlatform?: 'amazon' | 'ebay'
   affiliateDisclosure?: string
+  updatedDate?: string
+  sources?: { label: string; url: string }[]
 }
 
 export const articlesData: ArticleData[] = [

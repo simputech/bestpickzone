@@ -164,7 +164,7 @@ export const booksPages: SitemapEntry[] = [
   ...standaloneBookPages,
   ...articlesData.map((article) => ({
     url: `${baseUrl}/books/${article.slug}`,
-    lastModified: latestDate(article.publishedDate, contentRefreshDate),
+    lastModified: latestDate(article.updatedDate ?? article.publishedDate, contentRefreshDate),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   })),

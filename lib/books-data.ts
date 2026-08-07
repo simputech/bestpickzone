@@ -4,6 +4,7 @@ import { articlesDataPart2 as part2 } from './books-data-part2';
 import { articlesDataPart3 as part3 } from './books-data-part3';
 import { articlesDataPart4 as part4 } from './books-data-part4';
 import { articlesDataPart5 as part5 } from './books-data-part5';
+import { bookRewriteOverrides } from './book-rewrite-overrides';
 
 export type { ArticleData, BookPick, BookCategory };
 
@@ -13,7 +14,7 @@ export const articlesData: ArticleData[] = [
   ...part3,
   ...part4,
   ...part5,
-];
+].map((article) => ({ ...article, ...bookRewriteOverrides[article.slug] }));
 
 export function getArticleBySlug(slug: string): ArticleData | undefined {
   return articlesData.find((a) => a.slug === slug);
