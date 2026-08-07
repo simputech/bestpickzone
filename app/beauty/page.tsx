@@ -219,9 +219,9 @@ export default function BeautyHubPage() {
       </section>
 
       <section className="mt-10 rounded-3xl border border-amber-200 bg-white p-6 shadow-sm">
-        <h2 className="mb-3 text-2xl font-bold text-gray-900">Queued beauty topics now live</h2>
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">More beauty comparison guides</h2>
         <p className="mb-5 text-gray-700">
-          The ingredient and lip-treatment topics that were previously only listed as beauty queue items now have live comparison pages and real crawl paths from this hub.
+          Compare ingredient-focused and lip-treatment options with practical guidance on routine fit, formulas, and tradeoffs.
         </p>
         <div className="grid gap-4 md:grid-cols-2">
           {ingredientPages.map((page) => (

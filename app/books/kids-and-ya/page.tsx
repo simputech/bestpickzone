@@ -150,7 +150,7 @@ export default function KidsYAHubPage() {
             Summer editorial picks
           </p>
           <h2 className="mb-5 text-2xl font-bold text-gray-900">
-            Three summer-reading guides worth crawling first
+            Summer-reading picks for different ages
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {summerEditorsPicks.map((pick) => (
@@ -231,7 +231,7 @@ export default function KidsYAHubPage() {
             These guides cover picture books, early readers, middle-grade series, YA fantasy,
             coming-of-age novels, STEM picks, reluctant-reader pathways, and age-specific lists
             for boys and girls. The goal is to make this section feel more like a smart
-            children&apos;s books desk than a thin directory of titles.
+            children&apos;s books desk with useful context for choosing a title.
           </p>
         </section>
 

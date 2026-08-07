@@ -160,7 +160,7 @@ export default function SelfHelpHubPage() {
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-700">
             New specialist guides
           </p>
-          <h2 className="mb-5 text-2xl font-bold text-gray-900">Career and process books with clearer search intent</h2>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">Career and process books for practical next steps</h2>
           <div className="grid gap-4 md:grid-cols-3">
             {editorialSpotlights.map((spotlight) => (
               <Link

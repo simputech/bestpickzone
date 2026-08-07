@@ -172,7 +172,7 @@ export default function BooksLikeVerityPage() {
           What are readers usually asking for when they search for books like Verity?
         </h2>
         <p className="mb-4 leading-relaxed text-gray-700">
-          Usually not “romance thrillers” in the abstract. The search intent is narrower than that.
+          Usually not “romance thrillers” in the abstract. The question is narrower than that.
           Most readers want a book with intimate danger, manipulative closeness, and a plot that feels
           a little lurid on purpose. They want tension that comes from sex, marriage, jealousy, private
           writing, or dependency, not just a detective trying to solve a clean external mystery.

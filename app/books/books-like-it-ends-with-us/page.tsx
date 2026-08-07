@@ -401,7 +401,7 @@ export default function BooksLikeItEndsWithUsPage() {
             fiction with cleaner structure and less relational chaos, then the next step is not “more
             viral BookTok romance.” It is a sharper move into books centered on grief, caregiving,
             or impossible love stories that still respect readability. That is where your taste map
-            becomes more useful than the original keyword.
+            becomes more useful than the original label.
           </p>
         </section>
       </main>

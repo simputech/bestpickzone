@@ -224,10 +224,10 @@ export default function HomePage() {
               className="mt-3 text-3xl font-black text-slate-900"
               style={{ fontFamily: 'Poppins, system-ui, sans-serif' }}
             >
-              Every main category hub, linked from the homepage
+              Explore every main category
             </h2>
             <p className="mt-3 text-slate-600">
-              These are the primary crawl paths for the product-comparison sections outside the book directory.
+              Browse product-comparison guides by the part of life, home, or routine you are shopping for.
             </p>
           </div>
           <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4">

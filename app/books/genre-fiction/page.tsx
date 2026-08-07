@@ -182,7 +182,7 @@ export default function GenreFictionHubPage() {
             Genre spotlight
           </p>
           <h2 className="mb-5 text-2xl font-bold text-gray-900">
-            Standalone genre pages worth crawling next
+            Featured genre reading guides
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {editorSpotlights.map((spotlight) => (

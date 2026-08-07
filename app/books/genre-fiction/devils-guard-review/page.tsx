@@ -79,7 +79,7 @@ const reviewSections = [
   },
   {
     title: 'Why readers still search for it',
-    text: "The search intent around Devil's Guard is usually not “best military memoir” in general. It is narrower: readers want a single book that feels like a bridge between World War II fallout and the violence of Indochina, and they want it told from inside the machine rather than from a historian's lectern. That is the gap the book fills. It is fast, nasty, and specific in the way many cleaned-up war histories are not.",
+    text: "Readers looking for Devil's Guard are usually not after a generic military memoir. They want a single book that feels like a bridge between World War II fallout and the violence of Indochina, told from inside the machine rather than from a historian's lectern. That is the gap the book fills. It is fast, nasty, and specific in the way many cleaned-up war histories are not.",
   },
   {
     title: 'The tradeoff you need to accept',

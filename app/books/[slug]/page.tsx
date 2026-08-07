@@ -577,8 +577,8 @@ export default function ArticlePage({ params }: Props) {
           <section className="mb-10 rounded-3xl border border-amber-200 bg-amber-50 p-6">
             <h2 className="mb-3 text-xl font-bold text-gray-900">More author guides</h2>
             <p className="mb-4 text-sm leading-relaxed text-gray-600">
-              If you are comparing major authors rather than choosing a single book, these related author roundups
-              are strong next clicks and important crawl paths inside the BestPickZone author section.
+              If you are comparing major authors rather than choosing a single book, these related guides can
+              help you find a better next read by mood, series style, and starting point.
             </p>
             <ul className="grid gap-2 md:grid-cols-2">
               {moreAuthorGuides.map((guide) => (

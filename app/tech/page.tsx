@@ -123,9 +123,8 @@ export default function TechPage() {
           How We Review Tech &amp; Electronics
         </h2>
         <p className="text-gray-600">
-          Every article on BestPickZone follows a rigorous research process. We start with
-          keyword research to identify what buyers are actually searching for, then gather
-          data from Amazon, Best Buy, manufacturer spec sheets, and published user reviews.
+          Every article on BestPickZone follows a rigorous research process. We compare the questions buyers
+          are weighing, then gather data from Amazon, Best Buy, manufacturer spec sheets, and published user reviews.
           Each product recommendation includes an affiliate disclosure, real pros and cons,
           and a verdict tailored to specific types of buyers — not one-size-fits-all advice.
         </p>

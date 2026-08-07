@@ -301,17 +301,17 @@ const topicClusters = [
           <div className="mb-5 flex items-center justify-between gap-4">
             <div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
-                Priority Crawl Paths
+                Featured author guides
               </p>
-              <h2 className="text-2xl font-bold text-gray-900">Priority author guides to crawl next</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Find the right place to start with a favorite author</h2>
             </div>
             <Link href="/books/authors" className="text-sm font-semibold text-blue-600 hover:underline">
               View all author roundups →
             </Link>
           </div>
           <p className="mb-4 max-w-3xl text-sm leading-relaxed text-gray-600">
-            These author roundups are important crawl targets for the next indexing pass. Each link below points
-            directly to a full author guide on BestPickZone&apos;s bare-domain canonical URL structure.
+            These guides help you choose a first book, a better follow-up, or the right series entry point based
+            on the kind of story and reading commitment you want.
           </p>
           <div className="grid gap-2 md:grid-cols-2">
             {priorityAuthorGuides.map((guide) => (
@@ -348,7 +348,7 @@ const topicClusters = [
             <div className="rounded-3xl bg-gray-50 p-5">
               <h3 className="mb-2 text-lg font-semibold text-gray-900">Answer first, then narrow</h3>
               <p className="text-sm leading-relaxed text-gray-600">
-                Each page is designed to answer the main search intent quickly, name the best overall pick,
+                Each page gives a direct recommendation quickly, names the best overall pick,
                 and then split the rest of the list by reader type, mood, age, or difficulty.
               </p>
             </div>
@@ -363,11 +363,10 @@ const topicClusters = [
         </section>
 
         <section className="mb-14 rounded-[28px] border border-rose-200 bg-gradient-to-br from-rose-50 via-white to-orange-50 p-6 shadow-sm">
-          <h2 className="mb-4 text-2xl font-bold text-gray-900">Browse by real shopping intent</h2>
+          <h2 className="mb-4 text-2xl font-bold text-gray-900">Browse by what you want to read next</h2>
           <p className="mb-5 max-w-3xl text-sm leading-relaxed text-gray-600">
-            Thin directory pages rarely help anyone decide. These clusters are meant to move readers toward
-            the pages that answer a concrete need quickly, while also strengthening internal crawl paths to
-            the pages that deserve a fresh indexing pass.
+            Start with the reading mood, age range, or question that matters to you. These clusters lead to
+            guides with clearer recommendations and the tradeoffs that make a book a better fit.
           </p>
           <div className="grid gap-4 md:grid-cols-3">
             {topicClusters.map((cluster) => (
