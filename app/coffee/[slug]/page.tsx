@@ -39,8 +39,12 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
       description: article.twitterDescription,
     },
   }, {
-  publishedTime: '2026-01-01T00:00:00Z',
-  url: pageUrl, category: 'coffee', section: 'Coffee' })
+    publishedTime: article.publishedDate ?? '2026-01-01T00:00:00Z',
+    modifiedTime: article.updatedDate,
+    url: pageUrl,
+    category: 'coffee',
+    section: 'Coffee',
+  })
 }
 
 export default function CoffeeComparisonArticlePage({ params }: { params: Params }) {

@@ -136,7 +136,7 @@ export const coffeePages: SitemapEntry[] = [
   { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   ...coffeeComparisonArticles.map((article) => ({
     url: `${baseUrl}/coffee/${article.slug}`,
-    lastModified: contentRefreshDate,
+    lastModified: article.updatedDate ?? contentRefreshDate,
     changeFrequency: 'monthly' as const,
     priority: 0.88,
   })),

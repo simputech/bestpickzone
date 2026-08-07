@@ -64,6 +64,7 @@ const groups = [
     note: 'Quick-read timing, workflow speed, and dial range matter more than generic review scores.',
     items: [
       { slug: 'baratza-virtuoso-plus-vs-fellow-ode-gen-2', title: 'Baratza Virtuoso+ vs Fellow Ode Gen 2', spec: 'All-purpose burr range vs filter-first design' },
+      { slug: 'fellow-opus-2-vs-baratza-encore-esp-pro', title: 'Fellow Opus 2 vs Baratza Encore ESP Pro', spec: '48mm single-dose workflow vs 40mm timer-and-hopper flexibility' },
       { slug: 'acaia-lunar-vs-timemore-black-mirror-nano', title: 'Acaia Lunar vs Timemore Black Mirror Nano', spec: 'Speed, app polish, and espresso footprint' },
     ],
   },

@@ -18,6 +18,8 @@ export type HtmlComparisonArticle = {
     height: number
   }
   bodyHtml: string
+  publishedDate?: string
+  updatedDate?: string
 }
 
 const siloLabels: Record<HtmlComparisonArticle['silo'], string> = {
@@ -27,8 +29,29 @@ const siloLabels: Record<HtmlComparisonArticle['silo'], string> = {
 }
 
 export default function HtmlComparisonArticlePage({ article }: { article: HtmlComparisonArticle }) {
+  const pageUrl = `https://bestpickzone.com/${article.silo}/${article.slug}`
+  const articleSchema = article.publishedDate && article.updatedDate
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: article.title,
+        description: article.description,
+        author: { '@type': 'Organization', name: 'BestPickZone Editorial Team' },
+        publisher: { '@type': 'Organization', name: 'BestPickZone' },
+        datePublished: article.publishedDate,
+        dateModified: article.updatedDate,
+        mainEntityOfPage: pageUrl,
+      }
+    : null
+
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      {articleSchema ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
+      ) : null}
       <BreadcrumbJsonLd
         trail={[
           { name: 'Home', path: '/' },
