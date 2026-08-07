@@ -50,7 +50,7 @@ export default function AffiliateClickTracker() {
       const payload = {
         event_category: 'affiliate',
         affiliate_platform: affiliatePlatform,
-        affiliate_tracking_id: getAffiliateTrackingId(link.href),
+        affiliate_tracking_id: link.dataset.affiliatePlacement || getAffiliateTrackingId(link.href),
         event_label: link.href,
         link_url: link.href,
         link_text: link.textContent?.trim() || `${affiliatePlatform} link`,

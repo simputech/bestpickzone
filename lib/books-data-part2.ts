@@ -22,14 +22,14 @@ export const articlesDataPart2: ArticleData[] = [
     ],
     buyingGuide: [
       { title: "Fiction vs. non-fiction", text: "All the Light We Cannot See and The Nightingale are fiction; Unbroken and With the Old Breed are non-fiction. Both modes illuminate different aspects of the war." },
-      { title: "European vs. Pacific theater", text: "Most popular WW2 fiction is set in Europe. Unbroken, With the Old Breed, and Matterhorn focus on the Pacific theater, which is equally important and less frequently covered in popular fiction." },
+      { title: "European vs. Pacific theater", text: "Most popular WW2 fiction is set in Europe. Unbroken and With the Old Breed focus on the Pacific theater, which is equally important and less frequently covered in popular fiction." },
     ],
     faqs: [
       { question: "What is the best WW2 novel?", answer: "All the Light We Cannot See for literary readers. The Nightingale for maximum emotional impact. Catch-22 for satirical darkness." },
       { question: "What is the best WW2 non-fiction book?", answer: "Unbroken is the most accessible. With the Old Breed is the most authentic frontline account. Band of Brothers is the most famous." },
     ],
     verdict: "All the Light We Cannot See for literary readers. The Nightingale for readers who want the most direct emotional experience. Unbroken for readers who prefer the truth of non-fiction.",
-    relatedSlugs: ["best-historical-fiction", "best-ww2-books-for-beginners"],
+    relatedSlugs: ["best-ww2-books-for-beginners", "best-historical-fiction-books-2026", "best-historical-fiction", "best-history-books"],
   },
   {
     slug: "best-beach-reads",
@@ -409,12 +409,12 @@ export const articlesDataPart2: ArticleData[] = [
     books: [
       { title: "Still Life", author: "Louise Penny", bestFor: "Best Overall Cozy Series", skipIf: "Skip this if you want fast-paced thriller energy \u2014 Penny prioritizes atmosphere and character.", description: "Inspector Gamache investigates the death of a beloved village elder in the Quebec countryside. Penny builds Three Pines as a community readers return to for the recurring characters as much as the mysteries. Gamache is the most humane detective in contemporary crime fiction. The best long-running cozy series being written.", amazonSearchQuery: "Still Life Louise Penny" },
       { title: "The Thursday Murder Club", author: "Richard Osman", bestFor: "Funniest / Most Charming", skipIf: "Skip this if you want any grittiness \u2014 this is entirely warm and deliberately light.", description: "Four residents of a posh retirement village investigate cold cases and find themselves drawn into a real murder. Osman's wit keeps the novel from becoming saccharine and his senior sleuths have genuine chemistry. The jokes land consistently. The most enjoyable cozy novel of the past decade.", amazonSearchQuery: "The Thursday Murder Club Richard Osman" },
-      { title: "A Great Deliverance", author: "Elizabeth George", bestFor: "Darkest Cozy / Best for Transition to Harder Crime", skipIf: "Skip this if you want the coziest end of the genre \u2014 George's Inspector Lynley series handles more serious trauma than typical cozy mystery.", description: "A woman is found covered in blood beside her father's decapitated body with an axe in her hand. George writes psychological depth into the cozy format in ways that stretch the genre's limits. The Lynley-Havers partnership is the best detective duo in British crime fiction.", amazonSearchQuery: "A Great Deliverance Elizabeth George" },
+      { title: "Murder at the Vicarage", author: "Agatha Christie", bestFor: "Best Classic Village Mystery", skipIf: "Skip this if you prefer modern humor or a faster pace \u2014 this is a classic village puzzle with an older style.", description: "The vicar of St Mary Mead finds a colonel shot dead in his study, and Miss Marple quietly sees what the official investigation misses. It is a compact village mystery with a lightly comic social world and a clear puzzle at its center.", amazonSearchQuery: "Murder at the Vicarage Agatha Christie" },
       { title: "Death at La Fenice", author: "Donna Leon", bestFor: "Best European Cozy / Best Setting", skipIf: "Skip this if you want American or British settings \u2014 Commissario Brunetti operates entirely within Venice's specific culture.", description: "A famous conductor is found poisoned during the intermission of an opera at Venice's La Fenice theater. Leon's Brunetti series is sustained by the Venice setting \u2014 the city is rendered with the specificity of a resident, not a tourist. The mysteries are secondary pleasures; Venice is the point.", amazonSearchQuery: "Death at La Fenice Donna Leon" },
-      { title: "Fluke", author: "Christopher Moore", bestFor: "Most Unusual / Best for Humor Readers", skipIf: "Skip this if you want straightforward mysteries \u2014 Moore writes absurdist comedy set around whale researchers.", description: "A marine biologist studying humpback whale song discovers something that shouldn't exist in their markings. Moore's cozy-adjacent comedy is too strange to be a conventional mystery but has the warmth and light stakes that cozy fans love. Best for readers who want comedy over puzzle.", amazonSearchQuery: "Fluke Christopher Moore" },
+      { title: "Arsenic and Adobo", author: "Mia P. Manansala", bestFor: "Best Contemporary Foodie Cozy", skipIf: "Skip this if food-centered humor and a close-knit community setting do not appeal to you.", description: "A café owner becomes the prime suspect when a notoriously difficult food critic dies after eating her dessert. The first Tita Rosie's Kitchen mystery combines a grounded amateur sleuth, family dynamics, and a lively food setting without abandoning the puzzle.", amazonSearchQuery: "Arsenic and Adobo Mia P. Manansala" },
     ],
     buyingGuide: [
-      { title: "Choose your version of cozy", text: "Pick Penny if you want warmth with depth. Pick Osman if you want wit and accessibility. Pick Donna Leon if place matters as much as plot. Pick Elizabeth George only if you want to drift darker than the typical cozy lane." },
+      { title: "Choose your version of cozy", text: "Pick Penny if you want warmth with depth. Pick Osman if you want wit and accessibility. Pick Donna Leon if place matters as much as plot. Pick Agatha Christie for a classic village puzzle, or Mia P. Manansala for a contemporary food-centered cozy." },
       { title: "Series chemistry matters", text: "The best cozy mysteries become more rewarding once you know the community. If book one works for you, staying with the series is usually the right move." },
     ],
     faqs: [
@@ -512,7 +512,7 @@ export const articlesDataPart2: ArticleData[] = [
     slug: "best-gothic-novels",
     title: "Best Gothic Novels",
     metaTitle: "Best Gothic Novels (2026 Guide)",
-    metaDescription: "Best gothic novels ranked \u2014 Jane Eyre, Wuthering Heights, Rebecca, Dracula, Mexican Gothic, House of Leaves, and more for 2026.",
+    metaDescription: "Best gothic novels ranked \u2014 Jane Eyre, Wuthering Heights, Rebecca, Dracula, Mexican Gothic, and more for 2026.",
     category: "genre",
     categoryLabel: "Genre Fiction",
     categoryHref: "/books/genre-fiction",

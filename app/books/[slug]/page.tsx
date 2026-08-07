@@ -8,13 +8,9 @@ import {
   getArticlesBySlugs,
 } from '@/lib/books-data';
 import {
-  buildBookFitParagraph,
-  buildBookTradeoffParagraph,
   buildCategoryContext,
   buildDirectAnswerDetail,
-  buildReaderSignals,
   buildVerdictBridge,
-  verificationLabel,
 } from '@/lib/book-article-enrichment';
 import { ARTICLE_REFRESH_DATE, withArticleMetadataDefaults } from '@/lib/article-metadata';
 import { buildAffiliateTrackingId, getAffiliateUrlWithTracking } from '@/lib/affiliate-links';
@@ -83,6 +79,19 @@ const priorityAuthorGuides = [
   { slug: 'best-toni-morrison-books', label: 'Best Toni Morrison books guide' },
 ] as const;
 
+const readerCareNotes: Record<string, string> = {
+  'best-books-about-anxiety-and-mental-health':
+    'Books can offer perspective and structured reflection, but they are not a replacement for qualified mental-health care. Seek professional or urgent local support when symptoms feel unsafe or unmanageable.',
+  'best-books-for-anxiety':
+    'Books can complement qualified mental-health care but are not a substitute for it. Seek professional or urgent local support when anxiety feels unsafe or unmanageable.',
+  'best-books-for-new-moms':
+    'Pregnancy and parenting books are general reading, not individualized medical advice. For health, feeding, sleep, or safety questions, use a qualified clinician or trusted local service.',
+  'best-books-about-addiction-and-recovery':
+    'Books can offer context and companionship, but addiction and withdrawal can require qualified support. For an urgent safety concern, contact local emergency or crisis services.',
+  'best-books-for-couples':
+    'Books can support conversation, but they are not a substitute for qualified help in unsafe, coercive, or abusive situations. Put immediate safety first.',
+};
+
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
@@ -141,11 +150,9 @@ export default function ArticlePage({ params }: Props) {
     'Affiliate disclosure: BestPickZone participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a commission at no extra cost to you. Recommendations are based on reader fit, book quality, and editorial analysis — not commission rates.';
   const topPick = article.books[0];
   const alternatePick = article.books[1];
-  const visualMapBooks = article.books.slice(0, 4);
-  const readerSignals = buildReaderSignals(article);
   const categoryContext = buildCategoryContext(article);
   const directAnswerDetail = buildDirectAnswerDetail(article);
-  const verifiedAsOf = verificationLabel(article.publishedDate);
+  const readerCareNote = readerCareNotes[article.slug];
 
   const fullText = [
     article.intro,
@@ -195,10 +202,15 @@ export default function ArticlePage({ params }: Props) {
   const sectionLinks = [
     { href: '#direct-answer', label: 'Direct answer' },
     { href: '#quick-picks', label: 'Quick picks' },
-    { href: '#visual-map', label: 'Visual map' },
     { href: '#full-reviews', label: 'Full reviews' },
     { href: '#how-to-choose', label: 'How to choose' },
     { href: '#faq', label: 'FAQ' },
+  ];
+  const ctaVariant = article.slug.split('').reduce((total, character) => total + character.charCodeAt(0), 0) % 3;
+  const topPickCtaLabels = [
+    `Check current Amazon price for ${topPick.title}`,
+    `See formats and availability for ${topPick.title} on Amazon`,
+    `View ${topPick.title} on Amazon`,
   ];
 
   // JSON-LD schemas
@@ -305,6 +317,13 @@ export default function ArticlePage({ params }: Props) {
           </p>
         </div>
 
+        {readerCareNote && (
+          <section className="mb-8 rounded-2xl border border-amber-200 bg-amber-50 p-5">
+            <h2 className="mb-2 text-base font-bold text-gray-900">Reader care note</h2>
+            <p className="text-sm leading-relaxed text-gray-700">{readerCareNote}</p>
+          </section>
+        )}
+
         <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
           <h2 className="mb-3 text-2xl font-bold text-gray-900">How to use this guide</h2>
           <p className="text-gray-700 leading-relaxed">{categoryContext}</p>
@@ -343,7 +362,20 @@ export default function ArticlePage({ params }: Props) {
               </p>
               <h3 className="text-lg font-bold text-gray-900">{topPick.title}</h3>
               <p className="mb-2 text-sm text-gray-500">by {topPick.author}</p>
-              <p className="text-sm text-gray-700 leading-relaxed">{topPick.description}</p>
+              <p className="text-sm text-gray-700 leading-relaxed">Best for: {topPick.bestFor}</p>
+              <BookCTA
+                title={topPick.title}
+                author={topPick.author}
+                affiliateUrl={topPick.affiliateUrl}
+                affiliateLabel={topPick.affiliateLabel}
+                affiliatePlatform={topPick.affiliatePlatform ?? defaultAffiliatePlatform}
+                trackingId={buildAffiliateTrackingId(article.slug, topPick.title, `top-pick-v${ctaVariant + 1}`)}
+                ctaLabel={
+                  (topPick.affiliatePlatform ?? defaultAffiliatePlatform) === 'ebay'
+                    ? `See current eBay listings for ${topPick.title}`
+                    : topPickCtaLabels[ctaVariant]
+                }
+              />
             </div>
             {alternatePick && (
               <div className="rounded-2xl border border-white/70 bg-white p-4 shadow-sm">
@@ -352,50 +384,9 @@ export default function ArticlePage({ params }: Props) {
                 </p>
                 <h3 className="text-lg font-bold text-gray-900">{alternatePick.title}</h3>
                 <p className="mb-2 text-sm text-gray-500">by {alternatePick.author}</p>
-                <p className="text-sm text-gray-700 leading-relaxed">{alternatePick.description}</p>
+                <p className="text-sm text-gray-700 leading-relaxed">Best for: {alternatePick.bestFor}</p>
               </div>
             )}
-          </div>
-        </section>
-
-        <section className="mb-10 grid gap-4 md:grid-cols-3">
-          {readerSignals.map((signal) => (
-            <div key={signal.title} className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-              <p className={`mb-2 text-xs font-semibold uppercase tracking-[0.18em] ${theme.accent}`}>
-                Reader fit
-              </p>
-              <h2 className="mb-2 text-lg font-bold text-gray-900">{signal.title}</h2>
-              <p className="text-sm leading-relaxed text-gray-600">{signal.text}</p>
-            </div>
-          ))}
-        </section>
-
-        <section id="visual-map" className="mb-10">
-          <h2 className="mb-4 text-2xl font-bold text-gray-900">Visual map: which book fits which reader?</h2>
-          <div className="grid gap-4 md:grid-cols-2">
-            {visualMapBooks.map((book, index) => (
-              <div
-                key={book.title}
-                className={`rounded-3xl border ${theme.cardBorder} bg-white p-5 shadow-sm`}
-              >
-                <div className="mb-3 flex items-center justify-between gap-3">
-                  <span className={`inline-flex h-8 w-8 items-center justify-center rounded-full ${theme.badgeBg} ${theme.badge} text-sm font-bold`}>
-                    {index + 1}
-                  </span>
-                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-700">
-                    {book.bestFor}
-                  </span>
-                </div>
-                <h3 className="text-lg font-bold text-gray-900">
-                  {renderLinkedBookTitle(book, 'visual-map-title', 'text-gray-900')}
-                </h3>
-                <p className="mb-2 text-sm text-gray-500">by {book.author}</p>
-                <p className="mb-3 text-sm text-gray-700 leading-relaxed">{book.description}</p>
-                <p className="text-sm text-gray-500">
-                  <strong>Skip this if:</strong> {book.skipIf}
-                </p>
-              </div>
-            ))}
           </div>
         </section>
 
@@ -426,6 +417,7 @@ export default function ArticlePage({ params }: Props) {
                       href={getTrackedBookUrl(book, 'comparison-table')}
                       target="_blank"
                       rel="noopener nofollow sponsored"
+                      data-affiliate-placement={buildAffiliateTrackingId(article.slug, book.title, 'comparison-table')}
                       className={`inline-flex min-h-[44px] items-center rounded-lg px-3 py-2 text-xs font-semibold ${
                         (book.affiliatePlatform ?? defaultAffiliatePlatform) === 'ebay'
                           ? 'bg-sky-600 text-white hover:bg-sky-500'
@@ -462,14 +454,8 @@ export default function ArticlePage({ params }: Props) {
                 <span className="reader-badge shrink-0">{book.bestFor}</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-3">{book.description}</p>
-              <p className="mb-3 text-gray-700 leading-relaxed">
-                {buildBookFitParagraph(article, book, i)}
-              </p>
               <p className="skip-if text-sm text-gray-500 mb-4">
                 <strong>Skip this if:</strong> {book.skipIf}
-              </p>
-              <p className="mb-4 text-sm leading-relaxed text-gray-600">
-                {buildBookTradeoffParagraph(book)}
               </p>
               <BookCTA
                 title={book.title}
@@ -526,9 +512,8 @@ export default function ArticlePage({ params }: Props) {
         <section className="mb-10 rounded-3xl border border-gray-200 bg-gray-50 p-6">
           <h2 className="mb-3 text-xl font-bold text-gray-900">Verification note</h2>
           <p className="verification-note text-sm leading-relaxed text-gray-600">
-            Titles, authors, publication details, and availability were verified against Amazon and
-            public bibliographic sources as of {verifiedAsOf}. Availability, editions, and prices
-            can change — confirm before purchasing.
+            Edition, format, and availability can change. Check the current listing before purchasing;
+            this guide is editorial reading guidance, not a substitute for a publisher or retailer listing.
           </p>
         </section>
 
@@ -546,7 +531,7 @@ export default function ArticlePage({ params }: Props) {
             <h2 className="mb-3 text-xl font-bold text-gray-900">More author guides</h2>
             <p className="mb-4 text-sm leading-relaxed text-gray-600">
               If you are comparing major authors rather than choosing a single book, these related author roundups
-              are strong next clicks and important crawl paths inside the BestPickZone author section.
+              can help you choose your next read by author, mood, or genre.
             </p>
             <ul className="grid gap-2 md:grid-cols-2">
               {moreAuthorGuides.map((guide) => (
