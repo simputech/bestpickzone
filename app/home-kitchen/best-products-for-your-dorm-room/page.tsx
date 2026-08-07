@@ -651,16 +651,6 @@ export default function BestProductsForYourDormRoomPage() {
             <li><strong>5.</strong> Treat the first aid kit and laundry setup as quality-of-life insurance, not optional extras.</li>
           </ol>
         </div>
-
-        <div className="rounded-[2rem] border border-slate-200 bg-slate-900 p-6 text-slate-100">
-          <h2 className="text-2xl font-black">Standards check</h2>
-          <p className="mt-4 text-base leading-7 text-slate-300">
-            This page is intentionally written like a human recommendation list, not a keyword dump. Each pick includes buy-or-skip logic, a clear dorm-specific use case, and a concrete reason the product earns its space.
-          </p>
-          <p className="mt-4 text-base leading-7 text-slate-300">
-            We also kept the page aligned with BestPickZone standards: Amazon affiliate disclosure, specific Amazon product links plus broader search links, internal linking to related guides, and metadata/schema that matches the page intent.
-          </p>
-        </div>
       </section>
 
       <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">

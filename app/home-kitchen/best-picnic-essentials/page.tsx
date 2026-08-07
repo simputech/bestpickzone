@@ -651,16 +651,6 @@ export default function BestPicnicEssentialsPage() {
             <li><strong>5.</strong> Stop before the setup becomes harder to carry than the meal is worth.</li>
           </ol>
         </div>
-
-        <div className="rounded-[2rem] border border-slate-200 bg-slate-900 p-6 text-slate-100">
-          <h2 className="text-2xl font-black">Standards check</h2>
-          <p className="mt-4 text-base leading-7 text-slate-300">
-            This page was reviewed after drafting to keep the tone human, practical, and specific rather than generic. Each product has a clear use case, an honest tradeoff, and short review-style guidance instead of empty praise.
-          </p>
-          <p className="mt-4 text-base leading-7 text-slate-300">
-            It also follows the BestPickZone structure: SEO metadata, FAQ and item-list schema, affiliate disclosure, direct Amazon product links, broader comparison links, and internal links to related Home &amp; Kitchen guides.
-          </p>
-        </div>
       </section>
 
       <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">

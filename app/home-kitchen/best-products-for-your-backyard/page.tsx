@@ -654,16 +654,6 @@ export default function BestProductsForYourBackyardPage() {
             <li><strong>5.</strong> Finish with small softness and style layers once the core comfort problems are solved.</li>
           </ol>
         </div>
-
-        <div className="rounded-[2rem] border border-slate-200 bg-slate-900 p-6 text-slate-100">
-          <h2 className="text-2xl font-black">Standards check</h2>
-          <p className="mt-4 text-base leading-7 text-slate-300">
-            This page was written to sound like a human recommendation list, not a generic outdoor roundup. Each product has a real backyard use case, honest tradeoff language, and buy-or-skip framing instead of empty praise.
-          </p>
-          <p className="mt-4 text-base leading-7 text-slate-300">
-            It also follows the BestPickZone pattern: SEO metadata, FAQ and item-list schema, affiliate disclosure, direct Amazon product links, broader comparison links, and internal links to related home and outdoor content.
-          </p>
-        </div>
       </section>
 
       <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6">
