@@ -242,6 +242,10 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
   const related = getSpanishRelatedArticles(article)
   const section = spanishSectionMap[article.section]
   const recommendations = getSpanishArticleRecommendations(article)
+  const highlightedTitles = new Set(article.bookHighlights?.map((book) => book.title) ?? [])
+  const unhighlightedRecommendations = recommendations.filter(
+    (recommendation) => !highlightedTitles.has(recommendation.title)
+  )
   const isStephenKingGuide = article.section === 'libros' && article.slug === 'mejores-libros-de-stephen-king'
   const primaryRecommendation = isStephenKingGuide ? recommendations[0] : undefined
 
@@ -390,13 +394,13 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
         </section>
       ) : null}
 
-      {recommendations.length > 0 ? (
+      {unhighlightedRecommendations.length > 0 ? (
         <section className="mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Recomendaciones</p>
               <h2 className="mt-2 text-2xl font-black text-slate-900">
-                Productos y libros para comprar desde esta guia
+                Otras recomendaciones de esta guia
               </h2>
             </div>
             <a
@@ -408,7 +412,7 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           </div>
 
           <div className="mt-6 grid gap-4 md:grid-cols-2">
-            {recommendations.map((recommendation) => {
+            {unhighlightedRecommendations.map((recommendation) => {
               const href = buildRecommendationUrl(article, recommendation.title, recommendation)
 
               return (
