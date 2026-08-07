@@ -482,7 +482,7 @@ export const spanishArticles: SpanishArticle[] = [
       'Por donde empezar con Stephen King y cuales son sus libros mas recomendables segun terror, suspense, personajes y accesibilidad para lectores nuevos.',
     englishPath: '/books/best-stephen-king-books',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
+    updatedDate: '2026-08-06',
     dek: 'Stephen King tiene una biblioteca enorme, pero unos pocos titulos siguen funcionando mejor que otros como puerta de entrada.',
     intro:
       'Empezar con Stephen King puede ser intimidante porque su catalogo es inmenso y muy desigual en tono. Hay terror puro, historias de duelo, thrillers psicologicos y novelas largas que casi no se parecen entre si. Por eso conviene elegir una entrada que encaje con tu tolerancia al miedo y tu paciencia como lector.',

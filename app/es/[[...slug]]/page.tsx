@@ -242,6 +242,8 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
   const related = getSpanishRelatedArticles(article)
   const section = spanishSectionMap[article.section]
   const recommendations = getSpanishArticleRecommendations(article)
+  const isStephenKingGuide = article.section === 'libros' && article.slug === 'mejores-libros-de-stephen-king'
+  const primaryRecommendation = isStephenKingGuide ? recommendations[0] : undefined
 
   return (
     <main lang="es" className="mx-auto max-w-5xl px-4 py-10">
@@ -286,6 +288,29 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
         </div>
       </article>
 
+      {primaryRecommendation ? (
+        <section className="mt-8 rounded-[2rem] border border-amber-300 bg-[linear-gradient(135deg,#fff8d6_0%,#ffffff_100%)] p-6 shadow-sm">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-800">Compra recomendada</p>
+          <h2 className="mt-2 text-2xl font-black text-slate-900">Empieza con The Shining</h2>
+          <p className="mt-3 max-w-3xl text-base leading-7 text-slate-700">
+            Si quieres una sola elección segura para descubrir a Stephen King, empieza por esta. Es la puerta de
+            entrada más equilibrada de la guía: terror psicológico, ritmo claro y una historia que no exige una
+            novela gigantesca.
+          </p>
+          <a
+            href={buildRecommendationUrl(article, primaryRecommendation.title, primaryRecommendation)}
+            target="_blank"
+            rel="noopener nofollow sponsored"
+            className="mt-5 inline-flex min-h-[48px] items-center justify-center rounded-full bg-yellow-400 px-6 py-3 text-base font-extrabold text-slate-900 shadow-sm transition hover:bg-yellow-300"
+          >
+            Buscar The Shining en español en Amazon
+          </a>
+          <p className="mt-3 text-xs leading-5 text-slate-600">
+            Comprueba edición, disponibilidad y precio antes de comprar.
+          </p>
+        </section>
+      ) : null}
+
       <section className="mt-8 grid gap-6 lg:grid-cols-2">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-2xl font-black text-slate-900">Puntos clave</h2>
@@ -326,24 +351,41 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           </div>
 
           <div className="mt-6 space-y-5">
-            {article.bookHighlights.map((book) => (
-              <div
-                key={book.title}
-                className="rounded-[1.75rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_100%)] p-5"
-              >
-                <div className="flex flex-wrap items-center gap-3">
-                  <h3 className="text-2xl font-black text-slate-900">{book.title}</h3>
-                  <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-800">
-                    {book.badge}
-                  </span>
+            {article.bookHighlights.map((book) => {
+              const recommendation = recommendations.find((item) => item.title === book.title)
+              const href = recommendation
+                ? buildRecommendationUrl(article, recommendation.title, recommendation)
+                : undefined
+
+              return (
+                <div
+                  key={book.title}
+                  className="rounded-[1.75rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_100%)] p-5"
+                >
+                  <div className="flex flex-wrap items-center gap-3">
+                    <h3 className="text-2xl font-black text-slate-900">{book.title}</h3>
+                    <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-800">
+                      {book.badge}
+                    </span>
+                  </div>
+                  <p className="mt-4 text-base leading-7 text-slate-700">{book.summary}</p>
+                  <p className="mt-4 text-base leading-7 text-slate-700">{book.insight}</p>
+                  <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-sm leading-6 text-slate-800 ring-1 ring-amber-200">
+                    <strong>Mejor para:</strong> {book.bestFor}
+                  </p>
+                  {recommendation && href ? (
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener nofollow sponsored"
+                      className="mt-4 inline-flex min-h-[48px] items-center justify-center rounded-full bg-yellow-400 px-5 py-3 text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-yellow-300"
+                    >
+                      {recommendation.affiliateLabel ?? 'Buscar este libro en Amazon'}
+                    </a>
+                  ) : null}
                 </div>
-                <p className="mt-4 text-base leading-7 text-slate-700">{book.summary}</p>
-                <p className="mt-4 text-base leading-7 text-slate-700">{book.insight}</p>
-                <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-sm leading-6 text-slate-800 ring-1 ring-amber-200">
-                  <strong>Mejor para:</strong> {book.bestFor}
-                </p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </section>
       ) : null}
