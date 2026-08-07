@@ -342,11 +342,11 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Resumen Libro Por Libro</p>
             <h2 className="mt-2 text-2xl font-black text-slate-900">
-              Contexto extra para elegir mejor que Stephen King leer primero
+              {article.bookHighlightsTitle ?? 'De que trata cada libro de esta guia'}
             </h2>
             <p className="mt-3 text-base leading-7 text-slate-700">
-              Si la lista rapida se te queda corta, esta parte aterriza que ofrece cada titulo y por que
-              conviene entrar por uno u otro segun tu gusto por el terror, la longitud y el tipo de tension.
+              {article.bookHighlightsDescription ??
+                'Si la lista rapida se te queda corta, esta parte explica que ofrece cada titulo y por que conviene elegir uno u otro segun el tipo de historia que quieres leer.'}
             </p>
           </div>
 
@@ -437,6 +437,27 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
               )
             })}
           </div>
+        </section>
+      ) : null}
+
+      {article.verificationNote && article.sourceLinks?.length ? (
+        <section className="mt-8 rounded-[2rem] border border-slate-200 bg-slate-50 p-6 shadow-sm">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Fuentes y verificacion</p>
+          <p className="mt-3 max-w-3xl text-sm leading-6 text-slate-700">{article.verificationNote}</p>
+          <ul className="mt-4 space-y-3">
+            {article.sourceLinks.map((source) => (
+              <li key={source.url}>
+                <a
+                  href={source.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-slate-900 underline decoration-amber-400 decoration-2 underline-offset-4 transition hover:text-amber-800"
+                >
+                  {source.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
       ) : null}
 

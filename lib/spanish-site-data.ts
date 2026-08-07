@@ -21,6 +21,10 @@ export type SpanishArticle = {
   keyPoints: string[]
   buyingTips: string[]
   bookHighlights?: SpanishBookHighlight[]
+  bookHighlightsTitle?: string
+  bookHighlightsDescription?: string
+  verificationNote?: string
+  sourceLinks?: SpanishSourceLink[]
 }
 
 export type SpanishRecommendation = {
@@ -38,6 +42,11 @@ export type SpanishBookHighlight = {
   summary: string
   insight: string
   bestFor: string
+}
+
+export type SpanishSourceLink = {
+  label: string
+  url: string
 }
 
 export const SPANISH_SITE_DATE = '2026-07-07'
@@ -601,24 +610,85 @@ export const spanishArticles: SpanishArticle[] = [
     slug: 'mejores-libros-de-true-crime',
     title: 'Los Mejores Libros De True Crime',
     metaDescription:
-      'Recomendaciones de true crime para lectores que quieren reporteo serio, casos complejos y narrativas que vayan mas alla del morbo.',
+      'Los mejores libros de true crime para cada tipo de lector: de que trata cada uno, que tipo de reporteo ofrece y por donde empezar.',
     englishPath: '/books/reader-picks/best-true-crime-books',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'El true crime funciona mejor cuando entiende que el caso importa, pero tambien importa como esta contado y con que responsabilidad.',
+    updatedDate: '2026-08-06',
+    dek: 'Cuatro libros de true crime, explicados por el caso que cuentan, el enfoque que usan y el lector al que mejor le encajan.',
     intro:
-      'Los mejores libros de true crime no son solo catalogos de horror. Son trabajos de investigacion que convierten un caso en una historia legible sin perder contexto humano, institucional o historico. Cuando estan bien hechos, dicen tanto sobre el sistema como sobre el crimen.',
+      'Para la mayoria de lectores, In Cold Blood es un buen punto de partida: Truman Capote reconstruye el asesinato de la familia Clutter en Kansas y la investigacion posterior con una forma narrativa que marco el genero. Si prefieres reporteo historico mas amplio y menos literario, empieza por Killers of the Flower Moon o Say Nothing; si buscas una investigacion contemporanea con una voz muy personal, ve a I\'ll Be Gone in the Dark.',
     perspective:
-      'Ese es el filtro clave. No todos los lectores quieren la misma mezcla de reporteo, psicologia, juicio y atmosfera. Algunos prefieren reconstruccion periodistica. Otros quieren una narracion casi novelesca. Elegir bien depende de eso.',
+      'No son cuatro versiones del mismo libro. Uno sigue un homicidio familiar y su proceso judicial; otro acompana la busqueda de un agresor no identificado durante decadas; otro revela una conspiracion contra la nacion Osage; y el ultimo usa una desaparicion para explicar los conflictos de Irlanda del Norte. Elegir por el tipo de caso y por la forma de contarlo evita comprar un libro que no corresponde a lo que realmente quieres leer.',
     keyPoints: [
-      'El mejor true crime combina claridad narrativa con investigacion seria.',
-      'Los casos muy conocidos no siempre producen los libros mas interesantes.',
-      'Si te interesa justicia institucional, busca autores que trabajen bien proceso y contexto, no solo shock.',
+      'In Cold Blood funciona como no ficcion literaria: el caso de la familia Clutter importa tanto como la forma en que Capote lo convierte en relato.',
+      'I\'ll Be Gone in the Dark pone en primer plano la busqueda de Michelle McNamara sobre el Golden State Killer, mientras que Killers of the Flower Moon y Say Nothing se abren hacia sistemas enteros de violencia y silencio.',
+      'La mejor eleccion depende de si buscas un caso concreto, una investigacion personal o historia criminal con contexto politico.',
     ],
     buyingTips: [
-      'Si vienes del podcast, elige libros que aporten investigacion y profundidad extra.',
-      'Si te cansa el sensacionalismo, revisa el tono del autor antes de comprar.',
-      'Alternar casos famosos con historias menos conocidas suele dar mejores lecturas.',
+      'Elige In Cold Blood si te interesa un clasico de estilo; elige Killers of the Flower Moon si quieres documentacion historica y una conspiracion de gran escala.',
+      'Evita I\'ll Be Gone in the Dark si prefieres que el reportero no forme parte de la historia; esa presencia personal es central en el libro.',
+      'Antes de comprar, revisa la edicion y la disponibilidad en espanol: las traducciones y los formatos cambian entre vendedores.',
+    ],
+    bookHighlightsTitle: 'De que trata cada libro de true crime de esta guia',
+    bookHighlightsDescription:
+      'Estas recomendaciones no se limitan a nombrar casos famosos. Cada ficha explica el punto de partida real, el alcance del libro y la clase de lectura que puedes esperar, sin revelar giros importantes.',
+    bookHighlights: [
+      {
+        title: 'In Cold Blood',
+        badge: 'Mejor clasico para empezar',
+        summary:
+          'Truman Capote reconstruye el asesinato de los cuatro miembros de la familia Clutter en Holcomb, Kansas, en 1959, y sigue la investigacion que condujo a la captura, el juicio y la ejecucion de los responsables. El caso comienza sin un motivo claro ni pistas utiles, por eso el libro alterna la vida de la comunidad con el avance de la pesquisa y las personas implicadas.',
+        insight:
+          'No es un expediente policial seco: Capote lo presenta como una novela de no ficcion y usa recursos narrativos para dar peso al pueblo, a las victimas y a los acusados. Esa ambicion literaria es la razon para leerlo, pero tambien la razon para no tratarlo como la ultima palabra documental sobre el caso.',
+        bestFor: 'Quien quiere entender por que este titulo definio el true crime literario. Evitalo si buscas una cronologia estrictamente documental por encima de la forma narrativa.',
+      },
+      {
+        title: "I'll Be Gone in the Dark",
+        badge: 'Mejor investigacion contemporanea',
+        summary:
+          'Michelle McNamara sigue la huella del agresor conocido como Golden State Killer, responsable de una larga serie de ataques en California. El libro reune casos que durante anos parecian desconectados y muestra como la investigacion, los archivos y el recuerdo de las victimas sostienen una busqueda de largo aliento.',
+        insight:
+          'Aqui la investigadora no desaparece detras del caso: la necesidad de McNamara de entender al responsable forma parte de la estructura. Es una eleccion muy distinta a la del reportaje impersonal, y por eso resulta mejor para lectores que quieren un libro sobre una investigacion y sobre el coste emocional de perseguirla.',
+        bestFor: 'Lectores que quieren un caso moderno contado desde una investigacion obsesiva y personal. Evitalo si prefieres distancia absoluta entre quien investiga y la historia.',
+      },
+      {
+        title: 'Killers of the Flower Moon',
+        badge: 'Mejor para historia e injusticia institucional',
+        summary:
+          'David Grann narra los asesinatos de miembros de la nacion Osage en Oklahoma durante la decada de 1920, despues de que el petroleo bajo su reserva transformara su riqueza. La familia de Mollie Burkhart queda en el centro del relato mientras las muertes se multiplican y el recien creado FBI entra en el caso para descubrir una conspiracion mucho mas amplia.',
+        insight:
+          'El libro no se limita a preguntar quien cometio un crimen: muestra por que las victimas fueron vulnerables, como operaba la codicia alrededor del petroleo y que instituciones dejaron que la violencia siguiera. Es true crime con una escala historica que exige atencion, no un misterio rapido de un solo culpable.',
+        bestFor: 'Quien busca una investigacion criminal que tambien explique racismo, riqueza y poder en Estados Unidos. Evitalo si solo quieres un caso breve y centrado en un asesino individual.',
+      },
+      {
+        title: 'Say Nothing',
+        badge: 'Mejor true crime politico',
+        summary:
+          'Patrick Radden Keefe parte del secuestro de Jean McConville, madre de diez hijos que fue sacada de su casa de Belfast en 1972, para entrar en la violencia de los Troubles de Irlanda del Norte. La desaparicion se convierte en una investigacion sobre miedo, silencio vecinal, el IRA y las consecuencias que siguen presentes incluso despues de los acuerdos de paz.',
+        insight:
+          'Es el titulo mas amplio de la lista: la pregunta criminal nunca se separa del conflicto politico que la hizo posible. Esa mezcla de caso real e historia reciente le da profundidad, pero pide al lector interes por el contexto de Irlanda del Norte, no solo por resolver una desaparicion.',
+        bestFor: 'Lectores que quieren reporteo profundo sobre violencia politica, memoria y consecuencias. Evitalo si buscas un relato lineal de serial killer o un libro que deje de lado la historia del conflicto.',
+      },
+    ],
+    verificationNote:
+      'Sinopsis y datos de las obras verificados el 6 de agosto de 2026 en las paginas de editoriales y autores enlazadas. La disponibilidad, el formato y la edicion en espanol pueden cambiar; confirmalos antes de comprar.',
+    sourceLinks: [
+      {
+        label: 'Ficha editorial de In Cold Blood (Penguin Random House)',
+        url: 'https://www.penguinrandomhouse.com/books/23728/in-cold-blood-by-truman-capote/9780679745587/',
+      },
+      {
+        label: "Ficha editorial de I'll Be Gone in the Dark (HarperCollins)",
+        url: 'https://www.harpercollins.com/products/ill-be-gone-in-the-dark-michelle-mcnamara',
+      },
+      {
+        label: 'Pagina oficial de Killers of the Flower Moon (David Grann)',
+        url: 'https://www.davidgrann.com/book/killers-of-the-flower-moon/',
+      },
+      {
+        label: 'Ficha editorial de Say Nothing (Penguin Random House)',
+        url: 'https://www.penguinrandomhouse.com/books/90837/say-nothing-by-patrick-radden-keefe/',
+      },
     ],
   },
   {
