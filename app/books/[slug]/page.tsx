@@ -286,7 +286,7 @@ export default function ArticlePage({ params }: Props) {
           <div className="flex items-center gap-3 text-sm text-gray-500 mb-4">
             <span>
               Updated:{' '}
-              {new Date(article.publishedDate).toLocaleDateString('en-US', {
+              {new Date(article.updatedDate ?? article.publishedDate).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
@@ -336,6 +336,14 @@ export default function ArticlePage({ params }: Props) {
             alternate starting point is <strong>{alternatePick?.title}</strong>.
           </p>
           <p className="text-gray-700 leading-relaxed">{directAnswerDetail}</p>
+          <BookCTA
+            title={topPick.title}
+            author={topPick.author}
+            affiliateUrl={topPick.affiliateUrl}
+            affiliateLabel={`Check ${topPick.title} on Amazon`}
+            affiliatePlatform={topPick.affiliatePlatform ?? defaultAffiliatePlatform}
+            trackingId={buildAffiliateTrackingId(article.slug, topPick.title, 'direct-answer')}
+          />
           <div id="quick-picks" className="grid gap-4 md:grid-cols-2">
             <div className="rounded-2xl border border-white/70 bg-white p-4 shadow-sm">
               <p className={`mb-2 text-xs font-semibold uppercase tracking-[0.2em] ${theme.accent}`}>

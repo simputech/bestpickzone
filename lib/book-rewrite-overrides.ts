@@ -102,4 +102,105 @@ export const bookRewriteOverrides: Record<string, Rewrite> = {
       { label: 'Josh Malerman: Bird Box official page', url: 'https://joshmalerman.com/books/bird-box/' },
     ],
   },
+  'best-james-clear-books': {
+    metaTitle: 'Best James Clear Books: Atomic Habits and Workbook Guide (2026)',
+    metaDescription: 'Start with Atomic Habits. Learn when the official workbook is useful, which format fits your routine, and how to avoid buying the companion first.',
+    updatedDate: '2026-08-07',
+    intro: 'James Clear has one full-length book to start with: Atomic Habits. Buy it before the workbook because it explains the framework the companion is built around. The workbook is a sensible second purchase only for readers who want guided prompts and a written implementation plan. This guide separates the core book from the companion so a shopper can choose the useful format without paying for duplicate material.',
+    sources: [
+      { label: 'James Clear: books and official workbook', url: 'https://jamesclear.com/books' },
+      { label: 'James Clear: Atomic Habits', url: 'https://jamesclear.com/atomic-habits' },
+    ],
+  },
+  'best-brene-brown-books': {
+    metaTitle: 'Best Brené Brown Books: Where to Start (2026)',
+    metaDescription: 'Start with Daring Greatly for Brown’s core idea, choose The Gifts of Imperfection for guided reflection, or Dare to Lead for workplace application.',
+    updatedDate: '2026-08-07',
+    intro: 'Start with Daring Greatly if you want Brené Brown’s clearest book-length case for courage and vulnerability. Choose The Gifts of Imperfection when you want a more reflective, guidepost-based companion, and Dare to Lead when the practical question is trust and leadership at work. The titles overlap in theme, so this guide is designed to help you buy the one that matches the problem you are actually trying to solve.',
+    sources: [
+      { label: 'Brené Brown: books archive', url: 'https://brenebrown.com/book/' },
+      { label: 'Brené Brown: Daring Greatly', url: 'https://brenebrown.com/book/daring-greatly/' },
+    ],
+  },
+  'best-haruki-murakami-books': {
+    metaTitle: 'Best Haruki Murakami Books: Where to Start (2026)',
+    metaDescription: 'Start with Norwegian Wood for realistic literary fiction or Kafka on the Shore for surreal Murakami. Compare five strong entry points before buying.',
+    updatedDate: '2026-08-07',
+    intro: 'Start with Norwegian Wood if you want a grounded, melancholy coming-of-age novel; start with Kafka on the Shore only if you actively want the dream logic and unresolved mystery associated with Murakami. The Wind-Up Bird Chronicle and 1Q84 reward a longer commitment, while Colorless Tsukuru Tazaki is a more contained option. The useful choice here is mood and reading tolerance, not a claim that one mode is objectively superior.',
+    books: [
+      { title: 'Norwegian Wood', author: 'Haruki Murakami', bestFor: 'First Murakami for realistic fiction readers', skipIf: 'You are specifically shopping for a surreal or puzzle-like novel.', description: 'This coming-of-age novel follows Toru Watanabe through love, grief, and student life in 1960s Tokyo. Penguin Random House describes it as a story steeped in nostalgia and first love. Choose it for emotional directness and a realistic setting rather than for Murakami’s most fantastical ideas.', amazonSearchQuery: 'Norwegian Wood Haruki Murakami' },
+      { title: 'Kafka on the Shore', author: 'Haruki Murakami', bestFor: 'Surreal Murakami entry point', skipIf: 'You need every symbolic question resolved in a conventional plot.', description: 'A teenage runaway and an older man who speaks with cats anchor two converging story lines. It is a better fit than Norwegian Wood when the appeal is Murakami’s strange, associative style. Buy it for atmosphere and interpretation, not for tidy explanations.', amazonSearchQuery: 'Kafka on the Shore Haruki Murakami' },
+      { title: 'The Wind-Up Bird Chronicle', author: 'Haruki Murakami', bestFor: 'Long, layered literary novel', skipIf: 'You want a short or immediately straightforward first read.', description: 'A missing-cat search opens into a wider novel about marriage, memory, and the history of wartime violence. Choose it after you know you enjoy Murakami’s pace and digressions; it is a substantial commitment rather than the most efficient test of his work.', amazonSearchQuery: 'The Wind-Up Bird Chronicle Haruki Murakami' },
+      { title: '1Q84', author: 'Haruki Murakami', bestFor: 'Biggest commitment and alternate reality', skipIf: 'You want a quick standalone or are unsure about very long novels.', description: 'This multi-volume novel moves between characters in a slightly altered 1984 Tokyo. It is for readers who want scale, recurrence, and an extended immersion in Murakami’s speculative mode. Check the edition before buying because the book is commonly sold in more than one volume.', amazonSearchQuery: '1Q84 Haruki Murakami' },
+      { title: 'Colorless Tsukuru Tazaki and His Years of Pilgrimage', author: 'Haruki Murakami', bestFor: 'More contained contemporary novel', skipIf: 'You want the author’s fullest surreal or historical canvas.', description: 'Tsukuru revisits a painful break with his school friends years later. This is a good option for readers who want Murakami’s themes of memory and isolation in a more focused package. Choose it when a shorter emotional mystery sounds better than a large metaphysical novel.', amazonSearchQuery: 'Colorless Tsukuru Tazaki Haruki Murakami' },
+    ],
+    sources: [
+      { label: 'Penguin Random House: Norwegian Wood', url: 'https://www.penguinrandomhouse.com/books/118720/norwegian-wood-by-haruki-murakami/' },
+      { label: 'Haruki Murakami bibliography', url: 'https://www.randomhousebooks.com/authors/10434/haruki-murakami/' },
+    ],
+  },
+  'best-george-orwell-books': {
+    metaTitle: 'Best George Orwell Books: Where to Start (2026)',
+    metaDescription: 'Start with Animal Farm for a short political fable or 1984 for a longer dystopian novel. Compare Orwell’s fiction, memoir, and essays by reader fit.',
+    updatedDate: '2026-08-07',
+    intro: 'Start with Animal Farm if you want Orwell’s political fable in a short, direct form; choose 1984 if you want the larger dystopian novel and are ready for a bleaker reading experience. Homage to Catalonia and Down and Out in Paris and London show the reporting and lived observation behind his fiction. This guide matches each book to a reading goal instead of treating all Orwell titles as interchangeable.',
+    sources: [
+      { label: 'The Orwell Foundation: Animal Farm', url: 'https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/animal-farm/' },
+      { label: 'Bloomsbury: George Orwell books', url: 'https://www.bloomsbury.com/uk/author/george-orwell/' },
+    ],
+  },
+  'best-toni-morrison-books': {
+    metaTitle: 'Best Toni Morrison Books: Where to Start (2026)',
+    metaDescription: 'Start with The Bluest Eye for a direct entry, Song of Solomon for more narrative sweep, or Beloved when you want Morrison’s most demanding major novel.',
+    updatedDate: '2026-08-07',
+    intro: 'Start with The Bluest Eye when you want a direct entry into Toni Morrison’s fiction; choose Song of Solomon for a more expansive family story; choose Beloved when you are ready for a structurally demanding novel about the aftermath of enslavement. These are reader-fit recommendations, not a substitute for the books’ content warnings or for their literary and historical context.',
+    sources: [
+      { label: 'Nobel Prize: Toni Morrison bibliography', url: 'https://www.nobelprize.org/prizes/literature/1993/morrison/bibliography/' },
+      { label: 'Penguin Random House: The Bluest Eye', url: 'https://www.penguinrandomhouse.com/books/117662/the-bluest-eye-by-toni-morrison/' },
+      { label: 'Simon & Schuster: Toni Morrison', url: 'https://www.simonandschuster.com/authors/Toni-Morrison/761' },
+    ],
+  },
+  'best-nora-roberts-books': {
+    updatedDate: '2026-08-07',
+    intro: 'Start with The Witness if you want one self-contained Nora Roberts novel that blends romantic suspense with a clear thriller setup. Choose Dark Witch for a paranormal trilogy, Naked in Death for the long-running J.D. Robb detective series, and Vision in White for a lighter contemporary-romance ensemble. The route matters because these books promise very different reading experiences.',
+    sources: [
+      { label: 'Nora Roberts: official bibliography', url: 'https://noraroberts.com/books/' },
+      { label: 'Nora Roberts: The Witness', url: 'https://noraroberts.com/works/the-witness/' },
+    ],
+  },
+  'best-neil-gaiman-books': {
+    updatedDate: '2026-08-07',
+    intro: 'Start with Neverwhere if you want a fast, accessible adult fantasy; choose American Gods for a longer mythic road novel; choose Coraline for concentrated, unsettling dark fantasy. Good Omens is a co-written comic novel and The Ocean at the End of the Lane is a shorter memory-driven story. This guide names the format and mood up front so readers do not buy the most famous title by default.',
+    sources: [
+      { label: 'Neil Gaiman: books', url: 'https://neilgaiman.com/works/Books/' },
+      { label: 'Neil Gaiman: Coraline', url: 'https://www.neilgaiman.com/works/Books/Coraline/' },
+      { label: 'Neil Gaiman: American Gods', url: 'https://neilgaiman.com/works/Books/American_Gods' },
+    ],
+  },
+  'best-jk-rowling-books': {
+    updatedDate: '2026-08-07',
+    intro: 'For a first J.K. Rowling book, begin with Harry Potter and the Sorcerer’s Stone and decide whether you want the seven-book arc before buying later installments. The Ickabog is a separate children’s fairy tale, while The Casual Vacancy is adult fiction with a very different tone. This guide distinguishes those lanes so a buyer does not mistake a series highlight for the right starting point.',
+    sources: [
+      { label: 'J.K. Rowling: official biography and bibliography', url: 'https://www.jkrowling.com/about/' },
+      { label: 'Pottermore Publishing: Harry Potter and the Philosopher’s Stone', url: 'https://www.pottermorepublishing.com/harry-potter/' },
+    ],
+  },
+  'best-john-grisham-books': {
+    metaTitle: 'Best John Grisham Books: Where to Start (2026)',
+    metaDescription: 'Start with The Firm for propulsive legal suspense, A Time to Kill for a heavier courtroom novel, or The Rainmaker for an underdog case. Compare the best entry points.',
+    updatedDate: '2026-08-07',
+    affiliatePlatform: 'amazon',
+    affiliateDisclosure: 'Affiliate disclosure: BestPickZone participates in the Amazon Services LLC Associates Program. When you purchase through links on this page, we may earn a commission at no extra cost to you. Recommendations are based on reader fit, book quality, and editorial analysis — not commission rates.',
+    intro: 'Start with The Firm if you want John Grisham’s cleanest high-stakes legal thriller. Choose A Time to Kill when you want a more emotionally demanding courtroom novel, The Pelican Brief for a conspiracy chase, or The Rainmaker for an underdog case. Each recommendation below links to a current Amazon search so you can compare editions and formats without being steered toward a used-market listing.',
+    books: [
+      { title: 'The Firm', author: 'John Grisham', bestFor: 'First Grisham legal thriller', skipIf: 'You want the most courtroom-focused or morally weighty option first.', description: 'Mitch McDeere joins an attractive Memphis law firm and discovers its benefits come with dangerous conditions. Choose it for a fast legal-suspense premise and a self-contained first read; it is a more propulsive thriller than a trial-centered drama.', amazonSearchQuery: 'The Firm John Grisham' },
+      { title: 'A Time to Kill', author: 'John Grisham', bestFor: 'Heavier courtroom drama', skipIf: 'You want a light, low-stress page-turner without upsetting subject matter.', description: 'Grisham’s first novel follows Jake Brigance during a racially charged Mississippi murder trial. It is the better fit for readers who want legal and moral pressure rather than only a chase plot. Check the publisher description and content considerations before choosing it.', amazonSearchQuery: 'A Time to Kill John Grisham' },
+      { title: 'The Pelican Brief', author: 'John Grisham', bestFor: 'Conspiracy-driven weekend read', skipIf: 'You are specifically looking for sustained courtroom scenes.', description: 'A law student’s legal theory about the killings of two Supreme Court justices pulls her into a much larger conspiracy. Choose it for forward motion and political stakes; it behaves more like a chase thriller than a courtroom novel.', amazonSearchQuery: 'The Pelican Brief John Grisham' },
+      { title: 'The Rainmaker', author: 'John Grisham', bestFor: 'Underdog legal case', skipIf: 'You want the most elaborate conspiracy or fastest possible plot.', description: 'A new lawyer takes on an insurance company in a case with personal and financial consequences. Choose it when you want a closer view of legal work and a David-versus-Goliath setup, rather than the escape-and-pursuit structure of The Firm.', amazonSearchQuery: 'The Rainmaker John Grisham' },
+    ],
+    sources: [
+      { label: 'John Grisham: The Firm', url: 'https://jgrisham.com/the-firm-35-years-later' },
+      { label: 'John Grisham: books', url: 'https://jgrisham.com/books' },
+    ],
+  },
 }

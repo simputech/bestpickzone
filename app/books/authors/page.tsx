@@ -158,15 +158,15 @@ export default function AuthorsHubPage() {
 
         <section className="mb-10 rounded-[28px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-orange-50 p-6">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
-            Priority Author Roundups
+            Find your next author
           </p>
           <h2 className="mb-4 text-2xl font-bold text-gray-900">
-            Author guides we want crawled and indexed next
+            Start with the right book from a favorite author
           </h2>
           <p className="mb-5 text-sm leading-relaxed text-gray-600">
-            These links point directly to the priority author pages that need stronger crawl
-            paths from the author hub. The anchor text is intentionally descriptive so search
-            engines and readers can both understand what each page covers.
+            Each guide helps you choose a first book, a better next read, or the right series
+            entry point. Use the reader-fit notes to avoid buying a title that does not match
+            your mood, experience level, or appetite for a longer commitment.
           </p>
           <div className="grid gap-3 md:grid-cols-2">
             {priorityArticles.map((article) => (
