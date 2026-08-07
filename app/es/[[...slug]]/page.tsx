@@ -124,6 +124,10 @@ export function generateMetadata({ params }: Props): Metadata {
           description: article.metaDescription,
           url,
           type: 'article',
+          locale: 'es_ES',
+        },
+        other: {
+          'content-language': 'es',
         },
       },
       {
@@ -306,6 +310,9 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
             target="_blank"
             rel="noopener nofollow sponsored"
             className="mt-5 inline-flex min-h-[48px] items-center justify-center rounded-full bg-yellow-400 px-6 py-3 text-base font-extrabold text-slate-900 shadow-sm transition hover:bg-yellow-300"
+            data-affiliate-placement="primary-recommendation"
+            data-affiliate-product={primaryRecommendation.title}
+            data-affiliate-link-type="button"
           >
             Buscar The Shining en español en Amazon
           </a>
@@ -383,6 +390,9 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
                       target="_blank"
                       rel="noopener nofollow sponsored"
                       className="mt-4 inline-flex min-h-[48px] items-center justify-center rounded-full bg-yellow-400 px-5 py-3 text-sm font-extrabold text-slate-900 shadow-sm transition hover:bg-yellow-300"
+                      data-affiliate-placement="book-highlight"
+                      data-affiliate-product={recommendation.title}
+                      data-affiliate-link-type="button"
                     >
                       {recommendation.affiliateLabel ?? 'Buscar este libro en Amazon'}
                     </a>
@@ -431,6 +441,9 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
                         ? 'bg-sky-600 text-white hover:bg-sky-500'
                         : 'bg-yellow-400 text-slate-900 hover:bg-yellow-300'
                     }`}
+                    data-affiliate-placement="recommendation-card"
+                    data-affiliate-product={recommendation.title}
+                    data-affiliate-link-type="card"
                   >
                     {recommendation.affiliateLabel ??
                       (recommendation.affiliatePlatform === 'ebay'

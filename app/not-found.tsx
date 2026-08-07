@@ -24,20 +24,22 @@ export default function NotFound() {
           ← Back to Homepage
         </Link>
         <Link
-          href="/tech"
+          href="/books"
           className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-3 px-7 rounded-lg transition-colors"
         >
-          Browse Tech Reviews
+          Browse Book Guides
         </Link>
       </div>
 
-      {/* Helpful links */}
-      <div className="mt-12 grid sm:grid-cols-2 gap-4 text-left">
+      <p className="mt-10 text-sm font-semibold uppercase tracking-[0.16em] text-gray-500">Browse a category</p>
+      <div className="mt-4 grid sm:grid-cols-2 gap-4 text-left">
         {[
-          { href: '/tech/best-wireless-earbuds', label: 'Best Wireless Earbuds in 2026' },
-          { href: '/tech/best-laptops-for-college-students', label: 'Best Laptops for College Students' },
-          { href: '/tech/best-mechanical-keyboards', label: 'Best Mechanical Keyboards' },
-          { href: '/tech/best-budget-monitors', label: 'Best Budget Monitors Under $300' },
+          { href: '/books', label: 'Book Recommendations' },
+          { href: '/coffee', label: 'Coffee Gear Comparisons' },
+          { href: '/beauty', label: 'Beauty Comparisons' },
+          { href: '/wfh', label: 'Work-From-Home Picks' },
+          { href: '/home-kitchen', label: 'Home & Kitchen Guides' },
+          { href: '/tech', label: 'Tech Reviews' },
         ].map((link) => (
           <Link
             key={link.href}

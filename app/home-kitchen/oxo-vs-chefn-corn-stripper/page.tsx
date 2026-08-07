@@ -24,15 +24,15 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const rawHtml = `
 <div class="topbar">
-  🌽 Summer Kitchen Gadgets Week &nbsp;·&nbsp; <a href="#">Kitchen</a> · <a href="#">Home</a> · <a href="#">Outdoor Cooking</a>
+  🌽 Summer Kitchen Gadgets Week &nbsp;·&nbsp; <a href="/home-kitchen">Kitchen</a> · <a href="/">Home</a> · <a href="/home-kitchen/best-products-for-your-backyard">Outdoor Cooking</a>
 </div>
 
 <nav>
-  <a href="#" class="logo">Best<span>Pick</span>Zone</a>
+  <a href="/" class="logo">Best<span>Pick</span>Zone</a>
   <div class="nav-links">
-    <a href="#">Kitchen</a>
-    <a href="#">Home</a>
-    <a href="#">Deals</a>
+    <a href="/home-kitchen">Kitchen</a>
+    <a href="/">Home</a>
+    <a href="/home-kitchen">Deals</a>
   </div>
 </nav>
 
@@ -409,7 +409,7 @@ const rawHtml = `
 </div>
 
 <footer>
-  <p>© 2026 BestPickZone · <a href="#">Privacy</a> · <a href="#">Affiliate Disclosure</a> · <a href="#">Contact</a></p>
+  <p>© 2026 BestPickZone · BestPickZone earns from qualifying purchases at no extra cost to you.</p>
   <p style="margin-top:8px; max-width:600px; margin-left:auto; margin-right:auto;">BestPickZone participates in the Amazon Services LLC Associates Program. Prices and availability are subject to change.</p>
 </footer>
 

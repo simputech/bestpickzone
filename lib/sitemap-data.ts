@@ -1,5 +1,6 @@
 import { articlesData } from '@/lib/books-data'
 import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
+import { getSpanishSitemapEntries } from '@/lib/spanish-site-data'
 
 export const baseUrl = 'https://bestpickzone.com'
 export const contentRefreshDate = '2026-07-01'
@@ -162,7 +163,9 @@ export const wfhPages: SitemapEntry[] = [
 
 export const booksPages: SitemapEntry[] = [
   ...standaloneBookPages,
-  ...articlesData.map((article) => ({
+  ...articlesData
+    .filter((article) => article.slug !== 'best-true-crime-books' && article.slug !== 'best-stephen-king-books')
+    .map((article) => ({
     url: `${baseUrl}/books/${article.slug}`,
     lastModified: latestDate(article.updatedDate ?? article.publishedDate, contentRefreshDate),
     changeFrequency: 'monthly' as const,
@@ -181,13 +184,17 @@ export function buildSitemapXml(entries: SitemapEntry[]) {
 }
 
 export function buildSitemapIndexXml() {
+  const spanishLastModified = getSpanishSitemapEntries().reduce(
+    (latest, entry) => (entry.lastModified > latest ? entry.lastModified : latest),
+    contentRefreshDate
+  )
   const sitemaps = [
     { url: `${baseUrl}/sitemap-main.xml`, lastModified: contentRefreshDate },
     { url: `${baseUrl}/sitemap-books.xml`, lastModified: contentRefreshDate },
     { url: `${baseUrl}/sitemap-beauty.xml`, lastModified: contentRefreshDate },
     { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: contentRefreshDate },
     { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: contentRefreshDate },
-    { url: `${baseUrl}/sitemap-es.xml`, lastModified: '2026-07-07' },
+    { url: `${baseUrl}/sitemap-es.xml`, lastModified: spanishLastModified },
   ]
     .map(
       (sitemap) =>

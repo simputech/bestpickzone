@@ -8,6 +8,7 @@ interface BookCTAProps {
   affiliateLabel?: string
   affiliatePlatform?: 'amazon' | 'ebay'
   trackingId?: string
+  placement?: string
 }
 
 export default function BookCTA({
@@ -17,6 +18,7 @@ export default function BookCTA({
   affiliateLabel,
   affiliatePlatform = 'amazon',
   trackingId,
+  placement = 'book-cta',
 }: BookCTAProps) {
   const query = encodeURIComponent(`${title} ${author}`)
   const baseUrl = affiliateUrl ?? `https://www.amazon.com/s?k=${query}&tag=althcu-20`
@@ -40,6 +42,9 @@ export default function BookCTA({
         target="_blank"
         rel="noopener nofollow sponsored"
         className={className}
+        data-affiliate-placement={placement}
+        data-affiliate-product={`${title} by ${author}`}
+        data-affiliate-link-type="button"
       >
         <span>{label}</span>
         <svg

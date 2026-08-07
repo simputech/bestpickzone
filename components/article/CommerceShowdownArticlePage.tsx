@@ -117,6 +117,9 @@ function ProductCard({ product }: { product: ShowdownProduct }) {
             target="_blank"
             rel="sponsored noopener"
             className="inline-flex items-center justify-center rounded-xl border border-[#f0c14b] bg-gradient-to-b from-[#ffd814] to-[#f7ca00] px-6 py-3 text-base font-extrabold text-[#111] shadow-sm transition hover:from-[#f7ca00] hover:to-[#ddb100]"
+            data-affiliate-placement="product-card"
+            data-affiliate-product={product.name}
+            data-affiliate-link-type="button"
           >
             Click Here to Check Price on Amazon
           </Link>
@@ -286,6 +289,9 @@ export default function CommerceShowdownArticlePage({ article }: { article: Show
               target="_blank"
               rel="sponsored noopener"
               className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-extrabold text-slate-950 transition hover:bg-amber-300"
+              data-affiliate-placement="decision-verdict"
+              data-affiliate-product={left.name}
+              data-affiliate-link-type="button"
             >
               Get the OXO on Amazon
             </Link>
@@ -294,6 +300,9 @@ export default function CommerceShowdownArticlePage({ article }: { article: Show
               target="_blank"
               rel="sponsored noopener"
               className="inline-flex items-center justify-center rounded-xl border border-white/30 px-5 py-3 text-sm font-extrabold text-white transition hover:bg-white/10"
+              data-affiliate-placement="decision-verdict"
+              data-affiliate-product={right.name}
+              data-affiliate-link-type="button"
             >
               Get the Fullstar Instead
             </Link>
@@ -344,6 +353,9 @@ export default function CommerceShowdownArticlePage({ article }: { article: Show
               target="_blank"
               rel="sponsored noopener"
               className="rounded-lg bg-amber-300 px-4 py-2 text-sm font-extrabold text-slate-950 transition hover:bg-amber-200"
+              data-affiliate-placement="mobile-sticky"
+              data-affiliate-product={left.name}
+              data-affiliate-link-type="button"
             >
               Buy on Amazon
             </Link>
@@ -352,6 +364,9 @@ export default function CommerceShowdownArticlePage({ article }: { article: Show
               target="_blank"
               rel="sponsored noopener"
               className="rounded-lg border border-white/20 px-4 py-2 text-sm font-extrabold text-white transition hover:bg-white/10"
+              data-affiliate-placement="mobile-sticky"
+              data-affiliate-product={right.name}
+              data-affiliate-link-type="button"
             >
               Budget pick
             </Link>

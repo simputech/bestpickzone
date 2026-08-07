@@ -15,7 +15,15 @@ function ProductBlock({ product }: { product: ComparisonProductSection }) {
         <p key={`${product.shortName}-${index}`} className="mb-4 leading-relaxed text-gray-700">
           {index === 0 ? (
             <>
-              <a href={amazonUrl} target="_blank" rel="sponsored noopener" className="font-semibold text-amber-800 underline underline-offset-2">
+              <a
+                href={amazonUrl}
+                target="_blank"
+                rel="sponsored noopener"
+                className="font-semibold text-amber-800 underline underline-offset-2"
+                data-affiliate-placement="product-intro"
+                data-affiliate-product={product.name}
+                data-affiliate-link-type="inline"
+              >
                 {product.name}
               </a>{' '}
               {paragraph}
@@ -51,6 +59,9 @@ function ProductBlock({ product }: { product: ComparisonProductSection }) {
         target="_blank"
         rel="sponsored noopener"
         className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-400 px-6 py-3 text-base font-bold text-gray-900 transition hover:bg-amber-300"
+        data-affiliate-placement="product-verdict"
+        data-affiliate-product={product.name}
+        data-affiliate-link-type="button"
       >
         Click Here to Buy on Amazon
       </a>
