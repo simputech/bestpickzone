@@ -51,7 +51,7 @@ export const siteSections: SiteSection[] = [
     key: 'health-fitness',
     href: '/health-fitness',
     title: 'Health & Fitness',
-    description: 'Fitness gear and training-product guides with cleaner crawl paths to the hub.',
+    description: 'Fitness gear and training-product guides for clearer, more confident buying decisions.',
   },
   {
     key: 'home-kitchen',
