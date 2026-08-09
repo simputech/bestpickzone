@@ -32,23 +32,104 @@ function titleCaseDate(dateString: string) {
   }).format(new Date(`${dateString}T00:00:00Z`))
 }
 
-function buildRecommendationUrl(
+type SpanishRecommendationItem = ReturnType<typeof getSpanishArticleRecommendations>[number]
+
+const AMAZON_TAG = 'althcu-20'
+
+// Amazon Associates reads `ascsubtag` back into the Associates dashboard, so the
+// same id we send to GA is the one that shows up on Amazon's side.
+function withAmazonSubtag(url: string, trackingId: string) {
+  try {
+    const parsed = new URL(url)
+    if (parsed.hostname.toLowerCase().endsWith('amazon.com')) {
+      parsed.searchParams.set('ascsubtag', trackingId)
+      return parsed.toString()
+    }
+    return url
+  } catch {
+    return url
+  }
+}
+
+function buildRecommendationLink(
   article: NonNullable<ReturnType<typeof getSpanishArticle>>,
-  title: string,
-  recommendation: ReturnType<typeof getSpanishArticleRecommendations>[number]
+  recommendation: SpanishRecommendationItem,
+  placement: string
 ) {
-  const trackingId = buildAffiliateTrackingId('es', article.section, article.slug, title)
+  const trackingId = buildAffiliateTrackingId(
+    'es',
+    article.section,
+    article.slug,
+    placement,
+    recommendation.title
+  )
 
   if (recommendation.affiliateUrl) {
-    return getAffiliateUrlWithTracking(
+    const withPlatformTracking = getAffiliateUrlWithTracking(
       recommendation.affiliateUrl,
       recommendation.affiliatePlatform,
       trackingId
     )
+    return { href: withAmazonSubtag(withPlatformTracking, trackingId), trackingId }
   }
 
-  const query = recommendation.query ?? title
-  return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=althcu-20`
+  const search = new URL('https://www.amazon.com/s')
+  search.searchParams.set('k', recommendation.query ?? recommendation.title)
+  search.searchParams.set('tag', AMAZON_TAG)
+  search.searchParams.set('ascsubtag', trackingId)
+  return { href: search.toString(), trackingId }
+}
+
+function defaultAffiliateLabel(recommendation: SpanishRecommendationItem) {
+  return (
+    recommendation.affiliateLabel ??
+    (recommendation.affiliatePlatform === 'ebay' ? 'Ver opciones en eBay' : 'Ver en Amazon')
+  )
+}
+
+function AffiliateButton({
+  href,
+  trackingId,
+  label,
+  platform,
+  className = '',
+}: {
+  href: string
+  trackingId: string
+  label: string
+  platform?: 'amazon' | 'ebay'
+  className?: string
+}) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener nofollow sponsored"
+      data-affiliate-placement={trackingId}
+      className={`inline-flex rounded-full px-4 py-3 text-sm font-semibold transition ${
+        platform === 'ebay'
+          ? 'bg-sky-600 text-white hover:bg-sky-500'
+          : 'bg-yellow-400 text-slate-900 hover:bg-yellow-300'
+      } ${className}`}
+    >
+      {label}
+    </a>
+  )
+}
+
+function normalizeTitle(value: string) {
+  return value
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[^a-z0-9]+/g, '')
+}
+
+function findRecommendationForTitle(
+  recommendations: SpanishRecommendationItem[],
+  title: string
+) {
+  const normalized = normalizeTitle(title)
+  return recommendations.find((item) => normalizeTitle(item.title) === normalized)
 }
 
 export function generateStaticParams() {
@@ -242,6 +323,8 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
   const related = getSpanishRelatedArticles(article)
   const section = spanishSectionMap[article.section]
   const recommendations = getSpanishArticleRecommendations(article)
+  const topPick = recommendations[0]
+  const topPickLink = topPick ? buildRecommendationLink(article, topPick, 'top-pick') : null
 
   return (
     <main lang="es" className="mx-auto max-w-5xl px-4 py-10">
@@ -282,6 +365,23 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           <div className="rounded-[1.75rem] bg-slate-50 p-5">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Respuesta Rapida</p>
             <p className="mt-3 text-base leading-7 text-slate-700">{article.metaDescription}</p>
+
+            {topPick && topPickLink ? (
+              <div className="mt-5 rounded-[1.5rem] bg-white p-4 ring-1 ring-amber-200">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-amber-700">
+                  Nuestra Recomendacion
+                </p>
+                <p className="mt-2 text-lg font-black leading-7 text-slate-900">{topPick.title}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-700">{topPick.description}</p>
+                <AffiliateButton
+                  href={topPickLink.href}
+                  trackingId={topPickLink.trackingId}
+                  platform={topPick.affiliatePlatform}
+                  label={defaultAffiliateLabel(topPick)}
+                  className="mt-4 w-full justify-center"
+                />
+              </div>
+            ) : null}
           </div>
         </div>
       </article>
@@ -326,48 +426,54 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           </div>
 
           <div className="mt-6 space-y-5">
-            {article.bookHighlights.map((book) => (
-              <div
-                key={book.title}
-                className="rounded-[1.75rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_100%)] p-5"
-              >
-                <div className="flex flex-wrap items-center gap-3">
-                  <h3 className="text-2xl font-black text-slate-900">{book.title}</h3>
-                  <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-800">
-                    {book.badge}
-                  </span>
+            {article.bookHighlights.map((book) => {
+              const match = findRecommendationForTitle(recommendations, book.title)
+              const link = match ? buildRecommendationLink(article, match, 'highlight') : null
+
+              return (
+                <div
+                  key={book.title}
+                  className="rounded-[1.75rem] border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_100%)] p-5"
+                >
+                  <div className="flex flex-wrap items-center gap-3">
+                    <h3 className="text-2xl font-black text-slate-900">{book.title}</h3>
+                    <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-amber-800">
+                      {book.badge}
+                    </span>
+                  </div>
+                  <p className="mt-4 text-base leading-7 text-slate-700">{book.summary}</p>
+                  <p className="mt-4 text-base leading-7 text-slate-700">{book.insight}</p>
+                  <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-sm leading-6 text-slate-800 ring-1 ring-amber-200">
+                    <strong>Mejor para:</strong> {book.bestFor}
+                  </p>
+                  {match && link ? (
+                    <AffiliateButton
+                      href={link.href}
+                      trackingId={link.trackingId}
+                      platform={match.affiliatePlatform}
+                      label={defaultAffiliateLabel(match)}
+                      className="mt-4"
+                    />
+                  ) : null}
                 </div>
-                <p className="mt-4 text-base leading-7 text-slate-700">{book.summary}</p>
-                <p className="mt-4 text-base leading-7 text-slate-700">{book.insight}</p>
-                <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-sm leading-6 text-slate-800 ring-1 ring-amber-200">
-                  <strong>Mejor para:</strong> {book.bestFor}
-                </p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </section>
       ) : null}
 
       {recommendations.length > 0 ? (
         <section className="mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Recomendaciones</p>
-              <h2 className="mt-2 text-2xl font-black text-slate-900">
-                Productos y libros para comprar desde esta guia
-              </h2>
-            </div>
-            <a
-              href={`https://bestpickzone.com${article.englishPath}`}
-              className="rounded-full bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-amber-700"
-            >
-              Ver la lista completa en ingles
-            </a>
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Recomendaciones</p>
+            <h2 className="mt-2 text-2xl font-black text-slate-900">
+              Productos y libros para comprar desde esta guia
+            </h2>
           </div>
 
           <div className="mt-6 grid gap-4 md:grid-cols-2">
             {recommendations.map((recommendation) => {
-              const href = buildRecommendationUrl(article, recommendation.title, recommendation)
+              const link = buildRecommendationLink(article, recommendation, 'lista')
 
               return (
                 <div
@@ -376,25 +482,26 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
                 >
                   <h3 className="text-xl font-black text-slate-900">{recommendation.title}</h3>
                   <p className="mt-3 text-base leading-7 text-slate-700">{recommendation.description}</p>
-                  <a
-                    href={href}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className={`mt-4 inline-flex rounded-full px-4 py-3 text-sm font-semibold transition ${
-                      recommendation.affiliatePlatform === 'ebay'
-                        ? 'bg-sky-600 text-white hover:bg-sky-500'
-                        : 'bg-yellow-400 text-slate-900 hover:bg-yellow-300'
-                    }`}
-                  >
-                    {recommendation.affiliateLabel ??
-                      (recommendation.affiliatePlatform === 'ebay'
-                        ? 'Ver opciones en eBay'
-                        : 'Ver en Amazon')}
-                  </a>
+                  <AffiliateButton
+                    href={link.href}
+                    trackingId={link.trackingId}
+                    platform={recommendation.affiliatePlatform}
+                    label={defaultAffiliateLabel(recommendation)}
+                    className="mt-4"
+                  />
                 </div>
               )
             })}
           </div>
+
+          <p className="mt-6 text-sm leading-6 text-slate-500">
+            <a
+              href={`https://bestpickzone.com${article.englishPath}`}
+              className="underline underline-offset-4 transition hover:text-amber-700"
+            >
+              Ver la lista completa en ingles
+            </a>
+          </p>
         </section>
       ) : null}
 
