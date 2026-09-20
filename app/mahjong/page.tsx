@@ -11,7 +11,7 @@ const guides = [
   { href: '/mahjong/best-travel-mahjong-sets', title: 'Best Travel Mahjong Sets', text: 'Compact and portable options for trips, cruises, RVs, and game nights away from home.', status: 'Live' },
   { href: '/mahjong/mahjong-set-vs-mahjong-card', title: 'Mahjong Set vs. Mahjong Card', text: 'What new American Mahjong players actually need to buy, what the annual card does, and why a set alone is not always enough.', status: 'Live' },
   { href: '/mahjong/best-mahjong-accessories', title: 'Best Mahjong Accessories for Game Night', text: 'Card holders, mats, racks, pushers, line finders, and carrying bags that solve real game-night problems.', status: 'Live' },
-  { title: 'How to Choose a Mahjong Set', text: 'A buyer’s guide to American, Chinese, Japanese Riichi, and Taiwanese tile systems before you choose a set.', status: 'Planned' },
+  { href: '/mahjong/how-to-choose-a-mahjong-set', title: 'How to Choose a Mahjong Set', text: 'A version-first buyer’s guide to American, Chinese, Japanese Riichi, and Taiwanese tile systems before you choose a set.', status: 'Live' },
   { title: 'Best Book to Learn Mahjong', text: 'A beginner-friendly guide to learning the rules, table vocabulary, and decision-making without buying the wrong instructional book.', status: 'Planned' },
 ] as const
 
