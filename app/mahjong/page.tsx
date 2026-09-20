@@ -8,7 +8,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 const guides = [
   { href: '/mahjong/best-mahjong-sets-for-beginners', title: 'Best Mahjong Sets for Beginners', text: 'A practical first-buy guide for American Mahjong players: 166 tiles, racks, pushers, cases, and the mistakes that make a new set unusable.', status: 'Live' },
   { href: '/mahjong/best-american-mahjong-sets-on-amazon', title: 'Best American Mahjong Sets on Amazon', text: 'A dedicated comparison for players who need American-style tiles, jokers, racks, pushers, and carrying cases.', status: 'Live' },
-  { title: 'Best Travel Mahjong Sets', text: 'Compact and portable options for trips, cruises, RVs, and game nights away from home.', status: 'Planned' },
+  { href: '/mahjong/best-travel-mahjong-sets', title: 'Best Travel Mahjong Sets', text: 'Compact and portable options for trips, cruises, RVs, and game nights away from home.', status: 'Live' },
   { title: 'Mahjong Set vs. Mahjong Card', text: 'What new American Mahjong players actually need to buy, what the annual card does, and why a set alone is not always enough.', status: 'Planned' },
   { title: 'Best Mahjong Accessories for Game Night', text: 'Mats, racks, pushers, card holders, score pads, table covers, and carrying cases.', status: 'Planned' },
   { title: 'How to Choose a Mahjong Set', text: 'A buyer’s guide to American, Chinese, Japanese Riichi, and Taiwanese tile systems before you choose a set.', status: 'Planned' },
