@@ -40,6 +40,7 @@ const groups = [
       { slug: 'best-gaggia-classic-pro-upgrades', title: 'Best Gaggia Classic Pro Upgrades', spec: 'The 58mm tools, grinder prerequisite, and machine mods that actually matter in 2026' },
       { slug: 'breville-bambino-plus-vs-gaggia-classic-pro', title: 'Breville Bambino Plus vs Gaggia Classic Pro', spec: 'ThermoJet speed vs 58mm brass-boiler workflow' },
       { slug: 'breville-barista-express-vs-delonghi-la-specialista', title: "Breville Barista Express vs De'Longhi La Specialista", spec: 'Built-in grinder workflow vs assisted tamping' },
+      { slug: 'baratza-encore-esp-vs-fellow-opus-2', title: 'Baratza Encore ESP vs Fellow Opus 2', spec: 'Stepped hopper workflow vs stepless single dosing for espresso and filter coffee' },
     ],
   },
   {

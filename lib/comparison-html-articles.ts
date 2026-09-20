@@ -565,6 +565,68 @@ export const coffeeComparisonArticles: HtmlComparisonArticle[] = [
 <p><em>Last verified: June 2026. Specs confirmed against Acaia and Timemore product pages and editorial reviews; prices change frequently, so confirm current Amazon pricing and seller details before purchasing.</em></p>
 `,
   },
+  {
+    slug: 'baratza-encore-esp-vs-fellow-opus-2',
+    silo: 'coffee',
+    title: 'Baratza Encore ESP vs Fellow Opus 2',
+    description:
+      'Baratza Encore ESP vs Fellow Opus 2: 40mm stepped espresso control and a hopper versus 48mm stepless single dosing. Which $200 grinder fits your coffee routine?',
+    ogTitle: 'Baratza Encore ESP vs Fellow Opus 2: Which Grinder Should You Buy?',
+    ogDescription:
+      'A practical comparison of two $199.95 espresso-capable grinders: adjustment, burrs, dosing workflow, portafilter fit, and the right choice for your routine.',
+    twitterTitle: 'Encore ESP vs Fellow Opus 2',
+    twitterDescription:
+      'Stepped espresso workflow vs. stepless single dosing. The details that decide this $200 grinder choice.',
+    heroImage: {
+      src: '/images/coffee/coffee-brewing-tools.svg',
+      alt: 'An illustrated arrangement of coffee beans, a hand grinder, and a gooseneck kettle.',
+      width: 1200,
+      height: 800,
+    },
+    bodyHtml: `
+<p><em>Affiliate disclosure: BestPickZone earns a commission on qualifying purchases made through links on this page, at no extra cost to you. Product details verified against Baratza and Fellow manufacturer pages on September 19, 2026; confirm current Amazon pricing and the exact model before buying.</em></p>
+<p><strong>Buy the Baratza Encore ESP if espresso is your main job and you prefer a familiar hopper, a numbered stepped dial, and a parts-first ownership model. Buy the Fellow Opus 2 if you move between espresso, pour-over, and cold brew and want stepless adjustment with a single-dose workflow.</strong> Both manufacturers list the base models at $199.95, so this is not a price decision. It is a decision between an espresso-oriented adjustment layout and a newer all-method grinder built around 48 mm burrs, an ionizer, and catch cups.</p>
+<table>
+<thead><tr><th>Spec</th><th>Baratza Encore ESP</th><th>Fellow Opus 2</th></tr></thead>
+<tbody>
+<tr><td>Manufacturer list price</td><td>$199.95</td><td>$199.95</td></tr>
+<tr><td>Burrs</td><td>40 mm M2 conical steel</td><td>48 mm stainless-steel conical</td></tr>
+<tr><td>Adjustment</td><td>Stepped hopper dial; fine range can be shimmed</td><td>Stepless side dial</td></tr>
+<tr><td>Bean workflow</td><td>300 g hopper; manual start</td><td>100 g single-dose load bin; automatic stop</td></tr>
+<tr><td>Portafilter handoff</td><td>Dosing cup fits 54 mm; 58 mm adapter included</td><td>Espresso catch cup fits 54 mm and 58 mm</td></tr>
+<tr><td>Warranty</td><td>1 year</td><td>2 years standard</td></tr>
+<tr><td>Counter footprint</td><td>13 × 15 × 34 cm</td><td>206 × 130 × 267 mm</td></tr>
+</tbody>
+</table>
+<h2>Which grinder is easier to dial in for espresso?</h2>
+<p>The Encore ESP is the simpler starting point when espresso is the priority. Baratza built it around a high-resolution fine range and a dosing cup that takes grounds directly to a 54 mm portafilter; the included adapter covers 58 mm. Its stepped hopper adjustment gives a repeatable reference point when you change beans or return to a known recipe.</p>
+<p>The <a href="https://www.baratza.com/en-us/product/zcg495" target="_blank" rel="noopener">Encore ESP product page</a> specifies 40 mm M2 conical steel burrs, a 300 g hopper, manual dosing, and the ability to add or remove shims to move the fine grind range. That matters because espresso adjustments are narrow: a grinder should let you make one small change, pull another shot, and know where you are on the dial. The Encore ESP’s visible step system is less abstract for a first espresso setup than a stepless dial.</p>
+<p>The trade-off is workflow flexibility. A hopper is pleasant when you use one coffee for several days, but it is less tidy when you want to switch between a decaf espresso and a filter coffee without emptying beans. The Encore ESP is also taller than the Opus 2, so measure below cabinets before treating the hopper as the default answer.</p>
+<ul><li><strong>Choose it for:</strong> an espresso-first routine, a regular bag of beans in the hopper, and a clear numbered adjustment reference.</li><li><strong>Skip it for:</strong> frequent bean changes, a small counter, or a strongly single-dose routine.</li></ul>
+<p><a href="https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20" target="_blank" rel="sponsored noopener nofollow">Check the Baratza Encore ESP on Amazon</a></p>
+<h2>Is the Fellow Opus 2 the better one-grinder solution?</h2>
+<p>The Opus 2 is the more natural choice when one grinder has to cover espresso in the morning and brewed coffee later. Fellow says it is designed for espresso through cold brew, and its stepless side dial is intended for finer adjustment than a fixed click system. That versatility is paired with a 100 g single-dose load bin, automatic shutoff, and separate brewed-coffee and espresso catch cups.</p>
+<p>Fellow’s <a href="https://fellowproducts.com/products/opus-2-conical-burr-grinder" target="_blank" rel="noopener">Opus 2 product page</a> lists 48 mm conical burrs, an integrated ionizer for static control, and an espresso cup compatible with 54 mm and 58 mm portafilters. It also confirms an important naming detail: this is the newer Opus 2, not the original Opus. Fellow says the new model increases burr size from 40 mm to 48 mm, adds a stepless adjustment dial, and includes two dedicated catch cups. Shoppers should use the “Opus 2” name when comparing listings so an older Opus does not get substituted by accident.</p>
+<p>Stepless adjustment comes with a different learning curve. It gives you more room to split the difference between two settings, but it does not give you preset clicks to return to after cleaning or changing coffees. Marking a favorite position and weighing each dose makes the workflow more repeatable. The result is not inherently better espresso; it is a different way of controlling it.</p>
+<ul><li><strong>Choose it for:</strong> single dosing, mixed brew methods, a smaller footprint, and a 54 mm or 58 mm espresso workflow.</li><li><strong>Skip it for:</strong> a fixed hopper routine where straightforward stepped settings matter more than switching beans.</li></ul>
+<p><a href="https://www.amazon.com/s?k=Fellow+Opus+2+conical+burr+grinder&tag=althcu-20" target="_blank" rel="sponsored noopener nofollow">Check the Fellow Opus 2 on Amazon</a></p>
+<h2>Which one fits a Breville Bambino or Bambino Plus?</h2>
+<p>Either grinder can hand off grounds cleanly to the Bambino family’s 54 mm portafilter. The Encore ESP includes a 54 mm dosing cup, while the Opus 2 includes an espresso catch cup compatible with 54 mm and 58 mm portafilters. For a Bambino owner, the difference is not fit; it is whether the rest of the setup behaves like a hopper-based espresso station or a single-dose station.</p>
+<p>The useful buying order is practical: choose the basket first, choose fresh beans, then pick the workflow that makes it easiest to adjust one variable at a time. A pressurized basket can mask a wide grind range; an unpressurized basket exposes it. That is why a grinder decision matters more than adding a bottomless portafilter before you can consistently dial in a shot. See our <a href="/coffee/what-to-buy-with-your-breville-bambino-plus">Breville Bambino Plus upgrade guide</a> for the rest of that setup, including the tools that are worth adding after the grinder.</p>
+<h2>What is the real deciding factor: burr size or workflow?</h2>
+<p>Workflow is the more honest deciding factor at this price. The Fellow has larger 48 mm conical burrs; the Baratza uses 40 mm conical burrs. Burr size alone does not tell you which grinder will make your mornings easier. The meaningful question is whether you keep one coffee in a 300 g hopper or weigh a fresh single dose every time, and whether you want stepped or stepless adjustment while dialing in.</p>
+<p>That distinction makes the table more useful than a generic “best grinder” verdict. A household that pulls two milk drinks from the same beans every morning is likely to appreciate the Encore ESP’s hopper and repeatable dial. A household that alternates between espresso, decaf, and pour-over is likely to benefit more from the Opus 2’s catch cups, automatic stop, and single-dose load bin. Both choices are coherent; buying the wrong workflow creates more friction than buying either of these burr sets.</p>
+<h2>Baratza Encore ESP vs Fellow Opus 2: the final verdict</h2>
+<p>The Encore ESP is our pick for the espresso-first beginner who wants a conventional hopper and simple, repeatable stepped adjustments. The Opus 2 is the better fit for the person who treats espresso as one of several brew methods and wants single-dose flexibility, stepless control, and a smaller machine. At the same manufacturer list price, do not let a minor sale decide for you; choose the workflow you will actually repeat every morning.</p>
+<p>For a broader machine decision, compare the <a href="/coffee/breville-bambino-plus-vs-gaggia-classic-pro">Breville Bambino Plus and Gaggia Classic Pro</a>, or return to the <a href="/coffee">BestPickZone coffee gear hub</a> for espresso machines, grinders, kettles, and scales.</p>
+<h3>Frequently asked questions</h3>
+<p><strong>Is the Fellow Opus 2 the same as the original Fellow Opus?</strong> No. Fellow says the Opus 2 has 48 mm conical burrs instead of 40 mm, a stepless side dial, updated ionizer, and dedicated brewed-coffee and espresso catch cups. Check that a listing explicitly says Opus 2.</p>
+<p><strong>Can the Encore ESP and Opus 2 both use a 54 mm portafilter?</strong> Yes. Baratza includes a 54 mm dosing cup with the Encore ESP, and Fellow lists the Opus 2 espresso catch cup as compatible with 54 mm and 58 mm portafilters.</p>
+<p><strong>Which grinder is easier if I use one bag of espresso beans all week?</strong> The Encore ESP is usually the simpler fit because it has a 300 g hopper and a stepped dial. The Opus 2 makes more sense when you prefer to weigh individual doses or switch beans often.</p>
+<p><strong>Which one has the longer manufacturer warranty?</strong> Fellow lists a two-year standard warranty for the Opus 2. Baratza lists a one-year manufacturer warranty for the Encore ESP.</p>
+<p><em>Last verified: September 19, 2026. Specifications and current manufacturer list prices were checked against Baratza’s Encore ESP page and Fellow’s Opus 2 page. Amazon listing details and prices can change; confirm the model and seller before purchasing.</em></p>
+`,
+  },
 ]
 
 export const beautyComparisonArticles: HtmlComparisonArticle[] = [
