@@ -22,6 +22,10 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
   }
 
   const pageUrl = `https://bestpickzone.com/coffee/${article.slug}`
+  const modifiedTime =
+    article.slug === 'baratza-encore-esp-vs-fellow-opus-2'
+      ? '2026-09-19T00:00:00Z'
+      : undefined
 
   return withArticleMetadataDefaults({
     title: article.title,
@@ -40,6 +44,7 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
     },
   }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime,
   url: pageUrl, category: 'coffee', section: 'Coffee' })
 }
 
