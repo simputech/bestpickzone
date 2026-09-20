@@ -97,6 +97,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/mahjong/best-mahjong-sets-for-beginners`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-american-mahjong-sets-on-amazon`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-travel-mahjong-sets`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/mahjong/best-mahjong-cards`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/mahjong-set-vs-mahjong-card`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-dorm-room-essentials`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-study-desk-essentials`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
