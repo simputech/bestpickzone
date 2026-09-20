@@ -106,6 +106,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen/best-robot-vacuums`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-coffee-makers-under-100`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-air-fryers`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-halloween-candy-deals-on-amazon`, lastModified: '2026-09-19', changeFrequency: 'weekly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-vintage-countertop-milkshake-machines-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.8 },
   ...techSlugs.map(({ slug, date }) => ({
     url: `${baseUrl}/tech/${slug}`,

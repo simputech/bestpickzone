@@ -25,6 +25,15 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'best-halloween-candy-deals-on-amazon',
+    title: 'Best Halloween Candy Deals on Amazon (2026)',
+    description:
+      'A practical Halloween candy buying guide that starts with real trick-or-treat traffic, then recommends the right bag size, chocolate mix, and separate allergy-friendly alternative.',
+    badge: 'Seasonal Buying Guide',
+    badgeColor: 'bg-orange-100 text-orange-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-kitchenaid-attachments-worth-buying',
     title: 'Best KitchenAid Attachments Worth Buying (2026)',
     description:
