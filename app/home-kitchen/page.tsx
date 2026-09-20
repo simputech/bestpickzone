@@ -25,6 +25,14 @@ export const metadata: Metadata = withArticleMetadataDefaults({
 
 const articles = [
   {
+    slug: 'best-fall-clothes-for-couples',
+    title: 'Best Fall Clothes for Couples (2026)',
+    description: 'A practical guide to coordinated flannels, sweaters, denim, and light layers that look connected without requiring matching outfits.',
+    badge: 'Fall Style Guide',
+    badgeColor: 'bg-amber-100 text-amber-700',
+    comingSoon: false,
+  },
+  {
     slug: 'best-halloween-candy-deals-on-amazon',
     title: 'Best Halloween Candy Deals on Amazon (2026)',
     description:
