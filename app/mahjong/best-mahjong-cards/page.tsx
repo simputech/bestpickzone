@@ -10,7 +10,7 @@ const description = 'The best Mahjong cards for American Mahjong in 2026, includ
 const tag = 'althcu-20'
 const amazon = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`
 
-export const metadata: Metadata = withArticleMetadataDefaults({ title: 'Best Mahjong Cards for American Mahjong (2026) | BestPickZone', description, alternates: { canonical: url }, openGraph: { title: 'Best Mahjong Cards for American Mahjong (2026)', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'Best Mahjong Cards for American Mahjong (2026)', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['American Mahjong', 'Mahjong cards', 'NMJL card', 'Mahjong sets'] })
+export const metadata: Metadata = withArticleMetadataDefaults({ title: 'Best Mahjong Cards for American Mahjong (2026)', description, alternates: { canonical: url }, openGraph: { title: 'Best Mahjong Cards for American Mahjong (2026)', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'Best Mahjong Cards for American Mahjong (2026)', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['American Mahjong', 'Mahjong cards', 'NMJL card', 'Mahjong sets'] })
 
 const articleSchema = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Best Mahjong Cards for American Mahjong (2026)', description, datePublished: published, dateModified: published, mainEntityOfPage: url, author: { '@type': 'Organization', name: 'BestPickZone Editorial Team' }, publisher: { '@type': 'Organization', name: 'BestPickZone' } }
 
