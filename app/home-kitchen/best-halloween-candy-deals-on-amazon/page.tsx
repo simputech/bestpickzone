@@ -15,7 +15,7 @@ function amazonSearch(query: string) {
 }
 
 const metaDescription =
-  'The best Halloween candy deals on Amazon in 2026, from a reliable all-around Hershey assortment to a bigger party bag and an allergy-friendly option. Buy the right count, not just the lowest sticker price.'
+  'The best Halloween candy deals on Amazon in 2026, with estimated cost per trick-or-treater for a Hershey assortment, a bigger party bag, and an allergy-friendly option. Buy the right count, not just the lowest sticker price.'
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
@@ -28,6 +28,8 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'bulk halloween candy',
       'trick or treat candy variety pack',
       'best halloween candy variety bag',
+      'halloween candy cost per trick or treater',
+      'how much does halloween candy cost per child',
     ],
     openGraph: { title: 'Best Halloween Candy Deals on Amazon (2026)', description: metaDescription, url: pageUrl, type: 'article' },
     twitter: { card: 'summary_large_image', title: 'Best Halloween Candy Deals on Amazon', description: metaDescription },
@@ -46,6 +48,9 @@ type Pick = {
   cons: string[]
   verdict: string
   skip: string
+  priceChecked: string
+  costPerTreat: string
+  quickPickTitle?: string
 }
 
 const picks: Pick[] = [
@@ -60,6 +65,9 @@ const picks: Pick[] = [
     cons: ['Not a fit for nut-free needs', 'Chocolate is a weaker choice in unusually warm weather'],
     verdict: 'Start here if your goal is a crowd-pleasing bag with enough variety and a count that is easy to plan around.',
     skip: 'Skip it if you need to avoid common allergens or expect a very large event; buy a clearly labeled allergy-friendly option or a 300-plus-piece assortment instead.',
+    priceChecked: '$18.49',
+    costPerTreat: '~$0.16',
+    quickPickTitle: "HERSHEY'S 115-piece assortment",
   },
   {
     rank: 2,
@@ -72,6 +80,9 @@ const picks: Pick[] = [
     cons: ['Takes storage space', 'Only a deal if you will actually use the count'],
     verdict: 'Choose this when headcount is your main concern. A big bag that fits your traffic is a better deal than a low-cost bag that runs out early.',
     skip: 'Skip it for apartment-door trick-or-treating or a quiet street. The unused candy is not a bargain just because the per-piece cost is lower.',
+    priceChecked: '$44.99',
+    costPerTreat: '~$0.14',
+    quickPickTitle: "HERSHEY'S 330-piece assortment",
   },
   {
     rank: 3,
@@ -84,6 +95,8 @@ const picks: Pick[] = [
     cons: ['No non-chocolate fallback', 'Contains common allergens; check the package before serving'],
     verdict: 'Pick this for a chocolate-forward house, especially if you would rather offer a few familiar favorites than chase novelty candy.',
     skip: 'Skip it if you want fruit candy in the mix or must accommodate allergy-sensitive guests.',
+    priceChecked: '$24.87',
+    costPerTreat: '~$0.12',
   },
   {
     rank: 4,
@@ -96,6 +109,9 @@ const picks: Pick[] = [
     cons: ['Much higher cost per piece than mainstream assortments', 'Not a blanket guarantee for every allergy'],
     verdict: 'Buy this as a purposeful second option, not as a universal substitute for asking families about their needs and checking the current label.',
     skip: 'Skip it if budget-per-piece is the only goal. It earns its place for the dietary-positioning and variety, not bulk value.',
+    priceChecked: '$24.49',
+    costPerTreat: '~$0.49',
+    quickPickTitle: 'YumEarth Halloween OG Variety Bag',
   },
   {
     rank: 5,
@@ -108,12 +124,15 @@ const picks: Pick[] = [
     cons: ['Can disappear fast on a popular street', 'Usually weaker per-piece value than bigger bags'],
     verdict: 'Use this for a modest candy plan. It is much smarter than overbuying if you realistically expect fewer than a few dozen visitors.',
     skip: 'Skip it if you have historically run out of candy; this is a small-bowl pick, not a main supply for a busy block.',
+    priceChecked: '$20.00',
+    costPerTreat: '~$0.31',
   },
 ]
 
 const faqs = [
   { question: 'When should I buy Halloween candy on Amazon?', answer: 'Buy early enough to avoid delivery and selection pressure, then check the delivery date and price immediately before checkout. Seasonal inventory and prices move quickly, so this guide treats the listed counts and product attributes as a planning tool, not a promise that a particular price will hold.' },
   { question: 'How much Halloween candy should I buy?', answer: 'Start with the number of visitors you actually expect, then decide whether you plan to give one or two pieces per child. A 115-piece bag works for a moderate route; a 200- or 330-piece bag makes more sense for a busy block, party, or shared office bowl.' },
+  { question: 'How is cost per trick-or-treater estimated?', answer: 'The estimate divides the checked Amazon price by the listed individual piece count and assumes one piece per visitor. It is a quick planning estimate, not a guaranteed checkout price: Amazon prices, coupons, package counts, and delivery offers can change.' },
   { question: 'Is the cheapest Halloween candy bag always the best deal?', answer: 'No. Compare piece count, candy type, and whether you will use the whole bag. A large bag can have a lower per-piece cost but still waste money if your route is quiet. A specialty allergy-friendly option may cost more but provide value that a generic chocolate bag cannot.' },
   { question: 'What Halloween candy should I offer for allergy-sensitive trick-or-treaters?', answer: 'Use sealed, clearly labeled alternatives in a separate bowl and check each package at the time you buy it. Do not describe a candy as safe for every allergy based on a general product claim; individual needs and manufacturer statements vary.' },
 ]
@@ -148,9 +167,7 @@ export default function BestHalloweenCandyDealsPage() {
       <section className="mb-10 rounded-[2rem] border border-orange-100 bg-orange-50 p-6">
         <h2 className="text-2xl font-black text-slate-900">Quick picks</h2>
         <div className="mt-5 grid gap-4 md:grid-cols-3">
-          <div className="rounded-2xl bg-white p-5 shadow-sm"><p className="text-sm font-bold uppercase tracking-wide text-orange-700">Best overall</p><p className="mt-2 font-bold text-slate-900">HERSHEY&apos;S 115-piece assortment</p><p className="mt-2 text-sm leading-6 text-slate-600">The balanced count for most homes.</p></div>
-          <div className="rounded-2xl bg-white p-5 shadow-sm"><p className="text-sm font-bold uppercase tracking-wide text-orange-700">Best for a crowd</p><p className="mt-2 font-bold text-slate-900">HERSHEY&apos;S 330-piece assortment</p><p className="mt-2 text-sm leading-6 text-slate-600">Buy the count that matches a busy route.</p></div>
-          <div className="rounded-2xl bg-white p-5 shadow-sm"><p className="text-sm font-bold uppercase tracking-wide text-orange-700">Best alternative</p><p className="mt-2 font-bold text-slate-900">YumEarth Halloween OG Variety Bag</p><p className="mt-2 text-sm leading-6 text-slate-600">A separate, clearly labeled non-chocolate option.</p></div>
+          {[picks[0], picks[1], picks[3]].map((pick) => <div key={pick.rank} className="flex flex-col rounded-2xl bg-white p-5 shadow-sm"><p className="text-sm font-bold uppercase tracking-wide text-orange-700">{pick.badge}</p><p className="mt-2 font-bold text-slate-900">{pick.quickPickTitle}</p><p className="mt-2 text-sm leading-6 text-slate-600">{pick.quick}</p><p className="mt-4 text-sm font-semibold text-slate-800">Cost per trick-or-treater: {pick.costPerTreat}</p><p className="mt-1 text-xs leading-5 text-slate-500">Based on {pick.priceChecked} ÷ listed piece count, one piece each; price may change.</p><a href={amazonSearch(pick.query)} target="_blank" rel="sponsored noopener" className="mt-5 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300">Buy Here on Amazon</a></div>)}
         </div>
       </section>
 
@@ -166,7 +183,7 @@ export default function BestHalloweenCandyDealsPage() {
 
       <section className="space-y-7">
         {picks.map((pick) => <article id={`pick-${pick.rank}`} key={pick.rank} className="scroll-mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_14px_35px_rgba(15,23,42,0.05)]">
-          <div className="flex flex-col justify-between gap-4 sm:flex-row"><div><p className="text-sm font-bold uppercase tracking-[0.18em] text-orange-700">#{pick.rank} · {pick.badge}</p><h2 className="mt-2 text-3xl font-black leading-tight text-slate-900"><a href={amazonSearch(pick.query)} target="_blank" rel="sponsored noopener" className="hover:text-orange-700">{pick.name}</a></h2></div><a href={amazonSearch(pick.query)} target="_blank" rel="sponsored noopener" className="inline-flex h-fit shrink-0 items-center justify-center rounded-full bg-slate-900 px-5 py-3 text-sm font-bold text-white hover:bg-orange-700">Click Here to Buy on Amazon</a></div>
+          <div className="flex flex-col justify-between gap-4 sm:flex-row"><div><p className="text-sm font-bold uppercase tracking-[0.18em] text-orange-700">#{pick.rank} · {pick.badge}</p><h2 className="mt-2 text-3xl font-black leading-tight text-slate-900"><a href={amazonSearch(pick.query)} target="_blank" rel="sponsored noopener" className="hover:text-orange-700">{pick.name}</a></h2></div><a href={amazonSearch(pick.query)} target="_blank" rel="sponsored noopener" className="inline-flex h-fit shrink-0 items-center justify-center rounded-full bg-amber-400 px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300">Click Here to Buy on Amazon</a></div>
           <p className="mt-5 text-lg font-semibold leading-8 text-slate-800">{pick.quick}</p><p className="mt-4 text-base leading-8 text-slate-700">{pick.details}</p>
           <div className="mt-5 grid gap-4 md:grid-cols-2"><div className="rounded-2xl bg-emerald-50 p-5"><h3 className="font-bold text-emerald-950">Pros</h3><ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-emerald-950">{pick.pros.map((pro) => <li key={pro}>{pro}</li>)}</ul></div><div className="rounded-2xl bg-rose-50 p-5"><h3 className="font-bold text-rose-950">Cons</h3><ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-rose-950">{pick.cons.map((con) => <li key={con}>{con}</li>)}</ul></div></div>
           <p className="mt-5 text-base leading-7 text-slate-700"><strong className="text-slate-900">Verdict:</strong> {pick.verdict}</p><p className="mt-3 text-base leading-7 text-slate-700"><strong className="text-slate-900">Skip this if:</strong> {pick.skip}</p>
@@ -177,7 +194,7 @@ export default function BestHalloweenCandyDealsPage() {
 
       <section className="mt-12 rounded-[2rem] border border-slate-200 bg-white p-6"><h2 className="text-3xl font-black text-slate-900">FAQ</h2><div className="mt-6 space-y-5">{faqs.map((faq) => <div key={faq.question} className="rounded-2xl bg-slate-50 p-5"><h3 className="text-xl font-bold text-slate-900">{faq.question}</h3><p className="mt-3 leading-7 text-slate-700">{faq.answer}</p></div>)}</div></section>
 
-      <section className="mt-12 rounded-[2rem] border border-orange-100 bg-orange-50 p-6"><h2 className="text-2xl font-black text-slate-900">Final verdict</h2><p className="mt-3 max-w-3xl leading-7 text-slate-700">Buy the 115-piece HERSHEY&apos;S variety pack for the best balance of familiar candy, manageable leftovers, and normal Halloween coverage. Jump to the 330-piece bag only for a reliably busy route, choose the Mars 200-count mix for an all-chocolate crowd, and use YumEarth as a separate option when its specific current labeling fits your guests&apos; needs.</p><div className="mt-5 flex flex-wrap gap-3"><Link href="/home-kitchen" className="rounded-full bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-orange-200 hover:text-orange-700">Explore Home &amp; Kitchen guides</Link><Link href="/home-kitchen/best-picnic-essentials" className="rounded-full bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-orange-200 hover:text-orange-700">Best picnic essentials</Link><Link href="/home-kitchen/best-products-for-your-backyard" className="rounded-full bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-orange-200 hover:text-orange-700">Best products for your backyard</Link></div></section>
+      <section className="mt-12 rounded-[2rem] border border-orange-100 bg-orange-50 p-6"><h2 className="text-2xl font-black text-slate-900">Final verdict</h2><p className="mt-3 max-w-3xl leading-7 text-slate-700">Buy the 115-piece HERSHEY&apos;S variety pack for the best balance of familiar candy, manageable leftovers, and normal Halloween coverage. At the checked price, that is about 16 cents per trick-or-treater when you give one piece each. Jump to the 330-piece bag only for a reliably busy route, choose the Mars 200-count mix for an all-chocolate crowd, and use YumEarth as a separate option when its specific current labeling fits your guests&apos; needs.</p><a href={amazonSearch(picks[0].query)} target="_blank" rel="sponsored noopener" className="mt-6 inline-flex items-center justify-center rounded-full bg-amber-400 px-6 py-4 text-sm font-bold text-slate-950 transition hover:bg-amber-300">Buy the Best Overall Pick on Amazon</a><div className="mt-5 flex flex-wrap gap-3"><Link href="/home-kitchen" className="rounded-full bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-orange-200 hover:text-orange-700">Explore Home &amp; Kitchen guides</Link><Link href="/home-kitchen/best-picnic-essentials" className="rounded-full bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-orange-200 hover:text-orange-700">Best picnic essentials</Link><Link href="/home-kitchen/best-products-for-your-backyard" className="rounded-full bg-white px-4 py-3 text-sm font-bold text-slate-800 ring-1 ring-orange-200 hover:text-orange-700">Best products for your backyard</Link></div></section>
     </main>
   )
 }
