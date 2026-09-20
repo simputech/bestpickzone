@@ -93,6 +93,8 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.8 },
   { url: `${baseUrl}/finance-software`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.75 },
   { url: `${baseUrl}/health-fitness`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.75 },
+  { url: `${baseUrl}/mahjong`, lastModified: '2026-09-19', changeFrequency: 'weekly', priority: 0.8 },
+  { url: `${baseUrl}/mahjong/best-mahjong-sets-for-beginners`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-dorm-room-essentials`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-study-desk-essentials`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-productivity-products-for-students`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },

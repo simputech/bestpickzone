@@ -25,6 +25,7 @@ const navItems: NavItem[] = [
   { href: '/beauty', label: 'Beauty' },
   { href: '/wfh', label: 'WFH' },
   { href: '/home-kitchen', label: 'Home & Kitchen' },
+  { href: '/mahjong', label: 'Mahjong' },
   {
     label: 'More',
     children: [

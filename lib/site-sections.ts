@@ -13,6 +13,7 @@ export type SiteSectionKey =
   | 'finance-software'
   | 'health-fitness'
   | 'home-kitchen'
+  | 'mahjong'
   | 'tech'
   | 'wfh'
 
@@ -60,6 +61,12 @@ export const siteSections: SiteSection[] = [
     description: 'Appliances, dorm setups, countertop tools, and kitchen comparison pages.',
   },
   {
+    key: 'mahjong',
+    href: '/mahjong',
+    title: 'Mahjong',
+    description: 'American Mahjong set, accessory, and learning-resource guides for new players.',
+  },
+  {
     key: 'tech',
     href: '/tech',
     title: 'Tech',
@@ -102,6 +109,10 @@ const sectionArticleLinks: Record<SiteSectionKey, SectionLink[]> = {
   'home-kitchen': buildLinks(
     mainPages.filter((entry) => toPath(entry).startsWith('/home-kitchen/')),
     '/home-kitchen'
+  ),
+  mahjong: buildLinks(
+    mainPages.filter((entry) => toPath(entry).startsWith('/mahjong/')),
+    '/mahjong'
   ),
   tech: buildLinks(
     mainPages.filter((entry) => toPath(entry).startsWith('/tech/')),
