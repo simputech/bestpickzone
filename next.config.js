@@ -3,6 +3,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/books/colleen-hoover-books-ranked-worst-to-best',
+        destination: '/books/best-colleen-hoover-books',
+        permanent: true,
+      },
+      {
         source: '/wfh/bestpickzone-fully-jarvis-vs-uplift-v2.html',
         destination: '/wfh/fully-jarvis-vs-uplift-v2-standing-desk',
         permanent: true,
