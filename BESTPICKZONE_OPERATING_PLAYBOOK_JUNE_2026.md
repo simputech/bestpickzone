@@ -1,6 +1,6 @@
 # BestPickZone Operating Playbook
 
-Updated: June 14, 2026
+Updated: September 19, 2026
 Primary site: https://bestpickzone.com
 Repo: `/Users/derekconicello/Library/Mobile Documents/com~apple~CloudDocs/SimpuTechBuild/bestpickzone-fixed`
 Deployment: Vercel production on `bestpickzone.com`
@@ -173,6 +173,12 @@ This improves:
 - readability
 - conversion quality
 
+### 7.6 Minimum depth and no-FAQ rule
+
+Every newly published article must contain at least 1,000 words of reader-facing editorial copy. Count the visible article text only; navigation labels, disclosure boilerplate, product titles, button text, schema, and code do not count toward the floor. Target additional depth through product-specific context, decision guidance, and useful tradeoffs—not padding.
+
+Do not add an FAQ section or `FAQPage` schema to new articles. Use the space for a stronger buying guide, comparison, worked recommendation path, or conclusion. Existing FAQ sections may remain unless a page is being materially rebuilt.
+
 ## 8. Content Type Rules
 
 ## 8.1 Comparison pages
@@ -189,9 +195,8 @@ Each comparison page should include:
 4. hero image or original visual
 5. product A section
 6. product B section
-7. FAQ
-8. related internal links
-9. closing that gives a Start Here and Skip This First verdict
+7. related internal links
+8. closing that gives a Start Here and Skip This First verdict
 
 ### Required product-section elements
 
@@ -231,6 +236,7 @@ For books pages:
 - give real descriptions, not listicles with one-line blurbs
 - use author, genre, tone, and reader-fit logic
 - vary layout so the entire books section does not feel cookie-cutter
+- include at least 1,000 words of visible editorial copy and no FAQ section or FAQPage schema
 
 For higher-priority books pages, prefer custom standalone pages over generic dynamic-template output when the topic has real ranking potential.
 
@@ -592,7 +598,7 @@ Use this workflow for new pages.
 - write answer-first intro
 - build the comparison table
 - write two substantial product sections
-- add FAQ
+- meet the 1,000-word visible-copy minimum without an FAQ section
 - add related internal links
 - add Start Here / Skip This First close
 
@@ -763,9 +769,8 @@ The default structure is:
 8. product block B
 9. comparison table
 10. verdict section with CTA buttons
-11. FAQ
-12. related internal links
-13. sticky bottom CTA bar
+11. related internal links
+12. sticky bottom CTA bar
 
 ### Why this is the default right now
 
@@ -843,7 +848,6 @@ Use this as the reference skeleton when translating raw HTML or designing future
 
   <section class="comparison-table"></section>
   <section class="verdict"></section>
-  <section class="faq"></section>
   <section class="related-links"></section>
   <section class="sticky-buy-bar"></section>
 </main>

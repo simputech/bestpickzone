@@ -77,6 +77,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/authors/best-patrick-radden-keefe-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-new-books-april-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-new-books-june-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/reader-picks/best-fall-reads-2026`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-books-like-da-vinci-code`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-action-adventure-books-for-men`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-books-for-people-who-dont-like-reading`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },

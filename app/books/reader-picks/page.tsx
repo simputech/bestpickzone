@@ -43,6 +43,11 @@ export default function ReaderPicksHubPage() {
       text: 'A dedicated emotional-fiction readalike page for readers who want more than a generic BookTok romance list.',
     },
     {
+      href: '/books/reader-picks/best-fall-reads-2026',
+      title: 'Best Fall Reads 2026',
+      text: 'Six distinctly autumnal reads, ranked by whether you want dark academia, a haunted house, magic, gothic suspense, or a short classic.',
+    },
+    {
       href: '/books/reader-picks/best-new-books-june-2026',
       title: 'Best New Books in June 2026',
       text: 'A stronger current-month guide for readers who care about fresh releases, not just evergreen lists.',
