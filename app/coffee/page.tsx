@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
+import { buyingGuides } from '@/lib/buying-guide-data'
 import { coffeeComparisonArticles } from '@/lib/comparison-html-articles'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
@@ -24,6 +25,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   category: 'coffee' })
 
 const groups = [
+  { name: 'Fit and Compatibility Buying Guides', note: 'Choose equipment around your machine, cup, batch size, and available counter space.', items: buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ slug: g.slug, title: g.title, spec: g.description })) },
   {
     name: 'Vintage and Collector Grinders',
     note: 'These pages lean more editorial: buyer fit, restoration risk, collectible value, and which eBay searches are actually worth opening first.',

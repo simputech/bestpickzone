@@ -176,6 +176,7 @@ export default function SmallKitchenCoffeeBarPage() {
           </Link>
         </div>
       </section>
+    <section className="comparison-html my-8 rounded-2xl border border-teal-100 bg-teal-50 p-6"><h2>Check the details of your setup</h2><p>For a drip brewer beneath a cupboard, compare <a href="/coffee/best-coffee-makers-for-low-cabinets">coffee-maker height and filling access</a>. If you brew immersion coffee, calculate the dry dose with our <a href="/coffee/best-burr-grinders-french-press-cold-brew">French press and cold-brew grinder guide</a> before choosing hopper and grounds-bin capacity.</p></section>
     </main>
   )
 }

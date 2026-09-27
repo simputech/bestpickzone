@@ -1,3 +1,4 @@
+import { buyingGuides, guideDate } from './buying-guide-data'
 import { articlesData } from '@/lib/books-data'
 import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
@@ -88,17 +89,18 @@ export const standaloneBookPages: SitemapEntry[] = [
 ]
 
 export const mainPages: SitemapEntry[] = [
+  ...buyingGuides.filter(g => g.silo === 'mahjong').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 1.0 },
   { url: `${baseUrl}/tech`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/home-kitchen`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.8 },
   { url: `${baseUrl}/finance-software`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.75 },
   { url: `${baseUrl}/health-fitness`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.75 },
-  { url: `${baseUrl}/mahjong`, lastModified: '2026-09-19', changeFrequency: 'weekly', priority: 0.8 },
+  { url: `${baseUrl}/mahjong`, lastModified: guideDate, changeFrequency: 'weekly', priority: 0.8 },
   { url: `${baseUrl}/mahjong/best-mahjong-sets-for-beginners`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-american-mahjong-sets-on-amazon`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-travel-mahjong-sets`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-mahjong-cards`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/mahjong/best-mahjong-accessories`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/mahjong/best-mahjong-accessories`, lastModified: guideDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/how-to-choose-a-mahjong-set`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-book-to-learn-mahjong`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/mahjong-set-vs-mahjong-card`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
@@ -143,7 +145,8 @@ export const beautyPages: SitemapEntry[] = [
 ]
 
 export const coffeePages: SitemapEntry[] = [
-  { url: `${baseUrl}/coffee`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.92 },
+  ...buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
+  { url: `${baseUrl}/coffee`, lastModified: guideDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/coffee/best-vintage-coffee-grinders-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   ...coffeeComparisonArticles.map((article) => ({
@@ -155,7 +158,8 @@ export const coffeePages: SitemapEntry[] = [
 ]
 
 export const wfhPages: SitemapEntry[] = [
-  { url: `${baseUrl}/wfh`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.92 },
+  ...buyingGuides.filter(g => g.silo === 'wfh').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
+  { url: `${baseUrl}/wfh`, lastModified: guideDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/wfh/best-products-for-your-home-office`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.9 },
   { url: `${baseUrl}/wfh/best-used-herman-miller-aeron-chairs-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/best-portable-monitors-under-100-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
@@ -194,11 +198,11 @@ export function buildSitemapXml(entries: SitemapEntry[]) {
 
 export function buildSitemapIndexXml() {
   const sitemaps = [
-    { url: `${baseUrl}/sitemap-main.xml`, lastModified: contentRefreshDate },
+    { url: `${baseUrl}/sitemap-main.xml`, lastModified: guideDate },
     { url: `${baseUrl}/sitemap-books.xml`, lastModified: contentRefreshDate },
     { url: `${baseUrl}/sitemap-beauty.xml`, lastModified: contentRefreshDate },
-    { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: contentRefreshDate },
-    { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: contentRefreshDate },
+    { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: guideDate },
+    { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: guideDate },
     { url: `${baseUrl}/sitemap-es.xml`, lastModified: '2026-07-07' },
   ]
     .map(

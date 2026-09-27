@@ -6,6 +6,9 @@ import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const guides = [
+  { href: '/mahjong/best-carrying-bags-for-american-mahjong-sets', title: 'Best Carrying Bags for Full-Size American Mahjong Sets', text: 'Match tiles, racks, pushers, and spare pieces to published pouch dimensions.', status: 'Live' },
+  { href: '/mahjong/best-mahjong-mats-for-small-tables', title: 'Best Mahjong Mats for Small Tables and Easy Storage', text: 'Compare flat mats and fitted covers by table shape, edge placement, and storage.', status: 'Live' },
+  { href: '/mahjong/best-folding-tables-for-mahjong', title: 'Best Folding Tables for Mahjong', text: 'Playing dimensions, rack space, legroom checks, and folded storage compared.', status: 'Live' },
   { href: '/mahjong/best-mahjong-sets-for-beginners', title: 'Best Mahjong Sets for Beginners', text: 'A practical first-buy guide for American Mahjong players: 166 tiles, racks, pushers, cases, and the mistakes that make a new set unusable.', status: 'Live' },
   { href: '/mahjong/best-american-mahjong-sets-on-amazon', title: 'Best American Mahjong Sets on Amazon', text: 'A dedicated comparison for players who need American-style tiles, jokers, racks, pushers, and carrying cases.', status: 'Live' },
   { href: '/mahjong/best-travel-mahjong-sets', title: 'Best Travel Mahjong Sets', text: 'Compact and portable options for trips, cruises, RVs, and game nights away from home.', status: 'Live' },

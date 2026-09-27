@@ -1,0 +1,271 @@
+{
+  "base": "http://localhost:3127",
+  "results": [
+    {
+      "path": "/coffee/best-burr-grinders-french-press-cold-brew",
+      "editorial_words": 1113,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/coffee",
+        "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+        "/coffee/best-espresso-grinders-for-breville-bambino"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/coffee/best-coffee-makers-for-low-cabinets",
+      "editorial_words": 1101,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/coffee",
+        "/coffee/best-burr-grinders-french-press-cold-brew",
+        "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+        "/home-kitchen/best-coffee-makers-under-100"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "editorial_words": 1165,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/coffee",
+        "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+        "/coffee/what-to-buy-with-your-breville-bambino-plus"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "editorial_words": 1147,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/coffee",
+        "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "/coffee/best-espresso-grinders-for-breville-bambino"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+      "editorial_words": 1180,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/mahjong/best-american-mahjong-sets-on-amazon",
+        "/mahjong/best-mahjong-accessories",
+        "/mahjong/best-travel-mahjong-sets"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/mahjong/best-folding-tables-for-mahjong",
+      "editorial_words": 1237,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/mahjong",
+        "/mahjong/best-mahjong-accessories",
+        "/mahjong/how-to-choose-a-mahjong-set"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/mahjong/best-mahjong-mats-for-small-tables",
+      "editorial_words": 1134,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/mahjong",
+        "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+        "/mahjong/best-folding-tables-for-mahjong"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/wfh/best-monitor-arms-for-shallow-desks",
+      "editorial_words": 1169,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/wfh",
+        "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+        "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "editorial_words": 1079,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/wfh",
+        "/wfh/best-monitor-arms-for-shallow-desks",
+        "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow"
+      ],
+      "pass_all": true
+    },
+    {
+      "path": "/wfh/best-video-call-lighting-for-glasses",
+      "editorial_words": 1145,
+      "checks": {
+        "200": true,
+        "words>=1000": true,
+        "self_canonical": true,
+        "index_follow": true,
+        "single_h1": true,
+        "metadata": true,
+        "static_body": true,
+        "schema": true,
+        "sitemap": true,
+        "hub_backlink": true,
+        "affiliate": true,
+        "robots_assets": true
+      },
+      "internal_links": [
+        "/wfh",
+        "/wfh/best-monitor-arms-for-shallow-desks",
+        "/wfh/best-usb-c-docks-for-two-monitors"
+      ],
+      "pass_all": true
+    }
+  ],
+  "internal_status": {
+    "/mahjong/how-to-choose-a-mahjong-set": 200,
+    "/coffee/what-to-buy-with-your-breville-bambino-plus": 200,
+    "/coffee/acaia-lunar-vs-timemore-black-mirror-nano": 200,
+    "/coffee/best-espresso-grinders-for-breville-bambino": 200,
+    "/mahjong/best-american-mahjong-sets-on-amazon": 200,
+    "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2": 200,
+    "/mahjong/best-travel-mahjong-sets": 200,
+    "/coffee/best-burr-grinders-french-press-cold-brew": 200,
+    "/coffee/complete-small-kitchen-home-coffee-bar-setup": 200,
+    "/mahjong": 200,
+    "/home-kitchen/best-coffee-makers-under-100": 200,
+    "/mahjong/best-folding-tables-for-mahjong": 200,
+    "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm": 200,
+    "/wfh/best-monitor-arms-for-shallow-desks": 200,
+    "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow": 200,
+    "/mahjong/best-mahjong-accessories": 200,
+    "/wfh": 200,
+    "/coffee": 200,
+    "/mahjong/best-carrying-bags-for-american-mahjong-sets": 200,
+    "/coffee/baratza-encore-esp-vs-fellow-opus-2": 200,
+    "/wfh/best-usb-c-docks-for-two-monitors": 200
+  },
+  "unique_titles": true,
+  "unique_descriptions": true
+}

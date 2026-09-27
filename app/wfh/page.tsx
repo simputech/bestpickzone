@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
+import { buyingGuides } from '@/lib/buying-guide-data'
 import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
@@ -42,6 +43,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   category: 'wfh' })
 
 const sections = [
+  { title: 'Desk Fit and Compatibility', copy: 'Resolve wall clearance, laptop display support, and reflections in glasses before buying the next accessory.', items: buyingGuides.filter(g => g.silo === 'wfh').map(g => ({ title: g.title, label: 'Compatibility Buying Guide', summary: g.description, detail: 'Includes measurements, limitations, and a practical check before ordering.', href: `/wfh/${g.slug}` })) },
   {
     title: 'Best Office Chair and Seating Comparisons',
     copy:

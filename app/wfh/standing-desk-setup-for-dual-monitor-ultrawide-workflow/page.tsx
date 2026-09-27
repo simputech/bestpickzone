@@ -109,6 +109,7 @@ export default function StandingDeskUltrawidePage() {
           ))}
         </div>
       </section>
+    <section className="comparison-html my-8 rounded-2xl border border-teal-100 bg-teal-50 p-6"><h2>Check the details of your setup</h2><p>Before attaching displays, check <a href="/wfh/best-usb-c-docks-for-two-monitors">which dual-monitor dock your laptop supports</a> and <a href="/wfh/best-monitor-arms-for-shallow-desks">how an arm folds against a wall</a>. For calls, our <a href="/wfh/best-video-call-lighting-for-glasses">lighting guide for glasses</a> helps position a panel without competing for the same desk edge.</p></section>
     </main>
   )
 }

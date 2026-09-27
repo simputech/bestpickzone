@@ -541,6 +541,7 @@ export default function BambinoAccessoriesPage() {
           </Link>
         </div>
       </section>
+    <section className="comparison-html my-8 rounded-2xl border border-teal-100 bg-teal-50 p-6"><h2>Check the details of your setup</h2><p>For the grinder decision, compare <a href="/coffee/best-espresso-grinders-for-breville-bambino">Bambino grinder adjustment and 54mm dosing workflows</a>. Before adding a scale, use our <a href="/coffee/best-low-profile-espresso-scales">small-drip-tray scale measurements</a> to check cup clearance.</p></section>
     </main>
   )
 }
