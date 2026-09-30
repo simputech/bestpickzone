@@ -4,6 +4,9 @@ import ProductComparisonPage from '@/components/article/ProductComparisonPage'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import type { ComparisonPageData } from '@/lib/product-comparisons'
 
+// Resolve Amazon links at request time while retaining the product lookup cache.
+export const revalidate = 0
+
 const pageUrl = 'https://bestpickzone.com/coffee/breville-bambino-plus-vs-gaggia-classic-pro'
 
 export const metadata: Metadata = withArticleMetadataDefaults({

@@ -197,7 +197,7 @@ async function searchAmazonProductUncached(query: string): Promise<AmazonCreator
 
 const cachedSearchAmazonProduct = unstable_cache(
   searchAmazonProductUncached,
-  ['amazon-creators-api-search-v1'],
+  ['amazon-creators-api-search-v2'],
   { revalidate: 21600 }
 )
 
