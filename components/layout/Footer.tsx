@@ -139,6 +139,7 @@ export default function Footer() {
             commission rates.
           </p>
           <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+          <p><Link href="/es" lang="es" hrefLang="es" className="hover:text-yellow-400">Guías en español</Link></p>
           <p className="mt-4">© {year} BestPickZone. All rights reserved.</p>
         </div>
       </div>

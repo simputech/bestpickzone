@@ -1,3 +1,4 @@
+import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -108,7 +109,7 @@ export default function KidsYAHubPage() {
         <Breadcrumb items={breadcrumbItems} />
         <ItemListJsonLd
           name="Kids & YA Book Guides"
-          items={articles.map((article) => ({ name: article.title, path: `/books/${article.slug}` }))}
+          items={articles.map((article) => ({ name: article.title, path: getBookPath(article.slug) }))}
         />
 
         <header className="mb-10">
@@ -135,7 +136,7 @@ export default function KidsYAHubPage() {
             {featured.map((article) => (
               <Link
                 key={article.slug}
-                href={`/books/${article.slug}`}
+                href={getBookPath(article.slug)}
                 className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
               >
                 <h3 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h3>
@@ -209,7 +210,7 @@ export default function KidsYAHubPage() {
           {articles.map((article) => (
             <Link
               key={article.slug}
-              href={`/books/${article.slug}`}
+              href={getBookPath(article.slug)}
               className="card-hover block rounded-xl border border-gray-200 bg-white p-5 shadow-sm no-underline"
             >
               <h2 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h2>

@@ -240,7 +240,7 @@ export default function BooksLikeVerityPage() {
           </strong>{' '}
           and{' '}
           <strong>
-            <a href="/books/colleen-hoover-books-ranked-worst-to-best">
+            <a href="/books/best-colleen-hoover-books">
               Colleen Hoover books ranked worst to best
             </a>
           </strong>

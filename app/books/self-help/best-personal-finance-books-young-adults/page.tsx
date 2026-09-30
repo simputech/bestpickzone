@@ -391,7 +391,7 @@ export default function Page() {
             </Link>{' '}
             and our deep dive on{' '}
             <Link
-              href="/books/authors/best-james-clear-books"
+              href="/books/self-help/best-james-clear-books"
               className="text-blue-700 underline"
             >
               James Clear's best books
@@ -462,7 +462,7 @@ export default function Page() {
               Best Self-Help Books to Read in 2026
             </Link>
             <Link
-              href="/books/authors/best-james-clear-books"
+              href="/books/self-help/best-james-clear-books"
               className="block border border-gray-200 hover:border-gray-400 rounded p-3 text-blue-700 hover:underline"
             >
               Best James Clear Books

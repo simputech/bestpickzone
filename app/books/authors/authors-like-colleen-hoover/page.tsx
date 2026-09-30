@@ -394,7 +394,7 @@ export default function Page() {
       </section>
 
       <nav className="related" aria-label="Related reading">
-        <Link href="/books/colleen-hoover-books-ranked-worst-to-best">
+        <Link href="/books/best-colleen-hoover-books">
           Colleen Hoover books ranked worst to best →
         </Link>
         <Link href="/books/books-like-it-ends-with-us">Books like It Ends With Us →</Link>

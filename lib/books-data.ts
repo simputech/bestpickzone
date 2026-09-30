@@ -32,3 +32,10 @@ export function getArticlesBySlugs(slugs: string[]): ArticleData[] {
 export function getAllSlugs(): string[] {
   return articlesData.map((a) => a.slug);
 }
+
+// Keep legacy data slugs stable while all navigation uses the final route.
+export function getBookPath(slug: string): string {
+  return slug === 'best-true-crime-books'
+    ? '/books/reader-picks/best-true-crime-books'
+    : `/books/${slug}`;
+}

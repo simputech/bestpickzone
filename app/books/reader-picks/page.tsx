@@ -1,3 +1,4 @@
+import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
@@ -78,7 +79,7 @@ export default function ReaderPicksHubPage() {
         <Breadcrumb items={breadcrumbItems} />
         <ItemListJsonLd
           name="Reader-Intent Book Lists"
-          items={articles.map((article) => ({ name: article.title, path: `/books/${article.slug}` }))}
+          items={articles.map((article) => ({ name: article.title, path: getBookPath(article.slug) }))}
         />
 
         <header className="mb-10">
@@ -101,7 +102,7 @@ export default function ReaderPicksHubPage() {
             {featured.map((article) => (
               <Link
                 key={article.slug}
-                href={`/books/${article.slug}`}
+                href={getBookPath(article.slug)}
                 className="rounded-3xl border border-white bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
               >
                 <h3 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h3>
@@ -134,7 +135,7 @@ export default function ReaderPicksHubPage() {
           {articles.map((article) => (
             <Link
               key={article.slug}
-              href={`/books/${article.slug}`}
+              href={getBookPath(article.slug)}
               className="card-hover bg-white rounded-xl border border-gray-200 p-5 shadow-sm no-underline block"
             >
               <h2 className="mb-2 text-lg font-bold text-gray-900">{article.title}</h2>

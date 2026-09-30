@@ -1,3 +1,4 @@
+import { getBookPath } from '@/lib/books-data'
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -537,7 +538,7 @@ export default function ArticlePage({ params }: Props) {
               {moreAuthorGuides.map((guide) => (
                 <li key={guide.slug}>
                   <Link
-                    href={`/books/${guide.slug}`}
+                    href={getBookPath(guide.slug)}
                     className="block rounded-2xl border border-amber-100 bg-white px-4 py-3 text-sm font-medium text-gray-800 transition hover:border-amber-200 hover:text-blue-700"
                   >
                     {guide.label}
@@ -556,7 +557,7 @@ export default function ArticlePage({ params }: Props) {
               {related.map((rel) => (
                 <li key={rel.slug}>
                   <Link
-                    href={`/books/${rel.slug}`}
+                    href={getBookPath(rel.slug)}
                     className="text-blue-600 hover:underline font-medium"
                   >
                     {rel.title}

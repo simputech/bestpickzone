@@ -1,3 +1,4 @@
+import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
@@ -317,7 +318,7 @@ const topicClusters = [
             {priorityAuthorGuides.map((guide) => (
               <Link
                 key={guide.slug}
-                href={`/books/${guide.slug}`}
+                href={getBookPath(guide.slug)}
                 className="rounded-2xl border border-amber-100 bg-amber-50 px-4 py-3 text-sm font-medium text-gray-800 transition hover:border-amber-200 hover:text-blue-700"
               >
                 {guide.label}
@@ -398,7 +399,7 @@ const topicClusters = [
             {allAuthorGuides.map((article) => (
               <li key={article.slug}>
                 <Link
-                  href={`/books/${article.slug}`}
+                  href={getBookPath(article.slug)}
                   className="block rounded-2xl border border-gray-100 px-4 py-3 text-sm font-medium text-gray-800 transition hover:border-gray-200 hover:text-blue-700"
                 >
                   {article.title}
@@ -424,7 +425,7 @@ const topicClusters = [
               {cat.articles.map((article) => (
                 <li key={article.slug}>
                   <Link
-                    href={`/books/${article.slug}`}
+                    href={getBookPath(article.slug)}
                     className="text-gray-800 hover:text-blue-600 hover:underline text-sm font-medium leading-relaxed block py-1"
                   >
                     {article.title}

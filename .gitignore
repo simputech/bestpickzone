@@ -33,3 +33,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*
+
+# Detailed local crawl evidence (summaries and inventories are committed separately)
+/reports/crawl-health/
+/reports/crawl-health-gsc-before.json

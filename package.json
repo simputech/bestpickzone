@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "indexnow:submit": "node scripts/submit-indexnow.mjs",
-    "monetization-tracker:generate": "python3 scripts/generate_monetization_tracker.py"
+    "monetization-tracker:generate": "python3 scripts/generate_monetization_tracker.py",
+    "verify:crawl": "python3 scripts/audit-crawl.py",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "14.2.3",

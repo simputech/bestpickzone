@@ -1,5 +1,5 @@
 import { buyingGuides, guideDate } from './buying-guide-data'
-import { articlesData } from '@/lib/books-data'
+import { articlesData, getBookPath } from '@/lib/books-data'
 import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
 export const baseUrl = 'https://bestpickzone.com'
@@ -89,6 +89,15 @@ export const standaloneBookPages: SitemapEntry[] = [
 ]
 
 export const mainPages: SitemapEntry[] = [
+  { url: `${baseUrl}/home-kitchen/best-kitchenaid-attachments-worth-buying`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-pet-travel-products`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-air-fryer-accessories`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-car-cleaning-products`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-products-for-your-backyard`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-products-for-your-dorm-room`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-picnic-essentials`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
   ...buyingGuides.filter(g => g.silo === 'mahjong').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 1.0 },
   { url: `${baseUrl}/tech`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
@@ -130,6 +139,10 @@ export const mainPages: SitemapEntry[] = [
 ]
 
 export const beautyPages: SitemapEntry[] = [
+  { url: `${baseUrl}/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/beauty/best-led-mask-for-melasma-and-hyperpigmentation`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/beauty/is-omnilux-contour-worth-it`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/beauty`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/beauty/vitamin-c-vs-niacinamide`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/beauty/retinol-vs-bakuchiol-for-sensitive-skin`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
@@ -145,6 +158,9 @@ export const beautyPages: SitemapEntry[] = [
 ]
 
 export const coffeePages: SitemapEntry[] = [
+  { url: `${baseUrl}/coffee/complete-small-kitchen-home-coffee-bar-setup`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/coffee/best-gaggia-classic-pro-upgrades`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/coffee/what-to-buy-with-your-breville-bambino-plus`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   ...buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/coffee`, lastModified: guideDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/coffee/best-vintage-coffee-grinders-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
@@ -158,6 +174,9 @@ export const coffeePages: SitemapEntry[] = [
 ]
 
 export const wfhPages: SitemapEntry[] = [
+  { url: `${baseUrl}/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/wfh/ultimate-kitchen-table-home-office-setup`, lastModified: '2026-07-01', changeFrequency: 'monthly', priority: 0.8 },
   ...buyingGuides.filter(g => g.silo === 'wfh').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/wfh`, lastModified: guideDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/wfh/best-products-for-your-home-office`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.9 },
@@ -179,7 +198,7 @@ export const wfhPages: SitemapEntry[] = [
 export const booksPages: SitemapEntry[] = [
   ...standaloneBookPages,
   ...articlesData.map((article) => ({
-    url: `${baseUrl}/books/${article.slug}`,
+    url: `${baseUrl}${getBookPath(article.slug)}`,
     lastModified: latestDate(article.publishedDate, contentRefreshDate),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
@@ -187,7 +206,16 @@ export const booksPages: SitemapEntry[] = [
 ]
 
 export function buildSitemapXml(entries: SitemapEntry[]) {
-  const items = entries
+  const canonicalEntries = new Map<string, SitemapEntry>()
+  for (const entry of entries) {
+    const url = new URL(entry.url)
+    if (url.origin !== baseUrl || url.search || url.hash) {
+      throw new Error(`Invalid sitemap URL: ${entry.url}`)
+    }
+    const existing = canonicalEntries.get(entry.url)
+    if (!existing || entry.lastModified > existing.lastModified) canonicalEntries.set(entry.url, entry)
+  }
+  const items = [...canonicalEntries.values()]
     .map(
       (entry) => `<url><loc>${entry.url}</loc><lastmod>${entry.lastModified}</lastmod><changefreq>${entry.changeFrequency}</changefreq><priority>${entry.priority.toFixed(1)}</priority></url>`
     )
@@ -198,11 +226,11 @@ export function buildSitemapXml(entries: SitemapEntry[]) {
 
 export function buildSitemapIndexXml() {
   const sitemaps = [
-    { url: `${baseUrl}/sitemap-main.xml`, lastModified: guideDate },
-    { url: `${baseUrl}/sitemap-books.xml`, lastModified: contentRefreshDate },
-    { url: `${baseUrl}/sitemap-beauty.xml`, lastModified: contentRefreshDate },
-    { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: guideDate },
-    { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: guideDate },
+    { url: `${baseUrl}/sitemap-main.xml`, lastModified: mainPages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
+    { url: `${baseUrl}/sitemap-books.xml`, lastModified: booksPages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
+    { url: `${baseUrl}/sitemap-beauty.xml`, lastModified: beautyPages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
+    { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: coffeePages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
+    { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: wfhPages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
     { url: `${baseUrl}/sitemap-es.xml`, lastModified: '2026-07-07' },
   ]
     .map(

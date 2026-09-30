@@ -1,3 +1,4 @@
+import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -70,7 +71,7 @@ const standaloneAuthorSpotlights = [
     text: 'A rebuilt standalone King guide with a stronger start-here pick, skip-first logic, and deeper book-by-book fit notes.',
   },
   {
-    href: '/books/colleen-hoover-books-ranked-worst-to-best',
+    href: '/books/best-colleen-hoover-books',
     title: 'Colleen Hoover Books Ranked Worst To Best',
     text: 'A sharper CoHo ranking page for readers who want a clear hierarchy rather than a generic best-books roundup.',
   },
@@ -136,7 +137,7 @@ export default function AuthorsHubPage() {
         <Breadcrumb items={breadcrumbItems} />
         <ItemListJsonLd
           name="Author Book Guides"
-          items={articles.map((article) => ({ name: article.title, path: `/books/${article.slug}` }))}
+          items={articles.map((article) => ({ name: article.title, path: getBookPath(article.slug) }))}
         />
 
         <header className="mb-10">
@@ -172,7 +173,7 @@ export default function AuthorsHubPage() {
             {priorityArticles.map((article) => (
               <Link
                 key={article.slug}
-                href={`/books/${article.slug}`}
+                href={getBookPath(article.slug)}
                 className="rounded-2xl border border-white bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm transition hover:-translate-y-0.5 hover:text-blue-700"
               >
                 {article.title}
@@ -206,7 +207,7 @@ export default function AuthorsHubPage() {
           {articles.map((article) => (
             <Link
               key={article.slug}
-              href={`/books/${article.slug}`}
+              href={getBookPath(article.slug)}
               className="card-hover block rounded-xl border border-gray-200 bg-white p-5 shadow-sm no-underline"
             >
               <h2

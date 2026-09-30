@@ -1,0 +1,76 @@
+URL,Category,Source,Resolution,Expected final status
+https://bestpickzone.com/.env,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/.git/config,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/.well-known/apple-app-site-association,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/5-best-movies-based-on-true-stories/feed,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/7-top-outdoor-activities-in-springfield-oregon,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/_next/static/css/0253fa1b223b91d3.css,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/about,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/ads.txt,A,GSC Crawl Stats 404 samples,Keep 404; no current authorized ad-seller configuration found. Do not invent seller IDs.,404
+https://bestpickzone.com/affiliate-disclosure,B,Repository / legacy-variant production probe,Permanent redirect to /disclosure,308 -> 200
+https://bestpickzone.com/after-school,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/api/session/properties,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/apple-app-site-association,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/apple-touch-icon-precomposed.png,G,Vercel recent 404 logs,Restore existing site icon at conventional asset URL,200
+https://bestpickzone.com/apple-touch-icon.png,G,Vercel recent 404 logs,Restore existing site icon at conventional asset URL,200
+https://bestpickzone.com/authors-similar-to-john-grisham,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/authors-similar-to-kurt-vonnegut,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/backup,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/best-hotel-in-beaumont,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/best-hotel-in-beaumont/feed,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/best-hotel-in-santa-maria,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/best-hotel-in-springfield-oregon,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/best-movies-of-all-time,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/best-true-crime-documentaries-of-all-time,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/blog,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/blog-post-title/feed,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/books/authors/best-james-clear-books,C,Internal: https://bestpickzone.com/books/self-help/best-personal-finance-books-young-adults,Permanent redirect to /books/self-help/best-james-clear-books,308 -> 200
+https://bestpickzone.com/books/best-ww2-bookshttps:/bestpickzone.com/books/best-ww2-books,E,GSC Crawl Stats 404 samples,"Keep 404; malformed historical URL, no current internal references",404
+https://bestpickzone.com/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026https:/bestpickzone.com/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026,E,GSC Crawl Stats 404 samples,"Keep 404; malformed historical URL, no current internal references",404
+https://bestpickzone.com/camps,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/category/books,D,Repository / legacy-variant production probe,Permanent redirect to /books,308 -> 200
+https://bestpickzone.com/category/shopping/tot,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/category/travel/best-hotels,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/coffee/fellow-opus-2-vs-baratza-encore-esp-pro,G,GSC search impressions,Keep 404 pending exact model-match content decision; 3 historic clicks / 46 impressions. Current ESP guide covers a different Baratza model; no automatic redirect.,404
+https://bestpickzone.com/comments/feed,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/contact,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/contact-us,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/discovering-the-best-hotel-in-gresham-oregon-a-comprehensive-guide,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/discovering-the-best-hotel-in-murfreesboro-tennessee-embassy-suites-by-hilton-nashville-se-murfreesboro,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/discovering-the-best-hotel-in-ventura-california-crowne-plaza-ventura-beach,A,GSC Crawl Stats 404 samples | Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/es/libros/mejores-libros-de-stephen-kinghttps:/bestpickzone.com/es/libros/mejores-libros-de-stephen-king,E,GSC Crawl Stats 404 samples,"Keep 404; malformed historical URL, no current internal references",404
+https://bestpickzone.com/events-in-college-station-texas-march-2025,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/favicon.ico,G,GSC Crawl Stats 404 samples | Vercel recent 404 logs,Restore existing site icon at conventional asset URL,200
+https://bestpickzone.com/feed,A,GSC Crawl Stats 404 samples | Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/home-kitchen/best-products-for-your-backyardhttps:/bestpickzone.com/home-kitchen/best-products-for-your-backyard,E,GSC Crawl Stats 404 samples,"Keep 404; malformed historical URL, no current internal references",404
+https://bestpickzone.com/home-kitchen/best-products-for-your-dorm-roomhttps:/bestpickzone.com/home-kitchen/best-products-for-your-dorm-room,E,GSC Crawl Stats 404 samples,"Keep 404; malformed historical URL, no current internal references",404
+https://bestpickzone.com/mahjong/null,E,Vercel recent 404 logs,"Keep 404; malformed historical URL, no current internal references",404
+https://bestpickzone.com/media/jui/js/bootstrap.min.js,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/media/system/js/core.js,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/media/vendor/jquery/js/jquery.min.js,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/new,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/northgate-district-college-stations-nightlife,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/old,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/our-3-picks-for-the-best-war-movie-of-all-time,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/plugins/editors/jce/jce.xml,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/post-sitemap.xml,D,Vercel recent 404 logs,Permanent redirect to /sitemap.xml,308 -> 200
+https://bestpickzone.com/readme.html,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/rss,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/support,A,Repository / legacy-variant production probe,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/tech/best-ender-3-v2-upgrades,G,Repository / legacy-variant production probe,Keep 404; unpublished work exists in original dirty checkout and is outside crawl-remediation scope,404
+https://bestpickzone.com/the-best-book-for-personality-development,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/top-4-best-books-similar-to-rich-dad-poor-dad,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/top-4-books-similar-to-charlottes-web/feed,A,Vercel recent 404 logs,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/top-4-books-similar-to-the-road,A,Vercel recent 404 logs,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/top-5-authors-similar-to-dan-brown,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/top-5-authors-similar-to-h-p-lovecraft,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/top-5-authors-similar-to-roald-dahl,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
+https://bestpickzone.com/top-7-best-parks-in-springfield-oregon,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+"https://bestpickzone.com/wfh, https:/bestpickzone.com/tech, 
+https:/bestpickzone.com/beauty",E,GSC Crawl Stats 404 samples,"Keep 404; malformed historical URL, no current internal references",404
+"https://bestpickzone.com/wfh,%20https:/bestpickzone.com/tech,%20%0Ahttps:/bestpickzone.com/beauty",E,Repository / legacy-variant production probe,"Keep 404; malformed historical URL, no current internal references",404
+"https://bestpickzone.com/wfh,%2520https:/bestpickzone.com/tech,%2520%250Ahttps:/bestpickzone.com/beauty",E,Repository / legacy-variant production probe,"Keep 404; malformed historical URL, no current internal references",404
+https://bestpickzone.com/wordpress,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/wp,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
+https://bestpickzone.com/wp-sitemap-posts-page-1.xml,D,Vercel recent 404 logs,Permanent redirect to /sitemap.xml,308 -> 200
+https://bestpickzone.com/wp-sitemap.xml,D,Vercel recent 404 logs,Permanent redirect to /sitemap.xml,308 -> 200
