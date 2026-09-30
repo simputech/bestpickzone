@@ -1,4 +1,4 @@
-URL,Category,Source,Resolution,Expected final status
+URL,Category,Source,Resolution,Final status
 https://bestpickzone.com/.env,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
 https://bestpickzone.com/.git/config,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
 https://bestpickzone.com/.well-known/apple-app-site-association,A,GSC Crawl Stats 404 samples,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
@@ -66,9 +66,7 @@ https://bestpickzone.com/top-5-authors-similar-to-dan-brown,A,GSC Crawl Stats 40
 https://bestpickzone.com/top-5-authors-similar-to-h-p-lovecraft,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
 https://bestpickzone.com/top-5-authors-similar-to-roald-dahl,A,GSC Crawl Stats 404 samples,Keep 404; no sufficiently equivalent current article was found,404
 https://bestpickzone.com/top-7-best-parks-in-springfield-oregon,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
-"https://bestpickzone.com/wfh, https:/bestpickzone.com/tech, 
-https:/bestpickzone.com/beauty",E,GSC Crawl Stats 404 samples,"Keep 404; malformed historical URL, no current internal references",404
-"https://bestpickzone.com/wfh,%20https:/bestpickzone.com/tech,%20%0Ahttps:/bestpickzone.com/beauty",E,Repository / legacy-variant production probe,"Keep 404; malformed historical URL, no current internal references",404
+"https://bestpickzone.com/wfh,%20https:/bestpickzone.com/tech,%20%0Ahttps:/bestpickzone.com/beauty",E,GSC Crawl Stats 404 samples | Repository / legacy-variant production probe,"Keep 404; malformed historical URL, no current internal references",404
 "https://bestpickzone.com/wfh,%2520https:/bestpickzone.com/tech,%2520%250Ahttps:/bestpickzone.com/beauty",E,Repository / legacy-variant production probe,"Keep 404; malformed historical URL, no current internal references",404
 https://bestpickzone.com/wordpress,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404
 https://bestpickzone.com/wp,A,Vercel recent 404 logs,"Keep 404; retired content/feed, unsupported endpoint, stale asset, or automated probe with no relevant replacement",404

@@ -1,6 +1,6 @@
 # BestPickZone crawl-health remediation — September 29, 2026
 
-Status: tested locally; production verification pending.
+Status: deployed and verified on https://bestpickzone.com. Search Console sitemap resubmission accepted; processing pending.
 
 ## Before
 
@@ -9,7 +9,7 @@ Status: tested locally; production verification pending.
 - 273 sitemap entries / 272 unique URLs: one redirecting entry, one duplicate entry, and 19 omitted current articles. Zero sitemap 404s or noindex/robots conflicts.
 - 14 controllable alias/trailing-slash redirect chains; 4 additional HTTP-to-HTTPS sequences in sampled historical URLs.
 - 30 Spanish pages unreachable from the homepage link graph, despite internal links within that section. Current English articles, including the ten September 27 guides, were already reachable through established hubs and related-content modules.
-- 74 distinct directly returning 404 URLs discovered across production crawling, repository routes/history, GSC data and recent Vercel logs. This is a discovered inventory, not a claim to enumerate arbitrary URLs or Google's entire historical request log.
+- 73 distinct directly returning 404 URLs (74 observed spellings, with one encoded duplicate removed) discovered across production crawling, repository routes/history, GSC data and recent Vercel logs. This is a discovered inventory, not a claim to enumerate arbitrary URLs or Google's entire historical request log.
 
 ## Evidence and interpretation
 
@@ -37,10 +37,36 @@ See `crawl-health-404-inventory.csv` for every discovered URL, source, A–G cla
 
 ## Verification
 
-Local production build, TypeScript and configured lint pass (existing warnings remain). All 290 final sitemap URLs are unique, canonical, indexable HTTP 200; no internal links to 404s or redirects; no important orphan pages. All 60 alias variants (plain, trailing slash and query string) reach final 200 responses in one redirect. 135 current first-party assets on the pre-release live site return 200. Robots continues to allow content and block only `/api/` and `/preview/`.
+Local production build, TypeScript and configured lint pass (existing warnings remain). All 290 final sitemap URLs are unique, canonical, indexable HTTP 200; no internal links to 404s or redirects; no important orphan pages. All 60 alias variants (plain, trailing slash and query string) reach final 200 responses in one redirect. 135 current first-party assets on the pre-release live site returned 200; all 141 referenced assets on the final live site return 200. Robots continues to allow content and block only `/api/` and `/preview/`.
 
 The homepage canonical `https://bestpickzone.com` and sitemap `https://bestpickzone.com/` are equivalent URLs; no unnecessary homepage canonical change was made. The disclosure utility page is intentionally outside editorial sitemaps.
 
 ## Limits and follow-up
 
-Search Console metrics are historical; a clean production crawl does not prove immediate Google recrawling/indexing or a future 404/301 percentage. HTTPS upgrades are platform infrastructure; existing HTTP-to-HTTPS sequences are preserved. No crawl-rate setting, removals request or robots block for error URLs was introduced. Google recommends preserving relevant direct redirects and returning real errors where deleted content has no replacement: https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes.
+Search Console metrics are historical; a clean production crawl does not prove immediate Google recrawling/indexing or a future 404/301 percentage. HTTPS upgrades are platform infrastructure; existing HTTP-to-HTTPS sequences are preserved. No crawl-rate setting, removals request or robots block for error URLs was introduced. Google recommends preserving relevant direct redirects and returning real errors where deleted content has no replacement: [Google site-move guidance](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes).
+
+
+## Final live results
+
+| Check | Before | After |
+|---|---:|---:|
+| Broken internal destinations | 1 (2 links) | 0 |
+| Redirecting internal destinations | 13 (26 links) | 0 |
+| Sitemap redirect entries | 1 | 0 |
+| Sitemap duplicate entries | 1 | 0 |
+| Current articles missing from sitemap | 19 | 0 |
+| Sitemap 404 / noindex / robots-blocked URLs | 0 | 0 |
+| Controllable alias/slash chains | 14 | 0 |
+| Important pages unreachable from homepage | 30 | 0 |
+
+Sitemap: **290 unique URLs; 290 HTTP 200; 0 redirects; 0 404; 0 non-indexable**. The index and all six child sitemaps, plus robots.txt, return HTTP 200. Live page crawl: 427 URL spellings checked, including historical errors and normalization probes. There are no sitemap canonical mismatches. The final 73-URL broken-resource inventory records **3 restored assets, 6 permanent redirects ending in 200, and 64 retained 404s**.
+
+Live redirect suite: **120 checks passed**, covering all 20 mappings on apex and www with plain paths, trailing slashes and query parameters. Final www normalization is a direct permanent 301 to HTTPS apex and the final path. During live verification, the redundant Vercel domain-level www 308 was removed (`redirect: null`, `redirectStatusCode: null`) after confirming middleware was deployed; this eliminated hostname-plus-path chains. Both verified domains remain assigned to the same project. Vercel's platform HTTP-to-HTTPS hop is retained; HTTP www or old HTTP paths can still require protocol upgrade followed by canonical normalization. These are distinguished from the eliminated application-controlled chains. See [Vercel domain configuration API](https://vercel.com/docs/rest-api/projects/update-a-project-domain).
+
+Production: **READY**, project `bestpickzone-fixed` / `prj_nmIr0ohVP4y08vpuYRFDi6Lgnbao`, deployment `dpl_UiXvnXnj4JetZbZbJK2EDSthyhB3`, code commit **8ce1d95**, pushed to `origin/main`. Deployment URL: https://bestpickzone-fixed-gfgtt1d0n-simputechs-projects.vercel.app. The live custom-domain alias was inspected and confirmed. Post-deployment Vercel 5xx log scan returned no entries. Original unrelated dirty-worktree edits remain untouched.
+
+Google Search Console accepted and confirmed `https://bestpickzone.com/sitemap.xml` at **2026-09-30 00:04:08 UTC (September 29, 8:04 PM EDT)**, with download/processing pending. This is a successful sitemap resubmission, not a claim of new indexing or improved historical Crawl Stats.
+
+No manual action blocks the crawl fixes. Optional editorial decisions remain for the withdrawn ESP Pro comparison and unpublished Ender 3 guide; neither was replaced by an unrelated page. Restore an ads.txt only if actual authorized seller information is supplied. Let Google's normal recrawls update its historical reports.
+
+Detailed local evidence is retained in `reports/crawl-health/` (ignored from Git and deployment). Repeat current-site checks with `python3 scripts/audit-crawl.py https://bestpickzone.com reports/crawl-health/recheck.json --check`, followed by `node scripts/verify-redirects.mjs https://bestpickzone.com` and the same command with `https://www.bestpickzone.com`.

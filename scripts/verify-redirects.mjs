@@ -1,12 +1,13 @@
 import redirects from '../lib/legacy-redirects.json' with { type: 'json' }
 const base = (process.argv[2] || 'https://bestpickzone.com').replace(/\/$/, '')
+const canonicalBase = base === 'https://www.bestpickzone.com' ? 'https://bestpickzone.com' : base
 const results = []
 for (const [source, target] of Object.entries(redirects)) {
   for (const suffix of ['', '/', '?utm_source=crawl-audit']) {
     const path = source + suffix
     const response = await fetch(base + path, { redirect: 'manual' })
     const location = new URL(response.headers.get('location') || '/', base)
-    const expected = new URL(target + (suffix.startsWith('?') ? suffix : ''), base)
+    const expected = new URL(target + (suffix.startsWith('?') ? suffix : ''), canonicalBase)
     if (![301, 308].includes(response.status) || location.href !== expected.href) {
       throw new Error(`${path}: ${response.status} -> ${location.href}; expected ${expected.href}`)
     }
@@ -18,6 +19,6 @@ for (const [source, target] of Object.entries(redirects)) {
 for (const path of ['/coffee/', '/wfh/', '/mahjong/', '/books/']) {
   const response = await fetch(base + path, { redirect: 'manual' })
   const location = new URL(response.headers.get('location') || '/', base)
-  if (response.status !== 308 || location.pathname !== path.slice(0, -1)) throw new Error(`Normalization failed: ${path}`)
+  if (![301, 308].includes(response.status) || location.pathname !== path.slice(0, -1)) throw new Error(`Normalization failed: ${path}`)
 }
 console.log(JSON.stringify({ base, passed: results.length, results }, null, 2))
