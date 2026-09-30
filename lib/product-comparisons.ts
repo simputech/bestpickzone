@@ -59,5 +59,8 @@ export type ComparisonPageData = {
 // - If a figure cannot be verified from an allowed source, do not render it.
 // - Hero and section images live under /public/images/{silo}/ to avoid hotlinking.
 export function amazonSearchUrl(query: string) {
-  return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=althcu-20`
+  const trackingId =
+    process.env.NEXT_PUBLIC_AMAZON_TRACKING_ID?.trim() || 'althcu-20'
+
+  return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${encodeURIComponent(trackingId)}`
 }
