@@ -88,6 +88,7 @@ const collectionEvents=req=>req.filter(r=>new URL(r.url).pathname==='/g/collect'
     await p.goBack();await p.waitForURL('**/daring-greatly-vs-the-gifts-of-imperfection')
     const n=(await events(p)).length;const popup=c.waitForEvent('page');await p.locator('article a[href*="amazon.com"]').first().click();await (await popup).close();assert.equal((await events(p)).length,n+1)
    }
+   if(!mobile) await until(()=>collectionEvents(requests).filter(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com'+paths[2]).length===2,'Back-navigation page view missing or duplicated')
    await sleep(1500)
    fs.writeFileSync(path.join(out, mobile ? 'mobile-network.json' : 'desktop-network.json'), JSON.stringify(requests,null,2))
    const net=collectionEvents(requests)

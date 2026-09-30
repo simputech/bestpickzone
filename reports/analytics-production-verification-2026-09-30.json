@@ -1,0 +1,574 @@
+{
+  "verifiedAt": "2026-09-30T02:34:34.918061+00:00",
+  "sourceCommit": "59ea8eb802de87cdd38dde30c04f8229bec0ed08",
+  "deployment": {
+    "id": "dpl_Fa91vSNUK4ZkmYpZG46kn237wKY9",
+    "state": "READY",
+    "url": "bestpickzone-fixed-augsiusfh-simputechs-projects.vercel.app",
+    "productionAliases": [
+      "bestpickzone.com",
+      "www.bestpickzone.com",
+      "bestpickzone-fixed.vercel.app",
+      "bestpickzone-fixed-simputechs-projects.vercel.app",
+      "bestpickzone-fixed-git-main-simputechs-projects.vercel.app"
+    ]
+  },
+  "validation": {
+    "lint": "passed with pre-existing warnings",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "productionBrowser": [
+      {
+        "viewport": "desktop",
+        "path": "/coffee/best-espresso-grinders-gaggia-classic-pro",
+        "seo": {
+          "title": "Best Espresso Grinders for the Gaggia Classic Pro: Dialing In Without the Guesswork | BestPickZone",
+          "description": "Compare Encore ESP, J-Ultra, and Mignon Specialità for the Gaggia Classic Pro: adjustment, retention, dosing, budget tiers, and upgrade priorities.",
+          "h1": [
+            "Best Espresso Grinders for the Gaggia Classic Pro: Dialing In Without the Guesswork"
+          ],
+          "canon": [
+            "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro",
+          "overflow": false,
+          "words": 1859,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Baratza Encore ESP"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Baratza Encore ESP"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=1Zpresso+J-Ultra+manual+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "1Zpresso J-Ultra"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=1Zpresso+J-Ultra+manual+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "1Zpresso J-Ultra"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Eureka+Mignon+Specialita+55mm+110V+espresso+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Eureka Mignon Specialità"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Eureka+Mignon+Specialita+55mm+110V+espresso+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Eureka Mignon Specialità"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "desktop",
+        "path": "/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+        "seo": {
+          "title": "Best Bottomless Portafilters for the Gaggia Classic Pro: Fit, Baskets, and What to Buy | BestPickZone",
+          "description": "Choose a Gaggia bottomless portafilter by lug fit, Classic Pro and E24 compatibility, basket depth, and clearance. Compare KNODOS, Normcore, and IMS.",
+          "h1": [
+            "Best Bottomless Portafilters for the Gaggia Classic Pro: Fit, Baskets, and What to Buy"
+          ],
+          "canon": [
+            "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+          "overflow": false,
+          "words": 1953,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B0C7CY4RRQ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KNODOS Gaggia 58mm Rosewood Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0C7CY4RRQ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KNODOS Gaggia 58mm Rosewood Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Normcore+bottomless+portafilter+Gaggia+58mm+removable+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Normcore Gaggia 58mm Bottomless Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Normcore+bottomless+portafilter+Gaggia+58mm+removable+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Normcore Gaggia 58mm Bottomless Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=IMS+B682TH24.5M+Gaggia+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "IMS B682TH24.5M"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=IMS+B682TH24.5M+Gaggia+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "IMS B682TH24.5M"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "desktop",
+        "path": "/books/daring-greatly-vs-the-gifts-of-imperfection",
+        "seo": {
+          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First? | BestPickZone",
+          "description": "Choose Daring Greatly for courage and vulnerability or The Gifts of Imperfection for perfectionism. Compare tone, practical use, and reading order.",
+          "h1": [
+            "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First?"
+          ],
+          "canon": [
+            "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection",
+          "overflow": false,
+          "words": 1949,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/1592407331?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Daring Greatly by Brené Brown"
+            },
+            {
+              "url": "https://www.amazon.com/dp/1592407331?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Daring Greatly by Brené Brown"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=The+Gifts+of+Imperfection+Brene+Brown+10th+Anniversary&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "The Gifts of Imperfection by Brené Brown"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=The+Gifts+of+Imperfection+Brene+Brown+10th+Anniversary&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "The Gifts of Imperfection by Brené Brown"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 4
+      },
+      {
+        "viewport": "desktop",
+        "networkEventCounts": {
+          "page_view": 5,
+          "affiliate_click": 21,
+          "click": 19
+        },
+        "runtimeErrors": []
+      },
+      {
+        "viewport": "mobile",
+        "path": "/coffee/best-espresso-grinders-gaggia-classic-pro",
+        "seo": {
+          "title": "Best Espresso Grinders for the Gaggia Classic Pro: Dialing In Without the Guesswork | BestPickZone",
+          "description": "Compare Encore ESP, J-Ultra, and Mignon Specialità for the Gaggia Classic Pro: adjustment, retention, dosing, budget tiers, and upgrade priorities.",
+          "h1": [
+            "Best Espresso Grinders for the Gaggia Classic Pro: Dialing In Without the Guesswork"
+          ],
+          "canon": [
+            "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro",
+          "overflow": false,
+          "words": 1859,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Baratza Encore ESP"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Baratza Encore ESP"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=1Zpresso+J-Ultra+manual+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "1Zpresso J-Ultra"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=1Zpresso+J-Ultra+manual+coffee+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "1Zpresso J-Ultra"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Eureka+Mignon+Specialita+55mm+110V+espresso+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Eureka Mignon Specialità"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Eureka+Mignon+Specialita+55mm+110V+espresso+grinder&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Eureka Mignon Specialità"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "mobile",
+        "path": "/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+        "seo": {
+          "title": "Best Bottomless Portafilters for the Gaggia Classic Pro: Fit, Baskets, and What to Buy | BestPickZone",
+          "description": "Choose a Gaggia bottomless portafilter by lug fit, Classic Pro and E24 compatibility, basket depth, and clearance. Compare KNODOS, Normcore, and IMS.",
+          "h1": [
+            "Best Bottomless Portafilters for the Gaggia Classic Pro: Fit, Baskets, and What to Buy"
+          ],
+          "canon": [
+            "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+          "overflow": false,
+          "words": 1953,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B0C7CY4RRQ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KNODOS Gaggia 58mm Rosewood Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0C7CY4RRQ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KNODOS Gaggia 58mm Rosewood Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Normcore+bottomless+portafilter+Gaggia+58mm+removable+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Normcore Gaggia 58mm Bottomless Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=Normcore+bottomless+portafilter+Gaggia+58mm+removable+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Normcore Gaggia 58mm Bottomless Portafilter"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=IMS+B682TH24.5M+Gaggia+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "IMS B682TH24.5M"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=IMS+B682TH24.5M+Gaggia+basket&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "IMS B682TH24.5M"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "mobile",
+        "path": "/books/daring-greatly-vs-the-gifts-of-imperfection",
+        "seo": {
+          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First? | BestPickZone",
+          "description": "Choose Daring Greatly for courage and vulnerability or The Gifts of Imperfection for perfectionism. Compare tone, practical use, and reading order.",
+          "h1": [
+            "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First?"
+          ],
+          "canon": [
+            "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection",
+          "overflow": false,
+          "words": 1949,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/1592407331?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Daring Greatly by Brené Brown"
+            },
+            {
+              "url": "https://www.amazon.com/dp/1592407331?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Daring Greatly by Brené Brown"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=The+Gifts+of+Imperfection+Brene+Brown+10th+Anniversary&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "The Gifts of Imperfection by Brené Brown"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=The+Gifts+of+Imperfection+Brene+Brown+10th+Anniversary&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "The Gifts of Imperfection by Brené Brown"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 4
+      },
+      {
+        "viewport": "mobile",
+        "networkEventCounts": {
+          "page_view": 3,
+          "affiliate_click": 16,
+          "click": 13
+        },
+        "runtimeErrors": []
+      },
+      {
+        "guard": "webdriver",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "explicit monitor flag",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "monitor query",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "singletonInitialization": "passed",
+        "duplicateSubscriptions": "passed",
+        "idempotentCleanup": "passed",
+        "nonProductionBuild": "disabled"
+      }
+    ],
+    "localSuppressionAndSingletonChecks": [
+      {
+        "guard": "webdriver",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "explicit monitor flag",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "monitor query",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "localhost",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "preview hostname",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "singletonInitialization": "passed",
+        "duplicateSubscriptions": "passed",
+        "idempotentCleanup": "passed",
+        "nonProductionBuild": "disabled"
+      }
+    ]
+  },
+  "crawlSummary": {
+    "sitemapEntries": 293,
+    "uniqueSitemapURLs": 293,
+    "sitemapProblems": [],
+    "statusCounts": {
+      "200": 295
+    },
+    "brokenInternalURLs": [],
+    "redirectingInternalURLs": [],
+    "orphans": [],
+    "missingFromSitemap": [
+      "https://bestpickzone.com/disclosure",
+      "https://bestpickzone.com"
+    ]
+  },
+  "articles": [
+    {
+      "url": "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro",
+      "status": 200,
+      "title": "Best Espresso Grinders for the Gaggia Classic Pro: Dialing In Without the Guesswork | BestPickZone",
+      "canonical": [
+        "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "sitemapOccurrences": 1,
+      "inboundLinks": [
+        "https://bestpickzone.com/coffee",
+        "https://bestpickzone.com/coffee/1zpresso-jx-pro-vs-comandante-c40",
+        "https://bestpickzone.com/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "https://bestpickzone.com/coffee/aeropress-original-vs-aeropress-premium",
+        "https://bestpickzone.com/coffee/baratza-encore-esp-vs-fellow-opus-2",
+        "https://bestpickzone.com/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+        "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+        "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+        "https://bestpickzone.com/coffee/best-burr-grinders-french-press-cold-brew",
+        "https://bestpickzone.com/coffee/best-coffee-makers-for-low-cabinets",
+        "https://bestpickzone.com/coffee/best-espresso-grinders-for-breville-bambino",
+        "https://bestpickzone.com/coffee/best-gaggia-classic-pro-upgrades",
+        "https://bestpickzone.com/coffee/best-gaggia-classic-pro-upgrades",
+        "https://bestpickzone.com/coffee/best-low-profile-espresso-scales",
+        "https://bestpickzone.com/coffee/best-vintage-coffee-grinders-ebay",
+        "https://bestpickzone.com/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+        "https://bestpickzone.com/coffee/breville-barista-express-vs-delonghi-la-specialista",
+        "https://bestpickzone.com/coffee/complete-small-kitchen-home-coffee-bar-setup",
+        "https://bestpickzone.com/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+        "https://bestpickzone.com/coffee/hario-v60-vs-chemex-classic",
+        "https://bestpickzone.com/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+        "https://bestpickzone.com/coffee/what-to-buy-with-your-breville-bambino-plus"
+      ]
+    },
+    {
+      "url": "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+      "status": 200,
+      "title": "Best Bottomless Portafilters for the Gaggia Classic Pro: Fit, Baskets, and What to Buy | BestPickZone",
+      "canonical": [
+        "https://bestpickzone.com/coffee/best-bottomless-portafilters-gaggia-classic-pro"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "sitemapOccurrences": 1,
+      "inboundLinks": [
+        "https://bestpickzone.com/coffee",
+        "https://bestpickzone.com/coffee/1zpresso-jx-pro-vs-comandante-c40",
+        "https://bestpickzone.com/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "https://bestpickzone.com/coffee/aeropress-original-vs-aeropress-premium",
+        "https://bestpickzone.com/coffee/baratza-encore-esp-vs-fellow-opus-2",
+        "https://bestpickzone.com/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+        "https://bestpickzone.com/coffee/best-burr-grinders-french-press-cold-brew",
+        "https://bestpickzone.com/coffee/best-coffee-makers-for-low-cabinets",
+        "https://bestpickzone.com/coffee/best-espresso-grinders-for-breville-bambino",
+        "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro",
+        "https://bestpickzone.com/coffee/best-espresso-grinders-gaggia-classic-pro",
+        "https://bestpickzone.com/coffee/best-gaggia-classic-pro-upgrades",
+        "https://bestpickzone.com/coffee/best-gaggia-classic-pro-upgrades",
+        "https://bestpickzone.com/coffee/best-low-profile-espresso-scales",
+        "https://bestpickzone.com/coffee/best-vintage-coffee-grinders-ebay",
+        "https://bestpickzone.com/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+        "https://bestpickzone.com/coffee/breville-barista-express-vs-delonghi-la-specialista",
+        "https://bestpickzone.com/coffee/complete-small-kitchen-home-coffee-bar-setup",
+        "https://bestpickzone.com/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+        "https://bestpickzone.com/coffee/hario-v60-vs-chemex-classic",
+        "https://bestpickzone.com/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+        "https://bestpickzone.com/coffee/what-to-buy-with-your-breville-bambino-plus"
+      ]
+    },
+    {
+      "url": "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection",
+      "status": 200,
+      "title": "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First? | BestPickZone",
+      "canonical": [
+        "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection"
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "sitemapOccurrences": 1,
+      "inboundLinks": [
+        "https://bestpickzone.com/books",
+        "https://bestpickzone.com/books/best-brene-brown-books",
+        "https://bestpickzone.com/books/self-help"
+      ]
+    }
+  ],
+  "amazonDestinations": {
+    "mode": "Separate real Amazon desktop/mobile browser inspection; collection regression uses intercepted Amazon navigation",
+    "verifiedItems": [
+      "Baratza Encore ESP",
+      "1Zpresso J-Ultra",
+      "Eureka Mignon Specialita 55mm",
+      "KNODOS Gaggia rosewood B0C7CY4RRQ",
+      "Normcore Gaggia 58mm removable-basket handle",
+      "Daring Greatly 1592407331",
+      "The Gifts of Imperfection 10th Anniversary"
+    ],
+    "availabilityFallback": "IMS B682TH24.5M exact search works, but exact stock is unconfirmed; buyer warning included in article",
+    "tag": "althcu-20"
+  },
+  "limits": [
+    "GA4 Admin key-event changes still required; connector is read-only",
+    "Direct traffic operator remains unproven",
+    "No test GA hits transmitted; no claim of live collected production conversions or confirmed Google indexing"
+  ]
+}
