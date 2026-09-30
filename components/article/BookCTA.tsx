@@ -43,6 +43,8 @@ export default function BookCTA({
         target="_blank"
         rel="noopener nofollow sponsored"
         data-affiliate-placement={trackingId}
+        data-product-name={title}
+        data-product-category="books"
         className={className}
       >
         <span>{label}</span>

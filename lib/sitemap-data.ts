@@ -98,7 +98,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen/best-products-for-your-backyard`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-products-for-your-dorm-room`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-picnic-essentials`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
-  ...buyingGuides.filter(g => g.silo === 'mahjong').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
+  ...buyingGuides.filter(g => g.silo === 'mahjong').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 1.0 },
   { url: `${baseUrl}/tech`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/home-kitchen`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.8 },
@@ -161,7 +161,7 @@ export const coffeePages: SitemapEntry[] = [
   { url: `${baseUrl}/coffee/complete-small-kitchen-home-coffee-bar-setup`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/coffee/best-gaggia-classic-pro-upgrades`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/coffee/what-to-buy-with-your-breville-bambino-plus`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
-  ...buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
+  ...buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/coffee`, lastModified: guideDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/coffee/best-vintage-coffee-grinders-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
@@ -177,7 +177,7 @@ export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/wfh/ultimate-kitchen-table-home-office-setup`, lastModified: '2026-07-01', changeFrequency: 'monthly', priority: 0.8 },
-  ...buyingGuides.filter(g => g.silo === 'wfh').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
+  ...buyingGuides.filter(g => g.silo === 'wfh').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/wfh`, lastModified: guideDate, changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/wfh/best-products-for-your-home-office`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.9 },
   { url: `${baseUrl}/wfh/best-used-herman-miller-aeron-chairs-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
@@ -196,6 +196,7 @@ export const wfhPages: SitemapEntry[] = [
 ]
 
 export const booksPages: SitemapEntry[] = [
+  ...buyingGuides.filter(g => g.silo === 'books').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   ...standaloneBookPages,
   ...articlesData.map((article) => ({
     url: `${baseUrl}${getBookPath(article.slug)}`,

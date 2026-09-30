@@ -404,7 +404,8 @@ export default function GaggiaClassicProUpgradesPage() {
           machine mod. Too many Gaggia upgrade lists jump straight to baskets, shower screens, or wiring kits
           because those feel more enthusiast-coded. But the Classic Pro is transparent equipment. It exposes grind
           and prep problems immediately. So the smartest first investment is the one that feeds the machine better,
-          not the one that looks most technical in a photo.
+          not the one that looks most technical in a photo. Compare adjustment and dosing routines in our{' '}
+          <Link href="/coffee/best-espresso-grinders-gaggia-classic-pro" className="font-semibold text-amber-800 underline">Gaggia grinder buying guide</Link>.
         </p>
       </section>
 
@@ -415,6 +416,7 @@ export default function GaggiaClassicProUpgradesPage() {
           the 58mm bottomless portafilter. This is the accessory that makes the platform feel like the machine its
           fans promise it is. You stop hiding behind a spouted handle and start seeing exactly what your prep is
           doing. Spraying, channeling, uneven starts, and sloppy distribution become visible instead of abstract.
+          {' '}Before ordering, check our <Link href="/coffee/best-bottomless-portafilters-gaggia-classic-pro" className="font-semibold text-amber-800 underline">portafilter and basket fit guide</Link>; 58mm alone does not guarantee Gaggia compatibility.
         </p>
         <p className="mt-4 text-lg leading-8 text-slate-700">
           That matters because the Gaggia Classic Pro is not really a one-button appliance story. Its appeal is the

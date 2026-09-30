@@ -239,6 +239,11 @@ const topicClusters = [
           </p>
         </header>
 
+        <section className="mb-10 rounded-2xl border border-amber-200 bg-amber-50 p-6">
+          <h2 className="text-2xl font-bold text-gray-900">Choosing your first Brené Brown book?</h2>
+          <p className="mt-3 text-gray-700">Compare <Link href="/books/daring-greatly-vs-the-gifts-of-imperfection" className="font-semibold text-amber-800 underline">Daring Greatly and The Gifts of Imperfection</Link> by perfectionism, vulnerability, reading style, and practical application.</p>
+        </section>
+
         <section className="mb-14 rounded-[28px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-orange-50 p-6">
           <div className="mb-5 flex items-center justify-between gap-4">
             <div>

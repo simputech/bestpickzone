@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Suspense } from 'react'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -83,9 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="bg-white text-gray-900 flex flex-col min-h-screen">
-        <Suspense fallback={null}>
-          <GoogleAnalytics />
-        </Suspense>
+        <GoogleAnalytics production={process.env.NODE_ENV === 'production' && process.env.VERCEL_ENV === 'production'} />
         <AffiliateClickTracker />
         <script
           type="application/ld+json"

@@ -13,5 +13,5 @@ export function getBuyingGuide(slug: string) {
 export function buyingGuideMetadata(slug: string): Metadata {
   const g = getBuyingGuide(slug)
   const url = `https://bestpickzone.com/${g.silo}/${g.slug}`
-  return withArticleMetadataDefaults({ title: g.title, description: g.description, alternates: { canonical: url }, robots: { index: true, follow: true }, openGraph: { title: g.title, description: g.description, type: 'article', url } }, { category: g.silo, url, publishedTime: `${guideDate}T00:00:00Z`, modifiedTime: `${guideDate}T00:00:00Z` })
+  return withArticleMetadataDefaults({ title: g.title, description: g.description, alternates: { canonical: url }, robots: { index: true, follow: true }, openGraph: { title: g.title, description: g.description, type: 'article', url } }, { category: g.silo, url, publishedTime: `${g.date ?? guideDate}T00:00:00Z`, modifiedTime: `${g.date ?? guideDate}T00:00:00Z` })
 }

@@ -128,6 +128,11 @@ export default function SelfHelpHubPage() {
           </p>
         </header>
 
+        <section className="mb-10 rounded-2xl border border-amber-200 bg-amber-50 p-6">
+          <h2 className="text-2xl font-bold text-gray-900">Choosing your first Brené Brown book?</h2>
+          <p className="mt-3 text-gray-700">Compare <Link href="/books/daring-greatly-vs-the-gifts-of-imperfection" className="font-semibold text-amber-800 underline">Daring Greatly and The Gifts of Imperfection</Link> by perfectionism, vulnerability, reading style, and practical application.</p>
+        </section>
+
         <section className="mb-12 rounded-[28px] border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-teal-50 p-6">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-emerald-700">
             Start Here

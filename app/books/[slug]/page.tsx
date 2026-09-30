@@ -309,6 +309,9 @@ export default function ArticlePage({ params }: Props) {
             <span>{readingTimeLabel}</span>
           </div>
           <p className="text-lg text-gray-700 leading-relaxed">{article.intro}</p>
+          {article.slug === 'best-brene-brown-books' && (
+            <p className="mt-4 text-lg leading-relaxed text-gray-700">Deciding between the two starting points? Our <Link href="/books/daring-greatly-vs-the-gifts-of-imperfection" className="font-semibold text-amber-800 underline">Daring Greatly and Gifts of Imperfection comparison</Link> matches each book to your reason for reading.</p>
+          )}
         </header>
 
         {/* Affiliate Disclosure */}
