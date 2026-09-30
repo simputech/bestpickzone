@@ -1,10 +1,15 @@
 import type { ComparisonPageData, ComparisonProductSection } from '@/lib/product-comparisons'
 import { amazonSearchUrl } from '@/lib/product-comparisons'
+import { searchAmazonProduct } from '@/lib/amazon-creators-api'
 import FaqJsonLd from '@/components/seo/FaqJsonLd'
 
-function ProductBlock({ product }: { product: ComparisonProductSection }) {
-  const amazonUrl = amazonSearchUrl(product.amazonQuery)
-
+function ProductBlock({
+  product,
+  amazonUrl,
+}: {
+  product: ComparisonProductSection
+  amazonUrl: string
+}) {
   return (
     <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
       <h2 className="mb-3 text-2xl font-bold text-gray-900">{product.question}</h2>
@@ -58,7 +63,15 @@ function ProductBlock({ product }: { product: ComparisonProductSection }) {
   )
 }
 
-export default function ProductComparisonPage({ data }: { data: ComparisonPageData }) {
+export default async function ProductComparisonPage({ data }: { data: ComparisonPageData }) {
+  const [productAItem, productBItem] = await Promise.all([
+    searchAmazonProduct(data.productA.amazonQuery),
+    searchAmazonProduct(data.productB.amazonQuery),
+  ])
+
+  const productAUrl = productAItem?.detailPageURL ?? amazonSearchUrl(data.productA.amazonQuery)
+  const productBUrl = productBItem?.detailPageURL ?? amazonSearchUrl(data.productB.amazonQuery)
+
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <FaqJsonLd faqs={data.faq} />
@@ -105,8 +118,8 @@ export default function ProductComparisonPage({ data }: { data: ComparisonPageDa
         height={data.heroImage.height}
         className="mb-8 w-full rounded-xl shadow-sm"
       />
-      <ProductBlock product={data.productA} />
-      <ProductBlock product={data.productB} />
+      <ProductBlock product={data.productA} amazonUrl={productAUrl} />
+      <ProductBlock product={data.productB} amazonUrl={productBUrl} />
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-3 text-2xl font-bold text-gray-900">{data.faqQuestion}</h2>
         <p className="mb-4 leading-relaxed text-gray-700">{data.faqAnswer}</p>
