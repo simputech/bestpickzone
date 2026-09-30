@@ -8,7 +8,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE_PATH || 'playwright')
 const ts = require('typescript')
 const base = process.argv[2] || 'http://localhost:3107'
 const live = base === 'https://bestpickzone.com'
-const paths = ['/coffee/best-espresso-grinders-gaggia-classic-pro', '/coffee/best-bottomless-portafilters-gaggia-classic-pro', '/books/daring-greatly-vs-the-gifts-of-imperfection']
+const paths = process.env.BPZ_QA_PATHS ? JSON.parse(process.env.BPZ_QA_PATHS) : ['/coffee/best-espresso-grinders-gaggia-classic-pro', '/coffee/best-bottomless-portafilters-gaggia-classic-pro', '/books/daring-greatly-vs-the-gifts-of-imperfection']
 const out = process.env.QA_OUTPUT || '/tmp/bpz-browser-qa'
 fs.mkdirSync(out, { recursive: true })
 const results = []
@@ -51,7 +51,7 @@ const collectionEvents=req=>req.filter(r=>new URL(r.url).pathname==='/g/collect'
  const browser=await chromium.launch({headless:true, channel:process.env.PLAYWRIGHT_CHANNEL})
  try {
   for(const mobile of [false,true]) {
-   const {c,requests,errors}=await context(browser,{mobile});const p=await c.newPage()
+   const {c,requests,errors}=await context(browser,{mobile});const p=await c.newPage();let expectedClicks=0
    for(const routePath of paths){
     const response=await p.goto('https://bestpickzone.com'+routePath);assert.equal(response.status(),200)
     await p.waitForFunction(()=>window.__bpzAnalyticsInitialized)
@@ -69,6 +69,7 @@ const collectionEvents=req=>req.filter(r=>new URL(r.url).pathname==='/g/collect'
       const e=after.filter(x=>x.name==='affiliate_click').at(-1).params
       assert.equal(e.affiliate_network,'amazon');assert.equal(e.destination_domain,'www.amazon.com');assert.equal(e.page_path,routePath);assert.equal(e.article_slug,routePath.split('/').pop());assert.ok(e.product_name);assert.ok(e.product_category)
     }
+    expectedClicks+=seo.affiliate.length
     results.push({viewport:mobile?'mobile':'desktop',path:routePath,seo,clicks:seo.affiliate.length})
    }
    if(!mobile){
@@ -81,21 +82,22 @@ const collectionEvents=req=>req.filter(r=>new URL(r.url).pathname==='/g/collect'
     }
     // Real Next Link transition; the root analytics component must not reload.
     const configBefore=await p.evaluate(()=>window.dataLayer.filter(x=>x[0]==='config').length)
-    await p.locator('nav[aria-label="Breadcrumb"] a[href="/books"]').click();await p.waitForURL('**/books')
+    const hub='/'+paths.at(-1).split('/')[1]
+    await p.locator(`nav[aria-label="Breadcrumb"] a[href="${hub}"]`).click();await p.waitForURL('**'+hub)
     assert.equal(await p.evaluate(()=>window.dataLayer.filter(x=>x[0]==='config').length),configBefore)
-    await until(()=>collectionEvents(requests).some(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com/books'),'SPA page view missing')
-    assert.equal(collectionEvents(requests).filter(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com/books').length,1)
-    await p.goBack();await p.waitForURL('**/daring-greatly-vs-the-gifts-of-imperfection')
+    await until(()=>collectionEvents(requests).some(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com'+hub),'SPA page view missing')
+    assert.equal(collectionEvents(requests).filter(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com'+hub).length,1)
+    await p.goBack();await p.waitForURL('**'+paths.at(-1))
     const n=(await events(p)).length;const popup=c.waitForEvent('page');await p.locator('article a[href*="amazon.com"]').first().click();await (await popup).close();assert.equal((await events(p)).length,n+1)
    }
-   if(!mobile) await until(()=>collectionEvents(requests).filter(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com'+paths[2]).length===2,'Back-navigation page view missing or duplicated')
+   if(!mobile) await until(()=>collectionEvents(requests).filter(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com'+paths.at(-1)).length===2,'Back-navigation page view missing or duplicated')
    await sleep(1500)
    fs.writeFileSync(path.join(out, mobile ? 'mobile-network.json' : 'desktop-network.json'), JSON.stringify(requests,null,2))
    const net=collectionEvents(requests)
    assert.equal(net.filter(x=>x.en==='amazon_click').length,0)
-   assert.equal(net.filter(x=>x.en==='affiliate_click').length,mobile?16:21)
+   assert.equal(net.filter(x=>x.en==='affiliate_click').length,expectedClicks+(mobile?0:5))
    assert.ok(net.some(x=>x.en==='affiliate_click'&&x['ep.affiliate_network']==='amazon'))
-   for(const routePath of paths.slice(0,2)) assert.equal(net.filter(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com'+routePath).length,1)
+   for(const routePath of paths.slice(0,-1)) assert.equal(net.filter(x=>x.en==='page_view'&&x.dl==='https://bestpickzone.com'+routePath).length,1)
    assert.deepEqual(errors,[]);results.push({viewport:mobile?'mobile':'desktop',networkEventCounts:net.reduce((a,e)=>(a[e.en]=(a[e.en]||0)+1,a),{}),runtimeErrors:errors})
    await c.close()
   }

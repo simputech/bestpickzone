@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "kitchenaid-pasta-roller-vs-pasta-press",
+    "silo": "home-kitchen",
+    "title": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?",
+    "description": "Choose a KitchenAid roller for sheets and ribbons or the KSMPEXTA press for tubes and shapes. Compare dough, mixer fit, current variants, cleaning, and storage.",
+    "visual": [
+      "Choose the pasta shape first",
+      "Match the attachment and dough recipe",
+      "Budget for preparation and cleanup"
+    ],
+    "date": "2026-09-30"
+  },
+  {
+    "slug": "best-pizza-peels-ooni-koda-12",
+    "silo": "home-kitchen",
+    "title": "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning",
+    "description": "Choose a 12-inch launching peel and decide whether a small turning peel earns its place. Compare Ooni fit, wood and metal, handle space, and unnecessary extras.",
+    "visual": [
+      "Confirm Koda 12, not Koda 2",
+      "Choose a 12-inch launching blade",
+      "Add a turning peel only for its job"
+    ],
+    "date": "2026-09-30"
+  },
+  {
+    "slug": "best-mahjong-racks-pushers-oversized-tiles",
+    "silo": "mahjong",
+    "title": "Best Mahjong Racks and Pushers for Oversized Tiles",
+    "description": "Choose Mahjong racks by tile width, thickness, wall length, exposure shelf, and pusher fit. Compare documented 20-inch options and avoid misleading size claims.",
+    "visual": [
+      "Measure width, height, and thickness",
+      "Check the hand and the complete wall",
+      "Confirm shelf fit before ordering"
+    ],
+    "date": "2026-09-30"
+  },
+  {
+    "slug": "ninja-creami-containers-compatibility",
+    "silo": "home-kitchen",
+    "title": "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared",
+    "description": "Match Ninja CREAMi Original, Deluxe, XL, and Swirl model numbers to genuine container part families. Avoid confusing equal capacity with compatible fit.",
+    "visual": [
+      "Read the full machine model",
+      "Match the container part family",
+      "Check lids, nozzles, and included pieces"
+    ],
+    "date": "2026-09-30"
+  },
+  {
+    "slug": "elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+    "silo": "wfh",
+    "title": "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials?",
+    "description": "Compare the Stream Deck MK.2, full MX Creative Console, and standalone MX Keypad by software, buttons, dials, desk setup, and real workflow needs.",
+    "visual": [
+      "Count visible commands",
+      "Decide whether you need continuous controls",
+      "Check your exact app and operating system"
+    ],
+    "date": "2026-09-30",
+    "publishedDate": "2026-01-01"
+  }
+]

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import HtmlComparisonArticlePage from '@/components/article/HtmlComparisonArticlePage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import { buyingGuides } from '@/lib/buying-guide-data'
 import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
 
 type Params = { slug: string }
@@ -11,7 +12,7 @@ function getArticle(slug: string) {
 }
 
 export function generateStaticParams() {
-  return wfhComparisonArticles.map((article) => ({ slug: article.slug }))
+  return wfhComparisonArticles.filter(article => !buyingGuides.some(g => g.silo === 'wfh' && g.slug === article.slug)).map((article) => ({ slug: article.slug }))
 }
 
 export function generateMetadata({ params }: { params: Params }): Metadata {

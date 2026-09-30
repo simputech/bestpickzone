@@ -98,7 +98,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen/best-products-for-your-backyard`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-products-for-your-dorm-room`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-picnic-essentials`, lastModified: '2026-07-10', changeFrequency: 'monthly', priority: 0.8 },
-  ...buyingGuides.filter(g => g.silo === 'mahjong').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
+  ...buyingGuides.filter(g => (g.silo === 'mahjong' || g.silo === 'home-kitchen')).map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 1.0 },
   { url: `${baseUrl}/tech`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/home-kitchen`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.8 },
@@ -187,7 +187,7 @@ export const wfhPages: SitemapEntry[] = [
   { url: `${baseUrl}/wfh/purple-royal-seat-cushion-vs-cushion-lab`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/fully-jarvis-vs-uplift-v2-standing-desk`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/ergotron-lx-vs-amazon-basics-monitor-arm`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
-  ...wfhComparisonArticles.map((article) => ({
+  ...wfhComparisonArticles.filter(article => !buyingGuides.some(g => g.silo === 'wfh' && g.slug === article.slug)).map((article) => ({
     url: `${baseUrl}/wfh/${article.slug}`,
     lastModified: contentRefreshDate,
     changeFrequency: 'monthly' as const,

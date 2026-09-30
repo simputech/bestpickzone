@@ -479,7 +479,8 @@ export default function KitchenAidAttachmentsPage() {
                 Check Amazon options
               </a>
             </div>
-          </article>
+          <section className="my-8 rounded-2xl border border-teal-200 bg-teal-50 p-6"><h2 className="text-2xl font-bold">Compare pasta workflows before choosing the attachment</h2><p className="mt-3">A roller makes sheets and ribbons; the press makes extruded shapes. Compare dough preparation, current model variants, and cleaning before choosing your pasta tool.</p><p className="mt-3"><Link className="font-semibold text-teal-800 underline" href="/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press">KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?</Link></p></section>
+</article>
         ))}
       </section>
 

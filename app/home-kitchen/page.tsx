@@ -24,6 +24,10 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   category: 'home-kitchen', metadataType: 'website' })
 
 const articles = [
+  {"slug": "kitchenaid-pasta-roller-vs-pasta-press", "title": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?", "description": "Choose a KitchenAid roller for sheets and ribbons or the KSMPEXTA press for tubes and shapes. Compare dough, mixer fit, current variants, cleaning, and storage.", "badge": "Compatibility Buying Guide", "badgeColor": "bg-teal-100 text-teal-700", "comingSoon": false},
+  {"slug": "best-pizza-peels-ooni-koda-12", "title": "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning", "description": "Choose a 12-inch launching peel and decide whether a small turning peel earns its place. Compare Ooni fit, wood and metal, handle space, and unnecessary extras.", "badge": "Compatibility Buying Guide", "badgeColor": "bg-teal-100 text-teal-700", "comingSoon": false},
+  {"slug": "ninja-creami-containers-compatibility", "title": "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared", "description": "Match Ninja CREAMi Original, Deluxe, XL, and Swirl model numbers to genuine container part families. Avoid confusing equal capacity with compatible fit.", "badge": "Compatibility Buying Guide", "badgeColor": "bg-teal-100 text-teal-700", "comingSoon": false},
+
   {
     slug: 'best-fall-clothes-for-couples',
     title: 'Best Fall Clothes for Couples (2026)',

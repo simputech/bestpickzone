@@ -1,0 +1,4476 @@
+{
+  "date": "2026-09-30",
+  "property": "sc-domain:bestpickzone.com",
+  "query": {
+    "siteUrl": "sc-domain:bestpickzone.com",
+    "startDate": "2026-08-31",
+    "endDate": "2026-09-27",
+    "dimensions": [
+      "query"
+    ],
+    "searchType": "web",
+    "rowCount": 10,
+    "rows": [
+      {
+        "keys": [
+          "mx creative console vs stream deck"
+        ],
+        "clicks": 1,
+        "impressions": 8,
+        "ctr": 12.5,
+        "position": 12.125
+      },
+      {
+        "keys": [
+          "mx keypad vs streamdeck"
+        ],
+        "clicks": 1,
+        "impressions": 8,
+        "ctr": 12.5,
+        "position": 11
+      },
+      {
+        "keys": [
+          "elgato stream deck vs logitech mx creative console"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 9.125
+      },
+      {
+        "keys": [
+          "logitech mx creative console vs stream deck"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 11.75
+      },
+      {
+        "keys": [
+          "logitech mx keypad vs stream deck"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "logitech mx keypad vs streamdeck"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "logitech stream deck"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 34.5
+      },
+      {
+        "keys": [
+          "mx keypad vs stream deck"
+        ],
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": 0,
+        "position": 10.31578947368421
+      },
+      {
+        "keys": [
+          "stream deck logitech"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 59.5
+      },
+      {
+        "keys": [
+          "stream deck vs logitech creative console"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      }
+    ],
+    "pagination": {
+      "limit": 100,
+      "offset": 0,
+      "returned": 10,
+      "hasMore": false,
+      "note": "Showing all 10 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-09-27",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-09-28",
+      "settledThrough": "2026-09-27",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-20",
+        "endDate": "2026-09-29",
+        "dataState": "all"
+      }
+    }
+  },
+  "page": {
+    "siteUrl": "sc-domain:bestpickzone.com",
+    "pageUrl": "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+    "range": {
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-27"
+    },
+    "daily": [
+      {
+        "date": "2026-08-31",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "date": "2026-09-01",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9.5
+      },
+      {
+        "date": "2026-09-02",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "date": "2026-09-03",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-04",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "date": "2026-09-05",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-06",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-07",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "date": "2026-09-08",
+        "clicks": 0,
+        "impressions": 43,
+        "ctr": 0,
+        "position": 9.44186046511628
+      },
+      {
+        "date": "2026-09-09",
+        "clicks": 1,
+        "impressions": 22,
+        "ctr": 4.545454545454546,
+        "position": 12.681818181818182
+      },
+      {
+        "date": "2026-09-10",
+        "clicks": 1,
+        "impressions": 16,
+        "ctr": 6.25,
+        "position": 10.8125
+      },
+      {
+        "date": "2026-09-11",
+        "clicks": 1,
+        "impressions": 15,
+        "ctr": 6.666666666666667,
+        "position": 9.4
+      },
+      {
+        "date": "2026-09-12",
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 8.875
+      },
+      {
+        "date": "2026-09-13",
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 10.4375
+      },
+      {
+        "date": "2026-09-14",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 8.333333333333332
+      },
+      {
+        "date": "2026-09-15",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 9.777777777777779
+      },
+      {
+        "date": "2026-09-16",
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 10.090909090909092
+      },
+      {
+        "date": "2026-09-17",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 9.333333333333334
+      },
+      {
+        "date": "2026-09-18",
+        "clicks": 1,
+        "impressions": 10,
+        "ctr": 10,
+        "position": 13.6
+      },
+      {
+        "date": "2026-09-19",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 11.909090909090908
+      },
+      {
+        "date": "2026-09-20",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33333333333333,
+        "position": 6.666666666666667
+      },
+      {
+        "date": "2026-09-21",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 11.444444444444445
+      },
+      {
+        "date": "2026-09-22",
+        "clicks": 2,
+        "impressions": 9,
+        "ctr": 22.22222222222222,
+        "position": 12.11111111111111
+      },
+      {
+        "date": "2026-09-23",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 10.125
+      },
+      {
+        "date": "2026-09-24",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 9.7
+      },
+      {
+        "date": "2026-09-25",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 5.4
+      },
+      {
+        "date": "2026-09-26",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "date": "2026-09-27",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 9.125
+      }
+    ],
+    "dataSource": "api",
+    "settledThrough": "2026-09-27",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-09-28",
+      "settledThrough": "2026-09-27",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-20",
+        "endDate": "2026-09-29",
+        "dataState": "all"
+      }
+    }
+  },
+  "ga4": {
+    "rows": [
+      {
+        "page_path": "/",
+        "event_name": "page_view",
+        "event_count": "37"
+      },
+      {
+        "page_path": "/",
+        "event_name": "session_start",
+        "event_count": "32"
+      },
+      {
+        "page_path": "/",
+        "event_name": "first_visit",
+        "event_count": "30"
+      },
+      {
+        "page_path": "/books/agatha-christie-vs-arthur-conan-doyle",
+        "event_name": "session_start",
+        "event_count": "18"
+      },
+      {
+        "page_path": "/books/agatha-christie-vs-arthur-conan-doyle",
+        "event_name": "first_visit",
+        "event_count": "17"
+      },
+      {
+        "page_path": "/books/agatha-christie-vs-arthur-conan-doyle",
+        "event_name": "page_view",
+        "event_count": "17"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-vs-solawave-wand",
+        "event_name": "page_view",
+        "event_count": "15"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-vs-solawave-wand",
+        "event_name": "session_start",
+        "event_count": "15"
+      },
+      {
+        "page_path": "/tech/airpods-pro-vs-sony-wf-1000xm5",
+        "event_name": "first_visit",
+        "event_count": "15"
+      },
+      {
+        "page_path": "/tech/airpods-pro-vs-sony-wf-1000xm5",
+        "event_name": "page_view",
+        "event_count": "15"
+      },
+      {
+        "page_path": "/tech/airpods-pro-vs-sony-wf-1000xm5",
+        "event_name": "session_start",
+        "event_count": "15"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-vs-solawave-wand",
+        "event_name": "first_visit",
+        "event_count": "14"
+      },
+      {
+        "page_path": "/books/self-help/best-self-help-books-2026",
+        "event_name": "first_visit",
+        "event_count": "14"
+      },
+      {
+        "page_path": "/books/self-help/best-self-help-books-2026",
+        "event_name": "page_view",
+        "event_count": "14"
+      },
+      {
+        "page_path": "/books/self-help/best-self-help-books-2026",
+        "event_name": "session_start",
+        "event_count": "14"
+      },
+      {
+        "page_path": "/tech/best-budget-monitors",
+        "event_name": "first_visit",
+        "event_count": "14"
+      },
+      {
+        "page_path": "/tech/best-budget-monitors",
+        "event_name": "page_view",
+        "event_count": "14"
+      },
+      {
+        "page_path": "/tech/best-budget-monitors",
+        "event_name": "session_start",
+        "event_count": "14"
+      },
+      {
+        "page_path": "/beauty/vitamin-c-vs-niacinamide",
+        "event_name": "first_visit",
+        "event_count": "13"
+      },
+      {
+        "page_path": "/beauty/vitamin-c-vs-niacinamide",
+        "event_name": "page_view",
+        "event_count": "13"
+      },
+      {
+        "page_path": "/beauty/vitamin-c-vs-niacinamide",
+        "event_name": "session_start",
+        "event_count": "13"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "page_view",
+        "event_count": "13"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "session_start",
+        "event_count": "13"
+      },
+      {
+        "page_path": "/top-4-best-books-similar-to-rich-dad-poor-dad",
+        "event_name": "first_visit",
+        "event_count": "12"
+      },
+      {
+        "page_path": "/top-4-best-books-similar-to-rich-dad-poor-dad",
+        "event_name": "page_view",
+        "event_count": "12"
+      },
+      {
+        "page_path": "/top-4-best-books-similar-to-rich-dad-poor-dad",
+        "event_name": "session_start",
+        "event_count": "12"
+      },
+      {
+        "page_path": "/books/best-books-of-all-time",
+        "event_name": "first_visit",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/best-books-of-all-time",
+        "event_name": "page_view",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/best-books-of-all-time",
+        "event_name": "session_start",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/best-historical-fiction-books-2026",
+        "event_name": "first_visit",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/best-historical-fiction-books-2026",
+        "event_name": "page_view",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/best-historical-fiction-books-2026",
+        "event_name": "session_start",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/haruki-murakami-reading-order",
+        "event_name": "first_visit",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/haruki-murakami-reading-order",
+        "event_name": "page_view",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/haruki-murakami-reading-order",
+        "event_name": "session_start",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/lord-of-the-rings-vs-harry-potter",
+        "event_name": "first_visit",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/lord-of-the-rings-vs-harry-potter",
+        "event_name": "page_view",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/books/lord-of-the-rings-vs-harry-potter",
+        "event_name": "session_start",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+        "event_name": "page_view",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+        "event_name": "page_view",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+        "event_name": "session_start",
+        "event_count": "11"
+      },
+      {
+        "page_path": "/6-best-movies-about-artificial-intelligence",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/6-best-movies-about-artificial-intelligence",
+        "event_name": "page_view",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/6-best-movies-about-artificial-intelligence",
+        "event_name": "session_start",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/7-best-classic-horror-movies",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/7-best-classic-horror-movies",
+        "event_name": "page_view",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/7-best-classic-horror-movies",
+        "event_name": "session_start",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/books/best-early-reader-books",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/books/best-early-reader-books",
+        "event_name": "page_view",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/books/best-early-reader-books",
+        "event_name": "session_start",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "event_name": "page_view",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "event_name": "session_start",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "event_name": "page_view",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "event_name": "session_start",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/your-guide-to-the-best-places-to-see-the-northern-lights",
+        "event_name": "first_visit",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/your-guide-to-the-best-places-to-see-the-northern-lights",
+        "event_name": "page_view",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/your-guide-to-the-best-places-to-see-the-northern-lights",
+        "event_name": "session_start",
+        "event_count": "10"
+      },
+      {
+        "page_path": "/best-ski-resorts-in-europe",
+        "event_name": "first_visit",
+        "event_count": "9"
+      },
+      {
+        "page_path": "/best-ski-resorts-in-europe",
+        "event_name": "page_view",
+        "event_count": "9"
+      },
+      {
+        "page_path": "/best-ski-resorts-in-europe",
+        "event_name": "session_start",
+        "event_count": "9"
+      },
+      {
+        "page_path": "/coffee",
+        "event_name": "page_view",
+        "event_count": "9"
+      },
+      {
+        "page_path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+        "event_name": "session_start",
+        "event_count": "9"
+      },
+      {
+        "page_path": "/mahjong",
+        "event_name": "page_view",
+        "event_count": "9"
+      },
+      {
+        "page_path": "/authors-similar-to-michael-crichton",
+        "event_name": "first_visit",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/authors-similar-to-michael-crichton",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/authors-similar-to-michael-crichton",
+        "event_name": "session_start",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/best-book-club-books",
+        "event_name": "first_visit",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/best-book-club-books",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/best-book-club-books",
+        "event_name": "session_start",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/best-personal-finance-books",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-history-books-for-beginners",
+        "event_name": "first_visit",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-history-books-for-beginners",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-history-books-for-beginners",
+        "event_name": "session_start",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/hemingway-vs-fitzgerald",
+        "event_name": "session_start",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/top-fantasy-romance-novels",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/books/top-fantasy-romance-novels",
+        "event_name": "session_start",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/coffee/fellow-opus-2-vs-baratza-encore-esp-pro",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+        "event_name": "first_visit",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/top-5-authors-similar-to-roald-dahl",
+        "event_name": "first_visit",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/top-5-authors-similar-to-roald-dahl",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/top-5-authors-similar-to-roald-dahl",
+        "event_name": "session_start",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+        "event_name": "first_visit",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+        "event_name": "page_view",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+        "event_name": "session_start",
+        "event_count": "8"
+      },
+      {
+        "page_path": "/best-true-crime-documentaries-of-all-time",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/best-true-crime-documentaries-of-all-time",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/best-true-crime-documentaries-of-all-time",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-books-for-boys-ages-8-12",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-books-for-boys-ages-8-12",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-books-for-boys-ages-8-12",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-personal-finance-books",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-personal-finance-books",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-romantic-comedy-books",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-romantic-comedy-books",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/best-romantic-comedy-books",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/hemingway-vs-fitzgerald",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/hemingway-vs-fitzgerald",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/books/top-fantasy-romance-novels",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-true-crime",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-true-crime",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/home-kitchen/instant-pot-vs-ninja-foodi",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/home-kitchen/instant-pot-vs-ninja-foodi",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/home-kitchen/instant-pot-vs-ninja-foodi",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/tech/best-mechanical-keyboards",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/tech/best-mechanical-keyboards",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/tech/best-mechanical-keyboards",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/tech/best-wireless-earbuds",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/tech/best-wireless-earbuds",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/tech/best-wireless-earbuds",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+        "event_name": "first_visit",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+        "event_name": "page_view",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+        "event_name": "session_start",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "event_name": "user_engagement",
+        "event_count": "7"
+      },
+      {
+        "page_path": "/",
+        "event_name": "user_engagement",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-vs-solawave-wand",
+        "event_name": "user_engagement",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/best-places-to-visit-in-canada",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/best-places-to-visit-in-canada",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/best-places-to-visit-in-canada",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-dystopian-novels",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-dystopian-novels",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-dystopian-novels",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-james-patterson-books",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-john-grisham-books",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-john-grisham-books",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-john-grisham-books",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-philosophy-books",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-philosophy-books",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-philosophy-books",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-war-novels",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-war-novels",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/best-war-novels",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/reader-picks/best-action-adventure-books-for-men",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/self-help/best-james-clear-books",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/self-help/best-james-clear-books",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/self-help/best-james-clear-books",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/stephen-king-vs-dean-koontz",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/stephen-king-vs-dean-koontz",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/books/stephen-king-vs-dean-koontz",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/home-kitchen/oxo-vs-chefn-corn-stripper",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/home-kitchen/oxo-vs-chefn-corn-stripper",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/home-kitchen/oxo-vs-chefn-corn-stripper",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/our-3-picks-for-the-best-war-movie-of-all-time",
+        "event_name": "first_visit",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/our-3-picks-for-the-best-war-movie-of-all-time",
+        "event_name": "page_view",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/our-3-picks-for-the-best-war-movie-of-all-time",
+        "event_name": "session_start",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/top-4-best-books-similar-to-rich-dad-poor-dad",
+        "event_name": "scroll",
+        "event_count": "6"
+      },
+      {
+        "page_path": "/6-best-movies-about-artificial-intelligence",
+        "event_name": "scroll",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/7-best-classic-horror-movies",
+        "event_name": "scroll",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/best-ski-resorts-in-europe",
+        "event_name": "scroll",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/authors/best-patrick-radden-keefe-books",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/authors/best-patrick-radden-keefe-books",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/authors/best-patrick-radden-keefe-books",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-biographies-and-memoirs",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-biographies-and-memoirs",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-biographies-and-memoirs",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-books-for-reluctant-readers",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-books-for-reluctant-readers",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-books-for-reluctant-readers",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-jk-rowling-books",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-jk-rowling-books",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-jk-rowling-books",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-leadership-books",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-leadership-books",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-leadership-books",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-ww2-books-for-beginners",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-ww2-books-for-beginners",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-ww2-books-for-beginners",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-ya-thrillers",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-ya-thrillers",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/best-ya-thrillers",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-historical-fiction-books",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-historical-fiction-books",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-historical-fiction-books",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-world-war-ii-books",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-world-war-ii-books",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-world-war-ii-books",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/reader-picks/best-action-adventure-books-for-men",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/books/reader-picks/best-action-adventure-books-for-men",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-true-crime",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+        "event_name": "first_visit",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+        "event_name": "page_view",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+        "event_name": "session_start",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/your-guide-to-the-best-places-to-see-the-northern-lights",
+        "event_name": "scroll",
+        "event_count": "5"
+      },
+      {
+        "page_path": "/authors-similar-to-michael-crichton",
+        "event_name": "scroll",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/best-alternative-to-garmin-forerunner",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/best-alternative-to-garmin-forerunner",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/best-alternative-to-garmin-forerunner",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/best-time-to-visit-london",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/best-time-to-visit-london",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/best-time-to-visit-london",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/agatha-christie-hercule-poirot-in-order",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/agatha-christie-hercule-poirot-in-order",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/agatha-christie-hercule-poirot-in-order",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/agatha-christie-vs-arthur-conan-doyle",
+        "event_name": "user_engagement",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-books-if-you-loved-harry-potter",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-books-if-you-loved-harry-potter",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-books-if-you-loved-harry-potter",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-colleen-hoover-books",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-cyberpunk-novels-all-time",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-cyberpunk-novels-all-time",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-cyberpunk-novels-all-time",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-fantasy-series-for-adults",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-feel-good-books",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-feel-good-books",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-feel-good-books",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-james-patterson-books",
+        "event_name": "user_engagement",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-magical-realism-books",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-magical-realism-books",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-magical-realism-books",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-mark-manson-books",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-mark-manson-books",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-mark-manson-books",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-neil-gaiman-books",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-neil-gaiman-books",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-neil-gaiman-books",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-picture-books-for-toddlers",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-picture-books-for-toddlers",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-picture-books-for-toddlers",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-stephen-king-books",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-stephen-king-books",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/best-stephen-king-books",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-historical-epics-2026",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-historical-epics-2026",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-historical-epics-2026",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-wwii-novels-2026",
+        "event_name": "first_visit",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-wwii-novels-2026",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-wwii-novels-2026",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/lord-of-the-rings-vs-harry-potter",
+        "event_name": "user_engagement",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/self-help/best-comptia-security-plus-books-2026",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/books/self-help/best-comptia-security-plus-books-2026",
+        "event_name": "session_start",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/mahjong/best-mahjong-sets-for-beginners",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/top-5-authors-similar-to-roald-dahl",
+        "event_name": "scroll",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/wfh/ultimate-kitchen-table-home-office-setup",
+        "event_name": "page_view",
+        "event_count": "4"
+      },
+      {
+        "page_path": "/best-places-to-visit-in-canada",
+        "event_name": "scroll",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/best-true-crime-documentaries-of-all-time",
+        "event_name": "scroll",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/authors/best-patrick-radden-keefe-books",
+        "event_name": "user_engagement",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-audiobooks-on-audible",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-audiobooks-on-audible",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-audiobooks-on-audible",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-for-people-who-dont-like-reading",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-for-people-who-dont-like-reading",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-for-people-who-dont-like-reading",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-for-people-who-dont-like-reading",
+        "event_name": "user_engagement",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-habits-and-productivity",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-habits-and-productivity",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-habits-and-productivity",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-psychology",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-psychology",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-psychology",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-stoicism",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-stoicism",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-books-on-stoicism",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-crime-thrillers-for-women",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-crime-thrillers-for-women",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-crime-thrillers-for-women",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-dan-brown-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-dan-brown-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-dan-brown-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-fantasy-series-for-adults",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-fantasy-series-for-adults",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-historical-fiction",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-historical-fiction",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-historical-fiction",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-james-clear-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-james-clear-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-james-clear-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-james-patterson-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-james-patterson-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-neil-gaiman-books",
+        "event_name": "user_engagement",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-political-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-political-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-political-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-short-story-collections",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-short-story-collections",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-short-story-collections",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-ww2-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-ww2-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-ww2-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-ya-romance-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-ya-romance-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/best-ya-romance-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/colleen-hoover-books-ranked-worst-to-best",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/colleen-hoover-books-ranked-worst-to-best",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/colleen-hoover-books-ranked-worst-to-best",
+        "event_name": "scroll",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/colleen-hoover-books-ranked-worst-to-best",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-military-fiction-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-military-fiction-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-military-fiction-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-spy-thriller-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-spy-thriller-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-spy-thriller-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/kids-and-ya",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/reader-picks/best-true-crime-books",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/reader-picks/best-true-crime-books",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/reader-picks/best-true-crime-books",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/self-help/best-comptia-security-plus-books-2026",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/self-help/best-self-help-books-2026",
+        "event_name": "user_engagement",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/books/stephen-king-vs-dean-koontz",
+        "event_name": "user_engagement",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-stephen-king",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-stephen-king",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/home-kitchen/best-halloween-candy-deals-on-amazon",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/mahjong",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/our-3-picks-for-the-best-war-movie-of-all-time",
+        "event_name": "scroll",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-lord-of-the-rings",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-lord-of-the-rings",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-lord-of-the-rings",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+        "event_name": "page_view",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/wfh/ultimate-kitchen-table-home-office-setup",
+        "event_name": "first_visit",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/wfh/ultimate-kitchen-table-home-office-setup",
+        "event_name": "session_start",
+        "event_count": "3"
+      },
+      {
+        "page_path": "/beauty/dyson-airstrait-vs-ghd-duet-style",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/beauty/dyson-airstrait-vs-ghd-duet-style",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/beauty/dyson-airstrait-vs-ghd-duet-style",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-alternative-to-garmin-forerunner",
+        "event_name": "scroll",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-alternative-to-gopro-hero",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-alternative-to-gopro-hero",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-alternative-to-gopro-hero",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-places-to-visit-in-italy",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-places-to-visit-in-italy",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-places-to-visit-in-italy",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-time-to-visit-london",
+        "event_name": "scroll",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-wines-under-20",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-wines-under-20",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/best-wines-under-20",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/authors/best-alex-michaelides-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/authors/best-alex-michaelides-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/authors/best-alex-michaelides-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-action-adventure-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-action-adventure-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-action-adventure-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-about-anxiety-and-mental-health",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-about-anxiety-and-mental-health",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-about-anxiety-and-mental-health",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-about-money-and-wealth",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-about-money-and-wealth",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-about-money-and-wealth",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-anxiety",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-anxiety",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-anxiety",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-high-school-students",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-high-school-students",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-high-school-students",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-new-moms",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-new-moms",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-for-new-moms",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-on-creativity",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-on-creativity",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-on-creativity",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-on-relationships",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-on-relationships",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-books-on-relationships",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-brene-brown-books",
+        "event_name": "affiliate_click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-brene-brown-books",
+        "event_name": "amazon_click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-brene-brown-books",
+        "event_name": "click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-brene-brown-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-brene-brown-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-brene-brown-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-brene-brown-books",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-crime-thrillers-for-women",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-debut-novels",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-debut-novels",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-debut-novels",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-fantasy-books-for-teens",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-fantasy-books-for-teens",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-fantasy-books-for-teens",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-fantasy-series-for-adults",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-feel-good-books",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-george-orwell-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-george-orwell-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-george-orwell-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-gothic-novels",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-gothic-novels",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-gothic-novels",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-gothic-novels",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "affiliate_click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "amazon_click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-history-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-history-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-history-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-history-books",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-horror-novels",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-horror-novels",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-horror-novels",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-jk-rowling-books",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-kids-book-series",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-kids-book-series",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-kids-book-series",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-malcolm-gladwell-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-malcolm-gladwell-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-malcolm-gladwell-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-mark-manson-books",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-mystery-series",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-mystery-series",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-mystery-series",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-one-sitting-reads",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-one-sitting-reads",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-one-sitting-reads",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-personal-finance-books",
+        "event_name": "affiliate_click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-personal-finance-books",
+        "event_name": "amazon_click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-personal-finance-books",
+        "event_name": "click",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-psychological-thrillers",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-psychological-thrillers",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-psychological-thrillers",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-sci-fi-doorstoppers-epic-space-opera",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-sci-fi-doorstoppers-epic-space-opera",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-sci-fi-doorstoppers-epic-space-opera",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-science-books-for-non-scientists",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-science-books-for-non-scientists",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-science-books-for-non-scientists",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-science-fiction-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-science-fiction-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-science-fiction-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-short-classic-books-for-a-flight",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-short-classic-books-for-a-flight",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-short-classic-books-for-a-flight",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-stephen-king-books",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-ya-coming-of-age-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-ya-coming-of-age-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-ya-coming-of-age-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/best-ya-thrillers",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/books-like-dune-hard-sci-fi",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/books-like-dune-hard-sci-fi",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/books-like-dune-hard-sci-fi",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-civil-war-soldier-memoirs",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-civil-war-soldier-memoirs",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-civil-war-soldier-memoirs",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-cold-war-thriller-books",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-cold-war-thriller-books",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-cold-war-thriller-books",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-wwii-novels-2026",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/hemingway-vs-fitzgerald",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+        "event_name": "scroll",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/reader-picks",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/reader-picks",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/reader-picks",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/reader-picks/best-action-adventure-books-for-men",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help/best-book-to-learn-scrum",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help/best-book-to-learn-scrum",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help/best-book-to-learn-scrum",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help/best-personal-finance-books-young-adults",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help/best-personal-finance-books-young-adults",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/self-help/best-personal-finance-books-young-adults",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/books/top-fantasy-romance-novels",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee",
+        "event_name": "scroll",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee/hario-v60-vs-chemex-classic",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee/hario-v60-vs-chemex-classic",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/coffee/hario-v60-vs-chemex-classic",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-true-crime",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-air-fryer-accessories",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-air-fryer-accessories",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-air-fryer-accessories",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-fall-clothes-for-couples",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-halloween-candy-deals-on-amazon",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-study-desk-essentials",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-study-desk-essentials",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-study-desk-essentials",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/home-kitchen/best-tech-for-college-students",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/mahjong",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/mahjong/best-mahjong-cards",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/mahjong/best-mahjong-cards",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/mahjong/how-to-choose-a-mahjong-set",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/tech/airpods-pro-vs-sony-wf-1000xm5",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-lord-of-the-rings",
+        "event_name": "scroll",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+        "event_name": "first_visit",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+        "event_name": "page_view",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+        "event_name": "session_start",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+        "event_name": "user_engagement",
+        "event_count": "2"
+      },
+      {
+        "page_path": "/",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/dyson-airstrait-vs-ghd-duet-style",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/is-omnilux-contour-worth-it",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/is-omnilux-contour-worth-it",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/is-omnilux-contour-worth-it",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/revlon-one-step-vs-loreal-steampod",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/revlon-one-step-vs-loreal-steampod",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/revlon-one-step-vs-loreal-steampod",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/revlon-one-step-vs-loreal-steampod",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/beauty/vitamin-c-vs-niacinamide",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/best-alternative-to-gopro-hero",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/authors-like-colleen-hoover",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/authors-like-colleen-hoover",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/authors-like-colleen-hoover",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/best-alex-michaelides-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/best-james-clear-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/best-james-clear-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/best-james-clear-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/best-lee-child-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/best-lee-child-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/authors/best-lee-child-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-action-adventure-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-audiobooks-on-audible",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-beach-reads",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-beach-reads",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-beach-reads",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-beach-reads",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-biographies-and-memoirs",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-book-club-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-addiction-and-recovery",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-addiction-and-recovery",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-addiction-and-recovery",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-food-and-cooking",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-food-and-cooking",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-food-and-cooking",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-friendship",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-friendship",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-friendship",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-money-and-wealth",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-race-and-identity",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-race-and-identity",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-about-race-and-identity",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-boys-ages-8-12",
+        "event_name": "affiliate_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-boys-ages-8-12",
+        "event_name": "amazon_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-boys-ages-8-12",
+        "event_name": "click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-boys-ages-8-12",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-couples",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-couples",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-couples",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-entrepreneurs",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-entrepreneurs",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-entrepreneurs",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-entrepreneurs",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-girls-ages-8-12",
+        "event_name": "affiliate_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-girls-ages-8-12",
+        "event_name": "amazon_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-girls-ages-8-12",
+        "event_name": "click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-girls-ages-8-12",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-girls-ages-8-12",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-girls-ages-8-12",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-girls-ages-8-12",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-high-school-students",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-introverts",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-introverts",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-introverts",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-introverts",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-reluctant-readers",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-for-reluctant-readers",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-if-you-loved-harry-potter",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-if-you-loved-harry-potter",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-books-on-psychology",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-brandon-sanderson-cosmere-order",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-brandon-sanderson-cosmere-order",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-brandon-sanderson-cosmere-order",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-business-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-business-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-business-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-business-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-christmas-and-holiday-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-christmas-and-holiday-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-christmas-and-holiday-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-classic-childrens-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-classic-childrens-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-classic-childrens-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-classic-novels",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-classic-novels",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-classic-novels",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-classic-novels",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-colleen-hoover-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-colleen-hoover-books",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-colleen-hoover-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-cozy-mystery-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-cozy-mystery-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-cozy-mystery-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-cozy-mystery-series-to-read",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-cozy-mystery-series-to-read",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-cozy-mystery-series-to-read",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-crime-fiction",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-crime-fiction",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-crime-fiction",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-dan-brown-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-dark-romance-novels",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-dark-romance-novels",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-dark-romance-novels",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-debut-novels",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-dystopian-novels",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-early-reader-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-fantasy-books-for-teens",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-haruki-murakami-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-historical-fiction",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-james-clear-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-literary-fiction",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-magical-realism-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-malcolm-gladwell-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-mindfulness-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-mindfulness-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-mindfulness-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-personal-finance-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-philosophy-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-picture-books-for-toddlers",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-political-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-psychological-thrillers-with-mind-bending-twists",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-psychological-thrillers-with-mind-bending-twists",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-psychological-thrillers-with-mind-bending-twists",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-romantasy-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-romantasy-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-romantasy-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-sci-fi-doorstoppers-epic-space-opera",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-science-fiction-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-self-help-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-self-help-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-self-help-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-short-story-collections",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-spy-thrillers-realistic",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-spy-thrillers-realistic",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-spy-thrillers-realistic",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-toni-morrison-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-toni-morrison-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-toni-morrison-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-urban-fantasy-series-completed",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-urban-fantasy-series-completed",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-urban-fantasy-series-completed",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-ya-thrillers",
+        "event_name": "affiliate_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/best-ya-thrillers",
+        "event_name": "amazon_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-dune-hard-sci-fi",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-fourth-wing-fantasy-romance",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-fourth-wing-fantasy-romance",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-fourth-wing-fantasy-romance",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-it-ends-with-us",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-it-ends-with-us",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-it-ends-with-us",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-verity-psychological-thrillers",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-verity-psychological-thrillers",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/books-like-verity-psychological-thrillers",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/cormac-mccarthy-where-to-start",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/cormac-mccarthy-where-to-start",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/cormac-mccarthy-where-to-start",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-cold-war-thriller-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-historical-epics-2026",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-legal-thriller-books",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-legal-thriller-books",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-legal-thriller-books",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/best-world-war-ii-books",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/devils-guard-review",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/devils-guard-review",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/genre-fiction/devils-guard-review",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/haruki-murakami-reading-order",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/kids-and-ya",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/kids-and-ya",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/kids-and-ya",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/kids-and-ya",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-action-adventure-books-for-men",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-books-like-da-vinci-code",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-books-like-da-vinci-code",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-books-like-da-vinci-code",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-fall-reads-2026",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-new-books-april-2026",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-new-books-april-2026",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/reader-picks/best-new-books-april-2026",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/self-help",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/self-help/best-comptia-security-plus-books-2026",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/self-help/best-self-help-books-2026",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/taylor-jenkins-reid-books-in-order",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/taylor-jenkins-reid-books-in-order",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/books/taylor-jenkins-reid-books-in-order",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "event_name": "affiliate_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "event_name": "amazon_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+        "event_name": "click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/aeropress-original-vs-aeropress-premium",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/aeropress-original-vs-aeropress-premium",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/aeropress-original-vs-aeropress-premium",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/best-espresso-grinders-for-breville-bambino",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/best-espresso-grinders-for-breville-bambino",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/best-espresso-grinders-for-breville-bambino",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/best-vintage-coffee-grinders-ebay",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/best-vintage-coffee-grinders-ebay",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/best-vintage-coffee-grinders-ebay",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/fellow-opus-2-vs-baratza-encore-esp-pro",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/fellow-opus-2-vs-baratza-encore-esp-pro",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/disclosure",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/disclosure",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/disclosure",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-autoayuda-2026",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-autoayuda-2026",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-autoayuda-2026",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-autoayuda-2026",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-autoayuda-2026",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/es/libros/mejores-libros-de-stephen-king",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-dorm-organization-products",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-dorm-organization-products",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-dorm-organization-products",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-dorm-organization-products",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-dorm-room-essentials",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-dorm-room-essentials",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-dorm-room-essentials",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-fall-clothes-for-couples",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-halloween-candy-deals-on-amazon",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-halloween-candy-deals-on-amazon",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-picnic-essentials",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-picnic-essentials",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-picnic-essentials",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-picnic-essentials",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-productivity-products-for-students",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-productivity-products-for-students",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/home-kitchen/best-productivity-products-for-students",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/best-american-mahjong-sets-on-amazon",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/best-mahjong-accessories",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/best-mahjong-accessories",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/best-mahjong-sets-for-beginners",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/best-mahjong-sets-for-beginners",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/best-travel-mahjong-sets",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/how-to-choose-a-mahjong-set",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/mahjong/mahjong-set-vs-mahjong-card",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/tech/best-budget-monitors",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/tech/best-laptops-for-college-students",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/tech/best-laptops-for-college-students",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/tech/best-laptops-for-college-students",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/tech/best-mechanical-keyboards",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-road",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-road",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-road",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/top-4-books-similar-to-the-road",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-monitor-arms-for-shallow-desks",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-monitor-arms-for-shallow-desks",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-portable-monitors-under-100-ebay",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-portable-monitors-under-100-ebay",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-portable-monitors-under-100-ebay",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-products-for-your-home-office",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-products-for-your-home-office",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-products-for-your-home-office",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-used-herman-miller-aeron-chairs-ebay",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-used-herman-miller-aeron-chairs-ebay",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/best-used-herman-miller-aeron-chairs-ebay",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+        "event_name": "scroll",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+        "event_name": "first_visit",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+        "event_name": "page_view",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+        "event_name": "session_start",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/ultimate-kitchen-table-home-office-setup",
+        "event_name": "affiliate_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/ultimate-kitchen-table-home-office-setup",
+        "event_name": "amazon_click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/ultimate-kitchen-table-home-office-setup",
+        "event_name": "click",
+        "event_count": "1"
+      },
+      {
+        "page_path": "/wfh/ultimate-kitchen-table-home-office-setup",
+        "event_name": "user_engagement",
+        "event_count": "1"
+      }
+    ],
+    "connector": "google-analytics",
+    "account": "471286075",
+    "date_range": {
+      "start": "2026-08-31",
+      "end": "2026-09-27"
+    }
+  },
+  "summary": {
+    "window": "2026-08-31 through 2026-09-27",
+    "gsc_country": "all countries",
+    "gsc_search_type": "web",
+    "controller_page": {
+      "impressions": 255,
+      "clicks": 7,
+      "ctr_percent": 2.7450980392156863,
+      "average_position": 10.345098039215687,
+      "affiliate_activity": "No affiliate event row returned for this page in the selected GA4 export"
+    },
+    "new_pages": "Not published at baseline; no prepublication performance history",
+    "sitewide_ga4_returned_events": {
+      "affiliate_click": 11,
+      "amazon_click": 11,
+      "note": "Historical duplication; do not sum. This page/event export does not isolate production hostname or acquisition channel."
+    },
+    "index_snapshot": {
+      "new_urls": "URL is unknown to Google",
+      "controller": "Submitted and indexed",
+      "controller_last_crawl": "2026-09-29T15:31:50Z",
+      "not_live_test": true
+    }
+  }
+}

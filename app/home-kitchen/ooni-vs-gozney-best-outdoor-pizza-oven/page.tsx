@@ -114,6 +114,7 @@ export default function OoniVsGozneyPage() {
           ))}
         </div>
       </section>
-    </main>
+    <section className="my-8 rounded-2xl border border-teal-200 bg-teal-50 p-6"><h2 className="text-2xl font-bold">Choosing accessories for the Koda 12</h2><p className="mt-3">For the compact Koda 12, compare a 12-inch launching peel with a smaller turning peel. Our guide separates manufacturer fit from workspace clearance.</p><p className="mt-3"><Link className="font-semibold text-teal-800 underline" href="/home-kitchen/best-pizza-peels-ooni-koda-12">Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning</Link></p></section>
+</main>
   )
 }

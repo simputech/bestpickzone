@@ -6,6 +6,7 @@ import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const guides = [
+  {"href": "/mahjong/best-mahjong-racks-pushers-oversized-tiles", "title": "Best Mahjong Racks and Pushers for Oversized Tiles", "text": "Choose Mahjong racks by tile width, thickness, wall length, exposure shelf, and pusher fit. Compare documented 20-inch options and avoid misleading size claims.", "status": "Live"},
   { href: '/mahjong/best-carrying-bags-for-american-mahjong-sets', title: 'Best Carrying Bags for Full-Size American Mahjong Sets', text: 'Match tiles, racks, pushers, and spare pieces to published pouch dimensions.', status: 'Live' },
   { href: '/mahjong/best-mahjong-mats-for-small-tables', title: 'Best Mahjong Mats for Small Tables and Easy Storage', text: 'Compare flat mats and fitted covers by table shape, edge placement, and storage.', status: 'Live' },
   { href: '/mahjong/best-folding-tables-for-mahjong', title: 'Best Folding Tables for Mahjong', text: 'Playing dimensions, rack space, legroom checks, and folded storage compared.', status: 'Live' },
