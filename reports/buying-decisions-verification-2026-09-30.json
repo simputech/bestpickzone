@@ -4451,5 +4451,1517 @@
       }
     ],
     "build": "Passed production build, including lint and typecheck; existing warning-only lint findings."
+  },
+  "correction_production": {
+    "commit": "0bb218dd6e693d1132f103c2a28a510ecd5abf2e",
+    "deployment": {
+      "id": "dpl_CyDeHaHkchiJtBJiinh163XPPHky",
+      "readyState": "READY",
+      "target": "production",
+      "alias": [
+        "bestpickzone.com",
+        "www.bestpickzone.com",
+        "bestpickzone-fixed.vercel.app",
+        "bestpickzone-fixed-simputechs-projects.vercel.app",
+        "bestpickzone-fixed-git-main-simputechs-projects.vercel.app"
+      ],
+      "url": "bestpickzone-fixed-kyycz2q3z-simputechs-projects.vercel.app"
+    },
+    "analytics": [
+      {
+        "viewport": "desktop",
+        "path": "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+        "seo": {
+          "title": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy? | BestPickZone",
+          "description": "Choose a KitchenAid roller for sheets and ribbons or the KSMPEXTA press for tubes and shapes. Compare dough, mixer fit, current variants, cleaning, and storage.",
+          "h1": [
+            "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?"
+          ],
+          "canon": [
+            "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+          "overflow": false,
+          "words": 1487,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B01DBGQR1K?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPRA pasta roller cutter set"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01ENK4W9M?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPSA pasta sheet roller"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01DBGQR1K?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPRA pasta roller cutter set"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01ENK4UV2?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPEXTA Gourmet Pasta Press"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01ENK4UV2?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPEXTA Gourmet Pasta Press"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=KitchenAid+KSM3MPA+3+in+1+metal+pasta+attachment&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSM3MPA 3 in 1 metal pasta attachment"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "desktop",
+        "path": "/home-kitchen/best-pizza-peels-ooni-koda-12",
+        "seo": {
+          "title": "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning | BestPickZone",
+          "description": "Choose a 12-inch launching peel and decide whether a small turning peel earns its place. Compare Ooni fit, wood and metal, handle space, and unnecessary extras.",
+          "h1": [
+            "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning"
+          ],
+          "canon": [
+            "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12",
+          "overflow": false,
+          "words": 1581,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B07T1JPCNK?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Perforated Pizza Peel"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B07T1JPCNK?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Perforated Pizza Peel"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0821NDN33?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni Pizza Turning Peel 7 inch"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0821NDN33?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni Pizza Turning Peel 7 inch"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B07TB9LBHR?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Bamboo Pizza Peel Serving Board"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B07TB9LBHR?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Bamboo Pizza Peel Serving Board"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "desktop",
+        "path": "/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+        "seo": {
+          "title": "Best Mahjong Racks and Pushers for Oversized Tiles | BestPickZone",
+          "description": "Choose Mahjong racks by tile width, thickness, wall length, exposure shelf, and pusher fit. Compare documented 20-inch options and avoid misleading size claims.",
+          "h1": [
+            "Best Mahjong Racks and Pushers for Oversized Tiles"
+          ],
+          "canon": [
+            "https://bestpickzone.com/mahjong/best-mahjong-racks-pushers-oversized-tiles"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+          "overflow": false,
+          "words": 1638,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+acrylic+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch acrylic racks magnetic pushers"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+acrylic+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch acrylic racks magnetic pushers"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+wooden+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch wooden racks magnetic pushers"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+wooden+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch wooden racks magnetic pushers"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 4
+      },
+      {
+        "viewport": "desktop",
+        "path": "/home-kitchen/ninja-creami-containers-compatibility",
+        "seo": {
+          "title": "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared | BestPickZone",
+          "description": "Match Ninja CREAMi Original, Deluxe, XL, and Swirl model numbers to genuine container part families. Avoid confusing equal capacity with compatible fit.",
+          "h1": [
+            "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared"
+          ],
+          "canon": [
+            "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility",
+          "overflow": false,
+          "words": 1536,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B0B7CBNNXC?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPLID2CD CREAMi pints lids 16 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0B7CBNNXC?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPLID2CD CREAMi pints lids 16 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0B9CJLVY5?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPNTLD2 CREAMi Deluxe XL tubs 24 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0B9CJLVY5?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPNTLD2 CREAMi Deluxe XL tubs 24 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0DTJR3HTL?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSK7PNTLD2 Scoop Swirl pints lids nozzles"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0DTJR3HTL?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSK7PNTLD2 Scoop Swirl pints lids nozzles"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "desktop",
+        "path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "seo": {
+          "title": "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials? | BestPickZone",
+          "description": "Compare the Stream Deck MK.2, full MX Creative Console, and standalone MX Keypad by software, buttons, dials, desk setup, and real workflow needs.",
+          "h1": [
+            "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials?"
+          ],
+          "canon": [
+            "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+          "overflow": false,
+          "words": 1536,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B09738CV2G?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Elgato Stream Deck MK.2 15 LCD keys"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B09738CV2G?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Elgato Stream Deck MK.2 15 LCD keys"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0D5FRQXWZ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Creative Console keypad dialpad"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0D5FRQXWZ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Creative Console keypad dialpad"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0HBB92QHT?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Keypad standalone 9 LCD keys"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0HBB92QHT?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Keypad standalone 9 LCD keys"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "desktop",
+        "networkEventCounts": {
+          "page_view": 7,
+          "affiliate_click": 33,
+          "click": 29
+        },
+        "runtimeErrors": []
+      },
+      {
+        "viewport": "mobile",
+        "path": "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+        "seo": {
+          "title": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy? | BestPickZone",
+          "description": "Choose a KitchenAid roller for sheets and ribbons or the KSMPEXTA press for tubes and shapes. Compare dough, mixer fit, current variants, cleaning, and storage.",
+          "h1": [
+            "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?"
+          ],
+          "canon": [
+            "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+          "overflow": false,
+          "words": 1496,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B01DBGQR1K?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPRA pasta roller cutter set"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01ENK4W9M?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPSA pasta sheet roller"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01DBGQR1K?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPRA pasta roller cutter set"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01ENK4UV2?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPEXTA Gourmet Pasta Press"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B01ENK4UV2?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSMPEXTA Gourmet Pasta Press"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=KitchenAid+KSM3MPA+3+in+1+metal+pasta+attachment&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "KitchenAid KSM3MPA 3 in 1 metal pasta attachment"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "mobile",
+        "path": "/home-kitchen/best-pizza-peels-ooni-koda-12",
+        "seo": {
+          "title": "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning | BestPickZone",
+          "description": "Choose a 12-inch launching peel and decide whether a small turning peel earns its place. Compare Ooni fit, wood and metal, handle space, and unnecessary extras.",
+          "h1": [
+            "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning"
+          ],
+          "canon": [
+            "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12",
+          "overflow": false,
+          "words": 1590,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B07T1JPCNK?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Perforated Pizza Peel"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B07T1JPCNK?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Perforated Pizza Peel"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0821NDN33?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni Pizza Turning Peel 7 inch"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0821NDN33?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni Pizza Turning Peel 7 inch"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B07TB9LBHR?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Bamboo Pizza Peel Serving Board"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B07TB9LBHR?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ooni 12 inch Bamboo Pizza Peel Serving Board"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "mobile",
+        "path": "/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+        "seo": {
+          "title": "Best Mahjong Racks and Pushers for Oversized Tiles | BestPickZone",
+          "description": "Choose Mahjong racks by tile width, thickness, wall length, exposure shelf, and pusher fit. Compare documented 20-inch options and avoid misleading size claims.",
+          "h1": [
+            "Best Mahjong Racks and Pushers for Oversized Tiles"
+          ],
+          "canon": [
+            "https://bestpickzone.com/mahjong/best-mahjong-racks-pushers-oversized-tiles"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+          "overflow": false,
+          "words": 1656,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+acrylic+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch acrylic racks magnetic pushers"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+acrylic+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch acrylic racks magnetic pushers"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+wooden+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch wooden racks magnetic pushers"
+            },
+            {
+              "url": "https://www.amazon.com/s?k=My+Fair+Mahjong+20+inch+wooden+racks+magnetic+pushers&tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "My Fair Mahjong 20 inch wooden racks magnetic pushers"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 4
+      },
+      {
+        "viewport": "mobile",
+        "path": "/home-kitchen/ninja-creami-containers-compatibility",
+        "seo": {
+          "title": "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared | BestPickZone",
+          "description": "Match Ninja CREAMi Original, Deluxe, XL, and Swirl model numbers to genuine container part families. Avoid confusing equal capacity with compatible fit.",
+          "h1": [
+            "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared"
+          ],
+          "canon": [
+            "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility",
+          "overflow": false,
+          "words": 1545,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B0B7CBNNXC?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPLID2CD CREAMi pints lids 16 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0B7CBNNXC?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPLID2CD CREAMi pints lids 16 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0B9CJLVY5?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPNTLD2 CREAMi Deluxe XL tubs 24 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0B9CJLVY5?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSKPNTLD2 CREAMi Deluxe XL tubs 24 oz"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0DTJR3HTL?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSK7PNTLD2 Scoop Swirl pints lids nozzles"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0DTJR3HTL?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Ninja XSK7PNTLD2 Scoop Swirl pints lids nozzles"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "mobile",
+        "path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "seo": {
+          "title": "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials? | BestPickZone",
+          "description": "Compare the Stream Deck MK.2, full MX Creative Console, and standalone MX Keypad by software, buttons, dials, desk setup, and real workflow needs.",
+          "h1": [
+            "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials?"
+          ],
+          "canon": [
+            "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console"
+          ],
+          "robots": "index, follow",
+          "og": "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+          "overflow": false,
+          "words": 1554,
+          "affiliate": [
+            {
+              "url": "https://www.amazon.com/dp/B09738CV2G?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Elgato Stream Deck MK.2 15 LCD keys"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B09738CV2G?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Elgato Stream Deck MK.2 15 LCD keys"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0D5FRQXWZ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Creative Console keypad dialpad"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0D5FRQXWZ?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Creative Console keypad dialpad"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0HBB92QHT?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Keypad standalone 9 LCD keys"
+            },
+            {
+              "url": "https://www.amazon.com/dp/B0HBB92QHT?tag=althcu-20",
+              "rel": "sponsored noopener",
+              "target": "_blank",
+              "product": "Logitech MX Keypad standalone 9 LCD keys"
+            }
+          ],
+          "schema": [
+            "Organization",
+            "WebSite",
+            "BreadcrumbList",
+            "Article"
+          ]
+        },
+        "clicks": 6
+      },
+      {
+        "viewport": "mobile",
+        "networkEventCounts": {
+          "page_view": 5,
+          "affiliate_click": 28,
+          "click": 23
+        },
+        "runtimeErrors": []
+      },
+      {
+        "guard": "webdriver",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "explicit monitor flag",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "guard": "monitor query",
+        "gtagLoads": 0,
+        "collectionRequests": 0
+      },
+      {
+        "singletonInitialization": "passed",
+        "duplicateSubscriptions": "passed",
+        "idempotentCleanup": "passed",
+        "nonProductionBuild": "disabled"
+      }
+    ],
+    "technical": [
+      {
+        "path": "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+        "status": 200,
+        "ssrBytes": 73626,
+        "sitemap": "main",
+        "metadata": {
+          "h1": [
+            "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?"
+          ],
+          "canonical": [
+            "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press"
+          ],
+          "description": "Choose a KitchenAid roller for sheets and ribbons or the KSMPEXTA press for tubes and shapes. Compare dough, mixer fit, current variants, cleaning, and storage.",
+          "ogImage": "https://bestpickzone.com/og-home-kitchen.png",
+          "schema": [
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "logo": "https://bestpickzone.com/icon.png"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone"
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://bestpickzone.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Home & Kitchen",
+                  "item": "https://bestpickzone.com/home-kitchen"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?",
+              "description": "Choose a KitchenAid roller for sheets and ribbons or the KSMPEXTA press for tubes and shapes. Compare dough, mixer fit, current variants, cleaning, and storage.",
+              "datePublished": "2026-09-30",
+              "dateModified": "2026-09-30",
+              "mainEntityOfPage": "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+              "author": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              }
+            }
+          ],
+          "tables": [
+            {
+              "caption": "Attachment identity matters more than the phrase \u201cpasta maker\u201d",
+              "width": 576,
+              "scrollWidth": 576,
+              "overflow": "hidden",
+              "region": "region",
+              "regionWidth": 316,
+              "regionScroll": 576,
+              "regionOverflow": "auto",
+              "regionTabIndex": 0,
+              "regionRight": 353
+            }
+          ],
+          "cls": 0,
+          "js": 7,
+          "headings": [
+            {
+              "level": 1,
+              "text": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?"
+            },
+            {
+              "level": 2,
+              "text": "What does each KitchenAid pasta attachment actually make?"
+            },
+            {
+              "level": 2,
+              "text": "Who should buy the roller and cutter set?"
+            },
+            {
+              "level": 2,
+              "text": "Who should buy the Gourmet Pasta Press?"
+            },
+            {
+              "level": 2,
+              "text": "Will these attachments fit your KitchenAid mixer?"
+            },
+            {
+              "level": 2,
+              "text": "Which cleaning routine and storage burden can you live with?"
+            },
+            {
+              "level": 2,
+              "text": "How should you compare the total cost?"
+            },
+            {
+              "level": 2,
+              "text": "Which sources support this comparison?"
+            }
+          ],
+          "images": [],
+          "analytics": false
+        }
+      },
+      {
+        "path": "/home-kitchen/best-pizza-peels-ooni-koda-12",
+        "status": 200,
+        "ssrBytes": 72375,
+        "sitemap": "main",
+        "metadata": {
+          "h1": [
+            "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning"
+          ],
+          "canonical": [
+            "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12"
+          ],
+          "description": "Choose a 12-inch launching peel and decide whether a small turning peel earns its place. Compare Ooni fit, wood and metal, handle space, and unnecessary extras.",
+          "ogImage": "https://bestpickzone.com/og-home-kitchen.png",
+          "schema": [
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "logo": "https://bestpickzone.com/icon.png"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone"
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://bestpickzone.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Home & Kitchen",
+                  "item": "https://bestpickzone.com/home-kitchen"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning",
+              "description": "Choose a 12-inch launching peel and decide whether a small turning peel earns its place. Compare Ooni fit, wood and metal, handle space, and unnecessary extras.",
+              "datePublished": "2026-09-30",
+              "dateModified": "2026-09-30",
+              "mainEntityOfPage": "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12",
+              "author": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              }
+            }
+          ],
+          "tables": [
+            {
+              "caption": "Manufacturer-stated sizes; none are our physical measurements",
+              "width": 576,
+              "scrollWidth": 576,
+              "overflow": "hidden",
+              "region": "region",
+              "regionWidth": 316,
+              "regionScroll": 576,
+              "regionOverflow": "auto",
+              "regionTabIndex": 0,
+              "regionRight": 353
+            }
+          ],
+          "cls": 0,
+          "js": 7,
+          "headings": [
+            {
+              "level": 1,
+              "text": "Best Pizza Peels for the Ooni Koda 12: Launching vs. Turning"
+            },
+            {
+              "level": 2,
+              "text": "Which peel size actually fits the Koda 12?"
+            },
+            {
+              "level": 2,
+              "text": "Why is the perforated metal peel the simplest first purchase?"
+            },
+            {
+              "level": 2,
+              "text": "When is a 7-inch turning peel worth adding?"
+            },
+            {
+              "level": 2,
+              "text": "Should you launch from bamboo instead of metal?"
+            },
+            {
+              "level": 2,
+              "text": "How much space do the handles need?"
+            },
+            {
+              "level": 2,
+              "text": "Which purchases can Koda 12 owners skip?"
+            },
+            {
+              "level": 2,
+              "text": "Where do the fit and care details come from?"
+            }
+          ],
+          "images": [],
+          "analytics": false
+        }
+      },
+      {
+        "path": "/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+        "status": 200,
+        "ssrBytes": 74848,
+        "sitemap": "main",
+        "metadata": {
+          "h1": [
+            "Best Mahjong Racks and Pushers for Oversized Tiles"
+          ],
+          "canonical": [
+            "https://bestpickzone.com/mahjong/best-mahjong-racks-pushers-oversized-tiles"
+          ],
+          "description": "Choose Mahjong racks by tile width, thickness, wall length, exposure shelf, and pusher fit. Compare documented 20-inch options and avoid misleading size claims.",
+          "ogImage": "https://bestpickzone.com/og-default.png",
+          "schema": [
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "logo": "https://bestpickzone.com/icon.png"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone"
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://bestpickzone.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Mahjong",
+                  "item": "https://bestpickzone.com/mahjong"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Best Mahjong Racks and Pushers for Oversized Tiles"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Best Mahjong Racks and Pushers for Oversized Tiles",
+              "description": "Choose Mahjong racks by tile width, thickness, wall length, exposure shelf, and pusher fit. Compare documented 20-inch options and avoid misleading size claims.",
+              "datePublished": "2026-09-30",
+              "dateModified": "2026-09-30",
+              "mainEntityOfPage": "https://bestpickzone.com/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+              "author": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              }
+            }
+          ],
+          "tables": [
+            {
+              "caption": "Manufacturer examples, not dimensions we measured",
+              "width": 576,
+              "scrollWidth": 576,
+              "overflow": "hidden",
+              "region": "region",
+              "regionWidth": 316,
+              "regionScroll": 576,
+              "regionOverflow": "auto",
+              "regionTabIndex": 0,
+              "regionRight": 353
+            },
+            {
+              "caption": "Calculated examples with no spacing allowance; not tested fit",
+              "width": 576,
+              "scrollWidth": 576,
+              "overflow": "hidden",
+              "region": "region",
+              "regionWidth": 316,
+              "regionScroll": 576,
+              "regionOverflow": "auto",
+              "regionTabIndex": 0,
+              "regionRight": 353
+            }
+          ],
+          "cls": 0,
+          "js": 7,
+          "headings": [
+            {
+              "level": 1,
+              "text": "Best Mahjong Racks and Pushers for Oversized Tiles"
+            },
+            {
+              "level": 2,
+              "text": "What does \u201coversized\u201d mean for Mahjong tiles?"
+            },
+            {
+              "level": 2,
+              "text": "Why must you measure both a hand and a wall?"
+            },
+            {
+              "level": 2,
+              "text": "When is the My Fair Mahjong acrylic rack the strongest fit?"
+            },
+            {
+              "level": 2,
+              "text": "When should you choose the wooden version?"
+            },
+            {
+              "level": 2,
+              "text": "Why not choose a familiar 18-inch rack instead?"
+            },
+            {
+              "level": 2,
+              "text": "How do you check stability, table space, and storage?"
+            },
+            {
+              "level": 2,
+              "text": "What evidence supports these recommendations?"
+            }
+          ],
+          "images": [],
+          "analytics": false
+        }
+      },
+      {
+        "path": "/home-kitchen/ninja-creami-containers-compatibility",
+        "status": 200,
+        "ssrBytes": 74439,
+        "sitemap": "main",
+        "metadata": {
+          "h1": [
+            "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared"
+          ],
+          "canonical": [
+            "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility"
+          ],
+          "description": "Match Ninja CREAMi Original, Deluxe, XL, and Swirl model numbers to genuine container part families. Avoid confusing equal capacity with compatible fit.",
+          "ogImage": "https://bestpickzone.com/og-home-kitchen.png",
+          "schema": [
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "logo": "https://bestpickzone.com/icon.png"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone"
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://bestpickzone.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Home & Kitchen",
+                  "item": "https://bestpickzone.com/home-kitchen"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared",
+              "description": "Match Ninja CREAMi Original, Deluxe, XL, and Swirl model numbers to genuine container part families. Avoid confusing equal capacity with compatible fit.",
+              "datePublished": "2026-09-30",
+              "dateModified": "2026-09-30",
+              "mainEntityOfPage": "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility",
+              "author": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              }
+            }
+          ],
+          "tables": [
+            {
+              "caption": "US manufacturer-listed families checked September 30, 2026",
+              "width": 576,
+              "scrollWidth": 576,
+              "overflow": "hidden",
+              "region": "region",
+              "regionWidth": 316,
+              "regionScroll": 576,
+              "regionOverflow": "auto",
+              "regionTabIndex": 0,
+              "regionRight": 353
+            }
+          ],
+          "cls": 0,
+          "js": 7,
+          "headings": [
+            {
+              "level": 1,
+              "text": "Which Ninja CREAMi Containers Fit Your Machine? Original, Deluxe, and Swirl Compared"
+            },
+            {
+              "level": 2,
+              "text": "Which container goes with each CREAMi family?"
+            },
+            {
+              "level": 2,
+              "text": "What should Original CREAMi owners buy?"
+            },
+            {
+              "level": 2,
+              "text": "What changes for Deluxe and current XL owners?"
+            },
+            {
+              "level": 2,
+              "text": "Why does Swirl need a different 16-ounce pint?"
+            },
+            {
+              "level": 2,
+              "text": "How can you avoid ordering the wrong part?"
+            },
+            {
+              "level": 2,
+              "text": "How many extra containers are worth buying?"
+            },
+            {
+              "level": 2,
+              "text": "Which sources define the compatibility?"
+            }
+          ],
+          "images": [],
+          "analytics": false
+        }
+      },
+      {
+        "path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "status": 200,
+        "ssrBytes": 75298,
+        "sitemap": "wfh",
+        "metadata": {
+          "h1": [
+            "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials?"
+          ],
+          "canonical": [
+            "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console"
+          ],
+          "description": "Compare the Stream Deck MK.2, full MX Creative Console, and standalone MX Keypad by software, buttons, dials, desk setup, and real workflow needs.",
+          "ogImage": "https://bestpickzone.com/og-wfh.png",
+          "schema": [
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "logo": "https://bestpickzone.com/icon.png"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "BestPickZone",
+              "url": "https://bestpickzone.com",
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone"
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://bestpickzone.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Work From Home",
+                  "item": "https://bestpickzone.com/wfh"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials?"
+                }
+              ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials?",
+              "description": "Compare the Stream Deck MK.2, full MX Creative Console, and standalone MX Keypad by software, buttons, dials, desk setup, and real workflow needs.",
+              "datePublished": "2026-01-01",
+              "dateModified": "2026-09-30",
+              "mainEntityOfPage": "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+              "author": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "BestPickZone",
+                "url": "https://bestpickzone.com"
+              }
+            }
+          ],
+          "tables": [
+            {
+              "caption": "Match the listing to the controls you want",
+              "width": 576,
+              "scrollWidth": 576,
+              "overflow": "hidden",
+              "region": "region",
+              "regionWidth": 316,
+              "regionScroll": 576,
+              "regionOverflow": "auto",
+              "regionTabIndex": 0,
+              "regionRight": 353
+            },
+            {
+              "caption": "Editorial decisions based on control type, not benchmark results",
+              "width": 576,
+              "scrollWidth": 576,
+              "overflow": "hidden",
+              "region": "region",
+              "regionWidth": 316,
+              "regionScroll": 576,
+              "regionOverflow": "auto",
+              "regionTabIndex": 0,
+              "regionRight": 353
+            }
+          ],
+          "cls": 0,
+          "js": 7,
+          "headings": [
+            {
+              "level": 1,
+              "text": "Elgato Stream Deck MK.2 vs. Logitech MX Creative Console: Keys or Dials?"
+            },
+            {
+              "level": 2,
+              "text": "Are you comparing the full console or the MX Keypad?"
+            },
+            {
+              "level": 2,
+              "text": "Stream Deck MK.2: buy it for a visible command grid"
+            },
+            {
+              "level": 2,
+              "text": "MX Creative Console: buy the full kit for the dialpad"
+            },
+            {
+              "level": 2,
+              "text": "Where does the new standalone MX Keypad fit?"
+            },
+            {
+              "level": 2,
+              "text": "Which workflow favors which purchase?"
+            },
+            {
+              "level": 2,
+              "text": "Sources and revision scope"
+            }
+          ],
+          "images": [],
+          "analytics": false
+        }
+      }
+    ],
+    "parents": [
+      {
+        "path": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "targets": [
+          "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+          "/home-kitchen/ninja-creami-containers-compatibility"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "targets": [
+          "/home-kitchen/best-pizza-peels-ooni-koda-12"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/mahjong/best-mahjong-accessories",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "targets": [
+          "/mahjong/best-mahjong-racks-pushers-oversized-tiles"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/home-kitchen",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "targets": [
+          "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+          "/home-kitchen/best-pizza-peels-ooni-koda-12",
+          "/home-kitchen/ninja-creami-containers-compatibility"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/mahjong",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "targets": [
+          "/mahjong/best-mahjong-racks-pushers-oversized-tiles"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/wfh",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "targets": [
+          "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "targets": [
+          "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+          "/home-kitchen/ninja-creami-containers-compatibility"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "targets": [
+          "/home-kitchen/best-pizza-peels-ooni-koda-12"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/mahjong/best-mahjong-accessories",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "targets": [
+          "/mahjong/best-mahjong-racks-pushers-oversized-tiles"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/home-kitchen",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "targets": [
+          "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+          "/home-kitchen/best-pizza-peels-ooni-koda-12",
+          "/home-kitchen/ninja-creami-containers-compatibility"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/mahjong",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "targets": [
+          "/mahjong/best-mahjong-racks-pushers-oversized-tiles"
+        ],
+        "status": 200
+      },
+      {
+        "path": "/wfh",
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "targets": [
+          "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console"
+        ],
+        "status": 200
+      }
+    ],
+    "crawl": {
+      "sitemapEntries": 297,
+      "uniqueSitemapURLs": 297,
+      "sitemapProblems": [],
+      "statusCounts": {
+        "200": 299
+      },
+      "brokenInternalURLs": [],
+      "redirectingInternalURLs": [],
+      "orphans": [],
+      "missingFromSitemap": [
+        "https://bestpickzone.com",
+        "https://bestpickzone.com/disclosure"
+      ]
+    },
+    "content_fingerprints": [
+      {
+        "url": "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+        "status": 200,
+        "article_sha256": "78ad0e1d343f1924050d34f48b0e069301c16a523500e14c7112c9f13ac78ab9"
+      },
+      {
+        "url": "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12",
+        "status": 200,
+        "article_sha256": "ecc601598074bfc19d5bfcf137a4222a292eff6b79acf6ede486a282055a194f"
+      },
+      {
+        "url": "https://bestpickzone.com/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+        "status": 200,
+        "article_sha256": "f7c55aa32973f3f8e6a130bd0893b45c9ebaaabcd362d22ec0057c71b19b02d4"
+      },
+      {
+        "url": "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility",
+        "status": 200,
+        "article_sha256": "8a917b4f78671ed697bbe0ac1f5326010bd9be730bbecf62f0feb1e9e5893a2d"
+      },
+      {
+        "url": "https://bestpickzone.com/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "status": 200,
+        "article_sha256": "39349dc80dd4d11497ea97f88d7a6dafaf732234d4a6c81d0b45c536ee6d34e8"
+      }
+    ]
   }
 }
