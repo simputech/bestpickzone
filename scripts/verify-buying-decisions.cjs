@@ -30,6 +30,25 @@ fs.mkdirSync(out,{recursive:true})
   for(let i=0;i<info.tables.length;i++){assert.ok(info.tables[i].caption);assert.equal(info.tables[i].region,'region');assert.equal(info.tables[i].regionOverflow,'auto');assert.equal(info.tables[i].regionTabIndex,0);assert.ok(info.tables[i].regionRight<=390);assert.ok(info.tables[i].regionWidth<=350);await p.locator('article table').nth(i).scrollIntoViewIfNeeded();await p.screenshot({path:`${out}/${g.slug}-table-${i}-mobile.png`})}
   results.push({path,status:response.status,ssrBytes:Buffer.byteLength(html),sitemap:entries[0].map,metadata:info})
  }
+ const parentChecks=[
+  ['/home-kitchen/best-kitchenaid-attachments-worth-buying',['/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press','/home-kitchen/ninja-creami-containers-compatibility']],
+  ['/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven',['/home-kitchen/best-pizza-peels-ooni-koda-12']],
+  ['/mahjong/best-mahjong-accessories',['/mahjong/best-mahjong-racks-pushers-oversized-tiles']],
+  ['/home-kitchen',guides.filter(g=>g.silo==='home-kitchen').map(g=>`/${g.silo}/${g.slug}`)],
+  ['/mahjong',['/mahjong/best-mahjong-racks-pushers-oversized-tiles']],
+  ['/wfh',['/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console']]
+ ]
+ const parents=[]
+ for(const viewport of [{width:390,height:844},{width:1440,height:1000}]){
+  await p.setViewportSize(viewport)
+  for(const [route,targets] of parentChecks){
+   const res=await p.goto(base+route);assert.equal(res.status(),200);assert.equal(await p.locator('h1').count(),1)
+   for(const target of targets)assert.equal(await p.locator(`main a[href="${target}"]`).count(),1,`${route} must link once to ${target}`)
+   await p.locator(`main a[href="${targets[0]}"]`).scrollIntoViewIfNeeded();await p.screenshot({path:`${out}/parent-${route.split('/').pop()}-${viewport.width}.png`})
+   parents.push({path:route,viewport,targets,status:res.status()})
+  }
+ }
+ fs.writeFileSync(`${out}/parents.json`,JSON.stringify(parents,null,2))
  await c.close();fs.writeFileSync(`${out}/technical.json`,JSON.stringify(results,null,2));console.log(JSON.stringify({passed:true,pages:results.length,output:out}))
  }finally{await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1})

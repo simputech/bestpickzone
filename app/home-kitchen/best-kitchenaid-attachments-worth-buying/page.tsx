@@ -479,7 +479,16 @@ export default function KitchenAidAttachmentsPage() {
                 Check Amazon options
               </a>
             </div>
-          <section className="my-8 rounded-2xl border border-teal-200 bg-teal-50 p-6"><h2 className="text-2xl font-bold">Compare pasta workflows before choosing the attachment</h2><p className="mt-3">A roller makes sheets and ribbons; the press makes extruded shapes. Compare dough preparation, current model variants, and cleaning before choosing your pasta tool.</p><p className="mt-3"><Link className="font-semibold text-teal-800 underline" href="/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press">KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?</Link></p></section>
+            {pick.rank === 1 && (
+              <p className="mt-4 text-base leading-7 text-slate-700">
+                Choosing between sheets and extruded shapes? Our <Link className="font-semibold text-teal-800 underline" href="/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press">KitchenAid pasta roller vs. pasta press comparison</Link> covers the dough, current variants, and cleanup for each workflow.
+              </p>
+            )}
+            {pick.rank === 7 && (
+              <p className="mt-4 text-base leading-7 text-slate-700">
+                Already use a Ninja CREAMi for frozen desserts? Before ordering extra pints, check our <Link className="font-semibold text-teal-800 underline" href="/home-kitchen/ninja-creami-containers-compatibility">CREAMi container compatibility guide</Link>: Original, Deluxe, and Swirl use different container systems.
+              </p>
+            )}
 </article>
         ))}
       </section>

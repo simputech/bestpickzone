@@ -417,7 +417,7 @@ export default function WfhHubPage() {
                 {getArticleLabel(article.title, article.description)}
               </p>
               <h3 className="mb-2 text-xl font-bold text-gray-900">{article.title}</h3>
-              <p className="text-sm leading-relaxed text-gray-700">{article.description}</p>
+              <p className="text-sm leading-relaxed text-gray-700">{buyingGuides.find(guide => guide.silo === 'wfh' && guide.slug === article.slug)?.description ?? article.description}</p>
             </Link>
           ))}
         </div>
