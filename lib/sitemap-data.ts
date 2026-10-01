@@ -55,7 +55,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/fredrik-backman-books-ranked`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-short-classic-books-for-a-flight`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/top-fantasy-romance-novels`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/books/genre-fiction/best-historical-epics-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/genre-fiction/best-historical-epics-2026`, lastModified: '2026-09-30', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-historical-fiction-series-2026`, lastModified: '2026-09-30', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-historical-fiction-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-civil-war-soldier-memoirs`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
@@ -66,7 +66,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/kids-and-ya/best-2026-summer-reading-for-high-school-students`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-spy-thriller-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/books/genre-fiction/best-new-spy-thriller-books-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/genre-fiction/best-new-spy-thriller-books-2026`, lastModified: '2026-09-30', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-world-war-ii-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-cold-war-thriller-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-military-fiction-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
@@ -200,6 +200,7 @@ export const wfhPages: SitemapEntry[] = [
 export const booksPages: SitemapEntry[] = [
   ...buyingGuides.filter(g => g.silo === 'books').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   ...standaloneBookPages,
+  { url: `${baseUrl}/books/best-mark-manson-books`, lastModified: '2026-09-30', changeFrequency: 'monthly', priority: 0.85 },
   ...articlesData.map((article) => ({
     url: `${baseUrl}${getBookPath(article.slug)}`,
     lastModified: latestDate(article.publishedDate, contentRefreshDate),

@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
-const pageUrl = 'https://bestpickzone.com/books/genre-fiction/best-historical-epics-2026'
-const article = loadRawHtmlArticle('app/books/genre-fiction/best-historical-epics-2026/article-source.html', pageUrl)
+const pageUrl = 'https://bestpickzone.com/books/best-mark-manson-books'
+const article = loadRawHtmlArticle('app/books/best-mark-manson-books/article-source.html', pageUrl)
 export const metadata: Metadata = {
   ...article.metadata,
-  title: { absolute: "Best Historical Epics 2026: Five Reading Picks | BestPickZone" },
+  title: { absolute: "Mark Manson Books: What to Read First | BestPickZone" },
   openGraph: { ...article.metadata.openGraph, type: 'article', modifiedTime: '2026-09-30T12:00:00-04:00' },
 }
 export default function Page() {

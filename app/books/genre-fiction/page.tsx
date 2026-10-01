@@ -25,6 +25,11 @@ export default function GenreFictionHubPage() {
   const articles = getArticlesByCategory('genre')
   const editorSpotlights = [
     {
+      href: '/books/genre-fiction/best-new-spy-thriller-books-2026',
+      title: 'Most Awaited Espionage Thrillers 2026',
+      text: 'Verified release dates, current availability, series entry points, and the difference between new novels and collected stories.',
+    },
+    {
       href: '/books/genre-fiction/best-civil-war-soldier-memoirs',
       title: 'Best Civil War Soldier Memoirs',
       text: 'A first-hand Civil War reading guide ranked around authenticity, voice, and whether you want battlefield drama or camp-life detail.',
@@ -46,8 +51,8 @@ export default function GenreFictionHubPage() {
     },
     {
       href: '/books/genre-fiction/best-historical-epics-2026',
-      title: 'Best Historical Epics to Read in 2026',
-      text: 'A heavier long-form historical-fiction page for readers choosing between Follett, Clavell, Verghese, and other big-commitment epics.',
+      title: 'Best Historical Epics 2026: Five Reading Picks',
+      text: 'Compare five historical epics by narrative focus, reading commitment, series order, and edition pitfalls.',
     },
     {
       href: '/books/genre-fiction/best-wwii-novels-2026',

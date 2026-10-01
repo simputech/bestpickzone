@@ -218,14 +218,14 @@ export const articlesData: ArticleData[] = [
   },
   {
     slug: "best-mark-manson-books",
-    title: "Best Mark Manson Books",
-    metaTitle: "Best Mark Manson Books (2026 Guide)",
-    metaDescription: "Best Mark Manson books ranked \u2014 The Subtle Art of Not Giving a F*ck, Everything Is F*cked, and Models. Which to read first in 2026.",
+    title: "Mark Manson Books: What to Read First and What to Skip",
+    metaTitle: "Mark Manson Books: What to Read First | BestPickZone",
+    metaDescription: "Compare Mark Manson books by purpose: The Subtle Art, Everything Is F*cked, Models, Will, and the journal. Find your best starting point.",
     category: "author",
     categoryLabel: "Author Guides",
     categoryHref: "/books/authors",
     publishedDate: "2026-03-03",
-    intro: "The Subtle Art of Not Giving a F*ck is the best Mark Manson book to start with \u2014 it's a genuinely contrarian take on self-help that uses blunt language and anti-motivation messaging to make a serious point about values and priorities. It's best for readers who are tired of positive-thinking platitudes and want a more honest framework for living. The tradeoff: the tone can feel performatively edgy, and the philosophy borrows heavily from Stoicism without always crediting its sources. This guide compares his best-known book-length titles and where each fits.",
+    intro: "Start with The Subtle Art for priorities, Models for dating, Everything Is F*cked for hope, or Will for memoir. Compare five choices, including the companion journal, by reader fit and sensible reading order.",
     books: [
       { title: "The Subtle Art of Not Giving a F*ck", author: "Mark Manson", bestFor: "Best Starting Point", skipIf: "Skip this if the title irritates you \u2014 the contrarian tone is consistent throughout, not just in the name.", description: "Manson argues that life improvement comes not from caring more about everything but from choosing more carefully what you care about. The core thesis is Stoic-adjacent but delivered with contemporary bluntness that makes it more accessible than classical philosophy. The chapter on failure as feedback is its most practical section. Better than it looks from the cover.", amazonSearchQuery: "The Subtle Art of Not Giving a F*ck Mark Manson" },
       { title: "Everything Is F*cked", author: "Mark Manson", bestFor: "Most Philosophically Ambitious", skipIf: "Skip this if you want practical self-help \u2014 this is more philosophical and less actionable than The Subtle Art.", description: "A deeper exploration of hope, meaning, and why modern life feels so nihilistic despite unprecedented material comfort. Manson draws on Kant, Nietzsche, and Newton more explicitly here. Less immediately practical than The Subtle Art but more intellectually honest about the limits of individual self-improvement.", amazonSearchQuery: "Everything Is F*cked Mark Manson" },
