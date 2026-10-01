@@ -37,6 +37,7 @@ const groups = [
     name: 'Entry-Level Espresso',
     note: 'Heat-up time, boiler style, steam workflow, and footprint decide these pages.',
     items: [
+      { slug: 'best-used-breville-espresso-machines-ebay', title: 'Best Used Breville Espresso Machines on eBay in 2026', spec: 'Bambino, Bambino Plus, Barista Express, and Barista Pro: condition checks, missing accessories, and total cost' },
       { slug: 'complete-small-kitchen-home-coffee-bar-setup', title: 'Complete Small-Kitchen Home Coffee Bar Setup', spec: 'A full compact station built around under-24-inch counter logic and cart-stack accessories' },
       { slug: 'what-to-buy-with-your-breville-bambino-plus', title: 'What to Buy With Your Breville Bambino Plus', spec: 'Seven upgrades ranked by ROI for the 54mm Bambino workflow' },
       { slug: 'best-gaggia-classic-pro-upgrades', title: 'Best Gaggia Classic Pro Upgrades', spec: 'The 58mm tools, grinder prerequisite, and machine mods that actually matter in 2026' },

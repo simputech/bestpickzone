@@ -159,6 +159,7 @@ export const beautyPages: SitemapEntry[] = [
 ]
 
 export const coffeePages: SitemapEntry[] = [
+  { url: `${baseUrl}/coffee/best-used-breville-espresso-machines-ebay`, lastModified: '2026-09-30', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/coffee/complete-small-kitchen-home-coffee-bar-setup`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/coffee/best-gaggia-classic-pro-upgrades`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/coffee/what-to-buy-with-your-breville-bambino-plus`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
