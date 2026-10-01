@@ -56,6 +56,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/best-short-classic-books-for-a-flight`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/top-fantasy-romance-novels`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/genre-fiction/best-historical-epics-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/genre-fiction/best-historical-fiction-series-2026`, lastModified: '2026-09-30', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-historical-fiction-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-civil-war-soldier-memoirs`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-wwii-novels-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
