@@ -40,6 +40,11 @@ export default function GenreFictionHubPage() {
       text: 'A broader evergreen historical-fiction guide arranged by reader type instead of publication year.',
     },
     {
+      href: '/books/genre-fiction/best-historical-fiction-series-2026',
+      title: 'Best Historical Fiction Series to Start in 2026',
+      text: 'A series-first guide ranked by commitment, pace, era, and reader fit, from Kingsbridge and The Last Kingdom to Wolf Hall and Poldark.',
+    },
+    {
       href: '/books/genre-fiction/best-historical-epics-2026',
       title: 'Best Historical Epics to Read in 2026',
       text: 'A heavier long-form historical-fiction page for readers choosing between Follett, Clavell, Verghese, and other big-commitment epics.',
