@@ -1,3 +1,4 @@
+import { bountyArticles, bountyDate, bountyVideoSlug } from './bounty-data'
 import { buyingGuides, guideDate } from './buying-guide-data'
 import { articlesData, getBookPath } from '@/lib/books-data'
 import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
@@ -90,6 +91,7 @@ export const standaloneBookPages: SitemapEntry[] = [
 ]
 
 export const mainPages: SitemapEntry[] = [
+  ...['', ...bountyArticles.map(a => a.slug), bountyVideoSlug].map(slug => ({url: `${baseUrl}/amazon-offers${slug ? '/' + slug : ''}`, lastModified: bountyDate, changeFrequency: 'monthly' as const, priority: slug ? 0.8 : 0.9})),
   { url: `${baseUrl}/home-kitchen/best-kitchenaid-attachments-worth-buying`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-pet-travel-products`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },

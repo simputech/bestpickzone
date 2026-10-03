@@ -1,0 +1,4 @@
+import { BountyArticle, bountyHref } from '@/lib/bounty-data'
+export default function BountyCTA({article,placement}:{article:BountyArticle;placement:string}) {
+ return <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5"><a href={bountyHref(article)} target="_blank" rel="sponsored noopener" data-affiliate-placement={`bounty-${article.slug}-${placement}`} data-product-name={article.program} data-product-category="amazon-memberships" className="inline-block rounded-xl bg-amber-400 px-5 py-3 font-bold text-slate-950 hover:bg-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-teal-800">{article.cta} <span aria-hidden="true">↗</span></a><p className="mt-3 text-sm leading-6 text-slate-700">Affiliate link. Check the exact plan, eligibility, current price, and renewal terms on Amazon before signing up. Trial availability is not guaranteed.</p></div>
+}

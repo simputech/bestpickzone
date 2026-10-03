@@ -1,4 +1,5 @@
 import { withSeo } from '@/lib/seo-metadata'
+import MembershipHubLinks from '@/components/article/MembershipHubLinks'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -542,6 +543,7 @@ export default function HomeKitchenPage() {
           publishable.
         </p>
       </section>
-    </main>
+    <MembershipHubLinks audience="home" />
+      </main>
   )
 }

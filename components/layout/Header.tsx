@@ -29,6 +29,7 @@ const navItems: NavItem[] = [
   {
     label: 'More',
     children: [
+      { href: '/amazon-offers', label: 'Amazon Memberships' },
       { href: '/tech', label: 'Tech' },
       { href: '/finance-software', label: 'Finance Software' },
       { href: '/health-fitness', label: 'Health & Fitness' },

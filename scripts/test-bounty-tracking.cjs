@@ -1,0 +1,11 @@
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),ts=require('typescript');
+let source=fs.readFileSync('components/analytics/AffiliateClickTracker.tsx','utf8').replace(/^import .*$/mg,'').replace(/export default function AffiliateClickTracker[\s\S]*/,'');
+source=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText;
+function click(href,button=0,type='click'){
+ const listeners={},events=[];
+ class Element{};class HTMLAnchorElement extends Element{constructor(){super();this.href=href;this.dataset={affiliatePlacement:'bounty-article-intro',productName:'Prime Free Trial',productCategory:'amazon-memberships'};this.textContent='Check eligibility'}closest(){return this}}
+ const context={exports:{},URL,Element,HTMLAnchorElement,trackEvent:(...args)=>events.push(args),document:{addEventListener:(n,f)=>listeners[n]=f,removeEventListener:()=>{}},window:{location:{pathname:'/amazon-offers/prime-free-trial-before-prime-day',href:'https://bestpickzone.com/amazon-offers/prime-free-trial-before-prime-day'}}};vm.createContext(context);vm.runInContext(source,context);context.exports.subscribeToAffiliateClicks();listeners[type]({target:new HTMLAnchorElement(),button,type});return events;
+}
+test('new bounty links report affiliate network, placement and article context',()=>{for(const host of ['www.amazon.com','business.amazon.com']){const events=click(`https://${host}/prime?tag=fitnessbankd-20`);assert.equal(events.length,1);assert.equal(events[0][0],'affiliate_click');assert.equal(events[0][1].affiliate_network,'amazon');assert.equal(events[0][1].affiliate_tracking_id,'bounty-article-intro');assert.equal(events[0][1].article_slug,'prime-free-trial-before-prime-day')}});
+test('existing tag remains tracked; untagged and unrelated URLs are ignored',()=>{assert.equal(click('https://www.amazon.com/prime?tag=althcu-20').length,1);assert.equal(click('https://www.amazon.com/prime').length,0);assert.equal(click('https://example.com/?tag=fitnessbankd-20').length,0)});
+test('middle click emits once and secondary click is ignored',()=>{assert.equal(click('https://www.amazon.com/prime?tag=fitnessbankd-20',1,'auxclick').length,1);assert.equal(click('https://www.amazon.com/prime?tag=fitnessbankd-20',2).length,0)});

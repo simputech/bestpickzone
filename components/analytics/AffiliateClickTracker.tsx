@@ -13,7 +13,7 @@ function getAffiliatePlatform(href: string): AffiliatePlatform {
     // Older HTML comparisons use bestpickzone-20; newer React articles use althcu-20.
     if (
       (host === 'amazon.com' || host.endsWith('.amazon.com')) &&
-      ['althcu-20', 'bestpickzone-20'].includes(url.searchParams.get('tag') ?? '')
+      ['althcu-20', 'bestpickzone-20', 'fitnessbankd-20'].includes(url.searchParams.get('tag') ?? '')
     ) {
       return 'amazon'
     }

@@ -1,4 +1,5 @@
 import { withSeo } from '@/lib/seo-metadata'
+import MembershipHubLinks from '@/components/article/MembershipHubLinks'
 import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata';
@@ -441,6 +442,7 @@ const topicClusters = [
             </ul>
           </section>
         ))}
+      <MembershipHubLinks audience="books" />
       </main>
     </>
   );
