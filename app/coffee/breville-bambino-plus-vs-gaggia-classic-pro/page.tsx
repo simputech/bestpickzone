@@ -43,7 +43,7 @@ const data: ComparisonPageData = {
     'For most new home baristas the Breville Bambino Plus is the easier machine to buy first, while the Gaggia Classic Pro E24 is the better fit for someone who wants a heavier, more traditional 58mm workflow from day one.',
     'Breville lists the Bambino Plus with a ThermoJet heating system that reaches extraction temperature in 3 seconds, low-pressure pre-infusion, a 54mm stainless steel portafilter, and hands-free automatic milk texturing with three milk temperatures and three texture levels.',
     'Gaggia North America positions the Classic Pro E24 around a lead-free brass single boiler, 58mm stainless steel portafilter, commercial-style two-hole steam wand, 72-ounce reservoir, and 9-bar brew pressure through an OPV-calibrated Ulka pump.',
-    'The price gap is real but not massive: at last check the Bambino Plus sat at $498.49 on Amazon, while Gaggia North America listed the stainless Classic Pro E24 at $549.00, so this decision comes down to workflow, steam style, and how quickly you want to get from cold machine to first shot.',
+    'Check current prices for both machines before comparing value. Weigh any price difference against workflow, steam style, and how quickly you want to get from a cold machine to your first shot.',
   ],
   heroImage: {
     src: '/images/coffee/espresso-machine-brewing.jpg',
@@ -91,9 +91,9 @@ const data: ComparisonPageData = {
       productB: '72 fluid ounces.',
     },
     {
-      label: 'Current price at last check',
-      productA: '$498.49 on Amazon.',
-      productB: '$549.00 from Gaggia North America in stainless steel.',
+      label: 'Price and availability',
+      productA: 'Check current price and availability on Amazon.',
+      productB: 'Check current price and availability for the E24 model and your chosen finish.',
     },
   ],
   productA: {
@@ -174,7 +174,7 @@ const data: ComparisonPageData = {
     {
       question: 'Is the price gap between these two machines actually large?',
       answer:
-        'Not especially. At the time of verification, the Bambino Plus was listed at $498.49 on Amazon, while Gaggia North America listed the stainless Classic Pro E24 at $549.00, so the real gap is closer to workflow preference than to a different budget tier.',
+        'The gap changes with retailer offers, finish, and included accessories. Check current prices for both exact models, then decide whether automatic milk texturing or a traditional 58mm workflow matters more to you. Include delivery and any accessories you need in the comparison.',
     },
   ],
   relatedLinks: [
