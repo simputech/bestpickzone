@@ -147,10 +147,6 @@ export function generateMetadata({ params }: Props): Metadata {
           'La version en espanol de BestPickZone con guias de compra, oficinas en casa, tecnologia, hogar y recomendaciones de lectura.',
         alternates: {
           canonical: homeUrl,
-          languages: {
-            en: 'https://bestpickzone.com',
-            es: homeUrl,
-          },
         },
       },
       {
@@ -170,10 +166,6 @@ export function generateMetadata({ params }: Props): Metadata {
         description: sectionData.description,
         alternates: {
           canonical: `${homeUrl}/${sectionData.slug}`,
-          languages: {
-            en: `https://bestpickzone.com${sectionData.englishPath}`,
-            es: `${homeUrl}/${sectionData.slug}`,
-          },
         },
       },
       {
@@ -195,10 +187,6 @@ export function generateMetadata({ params }: Props): Metadata {
         description: article.metaDescription,
         alternates: {
           canonical: url,
-          languages: {
-            en: `https://bestpickzone.com${article.englishPath}`,
-            es: url,
-          },
         },
         openGraph: {
           title: article.title,

@@ -4,12 +4,10 @@ import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
-import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data'
 
 const publishedDate = '2026-04-19'
 const updatedDate = '2026-06-26'
 const pageUrl = 'https://bestpickzone.com/books/self-help/best-self-help-books-2026'
-const spanishUrl = getSpanishUrlForEnglishPath(pageUrl)
 
 export const metadata: Metadata = withArticleMetadataDefaults({
   title: 'Best Self-Help Books to Read in 2026 — Honest Picks with Skip-This-If Guidance',
@@ -40,12 +38,6 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   ],
   alternates: {
     canonical: pageUrl,
-    languages: spanishUrl
-      ? {
-          en: pageUrl,
-          es: spanishUrl,
-        }
-      : undefined,
   },
   openGraph: {
     title: 'Best Self-Help Books to Read in 2026',

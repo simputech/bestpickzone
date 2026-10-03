@@ -16,7 +16,6 @@ import {
 import { ARTICLE_REFRESH_DATE, withArticleMetadataDefaults } from '@/lib/article-metadata';
 import { buildAffiliateTrackingId, getAffiliateUrlWithTracking } from '@/lib/affiliate-links';
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time';
-import { getSpanishUrlForEnglishPath } from '@/lib/spanish-site-data';
 import BookCTA from '@/components/article/BookCTA';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 
@@ -94,26 +93,22 @@ const readerCareNotes: Record<string, string> = {
 };
 
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  // This guide has a dedicated page; generating it here would overwrite its HTML.
+  return getAllSlugs()
+    .filter((slug) => slug !== 'best-mark-manson-books')
+    .map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (!article) return {};
   const canonicalUrl = `https://bestpickzone.com/books/${article.slug}`;
-  const spanishUrl = getSpanishUrlForEnglishPath(`/books/${article.slug}`);
 
   return withArticleMetadataDefaults({
     title: article.metaTitle,
     description: article.metaDescription,
     alternates: {
       canonical: canonicalUrl,
-      languages: spanishUrl
-        ? {
-            en: canonicalUrl,
-            es: spanishUrl,
-          }
-        : undefined,
     },
     openGraph: {
       title: article.metaTitle,

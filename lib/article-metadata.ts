@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { getLocalizedLanguages } from './localized-urls'
 
 export const ARTICLE_REFRESH_DATE = '2026-07-01'
 
@@ -196,6 +197,7 @@ export function withArticleMetadataDefaults(
     alternates: {
       ...metadata.alternates,
       canonical: metadata.alternates?.canonical ?? canonicalUrl,
+      languages: getLocalizedLanguages(url) ?? metadata.alternates?.languages,
     },
     openGraph: {
       ...metadata.openGraph,
