@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import overrides from './seo-overrides.json'
+import { getSeoTitle } from './seo-titles'
 
 const origin = "https://bestpickzone.com"
 const brand = "BestPickZone"
@@ -26,7 +27,7 @@ export function withSeo(metadata: Metadata, route?: string): Metadata {
   const inputTitle = typeof metadata.title === 'string' ? metadata.title : metadata.title && 'absolute' in metadata.title ? metadata.title.absolute : metadata.title && 'default' in metadata.title ? metadata.title.default : ''
   // Remove only this site's suffix; repeated suffixes cannot survive the absolute title.
   if (!inputTitle && !override?.title) return { ...metadata, alternates: { ...metadata.alternates, canonical: url } }
-  let title = override?.title || inputTitle || ''
+  let title = getSeoTitle(url) || override?.title || inputTitle || ''
   const escapedBrand = brand.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
   title = title.replace(new RegExp('(?:\\s*[|—–-]\\s*' + escapedBrand + ')+$', 'i'), '').trim()
   const branded = title + ' | ' + brand
