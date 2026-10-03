@@ -25,7 +25,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
     type: 'article',
   },
 }, {
-  publishedTime: '2026-01-01T00:00:00Z',
+  publishedTime: '2026-04-20T00:00:00Z',
   modifiedTime: '2026-10-03T00:00:00Z',
   category: 'reader-picks' }), "/books/reader-picks/best-books-for-people-who-dont-like-reading")
 
@@ -173,7 +173,7 @@ const articleSchema = {
     logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/logo.png' },
   },
   datePublished: '2026-04-20',
-  dateModified: '2026-06-26',
+  dateModified: '2026-10-03',
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id':

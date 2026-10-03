@@ -29,6 +29,7 @@ for (const html of [books, readers, selfHelp, target]) {
   assert.ok(!/priority author guides to crawl|priority crawl paths|freshness signals|want crawled and indexed/i.test(html))
 }
 assert.ok(target.includes(`rel="canonical" href="${canonical}${destination}"`))
+assert.ok(target.includes('\"dateModified\":\"2026-10-03\"'), 'Article schema modification date')
 assert.ok(target.includes('More options if those five do not fit'))
 assert.ok(target.includes('Big Little Lies'))
 assert.ok(target.includes('Gone Girl'))
