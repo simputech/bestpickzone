@@ -112,7 +112,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/mahjong/best-american-mahjong-sets-on-amazon`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-travel-mahjong-sets`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-mahjong-cards`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/mahjong/best-mahjong-accessories`, lastModified: guideDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/mahjong/best-mahjong-accessories`, lastModified: '2026-10-03', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/how-to-choose-a-mahjong-set`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-book-to-learn-mahjong`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/mahjong-set-vs-mahjong-card`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
