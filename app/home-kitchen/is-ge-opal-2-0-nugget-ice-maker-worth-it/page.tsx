@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -17,7 +18,7 @@ function amazonSearch(query: string) {
 const metaDescription =
   'Is the GE Opal 2.0 Nugget Ice Maker worth it in 2026? An honest breakdown of what you are paying for, what it gets right, what gets annoying, and who should buy it versus cheaper alternatives.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Is the GE Opal 2.0 Nugget Ice Maker Worth It? (2026)',
     description: metaDescription,
@@ -55,7 +56,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['nugget ice maker', 'GE Opal 2.0', 'kitchen appliance', 'amazon finds'],
   }
-)
+), "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it")
 
 type IcePick = {
   rank: number

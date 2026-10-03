@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Books for 12-Year-Old Boys Summer 2026',
   description:
     'The best books for 12-year-old boys in summer 2026, ranked by reader fit: Holes, Hatchet, The Lightning Thief, The Crossover, and The Wild Robot.',
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'kids-and-ya' })
+  category: 'kids-and-ya' }), "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

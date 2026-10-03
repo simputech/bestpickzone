@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -5,7 +6,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 
 const pageUrl = 'https://bestpickzone.com/disclosure'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Affiliate Disclosure',
     description:
@@ -23,7 +24,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     category: 'home-kitchen',
     metadataType: 'website',
   }
-)
+), "/disclosure")
 
 export default function DisclosurePage() {
   return (

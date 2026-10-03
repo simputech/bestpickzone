@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -11,7 +12,7 @@ const updatedDate = '2026-07-01T00:00:00Z'
 const metaDescription =
   'How to set up the ultimate work-from-home kitchen office in under 5 minutes with portable gear, ergonomic support, clean cable management, and small-space productivity tips.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Ultimate Kitchen Table Home Office Setup for WFH',
     description: metaDescription,
@@ -59,7 +60,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'ergonomics',
     ],
   }
-)
+), "/wfh/ultimate-kitchen-table-home-office-setup")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

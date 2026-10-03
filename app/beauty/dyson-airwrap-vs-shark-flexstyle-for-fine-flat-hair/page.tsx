@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -15,10 +16,10 @@ function amazonSearch(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   { title: 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'beauty', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Beauty', url: pageUrl, tags: ['Dyson Airwrap', 'Shark FlexStyle', 'fine hair', 'hair tools'] }
-)
+), "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair")
 
 const faqItems = [
   { question: 'Is the Dyson Airwrap worth double for fine, flat hair?', answer: 'Sometimes, but not automatically. The premium only makes sense if you specifically value the refinement, attachment behavior, and styling feel enough to use it often.' },

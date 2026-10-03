@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -147,7 +148,7 @@ const articleText = `${picks
 
 const readingTime = getReadingTime(articleText)
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Legal Thriller Books',
     description:
@@ -167,7 +168,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     modifiedTime: updatedDate,
     section: 'Books',
   },
-)
+), "/books/genre-fiction/best-legal-thriller-books")
 
 const articleSchema = {
   '@context': 'https://schema.org',

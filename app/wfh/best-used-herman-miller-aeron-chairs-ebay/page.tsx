@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -12,7 +13,7 @@ const updatedDate = '2026-07-06T00:00:00Z'
 const metaDescription =
   'Shopping for a used Herman Miller Aeron on eBay? This guide covers Classic vs Remastered, Aeron sizes, listing red flags, and how to find the best used or refurbished chair.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Used Herman Miller Aeron Chairs on eBay in 2026',
     description: metaDescription,
@@ -54,7 +55,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'ergonomic office chair',
     ],
   }
-)
+), "/wfh/best-used-herman-miller-aeron-chairs-ebay")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

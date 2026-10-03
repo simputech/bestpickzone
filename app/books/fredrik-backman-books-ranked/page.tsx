@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -57,14 +58,14 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Fredrik Backman`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Fredrik Backman Books Ranked',
   description:
     'Fredrik Backman books ranked with fuller book descriptions, author history, style notes, and a clear start-here recommendation.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/fredrik-backman-books-ranked")
 
 export default function BackmanRankedPage() {
   return (

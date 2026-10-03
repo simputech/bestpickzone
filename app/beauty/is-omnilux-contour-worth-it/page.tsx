@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -15,10 +16,10 @@ function amazonSearch(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   { title: 'Is the Omnilux Contour Worth It? (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Is the Omnilux Contour Worth It?', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'beauty', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Beauty', url: pageUrl, tags: ['Omnilux', 'LED mask', 'beauty tech'] }
-)
+), "/beauty/is-omnilux-contour-worth-it")
 
 const faqItems = [
   { question: 'Is the Omnilux Contour worth it?', answer: 'Yes for the buyer who specifically wants a premium, evidence-first LED mask and will use it consistently. No for the buyer who is still unsure they even want the category.' },

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -20,7 +21,7 @@ function amazonProduct(asin: string) {
 const metaDescription =
   'The best study desk essentials for students in 2026: task lighting that beats dorm fluorescents, ergonomic fixes for laptop hunch, focus tools, and the organization layer that keeps a small desk usable.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Study Desk Essentials for Students (2026)',
     description: metaDescription,
@@ -58,7 +59,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['study desk', 'college students', 'desk setup', 'desk accessories', 'studying'],
   }
-)
+), "/home-kitchen/best-study-desk-essentials")
 
 type Product = {
   rank: number

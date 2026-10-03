@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Lee Child Books in Order — Jack Reacher Reading Guide (2026)',
   description:
     "Where to start the Jack Reacher series and what to read next: Killing Floor, One Shot, 61 Hours, and the honest verdict on the Andrew Child continuation novels. All 29 books covered.",
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'authors' })
+  category: 'authors' }), "/books/authors/best-lee-child-books")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

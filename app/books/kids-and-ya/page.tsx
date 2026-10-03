@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -6,14 +7,14 @@ import { getArticlesByCategory } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Kids & Young Adult Books 2026 — Series, Picture Books & YA',
   description:
     'The best books for kids and teens: picture books, middle-grade series, YA fantasy, YA romance, reluctant reader picks, and more. Age-matched recommendations parents and kids trust.',
   alternates: { canonical: 'https://bestpickzone.com/books/kids-and-ya' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'kids-and-ya' })
+  category: 'kids-and-ya' }), "/books/kids-and-ya")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

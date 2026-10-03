@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -73,14 +74,14 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Sci-Fi Doorstoppers And Epic Space Opera',
   description:
     'Best sci-fi doorstoppers and epic space opera books for readers who want serious scale, politics, and immersive long-form storytelling.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/best-sci-fi-doorstoppers-epic-space-opera")
 
 export default function SpaceOperaDoorstoppersPage() {
   return (

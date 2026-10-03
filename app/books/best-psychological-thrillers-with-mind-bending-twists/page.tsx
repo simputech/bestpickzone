@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -48,14 +49,14 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Psychological Thrillers With Mind-Bending Twists',
   description:
     'Best psychological thrillers with mind-bending twists, including fuller descriptions, author names, and extra context on Gone Girl and Shutter Island.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/best-psychological-thrillers-with-mind-bending-twists")
 
 export default function MindBendingThrillersPage() {
   return (

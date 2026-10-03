@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -85,14 +86,14 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Taylor Jenkins Reid`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Taylor Jenkins Reid Books In Order',
   description:
     'Taylor Jenkins Reid books in order, plus where to start, how her career changed, and why Evelyn Hugo is still the best first read for most people.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/taylor-jenkins-reid-books-in-order")
 
 export default function TJRBooksInOrderPage() {
   return (

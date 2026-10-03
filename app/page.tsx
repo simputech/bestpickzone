@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { siteSections } from '@/lib/site-sections'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'BestPickZone — Buyer Guides and Product Comparisons 2026',
   description:
     'BestPickZone publishes buyer-first product comparisons and curated book guides across coffee gear, beauty tech, work-from-home setups, and reader-focused lists.',
@@ -20,7 +21,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'shopping', metadataType: 'website' })
+  category: 'shopping', metadataType: 'website' }), "/")
 
 const categories = [
   {

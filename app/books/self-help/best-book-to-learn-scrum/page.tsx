@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Book to Learn Scrum',
   description:
     'The best book to learn Scrum is Essential Scrum if you want one paid book, but the official Scrum Guide should be your first read. Here is how the top Scrum books split by reader type.',
@@ -21,7 +22,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'self-help' })
+  category: 'self-help' }), "/books/self-help/best-book-to-learn-scrum")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

@@ -1,0 +1,11 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { parseHtml, validatePages } from './validate-metadata.mjs';
+const html=(title='Example page',canonical='https://example.com/a')=>`<title>${title}</title><meta name="description" content="A distinct useful description for this page covering the topic in enough detail for readers."><link rel="canonical" href="${canonical}"><svg><title>Diagram label</title></svg><script type="application/ld+json">{"@type":"Article","headline":"Example"}</script>`;
+test('SVG accessibility titles are not document titles',()=>assert.deepEqual(parseHtml(html()).titles,['Example page']));
+test('valid canonical page passes',()=>assert.equal(validatePages([{route:'/a',html:html()}],'https://example.com','Brand').errors.length,0));
+test('long and repeated-brand titles fail',()=>{const r=validatePages([{route:'/a',html:html('x'.repeat(71)+' | Brand | Brand')}],'https://example.com','Brand');assert(r.errors.some(e=>e.includes('70 characters')));assert(r.errors.some(e=>e.includes('branding')))});
+test('missing and inherited homepage canonical fail',()=>{for(const markup of [html().replace(/<link[^>]+>/,''),html('Example','https://example.com')])assert(validatePages([{route:'/a',html:markup}],'https://example.com','Brand').errors.some(e=>/canonical/i.test(e)))});
+test('duplicate titles and descriptions across routes fail',()=>{const r=validatePages([{route:'/a',html:html()},{route:'/b',html:html('Example page','https://example.com/b')}],'https://example.com','Brand');assert(r.errors.some(e=>e.includes('Duplicate title')));assert(r.errors.some(e=>e.includes('Duplicate description')))});
+test('noindex pages are excluded from indexable metadata checks',()=>assert.equal(validatePages([{route:'/login',html:'<meta name="robots" content="noindex, follow">'}],'https://example.com','Brand').checked,0));
+test('malformed structured data fails',()=>assert(validatePages([{route:'/a',html:html().replace('"headline":"Example"','"headline":')}],'https://example.com','Brand').errors.some(e=>e.includes('JSON-LD'))));

@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Mechanical Keyboards in 2026: Top Picks for Typing & Gaming',
   description:
     'Expert-ranked mechanical keyboards for every budget and use case — from office typing to competitive gaming. Real specs, honest pros and cons, and Amazon + Best Buy links.',
@@ -20,7 +21,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   publishedTime: '2026-04-09',
   modifiedTime: '2026-06-26',
   section: 'Tech',
-})
+}), "/tech/best-mechanical-keyboards")
 
 const products = [
   {

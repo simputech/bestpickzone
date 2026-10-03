@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import { getBookPath } from '@/lib/books-data'
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -99,7 +100,7 @@ export async function generateStaticParams() {
     .map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+async function resolvePageMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(params.slug);
   if (!article) return {};
   const canonicalUrl = `https://bestpickzone.com/books/${article.slug}`;
@@ -134,6 +135,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: [...(article.metadataKeywords ?? []), ...article.books.slice(0, 4).map((book) => book.title)],
     tags: [...(article.metadataKeywords ?? []).slice(0, 3), ...article.books.slice(0, 6).map((book) => book.title)],
   });
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  return withSeo(await resolvePageMetadata({ params }), `/books/${resolvedParams.slug}`);
 }
 
 export default function ArticlePage({ params }: Props) {

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -21,7 +22,7 @@ function amazonProduct(asin: string) {
 const metaDescription =
   'The best picnic essentials in 2026: 15 Amazon picks for carrying food, keeping drinks cold, sitting comfortably, and making park lunches feel easy instead of overpacked.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Picnic Essentials (2026)',
     description: metaDescription,
@@ -59,7 +60,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['picnic', 'outdoor dining', 'summer', 'amazon finds', 'food carry'],
   }
-)
+), "/home-kitchen/best-picnic-essentials")
 
 type Product = {
   rank: number

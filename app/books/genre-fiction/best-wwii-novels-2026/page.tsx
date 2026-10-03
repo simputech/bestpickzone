@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -18,7 +19,7 @@ const UPDATED_DATE = '2026-06-26'
 const META_DESCRIPTION =
   'Seven great WWII novels, ranked by where to actually start and matched to reader type, emotional weight, and historical setting. Start with The Nightingale, then choose the best fit from All the Light We Cannot See, The Book Thief, and more.'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best WWII Novels to Read in 2026 (Ranked by Where to Start)',
   description: META_DESCRIPTION,
   alternates: { canonical: CANONICAL },
@@ -49,7 +50,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     'war novels',
     'book recommendations',
   ],
-})
+}), "/books/genre-fiction/best-wwii-novels-2026")
 
 // --- Affiliate helper -------------------------------------------------------
 const AMAZON_TAG = 'althcu-20'

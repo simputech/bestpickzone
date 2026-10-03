@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -120,7 +121,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Books Like It Ends With Us',
   description:
     'Books like It Ends With Us for readers who want emotionally intense contemporary fiction, relationship pressure, and direct Amazon links.',
@@ -132,7 +133,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: pageUrl,
     type: 'article',
   },
-}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' }), "/books/books-like-it-ends-with-us")
 
 export default function BooksLikeItEndsWithUsPage() {
   const articleSchema = {

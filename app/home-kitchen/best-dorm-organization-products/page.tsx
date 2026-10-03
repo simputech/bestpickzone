@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -20,7 +21,7 @@ function amazonProduct(asin: string) {
 const metaDescription =
   'The best dorm organization products for 2026: bed risers and vacuum bags that create space, the rolling cart and drawer towers that structure it, and the damage-free hooks that use walls without losing a deposit.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Dorm Organization Products (2026)',
     description: metaDescription,
@@ -58,7 +59,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['dorm organization', 'storage', 'college dorm', 'space saving', 'closet organization'],
   }
-)
+), "/home-kitchen/best-dorm-organization-products")
 
 type Product = {
   rank: number

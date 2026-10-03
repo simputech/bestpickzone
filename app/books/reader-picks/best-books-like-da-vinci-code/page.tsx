@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -7,7 +8,7 @@ import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
 const pageUrl = 'https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Books Like The Da Vinci Code — Ranked with Winner Logic',
   description:
     "If you loved The Da Vinci Code, these are the best follow-up reads: Eco's Name of the Rose, Berry's Cotton Malone series, Mosse's Labyrinth, Kostova's The Historian, and Caldwell/Thomason's Rule of Four — each with a skip-this-if recommendation.",
@@ -24,7 +25,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'reader-picks' })
+  category: 'reader-picks' }), "/books/reader-picks/best-books-like-da-vinci-code")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

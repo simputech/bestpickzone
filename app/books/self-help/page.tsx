@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata';
@@ -6,14 +7,14 @@ import { getArticlesByCategory } from '@/lib/books-data';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Self-Help & Non-Fiction Books 2026',
   description:
     'The best self-help and non-fiction books on habits, leadership, personal finance, mindfulness, psychology, biographies, and more. Honest picks that actually deliver.',
   alternates: { canonical: 'https://bestpickzone.com/books/self-help' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'self-help' });
+  category: 'self-help' }), "/books/self-help");
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

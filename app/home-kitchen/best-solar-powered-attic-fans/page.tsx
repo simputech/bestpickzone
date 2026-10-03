@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -120,7 +121,7 @@ const faqSchema = {
   })),
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Solar-Powered Attic Fans',
   description:
     'The best solar-powered attic fans to reduce attic heat, lower AC strain, and improve roof ventilation, with direct Amazon links for each pick.',
@@ -136,7 +137,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'home-kitchen' })
+  category: 'home-kitchen' }), "/home-kitchen/best-solar-powered-attic-fans")
 
 export default function BestSolarPoweredAtticFansPage() {
   return (

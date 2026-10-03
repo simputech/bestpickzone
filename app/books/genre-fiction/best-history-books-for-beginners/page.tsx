@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -7,7 +8,7 @@ import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
 const pageUrl = 'https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best History Books for Beginners — Ranked with Winner Logic',
   description:
     "The best history books for beginners, ranked honestly: Harari's Sapiens, Larson's Devil in the White City, Beard's SPQR, Bryson's Short History, and Tuchman's Guns of August — each with a clear skip-this-if recommendation.",
@@ -24,7 +25,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'genre-fiction' })
+  category: 'genre-fiction' }), "/books/genre-fiction/best-history-books-for-beginners")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -137,7 +138,7 @@ ${redFlags.join(' ')}
 ${faqItems.map((item) => `${item.q} ${item.a}`).join(' ')}
 `
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Vintage Coffee Grinders on eBay in 2026',
     description: metaDescription,
@@ -179,7 +180,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'collector coffee gear',
     ],
   }
-)
+), "/coffee/best-vintage-coffee-grinders-ebay")
 
 const readingTimeLabel = formatReadingTime(getReadingTime(articleText))
 

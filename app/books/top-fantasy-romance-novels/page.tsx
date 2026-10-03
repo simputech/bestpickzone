@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
@@ -214,7 +215,7 @@ function amazonLink(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Top 15 Fantasy Romance Novels to Read in 2026',
   description:
     'The best fantasy romance novels to read in 2026, ranked by reader type, with clear start-here picks, books like ACOTAR and Fourth Wing, and Amazon links throughout.',
@@ -230,7 +231,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     type: 'article',
     images: [heroImage],
   },
-}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' }), "/books/top-fantasy-romance-novels")
 
 export default function TopFantasyRomanceNovelsPage() {
   const articleSchema = {

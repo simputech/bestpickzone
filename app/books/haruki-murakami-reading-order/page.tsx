@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -89,7 +90,7 @@ function coverImage(title: string) {
   return `https://dummyimage.com/320x480/e8edf4/1f2937.png&text=${encodeURIComponent(title)}`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Haruki Murakami Reading Order',
   description:
     'Haruki Murakami reading order with the best place to start, what to read next, and which big books to save for later.',
@@ -101,7 +102,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: pageUrl,
     type: 'article',
   },
-}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' }), "/books/haruki-murakami-reading-order")
 
 export default function HarukiMurakamiReadingOrderPage() {
   const articleSchema = {

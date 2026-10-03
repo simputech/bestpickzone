@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'AirPods Pro 2 vs Sony WF-1000XM5: Which Should You Buy in 2026?',
   description:
     'We compared the AirPods Pro 2 and Sony WF-1000XM5 head-to-head on ANC, sound quality, battery, comfort, and value. Here\'s the definitive verdict.',
@@ -20,7 +21,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   publishedTime: '2026-04-09',
   modifiedTime: '2026-06-26',
   section: 'Tech',
-})
+}), "/tech/airpods-pro-vs-sony-wf-1000xm5")
 
 const categories = [
   {

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -10,7 +11,7 @@ const description = 'How to choose a Mahjong set in 2026: identify your version 
 const tag = 'althcu-20'
 const amazon = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`
 
-export const metadata: Metadata = withArticleMetadataDefaults({ title: 'How to Choose a Mahjong Set (2026)', description, alternates: { canonical: url }, openGraph: { title: 'How to Choose a Mahjong Set (2026)', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'How to Choose a Mahjong Set (2026)', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['how to choose a Mahjong set', 'American Mahjong set', 'Riichi Mahjong set', 'Mahjong buying guide'] })
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({ title: 'How to Choose a Mahjong Set (2026)', description, alternates: { canonical: url }, openGraph: { title: 'How to Choose a Mahjong Set (2026)', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'How to Choose a Mahjong Set (2026)', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['how to choose a Mahjong set', 'American Mahjong set', 'Riichi Mahjong set', 'Mahjong buying guide'] }), "/mahjong/how-to-choose-a-mahjong-set")
 
 const articleSchema = { '@context': 'https://schema.org', '@type': 'Article', headline: 'How to Choose a Mahjong Set (2026)', description, datePublished: published, dateModified: published, mainEntityOfPage: url, author: { '@type': 'Organization', name: 'BestPickZone Editorial Team' }, publisher: { '@type': 'Organization', name: 'BestPickZone' } }
 

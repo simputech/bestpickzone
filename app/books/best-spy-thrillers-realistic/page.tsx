@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -75,7 +76,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Realistic Spy Thrillers',
   description:
     'Best realistic spy thrillers ranked for tradecraft, bureaucracy, and Cold War credibility, with direct Amazon links.',
@@ -87,7 +88,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     url: pageUrl,
     type: 'article',
   },
-}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' }), "/books/best-spy-thrillers-realistic")
 
 export default function BestRealisticSpyThrillersPage() {
   return (

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -19,7 +20,7 @@ const guides = [
   { href: '/mahjong/best-book-to-learn-mahjong', title: 'Best Book to Learn Mahjong', text: 'A version-specific reading guide for American Mahjong beginners, official rules, and wider Mahjong traditions.', status: 'Live' },
 ] as const
 
-export const metadata: Metadata = withArticleMetadataDefaults({ title: 'Mahjong Guides for Beginners', description: 'American Mahjong set, accessory, and learning guides for new players—starting with the equipment you need for a first game night.', alternates: { canonical: 'https://bestpickzone.com/mahjong' } }, { category: 'mahjong', publishedTime: '2026-09-19T00:00:00Z', section: 'Mahjong', url: 'https://bestpickzone.com/mahjong' })
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({ title: 'Mahjong Guides for Beginners', description: 'American Mahjong set, accessory, and learning guides for new players—starting with the equipment you need for a first game night.', alternates: { canonical: 'https://bestpickzone.com/mahjong' } }, { category: 'mahjong', publishedTime: '2026-09-19T00:00:00Z', section: 'Mahjong', url: 'https://bestpickzone.com/mahjong' }), "/mahjong")
 
 export default function MahjongHubPage() { return <main className="mx-auto max-w-5xl px-4 py-10">
   <BreadcrumbJsonLd trail={[{ name: 'Home', path: '/' }, { name: 'Mahjong' }]} />

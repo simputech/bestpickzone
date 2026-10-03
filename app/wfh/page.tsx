@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -6,7 +7,7 @@ import { wfhComparisonArticles } from '@/lib/comparison-html-articles'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best WFH Setup Ideas, Ergonomic Home Office Comparisons & Desk Gear',
   description:
     'Build a better work-from-home setup with ergonomic chair, standing desk, keyboard, mouse, and monitor-arm comparisons plus practical home office tips for a calmer, more productive desk.',
@@ -40,7 +41,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'wfh' })
+  category: 'wfh' }), "/wfh")
 
 const sections = [
   { title: 'Desk Fit and Compatibility', copy: 'Resolve wall clearance, laptop display support, and reflections in glasses before buying the next accessory.', items: buyingGuides.filter(g => g.silo === 'wfh' && !g.publishedDate).map(g => ({ title: g.title, label: 'Compatibility Buying Guide', summary: g.description, detail: 'Includes measurements, limitations, and a practical check before ordering.', href: `/wfh/${g.slug}` })) },

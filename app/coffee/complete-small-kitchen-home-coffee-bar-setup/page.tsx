@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -16,10 +17,10 @@ function amazonSearch(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   { title: 'Complete Small-Kitchen Home Coffee Bar Setup (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Complete Small-Kitchen Home Coffee Bar Setup', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'coffee', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Coffee', url: pageUrl, tags: ['coffee bar', 'small kitchen', 'espresso setup'] }
-)
+), "/coffee/complete-small-kitchen-home-coffee-bar-setup")
 
 const picks = [
   ['Breville Bambino', 'Best compact espresso core', '7.7-inch width class', '$$', 'Breville Bambino espresso machine', 'The narrow premium-feeling machine option.'],

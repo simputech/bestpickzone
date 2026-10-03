@@ -1,10 +1,11 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Tech & Electronics Reviews 2026',
   description:
     'Expert reviews and comparisons of the best laptops, headphones, keyboards, monitors, and more. Every pick backed by hands-on research with Amazon and Best Buy links.',
@@ -21,7 +22,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'tech', metadataType: 'website' })
+  category: 'tech', metadataType: 'website' }), "/tech")
 
 const articles = [
   {

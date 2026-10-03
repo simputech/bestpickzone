@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -6,7 +7,7 @@ import { coffeeComparisonArticles } from '@/lib/comparison-html-articles'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Coffee Gear Comparisons 2026',
   description:
     'Spec-driven coffee gear comparisons for espresso machines, grinders, kettles, brewers, and scales built for high-intent buyers.',
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'coffee' })
+  category: 'coffee' }), "/coffee")
 
 const groups = [
   { name: 'Fit and Compatibility Buying Guides', note: 'Choose equipment around your machine, cup, batch size, and available counter space.', items: buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ slug: g.slug, title: g.title, spec: g.description })) },

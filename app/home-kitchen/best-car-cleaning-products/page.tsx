@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -21,7 +22,7 @@ function amazonProduct(asin: string) {
 const metaDescription =
   'The best car cleaning products in 2026: 15 Amazon picks for keeping interiors, glass, dashboards, seats, wheels, and small crevices noticeably cleaner without turning detailing into a weekend project.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Car Cleaning Products (2026)',
     description: metaDescription,
@@ -59,7 +60,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['car cleaning', 'detailing', 'amazon finds', 'interior care', 'garage'],
   }
-)
+), "/home-kitchen/best-car-cleaning-products")
 
 type Product = {
   rank: number

@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Health & Fitness Gear Reviews 2026',
   description:
     'Expert comparisons of fitness trackers, adjustable dumbbells, yoga mats, and more. Research-backed picks with Amazon and Best Buy links.',
@@ -20,7 +21,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'health-fitness', metadataType: 'website' })
+  category: 'health-fitness', metadataType: 'website' }), "/health-fitness")
 
 const articles = [
   {

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -16,7 +17,7 @@ function amazonSearch(query: string) {
 const metaDescription =
   'The Gaggia Classic Pro upgrades actually worth buying in 2026, ranked by espresso payoff. Start with the grinder prerequisite, then the 58mm tools, baskets, PID, and maintenance upgrades that matter.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Gaggia Classic Pro Upgrades (2026)',
     description: metaDescription,
@@ -54,7 +55,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['Gaggia Classic Pro', 'espresso accessories', '58mm gear', 'amazon finds'],
   }
-)
+), "/coffee/best-gaggia-classic-pro-upgrades")
 
 type Pick = {
   rank: number

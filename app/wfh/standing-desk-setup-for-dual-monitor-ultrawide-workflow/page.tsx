@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -15,10 +16,10 @@ function amazonSearch(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   { title: 'Standing Desk Setup for a Dual-Monitor Ultrawide Workflow (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Standing Desk Setup for a Dual-Monitor Ultrawide Workflow', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'wfh', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'WFH', url: pageUrl, tags: ['standing desk', 'ultrawide monitor', 'dual monitor', 'home office'] }
-)
+), "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow")
 
 const faqItems = [
   { question: 'Why does ultrawide plus dual-monitor change desk buying?', answer: 'Because the weight, arm reach, depth needs, and stability demands are all higher than they are in a lighter single-monitor setup.' },

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -21,7 +22,7 @@ function amazonProduct(asin: string) {
 const metaDescription =
   'The best air fryer accessories in 2026: 15 Amazon picks that make cleanup easier, expand what your air fryer can cook, and avoid the clutter that usually comes with accessory bundles.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Air Fryer Accessories (2026)',
     description: metaDescription,
@@ -59,7 +60,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['air fryer', 'kitchen accessories', 'amazon finds', 'cooking tools', 'cleanup'],
   }
-)
+), "/home-kitchen/best-air-fryer-accessories")
 
 type Product = {
   rank: number

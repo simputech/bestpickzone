@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -17,7 +18,7 @@ function amazonSearch(query: string) {
 const metaDescription =
   'NuFACE Trinity+ vs Foreo Bear 2 vs MyoLift QT: a 3-way microcurrent showdown focused on treatment style, session friction, gel cost, and who each device fits best.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'NuFACE Trinity+ vs Foreo Bear 2 vs MyoLift QT (2026)',
     description: metaDescription,
@@ -47,7 +48,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['microcurrent', 'NuFACE', 'FOREO', 'MyoLift'],
   }
-)
+), "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt")
 
 const devices = [
   {

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -10,13 +11,13 @@ const url = 'https://bestpickzone.com/books/reader-picks/best-fall-reads-2026'
 const published = '2026-09-19T00:00:00Z'
 const description = 'The best fall reads for 2026: The Secret History, The September House, The Night Circus, Mexican Gothic, and more books for crisp-weather reading.'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Fall Reads 2026: 6 Books for Crisp-Weather Reading',
   description,
   alternates: { canonical: url },
   openGraph: { title: 'Best Fall Reads 2026', description, url, type: 'article' },
   twitter: { card: 'summary_large_image', title: 'Best Fall Reads 2026', description },
-}, { category: 'reader-picks', publishedTime: published, modifiedTime: published, section: 'Books', url, tags: ['fall reads', 'fall books', '2026 reading list'] })
+}, { category: 'reader-picks', publishedTime: published, modifiedTime: published, section: 'Books', url, tags: ['fall reads', 'fall books', '2026 reading list'] }), "/books/reader-picks/best-fall-reads-2026")
 
 const picks = [
   { badge: 'Best overall', title: 'The Secret History', author: 'Donna Tartt', bestFor: 'Readers who want the defining dark-academia fall novel', summary: 'Donna Tartt opens with the outcome—a murder inside a close circle of classics students—and then makes the question of how that group got there more compelling than a conventional whodunit. The Vermont college setting, expensive-looking surfaces, private rituals, and growing moral rot give it a permanent September-to-November pull. It is the best overall fall pick because it has atmosphere without being merely decorative: the campus setting is inseparable from the characters’ self-invention and collapse.', skip: 'Skip it if you want a brisk thriller or warm, likable characters. The book is deliberately slow, cool, and full of people whose intelligence does not make them decent.', query: 'The Secret History Donna Tartt paperback' },

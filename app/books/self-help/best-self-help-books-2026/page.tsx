@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -9,7 +10,7 @@ const publishedDate = '2026-04-19'
 const updatedDate = '2026-06-26'
 const pageUrl = 'https://bestpickzone.com/books/self-help/best-self-help-books-2026'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Self-Help Books to Read in 2026 — Honest Picks with Skip-This-If Guidance',
   description:
     "The best self-help books to read right now in 2026: Mel Robbins's The Let Them Theory, Cal Newport's Slow Productivity, Morgan Housel's The Psychology of Money, and James Clear's Atomic Habits (with the 2026 workbook) — ranked with honest winner logic.",
@@ -53,7 +54,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     description:
       "The best self-help books in 2026 for productivity, habits, mindset, motivation, and personal growth — ranked with honest winner logic.",
   },
-}, { category: 'self-help', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Self-Help' })
+}, { category: 'self-help', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Self-Help' }), "/books/self-help/best-self-help-books-2026")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

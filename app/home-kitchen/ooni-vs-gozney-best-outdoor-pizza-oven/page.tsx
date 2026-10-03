@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -15,10 +16,10 @@ function amazonSearch(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   { title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'home-kitchen', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Home & Kitchen', url: pageUrl, tags: ['Ooni', 'Gozney', 'pizza oven', 'outdoor cooking'] }
-)
+), "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven")
 
 const faqItems = [
   { question: 'Should you choose by brand or by fuel type first?', answer: 'Fuel type first. Gas, multi-fuel, and electric point to very different ownership experiences.' },

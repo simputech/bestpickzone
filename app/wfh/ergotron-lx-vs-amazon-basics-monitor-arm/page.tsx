@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -9,13 +10,13 @@ const updatedDate = '2026-06-26'
 
 const article = loadRawHtmlArticle('app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html', pageUrl)
 
-export const metadata: Metadata = withArticleMetadataDefaults(article.metadata, {
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, {
   category: 'wfh',
   publishedTime: publishedDate,
   modifiedTime: updatedDate,
   section: 'Work From Home',
   url: pageUrl,
-})
+}), "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm")
 
 export default function Page() {
   return (

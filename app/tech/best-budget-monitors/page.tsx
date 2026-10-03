@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Budget Monitors Under $300 in 2026',
   description:
     'Expert-ranked budget monitors under $300 — from sharp 1080p office displays to fast 1440p gaming monitors. Full specs, pros/cons, and Amazon + eBay shopping paths for new and refurbished buys.',
@@ -20,7 +21,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   publishedTime: '2026-04-09',
   modifiedTime: '2026-07-07',
   section: 'Tech',
-})
+}), "/tech/best-budget-monitors")
 
 const products = [
   {

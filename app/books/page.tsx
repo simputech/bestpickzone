@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata';
@@ -6,14 +7,14 @@ import { articlesData } from '@/lib/books-data';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd';
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Book Recommendations 2026',
   description:
     'Expert book recommendations across every genre — author spotlights, genre fiction, self-help, kids & YA, and curated reader lists. Find your next great read at BestPickZone.',
   alternates: { canonical: 'https://bestpickzone.com/books' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' });
+  category: 'books' }), "/books");
 
 const categories = [
   {

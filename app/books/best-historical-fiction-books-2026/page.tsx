@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -48,14 +49,14 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Historical Fiction Books 2026',
   description:
     'Best historical fiction books to read in 2026, now with fuller book descriptions and added context on why Pachinko is such an important novel.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/best-historical-fiction-books-2026")
 
 export default function HistoricalFiction2026Page() {
   return (

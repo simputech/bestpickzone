@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -17,7 +18,7 @@ function amazonSearch(query: string) {
 const metaDescription =
   'What to buy with your Breville Bambino Plus in 2026: 7 upgrades that actually improve espresso workflow, from the grinder that matters most to the accessories that make dialing in easier.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'What to Buy With the Breville Bambino Plus',
     description: metaDescription,
@@ -55,7 +56,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['breville bambino plus', 'espresso accessories', 'coffee gear', 'amazon finds'],
   }
-)
+), "/coffee/what-to-buy-with-your-breville-bambino-plus")
 
 type Pick = {
   rank: number

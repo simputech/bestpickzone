@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import CommerceShowdownArticlePage from '@/components/article/CommerceShowdownArticlePage'
@@ -32,7 +33,7 @@ const faqSchema = {
   })),
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: article.title,
   description: article.description,
   alternates: {
@@ -46,7 +47,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'home-kitchen' })
+  category: 'home-kitchen' }), "/home-kitchen/oxo-vs-fullstar-avocado-slicer")
 
 export default function OxoVsFullstarAvocadoSlicerPage() {
   return (

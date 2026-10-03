@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -136,7 +137,7 @@ export function generateStaticParams() {
   return getSpanishStaticPaths().map((slug) => ({ slug }))
 }
 
-export function generateMetadata({ params }: Props): Metadata {
+function resolvePageMetadata({ params }: Props): Metadata {
   const path = buildPath(params.slug)
 
   if (!path) {
@@ -214,6 +215,11 @@ export function generateMetadata({ params }: Props): Metadata {
   }
 
   return {}
+}
+
+export function generateMetadata({ params }: Props): Metadata {
+  const resolvedParams = params;
+  return withSeo(resolvePageMetadata({ params }), `/es/${((resolvedParams.slug) || []).join("/")}`);
 }
 
 function SpanishHomePage() {

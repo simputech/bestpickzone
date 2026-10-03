@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: "Best New Books in June 2026 — This Month's Standout Releases",
   description:
     "The best new books published in June 2026, ranked with winner logic: The Shampoo Effect, Little Wonder, A Pair of Aces, and The Housewives Underground.",
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'reader-picks' })
+  category: 'reader-picks' }), "/books/reader-picks/best-new-books-june-2026")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

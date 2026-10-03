@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -8,7 +9,7 @@ const url = 'https://bestpickzone.com/mahjong/mahjong-set-vs-mahjong-card'
 const published = '2026-09-19T00:00:00Z'
 const description = 'A clear American Mahjong beginner guide to the difference between a Mahjong set and the annual NMJL card—what each does, what to buy first, and what to skip.'
 
-export const metadata: Metadata = withArticleMetadataDefaults({ title: 'Mahjong Set vs. Mahjong Card: What You Need', description, alternates: { canonical: url }, openGraph: { title: 'Mahjong Set vs. Mahjong Card: What You Need', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'Mahjong Set vs. Mahjong Card', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['American Mahjong card', 'Mahjong set', 'NMJL card'] })
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({ title: 'Mahjong Set vs. Mahjong Card: What You Need', description, alternates: { canonical: url }, openGraph: { title: 'Mahjong Set vs. Mahjong Card: What You Need', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'Mahjong Set vs. Mahjong Card', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['American Mahjong card', 'Mahjong set', 'NMJL card'] }), "/mahjong/mahjong-set-vs-mahjong-card")
 
 const articleSchema = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Mahjong Set vs. Mahjong Card: What You Need', description, datePublished: published, dateModified: published, mainEntityOfPage: url, author: { '@type': 'Organization', name: 'BestPickZone Editorial Team' }, publisher: { '@type': 'Organization', name: 'BestPickZone' } }
 

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best New Books in April 2026 — This Month\'s Standout Releases',
   description:
     'The best new books published in April 2026, ranked with winner logic: Patrick Radden Keefe\'s London Falling, Tana French\'s The Keeper, plus the strongest book club pick and debut — with clear skip-this-if guidance.',
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'reader-picks' })
+  category: 'reader-picks' }), "/books/reader-picks/best-new-books-april-2026")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

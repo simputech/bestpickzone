@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -16,7 +17,7 @@ function amazonSearch(query: string) {
 const metaDescription =
   'The KitchenAid attachments actually worth buying in 2026, ranked by return on counter space. Start with the pasta set, then the flex edge beater, grinder, food processor, and the rest.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best KitchenAid Attachments Worth Buying (2026)',
     description: metaDescription,
@@ -54,7 +55,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['KitchenAid', 'stand mixer attachments', 'home kitchen upgrades', 'amazon finds'],
   }
-)
+), "/home-kitchen/best-kitchenaid-attachments-worth-buying")
 
 type Pick = {
   rank: number

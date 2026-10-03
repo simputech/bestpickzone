@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -6,14 +7,14 @@ const pageUrl = 'https://bestpickzone.com/books/best-cyberpunk-novels-all-time'
 const heroImage =
   'https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1200&q=80'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Cyberpunk Novels All Time',
   description:
     'Best cyberpunk novels of all time, from Neuromancer to Snow Crash, for readers who want neon, code, surveillance, and corporate rot.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/best-cyberpunk-novels-all-time")
 
 export default function CyberpunkPage() {
   const picks = [

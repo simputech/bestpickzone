@@ -1,10 +1,11 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Home & Kitchen Product Reviews 2026',
   description:
     'Expert comparisons of the best air fryers, coffee makers, robot vacuums, kids room picks, instant pots, and more. Honest picks with affiliate links and clear buyer-fit guidance.',
@@ -21,7 +22,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'home-kitchen', metadataType: 'website' })
+  category: 'home-kitchen', metadataType: 'website' }), "/home-kitchen")
 
 const articles = [
   {"slug": "kitchenaid-pasta-roller-vs-pasta-press", "title": "KitchenAid Pasta Roller vs. Pasta Press: Which Attachment Should You Buy?", "description": "Choose a KitchenAid roller for sheets and ribbons or the KSMPEXTA press for tubes and shapes. Compare dough, mixer fit, current variants, cleaning, and storage.", "badge": "Compatibility Buying Guide", "badgeColor": "bg-teal-100 text-teal-700", "comingSoon": false},

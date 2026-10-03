@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -17,7 +18,7 @@ function amazonSearch(query: string) {
 const metaDescription =
   'The best Halloween candy deals on Amazon in 2026, with estimated cost per trick-or-treater for a Hershey assortment, a bigger party bag, and an allergy-friendly option. Buy the right count, not just the lowest sticker price.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Halloween Candy Deals on Amazon (2026)',
     description: metaDescription,
@@ -35,7 +36,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     twitter: { card: 'summary_large_image', title: 'Best Halloween Candy Deals on Amazon', description: metaDescription },
   },
   { category: 'home-kitchen', publishedTime: publishedDate, modifiedTime: publishedDate, section: 'Home & Kitchen', url: pageUrl, tags: ['Halloween', 'candy', 'trick or treat', 'Amazon deals'] }
-)
+), "/home-kitchen/best-halloween-candy-deals-on-amazon")
 
 type Pick = {
   rank: number

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -16,7 +17,7 @@ function amazon(query: string) {
 const metaDescription =
   'The best products for your home office in 2026, from standing desks and ergonomic chairs to monitor arms, lamps, webcams, and desk accessories that make WFH feel calmer and more capable.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'The Best Products for Your Home Office (2026)',
     description: metaDescription,
@@ -63,7 +64,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'desk accessories',
     ],
   }
-)
+), "/wfh/best-products-for-your-home-office")
 
 const products = [
   {

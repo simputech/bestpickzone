@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -6,14 +7,14 @@ import { getArticlesByCategory } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Genre Fiction Books — Thrillers, Fantasy, Romance & More',
   description:
     'The best books in every fiction genre: psychological thrillers, fantasy series, dark romance, cozy mysteries, historical fiction, sci-fi, horror, and more.',
   alternates: { canonical: 'https://bestpickzone.com/books/genre-fiction' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'genre-fiction' })
+  category: 'genre-fiction' }), "/books/genre-fiction")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

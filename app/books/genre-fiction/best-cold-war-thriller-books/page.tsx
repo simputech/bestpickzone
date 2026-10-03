@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Cold War Thriller Books — Ranked with Winner Logic',
   description:
     "The best Cold War thrillers ever written, ranked honestly: Le Carré's Spy Who Came in from the Cold, Deighton's Ipcress File, Clancy's Hunt for Red October, McCarry's Miernik Dossier, and Matthews's Red Sparrow — each with a skip-this-if recommendation.",
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'genre-fiction' })
+  category: 'genre-fiction' }), "/books/genre-fiction/best-cold-war-thriller-books")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

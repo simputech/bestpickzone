@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import HtmlComparisonArticlePage from '@/components/article/HtmlComparisonArticlePage'
@@ -15,7 +16,7 @@ export function generateStaticParams() {
   return wfhComparisonArticles.filter(article => !buyingGuides.some(g => g.silo === 'wfh' && g.slug === article.slug)).map((article) => ({ slug: article.slug }))
 }
 
-export function generateMetadata({ params }: { params: Params }): Metadata {
+function resolvePageMetadata({ params }: { params: Params }): Metadata {
   const article = getArticle(params.slug)
 
   if (!article) {
@@ -42,6 +43,11 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
   }, {
   publishedTime: '2026-01-01T00:00:00Z',
   url: pageUrl, category: 'wfh', section: 'Work From Home' })
+}
+
+export function generateMetadata({ params }: { params: Params }): Metadata {
+  const resolvedParams = params;
+  return withSeo(resolvePageMetadata({ params }), `/wfh/${resolvedParams.slug}`);
 }
 
 export default function WfhComparisonArticlePage({ params }: { params: Params }) {

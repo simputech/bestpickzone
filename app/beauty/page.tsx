@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import { beautyComparisonArticles } from '@/lib/comparison-html-articles'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Beauty Tech and Ingredient Comparisons 2026',
   description:
     'Buyer-intent beauty comparisons covering skincare ingredients, hair tools, LED masks, and microcurrent devices with spec-based reasoning.',
@@ -21,7 +22,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'beauty' })
+  category: 'beauty' }), "/beauty")
 
 const concernRows = [
   ['Dark spots', 'Vitamin C vs Niacinamide', 'Tyrosinase pressure vs barrier-friendly consistency'],

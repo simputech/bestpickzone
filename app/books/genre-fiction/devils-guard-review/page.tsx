@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: "Devil's Guard Review: Best WWII and Vietnam War Book?",
   description:
     "A direct Devil's Guard review for readers searching for the best WWII and Vietnam book: what the novel-memoir hybrid does well, where it is controversial, and who should skip it.",
@@ -21,7 +22,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'genre-fiction' })
+  category: 'genre-fiction' }), "/books/genre-fiction/devils-guard-review")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

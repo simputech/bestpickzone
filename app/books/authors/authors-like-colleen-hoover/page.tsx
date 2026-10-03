@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
@@ -10,7 +11,7 @@ const UPDATED_DATE = '2026-06-27'
 const META_DESCRIPTION =
   '7 authors to read if you love Colleen Hoover, matched to the specific part of her appeal you want more of: the twist, the ache, the cry, or the bingeable romance rush.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: '7 Authors Like Colleen Hoover (Matched to What You Loved)',
     description: META_DESCRIPTION,
@@ -44,7 +45,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'readalike books',
     ],
   }
-)
+), "/books/authors/authors-like-colleen-hoover")
 
 const AMAZON_TAG = 'althcu-20'
 function amazon(query: string) {

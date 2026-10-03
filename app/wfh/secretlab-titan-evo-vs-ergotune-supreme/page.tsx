@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
@@ -6,7 +7,7 @@ const pageUrl = 'https://bestpickzone.com/wfh/secretlab-titan-evo-vs-ergotune-su
 
 const article = loadRawHtmlArticle('app/wfh/secretlab-titan-evo-vs-ergotune-supreme/article-source.html', pageUrl)
 
-export const metadata: Metadata = article.metadata
+export const metadata: Metadata = withSeo(article.metadata, "/wfh/secretlab-titan-evo-vs-ergotune-supreme")
 
 export default function Page() {
   return (

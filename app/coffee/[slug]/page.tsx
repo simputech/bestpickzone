@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import HtmlComparisonArticlePage from '@/components/article/HtmlComparisonArticlePage'
@@ -14,7 +15,7 @@ export function generateStaticParams() {
   return coffeeComparisonArticles.map((article) => ({ slug: article.slug }))
 }
 
-export function generateMetadata({ params }: { params: Params }): Metadata {
+function resolvePageMetadata({ params }: { params: Params }): Metadata {
   const article = getArticle(params.slug)
 
   if (!article) {
@@ -46,6 +47,11 @@ export function generateMetadata({ params }: { params: Params }): Metadata {
   publishedTime: '2026-01-01T00:00:00Z',
   modifiedTime,
   url: pageUrl, category: 'coffee', section: 'Coffee' })
+}
+
+export function generateMetadata({ params }: { params: Params }): Metadata {
+  const resolvedParams = params;
+  return withSeo(resolvePageMetadata({ params }), `/coffee/${resolvedParams.slug}`);
 }
 
 export default function CoffeeComparisonArticlePage({ params }: { params: Params }) {

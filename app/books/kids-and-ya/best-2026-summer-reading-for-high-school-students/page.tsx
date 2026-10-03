@@ -1,10 +1,11 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata';
 import Link from 'next/link';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import BookCTA from '@/components/article/BookCTA';
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best 2026 Summer Reading for High School Students',
   description:
     'The best 2026 summer reading for high school students, ranked with honest reader-fit logic: The Outsiders, Fahrenheit 451, The Hate U Give, The Poet X, and more.',
@@ -21,7 +22,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'kids-and-ya' });
+  category: 'kids-and-ya' }), "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students");
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

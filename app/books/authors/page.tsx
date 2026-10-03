@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -6,14 +7,14 @@ import { getArticlesByCategory } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Books by Author — Stephen King, Colleen Hoover & More',
   description:
     'Author-by-author reading guides covering Stephen King, Colleen Hoover, James Clear, Malcolm Gladwell, and 11 more. Find the best books from your favorite author.',
   alternates: { canonical: 'https://bestpickzone.com/books/authors' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'authors' })
+  category: 'authors' }), "/books/authors")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

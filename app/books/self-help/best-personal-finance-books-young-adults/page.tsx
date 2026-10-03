@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Personal Finance Books for Young Adults — Matched to Your Situation',
   description:
     'Five personal finance books matched to where you actually are: Housel for mindset, Sethi for a 6-week action plan, Ramsey for debt, Collins for investing, Kiyosaki for framework. Each with a skip-this-if.',
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'self-help' })
+  category: 'self-help' }), "/books/self-help/best-personal-finance-books-young-adults")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

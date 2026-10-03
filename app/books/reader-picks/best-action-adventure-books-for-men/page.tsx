@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -7,7 +8,7 @@ import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
 const pageUrl = 'https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Action Adventure Books for Men — Ranked with Winner Logic',
   description:
     "The best action adventure books for men, ranked honestly: Lee Child's Killing Floor, Weir's The Martian, Flynn's American Assassin, McCarthy's No Country for Old Men, Krakauer's Into Thin Air, and Hillenbrand's Unbroken — each with a skip-this-if recommendation.",
@@ -24,7 +25,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'reader-picks' })
+  category: 'reader-picks' }), "/books/reader-picks/best-action-adventure-books-for-men")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

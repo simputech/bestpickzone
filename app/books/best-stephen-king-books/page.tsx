@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -159,7 +160,7 @@ function amazonLink(title: string, author: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Stephen King Books Ranked for New and Returning Readers',
   description:
     'Best Stephen King books ranked for beginners and longtime horror readers, with a clear start-here pick, skip-first advice, and direct Amazon links for every recommendation.',
@@ -175,7 +176,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
     type: 'article',
     images: [heroImage],
   },
-}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' })
+}, { category: 'books', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Books' }), "/books/best-stephen-king-books")
 
 export default function BestStephenKingBooksPage() {
   const breadcrumbItems = [

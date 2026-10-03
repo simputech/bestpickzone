@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -12,13 +13,13 @@ const article = loadRawHtmlArticle(
   pageUrl
 )
 
-export const metadata: Metadata = withArticleMetadataDefaults(article.metadata, {
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, {
   category: 'beauty',
   publishedTime: publishedDate,
   modifiedTime: updatedDate,
   section: 'Beauty',
   url: pageUrl,
-})
+}), "/beauty/dr-dennis-gross-vs-omnilux-contour")
 
 export default function Page() {
   return (

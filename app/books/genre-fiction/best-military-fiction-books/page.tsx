@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Military Fiction Books — Ranked with Winner Logic',
   description:
     "The best military fiction books available now, ranked honestly: Tim O'Brien's The Things They Carried, Remarque's All Quiet on the Western Front, Kevin Powers's The Yellow Birds, Bowden's Black Hawk Down, and Luttrell's Lone Survivor — each with a skip-this-if recommendation.",
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'genre-fiction' })
+  category: 'genre-fiction' }), "/books/genre-fiction/best-military-fiction-books")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -13,7 +14,7 @@ const UPDATED_DATE = '2026-07-01T00:00:00Z'
 const META_DESCRIPTION =
   'The best Civil War soldier memoirs, ranked for authenticity, readability, and battlefield detail. Start with Company Aytch, then choose the strongest Union and Confederate first-hand accounts.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Civil War Soldier Memoirs to Read in 2026',
     description: META_DESCRIPTION,
@@ -49,7 +50,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'book recommendations',
     ],
   }
-)
+), "/books/genre-fiction/best-civil-war-soldier-memoirs")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

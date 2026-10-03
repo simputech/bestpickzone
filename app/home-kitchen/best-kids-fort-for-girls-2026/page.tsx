@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const productUrl = 'https://www.amazon.com/dp/B0FJF95P9J?tag=althcu-20'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Kids Fort for Girls in 2026',
   description:
     'Our pick for the best kids fort for girls in 2026 is the besrey Kids Play Tent, a roomy hexagonal playhouse with one door, three windows, and enough space for shared imaginative play.',
@@ -21,7 +22,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'home-kitchen' })
+  category: 'home-kitchen' }), "/home-kitchen/best-kids-fort-for-girls-2026")
 
 const faqs = [
   {

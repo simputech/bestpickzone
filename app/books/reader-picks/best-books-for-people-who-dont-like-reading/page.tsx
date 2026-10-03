@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -7,7 +8,7 @@ import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
 const pageUrl = 'https://bestpickzone.com/books/reader-picks/best-books-for-people-who-dont-like-reading'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: "Best Books for People Who Don't Like Reading — Ranked by Why They Work",
   description:
     "If you don't like reading, the issue is usually the book — not you. These five picks (The Martian, Old Man and the Sea, Born a Crime, Educated, Killing Floor) are matched to the specific reason reluctant readers bounce off most books.",
@@ -24,7 +25,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'reader-picks' })
+  category: 'reader-picks' }), "/books/reader-picks/best-books-for-people-who-dont-like-reading")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

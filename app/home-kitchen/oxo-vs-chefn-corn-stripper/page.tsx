@@ -1,10 +1,11 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 const pageUrl = 'https://bestpickzone.com/home-kitchen/oxo-vs-chefn-corn-stripper'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: "OXO vs. Chef'n Corn Stripper: The Summer Kitchen Gadget Nobody Talks About",
   description:
     "We compared the two most popular corn strippers on Amazon — one swipes, one twists. Both are under $15. Here's which one actually belongs on your counter this summer.",
@@ -20,7 +21,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'home-kitchen' })
+  category: 'home-kitchen' }), "/home-kitchen/oxo-vs-chefn-corn-stripper")
 
 const rawHtml = `
 <div class="topbar">

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
@@ -9,7 +10,7 @@ const article = loadRawHtmlArticle(
   pageUrl
 )
 
-export const metadata: Metadata = article.metadata
+export const metadata: Metadata = withSeo(article.metadata, "/home-kitchen/best-coffee-makers-under-100")
 
 export default function Page() {
   return (

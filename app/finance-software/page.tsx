@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Finance & Software Reviews 2026',
   description:
     'Honest comparisons of the best budgeting apps, password managers, VPNs, and productivity software. Research-backed picks with direct affiliate links.',
@@ -20,7 +21,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'finance-software', metadataType: 'website' })
+  category: 'finance-software', metadataType: 'website' }), "/finance-software")
 
 const articles = [
   {

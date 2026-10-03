@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -45,14 +46,14 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Cormac McCarthy`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Cormac McCarthy Where To Start',
   description:
     'Where to start with Cormac McCarthy, with the best first book, what to save for later, and direct Amazon links.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/cormac-mccarthy-where-to-start")
 
 export default function CormacPage() {
   return (

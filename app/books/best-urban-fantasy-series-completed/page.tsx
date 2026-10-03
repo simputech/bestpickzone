@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -6,14 +7,14 @@ const pageUrl = 'https://bestpickzone.com/books/best-urban-fantasy-series-comple
 const heroImage =
   'https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=800&q=80'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Urban Fantasy Series Completed',
   description:
     'Best completed urban fantasy series for readers who want the payoff of a finished world instead of an endless wait.',
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/best-urban-fantasy-series-completed")
 
 export default function UrbanFantasyCompletedPage() {
   const picks = [

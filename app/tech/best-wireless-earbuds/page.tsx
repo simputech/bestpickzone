@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Wireless Earbuds in 2026: Top Picks for Every Budget',
   description:
     'We tested and compared the best wireless earbuds of 2026 — from Sony and Apple to Jabra and Anker. Find the right pair for your budget, ears, and lifestyle.',
@@ -23,7 +24,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   publishedTime: '2026-04-09',
   modifiedTime: '2026-06-26',
   section: 'Tech',
-})
+}), "/tech/best-wireless-earbuds")
 
 const products = [
   {

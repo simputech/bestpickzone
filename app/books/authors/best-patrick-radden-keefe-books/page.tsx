@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Patrick Radden Keefe Books',
   description:
     'The best Patrick Radden Keefe books, ranked by reader intent: Say Nothing, Empire of Pain, Rogues, London Falling, The Snakehead, and where Chatter fits.',
@@ -22,7 +23,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'authors' })
+  category: 'authors' }), "/books/authors/best-patrick-radden-keefe-books")
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },

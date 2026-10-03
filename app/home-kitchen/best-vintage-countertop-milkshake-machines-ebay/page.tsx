@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -168,7 +169,7 @@ ${buyingChecklist.join(' ')}
 ${faqItems.map((item) => `${item.q} ${item.a}`).join(' ')}
 `
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Vintage Countertop Milkshake Machines on eBay in 2026',
     description: metaDescription,
@@ -210,7 +211,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
       'diner style kitchen gear',
     ],
   }
-)
+), "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay")
 
 const readingTimeLabel = formatReadingTime(getReadingTime(articleText))
 

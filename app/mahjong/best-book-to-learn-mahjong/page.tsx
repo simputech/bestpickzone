@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -10,7 +11,7 @@ const description = 'The best books to learn Mahjong in 2026, including the best
 const tag = 'althcu-20'
 const amazon = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`
 
-export const metadata: Metadata = withArticleMetadataDefaults({ title: 'Best Book to Learn Mahjong (2026)', description, alternates: { canonical: url }, openGraph: { title: 'Best Book to Learn Mahjong (2026)', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'Best Book to Learn Mahjong (2026)', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['best book to learn Mahjong', 'American Mahjong books', 'Mah Jongg Made Easy', 'Mahjong beginner book'] })
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({ title: 'Best Book to Learn Mahjong (2026)', description, alternates: { canonical: url }, openGraph: { title: 'Best Book to Learn Mahjong (2026)', description, url, type: 'article' }, twitter: { card: 'summary_large_image', title: 'Best Book to Learn Mahjong (2026)', description } }, { category: 'mahjong', publishedTime: published, modifiedTime: published, section: 'Mahjong', url, tags: ['best book to learn Mahjong', 'American Mahjong books', 'Mah Jongg Made Easy', 'Mahjong beginner book'] }), "/mahjong/best-book-to-learn-mahjong")
 
 const articleSchema = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Best Book to Learn Mahjong (2026)', description, datePublished: published, dateModified: published, mainEntityOfPage: url, author: { '@type': 'Organization', name: 'BestPickZone Editorial Team' }, publisher: { '@type': 'Organization', name: 'BestPickZone' } }
 

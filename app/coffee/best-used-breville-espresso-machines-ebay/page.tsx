@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import fs from 'node:fs'
 import path from 'node:path'
@@ -12,13 +13,13 @@ const pageUrl = 'https://bestpickzone.com/coffee/best-used-breville-espresso-mac
 const publishedTime = '2026-09-30T12:00:00-04:00'
 const bodyHtml = fs.readFileSync(path.join(process.cwd(), 'app/coffee/best-used-breville-espresso-machines-ebay/article-source.html'), 'utf8')
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title,
   description,
   alternates: { canonical: pageUrl },
   openGraph: { title, description, type: 'article', url: pageUrl },
   twitter: { card: 'summary_large_image', title, description },
-}, { category: 'coffee', section: 'Coffee', url: pageUrl, publishedTime, modifiedTime: publishedTime })
+}, { category: 'coffee', section: 'Coffee', url: pageUrl, publishedTime, modifiedTime: publishedTime }), "/coffee/best-used-breville-espresso-machines-ebay")
 
 const articleSchema = {
   '@context': 'https://schema.org',

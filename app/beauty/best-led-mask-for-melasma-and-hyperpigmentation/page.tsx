@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -16,7 +17,7 @@ function amazonSearch(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best LED Mask for Melasma & Hyperpigmentation (2026)',
     description: metaDescription,
@@ -31,7 +32,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['LED mask', 'melasma', 'hyperpigmentation', 'beauty tech'],
   }
-)
+), "/beauty/best-led-mask-for-melasma-and-hyperpigmentation")
 
 const masks = [
   {

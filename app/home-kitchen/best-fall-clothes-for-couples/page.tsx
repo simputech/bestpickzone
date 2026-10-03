@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -11,12 +12,12 @@ const tag = 'althcu-20'
 const amazon = (query: string) => `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`
 const description = 'The best fall clothes for couples in 2026: coordinated flannels, cotton sweaters, light puffers, and warm layers that look intentional without matching exactly.'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Fall Clothes for Couples (2026)', description, alternates: { canonical: url },
   keywords: ['best fall clothes for couples', 'couples fall outfits', 'matching fall outfits couples', 'coordinated fall clothes amazon'],
   openGraph: { title: 'Best Fall Clothes for Couples (2026)', description, url, type: 'article' },
   twitter: { card: 'summary_large_image', title: 'Best Fall Clothes for Couples', description },
-}, { category: 'home-kitchen', publishedTime: date, modifiedTime: date, section: 'Lifestyle', url, tags: ['fall clothes', 'couples outfits', 'Amazon fashion'] })
+}, { category: 'home-kitchen', publishedTime: date, modifiedTime: date, section: 'Lifestyle', url, tags: ['fall clothes', 'couples outfits', 'Amazon fashion'] }), "/home-kitchen/best-fall-clothes-for-couples")
 
 const picks = [
   { badge: 'Best overall', title: 'A coordinated brushed-flannel pair', one: "Amazon Essentials Men’s Regular-Fit Long-Sleeve Flannel Shirt", two: "Amazon Essentials Women’s Regular-Fit Long-Sleeve Lightweight Cotton Brushed Flannel Shirt", query: "Amazon Essentials fall flannel shirts men women brushed cotton", copy: "The easiest couples fall outfit is not two identical plaids. Pick the same color family—forest and cream, rust and navy, or blackwatch and charcoal—then let each person choose the cut that feels right. Amazon’s current listings describe the men’s option as soft brushed cotton, regular fit, and lightweight yet warm; the women’s listing is a lightweight cotton brushed flannel with a regular fit. That shared texture is enough to make the pair read together over jeans, cords, or a simple tee.", pros: ['Recognizably fall without costume-level matching', 'Works for apple picking, coffee runs, and casual dinners', 'Easy to rewear separately'], cons: ['Plaid scale matters; compare it before ordering', 'Flannel alone is not a cold-weather outer layer'], skip: 'Skip it if either person dislikes button-front shirts or your fall weather is mostly warm.' },

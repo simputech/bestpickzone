@@ -1,9 +1,10 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Laptops for College Students in 2026 (Every Budget)',
   description:
     'From $400 Chromebooks to premium MacBooks, we ranked the best laptops for college students by battery life, portability, performance, and value.',
@@ -23,7 +24,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   publishedTime: '2026-04-09',
   modifiedTime: '2026-06-26',
   section: 'Tech',
-})
+}), "/tech/best-laptops-for-college-students")
 
 const products = [
   {

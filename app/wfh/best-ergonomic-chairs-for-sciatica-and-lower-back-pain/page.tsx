@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -17,7 +18,7 @@ function amazonSearch(query: string) {
 const metaDescription =
   'The best ergonomic chairs for sciatica and lower back pain in 2026: 5 picks ranked by lumbar adjustability, seat behavior, posture support, and realistic buyer fit.'
 
-export const metadata: Metadata = withArticleMetadataDefaults(
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
   {
     title: 'Best Ergonomic Chairs for Sciatica & Lower Back Pain (2026)',
     description: metaDescription,
@@ -55,7 +56,7 @@ export const metadata: Metadata = withArticleMetadataDefaults(
     url: pageUrl,
     tags: ['ergonomic chair', 'sciatica', 'lower back pain', 'home office'],
   }
-)
+), "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain")
 
 type ChairPick = {
   rank: number

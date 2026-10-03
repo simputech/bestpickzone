@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
@@ -73,7 +74,7 @@ function amazonLink(title: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(`${title} Agatha Christie`)}&tag=althcu-20`
 }
 
-export const metadata: Metadata = withArticleMetadataDefaults({
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Hercule Poirot Books in Order',
   description:
     'Hercule Poirot books in order with the best place to start, what to read early, and which final Poirot novel to save for last.',
@@ -89,7 +90,7 @@ export const metadata: Metadata = withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  category: 'books' })
+  category: 'books' }), "/books/agatha-christie-hercule-poirot-in-order")
 
 export default function PoirotOrderPage() {
   return (

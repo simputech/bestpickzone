@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
@@ -9,13 +10,13 @@ const updatedDate = '2026-06-26'
 
 const article = loadRawHtmlArticle('app/books/lord-of-the-rings-vs-harry-potter/article-source.html', pageUrl)
 
-export const metadata: Metadata = withArticleMetadataDefaults(article.metadata, {
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, {
   category: 'books',
   publishedTime: publishedDate,
   modifiedTime: updatedDate,
   section: 'Books',
   url: pageUrl,
-})
+}), "/books/lord-of-the-rings-vs-harry-potter")
 
 export default function Page() {
   return (

@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
@@ -6,7 +7,7 @@ const pageUrl = 'https://bestpickzone.com/wfh/autonomous-ergochair-pro-vs-hinomi
 
 const article = loadRawHtmlArticle('app/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro/article-source.html', pageUrl)
 
-export const metadata: Metadata = article.metadata
+export const metadata: Metadata = withSeo(article.metadata, "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro")
 
 export default function Page() {
   return (
