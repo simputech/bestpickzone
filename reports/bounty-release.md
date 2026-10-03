@@ -21,3 +21,12 @@ Official Amazon event announcement, benefits and discounted-plan descriptions; A
 Ten original SVG decision graphics with 1200x630 PNG derivatives. Original 1280x720 narrated video, captions, transcript, poster, self-hosted MP4. No third-party product imagery or music. Video uses synthetic system narration, identified on-screen and on its page. Source assets and rendering scripts retained for future edits.
 
 Validation and production evidence will be appended after release.
+
+## Local validation
+- Ten articles exceed 1,000 words of paragraph-only editorial copy, excluding headings, navigation, disclosures, buttons, schema and related links.
+- Twelve routes return 200 with self-canonicals and index/follow. All twelve appear exactly once across child sitemaps.
+- 26 unique internal destinations checked, including the MP4 and transcript.
+- Mobile 390px article and video page have no horizontal overflow. Original hero image loads. Video played to completion in the browser (86.906531 seconds, 1280x720). Captions and transcript present.
+- Affiliate tracking regression tests cover fitnessbankd-20 on Amazon and Amazon Business, legacy tag retention, exclusion of untagged links, and middle-click behavior. Existing event name is affiliate_click; the current production source supersedes older memory mentioning amazon_click.
+- Rebased onto e10fc45 to preserve concurrent sitewide SEO fixes. Import-only conflicts in three hubs resolved by keeping both imports. New metadata uses the current shared withSeo helper.
+- Connected Vercel deployment tool returned Tool not found, and project detail tool had incompatible schema fields; authenticated CLI fallback verified the exact project prj_nmIr0ohVP4y08vpuYRFDi6Lgnbao under team_wFkeAj93TVooMQ1IzpbkABSJ.

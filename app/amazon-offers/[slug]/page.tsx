@@ -1,3 +1,4 @@
+import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,7 +11,7 @@ export function generateStaticParams() { return bountyArticles.map(a=>({slug:a.s
 export function generateMetadata({params}:{params:{slug:string}}): Metadata {
  const a = bountyArticles.find(a=>a.slug===params.slug); if(!a) return {}
  const url=bountyBase+bountyPath(a), image=`${bountyBase}/media/bounties/${a.slug}.png`
- return {title:a.title,description:a.description,alternates:{canonical:url},robots:{index:true,follow:true},openGraph:{title:a.title,description:a.description,type:'article',url,publishedTime:bountyDate,modifiedTime:bountyDate,images:[{url:image,width:1200,height:630,alt:a.visualTitle}]},twitter:{card:'summary_large_image',title:a.title,description:a.description,images:[image]}}
+ return withSeo({title:a.title,description:a.description,alternates:{canonical:url},robots:{index:true,follow:true},openGraph:{title:a.title,description:a.description,type:'article',url,publishedTime:bountyDate,modifiedTime:bountyDate,images:[{url:image,width:1200,height:630,alt:a.visualTitle}]},twitter:{card:'summary_large_image',title:a.title,description:a.description,images:[image]}})
 }
 export default function BountyPage({params}:{params:{slug:string}}) {
  const a=getBountyArticle(params.slug); if(!a) notFound()
