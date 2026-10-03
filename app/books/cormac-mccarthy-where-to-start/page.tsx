@@ -53,6 +53,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   alternates: { canonical: pageUrl },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-03T00:00:00Z',
   category: 'books' }), "/books/cormac-mccarthy-where-to-start")
 
 export default function CormacPage() {
@@ -116,7 +117,7 @@ export default function CormacPage() {
           If you start with The Road and love the stripped style, then Blood Meridian becomes easier to approach because you already trust the voice.
         </p>
         <p className="leading-relaxed text-gray-700">
-          For adjacent long-read energy, pair this with <strong><a href="/books/best-books-for-people-who-dont-like-reading">best books for people who do not like reading</a></strong>
+          For adjacent long-read energy, pair this with <strong><a href="/books/reader-picks/best-books-for-people-who-dont-like-reading">best books for people who do not like reading</a></strong>
           if you want cleaner momentum, or <strong><a href="/books/best-literary-fiction">best literary fiction</a></strong> if you want more demanding prose-forward work.
           For bibliography details, Vintage's <a href="https://www.penguinrandomhouse.com/authors/43014/cormac-mccarthy/" target="_blank" rel="noopener nofollow sponsored">Cormac McCarthy author page</a> is a reliable reference.
         </p>

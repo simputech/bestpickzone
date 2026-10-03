@@ -26,12 +26,12 @@ export const techSlugs: { slug: string; date: string }[] = [
 ]
 
 export const standaloneBookPages: SitemapEntry[] = [
-  { url: `${baseUrl}/books`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.95 },
-  { url: `${baseUrl}/books/authors`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
+  { url: `${baseUrl}/books`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.95 },
+  { url: `${baseUrl}/books/authors`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/books/genre-fiction`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
-  { url: `${baseUrl}/books/self-help`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
-  { url: `${baseUrl}/books/kids-and-ya`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
-  { url: `${baseUrl}/books/reader-picks`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
+  { url: `${baseUrl}/books/self-help`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.9 },
+  { url: `${baseUrl}/books/kids-and-ya`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.9 },
+  { url: `${baseUrl}/books/reader-picks`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/books/best-stephen-king-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/haruki-murakami-reading-order`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/books-like-it-ends-with-us`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
@@ -41,7 +41,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/books-like-verity-psychological-thrillers`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-cozy-mystery-series-to-read`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-sci-fi-doorstoppers-epic-space-opera`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/books/cormac-mccarthy-where-to-start`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/books/cormac-mccarthy-where-to-start`, lastModified: '2026-10-03', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-historical-fiction-books-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/books-like-fourth-wing-fantasy-romance`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-cyberpunk-novels-all-time`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
@@ -83,7 +83,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/reader-picks/best-fall-reads-2026`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-books-like-da-vinci-code`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-action-adventure-books-for-men`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/books/reader-picks/best-books-for-people-who-dont-like-reading`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/reader-picks/best-books-for-people-who-dont-like-reading`, lastModified: '2026-10-03', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/self-help/best-self-help-books-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/self-help/best-personal-finance-books-young-adults`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/self-help/best-book-to-learn-scrum`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
@@ -225,7 +225,9 @@ export function buildSitemapXml(entries: SitemapEntry[]) {
   }
   const items = [...canonicalEntries.values()]
     .map(
-      (entry) => `<url><loc>${entry.url}</loc><lastmod>${entry.lastModified}</lastmod><changefreq>${entry.changeFrequency}</changefreq><priority>${entry.priority.toFixed(1)}</priority></url>`
+      // The historical sitewide fallback is not evidence of a page-level edit.
+      // Omit optional lastmod when only that fallback is known; retain dated records.
+      (entry) => `<url><loc>${entry.url}</loc>${entry.lastModified === contentRefreshDate ? '' : `<lastmod>${entry.lastModified}</lastmod>`}<changefreq>${entry.changeFrequency}</changefreq><priority>${entry.priority.toFixed(1)}</priority></url>`
     )
     .join('')
 
@@ -243,7 +245,7 @@ export function buildSitemapIndexXml() {
   ]
     .map(
       (sitemap) =>
-        `<sitemap><loc>${sitemap.url}</loc><lastmod>${sitemap.lastModified}</lastmod></sitemap>`
+        `<sitemap><loc>${sitemap.url}</loc>${sitemap.lastModified === contentRefreshDate ? '' : `<lastmod>${sitemap.lastModified}</lastmod>`}</sitemap>`
     )
     .join('')
 

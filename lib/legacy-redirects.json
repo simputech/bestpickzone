@@ -18,5 +18,6 @@
   "/category/books": "/books",
   "/wp-sitemap.xml": "/sitemap.xml",
   "/post-sitemap.xml": "/sitemap.xml",
-  "/wp-sitemap-posts-page-1.xml": "/sitemap.xml"
+  "/wp-sitemap-posts-page-1.xml": "/sitemap.xml",
+  "/books/best-books-for-people-who-dont-like-reading": "/books/reader-picks/best-books-for-people-who-dont-like-reading"
 }

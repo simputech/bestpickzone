@@ -15,6 +15,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   alternates: { canonical: 'https://bestpickzone.com/books' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-03T00:00:00Z',
   category: 'books' }), "/books");
 
 const categories = [
@@ -78,17 +79,11 @@ const authorGuideSlugs = [
   'best-jk-rowling-books',
 ] as const;
 
-const priorityAuthorGuides = [
-  { slug: 'best-james-clear-books', label: 'James Clear books guide' },
-  { slug: 'best-james-patterson-books', label: 'James Patterson books guide' },
-  { slug: 'best-brene-brown-books', label: 'Brene Brown books guide' },
-  { slug: 'best-jk-rowling-books', label: 'J.K. Rowling books guide' },
-  { slug: 'best-john-grisham-books', label: 'John Grisham books guide' },
-  { slug: 'best-nora-roberts-books', label: 'Nora Roberts books guide' },
-  { slug: 'best-neil-gaiman-books', label: 'Neil Gaiman books guide' },
-  { slug: 'best-george-orwell-books', label: 'George Orwell books guide' },
-  { slug: 'best-haruki-murakami-books', label: 'Haruki Murakami books guide' },
-  { slug: 'best-toni-morrison-books', label: 'Toni Morrison books guide' },
+const readingPaths = [
+  { href: '/books/genre-fiction/best-legal-thriller-books', label: 'Legal thrillers beyond the obvious picks', text: 'Find courtroom stories by pace, legal detail, and moral complexity.' },
+  { href: '/books/authors/best-patrick-radden-keefe-books', label: 'Patrick Radden Keefe: where to start', text: 'Choose an investigation by subject, from Northern Ireland to the Sackler family.' },
+  { href: '/books/books-like-dune-hard-sci-fi', label: 'What to read after Dune', text: 'Find another science-fiction novel with political tension, ambitious ideas, or a large-scale setting.' },
+  { href: '/books/reader-picks/best-books-like-da-vinci-code', label: 'Books like The Da Vinci Code', text: 'Follow historical clues, secret societies, and fast-moving puzzle plots.' },
 ] as const;
 
 const breadcrumbItems = [{ label: 'Home', href: '/' }, { label: 'Books' }];
@@ -120,9 +115,9 @@ export default function BooksHubPage() {
 
 const featuredGuides = [
   {
-    title: 'Haruki Murakami Reading Order',
-    href: '/books/haruki-murakami-reading-order',
-    note: 'Useful when you want a curated path into Murakami instead of blindly following publication order.',
+    title: 'Best Audiobooks on Audible',
+    href: '/books/best-audiobooks-on-audible',
+    note: 'Choose a listen by narration, genre, and how much attention you want to give it.',
   },
   {
     title: 'Best Book Club Books',
@@ -182,7 +177,7 @@ const quickStartPaths = [
 const topicClusters = [
   {
     title: 'Start with mood and momentum',
-    text: 'These pages tend to convert best when the shopper already knows the experience they want: fast, immersive, emotional, or discussion-ready.',
+    text: 'Choose the experience you want: a fast read, an emotional lift, or a book that gives your group plenty to discuss.',
     links: [
       { href: '/books/best-book-club-books', label: 'Best Book Club Books' },
       { href: '/books/best-one-sitting-reads', label: 'Best One-Sitting Reads' },
@@ -241,6 +236,22 @@ const topicClusters = [
           </p>
         </header>
 
+        {/* Category Cards */}
+        <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-14">
+          {categories.map((cat) => (
+            <Link
+              key={cat.href}
+              href={cat.href}
+              className="card-hover bg-white rounded-xl border border-gray-200 p-6 shadow-sm flex flex-col gap-3 no-underline"
+            >
+              <div className="text-3xl">{cat.emoji}</div>
+              <h2 className="text-xl font-bold text-gray-900">{cat.label}</h2>
+              <p className="text-gray-600 text-sm leading-relaxed flex-1">{cat.description}</p>
+              <span className="text-sm font-semibold text-blue-600">{cat.count} guides →</span>
+            </Link>
+          ))}
+        </section>
+
         <section className="mb-10 rounded-2xl border border-amber-200 bg-amber-50 p-6">
           <h2 className="text-2xl font-bold text-gray-900">Choosing your first Brené Brown book?</h2>
           <p className="mt-3 text-gray-700">Compare <Link href="/books/daring-greatly-vs-the-gifts-of-imperfection" className="font-semibold text-amber-800 underline">Daring Greatly and The Gifts of Imperfection</Link> by perfectionism, vulnerability, reading style, and practical application.</p>
@@ -252,7 +263,7 @@ const topicClusters = [
               <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
                 Best Place To Start
               </p>
-              <h2 className="text-2xl font-bold text-gray-900">Three guides that show how this site works</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Find a book for the way you read</h2>
             </div>
             <span className="rounded-full bg-white px-3 py-1 text-sm font-semibold text-gray-700 shadow-sm">
               {articlesData.length} total guides
@@ -309,46 +320,31 @@ const topicClusters = [
           <div className="mb-5 flex items-center justify-between gap-4">
             <div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
-                Priority Crawl Paths
+                Choose your next read
               </p>
-              <h2 className="text-2xl font-bold text-gray-900">Priority author guides to crawl next</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Investigations, imagined worlds, and historical puzzles</h2>
             </div>
             <Link href="/books/authors" className="text-sm font-semibold text-blue-600 hover:underline">
               View all author roundups →
             </Link>
           </div>
           <p className="mb-4 max-w-3xl text-sm leading-relaxed text-gray-600">
-            These author roundups are important crawl targets for the next indexing pass. Each link below points
-            directly to a full author guide on BestPickZone&apos;s bare-domain canonical URL structure.
+            Start with the kind of story you enjoy. These guides explain which book to try first and how the alternatives differ.
           </p>
           <div className="grid gap-2 md:grid-cols-2">
-            {priorityAuthorGuides.map((guide) => (
+            {readingPaths.map((guide) => (
               <Link
-                key={guide.slug}
-                href={getBookPath(guide.slug)}
+                key={guide.href}
+                href={guide.href}
                 className="rounded-2xl border border-amber-100 bg-amber-50 px-4 py-3 text-sm font-medium text-gray-800 transition hover:border-amber-200 hover:text-blue-700"
               >
                 {guide.label}
+                <span className="mt-2 block font-normal text-gray-600">{guide.text}</span>
               </Link>
             ))}
           </div>
         </section>
 
-        {/* Category Cards */}
-        <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-14">
-          {categories.map((cat) => (
-            <Link
-              key={cat.href}
-              href={cat.href}
-              className="card-hover bg-white rounded-xl border border-gray-200 p-6 shadow-sm flex flex-col gap-3 no-underline"
-            >
-              <div className="text-3xl">{cat.emoji}</div>
-              <h2 className="text-xl font-bold text-gray-900">{cat.label}</h2>
-              <p className="text-gray-600 text-sm leading-relaxed flex-1">{cat.description}</p>
-              <span className="text-sm font-semibold text-blue-600">{cat.count} guides →</span>
-            </Link>
-          ))}
-        </section>
 
         <section className="mb-14 rounded-[28px] border border-gray-200 bg-white p-6 shadow-sm">
           <h2 className="mb-4 text-2xl font-bold text-gray-900">How These Book Guides Are Built</h2>
@@ -373,9 +369,7 @@ const topicClusters = [
         <section className="mb-14 rounded-[28px] border border-rose-200 bg-gradient-to-br from-rose-50 via-white to-orange-50 p-6 shadow-sm">
           <h2 className="mb-4 text-2xl font-bold text-gray-900">Browse by real shopping intent</h2>
           <p className="mb-5 max-w-3xl text-sm leading-relaxed text-gray-600">
-            Thin directory pages rarely help anyone decide. These clusters are meant to move readers toward
-            the pages that answer a concrete need quickly, while also strengthening internal crawl paths to
-            the pages that deserve a fresh indexing pass.
+            Choose by mood, age, or the question you want a book to answer. Each group brings together guides for a different reading need.
           </p>
           <div className="grid gap-4 md:grid-cols-3">
             {topicClusters.map((cluster) => (

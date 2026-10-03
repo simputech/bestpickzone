@@ -35,6 +35,7 @@ export function getAllSlugs(): string[] {
 
 // Keep legacy data slugs stable while all navigation uses the final route.
 export function getBookPath(slug: string): string {
+  if (slug === 'best-books-for-people-who-dont-like-reading') return '/books/reader-picks/best-books-for-people-who-dont-like-reading';
   return slug === 'best-true-crime-books'
     ? '/books/reader-picks/best-true-crime-books'
     : `/books/${slug}`;

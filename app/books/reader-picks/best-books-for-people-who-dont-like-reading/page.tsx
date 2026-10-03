@@ -2,6 +2,7 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
+import { getArticleBySlug } from '@/lib/books-data'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
@@ -25,6 +26,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-03T00:00:00Z',
   category: 'reader-picks' }), "/books/reader-picks/best-books-for-people-who-dont-like-reading")
 
 const breadcrumbItems = [
@@ -259,7 +261,7 @@ export default function Page() {
           books that lost you before.
         </p>
         <p className="text-sm text-gray-600 italic mb-8">
-          Prices verified against Amazon as of April 2026.
+          Check the current edition, format, and price on Amazon before buying.
         </p>
 
         {/* Quick Comparison Table */}
@@ -348,6 +350,21 @@ export default function Page() {
               <BookCTA title={p.title} author={p.author} />
             </article>
           ))}
+        </section>
+
+        <section className="mb-10">
+          <h2 className="mb-4 text-2xl font-bold">More options if those five do not fit</h2>
+          <p className="mb-5 text-gray-700">For darker suspense, short practical chapters, or absurdist humor, try one of these alternatives.</p>
+          {getArticleBySlug('best-books-for-people-who-dont-like-reading')?.books
+            .filter((book) => !['The Martian', 'Born a Crime'].includes(book.title))
+            .map((book) => (
+              <article key={book.title} className="mb-6 rounded-xl border border-gray-200 p-5">
+                <h3 className="mb-2 text-xl font-semibold">{book.title} by {book.author}</h3>
+                <p className="mb-3 text-gray-700">{book.description}</p>
+                <p className="text-sm text-gray-700"><strong>Skip this if:</strong> {book.skipIf}</p>
+                <BookCTA title={book.title} author={book.author} />
+              </article>
+            ))}
         </section>
 
         {/* Buying Guide */}

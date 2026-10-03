@@ -14,6 +14,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   alternates: { canonical: 'https://bestpickzone.com/books/self-help' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-03T00:00:00Z',
   category: 'self-help' }), "/books/self-help");
 
 const breadcrumbItems = [
@@ -45,6 +46,11 @@ export default function SelfHelpHubPage() {
     },
   ];
   const editorialSpotlights = [
+    {
+      href: '/books/self-help/best-personal-finance-books-young-adults',
+      title: 'Personal Finance Books for Young Adults',
+      text: 'Choose a practical starting point for budgeting, managing your first paycheck, and learning about investing.',
+    },
     {
       href: '/books/best-mark-manson-books',
       title: 'Mark Manson Books: What to Read First',

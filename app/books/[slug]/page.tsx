@@ -96,7 +96,7 @@ const readerCareNotes: Record<string, string> = {
 export async function generateStaticParams() {
   // Dedicated guides must not also be generated here: build order can swap their content.
   return getAllSlugs()
-    .filter((slug) => !['best-mark-manson-books', 'best-stephen-king-books'].includes(slug))
+    .filter((slug) => !['best-mark-manson-books', 'best-stephen-king-books', 'best-books-for-people-who-dont-like-reading'].includes(slug))
     .map((slug) => ({ slug }));
 }
 

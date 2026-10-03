@@ -14,6 +14,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   alternates: { canonical: 'https://bestpickzone.com/books/kids-and-ya' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-03T00:00:00Z',
   category: 'kids-and-ya' }), "/books/kids-and-ya")
 
 const breadcrumbItems = [
@@ -67,7 +68,7 @@ export default function KidsYAHubPage() {
       text: 'These pages are better when the goal is finishing a book, building confidence, and keeping the reading streak alive.',
       links: [
         { href: '/books/best-books-for-reluctant-readers', label: 'Best Books for Reluctant Readers' },
-        { href: '/books/best-books-for-people-who-dont-like-reading', label: 'Best Books for People Who Do Not Like Reading' },
+        { href: '/books/reader-picks/best-books-for-people-who-dont-like-reading', label: 'Best Books for People Who Do Not Like Reading' },
         { href: '/books/best-kids-book-series', label: 'Best Kids Book Series' },
       ],
     },

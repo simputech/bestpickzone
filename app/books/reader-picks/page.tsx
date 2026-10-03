@@ -14,6 +14,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   alternates: { canonical: 'https://bestpickzone.com/books/reader-picks' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-03T00:00:00Z',
   category: 'reader-picks' }), "/books/reader-picks");
 
 const breadcrumbItems = [
@@ -29,6 +30,11 @@ export default function ReaderPicksHubPage() {
       ['best-book-club-books', 'best-audiobooks-on-audible', 'best-books-of-all-time'].includes(article.slug)
     );
   const newReleaseSpotlights = [
+    {
+      href: '/books/reader-picks/best-books-like-da-vinci-code',
+      title: 'Books Like The Da Vinci Code',
+      text: 'Choose your next puzzle thriller by historical setting, secret societies, and pace.',
+    },
     {
       href: '/books/reader-picks/best-true-crime-books',
       title: 'Best True Crime Books',
@@ -115,9 +121,9 @@ export default function ReaderPicksHubPage() {
 
         <section className="mb-12 rounded-[28px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-yellow-50 p-6 shadow-sm">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
-            New release guides
+            More ways to find your next book
           </p>
-          <h2 className="mb-5 text-2xl font-bold text-gray-900">Month-by-month release pages with stronger freshness signals</h2>
+          <h2 className="mb-5 text-2xl font-bold text-gray-900">Reading paths, seasonal picks, and recent releases</h2>
           <div className="grid gap-4 md:grid-cols-2">
             {newReleaseSpotlights.map((guide) => (
               <Link

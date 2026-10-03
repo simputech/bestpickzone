@@ -14,6 +14,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   alternates: { canonical: 'https://bestpickzone.com/books/authors' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-03T00:00:00Z',
   category: 'authors' }), "/books/authors")
 
 const breadcrumbItems = [
@@ -163,12 +164,10 @@ export default function AuthorsHubPage() {
             Priority Author Roundups
           </p>
           <h2 className="mb-4 text-2xl font-bold text-gray-900">
-            Author guides we want crawled and indexed next
+            Find your first book by a favorite author
           </h2>
           <p className="mb-5 text-sm leading-relaxed text-gray-600">
-            These links point directly to the priority author pages that need stronger crawl
-            paths from the author hub. The anchor text is intentionally descriptive so search
-            engines and readers can both understand what each page covers.
+            Compare starting points, reading order, and the books to save for later. Choose an author below to find a guide matched to your reading taste.
           </p>
           <div className="grid gap-3 md:grid-cols-2">
             {priorityArticles.map((article) => (
