@@ -111,7 +111,7 @@ export default function PoirotOrderPage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and price can change — confirm before purchasing.
+        Check the title, author, edition and current availability on Amazon. Availability and price can change — confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-4 text-2xl font-bold text-gray-900">
@@ -155,12 +155,12 @@ export default function PoirotOrderPage() {
                 'Why must Curtain be saved for last in the Poirot reading order?'}
             </h2>
             <p className="mb-4 leading-relaxed text-gray-700">
-              <a href={href} target="_blank" rel="noopener nofollow">
+              <a href={href} target="_blank" rel="noopener nofollow sponsored">
                 <strong>{book.title}</strong>
               </a>{' '}
               is the best Poirot recommendation for <strong>{book.fit.toLowerCase()}</strong>.
             </p>
-            <a href={href} target="_blank" rel="noopener nofollow">
+            <a href={href} target="_blank" rel="noopener nofollow sponsored">
               <img
                 src={coverImages[book.title]}
                 alt={`Custom illustrated recommendation artwork for ${book.title} by Agatha Christie`}
@@ -185,7 +185,7 @@ export default function PoirotOrderPage() {
               </tbody>
             </table>
             <p className="mb-4 text-amber-900"><strong>Skip this if:</strong> {book.skipIf}</p>
-            <a href={href} target="_blank" rel="noopener nofollow" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-500 px-6 py-3 text-base font-bold text-white transition hover:bg-amber-400">
+            <a href={href} target="_blank" rel="noopener nofollow sponsored" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-500 px-6 py-3 text-base font-bold text-white transition hover:bg-amber-400">
               Click Here to Buy on Amazon
             </a>
           </section>
@@ -204,7 +204,7 @@ export default function PoirotOrderPage() {
           If classic-detective series are your broader lane, move next to
           <strong> <a href="/books/best-cozy-mystery-series-to-read">best cozy mystery series to read</a></strong>.
           For Christie bibliography detail, the
-          <a href="https://www.agathachristie.com/stories/hercule-poirot" target="_blank" rel="noopener nofollow">
+          <a href="https://www.agathachristie.com/stories/hercule-poirot" target="_blank" rel="noopener nofollow sponsored">
             {' '}official Agatha Christie Poirot page
           </a>{' '}
           is the cleanest reference.

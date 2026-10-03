@@ -83,7 +83,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="bg-white text-gray-900 flex flex-col min-h-screen">
-        <GoogleAnalytics production={process.env.NODE_ENV === 'production' && process.env.VERCEL_ENV === 'production'} />
         <AffiliateClickTracker />
         <script
           type="application/ld+json"
@@ -94,9 +93,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <Header />
+        <aside aria-label="Affiliate disclosure" className="border-b border-gray-200 bg-gray-50 px-4 py-3 text-center text-sm text-gray-700">
+          As an Amazon Associate I earn from qualifying purchases. Links may earn us a commission at no extra cost to you.{' '}
+          <a href="/disclosure" className="underline">How we earn</a>
+        </aside>
         <div className="flex-1">{children}</div>
         <CategorySiblingLinks />
         <Footer />
+        <GoogleAnalytics production={process.env.NODE_ENV === 'production' && process.env.VERCEL_ENV === 'production'} />
       </body>
     </html>
   )

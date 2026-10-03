@@ -44,10 +44,9 @@ const picks = [
     summary:
       "Marie-Laure LeBlanc, blind from age six, flees Paris with her father when the Germans occupy France. Werner Pfennig, a German orphan, is recruited into the Wehrmacht because of his radio expertise. The two storylines converge in Saint-Malo in 1944. Doerr's prose handles the convergence with extraordinary precision; the final 100 pages are among the most emotionally devastating in contemporary fiction.",
     pros: [
-      'Pulitzer Prize 2015; 4.7-star average across 150,000+ Amazon reviews',
       'The dual POV structure (French victim, German soldier) forces a more complex understanding of the war than hero/villain framing allows',
       "Doerr's research extended to multiple trips to Saint-Malo and consultation with radio historians",
-      'Kindle edition under $15; strong Audible edition',
+      'Compare available print, Kindle and audio formats',
     ],
     cons: [
       'The non-linear structure requires patience in the first 50 pages',
@@ -123,7 +122,6 @@ const picks = [
     pros: [
       'The Death-as-narrator device creates a distinctive tonal register — not comic, not macabre, genuinely affecting',
       'The German civilian perspective is rare in popular WWII fiction — the experience of living inside a losing fascist state is rendered with specificity',
-      '4.6-star average across 170,000+ Amazon reviews; one of the most broadly beloved WWII novels published in the past 20 years',
     ],
     cons: [
       'The Death narrator requires a one-chapter adjustment period',
@@ -259,7 +257,7 @@ export default function BestWorldWarIIBooksPage() {
             historical distance from the material.
           </p>
           <p className="text-sm text-gray-500 italic">
-            Specs and prices verified against Amazon as of April 2026. Prices change —
+            Check the edition and current price on Amazon —
             confirm before purchasing.
           </p>
         </div>

@@ -49,8 +49,6 @@ type Pick = {
   cons: string[]
   verdict: string
   skip: string
-  priceChecked: string
-  costPerTreat: string
   quickPickTitle?: string
 }
 
@@ -66,8 +64,6 @@ const picks: Pick[] = [
     cons: ['Not a fit for nut-free needs', 'Chocolate is a weaker choice in unusually warm weather'],
     verdict: 'Start here if your goal is a crowd-pleasing bag with enough variety and a count that is easy to plan around.',
     skip: 'Skip it if you need to avoid common allergens or expect a very large event; buy a clearly labeled allergy-friendly option or a 300-plus-piece assortment instead.',
-    priceChecked: '$18.49',
-    costPerTreat: '~$0.16',
     quickPickTitle: "HERSHEY'S 115-piece assortment",
   },
   {
@@ -81,8 +77,6 @@ const picks: Pick[] = [
     cons: ['Takes storage space', 'Only a deal if you will actually use the count'],
     verdict: 'Choose this when headcount is your main concern. A big bag that fits your traffic is a better deal than a low-cost bag that runs out early.',
     skip: 'Skip it for apartment-door trick-or-treating or a quiet street. The unused candy is not a bargain just because the per-piece cost is lower.',
-    priceChecked: '$44.99',
-    costPerTreat: '~$0.14',
     quickPickTitle: "HERSHEY'S 330-piece assortment",
   },
   {
@@ -96,8 +90,6 @@ const picks: Pick[] = [
     cons: ['No non-chocolate fallback', 'Contains common allergens; check the package before serving'],
     verdict: 'Pick this for a chocolate-forward house, especially if you would rather offer a few familiar favorites than chase novelty candy.',
     skip: 'Skip it if you want fruit candy in the mix or must accommodate allergy-sensitive guests.',
-    priceChecked: '$24.87',
-    costPerTreat: '~$0.12',
   },
   {
     rank: 4,
@@ -110,8 +102,6 @@ const picks: Pick[] = [
     cons: ['Much higher cost per piece than mainstream assortments', 'Not a blanket guarantee for every allergy'],
     verdict: 'Buy this as a purposeful second option, not as a universal substitute for asking families about their needs and checking the current label.',
     skip: 'Skip it if budget-per-piece is the only goal. It earns its place for the dietary-positioning and variety, not bulk value.',
-    priceChecked: '$24.49',
-    costPerTreat: '~$0.49',
     quickPickTitle: 'YumEarth Halloween OG Variety Bag',
   },
   {
@@ -125,15 +115,13 @@ const picks: Pick[] = [
     cons: ['Can disappear fast on a popular street', 'Usually weaker per-piece value than bigger bags'],
     verdict: 'Use this for a modest candy plan. It is much smarter than overbuying if you realistically expect fewer than a few dozen visitors.',
     skip: 'Skip it if you have historically run out of candy; this is a small-bowl pick, not a main supply for a busy block.',
-    priceChecked: '$20.00',
-    costPerTreat: '~$0.31',
   },
 ]
 
 const faqs = [
   { question: 'When should I buy Halloween candy on Amazon?', answer: 'Buy early enough to avoid delivery and selection pressure, then check the delivery date and price immediately before checkout. Seasonal inventory and prices move quickly, so this guide treats the listed counts and product attributes as a planning tool, not a promise that a particular price will hold.' },
   { question: 'How much Halloween candy should I buy?', answer: 'Start with the number of visitors you actually expect, then decide whether you plan to give one or two pieces per child. A 115-piece bag works for a moderate route; a 200- or 330-piece bag makes more sense for a busy block, party, or shared office bowl.' },
-  { question: 'How is cost per trick-or-treater estimated?', answer: 'The estimate divides the checked Amazon price by the listed individual piece count and assumes one piece per visitor. It is a quick planning estimate, not a guaranteed checkout price: Amazon prices, coupons, package counts, and delivery offers can change.' },
+  { question: 'How is cost per trick-or-treater estimated?', answer: 'Divide the current checkout price by the individual piece count on the package and assumes one piece per visitor. It is a quick planning estimate, not a guaranteed checkout price: Amazon prices, coupons, package counts, and delivery offers can change.' },
   { question: 'Is the cheapest Halloween candy bag always the best deal?', answer: 'No. Compare piece count, candy type, and whether you will use the whole bag. A large bag can have a lower per-piece cost but still waste money if your route is quiet. A specialty allergy-friendly option may cost more but provide value that a generic chocolate bag cannot.' },
   { question: 'What Halloween candy should I offer for allergy-sensitive trick-or-treaters?', answer: 'Use sealed, clearly labeled alternatives in a separate bowl and check each package at the time you buy it. Do not describe a candy as safe for every allergy based on a general product claim; individual needs and manufacturer statements vary.' },
 ]
@@ -168,7 +156,7 @@ export default function BestHalloweenCandyDealsPage() {
       <section className="mb-10 rounded-[2rem] border border-orange-100 bg-orange-50 p-6">
         <h2 className="text-2xl font-black text-slate-900">Quick picks</h2>
         <div className="mt-5 grid gap-4 md:grid-cols-3">
-          {[picks[0], picks[1], picks[3]].map((pick) => <div key={pick.rank} className="flex flex-col rounded-2xl bg-white p-5 shadow-sm"><p className="text-sm font-bold uppercase tracking-wide text-orange-700">{pick.badge}</p><p className="mt-2 font-bold text-slate-900">{pick.quickPickTitle}</p><p className="mt-2 text-sm leading-6 text-slate-600">{pick.quick}</p><p className="mt-4 text-sm font-semibold text-slate-800">Cost per trick-or-treater: {pick.costPerTreat}</p><p className="mt-1 text-xs leading-5 text-slate-500">Based on {pick.priceChecked} ÷ listed piece count, one piece each; price may change.</p><a href={amazonSearch(pick.query)} target="_blank" rel="sponsored noopener" className="mt-5 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300">Buy Here on Amazon</a></div>)}
+          {[picks[0], picks[1], picks[3]].map((pick) => <div key={pick.rank} className="flex flex-col rounded-2xl bg-white p-5 shadow-sm"><p className="text-sm font-bold uppercase tracking-wide text-orange-700">{pick.badge}</p><p className="mt-2 font-bold text-slate-900">{pick.quickPickTitle}</p><p className="mt-2 text-sm leading-6 text-slate-600">{pick.quick}</p><p className="mt-4 text-sm text-slate-700">Compare the current checkout price with the pack count before buying.</p><a href={amazonSearch(pick.query)} target="_blank" rel="sponsored noopener" className="mt-5 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-300">Buy Here on Amazon</a></div>)}
         </div>
       </section>
 

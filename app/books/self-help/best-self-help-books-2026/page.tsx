@@ -73,7 +73,6 @@ const picks = [
     summary:
       "#1 New York Times Bestseller, #1 Amazon Bestseller, #1 Audible Bestseller. Named one of the Best Books of the Year by Amazon, Goodreads, Barnes & Noble, Audible, Publishers Weekly, and Waterstones. Over 8 million copies sold as of early 2026 — on pace to be the most successful nonfiction book launch of all time per Publishers Weekly. Robbins narrates the Audible edition herself; her delivery is an essential part of the experience. The framework is structured around eight life areas with specific application steps in each section.",
     pros: [
-      'The most-read self-help book of 2025 with documented reader impact — Amazon reviews consistently cite specific behavioral changes within days of starting the book',
       "Robbins narrates the Audible edition; her podcast background means the audio delivery is significantly better than most author-narrated self-help",
       'Short chapters with action steps at the end of each — designed to be applied immediately, not just read',
       "336 pages that most readers finish in under a week; the book's structure does not allow passive reading",
@@ -109,14 +108,13 @@ const picks = [
     slotColor: 'bg-green-100 text-green-800 border border-green-300',
     title: 'The Psychology of Money',
     author: 'Morgan Housel',
-    meta: 'Harriman House · September 8, 2020 · 256 pages · 20 essays · Kindle under $15, Audible under 6 hours',
+    meta: 'Harriman House · September 8, 2020 · 256 pages · 20 essays · Compare Kindle and Audible editions',
     summary:
       "Continuously in print and among the top-selling personal finance books on Amazon every month since publication. Housel's argument: financial outcomes are driven more by behavior than knowledge, and behavior is shaped by personal history, emotion, and cognitive biases more than information. Structured as 20 short, independently readable essays.",
     pros: [
-      '4.7-star average on Amazon across 100,000+ reviews — one of the most broadly praised finance books of the past decade with no sign of declining relevance',
       "The compound interest chapter — which demonstrates that Warren Buffett's wealth is primarily a function of how long he has been investing, not how well — is the clearest single explanation of long-term wealth building available in popular finance writing",
       '20 independently readable essays; works as a book read cover-to-cover or as individual pieces read over time',
-      'Kindle edition under $15; Audible under 6 hours — the cheapest-per-idea book on this list',
+      'Compare current format prices before choosing',
     ],
     cons: [
       'No action plan — this is a framework book, not a step-by-step financial guide',

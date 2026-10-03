@@ -260,7 +260,7 @@ export default function BestBooksLikeDaVinciCodePage() {
             characters.
           </p>
           <p className="text-sm text-gray-500 italic">
-            Specs and prices verified against Amazon as of April 2026. Prices change —
+            Check the edition and current price on Amazon —
             confirm before purchasing.
           </p>
         </div>

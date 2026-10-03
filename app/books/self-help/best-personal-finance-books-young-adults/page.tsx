@@ -42,10 +42,9 @@ const picks = [
     summary:
       "Housel structures the book as 20 short essays, each making a distinct argument about how humans relate to money. The essays are independently readable — you can start anywhere — but build a coherent framework for understanding why smart people make bad financial decisions and what the behavioral patterns of long-term wealth actually look like.",
     pros: [
-      '4.7-star average on Amazon across 80,000+ reviews — one of the most consistently praised finance books published in recent years',
       "Short chapters (10–15 minutes each) work well for readers who don't finish long books",
       'The compound interest chapter alone — which reframes long time horizons as the primary wealth-building variable — is worth the cover price',
-      'Kindle edition under $15; Audible edition under 6 hours',
+      'Compare available print, Kindle and audio formats',
     ],
     cons: [
       'No budgeting templates, no account setup instructions, no step-by-step action plan',
@@ -84,7 +83,6 @@ const picks = [
     pros: [
       'The most action-oriented book on the list — readers know exactly what to do after each chapter',
       "Works for readers with very low income — Ramsey's system is built for people without margin",
-      'Multiple Amazon reviews document readers eliminating $20,000–$100,000 in debt using this method',
     ],
     cons: [
       "Ramsey's zero-debt stance on mortgages and his advice against credit cards is contested by other financial advisors",

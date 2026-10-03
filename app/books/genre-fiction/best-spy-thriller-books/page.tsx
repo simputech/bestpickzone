@@ -45,7 +45,7 @@ const picks = [
       'Plot construction is nearly perfect — every scene pays off by the final chapter',
       'Moral ambiguity is specific and earned, not vague atmospheric texture',
       'Short (240 pages) — reads in two or three sittings',
-      'Kindle edition under $10; paperback widely available under $15',
+      'Check current Kindle and paperback prices',
     ],
     cons: [
       'Pacing is deliberately slow in the first third — readers expecting immediate action will be impatient',
@@ -86,7 +86,6 @@ const picks = [
       '700+ pages that feel shorter than most 300-page thrillers — hard to put down',
       'Accessible without any prior knowledge of intelligence tradecraft or geopolitics',
       'Satisfying standalone — no series commitment required',
-      'One of the highest-rated debut spy thrillers on Amazon; consistent 4.6-star rating across 15,000+ reviews',
     ],
     cons: [
       'Some plot conveniences in the third act that patient readers will notice',
@@ -145,7 +144,7 @@ const picks = [
     pros: [
       'Fast — under 250 pages, reads in a single long session',
       'The film is excellent but the novel has a darker, more ambiguous ending',
-      'Inexpensive — Kindle editions frequently under $5 on Amazon',
+      'Compare current Kindle editions and prices',
       "Perfect first Fleming if you've only seen the movies",
     ],
     cons: [
@@ -279,10 +278,10 @@ export default function BestSpyThrillerBooksPage() {
           <p className="leading-relaxed">
             Below we&apos;ve also picked the best spy thriller for pure action, the best
             entry point for new readers, the best modern release, and the best if you
-            want a fast classic under $5.
+            want a fast classic.
           </p>
           <p className="text-sm text-gray-500 italic">
-            Specs and prices verified against Amazon as of April 2026. Prices change —
+            Check the edition and current price on Amazon —
             confirm before purchasing.
           </p>
         </div>
@@ -416,9 +415,7 @@ export default function BestSpyThrillerBooksPage() {
             </p>
             <p>
               <strong>Price tier.</strong> Classic titles (Fleming, early le Carré) are
-              routinely available as Kindle editions under $5. Modern releases
-              (Gerritsen) run $10–$15 Kindle. Clancy Kindle editions vary —{' '}
-              <em>Red October</em> is frequently on sale for under $5.
+              worth comparing by format and current price. Check the edition, publisher and seller before deciding; older titles are not always the cheapest current offer.
             </p>
             <p>
               <strong>Want more recent releases?</strong> Our guide to the{' '}
@@ -483,8 +480,7 @@ export default function BestSpyThrillerBooksPage() {
               Gerritsen&apos;s genre pivot delivers the sharpest new spy novel in years.
             </p>
             <p>
-              <strong>Best budget pick:</strong> <em>From Russia with Love</em> — under
-              $5 on Kindle, and the best Bond novel Fleming wrote.
+              <strong>Best budget pick:</strong> <em>From Russia with Love</em> — the best Bond novel Fleming wrote.
             </p>
             <p className="pt-2">
               Still deciding? Buy <em>I Am Pilgrim</em> first. If you finish it and want

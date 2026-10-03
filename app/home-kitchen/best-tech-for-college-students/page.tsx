@@ -72,7 +72,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -92,7 +92,7 @@ const products: Product[] = [
     ourPickWhy:
       'The default campus recommendation: all-day battery, silent fanless design for libraries, and Apple’s track record of long software support — the spec that matters most on a four-year horizon.',
     asin: 'B0F511PVNX',
-    image: 'https://m.media-amazon.com/images/I/71sQdN4lfYL._AC_SL480_.jpg',
+
     amazonQuery: 'macbook air m4 13 inch',
   },
   {
@@ -110,7 +110,7 @@ const products: Product[] = [
     ourPickWhy:
       'The base iPad hits the student sweet spot: full stylus support and the dominant note-taking app ecosystem at the lowest price Apple offers, with enough performance for years of note duty.',
     asin: 'B0DZ75TN5F',
-    image: 'https://m.media-amazon.com/images/I/61aPY8odPSL._AC_SL480_.jpg',
+
     amazonQuery: 'apple ipad 11th generation',
   },
   {
@@ -128,7 +128,7 @@ const products: Product[] = [
     ourPickWhy:
       'For the iPhone-carrying majority of campus, the seamless pairing, strong noise cancellation, and find-my-earbud support justify the price of the category leader.',
     asin: 'B0FQFB8FMG',
-    image: 'https://m.media-amazon.com/images/I/61solmQSSlL._AC_SL480_.jpg',
+
     amazonQuery: 'airpods pro',
   },
   {
@@ -146,7 +146,7 @@ const products: Product[] = [
     ourPickWhy:
       'The category benchmark: waterproof, weeks of battery, warm adjustable light, and the largest ebook ecosystem — the version of the Kindle worth the step up from the base model.',
     asin: 'B0CFPJYX7P',
-    image: 'https://m.media-amazon.com/images/I/61KMlIaN9pL._AC_SL480_.jpg',
+
     amazonQuery: 'kindle paperwhite',
   },
   {
@@ -164,7 +164,7 @@ const products: Product[] = [
     ourPickWhy:
       'The standard recommendation in portable SSDs: compact, quick, reliable across years of reviews, and priced at the level where there is no excuse not to own a backup.',
     asin: 'B0874XN4D8',
-    image: 'https://m.media-amazon.com/images/I/91YfRIy7kYL._AC_SL480_.jpg',
+
     amazonQuery: 'samsung t7 portable ssd 1tb',
   },
   {
@@ -182,7 +182,7 @@ const products: Product[] = [
     ourPickWhy:
       'The commodity done right: reliable brand, enough speed for documents and slides, cheap enough to buy two and lose one without a feelings event.',
     asin: 'B015CH1PJU',
-    image: 'https://m.media-amazon.com/images/I/61DaP3ryRKL._AC_SL480_.jpg',
+
     amazonQuery: 'sandisk 128gb usb flash drive',
   },
   {
@@ -200,7 +200,7 @@ const products: Product[] = [
     ourPickWhy:
       'Anker’s build reliability in the exact port mix student life asks for, at a price that undercuts the flaky no-name field by less than it outperforms them.',
     asin: 'B07ZVKTP53',
-    image: 'https://m.media-amazon.com/images/I/71iA1PddRNL._AC_SL480_.jpg',
+
     amazonQuery: 'anker usb c hub 7 in 1',
   },
   {
@@ -218,7 +218,7 @@ const products: Product[] = [
     ourPickWhy:
       'Brother’s compact mono lasers are the boring, correct answer of the printer world: cheap to run, tolerant of sitting idle, and free of ink-subscription games.',
     asin: 'B0CPL7HRQN',
-    image: 'https://m.media-amazon.com/images/I/71i9ErhWXvL._AC_SL480_.jpg',
+
     amazonQuery: 'brother compact laser printer wireless',
   },
   {
@@ -236,7 +236,7 @@ const products: Product[] = [
     ourPickWhy:
       'The value leader in the category: single-cable USB-C, thin and light enough to treat like a notebook, at a price that makes dual-screen a student-budget decision.',
     asin: 'B0CH9XW8RK',
-    image: 'https://m.media-amazon.com/images/I/71OPl1iOTBL._AC_SL480_.jpg',
+
     amazonQuery: 'arzopa portable monitor 15.6',
   },
   {
@@ -254,7 +254,7 @@ const products: Product[] = [
     ourPickWhy:
       'The straightforward pick: every major app, 4K for the one roommate whose TV deserves it, and a price that fits the shared-cost model of dorm purchases.',
     asin: 'B0F7Z4QZTT',
-    image: 'https://m.media-amazon.com/images/I/51WtNy0OxLL._AC_SL480_.jpg',
+
     amazonQuery: 'fire tv stick 4k',
   },
   {
@@ -272,7 +272,7 @@ const products: Product[] = [
     ourPickWhy:
       'The densest finding network in the places students lose things, precision finding for the couch-cushion cases, and the four-pack price that makes tagging everything rational.',
     asin: 'B0DJ1P83SN',
-    image: 'https://m.media-amazon.com/images/I/6175zcenM4L._AC_SL480_.jpg',
+
     amazonQuery: 'apple airtag 4 pack',
   },
   {
@@ -290,7 +290,7 @@ const products: Product[] = [
     ourPickWhy:
       'The charger that defined the category: laptop-class power at a fraction of the size and weight of the adapter in the laptop box.',
     asin: 'B08T5QN2TR',
-    image: 'https://m.media-amazon.com/images/I/61PRvw0FyDL._AC_SL480_.jpg',
+
     amazonQuery: 'anker 65w gan charger usb c',
   },
   {
@@ -308,7 +308,7 @@ const products: Product[] = [
     ourPickWhy:
       'The practical pick in a crowded category: fast charging on the phone position, a fold-flat design for breaks, and one wall adapter doing the work of three.',
     asin: 'B0C2BMNHW2',
-    image: 'https://m.media-amazon.com/images/I/71XEFN15BuL._AC_SL480_.jpg',
+
     amazonQuery: '3 in 1 wireless charging station',
   },
   {
@@ -326,7 +326,7 @@ const products: Product[] = [
     ourPickWhy:
       'The entry point of the hobby for a reason: wireless, compact, decent switches, at a price that reads like a typo next to the enthusiast boards it imitates. Our mechanical keyboard guide covers the upgrades.',
     asin: 'B089GN2KBT',
-    image: 'https://m.media-amazon.com/images/I/61nghmq8GPL._AC_SL480_.jpg',
+
     amazonQuery: 'royal kludge rk61 mechanical keyboard',
   },
   {
@@ -344,7 +344,7 @@ const products: Product[] = [
     ourPickWhy:
       'The rational entry point to the dominant campus ecosystem: the notification, alarm, and fitness core of the expensive models at the price that makes sense for a student.',
     asin: 'B0DGJ73CFS',
-    image: 'https://m.media-amazon.com/images/I/61umEhyV-UL._AC_SL480_.jpg',
+
     amazonQuery: 'apple watch se',
   },
   {
@@ -362,7 +362,7 @@ const products: Product[] = [
     ourPickWhy:
       'A decade of being the default external webcam: reliable autofocus, solid 1080p, dual mics, and drivers that just work on everything.',
     asin: 'B006JH8T3S',
-    image: 'https://m.media-amazon.com/images/I/71eGb1FcyiL._AC_SL480_.jpg',
+
     amazonQuery: 'logitech c920 webcam',
   },
 ]
@@ -531,20 +531,6 @@ export default function BestTechForCollegeStudentsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={product.image}
-                      alt={product.ourPickName}
-                      loading="lazy"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

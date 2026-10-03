@@ -102,7 +102,7 @@ export default function SpaceOperaDoorstoppersPage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-blue-200 bg-blue-50 px-4 py-3 text-sm leading-relaxed text-blue-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change, so confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -126,7 +126,7 @@ export default function SpaceOperaDoorstoppersPage() {
                   <a
                     href={amazonLink(pick.title, pick.author)}
                     target="_blank"
-                    rel="noopener nofollow"
+                    rel="noopener nofollow sponsored"
                     className="font-semibold text-blue-700"
                   >
                     Find on Amazon
@@ -182,7 +182,7 @@ export default function SpaceOperaDoorstoppersPage() {
             <a
               href={href}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-blue-700 px-6 py-3 text-base font-bold text-white transition hover:bg-blue-600"
             >
               Click Here to Buy on Amazon

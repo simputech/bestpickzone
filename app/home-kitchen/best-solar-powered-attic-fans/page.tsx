@@ -222,7 +222,7 @@ export default function BestSolarPoweredAtticFansPage() {
                 <Link
                   href={pick.amazonUrl}
                   target="_blank"
-                  rel="noopener nofollow"
+                  rel="noopener nofollow sponsored"
                   className="inline-flex items-center justify-center rounded-md bg-[#e67e22] px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-[#d35400]"
                 >
                   Click Here to Find on Amazon
@@ -262,7 +262,7 @@ export default function BestSolarPoweredAtticFansPage() {
                       <Link
                         href={pick.amazonUrl}
                         target="_blank"
-                        rel="noopener nofollow"
+                        rel="noopener nofollow sponsored"
                         className="inline-flex items-center justify-center rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-gray-900 transition-colors hover:bg-yellow-300"
                       >
                         Find on Amazon
@@ -318,7 +318,7 @@ export default function BestSolarPoweredAtticFansPage() {
                 <Link
                   href={pick.amazonUrl}
                   target="_blank"
-                  rel="noopener nofollow"
+                  rel="noopener nofollow sponsored"
                   className="mt-5 inline-flex items-center justify-center rounded-md bg-[#e67e22] px-6 py-3 text-base font-bold text-white transition-colors hover:bg-[#d35400]"
                 >
                   Click Here to Find on Amazon

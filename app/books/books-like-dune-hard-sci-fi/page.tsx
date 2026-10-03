@@ -86,7 +86,7 @@ export default function BooksLikeDunePage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-blue-200 bg-blue-50 px-4 py-3 text-sm leading-relaxed text-blue-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change, so confirm before purchasing.
       </p>
 
@@ -152,7 +152,7 @@ export default function BooksLikeDunePage() {
                   <a
                     href={amazonLink(pick.title, pick.author)}
                     target="_blank"
-                    rel="noopener nofollow"
+                    rel="noopener nofollow sponsored"
                     className="font-semibold text-blue-700"
                   >
                     Find on Amazon
@@ -202,7 +202,7 @@ export default function BooksLikeDunePage() {
             <a
               href={href}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-blue-700 px-6 py-3 text-base font-bold text-white transition hover:bg-blue-600"
             >
               Click Here to Buy on Amazon

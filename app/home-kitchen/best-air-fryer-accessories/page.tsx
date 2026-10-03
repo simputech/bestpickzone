@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -74,7 +73,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -97,7 +96,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are reusable, flexible, and much more practical than the huge accessory bundles that throw in ten things you will never touch.',
     asin: 'B09Q5ZB7DR',
-    image: 'https://m.media-amazon.com/images/I/71RmvJQ-fTL._AC_SL480_.jpg',
+
     amazonQuery: 'silicone air fryer liner reusable',
   },
   {
@@ -118,7 +117,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are simple, inexpensive, and genuinely useful for the kind of fast cleanup that keeps an air fryer in regular rotation.',
     asin: 'B09B9JXQ5H',
-    image: 'https://m.media-amazon.com/images/I/81el4h65CnL._AC_SL480_.jpg',
+
     amazonQuery: 'disposable air fryer parchment liners',
   },
   {
@@ -139,7 +138,7 @@ const products: Product[] = [
     ourPickWhy:
       'It gives a more controlled mist than many cheap options and feels like a real kitchen tool rather than a novelty bottle.',
     asin: 'B0C4Y9H6L4',
-    image: 'https://m.media-amazon.com/images/I/61kq5iTScxL._AC_SL480_.jpg',
+
     amazonQuery: 'oil sprayer for air fryer',
   },
   {
@@ -160,7 +159,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a straightforward upgrade that adds function without taking up permanent storage space in the way bulkier accessories often do.',
     asin: 'B08T1Q7X4J',
-    image: 'https://m.media-amazon.com/images/I/61c15IPN4sL._AC_SL480_.jpg',
+
     amazonQuery: 'stainless steel air fryer rack',
   },
   {
@@ -181,7 +180,7 @@ const products: Product[] = [
     ourPickWhy:
       'It adds a genuinely different cooking format instead of duplicating what the regular basket already does.',
     asin: 'B08L6FZV1T',
-    image: 'https://m.media-amazon.com/images/I/61b8jB9ppNL._AC_SL480_.jpg',
+
     amazonQuery: 'air fryer skewer rack set',
   },
   {
@@ -202,7 +201,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are dependable, heat-safe, and more useful across the kitchen than a niche single-purpose air fryer utensil.',
     asin: 'B07H2RRJ8G',
-    image: 'https://m.media-amazon.com/images/I/71J4iW6vO-L._AC_SL480_.jpg',
+
     amazonQuery: 'silicone kitchen tongs set',
   },
   {
@@ -223,7 +222,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is fast, readable, and practical enough that it earns use far beyond just the air fryer.',
     asin: 'B07XXSYLL8',
-    image: 'https://m.media-amazon.com/images/I/71eK2u1pW-L._AC_SL480_.jpg',
+
     amazonQuery: 'instant read thermometer thermopro tp19h',
   },
   {
@@ -244,7 +243,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are inexpensive, reusable, and do exactly what air fryer accessory bundles promise without the clutter of ten less-useful extras.',
     asin: 'B07MXQ6M8Q',
-    image: 'https://m.media-amazon.com/images/I/81v9TfXQ1mL._AC_SL480_.jpg',
+
     amazonQuery: 'silicone muffin cups reusable baking cups',
   },
   {
@@ -265,7 +264,7 @@ const products: Product[] = [
     ourPickWhy:
       'OXO tends to get the small kitchen-tool details right, and this is one of those pieces you can use well beyond just the air fryer.',
     asin: 'B000JPSI8C',
-    image: 'https://m.media-amazon.com/images/I/61pkqQ5jsaL._AC_SL480_.jpg',
+
     amazonQuery: 'oxo silicone basting brush',
   },
   {
@@ -286,7 +285,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a useful crossover tool that helps with cleanup and kitchen mess without becoming single-appliance clutter.',
     asin: 'B01M0XK0A2',
-    image: 'https://m.media-amazon.com/images/I/71NQ9TTr5eL._AC_SL480_.jpg',
+
     amazonQuery: 'mesh splatter screen kitchen',
   },
   {
@@ -307,7 +306,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is approachable, widely liked, and more realistic for everyday cooking than many gimmicky appliance cookbooks.',
     asin: '0525576697',
-    image: 'https://m.media-amazon.com/images/I/81HNRJj2NfL._AC_SL480_.jpg',
+
     amazonQuery: 'skinnytaste air fryer cookbook',
   },
   {
@@ -328,7 +327,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is compact, purpose-sized, and genuinely useful for the kinds of smaller baked recipes people actually attempt in an air fryer.',
     asin: 'B08Y8S5J5N',
-    image: 'https://m.media-amazon.com/images/I/61Qp6mUnzHL._AC_SL480_.jpg',
+
     amazonQuery: 'air fryer cake barrel pan',
   },
   {
@@ -349,7 +348,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is inexpensive, useful, and more likely to get daily use than many physical inserts sold as “must-have” accessories.',
     asin: 'B09Q8R9YB4',
-    image: 'https://m.media-amazon.com/images/I/71hRM4H0nhL._AC_SL480_.jpg',
+
     amazonQuery: 'air fryer magnetic cheat sheet',
   },
   {
@@ -370,7 +369,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is more versatile than a dedicated single-shape air fryer brush and useful elsewhere in the kitchen too.',
     asin: 'B003M8GMS6',
-    image: 'https://m.media-amazon.com/images/I/71AT9oVh7fL._AC_SL480_.jpg',
+
     amazonQuery: 'oxo deep clean brush set',
   },
   {
@@ -391,7 +390,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is simple, flexible, and much smarter than buying a flashy dedicated organizer for a very small category of tools.',
     asin: 'B08NWZ6V8R',
-    image: 'https://m.media-amazon.com/images/I/81uMBQ2W5WL._AC_SL480_.jpg',
+
     amazonQuery: 'clear kitchen storage bin handles',
   },
 ]
@@ -607,20 +606,6 @@ export default function BestAirFryerAccessoriesPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    <ExternalProductImage
-                      src={product.image}
-                      alt={product.ourPickName}
-                      title={product.title}
-                      fallbackAccentClassName="from-orange-100 via-white to-amber-100"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

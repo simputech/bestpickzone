@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -74,7 +73,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -97,7 +96,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are weather-friendly, widely used, and hit the right visual balance between warm ambiance and enough usable light for dining or conversation.',
     asin: 'B08JPQ6M8N',
-    image: 'https://m.media-amazon.com/images/I/71QQO7L6gYL._AC_SL480_.jpg',
+
     amazonQuery: 'outdoor string lights waterproof patio',
   },
   {
@@ -118,7 +117,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a dependable outdoor category pick with enough pattern to hide wear and enough structure to make a seating zone look deliberate.',
     asin: 'B01M0DLTQX',
-    image: 'https://m.media-amazon.com/images/I/91MpGafl2NL._AC_SL480_.jpg',
+
     amazonQuery: 'outdoor patio rug weather resistant',
   },
   {
@@ -139,7 +138,7 @@ const products: Product[] = [
     ourPickWhy:
       'The HDPE build handles weather better than low-end wood alternatives and gives the look of a permanent backyard piece without the same upkeep.',
     asin: 'B08P59FKVL',
-    image: 'https://m.media-amazon.com/images/I/71v6-L9dR0L._AC_SL480_.jpg',
+
     amazonQuery: 'hdpe adirondack chair outdoor',
   },
   {
@@ -160,7 +159,7 @@ const products: Product[] = [
     ourPickWhy:
       'It solves two problems at once by adding daytime shade and soft evening light, which is exactly the kind of dual-purpose backyard product that earns its space.',
     asin: 'B07FQ7V9FJ',
-    image: 'https://m.media-amazon.com/images/I/71N1hQ0oKaL._AC_SL480_.jpg',
+
     amazonQuery: '10 foot patio umbrella solar led',
   },
   {
@@ -181,7 +180,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a well-liked smokeless propane option that delivers the campfire feel with far less hassle than a wood setup.',
     asin: 'B00KY4S388',
-    image: 'https://m.media-amazon.com/images/I/81mfgWPVGTL._AC_SL480_.jpg',
+
     amazonQuery: 'propane fire pit backyard portable',
   },
   {
@@ -202,7 +201,7 @@ const products: Product[] = [
     ourPickWhy:
       'It has enough capacity to matter, looks cleaner than the cheapest plastic options, and doubles as occasional bench seating when needed.',
     asin: 'B01HDPY2NE',
-    image: 'https://m.media-amazon.com/images/I/81bZNdcNImL._AC_SL480_.jpg',
+
     amazonQuery: 'outdoor deck box storage waterproof',
   },
   {
@@ -223,7 +222,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is compact, durable, easy to carry outside on impulse, and strong enough sonically for the kind of casual backyard use most people actually want.',
     asin: 'B09GJMPRCX',
-    image: 'https://m.media-amazon.com/images/I/61eCe5v6PSL._AC_SL480_.jpg',
+
     amazonQuery: 'jbl flip 6 bluetooth speaker waterproof',
   },
   {
@@ -244,7 +243,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are a solid mix of brightness, weather resistance, and classic styling for walkways and garden edges.',
     asin: 'B07Q4Z2M38',
-    image: 'https://m.media-amazon.com/images/I/71snrrN6XAL._AC_SL480_.jpg',
+
     amazonQuery: 'solar pathway lights outdoor waterproof',
   },
   {
@@ -265,7 +264,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is cleaner and more convenient than older bug-control approaches, especially for patios where smoke and smell are a downside.',
     asin: 'B08PDN1L1X',
-    image: 'https://m.media-amazon.com/images/I/61mcfYJ0O4L._AC_SL480_.jpg',
+
     amazonQuery: 'thermacell mosquito repeller rechargeable',
   },
   {
@@ -286,7 +285,7 @@ const products: Product[] = [
     ourPickWhy:
       'The rolling format, useful capacity, and built-in serving feel make it much more backyard-friendly than a basic chest cooler.',
     asin: 'B01A0G8EIS',
-    image: 'https://m.media-amazon.com/images/I/71f0eh1S2rL._AC_SL480_.jpg',
+
     amazonQuery: 'patio cooler cart outdoor rolling',
   },
   {
@@ -307,7 +306,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is roomy enough to feel real, easier to set up than many wood kits, and a practical starter size for backyard growing.',
     asin: 'B07N7X8Q5M',
-    image: 'https://m.media-amazon.com/images/I/71zc7U1vV0L._AC_SL480_.jpg',
+
     amazonQuery: 'metal raised garden bed kit outdoor',
   },
   {
@@ -328,7 +327,7 @@ const products: Product[] = [
     ourPickWhy:
       'It covers the basics well, stores cleanly, and feels more like a practical all-in-one backyard kit than a novelty gift set.',
     asin: 'B07QKJQ7DG',
-    image: 'https://m.media-amazon.com/images/I/81At3Xm60wL._AC_SL480_.jpg',
+
     amazonQuery: 'grill tool set stainless steel case',
   },
   {
@@ -349,7 +348,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are a budget-friendly way to refresh outdoor seating without paying full-price for filled premium cushions.',
     asin: 'B09BVTCS8K',
-    image: 'https://m.media-amazon.com/images/I/81PJ5rdBl8L._AC_SL480_.jpg',
+
     amazonQuery: 'waterproof outdoor throw pillow covers',
   },
   {
@@ -370,7 +369,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is comfortable, simple, and one of the easier ways to add a more relaxed lounge spot without buying a full outdoor daybed or sectional.',
     asin: 'B07QKNP7M3',
-    image: 'https://m.media-amazon.com/images/I/71CKJcX4s0L._AC_SL480_.jpg',
+
     amazonQuery: 'hammock chair hanging outdoor',
   },
   {
@@ -391,7 +390,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is one of the better-known utility wagons for a reason: sturdy, easy to fold, and genuinely useful beyond just one outdoor task.',
     asin: 'B00BUUUIGK',
-    image: 'https://m.media-amazon.com/images/I/71E2Il0lwDL._AC_SL480_.jpg',
+
     amazonQuery: 'collapsible folding wagon outdoor utility',
   },
 ]
@@ -610,20 +609,6 @@ export default function BestProductsForYourBackyardPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    <ExternalProductImage
-                      src={product.image}
-                      alt={product.ourPickName}
-                      title={product.title}
-                      fallbackAccentClassName="from-emerald-100 via-white to-amber-100"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

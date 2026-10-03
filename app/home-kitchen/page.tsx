@@ -168,7 +168,7 @@ const articles = [
     slug: 'best-back-to-school-gadgets',
     title: 'Best Back-to-School Gadgets (2026)',
     description:
-      'Sixteen gadgets that pass the still-in-use-by-November test, from the USB backpack and lecture recorder to the dorm projector — most under $50.',
+      'Sixteen gadgets that pass the still-in-use-by-November test, from the USB backpack and lecture recorder to the dorm projector — compare current prices against your budget.',
     badge: 'College Series',
     badgeColor: 'bg-indigo-100 text-indigo-700',
     comingSoon: false,

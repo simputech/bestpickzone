@@ -87,7 +87,7 @@ export default function BackmanRankedPage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm leading-relaxed text-sky-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change, so confirm before purchasing.
       </p>
 
@@ -183,7 +183,7 @@ export default function BackmanRankedPage() {
             <a
               href={href}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-sky-600 px-6 py-3 text-base font-bold text-white transition hover:bg-sky-500"
             >
               Click Here to Buy on Amazon
@@ -198,11 +198,11 @@ export default function BackmanRankedPage() {
         </h2>
         <p className="mb-4 leading-relaxed text-gray-700">
           Start with{' '}
-          <a href={amazonLink('A Man Called Ove')} target="_blank" rel="noopener nofollow">
+          <a href={amazonLink('A Man Called Ove')} target="_blank" rel="noopener nofollow sponsored">
             <strong>A Man Called Ove</strong>
           </a>{' '}
           if you want the broadest recommendation. Start with{' '}
-          <a href={amazonLink('Beartown')} target="_blank" rel="noopener nofollow">
+          <a href={amazonLink('Beartown')} target="_blank" rel="noopener nofollow sponsored">
             <strong>Beartown</strong>
           </a>{' '}
           only if you specifically want hockey-town pressure, moral complicity, and a much heavier
@@ -210,15 +210,15 @@ export default function BackmanRankedPage() {
         </p>
         <p className="leading-relaxed text-gray-700">
           For quick biography context, this{' '}
-          <a href="https://en.wikipedia.org/wiki/Fredrik_Backman" target="_blank" rel="noopener nofollow">
+          <a href="https://en.wikipedia.org/wiki/Fredrik_Backman" target="_blank" rel="noopener nofollow sponsored">
             Wikipedia page on Fredrik Backman
           </a>{' '}
           is a useful reference, and his{' '}
-          <a href="https://www.fredrikbackman.com/" target="_blank" rel="noopener nofollow">
+          <a href="https://www.fredrikbackman.com/" target="_blank" rel="noopener nofollow sponsored">
             official website
           </a>{' '}
           plus the{' '}
-          <a href="https://www.simonandschuster.com/p/fredrik-backman" target="_blank" rel="noopener nofollow">
+          <a href="https://www.simonandschuster.com/p/fredrik-backman" target="_blank" rel="noopener nofollow sponsored">
             Simon &amp; Schuster author page
           </a>{' '}
           are good for catalog context.

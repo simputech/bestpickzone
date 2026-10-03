@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -74,7 +73,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -97,7 +96,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is one of the most reviewed dorm-size toppers on Amazon, and the gel-infused build specifically answers the two dorm complaints that matter most: hard mattresses and hot rooms.',
     asin: 'B07MY2L58J',
-    image: 'https://m.media-amazon.com/images/I/81H3-5WU+GL._AC_SL480_.jpg',
+
     amazonQuery: 'twin xl mattress topper gel memory foam',
   },
   {
@@ -118,7 +117,7 @@ const products: Product[] = [
     ourPickWhy:
       'The long cord is the dorm-specific win here. It reaches awkward wall outlets, handles multiple chargers at once, and gives each plug enough space to stay usable.',
     asin: 'B09J86D71C',
-    image: 'https://m.media-amazon.com/images/I/61NV3WimsxL._AC_SL480_.jpg',
+
     amazonQuery: 'surge protector power strip tower usb dorm',
   },
   {
@@ -139,7 +138,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a repeat Amazon dorm bedding seller because it gets the basics right: fit, softness, washability, and a price that does not punish you for buying a backup set.',
     asin: 'B09F38BJRC',
-    image: 'https://m.media-amazon.com/images/I/81CyI+aWMtL._AC_SL480_.jpg',
+
     amazonQuery: 'twin xl sheet set dorm',
   },
   {
@@ -160,7 +159,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is popular for exactly the setup dorms create: metal rails, awkward angles, limited outlets, and a need for flexible airflow rather than a giant floor fan.',
     asin: 'B089Q279R3',
-    image: 'https://m.media-amazon.com/images/I/718w-RQMEyL._AC_SL480_.jpg',
+
     amazonQuery: 'clip on fan dorm bed usb',
   },
   {
@@ -181,7 +180,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is one of the more established options in the category, with a large enough surface for real use and a clamp design that works on common dorm bed frames.',
     asin: 'B078SFKVMG',
-    image: 'https://m.media-amazon.com/images/I/814EzylMjML._AC_SL480_.jpg',
+
     amazonQuery: 'bedside shelf clamp on bunk bed',
   },
   {
@@ -202,7 +201,7 @@ const products: Product[] = [
     ourPickWhy:
       'It hits the dorm sweet spot on cost, mobility, and capacity, with lockable wheels and enough structure to handle real daily use.',
     asin: 'B09R1TMP83',
-    image: 'https://m.media-amazon.com/images/I/71YdhU3sCXL._AC_SL480_.jpg',
+
     amazonQuery: '3 tier rolling cart dorm',
   },
   {
@@ -223,7 +222,7 @@ const products: Product[] = [
     ourPickWhy:
       'The power-strip base is the real value here. It turns one corner of the desk into a study-and-charge station without needing another separate gadget.',
     asin: 'B0D2LGK82V',
-    image: 'https://m.media-amazon.com/images/I/61RTVGWbTzL._AC_SL480_.jpg',
+
     amazonQuery: 'desk lamp usb charging port outlet dorm',
   },
   {
@@ -244,7 +243,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is the dependable standard, and the assorted sizes are more useful in a dorm than buying one pack of identical hooks and trying to force them into every job.',
     asin: 'B07712H557',
-    image: 'https://m.media-amazon.com/images/I/71Livypa6vL._AC_SL480_.jpg',
+
     amazonQuery: 'command hooks variety pack',
   },
   {
@@ -265,7 +264,7 @@ const products: Product[] = [
     ourPickWhy:
       'It offers plenty of sound options, remembers your settings, and costs far less than the stress it saves if sleep noise is a real issue in your building.',
     asin: 'B07RWRJ4XW',
-    image: 'https://m.media-amazon.com/images/I/71CBN1gUirL._AC_SL480_.jpg',
+
     amazonQuery: 'white noise machine dorm sleep',
   },
   {
@@ -286,7 +285,7 @@ const products: Product[] = [
     ourPickWhy:
       'The padded straps and roomy opening make it much more practical than the flimsy drawstring bags that feel cheap until they are full of wet towels.',
     asin: 'B08R7FP1HT',
-    image: 'https://m.media-amazon.com/images/I/61p4SubT6CS._AC_SL480_.jpg',
+
     amazonQuery: 'laundry backpack bag college dorm',
   },
   {
@@ -307,7 +306,7 @@ const products: Product[] = [
     ourPickWhy:
       'The size is generous enough to matter, the handles are actually usable, and the soft build is more dorm-friendly than rigid bins when move-out season arrives.',
     asin: 'B09Q38H2J4',
-    image: 'https://m.media-amazon.com/images/I/81Fap+ZlUIL._AC_SL480_.jpg',
+
     amazonQuery: 'under bed storage bins dorm',
   },
   {
@@ -328,7 +327,7 @@ const products: Product[] = [
     ourPickWhy:
       'It drains well, holds enough for the real shower routine, and has the sort of no-drama design that suits daily dorm use better than cute but flimsy alternatives.',
     asin: 'B0CJ2P5GBM',
-    image: 'https://m.media-amazon.com/images/I/61bGldzWByL._AC_SL480_.jpg',
+
     amazonQuery: 'portable shower caddy dorm',
   },
   {
@@ -349,7 +348,7 @@ const products: Product[] = [
     ourPickWhy:
       'It stays within the practical dorm size range, comes from a recognizable appliance brand, and has enough capacity to feel worthwhile without becoming unrealistic for a shared room.',
     asin: 'B084GSNPH1',
-    image: 'https://m.media-amazon.com/images/I/51H8sG8rFxL._AC_SL480_.jpg',
+
     amazonQuery: 'mini fridge dorm 3.2 cu ft',
   },
   {
@@ -370,7 +369,7 @@ const products: Product[] = [
     ourPickWhy:
       'It holds enough to be meaningful, is sturdy enough to work as real seating, and folds flat when the school year ends.',
     asin: 'B07JNFKYC3',
-    image: 'https://m.media-amazon.com/images/I/810mT03Bl1L._AC_SL480_.jpg',
+
     amazonQuery: 'folding storage ottoman bench',
   },
   {
@@ -391,7 +390,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is compact, practical, and aimed at the kinds of minor sick-day and scrape situations college students actually run into.',
     asin: 'B01E53NB9O',
-    image: 'https://m.media-amazon.com/images/I/71TWv2-3q7L._AC_SL480_.jpg',
+
     amazonQuery: 'first aid kit college dorm',
   },
 ]
@@ -607,20 +606,6 @@ export default function BestProductsForYourDormRoomPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    <ExternalProductImage
-                      src={product.image}
-                      alt={product.ourPickName}
-                      title={product.title}
-                      fallbackAccentClassName="from-amber-100 via-white to-sky-100"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

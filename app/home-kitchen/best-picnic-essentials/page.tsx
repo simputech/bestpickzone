@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -74,7 +73,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -97,7 +96,7 @@ const products: Product[] = [
     ourPickWhy:
       'It folds down neatly, gives enough room for a group or a more spread-out lunch, and has the weather-resistant base that makes outdoor use feel intentional instead of improvised.',
     asin: 'B09NBNQX6T',
-    image: 'https://m.media-amazon.com/images/I/81w1JxEsEEL._AC_SL480_.jpg',
+
     amazonQuery: 'waterproof picnic blanket foldable',
   },
   {
@@ -118,7 +117,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is roomy enough for a real meal, folds down better than hard options, and is one of the more straightforward Amazon picks in this category.',
     asin: 'B07X8Q1Q2L',
-    image: 'https://m.media-amazon.com/images/I/81yP8vP2+KL._AC_SL480_.jpg',
+
     amazonQuery: 'soft sided cooler bag insulated picnic',
   },
   {
@@ -139,7 +138,7 @@ const products: Product[] = [
     ourPickWhy:
       'It combines the visual charm people usually want from a basket with the practical benefit of having the basic dining pieces already packed together.',
     asin: 'B07R2DLMYS',
-    image: 'https://m.media-amazon.com/images/I/81qXj2mn9wL._AC_SL480_.jpg',
+
     amazonQuery: 'wicker picnic basket set for 2',
   },
   {
@@ -160,7 +159,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is the category benchmark for temperature retention and durability, which matters when picnic gear gets knocked around in transit.',
     asin: 'B073WJMKR3',
-    image: 'https://m.media-amazon.com/images/I/61R4qg3CSXL._AC_SL480_.jpg',
+
     amazonQuery: 'yeti rambler tumbler 20 oz',
   },
   {
@@ -181,7 +180,7 @@ const products: Product[] = [
     ourPickWhy:
       'These are popular for a reason: they seal well, stack cleanly, and feel much more picnic-safe than flimsier budget containers.',
     asin: 'B01JCNEJQ2',
-    image: 'https://m.media-amazon.com/images/I/71pnxmy7cZL._AC_SL480_.jpg',
+
     amazonQuery: 'rubbermaid brilliance food storage set',
   },
   {
@@ -202,7 +201,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is lightweight, easy to fold, and sturdy enough for picnic use without crossing into heavier car-camping gear.',
     asin: 'B07548J7W7',
-    image: 'https://m.media-amazon.com/images/I/71kE0xzu1yL._AC_SL480_.jpg',
+
     amazonQuery: 'portable folding picnic table low',
   },
   {
@@ -223,7 +222,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is simple, compact, and does exactly what a reusable picnic utensil set should do without feeling gimmicky.',
     asin: 'B07QXQ6V4Q',
-    image: 'https://m.media-amazon.com/images/I/61HuR8g3e-L._AC_SL480_.jpg',
+
     amazonQuery: 'portable reusable silverware set travel',
   },
   {
@@ -244,7 +243,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is compact, attractive enough to carry in public without looking overdone, and solves transport and temperature at the same time.',
     asin: 'B074V6GQ9S',
-    image: 'https://m.media-amazon.com/images/I/71pHghxW9QL._AC_SL480_.jpg',
+
     amazonQuery: 'insulated wine tote picnic',
   },
   {
@@ -265,7 +264,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a simple solution to a very real outdoor problem, and the size makes it easy to leave packed in your picnic bag full-time.',
     asin: 'B0C3QY8TSQ',
-    image: 'https://m.media-amazon.com/images/I/61r6r4d4nJL._AC_SL480_.jpg',
+
     amazonQuery: 'picnic blanket clips stakes',
   },
   {
@@ -286,7 +285,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is compact enough to make sense for outdoor use but still polished enough to upgrade the visual feel of the meal.',
     asin: 'B08M94L9Y2',
-    image: 'https://m.media-amazon.com/images/I/81kTxOfxguL._AC_SL480_.jpg',
+
     amazonQuery: 'small charcuterie board set picnic',
   },
   {
@@ -307,7 +306,7 @@ const products: Product[] = [
     ourPickWhy:
       'It folds down when you are not using it and gives the setup a useful structured carry option without adding too much bulk.',
     asin: 'B07D3M4Z6T',
-    image: 'https://m.media-amazon.com/images/I/71o0s7Oy2-L._AC_SL480_.jpg',
+
     amazonQuery: 'collapsible shopping basket tote picnic',
   },
   {
@@ -328,7 +327,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is easy to toss in a picnic bag, simple to use, and targeted enough to solve the problem without turning the whole setup into a bug-gear production.',
     asin: 'B08B5ZXD7Y',
-    image: 'https://m.media-amazon.com/images/I/61B0xW8xMEL._AC_SL480_.jpg',
+
     amazonQuery: 'tabletop fly fan picnic',
   },
   {
@@ -349,7 +348,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are easy to pack, familiar, and reliably useful without needing their own elaborate container setup.',
     asin: 'B01K1L0GLI',
-    image: 'https://m.media-amazon.com/images/I/71pjk2w7qDL._AC_SL480_.jpg',
+
     amazonQuery: 'travel hand wipes picnic',
   },
   {
@@ -370,7 +369,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is easy to carry, looks better than many purely utilitarian options, and fits the kind of low-effort summer gear people actually reuse.',
     asin: 'B07Q2X5T1V',
-    image: 'https://m.media-amazon.com/images/I/81Yl02K8lWL._AC_SL480_.jpg',
+
     amazonQuery: 'packable sun hat women men summer',
   },
   {
@@ -391,7 +390,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is tiny, durable, easy to clip onto a bag, and better suited to light outdoor ambiance than bigger speaker setups.',
     asin: 'B08V53BJYJ',
-    image: 'https://m.media-amazon.com/images/I/81v3OAfD0EL._AC_SL480_.jpg',
+
     amazonQuery: 'jbl clip 4 portable bluetooth speaker',
   },
 ]
@@ -607,20 +606,6 @@ export default function BestPicnicEssentialsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    <ExternalProductImage
-                      src={product.image}
-                      alt={product.ourPickName}
-                      title={product.title}
-                      fallbackAccentClassName="from-rose-100 via-white to-amber-100"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-rose-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

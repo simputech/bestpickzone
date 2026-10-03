@@ -289,7 +289,7 @@ export default function BestAlexMichaelidesBooksPage() {
               <Link
                 href={getAmazonSearchUrl(item.answer, item.author)}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer sponsored"
                 className="mt-4 inline-flex items-center text-sm font-bold text-amber-700 transition-colors hover:text-amber-800"
               >
                 Click here to find on Amazon

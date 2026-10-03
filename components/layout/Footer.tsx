@@ -133,12 +133,17 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8 text-xs text-gray-500 space-y-2">
           <p>
             <strong className="text-gray-400">Affiliate Disclosure:</strong> BestPickZone
-            participates in the Amazon Services LLC Associates Program. When you purchase
+            participates in the Amazon Services LLC Associates Program. As an Amazon Associate I earn from qualifying purchases. When you purchase
             through links on this site, we may earn a commission at no extra cost to you.
-            Our recommendations are always based on book quality and reader fit — never
+            Our recommendations are based on product suitability and reader fit — never
             commission rates.
           </p>
           <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+          <p className="flex flex-wrap gap-4 text-sm text-gray-300">
+            <Link href="/disclosure" className="underline hover:text-white">Affiliate disclosure</Link>
+            <Link href="/privacy" className="underline hover:text-white">Privacy and cookies</Link>
+            <a href="https://www.amazon.com/shop/althcu" target="_blank" rel="sponsored noopener" className="underline hover:text-white">Shop BestPickZone on Amazon</a>
+          </p>
           <p><Link href="/es" lang="es" hrefLang="es" className="hover:text-yellow-400">Guías en español</Link></p>
           <p className="mt-4">© {year} BestPickZone. All rights reserved.</p>
         </div>

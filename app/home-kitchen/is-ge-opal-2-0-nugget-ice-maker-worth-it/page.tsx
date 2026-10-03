@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -70,7 +69,7 @@ type IcePick = {
   ourPickName: string
   whyThisOne: string
   amazonQuery: string
-  image: string
+
 }
 
 const picks: IcePick[] = [
@@ -90,7 +89,7 @@ const picks: IcePick[] = [
     whyThisOne:
       'This is the product people mean when they talk about buying an Opal. The side tank matters because it reduces refill annoyance, which is part of the whole premium-appliance pitch.',
     amazonQuery: 'GE Profile Opal 2.0 nugget ice maker side tank',
-    image: 'https://m.media-amazon.com/images/I/not-real-opal.jpg',
+
   },
   {
     rank: 2,
@@ -108,7 +107,7 @@ const picks: IcePick[] = [
     whyThisOne:
       'It serves the buyer who already believes in the category and is deciding whether the premium tier is worth one more jump.',
     amazonQuery: 'GE Profile Opal nugget ice maker larger bin',
-    image: 'https://m.media-amazon.com/images/I/not-real-opal-stepup.jpg',
+
   },
   {
     rank: 3,
@@ -126,7 +125,7 @@ const picks: IcePick[] = [
     whyThisOne:
       'It exists for the specific reader who wants the nugget-ice category but needs a cheaper entry point more than a premium countertop showpiece.',
     amazonQuery: 'Silonn nugget ice maker countertop',
-    image: 'https://m.media-amazon.com/images/I/not-real-opal-budget.jpg',
+
   },
 ]
 
@@ -250,7 +249,7 @@ export default function GeOpalWorthItPage() {
           Honest Breakdown
         </p>
         <h1 className="max-w-4xl text-4xl font-black leading-tight text-slate-900 md:text-5xl">
-          Is the GE Opal 2.0 Nugget Ice Maker worth around $500? Yes for the right buyer, and absolutely not for the wrong one.
+          Is the GE Opal 2.0 Nugget Ice Maker worth the investment? Yes for the right buyer, and absolutely not for the wrong one.
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
           The Opal 2.0 is one of those appliances that looks irrational until you understand the specific obsession behind it. Nugget ice is not normal freezer ice. People who love it really love it. That is why the Opal keeps showing up in kitchens even though it is expensive, somewhat fussy, and clearly not a necessity.
@@ -339,20 +338,6 @@ export default function GeOpalWorthItPage() {
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-emerald-100 text-lg font-black text-emerald-700">
                   {pick.rank}
                 </div>
-                <a
-                  href={amazonSearch(pick.amazonQuery)}
-                  target="_blank"
-                  rel="noopener nofollow sponsored"
-                  className="shrink-0"
-                >
-                  <ExternalProductImage
-                    src={pick.image}
-                    alt={pick.ourPickName}
-                    title={pick.title}
-                    fallbackAccentClassName="from-emerald-100 via-white to-sky-100"
-                    className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                  />
-                </a>
               </div>
 
               <div className="min-w-0 flex-1">

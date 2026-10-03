@@ -72,7 +72,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -92,7 +92,7 @@ const products: Product[] = [
     ourPickWhy:
       'A repeat Amazon top seller in the dorm-bedding category because it hits the right combination: deep pockets, soft brushed microfiber that handles dorm laundry machines, and a price that makes a backup set easy to justify.',
     asin: 'B09F38BJRC',
-    image: 'https://m.media-amazon.com/images/I/81CyI+aWMtL._AC_SL480_.jpg',
+
     amazonQuery: 'twin xl sheet set dorm',
   },
   {
@@ -110,7 +110,7 @@ const products: Product[] = [
     ourPickWhy:
       'One of the most-reviewed toppers on Amazon in this size, and the 3-inch gel version specifically addresses the two dorm complaints that matter: a rock-hard base and a hot room.',
     asin: 'B07MY2L58J',
-    image: 'https://m.media-amazon.com/images/I/81H3-5WU+GL._AC_SL480_.jpg',
+
     amazonQuery: 'twin xl mattress topper gel memory foam',
   },
   {
@@ -128,7 +128,7 @@ const products: Product[] = [
     ourPickWhy:
       'A long-running Amazon favorite in the Twin XL category, with an all-season fill weight and a washable build that fits how dorm bedding actually gets treated.',
     asin: 'B00Q5MSQQM',
-    image: 'https://m.media-amazon.com/images/I/81RuMB66VNL._AC_SL480_.jpg',
+
     amazonQuery: 'twin xl comforter set dorm',
   },
   {
@@ -146,7 +146,7 @@ const products: Product[] = [
     ourPickWhy:
       'The fixed-strap design matters on metal dorm frames where loose-hanging caddies slide around, and the bottle holder is the detail that separates it from generic versions.',
     asin: 'B0CGLRJFMW',
-    image: 'https://m.media-amazon.com/images/I/71Kvqrm3aqL._AC_SL480_.jpg',
+
     amazonQuery: 'bedside caddy dorm bunk bed',
   },
   {
@@ -164,7 +164,7 @@ const products: Product[] = [
     ourPickWhy:
       'A consistent Amazon best seller in the clip-fan category, with three speeds and a clamp that holds onto round bunk rails — the exact mounting situation a lofted dorm bed creates.',
     asin: 'B089Q279R3',
-    image: 'https://m.media-amazon.com/images/I/718w-RQMEyL._AC_SL480_.jpg',
+
     amazonQuery: 'clip on fan dorm bed usb',
   },
   {
@@ -182,7 +182,7 @@ const products: Product[] = [
     ourPickWhy:
       'USB-powered with a remote and 33 feet of wire, which is enough to run a full perimeter of a standard double room without daisy-chaining a second set.',
     asin: 'B07STZQ744',
-    image: 'https://m.media-amazon.com/images/I/81qmsBWBxrL._AC_SL480_.jpg',
+
     amazonQuery: 'led string lights dorm room usb',
   },
   {
@@ -200,7 +200,7 @@ const products: Product[] = [
     ourPickWhy:
       'Drain holes, a comfortable handle, and adjustable dividers that keep a tall shampoo bottle from tipping the whole basket — the small design details that matter by week three.',
     asin: 'B0CJ2P5GBM',
-    image: 'https://m.media-amazon.com/images/I/61bGldzWByL._AC_SL480_.jpg',
+
     amazonQuery: 'portable shower caddy dorm',
   },
   {
@@ -218,7 +218,7 @@ const products: Product[] = [
     ourPickWhy:
       'One of the highest-volume towel listings on Amazon, and the 8-piece configuration — two bath, two hand, four washcloths — is exactly one laundry cycle of buffer for one person.',
     asin: 'B00GQP0XTQ',
-    image: 'https://m.media-amazon.com/images/I/91xpBpKYs8L._AC_SL480_.jpg',
+
     amazonQuery: 'bath towel set quick dry college',
   },
   {
@@ -236,7 +236,7 @@ const products: Product[] = [
     ourPickWhy:
       'A dorm-legal size from a recognizable appliance brand, with a chiller compartment for the freezer-adjacent basics and a retro shape that reads as decor instead of equipment.',
     asin: 'B084GSNPH1',
-    image: 'https://m.media-amazon.com/images/I/51H8sG8rFxL._AC_SL480_.jpg',
+
     amazonQuery: 'mini fridge dorm 3.2 cu ft',
   },
   {
@@ -254,7 +254,7 @@ const products: Product[] = [
     ourPickWhy:
       'The 10-foot cord is the headline feature for a dorm, where the only free outlet is never near the desk, and the night-light base is surprisingly useful in a shared room after lights-out.',
     asin: 'B09J86D71C',
-    image: 'https://m.media-amazon.com/images/I/61NV3WimsxL._AC_SL480_.jpg',
+
     amazonQuery: 'surge protector power strip tower usb dorm',
   },
   {
@@ -272,7 +272,7 @@ const products: Product[] = [
     ourPickWhy:
       'Twenty non-looping sounds, a memory function that holds your settings, and a price point around what two coffee runs cost — the value pick in the category by a wide margin.',
     asin: 'B07RWRJ4XW',
-    image: 'https://m.media-amazon.com/images/I/71CBN1gUirL._AC_SL480_.jpg',
+
     amazonQuery: 'white noise machine dorm sleep',
   },
   {
@@ -290,7 +290,7 @@ const products: Product[] = [
     ourPickWhy:
       'The 90-liter size swallows an entire off-season wardrobe per bag, and the reinforced handles survive being dragged out from under a bed all year — the exact failure point of cheaper versions.',
     asin: 'B09Q38H2J4',
-    image: 'https://m.media-amazon.com/images/I/81Fap+ZlUIL._AC_SL480_.jpg',
+
     amazonQuery: 'under bed storage bins dorm',
   },
   {
@@ -308,7 +308,7 @@ const products: Product[] = [
     ourPickWhy:
       'A slim bracket that lets the door close normally and hooks spaced far enough apart that a bath towel and a backpack can hang side by side without overlapping.',
     asin: 'B0DG7XXMV7',
-    image: 'https://m.media-amazon.com/images/I/51MiPn6BB2L._AC_SL480_.jpg',
+
     amazonQuery: 'over the door hooks dorm',
   },
   {
@@ -326,7 +326,7 @@ const products: Product[] = [
     ourPickWhy:
       'Three AC outlets and four USB ports built into the lamp base turn one desk corner into the charging hub for the whole bedside, which is exactly the consolidation a shared desk needs.',
     asin: 'B0D2LGK82V',
-    image: 'https://m.media-amazon.com/images/I/61RTVGWbTzL._AC_SL480_.jpg',
+
     amazonQuery: 'desk lamp usb charging port outlet dorm',
   },
   {
@@ -344,7 +344,7 @@ const products: Product[] = [
     ourPickWhy:
       'Padded straps that do not dig in under twenty pounds of clothes, a mesh pocket for supplies, and a top opening wide enough to actually load a machine from — the three things cheap drawstring bags get wrong.',
     asin: 'B08R7FP1HT',
-    image: 'https://m.media-amazon.com/images/I/61p4SubT6CS._AC_SL480_.jpg',
+
     amazonQuery: 'laundry backpack bag college dorm',
   },
   {
@@ -362,7 +362,7 @@ const products: Product[] = [
     ourPickWhy:
       'Purpose-built for exactly this setting: compact enough for a desk drawer, stocked toward the sick-day and minor-scrape scenarios dorm life actually produces.',
     asin: 'B01E53NB9O',
-    image: 'https://m.media-amazon.com/images/I/71TWv2-3q7L._AC_SL480_.jpg',
+
     amazonQuery: 'first aid kit college dorm',
   },
 ]
@@ -531,20 +531,6 @@ export default function BestDormRoomEssentialsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={product.image}
-                      alt={product.ourPickName}
-                      loading="lazy"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

@@ -35,7 +35,7 @@ export default function CyberpunkPage() {
       </p>
       <img src={heroImage} alt="A neon-soaked cyberpunk city scene with glowing signs, wet streets, and futuristic urban atmosphere." className="mb-6 w-full rounded-xl shadow-sm" />
       <p className="mb-8 rounded-xl border border-cyan-200 bg-cyan-50 px-4 py-3 text-sm leading-relaxed text-cyan-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and price can change — confirm before purchasing.
+        Check the title, author, edition and current availability on Amazon. Availability and price can change — confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-4 text-2xl font-bold text-gray-900">What is cyberpunk, and where did the genre come from?</h2>
@@ -56,7 +56,7 @@ export default function CyberpunkPage() {
           <thead><tr className="border-b border-gray-200 bg-gray-50"><th className="px-3 py-3 font-semibold">Book</th><th className="px-3 py-3 font-semibold">Author</th><th className="px-3 py-3 font-semibold">Best For</th><th className="px-3 py-3 font-semibold">Amazon</th></tr></thead>
           <tbody>
             {picks.map(([title, author, fit]) => (
-              <tr key={title} className="border-b border-gray-100"><td className="px-3 py-3 font-semibold">{title}</td><td className="px-3 py-3 text-gray-700">{author}</td><td className="px-3 py-3 text-gray-700">{fit}</td><td className="px-3 py-3"><a href={`https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`} target="_blank" rel="noopener nofollow" className="font-semibold text-cyan-700">Find on Amazon</a></td></tr>
+              <tr key={title} className="border-b border-gray-100"><td className="px-3 py-3 font-semibold">{title}</td><td className="px-3 py-3 text-gray-700">{author}</td><td className="px-3 py-3 text-gray-700">{fit}</td><td className="px-3 py-3"><a href={`https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`} target="_blank" rel="noopener nofollow sponsored" className="font-semibold text-cyan-700">Find on Amazon</a></td></tr>
             ))}
           </tbody>
         </table>
@@ -73,7 +73,7 @@ export default function CyberpunkPage() {
           <strong> <a href="/books/best-sci-fi-doorstoppers-epic-space-opera">best sci-fi doorstoppers and epic space opera</a></strong>
           and <strong><a href="/books/best-science-fiction-books">best science fiction books</a></strong>.
         </p>
-        <a href={`https://www.amazon.com/s?k=${encodeURIComponent('Neuromancer William Gibson')}&tag=althcu-20`} target="_blank" rel="noopener nofollow" className="mt-5 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-cyan-700 px-6 py-3 text-base font-bold text-white transition hover:bg-cyan-600">
+        <a href={`https://www.amazon.com/s?k=${encodeURIComponent('Neuromancer William Gibson')}&tag=althcu-20`} target="_blank" rel="noopener nofollow sponsored" className="mt-5 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-cyan-700 px-6 py-3 text-base font-bold text-white transition hover:bg-cyan-600">
           Click Here to Buy on Amazon
         </a>
       </section>

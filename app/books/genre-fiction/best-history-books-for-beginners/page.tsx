@@ -46,8 +46,7 @@ const picks = [
     pros: [
       "No prior history knowledge required — Harari defines every concept as it's introduced",
       'Covers more ground than any other book on this list — prehistoric humanity through the present',
-      '4.6-star average on Amazon across 100,000+ reviews — one of the most consistently praised non-fiction books of the past decade',
-      'Kindle edition under $15; frequently on sale',
+      'Compare available print, Kindle and audio formats',
     ],
     cons: [
       "Harari's grand claims are contested by specialists — the book is better read as an argument than a textbook",
@@ -263,7 +262,7 @@ export default function BestHistoryBooksForBeginnersPage() {
             whether narrative history is for you before committing to 400 pages.
           </p>
           <p className="text-sm text-gray-500 italic">
-            Specs and prices verified against Amazon as of April 2026. Prices change —
+            Check the edition and current price on Amazon —
             confirm before purchasing.
           </p>
         </div>

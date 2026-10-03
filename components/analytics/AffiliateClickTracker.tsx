@@ -10,10 +10,10 @@ function getAffiliatePlatform(href: string): AffiliatePlatform {
     const url = new URL(href)
     const host = url.hostname.toLowerCase()
 
-    // Older HTML comparisons use bestpickzone-20; newer React articles use althcu-20.
+    // Recognize the site, disclosed partner placements, and the branded storefront.
     if (
       (host === 'amazon.com' || host.endsWith('.amazon.com')) &&
-      ['althcu-20', 'bestpickzone-20', 'fitnessbankd-20'].includes(url.searchParams.get('tag') ?? '')
+      (['althcu-20', 'fitnessbankd-20'].includes(url.searchParams.get('tag') ?? '') || url.pathname === '/shop/althcu')
     ) {
       return 'amazon'
     }

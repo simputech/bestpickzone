@@ -338,7 +338,7 @@ export default function BestNewBooksJune2026Page() {
                       <Link
                         href={getAmazonSearchUrl(p.title, p.author)}
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="noopener noreferrer sponsored"
                         className="inline-flex items-center justify-center rounded-lg bg-yellow-400 px-3 py-2 text-xs font-bold text-gray-900 transition-colors hover:bg-yellow-300"
                       >
                         Find on Amazon

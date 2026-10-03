@@ -72,7 +72,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -92,7 +92,7 @@ const products: Product[] = [
     ourPickWhy:
       'Adjustable between two heights, rated to 1,300 pounds, and cheap enough that the answer to “will it fit under the bed?” becomes yes by default.',
     asin: 'B073WFCV1L',
-    image: 'https://m.media-amazon.com/images/I/81oxQ1TGBML._AC_SL480_.jpg',
+
     amazonQuery: 'bed risers dorm adjustable',
   },
   {
@@ -110,7 +110,7 @@ const products: Product[] = [
     ourPickWhy:
       'The high-volume Amazon standard: lockable wheels, a handle that makes moving it one-handed, and shelf lips that keep the clutter aboard while it rolls.',
     asin: 'B09R1TMP83',
-    image: 'https://m.media-amazon.com/images/I/71YdhU3sCXL._AC_SL480_.jpg',
+
     amazonQuery: '3 tier rolling cart dorm',
   },
   {
@@ -128,7 +128,7 @@ const products: Product[] = [
     ourPickWhy:
       'Reinforced shelves that hold shape under real clothing weight, side pockets for accessories, and a width that leaves rod space for actual hangers.',
     asin: 'B07SYPLVTG',
-    image: 'https://m.media-amazon.com/images/I/61+pb4y2RLL._AC_SL480_.jpg',
+
     amazonQuery: 'hanging closet organizer shelves',
   },
   {
@@ -146,7 +146,7 @@ const products: Product[] = [
     ourPickWhy:
       'The bulk-value standard in the category: consistent build, real non-slip flocking, and a 50-count that converts an entire dorm closet in one box.',
     asin: 'B01G3WS3PW',
-    image: 'https://m.media-amazon.com/images/I/71Vkz4NYn6L._AC_SL480_.jpg',
+
     amazonQuery: 'velvet hangers 50 pack slim',
   },
   {
@@ -164,7 +164,7 @@ const products: Product[] = [
     ourPickWhy:
       'The commodity pick done properly: real pocket stitching, door hooks that let the door still close, and a price that invites buying one per roommate.',
     asin: 'B07227PWVP',
-    image: 'https://m.media-amazon.com/images/I/61RwEw+BlJL._AC_SL480_.jpg',
+
     amazonQuery: 'over the door shoe organizer pockets',
   },
   {
@@ -182,7 +182,7 @@ const products: Product[] = [
     ourPickWhy:
       'The brand that defines the category, in the assortment that covers a school year of unpredictable hanging jobs with adhesive that actually releases clean.',
     asin: 'B07712H557',
-    image: 'https://m.media-amazon.com/images/I/71Livypa6vL._AC_SL480_.jpg',
+
     amazonQuery: 'command hooks variety pack',
   },
   {
@@ -200,7 +200,7 @@ const products: Product[] = [
     ourPickWhy:
       'Clear removable bins in a sturdy frame, sized so the tower works as a nightstand — the double-duty test every piece of dorm furniture should pass.',
     asin: 'B0FNQY2L3G',
-    image: 'https://m.media-amazon.com/images/I/61wZKP22CDL._AC_SL480_.jpg',
+
     amazonQuery: 'plastic storage drawers 3 drawer tower',
   },
   {
@@ -218,7 +218,7 @@ const products: Product[] = [
     ourPickWhy:
       'Strong seams and valves that hold the seal for months — the failure point of cheap bags — in a multi-size pack that covers comforters down to sweaters.',
     asin: 'B0973DGD8P',
-    image: 'https://m.media-amazon.com/images/I/81JmVgvOmCL._AC_SL480_.jpg',
+
     amazonQuery: 'vacuum storage bags clothes comforter',
   },
   {
@@ -236,7 +236,7 @@ const products: Product[] = [
     ourPickWhy:
       'Four sizes that tile cleanly together, non-slip pads included, and a count high enough to grid every drawer in the room from one box.',
     asin: 'B08KXKVT4K',
-    image: 'https://m.media-amazon.com/images/I/81yj+PUYVxL._AC_SL480_.jpg',
+
     amazonQuery: 'desk drawer organizer trays set',
   },
   {
@@ -254,7 +254,7 @@ const products: Product[] = [
     ourPickWhy:
       'The eight-pack covers the full dorm food ecosystem — snacks, drinks, breakfast, backup — with sturdy walls and handles that survive being carried loaded.',
     asin: 'B0B9BDQTV9',
-    image: 'https://m.media-amazon.com/images/I/81pDVogHaEL._AC_SL480_.jpg',
+
     amazonQuery: 'clear storage bins snack organizer',
   },
   {
@@ -272,7 +272,7 @@ const products: Product[] = [
     ourPickWhy:
       'The standard cube done consistently: sturdy sides that keep shape, sewn handles, multi-packs in colors that match rather than clash with a dorm.',
     asin: 'B09TTS4WKJ',
-    image: 'https://m.media-amazon.com/images/I/51RNWzgU0aL._AC_SL480_.jpg',
+
     amazonQuery: 'fabric storage cubes bins',
   },
   {
@@ -290,7 +290,7 @@ const products: Product[] = [
     ourPickWhy:
       'The established pick in the category: strong clamp that fits standard dorm rails, a surface big enough for a laptop, and a built-in cord slot.',
     asin: 'B078SFKVMG',
-    image: 'https://m.media-amazon.com/images/I/814EzylMjML._AC_SL480_.jpg',
+
     amazonQuery: 'bedside shelf clamp on bunk bed',
   },
   {
@@ -308,7 +308,7 @@ const products: Product[] = [
     ourPickWhy:
       'Solid shelves that hold real textbook weight, a footprint that fits standard dorm desks, and a clean look that upgrades the desk instead of cluttering it.',
     asin: 'B0C2KR6BVM',
-    image: 'https://m.media-amazon.com/images/I/71lAIF6iw+L._AC_SL480_.jpg',
+
     amazonQuery: 'desktop bookshelf organizer desk hutch',
   },
   {
@@ -326,7 +326,7 @@ const products: Product[] = [
     ourPickWhy:
       'Sturdy handles for the laundry-room trip, a side pocket for detergent pods, and a fold-flat frame that survives being stuffed in a suitcase twice a year.',
     asin: 'B09MS22P3M',
-    image: 'https://m.media-amazon.com/images/I/81TgmJ9uw8L._AC_SL480_.jpg',
+
     amazonQuery: 'collapsible pop up laundry hamper',
   },
   {
@@ -344,7 +344,7 @@ const products: Product[] = [
     ourPickWhy:
       'Holds serious weight as seating, opens to a genuinely large storage cavity, and folds flat for move-out day — the full dorm-furniture checklist.',
     asin: 'B07JNFKYC3',
-    image: 'https://m.media-amazon.com/images/I/810mT03Bl1L._AC_SL480_.jpg',
+
     amazonQuery: 'folding storage ottoman bench',
   },
   {
@@ -362,7 +362,7 @@ const products: Product[] = [
     ourPickWhy:
       'Two panels with clips and cord included, light enough for adhesive hook mounting, and a clean black or white grid that photographs like a design choice.',
     asin: 'B0B9JLH1MD',
-    image: 'https://m.media-amazon.com/images/I/71PoeSFeELL._AC_SL480_.jpg',
+
     amazonQuery: 'wall grid panel photo display',
   },
 ]
@@ -531,20 +531,6 @@ export default function BestDormOrganizationProductsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={product.image}
-                      alt={product.ourPickName}
-                      loading="lazy"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-rose-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

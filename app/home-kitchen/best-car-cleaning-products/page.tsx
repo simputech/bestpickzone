@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -74,7 +73,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -97,7 +96,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a long-trusted option because it is fast, surface-friendly, and built for the kind of everyday wipe-down that keeps cars from slowly feeling dusty and worn.',
     asin: 'B000NXTGTO',
-    image: 'https://m.media-amazon.com/images/I/71qnR5x4vEL._AC_SL1500_.jpg',
+
     amazonQuery: 'Meguiars Quik Interior Detailer Cleaner',
   },
   {
@@ -118,7 +117,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are affordable, easy to stock in multiples, and practical for the repeated wipe-down jobs that keep a daily driver cleaner without overthinking it.',
     asin: 'B00Q7385JW',
-    image: 'https://m.media-amazon.com/images/I/81Q4kQ0T8lL._AC_SL1500_.jpg',
+
     amazonQuery: 'Amazon Basics microfiber cleaning cloths',
   },
   {
@@ -139,7 +138,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a popular handheld because it is compact, easy to grab, and much better suited to quick interior cleanup than hauling out a larger vacuum every time.',
     asin: 'B0753QJQQ2',
-    image: 'https://m.media-amazon.com/images/I/71sL+v7uX4L._AC_SL1500_.jpg',
+
     amazonQuery: 'BLACK+DECKER dustbuster AdvancedClean cordless handheld vacuum',
   },
   {
@@ -160,7 +159,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is widely used because it handles the exact frustrating spots that stay dusty even after a normal wipe-down.',
     asin: 'B07GW9TJ3G',
-    image: 'https://m.media-amazon.com/images/I/71V4lP1mH2L._AC_SL1500_.jpg',
+
     amazonQuery: 'PULIDIKI car cleaning gel',
   },
   {
@@ -181,7 +180,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a staple in this category because it is built specifically for clear, residue-light glass cleaning rather than generic household compromise.',
     asin: 'B0007OWD2M',
-    image: 'https://m.media-amazon.com/images/I/71SxQe6a5kL._AC_SL1500_.jpg',
+
     amazonQuery: 'Invisible Glass Premium Glass Cleaner',
   },
   {
@@ -202,7 +201,7 @@ const products: Product[] = [
     ourPickWhy:
       'It covers the common use cases well, from vents and trim to wheel faces, without requiring a bulky professional setup.',
     asin: 'B09YTYG5VQ',
-    image: 'https://m.media-amazon.com/images/I/81t0h8LshnL._AC_SL1500_.jpg',
+
     amazonQuery: 'HMPLL auto detailing brush set',
   },
   {
@@ -223,7 +222,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is respected for straightforward leather care and for being more about material health than fake showroom gloss.',
     asin: 'B01NC3T4CI',
-    image: 'https://m.media-amazon.com/images/I/71iB-2C1s0L._AC_SL1500_.jpg',
+
     amazonQuery: 'Leather Honey Leather Cleaner',
   },
   {
@@ -244,7 +243,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is made specifically for fabric and carpet cleanup, which makes it more useful than trying to force a general cleaner to do a deeper upholstery job.',
     asin: 'B00B435N1Y',
-    image: 'https://m.media-amazon.com/images/I/71m34H1P+4L._AC_SL1500_.jpg',
+
     amazonQuery: 'Chemical Guys Foaming Citrus Fabric Clean',
   },
   {
@@ -265,7 +264,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is widely used because it targets the exact kind of grime ordinary wash soap struggles to cut through on wheels and tires.',
     asin: 'B0002U2V1Y',
-    image: 'https://m.media-amazon.com/images/I/71s6k61q6SL._AC_SL1500_.jpg',
+
     amazonQuery: 'Meguiars Hot Rims Wheel and Tire Cleaner',
   },
   {
@@ -286,7 +285,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a straightforward, purpose-built tool that helps reach the tight areas where wheel grime tends to survive.',
     asin: 'B001GJ3DZS',
-    image: 'https://m.media-amazon.com/images/I/61g6nX4xZoL._AC_SL1500_.jpg',
+
     amazonQuery: 'Mothers wheel brush',
   },
   {
@@ -307,7 +306,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is built for the exact middle ground most drivers need: faster than a wash, more effective than dry wiping, and good for keeping dust from piling up visually.',
     asin: 'B0009IQXFO',
-    image: 'https://m.media-amazon.com/images/I/71d5P8Uf7CL._AC_SL1500_.jpg',
+
     amazonQuery: 'Meguiars Quik Detailer Mist and Wipe',
   },
   {
@@ -328,7 +327,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is built for the specific problem of lingering cabin odor and is more targeted than tossing in another hanging scent card.',
     asin: 'B00G49DUW4',
-    image: 'https://m.media-amazon.com/images/I/71kNmWLi7-L._AC_SL1500_.jpg',
+
     amazonQuery: 'Meguiars Whole Car Air Re-Fresher',
   },
   {
@@ -349,7 +348,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is easy to grab, soft enough for frequent use, and well suited to the kind of maintenance pass that prevents bigger mess later.',
     asin: 'B00940DV9A',
-    image: 'https://m.media-amazon.com/images/I/71zA03I4L2L._AC_SL1500_.jpg',
+
     amazonQuery: 'OXO Good Grips microfiber hand duster',
   },
   {
@@ -370,7 +369,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a practical upgrade because it turns one of the most common car-mess sources into a much smaller problem.',
     asin: 'B07VGRVKSN',
-    image: 'https://m.media-amazon.com/images/I/71N0jH4O36L._AC_SL1500_.jpg',
+
     amazonQuery: 'HOTOR car trash can',
   },
   {
@@ -391,7 +390,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is purpose-built for safe hand washing and is a much better fit for automotive paint than generic cleaning materials.',
     asin: 'B00BQYCK70',
-    image: 'https://m.media-amazon.com/images/I/71MPrqzm4CL._AC_SL1500_.jpg',
+
     amazonQuery: 'Chemical Guys chenille wash mitt',
   },
 ]
@@ -575,20 +574,6 @@ export default function BestCarCleaningProductsPage() {
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-sky-100 text-lg font-black text-sky-700">
                     {product.rank}
                   </div>
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    <ExternalProductImage
-                      src={product.image}
-                      alt={product.ourPickName}
-                      title={product.title}
-                      fallbackAccentClassName="from-sky-100 via-white to-amber-100"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                 </div>
 
                 <div className="min-w-0 flex-1">

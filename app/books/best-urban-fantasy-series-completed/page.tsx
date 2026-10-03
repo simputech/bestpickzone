@@ -35,7 +35,7 @@ export default function UrbanFantasyCompletedPage() {
       </p>
       <img src={heroImage} alt="An array of urban fantasy series paperbacks set against a moody, blurred city night backdrop." className="mb-6 w-full rounded-xl shadow-sm" />
       <p className="mb-8 rounded-xl border border-purple-200 bg-purple-50 px-4 py-3 text-sm leading-relaxed text-purple-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and price can change — confirm before purchasing.
+        Check the title, author, edition and current availability on Amazon. Availability and price can change — confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-4 text-2xl font-bold text-gray-900">What is urban fantasy, and why do readers like it so much?</h2>
@@ -55,7 +55,7 @@ export default function UrbanFantasyCompletedPage() {
           <thead><tr className="border-b border-gray-200 bg-gray-50"><th className="px-3 py-3 font-semibold">Series</th><th className="px-3 py-3 font-semibold">Best For</th><th className="px-3 py-3 font-semibold">Amazon</th></tr></thead>
           <tbody>
             {picks.map(([title, author, fit]) => (
-              <tr key={title} className="border-b border-gray-100"><td className="px-3 py-3 font-semibold">{title}</td><td className="px-3 py-3 text-gray-700">{fit}</td><td className="px-3 py-3"><a href={`https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`} target="_blank" rel="noopener nofollow" className="font-semibold text-purple-700">Find on Amazon</a></td></tr>
+              <tr key={title} className="border-b border-gray-100"><td className="px-3 py-3 font-semibold">{title}</td><td className="px-3 py-3 text-gray-700">{fit}</td><td className="px-3 py-3"><a href={`https://www.amazon.com/s?k=${encodeURIComponent(`${title} ${author}`)}&tag=althcu-20`} target="_blank" rel="noopener nofollow sponsored" className="font-semibold text-purple-700">Find on Amazon</a></td></tr>
             ))}
           </tbody>
         </table>
@@ -71,7 +71,7 @@ export default function UrbanFantasyCompletedPage() {
           <strong> <a href="/books/best-fantasy-series-for-adults">best fantasy series for adults</a></strong>
           and <strong><a href="/books/books-like-fourth-wing-fantasy-romance">books like Fourth Wing</a></strong>.
         </p>
-        <a href={`https://www.amazon.com/s?k=${encodeURIComponent('Magic Bites Ilona Andrews')}&tag=althcu-20`} target="_blank" rel="noopener nofollow" className="mt-5 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-purple-600 px-6 py-3 text-base font-bold text-white transition hover:bg-purple-500">
+        <a href={`https://www.amazon.com/s?k=${encodeURIComponent('Magic Bites Ilona Andrews')}&tag=althcu-20`} target="_blank" rel="noopener nofollow sponsored" className="mt-5 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-purple-600 px-6 py-3 text-base font-bold text-white transition hover:bg-purple-500">
           Click Here to Buy on Amazon
         </a>
       </section>

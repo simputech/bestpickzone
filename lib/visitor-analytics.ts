@@ -17,10 +17,11 @@ export function visitorAnalyticsAllowed() {
   if (window.__BPZ_DISABLE_ANALYTICS__ || window.navigator.webdriver) return false
   const optedOut = new URLSearchParams(window.location.search).get('bpz_analytics') === 'off'
   try {
+    if (window.localStorage.getItem('bpz_analytics_consent') !== 'granted') return false
     if (optedOut) window.sessionStorage.setItem('bpz_analytics', 'off')
     if (window.sessionStorage.getItem('bpz_analytics') === 'off') return false
   } catch {
-    // Storage may be unavailable; the URL and explicit window flag still work.
+    return false
   }
   return !optedOut
 }

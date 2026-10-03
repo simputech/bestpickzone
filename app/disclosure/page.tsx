@@ -37,7 +37,7 @@ export default function DisclosurePage() {
         </p>
         <h1 className="text-4xl font-black text-slate-900 md:text-5xl">Affiliate disclosure</h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
-          BestPickZone participates in affiliate programs, including the Amazon Services LLC Associates Program. That means we may earn a commission when you buy through certain links on the site, at no extra cost to you.
+          As an Amazon Associate I earn from qualifying purchases. BestPickZone participates in affiliate programs, including the Amazon Services LLC Associates Program. We may earn a commission when you buy through certain links on the site, at no extra cost to you.
         </p>
       </section>
 

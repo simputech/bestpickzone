@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -47,7 +46,7 @@ const masks = [
     skipIf:
       'You want a lower entry price or you specifically want a mask story that leans harder on amber-yellow pigment framing.',
     query: 'Omnilux Contour Face mask',
-    image: 'https://m.media-amazon.com/images/I/not-real-omnilux.jpg',
+
   },
   {
     name: 'CurrentBody Skin LED Series 2',
@@ -61,7 +60,7 @@ const masks = [
     skipIf:
       'You want the simplest answer and do not want to live in premium LED-mask comparison loops.',
     query: 'CurrentBody Skin LED mask Series 2',
-    image: 'https://m.media-amazon.com/images/I/not-real-currentbody.jpg',
+
   },
   {
     name: 'Amber-leaning pigment option',
@@ -75,7 +74,7 @@ const masks = [
     skipIf:
       'You are looking for the most established, evidence-first premium recommendation rather than a more concern-signaled option.',
     query: 'amber yellow LED face mask hyperpigmentation',
-    image: 'https://m.media-amazon.com/images/I/not-real-ambermask.jpg',
+
   },
 ]
 
@@ -140,9 +139,6 @@ export default function LedMaskMelasmaPage() {
             <div className="flex flex-col gap-6 lg:flex-row">
               <div className="flex items-start gap-4 lg:w-[200px] lg:flex-col">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-lg font-black text-amber-700">{index + 1}</div>
-                <a href={amazonSearch(mask.query)} target="_blank" rel="noopener nofollow sponsored">
-                  <ExternalProductImage src={mask.image} alt={mask.name} title={mask.name} fallbackAccentClassName="from-amber-100 via-white to-rose-100" className="h-32 w-32 rounded-2xl border border-amber-100 bg-white object-contain p-2" />
-                </a>
               </div>
               <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-center gap-3">

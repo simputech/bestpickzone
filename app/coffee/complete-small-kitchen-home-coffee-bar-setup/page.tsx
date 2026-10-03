@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -99,9 +98,6 @@ export default function SmallKitchenCoffeeBarPage() {
             <div className="flex flex-col gap-6 lg:flex-row">
               <div className="flex items-start gap-4 lg:w-[200px] lg:flex-col">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-lg font-black text-amber-800">{index + 1}</div>
-                <a href={amazonSearch(query)} target="_blank" rel="noopener nofollow sponsored">
-                  <ExternalProductImage src="https://m.media-amazon.com/images/I/not-real-coffeebar.jpg" alt={name} title={name} fallbackAccentClassName="from-amber-100 via-white to-stone-100" className="h-32 w-32 rounded-2xl border border-stone-100 bg-white object-contain p-2" />
-                </a>
               </div>
               <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-center gap-3">

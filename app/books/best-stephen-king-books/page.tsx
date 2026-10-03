@@ -370,7 +370,7 @@ export default function BestStephenKingBooksPage() {
             <p className="leading-relaxed text-stone-700">
               We also cross-check basics like title, author, and current marketplace availability
               before publishing. For bibliography context beyond buying links, the official{' '}
-              <a href="https://stephenking.com/works/" target="_blank" rel="noopener nofollow">
+              <a href="https://stephenking.com/works/" target="_blank" rel="noopener nofollow sponsored">
                 Stephen King works archive
               </a>{' '}
               remains the cleanest source for publication history, while this page focuses on
@@ -481,7 +481,7 @@ export default function BestStephenKingBooksPage() {
                   </h2>
                   <div className="grid gap-6 md:grid-cols-[220px_1fr] md:items-start">
                     <div>
-                      <a href={href} target="_blank" rel="noopener nofollow" className="mb-4 block">
+                      <a href={href} target="_blank" rel="noopener nofollow sponsored" className="mb-4 block">
                         <img
                           src={book.cover}
                           alt={`${book.title} by Stephen King custom recommendation cover art`}
@@ -491,7 +491,7 @@ export default function BestStephenKingBooksPage() {
                       <a
                         href={href}
                         target="_blank"
-                        rel="noopener nofollow"
+                        rel="noopener nofollow sponsored"
                         className="inline-flex min-h-[44px] w-full items-center justify-center rounded-full bg-stone-950 px-5 py-3 text-sm font-bold text-white transition hover:bg-stone-800"
                       >
                         Shop on Amazon
@@ -499,7 +499,7 @@ export default function BestStephenKingBooksPage() {
                     </div>
                     <div>
                       <p className="mb-4 text-lg leading-relaxed text-stone-700">
-                        <a href={href} target="_blank" rel="noopener nofollow">
+                        <a href={href} target="_blank" rel="noopener nofollow sponsored">
                           <strong>{book.title}</strong>
                         </a>{' '}
                         was first published in {book.year} and is the Stephen King recommendation

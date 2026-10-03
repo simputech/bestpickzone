@@ -45,7 +45,7 @@ const picks = [
       'Winner of the National Book Critics Circle Award; taught in high schools and universities for 35 years because it rewards every level of reading',
       'Individual stories (particularly "How to Tell a True War Story" and "The Man I Killed") are among the finest short fiction in American literature',
       'Short — 246 pages — readable in a weekend',
-      'Kindle edition under $10',
+      'Check current Kindle price',
     ],
     cons: [
       'Not a conventional narrative — readers who want a linear plot will be disoriented',
@@ -259,7 +259,7 @@ export default function BestMilitaryFictionBooksPage() {
             for readers who want genre pacing over literary ambition.
           </p>
           <p className="text-sm text-gray-500 italic">
-            Specs and prices verified against Amazon as of April 2026. Prices change —
+            Check the edition and current price on Amazon —
             confirm before purchasing.
           </p>
         </div>

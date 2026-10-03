@@ -131,7 +131,7 @@ export default function BestRealisticSpyThrillersPage() {
         is the better turn.
       </p>
       <p className="mb-8 rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm leading-relaxed text-slate-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change — confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -176,7 +176,7 @@ export default function BestRealisticSpyThrillersPage() {
           page, while Cold War specialists should move to
           <strong> <a href="/books/genre-fiction/best-cold-war-thriller-books">best Cold War thriller books</a></strong>.
           For bibliography context on the major le Carre titles, Penguin's
-          <a href="https://www.penguinrandomhouse.com/authors/49153/john-le-carre/" target="_blank" rel="noopener nofollow">
+          <a href="https://www.penguinrandomhouse.com/authors/49153/john-le-carre/" target="_blank" rel="noopener nofollow sponsored">
             {' '}John le Carre author page
           </a>{' '}
           is a solid reference.
@@ -199,13 +199,13 @@ export default function BestRealisticSpyThrillersPage() {
                 'Can Slow Horses still count as realistic if it is funny?'}
             </h2>
             <p className="mb-4 leading-relaxed text-gray-700">
-              <a href={href} target="_blank" rel="noopener nofollow">
+              <a href={href} target="_blank" rel="noopener nofollow sponsored">
                 <strong>{pick.title}</strong>
               </a>{' '}
               is the best realistic-spy-thriller recommendation for <strong>{pick.fit.toLowerCase()}</strong>
               {' '}and runs about {pick.pages.toLowerCase()}.
             </p>
-            <a href={href} target="_blank" rel="noopener nofollow" className="mb-4 inline-flex">
+            <a href={href} target="_blank" rel="noopener nofollow sponsored" className="mb-4 inline-flex">
               <img
                 src={pick.cover}
                 alt={`${pick.title} by ${pick.author} custom recommendation cover art`}
@@ -234,7 +234,7 @@ export default function BestRealisticSpyThrillersPage() {
             <p className="mb-4 leading-relaxed text-amber-900">
               <strong>Skip this if:</strong> {pick.skipIf}
             </p>
-            <a href={href} target="_blank" rel="noopener nofollow" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-slate-700 px-6 py-3 text-base font-bold text-white transition hover:bg-slate-600">
+            <a href={href} target="_blank" rel="noopener nofollow sponsored" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-slate-700 px-6 py-3 text-base font-bold text-white transition hover:bg-slate-600">
               Click Here to Buy on Amazon
             </a>
           </section>

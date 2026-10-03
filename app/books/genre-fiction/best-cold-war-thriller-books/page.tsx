@@ -45,7 +45,7 @@ const picks = [
       'Structurally perfect — Graham Greene called it the best spy novel he had ever read',
       'Short (240 pages) — reads in two sittings',
       'The moral argument (what distinguishes "our" methods from theirs?) remains entirely current',
-      'Kindle edition under $10',
+      'Check current Kindle price',
     ],
     cons: [
       'Deliberately ambiguous ending that some readers find unsatisfying',
@@ -254,7 +254,7 @@ export default function BestColdWarThrillerBooksPage() {
             adaptation for readers new to the genre.
           </p>
           <p className="text-sm text-gray-500 italic">
-            Specs and prices verified against Amazon as of April 2026. Prices change —
+            Check the edition and current price on Amazon —
             confirm before purchasing.
           </p>
         </div>

@@ -72,7 +72,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -92,7 +92,7 @@ const products: Product[] = [
     ourPickWhy:
       'A wide light bar on a clamp, with multiple color modes and enough brightness for late reading — the exact form factor a shallow dorm desk needs, at a student price.',
     asin: 'B0BB5ZBT42',
-    image: 'https://m.media-amazon.com/images/I/61RJ3ZzSURL._AC_SL480_.jpg',
+
     amazonQuery: 'led desk lamp clamp students',
   },
   {
@@ -110,7 +110,7 @@ const products: Product[] = [
     ourPickWhy:
       'The established budget pick in a category BenQ made expensive: asymmetric light that keeps glare off the screen, USB power, and a price that fits a semester budget.',
     asin: 'B08DKQ3JG1',
-    image: 'https://m.media-amazon.com/images/I/51p1Ui5sa7L._AC_SL480_.jpg',
+
     amazonQuery: 'monitor light bar usb',
   },
   {
@@ -128,7 +128,7 @@ const products: Product[] = [
     ourPickWhy:
       'Height-adjustable across the useful range, folds flat for a backpack, and holds a heavy laptop without the bounce that makes cheaper stands annoying to type near.',
     asin: 'B0B1L6R9NN',
-    image: 'https://m.media-amazon.com/images/I/61Jkuq77tXL._AC_SL480_.jpg',
+
     amazonQuery: 'laptop stand adjustable aluminum',
   },
   {
@@ -146,7 +146,7 @@ const products: Product[] = [
     ourPickWhy:
       'The default recommendation in budget wireless for a decade for a reason: it pairs instantly, batteries last most of a school year, and replacements are everywhere if something breaks.',
     asin: 'B079JLY5M5',
-    image: 'https://m.media-amazon.com/images/I/61+aByx2jML._AC_SL480_.jpg',
+
     amazonQuery: 'wireless keyboard and mouse combo',
   },
   {
@@ -164,7 +164,7 @@ const products: Product[] = [
     ourPickWhy:
       'The reversible cork/leather build covers both study modes — smooth side for mousing, cork side for grip under paper — and it wipes clean after the inevitable coffee event.',
     asin: 'B0BYDZQY2K',
-    image: 'https://m.media-amazon.com/images/I/71j5-Q1DgHL._AC_SL480_.jpg',
+
     amazonQuery: 'desk mat large dual sided',
   },
   {
@@ -182,7 +182,7 @@ const products: Product[] = [
     ourPickWhy:
       'Sturdy steel, an adjustable width that fits mismatched dorm desks, and enough clearance underneath for a full-size keyboard — the practical checklist for this category.',
     asin: 'B094QTGHNZ',
-    image: 'https://m.media-amazon.com/images/I/51kULJHh4BL._AC_SL480_.jpg',
+
     amazonQuery: 'monitor stand riser desk',
   },
   {
@@ -200,7 +200,7 @@ const products: Product[] = [
     ourPickWhy:
       'Comfortable enough to forget for a three-hour session, washable, and shaped to sit flush so they survive resting your head on your hand — the underrated study posture.',
     asin: 'B0D3V6Y38G',
-    image: 'https://m.media-amazon.com/images/I/51t0B9HHobL._AC_SL480_.jpg',
+
     amazonQuery: 'ear plugs studying noise reduction',
   },
   {
@@ -218,7 +218,7 @@ const products: Product[] = [
     ourPickWhy:
       'The long-running category favorite: solid bamboo, six angle settings, and page clips that hold a stiff new textbook open without creasing it.',
     asin: 'B07459P7BF',
-    image: 'https://m.media-amazon.com/images/I/71Mda9UuJhL._AC_SL480_.jpg',
+
     amazonQuery: 'book stand for textbooks adjustable',
   },
   {
@@ -236,7 +236,7 @@ const products: Product[] = [
     ourPickWhy:
       'The standard-setter in academic planners: clean weekly and monthly layouts running July 2026 through June 2027, durable cover, and a size that fits a backpack sleeve.',
     asin: 'B0FYRBKD2G',
-    image: 'https://m.media-amazon.com/images/I/71dtkmasQwL._AC_SL480_.jpg',
+
     amazonQuery: 'academic planner 2026-2027 weekly monthly',
   },
   {
@@ -254,7 +254,7 @@ const products: Product[] = [
     ourPickWhy:
       'The set that built the category: gentle colors that layer without shouting, dual tips, and ink that respects thin textbook paper.',
     asin: 'B0752WWCTN',
-    image: 'https://m.media-amazon.com/images/I/61+UTGlMreL._AC_SL480_.jpg',
+
     amazonQuery: 'zebra mildliner highlighters set',
   },
   {
@@ -272,7 +272,7 @@ const products: Product[] = [
     ourPickWhy:
       'Tempered surface that resists ghosting, a built-in organizer tray for markers, and a desktop stand — the whole scratch-work station in one box.',
     asin: 'B0DMZYK585',
-    image: 'https://m.media-amazon.com/images/I/61BIW9jyFLL._AC_SL480_.jpg',
+
     amazonQuery: 'desktop dry erase whiteboard stand',
   },
   {
@@ -290,7 +290,7 @@ const products: Product[] = [
     ourPickWhy:
       'Trays for paper, slots for notebooks, a drawer for chaos, and a pen cup, all in one footprint about the size of a textbook — the highest storage-per-inch ratio in the category.',
     asin: 'B096TF8NPR',
-    image: 'https://m.media-amazon.com/images/I/81MB7BHw60L._AC_SL480_.jpg',
+
     amazonQuery: 'mesh desk organizer with drawer',
   },
   {
@@ -308,7 +308,7 @@ const products: Product[] = [
     ourPickWhy:
       'Every fastener type a desk needs in one inexpensive box, which beats guessing which specific clip to buy — leftover pieces cover the next room too.',
     asin: 'B0B687J37D',
-    image: 'https://m.media-amazon.com/images/I/81F7bTfj+4L._AC_SL480_.jpg',
+
     amazonQuery: 'cable management kit desk',
   },
   {
@@ -326,7 +326,7 @@ const products: Product[] = [
     ourPickWhy:
       'Dense foam that does not pancake by November, a grippy base that stays put on a wooden dorm chair, and a cover that survives the wash — the three failure points of cheaper cushions.',
     asin: 'B0B5SW6381',
-    image: 'https://m.media-amazon.com/images/I/81d0B9XTElL._AC_SL480_.jpg',
+
     amazonQuery: 'seat cushion desk chair memory foam',
   },
   {
@@ -344,7 +344,7 @@ const products: Product[] = [
     ourPickWhy:
       'Heavy enough at the base to survive tapping, adjustable through the useful angles, and cheap enough to leave permanently planted on the desk.',
     asin: 'B07Z82895W',
-    image: 'https://m.media-amazon.com/images/I/61KD4hoirXL._AC_SL480_.jpg',
+
     amazonQuery: 'phone stand for desk adjustable',
   },
   {
@@ -362,7 +362,7 @@ const products: Product[] = [
     ourPickWhy:
       'Temperature display, auto-shutoff for peace of mind in a dorm, and enough wattage to actually hold a full mug warm rather than lukewarm.',
     asin: 'B0CCP46DK9',
-    image: 'https://m.media-amazon.com/images/I/61SsDfH706L._AC_SL480_.jpg',
+
     amazonQuery: 'mug warmer desk auto shutoff',
   },
 ]
@@ -531,20 +531,6 @@ export default function BestStudyDeskEssentialsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={product.image}
-                      alt={product.ourPickName}
-                      loading="lazy"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

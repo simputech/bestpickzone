@@ -209,7 +209,7 @@ export default function BooksLikeItEndsWithUsPage() {
           is the stronger cross-author recommendation.
         </p>
         <p className="mb-8 rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm leading-relaxed text-rose-900">
-          Titles, authors, and availability verified against Amazon as of June 2026. Availability
+          Check the title, author, edition and current availability on Amazon. Availability
           and price can change — confirm before purchasing.
         </p>
 
@@ -290,7 +290,7 @@ export default function BooksLikeItEndsWithUsPage() {
             If you want books built around emotional damage rather than viral romance branding, you
             may also want <strong><a href="/books/best-books-about-grief">best books about grief</a></strong>.
             For author-level context around Hoover's published catalog, Simon &amp; Schuster's
-            <a href="https://www.simonandschuster.com/authors/Colleen-Hoover/150759074" target="_blank" rel="noopener nofollow">
+            <a href="https://www.simonandschuster.com/authors/Colleen-Hoover/150759074" target="_blank" rel="noopener nofollow sponsored">
               {' '}Colleen Hoover author page
             </a>{' '}
             is a reliable external reference.
@@ -317,7 +317,7 @@ export default function BooksLikeItEndsWithUsPage() {
                   'Why does All Your Perfects work if marriage strain was your favorite part of It Ends With Us?'}
               </h2>
               <p className="mb-4 leading-relaxed text-gray-700">
-                <a href={href} target="_blank" rel="noopener nofollow">
+                <a href={href} target="_blank" rel="noopener nofollow sponsored">
                   <strong>{book.title}</strong>
                 </a>{' '}
                 belongs on a books-like-It-Ends-With-Us list because it works for
@@ -358,7 +358,7 @@ export default function BooksLikeItEndsWithUsPage() {
               <a
                 href={href}
                 target="_blank"
-                rel="noopener nofollow"
+                rel="noopener nofollow sponsored"
                 className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-rose-600 px-6 py-3 text-base font-bold text-white transition hover:bg-rose-500"
               >
                 Click Here to Buy on Amazon

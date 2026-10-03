@@ -10,7 +10,7 @@ const publishedDate = '2026-07-11T00:00:00Z'
 const updatedDate = '2026-07-11T00:00:00Z'
 const AMAZON_TAG = 'althcu-20'
 const metaDescription =
-  'Is the Omnilux Contour worth $395? An honest, bottom-funnel breakdown for buyers deciding between Omnilux, CurrentBody, and a cheaper LED-mask entry point.'
+  'Is the Omnilux Contour worth the investment? An honest, bottom-funnel breakdown for buyers deciding between Omnilux, CurrentBody, and a cheaper LED-mask entry point.'
 
 function amazonSearch(query: string) {
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${AMAZON_TAG}`
@@ -42,7 +42,7 @@ export default function OmniluxWorthItPage() {
       <section className="mb-10 rounded-[2.25rem] border border-rose-200 bg-[linear-gradient(140deg,#fff1f2_0%,#ffffff_45%,#fef3c7_100%)] px-6 py-8 shadow-sm">
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-rose-700">Honest Beauty-Tech Breakdown</p>
         <h1 className="max-w-4xl text-4xl font-black leading-tight text-slate-900 md:text-5xl">
-          Is the Omnilux Contour worth $395? Yes for the right LED-mask buyer, not for the casual one.
+          Is the Omnilux Contour worth the investment? Yes for the right LED-mask buyer, not for the casual one.
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
           The Omnilux Contour is easier to rank than a giant LED-mask roundup because the buying question is much simpler: if you are already serious about a premium face mask, is this the one worth paying for? The honest answer is that it is a strong premium pick, but only if you are actually willing to become the kind of person who uses an LED mask regularly.

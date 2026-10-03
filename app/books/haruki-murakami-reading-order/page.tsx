@@ -178,7 +178,7 @@ export default function HarukiMurakamiReadingOrderPage() {
           reader.
         </p>
         <p className="mb-8 rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm leading-relaxed text-sky-900">
-          Titles, authors, and availability verified against Amazon as of June 2026. Availability
+          Check the title, author, edition and current availability on Amazon. Availability
           and price can change — confirm before purchasing.
         </p>
 
@@ -234,7 +234,7 @@ export default function HarukiMurakamiReadingOrderPage() {
             page worth bookmarking is
             <strong> <a href="/books/best-literary-fiction">best literary fiction</a></strong>.
             For authoritative bibliography details, Alfred A. Knopf's
-            <a href="https://www.knopfdoubleday.com/author/12896/haruki-murakami/" target="_blank" rel="noopener nofollow">
+            <a href="https://www.knopfdoubleday.com/author/12896/haruki-murakami/" target="_blank" rel="noopener nofollow sponsored">
               {' '}author page for Haruki Murakami
             </a>{' '}
             is a reliable publication reference.
@@ -261,14 +261,14 @@ export default function HarukiMurakamiReadingOrderPage() {
                   'When is 1Q84 worth adding to your Haruki Murakami reading order?'}
               </h2>
               <p className="mb-4 leading-relaxed text-gray-700">
-                <a href={href} target="_blank" rel="noopener nofollow">
+                <a href={href} target="_blank" rel="noopener nofollow sponsored">
                   <strong>{book.title}</strong>
                 </a>{' '}
                 belongs in this reading order as <strong>{book.lane.toLowerCase()}</strong>. It was
                 first published in {book.year}, runs about {book.pages.toLowerCase()}, and works
                 best when you treat it as a fit decision rather than a prestige obligation.
               </p>
-              <a href={href} target="_blank" rel="noopener nofollow">
+              <a href={href} target="_blank" rel="noopener nofollow sponsored">
                 <img
                   src={coverImage(book.title)}
                   alt={`${book.title} by Haruki Murakami cover-style recommendation image`}
@@ -304,7 +304,7 @@ export default function HarukiMurakamiReadingOrderPage() {
               <a
                 href={href}
                 target="_blank"
-                rel="noopener nofollow"
+                rel="noopener nofollow sponsored"
                 className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-sky-600 px-6 py-3 text-base font-bold text-white transition hover:bg-sky-500"
               >
                 Click Here to Buy on Amazon

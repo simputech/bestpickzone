@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -65,7 +64,7 @@ const devices = [
     whyThisOne:
       'NuFACE wins on ecosystem maturity and “I want this to feel easy” buyer confidence.',
     query: 'NuFACE Trinity+ device',
-    image: 'https://m.media-amazon.com/images/I/not-real-nuface.jpg',
+
   },
   {
     name: 'FOREO Bear 2',
@@ -81,7 +80,7 @@ const devices = [
     whyThisOne:
       'FOREO stands out because comfort technology is part of the product story, not just a side note.',
     query: 'FOREO Bear 2 microcurrent device',
-    image: 'https://m.media-amazon.com/images/I/not-real-bear2.jpg',
+
   },
   {
     name: 'MyoLift QT',
@@ -97,7 +96,7 @@ const devices = [
     whyThisOne:
       'MyoLift wins for the buyer who wants the most treatment-oriented identity and is comfortable doing more homework.',
     query: 'MyoLift QT microcurrent device',
-    image: 'https://m.media-amazon.com/images/I/not-real-myolift.jpg',
+
   },
 ]
 
@@ -228,9 +227,6 @@ export default function MicrocurrentShowdownPage() {
             <div className="flex flex-col gap-6 lg:flex-row">
               <div className="flex items-start gap-4 lg:w-[200px] lg:flex-col">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-100 text-lg font-black text-rose-700">{index + 1}</div>
-                <a href={amazonSearch(device.query)} target="_blank" rel="noopener nofollow sponsored">
-                  <ExternalProductImage src={device.image} alt={device.name} title={device.name} fallbackAccentClassName="from-rose-100 via-white to-fuchsia-100" className="h-32 w-32 rounded-2xl border border-rose-100 bg-white object-contain p-2" />
-                </a>
               </div>
               <div className="min-w-0 flex-1">
                 <div className="flex flex-wrap items-center gap-3">

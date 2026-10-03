@@ -102,7 +102,6 @@ const picks = [
     summary:
       "Westover grew up in a survivalist family in rural Idaho with no formal education — she didn't enter a school until she was 17 and taught herself enough to earn a PhD from Cambridge. Educated is her memoir. The story is so specific and so unlikely that it reads with the forward momentum of fiction; the \"did this actually happen?\" quality drives continuous reading.",
     pros: [
-      '4.7-star average on Amazon across 130,000+ reviews — one of the most broadly praised memoirs of the past decade',
       'The specific detail of growing up in a non-mainstream religious household makes the world fully realized without world-building effort from the reader',
       "The questions it raises (how do we know what we know? how do families distort reality?) apply directly to readers' own lives",
     ],

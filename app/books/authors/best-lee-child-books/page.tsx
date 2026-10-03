@@ -43,7 +43,6 @@ const picks = [
       "The series opener remains the most viscerally satisfying Reacher novel. Reacher gets off a bus in a small Georgia town, gets arrested for a murder he didn't commit, and systematically destroys everyone responsible. Child's plotting is extraordinarily tight — every scene exists for a reason, every detail pays off. The Georgia small-town setting, the corrupt law enforcement, the escalating body count — it's all here, fully formed, in the first novel. Reacher as a concept is established completely in the first 50 pages: tall, combat-trained, nomadic, no phone, no fixed address, no tolerance for injustice.",
     pros: [
       "The perfect template for everything that follows — if you don't love this one, the series isn't for you",
-      'Multiple Amazon reviewers cite this as the book that made them a reader',
       'Audible edition narrated by Dick Hill is one of the best genre audiobook performances available',
     ],
     cons: [

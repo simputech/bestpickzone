@@ -68,7 +68,7 @@ export default function CormacPage() {
       </p>
       <img src={heroImage} alt="Stark minimalist lighting illuminating dark literary fiction and post-apocalyptic novels on a raw concrete surface." className="mb-6 w-full rounded-xl shadow-sm" />
       <p className="mb-8 rounded-xl border border-stone-200 bg-stone-50 px-4 py-3 text-sm leading-relaxed text-stone-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and price can change — confirm before purchasing.
+        Check the title, author, edition and current availability on Amazon. Availability and price can change — confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-4 text-2xl font-bold text-gray-900">Which Cormac McCarthy book should you read first?</h2>
@@ -79,7 +79,7 @@ export default function CormacPage() {
               <tr key={pick.title} className="border-b border-gray-100">
                 <td className="px-3 py-3 font-semibold">{pick.title}</td>
                 <td className="px-3 py-3 text-gray-700">{pick.label}</td>
-                <td className="px-3 py-3"><a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow" className="font-semibold text-stone-700">Find on Amazon</a></td>
+                <td className="px-3 py-3"><a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow sponsored" className="font-semibold text-stone-700">Find on Amazon</a></td>
               </tr>
             ))}
           </tbody>
@@ -94,10 +94,10 @@ export default function CormacPage() {
             {pick.title === 'All the Pretty Horses' && 'When is All the Pretty Horses the better first McCarthy choice?'}
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700">
-            <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow"><strong>{pick.title}</strong></a>{' '}
+            <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow sponsored"><strong>{pick.title}</strong></a>{' '}
             is the best McCarthy recommendation for <strong>{pick.fit.toLowerCase()}</strong>.
           </p>
-          <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow">
+          <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow sponsored">
             <img src={`https://dummyimage.com/320x480/efece6/1f2937.png&text=${encodeURIComponent(pick.title)}`} alt={`${pick.title} by Cormac McCarthy cover-style recommendation image`} className="mb-4 w-full max-w-[260px] rounded-xl border border-gray-200" />
           </a>
           <p className="mb-4 leading-relaxed text-gray-700">{pick.text}</p>
@@ -106,7 +106,7 @@ export default function CormacPage() {
             <tbody><tr><td className="px-3 py-3 text-gray-700"><ul><li>{pick.fit}</li></ul></td><td className="px-3 py-3 text-gray-700"><ul><li>{pick.skipIf}</li></ul></td></tr></tbody>
           </table>
           <p className="mb-4 text-amber-900"><strong>Skip this if:</strong> {pick.skipIf}</p>
-          <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-stone-700 px-6 py-3 text-base font-bold text-white transition hover:bg-stone-600">Click Here to Buy on Amazon</a>
+          <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow sponsored" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-stone-700 px-6 py-3 text-base font-bold text-white transition hover:bg-stone-600">Click Here to Buy on Amazon</a>
         </section>
       ))}
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -118,7 +118,7 @@ export default function CormacPage() {
         <p className="leading-relaxed text-gray-700">
           For adjacent long-read energy, pair this with <strong><a href="/books/best-books-for-people-who-dont-like-reading">best books for people who do not like reading</a></strong>
           if you want cleaner momentum, or <strong><a href="/books/best-literary-fiction">best literary fiction</a></strong> if you want more demanding prose-forward work.
-          For bibliography details, Vintage's <a href="https://www.penguinrandomhouse.com/authors/43014/cormac-mccarthy/" target="_blank" rel="noopener nofollow">Cormac McCarthy author page</a> is a reliable reference.
+          For bibliography details, Vintage's <a href="https://www.penguinrandomhouse.com/authors/43014/cormac-mccarthy/" target="_blank" rel="noopener nofollow sponsored">Cormac McCarthy author page</a> is a reliable reference.
         </p>
       </section>
       <section className="rounded-3xl border border-amber-200 bg-amber-50 p-5 shadow-sm">
@@ -154,11 +154,11 @@ export default function CormacPage() {
         </ul>
         <p className="leading-relaxed text-gray-700">
           If you want a straightforward biography after finishing one of the books above, Britannica's{' '}
-          <a href="https://www.britannica.com/biography/Cormac-McCarthy" target="_blank" rel="noopener nofollow">
+          <a href="https://www.britannica.com/biography/Cormac-McCarthy" target="_blank" rel="noopener nofollow sponsored">
             Cormac McCarthy profile
           </a>{' '}
           is a solid starting point, and the{' '}
-          <a href="https://en.wikipedia.org/wiki/Cormac_McCarthy" target="_blank" rel="noopener nofollow">
+          <a href="https://en.wikipedia.org/wiki/Cormac_McCarthy" target="_blank" rel="noopener nofollow sponsored">
             Wikipedia overview
           </a>{' '}
           is useful for publication order and awards at a glance.

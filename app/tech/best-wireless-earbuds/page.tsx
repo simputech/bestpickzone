@@ -7,11 +7,11 @@ import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Wireless Earbuds in 2026: Top Picks for Every Budget',
   description:
-    'We tested and compared the best wireless earbuds of 2026 — from Sony and Apple to Jabra and Anker. Find the right pair for your budget, ears, and lifestyle.',
+    'We researched and compared the best wireless earbuds of 2026 — from Sony and Apple to Jabra and Anker. Find the right pair for your budget, ears, and lifestyle.',
   openGraph: {
     title: 'Best Wireless Earbuds in 2026: Top Picks for Every Budget',
     description:
-      'We tested and compared the best wireless earbuds of 2026. Top picks from Sony, Apple, Jabra, and more.',
+      'We researched and compared the best wireless earbuds of 2026. Top picks from Sony, Apple, Jabra, and more.',
     url: 'https://bestpickzone.com/tech/best-wireless-earbuds',
     siteName: 'BestPickZone',
     type: 'article',
@@ -32,7 +32,7 @@ const products = [
     name: 'Sony WF-1000XM5',
     badge: '🏆 Best Overall',
     badgeColor: 'bg-yellow-100 text-yellow-800 border border-yellow-300',
-    price: '$279',
+    price: 'Check current price',
     summary:
       'The WF-1000XM5 is the gold standard in noise-canceling earbuds. Sony refined every detail — smaller size, improved ANC, and exceptional sound quality — making these the best all-around earbuds you can buy in 2026.',
     pros: [
@@ -43,7 +43,7 @@ const products = [
       'Speak-to-Chat auto-pauses when you talk',
     ],
     cons: [
-      'Premium price ($279)',
+      'Premium positioning',
       'No wireless charging on base case (need separate case)',
       'Call quality could be better in loud environments',
     ],
@@ -65,7 +65,7 @@ const products = [
     name: 'Apple AirPods Pro (2nd Gen)',
     badge: '🍎 Best for iPhone Users',
     badgeColor: 'bg-gray-100 text-gray-800 border border-gray-300',
-    price: '$249',
+    price: 'Check current price',
     summary:
       'The AirPods Pro 2 delivers Apple\'s best audio experience to date — excellent ANC, stellar transparency mode, and seamless iCloud device switching. If you live in the Apple ecosystem, nothing else comes close.',
     pros: [
@@ -99,7 +99,7 @@ const products = [
     name: 'Jabra Evolve2 Buds',
     badge: '💼 Best for Calls & Work',
     badgeColor: 'bg-blue-100 text-blue-800 border border-blue-300',
-    price: '$249',
+    price: 'Check current price',
     summary:
       'Jabra is the go-to brand for call quality, and the Evolve2 Buds prove why. Six-microphone system, enterprise-grade ANC, and UC-certified audio make these the top pick for remote workers and frequent conference callers.',
     pros: [
@@ -132,9 +132,9 @@ const products = [
     name: 'Soundcore Liberty 4 NC',
     badge: '💰 Best Budget Pick',
     badgeColor: 'bg-green-100 text-green-800 border border-green-300',
-    price: '$79',
+    price: 'Check current price',
     summary:
-      'Anker\'s Soundcore Liberty 4 NC punches far above its $79 price tag with surprisingly strong ANC, clear sound, and long battery life. It\'s the pick for buyers who want solid ANC earbuds without spending $200+.',
+      'Anker\'s Soundcore Liberty 4 NC punches above its entry-level positioning with surprisingly strong ANC, clear sound, and long battery life. It\'s the pick for buyers who want solid ANC earbuds without spending $200+.',
     pros: [
       'Strong ANC for the price — up to 98.5% noise reduction',
       'Up to 10 hours battery (50 hours with case)',
@@ -166,7 +166,7 @@ const products = [
     name: 'Bose QuietComfort Earbuds II',
     badge: '😴 Best for Sleep & Sensitive Ears',
     badgeColor: 'bg-pink-100 text-pink-800 border border-pink-300',
-    price: '$229',
+    price: 'Check current price',
     summary:
       'The QC Earbuds II offers Bose\'s signature comfort-first design with CustomTune technology that personalizes both sound and ANC to the shape of your ear canal. An exceptional choice for comfort-focused buyers.',
     pros: [
@@ -196,11 +196,11 @@ const products = [
 ]
 
 const comparisonData = [
-  { name: 'Sony WF-1000XM5', price: '$279', anc: '★★★★★', battery: '8 hrs', ipRating: 'IPX4', bestFor: 'Best Overall' },
-  { name: 'AirPods Pro 2', price: '$249', anc: '★★★★½', battery: '6 hrs', ipRating: 'IP54', bestFor: 'iPhone Users' },
-  { name: 'Jabra Evolve2 Buds', price: '$249', anc: '★★★★', battery: '7 hrs', ipRating: 'IP57', bestFor: 'Work & Calls' },
-  { name: 'Soundcore Liberty 4 NC', price: '$79', anc: '★★★½', battery: '10 hrs', ipRating: 'IPX4', bestFor: 'Budget Buyers' },
-  { name: 'Bose QC Earbuds II', price: '$229', anc: '★★★★½', battery: '6 hrs', ipRating: 'IPX4', bestFor: 'Comfort' },
+  { name: 'Sony WF-1000XM5', price: 'Check current price', anc: 'Yes', battery: '8 hrs', ipRating: 'IPX4', bestFor: 'Best Overall' },
+  { name: 'AirPods Pro 2', price: 'Check current price', anc: 'Yes', battery: '6 hrs', ipRating: 'IP54', bestFor: 'iPhone Users' },
+  { name: 'Jabra Evolve2 Buds', price: 'Check current price', anc: 'Yes', battery: '7 hrs', ipRating: 'IP57', bestFor: 'Work & Calls' },
+  { name: 'Soundcore Liberty 4 NC', price: 'Check current price', anc: 'Yes', battery: '10 hrs', ipRating: 'IPX4', bestFor: 'Budget Buyers' },
+  { name: 'Bose QC Earbuds II', price: 'Check current price', anc: 'Yes', battery: '6 hrs', ipRating: 'IPX4', bestFor: 'Comfort' },
 ]
 
 const faqs = [
@@ -214,7 +214,7 @@ const faqs = [
   },
   {
     q: 'What is a good wireless earbud under $100?',
-    a: 'The Soundcore Liberty 4 NC ($79) is the best wireless earbud under $100. It delivers genuine adaptive ANC, Hi-Res audio with LDAC, and up to 50 hours total battery — specs that rival earbuds costing $200 more.',
+    a: 'The Soundcore Liberty 4 NC is worth comparing if your budget is $100. Check its current price before deciding. It delivers genuine adaptive ANC, Hi-Res audio with LDAC, and up to 50 hours total battery — features to compare with more expensive alternatives.',
   },
   {
     q: 'How long do wireless earbuds last?',
@@ -263,8 +263,7 @@ export default function BestWirelessEarbudsPage() {
       </p>
       <p className="text-gray-600 mb-8 leading-relaxed">
         <strong>Quick pick:</strong> The <strong>Sony WF-1000XM5</strong> wins for most
-        people. If you're on a budget, the <strong>Soundcore Liberty 4 NC</strong> at $79
-        is shockingly good. iPhone users should default to <strong>AirPods Pro 2</strong>.
+        people. If you're on a budget, the <strong>Soundcore Liberty 4 NC</strong> is worth comparing. iPhone users should default to <strong>AirPods Pro 2</strong>.
       </p>
 
       {/* Quick Comparison Table */}
@@ -487,7 +486,7 @@ export default function BestWirelessEarbudsPage() {
           </p>
           <p>
             <strong>Best budget:</strong> Soundcore Liberty 4 NC — remarkable ANC and
-            50-hour battery at $79.
+            50-hour battery.
           </p>
           <p>
             <strong>Best for comfort:</strong> Bose QC Earbuds II — CustomTune technology

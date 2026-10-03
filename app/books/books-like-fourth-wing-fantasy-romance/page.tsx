@@ -86,7 +86,7 @@ export default function FourthWingReadalikesPage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-fuchsia-200 bg-fuchsia-50 px-4 py-3 text-sm leading-relaxed text-fuchsia-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change, so confirm before purchasing.
       </p>
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -112,7 +112,7 @@ export default function FourthWingReadalikesPage() {
                   <a
                     href={amazonLink(pick.title, pick.author)}
                     target="_blank"
-                    rel="noopener nofollow"
+                    rel="noopener nofollow sponsored"
                     className="font-semibold text-fuchsia-700"
                   >
                     Find on Amazon
@@ -162,7 +162,7 @@ export default function FourthWingReadalikesPage() {
             <a
               href={href}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-fuchsia-600 px-6 py-3 text-base font-bold text-white transition hover:bg-fuchsia-500"
             >
               Click Here to Buy on Amazon

@@ -44,7 +44,6 @@ const picks = [
     summary:
       "The premise is simple and the execution is relentless. Reacher — ex-military, no fixed address, no phone — is a problem-solving machine. Child plots with extraordinary efficiency; no scene exists without purpose. The first 50 pages contain more forward momentum than most novels manage in 300.",
     pros: [
-      'Pulls non-readers back into books — consistently cited in Amazon reviews as "the book that got me reading again"',
       'Works as complete standalone — 29 novels in the series but each holds independently',
       'Short chapters (2–4 pages) make it ideal for commute reading — natural stopping points everywhere',
       'Audible edition narrated by Dick Hill is one of the best audiobook performances in genre fiction',
@@ -272,8 +271,7 @@ export default function BestActionAdventureBooksForMenPage() {
             decisively without extended hand-wringing, and for readers who want plot
             above all else. The tradeoff: Reacher is a power fantasy, deliberately so
             — if you want literary complexity, Cormac McCarthy&apos;s entry on this
-            list is the stronger pick. At under $10 for the Kindle edition,{' '}
-            <em>Killing Floor</em> is the lowest-risk starting point on this list.
+            list is the stronger pick. <em>Killing Floor</em> is a direct way to try the Reacher formula. Read a sample and check the current price for your preferred format.
           </p>
           <p className="leading-relaxed">
             Below we&apos;ve also picked the best for lapsed readers who want
@@ -282,7 +280,7 @@ export default function BestActionAdventureBooksForMenPage() {
             you&apos;re after.
           </p>
           <p className="text-sm text-gray-500 italic">
-            Specs and prices verified against Amazon as of April 2026. Prices change —
+            Check the edition and current price on Amazon —
             confirm before purchasing.
           </p>
         </div>

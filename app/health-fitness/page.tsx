@@ -121,8 +121,7 @@ export default function HealthFitnessPage() {
         </h2>
         <p className="text-gray-600">
           Fitness gear recommendations are only useful if they match your actual goals. Our
-          guides segment picks by fitness level, training style, and budget, and every
-          product is evaluated against real user feedback from verified purchasers on Amazon.
+          guides segment picks by fitness level, training style, and budget, and our comparisons focus on product features, intended use and practical limitations.
         </p>
       </section>
     </main>

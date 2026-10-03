@@ -72,7 +72,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -92,7 +92,7 @@ const products: Product[] = [
     ourPickWhy:
       'The standing budget-ANC recommendation: hybrid noise cancellation that handles the frequencies dorms produce, 40-hour battery life, and a price that leaves room in the semester budget.',
     asin: 'B08HMWZBXC',
-    image: 'https://m.media-amazon.com/images/I/514RLTa36cL._AC_SL480_.jpg',
+
     amazonQuery: 'noise cancelling headphones students budget',
   },
   {
@@ -110,7 +110,7 @@ const products: Product[] = [
     ourPickWhy:
       'Preset 5, 10, 25, and 50-minute faces cover both classic Pomodoro and long-block studying, with a silent mode for libraries — the whole method in one object.',
     asin: 'B0D7JG4VLD',
-    image: 'https://m.media-amazon.com/images/I/61ROjRaowcL._AC_SL480_.jpg',
+
     amazonQuery: 'pomodoro flip timer study',
   },
   {
@@ -128,7 +128,7 @@ const products: Product[] = [
     ourPickWhy:
       'Big enough for a phone and a gaming controller, a timer range from minutes to days, and a build that survives the moment of weakness it exists to prevent.',
     asin: 'B0DD54LLRG',
-    image: 'https://m.media-amazon.com/images/I/41V2Qvxz3eL._AC_SL480_.jpg',
+
     amazonQuery: 'phone lock box timer students',
   },
   {
@@ -146,7 +146,7 @@ const products: Product[] = [
     ourPickWhy:
       'The category leader for a reason: reliable scanning to the storage apps students already use, lined pages that feel close to paper, and included FriXion pen to start.',
     asin: 'B0DP3HLY4J',
-    image: 'https://m.media-amazon.com/images/I/81txybq7ShL._AC_SL480_.jpg',
+
     amazonQuery: 'rocketbook core reusable notebook',
   },
   {
@@ -164,7 +164,7 @@ const products: Product[] = [
     ourPickWhy:
       'The pen the whole erasable category is built around: smooth gel ink, clean erasing, refillable, and the pen Rocketbook notebooks are designed for.',
     asin: 'B009QYH52C',
-    image: 'https://m.media-amazon.com/images/I/71mTLMSByeL._AC_SL480_.jpg',
+
     amazonQuery: 'pilot frixion erasable pens pack',
   },
   {
@@ -182,7 +182,7 @@ const products: Product[] = [
     ourPickWhy:
       'Large enough that a full course load fits in the day boxes with room to write legibly, which is where standard-size calendars fail students carrying five classes.',
     asin: 'B076YY5GM5',
-    image: 'https://m.media-amazon.com/images/I/81k7fLMRxJL._AC_SL480_.jpg',
+
     amazonQuery: 'dry erase wall calendar monthly large',
   },
   {
@@ -200,7 +200,7 @@ const products: Product[] = [
     ourPickWhy:
       'Clean priority-first layout, 60 thick sheets that take gel ink without bleeding, and a size that sits on the desk corner without dominating it.',
     asin: 'B0GV1V66CZ',
-    image: 'https://m.media-amazon.com/images/I/61KgN0MNyjL._AC_SL480_.jpg',
+
     amazonQuery: 'to do list notepad daily planner pad',
   },
   {
@@ -218,7 +218,7 @@ const products: Product[] = [
     ourPickWhy:
       'Combines the gradual wake light with a white noise machine and dimmable bedside lamp — three dorm nightstand jobs in one device, at a student price.',
     asin: 'B0DGXD6WVW',
-    image: 'https://m.media-amazon.com/images/I/81mP2pftHML._AC_SL480_.jpg',
+
     amazonQuery: 'sunrise alarm clock wake up light',
   },
   {
@@ -236,7 +236,7 @@ const products: Product[] = [
     ourPickWhy:
       'The legend of the category: adjustable tone and volume up to genuinely alarming levels, plus the under-mattress shaker that wakes the students nothing else wakes.',
     asin: 'B000OOWZUK',
-    image: 'https://m.media-amazon.com/images/I/61sFjF5YP6L._AC_SL480_.jpg',
+
     amazonQuery: 'sonic bomb alarm clock bed shaker',
   },
   {
@@ -254,7 +254,7 @@ const products: Product[] = [
     ourPickWhy:
       'Anker is the boring, correct answer in this category: reliable cells, real fast-charging, and a slim build that disappears into a backpack pocket.',
     asin: 'B0D5CLSMFB',
-    image: 'https://m.media-amazon.com/images/I/71JJLJnwREL._AC_SL480_.jpg',
+
     amazonQuery: 'anker portable charger 10000mah',
   },
   {
@@ -272,7 +272,7 @@ const products: Product[] = [
     ourPickWhy:
       'The category standard: fits up to a 15.6-inch laptop, built-in mouse pad and phone slot, and a dual-bolster cushion that keeps it stable on a soft mattress.',
     asin: 'B07N9L5934',
-    image: 'https://m.media-amazon.com/images/I/81BrD6Y4ieL._AC_SL480_.jpg',
+
     amazonQuery: 'lap desk for laptop students',
   },
   {
@@ -290,7 +290,7 @@ const products: Product[] = [
     ourPickWhy:
       'Under five inches wide, one-cup-at-a-time design with auto-off, and the pod ecosystem available in every grocery store near every campus in the country.',
     asin: 'B07GV2S1GS',
-    image: 'https://m.media-amazon.com/images/I/61UTFJux1pL._AC_SL480_.jpg',
+
     amazonQuery: 'keurig k-mini single serve coffee maker',
   },
   {
@@ -308,7 +308,7 @@ const products: Product[] = [
     ourPickWhy:
       'Time markers, a genuinely leakproof lid, and a one-handed flip spout that works mid-lecture without a production.',
     asin: 'B09FPXGLGF',
-    image: 'https://m.media-amazon.com/images/I/61h8Dgf8NxL._AC_SL480_.jpg',
+
     amazonQuery: 'water bottle with time markers 32oz',
   },
   {
@@ -326,7 +326,7 @@ const products: Product[] = [
     ourPickWhy:
       'The super-sticky adhesive is the specific feature dorm walls demand, and the multi-pack price per pad makes it the sensible bulk buy for a school year.',
     asin: 'B00CMKA9HK',
-    image: 'https://m.media-amazon.com/images/I/71xu+zdXNaL._AC_SL480_.jpg',
+
     amazonQuery: 'post-it super sticky notes pack',
   },
   {
@@ -344,7 +344,7 @@ const products: Product[] = [
     ourPickWhy:
       'Purpose-built habit grids rather than a repurposed planner, undated so a rough week does not wreck the book, and sturdy enough to live in a backpack.',
     asin: 'B0CJ8ZV5VK',
-    image: 'https://m.media-amazon.com/images/I/815Hsr61+1L._AC_SL480_.jpg',
+
     amazonQuery: 'habit tracker journal',
   },
   {
@@ -362,7 +362,7 @@ const products: Product[] = [
     ourPickWhy:
       'The definitive modern habits book: concrete, skimmable under deadline, and directly applicable to study routines. We cover Clear’s full catalog in our books section.',
     asin: 'B07RFSSYBH',
-    image: 'https://m.media-amazon.com/images/I/71F4+7rk2eL._AC_SL480_.jpg',
+
     amazonQuery: 'atomic habits james clear',
   },
 ]
@@ -531,20 +531,6 @@ export default function BestProductivityProductsForStudentsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={product.image}
-                      alt={product.ourPickName}
-                      loading="lazy"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-violet-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

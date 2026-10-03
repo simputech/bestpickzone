@@ -8,7 +8,7 @@ import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Tech & Electronics Reviews 2026',
   description:
-    'Expert reviews and comparisons of the best laptops, headphones, keyboards, monitors, and more. Every pick backed by hands-on research with Amazon and Best Buy links.',
+    'Expert reviews and comparisons of the best laptops, headphones, keyboards, monitors, and more. Every pick backed by editorial research with Amazon and Best Buy links.',
   openGraph: {
     title: 'Best Tech & Electronics Reviews 2026',
     description:
@@ -29,7 +29,7 @@ const articles = [
     slug: 'best-wireless-earbuds',
     title: 'Best Wireless Earbuds in 2026',
     description:
-      'From Sony to Apple to Jabra — we tested the top earbuds across every price point to find the best sound, ANC, and battery life.',
+      'From Sony to Apple to Jabra — we compare published specifications and practical tradeoffs to help narrow your earbud shortlist.',
     badge: 'Best Roundup',
     badgeColor: 'bg-blue-100 text-blue-700',
   },
@@ -37,7 +37,7 @@ const articles = [
     slug: 'best-laptops-for-college-students',
     title: 'Best Laptops for College Students in 2026',
     description:
-      'Long battery life, light weight, and enough power for coursework. Our top picks for every budget, from $400 Chromebooks to premium MacBooks.',
+      'Long battery life, light weight, and enough power for coursework. Our top picks for every budget, from basic Chromebooks to premium MacBooks.',
     badge: 'Best For Students',
     badgeColor: 'bg-green-100 text-green-700',
   },
@@ -61,7 +61,7 @@ const articles = [
     slug: 'best-budget-monitors',
     title: 'Best Budget Monitors Under $300 in 2026',
     description:
-      "Great monitors don't have to cost a fortune. Our picks deliver sharp 1080p and 1440p displays, fast refresh rates, and solid build quality under $300.",
+      "Great monitors don't have to cost a fortune. Our picks deliver sharp 1080p and 1440p displays, fast refresh rates, and solid build quality for a budget-conscious shortlist. Check current prices against your $300 budget.",
     badge: 'Best Roundup',
     badgeColor: 'bg-blue-100 text-blue-700',
   },
@@ -88,7 +88,7 @@ export default function TechPage() {
           Tech &amp; Electronics Reviews
         </h1>
         <p className="text-lg text-gray-600 max-w-3xl">
-          Every review on this page is backed by hands-on research. We compare specs, read
+          Every review on this page is backed by editorial research. We compare specs, read
           hundreds of user reviews, and price-check across Amazon and Best Buy so you can
           buy with confidence.
         </p>

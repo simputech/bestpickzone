@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -70,7 +69,7 @@ type ChairPick = {
   ourPickName: string
   whyThisOne: string
   amazonQuery: string
-  image: string
+
 }
 
 const picks: ChairPick[] = [
@@ -90,7 +89,7 @@ const picks: ChairPick[] = [
     whyThisOne:
       'It is the strongest overall fit for buyers who want active support, premium build, and a chair that still feels good across long sessions rather than the first twenty minutes.',
     amazonQuery: 'Herman Miller Embody chair',
-    image: 'https://m.media-amazon.com/images/I/not-real-embody.jpg',
+
   },
   {
     rank: 2,
@@ -108,7 +107,7 @@ const picks: ChairPick[] = [
     whyThisOne:
       'Its reputation comes from real fit range. For back-pain shoppers, adjustability is not a luxury feature. It is often the entire difference between relief and aggravation.',
     amazonQuery: 'Steelcase Leap chair',
-    image: 'https://m.media-amazon.com/images/I/not-real-leap.jpg',
+
   },
   {
     rank: 3,
@@ -126,7 +125,7 @@ const picks: ChairPick[] = [
     whyThisOne:
       'It remains one of the strongest firm-support options for people who do better with mesh, cooling, and a more structured ergonomic posture.',
     amazonQuery: 'Herman Miller Aeron PostureFit SL chair',
-    image: 'https://m.media-amazon.com/images/I/not-real-aeron.jpg',
+
   },
   {
     rank: 4,
@@ -144,11 +143,11 @@ const picks: ChairPick[] = [
     whyThisOne:
       'It is the most balanced middle-ground pick here: more credible than bargain chairs, less painful than flagship pricing.',
     amazonQuery: 'Branch Ergonomic Pro office chair',
-    image: 'https://m.media-amazon.com/images/I/not-real-branch.jpg',
+
   },
   {
     rank: 5,
-    title: 'Best budget pick under $400',
+    title: 'Budget-oriented chair to compare',
     bestFor: 'Back-pain shoppers who need a real budget ceiling',
     keySpec: 'Solid core ergonomics at entry ergonomic pricing',
     priceBand: '$',
@@ -162,7 +161,7 @@ const picks: ChairPick[] = [
     whyThisOne:
       'It covers the fundamentals well enough to be a legitimate budget recommendation instead of a placeholder pick.',
     amazonQuery: 'HON Ignition 2.0 office chair',
-    image: 'https://m.media-amazon.com/images/I/not-real-hon.jpg',
+
   },
 ]
 
@@ -378,20 +377,6 @@ export default function ErgonomicChairsSciaticaPage() {
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-sky-100 text-lg font-black text-sky-800">
                   {pick.rank}
                 </div>
-                <a
-                  href={amazonSearch(pick.amazonQuery)}
-                  target="_blank"
-                  rel="noopener nofollow sponsored"
-                  className="shrink-0"
-                >
-                  <ExternalProductImage
-                    src={pick.image}
-                    alt={pick.ourPickName}
-                    title={pick.title}
-                    fallbackAccentClassName="from-sky-100 via-white to-cyan-100"
-                    className="h-32 w-32 rounded-2xl border border-sky-100 bg-white object-contain p-2"
-                  />
-                </a>
               </div>
 
               <div className="min-w-0 flex-1">

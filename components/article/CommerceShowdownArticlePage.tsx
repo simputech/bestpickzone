@@ -21,10 +21,6 @@ function ProductCard({ product }: { product: ShowdownProduct }) {
         </div>
         <div className="min-w-[220px] flex-1">
           <h2 className="mb-1 text-2xl font-extrabold text-gray-900">{product.name}</h2>
-          <p className="text-3xl font-black text-gray-900">{product.price}</p>
-          <p className="mt-1 text-sm text-gray-600">
-            {product.ratingText} · {product.reviewCountText}
-          </p>
           <span
             className={`mt-3 inline-block rounded-full px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] ${product.verdictTagClass}`}
           >
@@ -49,30 +45,6 @@ function ProductCard({ product }: { product: ShowdownProduct }) {
           {product.intro.map((paragraph) => (
             <p key={paragraph}>{paragraph}</p>
           ))}
-        </div>
-
-        <div>
-          <h3 className="mb-4 text-sm font-extrabold uppercase tracking-[0.18em] text-gray-500">
-            How it scores
-          </h3>
-          <div className="space-y-3">
-            {product.scores.map((score) => (
-              <div key={score.label} className="flex items-center gap-3">
-                <span className="w-28 shrink-0 text-sm font-semibold text-gray-600">
-                  {score.label}
-                </span>
-                <div className="h-2 flex-1 overflow-hidden rounded-full bg-gray-200">
-                  <div
-                    className={`h-full rounded-full ${score.colorClass ?? 'bg-emerald-500'}`}
-                    style={{ width: `${score.value * 10}%` }}
-                  />
-                </div>
-                <span className="w-10 text-right text-sm font-bold text-gray-800">
-                  {score.value.toFixed(1)}
-                </span>
-              </div>
-            ))}
-          </div>
         </div>
 
         <div className="grid gap-4 md:grid-cols-2">
@@ -103,13 +75,6 @@ function ProductCard({ product }: { product: ShowdownProduct }) {
             </ul>
           </div>
         </div>
-
-        <blockquote className="rounded-r-2xl border-l-4 border-amber-400 bg-amber-50 px-5 py-4 text-sm italic leading-relaxed text-gray-700">
-          {product.quote}
-          <cite className="mt-3 block text-xs font-bold uppercase tracking-[0.16em] text-gray-500">
-            {product.quoteMeta}
-          </cite>
-        </blockquote>
 
         <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5 text-center">
           <Link
@@ -185,8 +150,6 @@ export default function CommerceShowdownArticlePage({ article }: { article: Show
                   </span>
                 ) : null}
                 <h3 className="text-xl font-extrabold text-gray-900">{product.shortName}</h3>
-                <p className="mt-1 text-3xl font-black text-gray-900">{product.price}</p>
-                <p className="mt-2 text-sm text-gray-600">{product.reviewCountText}</p>
                 <span
                   className={`mt-4 inline-block rounded-full px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] ${product.verdictTagClass}`}
                 >
@@ -336,7 +299,7 @@ export default function CommerceShowdownArticlePage({ article }: { article: Show
       <div className="fixed bottom-0 left-0 right-0 z-40 border-t border-white/10 bg-slate-950/95 px-4 py-3 text-white shadow-2xl backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3">
           <p className="text-sm font-semibold">
-            Top pick: <span className="text-amber-300">{left.shortName}</span> at {left.price}
+            Top pick: <span className="text-amber-300">{left.shortName}</span>
           </p>
           <div className="flex flex-wrap gap-3">
             <Link

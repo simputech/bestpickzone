@@ -78,7 +78,7 @@ export default function MindBendingThrillersPage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-violet-200 bg-violet-50 px-4 py-3 text-sm leading-relaxed text-violet-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change, so confirm before purchasing.
       </p>
 
@@ -105,7 +105,7 @@ export default function MindBendingThrillersPage() {
                   <a
                     href={amazonLink(pick.title, pick.author)}
                     target="_blank"
-                    rel="noopener nofollow"
+                    rel="noopener nofollow sponsored"
                     className="font-semibold text-violet-700"
                   >
                     Find on Amazon
@@ -159,7 +159,7 @@ export default function MindBendingThrillersPage() {
             <a
               href={href}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-violet-600 px-6 py-3 text-base font-bold text-white transition hover:bg-violet-500"
             >
               Click Here to Buy on Amazon
@@ -188,7 +188,7 @@ export default function MindBendingThrillersPage() {
           invention.
         </p>
         <p className="leading-relaxed text-gray-700">
-          Source: <a href="https://www.publishersweekly.com/pw/by-topic/authors/interviews/article/51294-gillian-flynn-does-marriage-gone-bad.html" target="_blank" rel="noopener nofollow">Publishers Weekly interview with Gillian Flynn</a>.
+          Source: <a href="https://www.publishersweekly.com/pw/by-topic/authors/interviews/article/51294-gillian-flynn-does-marriage-gone-bad.html" target="_blank" rel="noopener nofollow sponsored">Publishers Weekly interview with Gillian Flynn</a>.
         </p>
       </section>
 
@@ -214,7 +214,7 @@ export default function MindBendingThrillersPage() {
           </li>
         </ul>
         <p className="mt-4 leading-relaxed text-gray-700">
-          Source: <a href="https://dennislehane.com/books/shutter/" target="_blank" rel="noopener nofollow">Dennis Lehane’s official book page for Shutter Island</a>.
+          Source: <a href="https://dennislehane.com/books/shutter/" target="_blank" rel="noopener nofollow sponsored">Dennis Lehane’s official book page for Shutter Island</a>.
         </p>
       </section>
     </main>

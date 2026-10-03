@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -70,7 +69,7 @@ type Pick = {
   ourPickName: string
   whyThisOne: string
   amazonQuery: string
-  image: string
+
 }
 
 const picks: Pick[] = [
@@ -90,7 +89,7 @@ const picks: Pick[] = [
     whyThisOne:
       'It is one of the clearest value upgrades for Bambino owners because it gives you espresso range without pushing you into a much more expensive grinder tier right away.',
     amazonQuery: 'Baratza Encore ESP coffee grinder',
-    image: 'https://m.media-amazon.com/images/I/not-real-bambino-grinder.jpg',
+
   },
   {
     rank: 2,
@@ -108,7 +107,7 @@ const picks: Pick[] = [
     whyThisOne:
       'Normcore is a common pick in this category because the tool is simple, repeatable, and designed around the exact prep problem many Bambino owners run into early.',
     amazonQuery: 'Normcore WDT distribution tool espresso',
-    image: 'https://m.media-amazon.com/images/I/not-real-bambino-wdt.jpg',
+
   },
   {
     rank: 3,
@@ -126,7 +125,7 @@ const picks: Pick[] = [
     whyThisOne:
       'It fits the Bambino ecosystem better than generic 58mm suggestions and solves a real problem: consistent pressure with less fuss.',
     amazonQuery: 'Normcore 53.3mm calibrated espresso tamper',
-    image: 'https://m.media-amazon.com/images/I/not-real-bambino-tamper.jpg',
+
   },
   {
     rank: 4,
@@ -144,7 +143,7 @@ const picks: Pick[] = [
     whyThisOne:
       'A Bambino-specific bottomless portafilter helps you read puck prep mistakes immediately and is especially useful once the grinder and WDT are already in place.',
     amazonQuery: '54mm bottomless portafilter Breville Bambino Plus',
-    image: 'https://m.media-amazon.com/images/I/not-real-bambino-portafilter.jpg',
+
   },
   {
     rank: 5,
@@ -162,7 +161,7 @@ const picks: Pick[] = [
     whyThisOne:
       'It is one of the most common next-step upgrades for Bambino owners who want more control out of the same machine.',
     amazonQuery: 'IMS precision basket Breville 54mm',
-    image: 'https://m.media-amazon.com/images/I/not-real-bambino-basket.jpg',
+
   },
   {
     rank: 6,
@@ -180,7 +179,7 @@ const picks: Pick[] = [
     whyThisOne:
       'It is small enough for espresso workflow, quick enough to be useful, and much easier to justify than jumping straight to ultra-premium scale pricing.',
     amazonQuery: 'Timemore Black Mirror Nano espresso scale',
-    image: 'https://m.media-amazon.com/images/I/not-real-bambino-scale.jpg',
+
   },
   {
     rank: 7,
@@ -198,7 +197,7 @@ const picks: Pick[] = [
     whyThisOne:
       'This is the finish-the-station upgrade rather than the fix-the-shot upgrade, which is why it belongs at the end of the ranking.',
     amazonQuery: 'espresso knock box milk pitcher set',
-    image: 'https://m.media-amazon.com/images/I/not-real-bambino-pitcher.jpg',
+
   },
 ]
 
@@ -405,20 +404,6 @@ export default function BambinoAccessoriesPage() {
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-amber-100 text-lg font-black text-amber-800">
                     {pick.rank}
                   </div>
-                  <a
-                    href={amazonSearch(pick.amazonQuery)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    <ExternalProductImage
-                      src={pick.image}
-                      alt={pick.ourPickName}
-                      title={pick.title}
-                      fallbackAccentClassName="from-amber-100 via-white to-stone-100"
-                      className="h-32 w-32 rounded-2xl border border-stone-200 bg-white object-contain p-2"
-                    />
-                  </a>
                 </div>
 
                 <div className="min-w-0 flex-1">
@@ -463,7 +448,7 @@ export default function BambinoAccessoriesPage() {
 
       <section className="mb-12 grid gap-6 md:grid-cols-2">
         <div className="rounded-[2rem] border border-stone-200 bg-white p-6 shadow-sm">
-          <h2 className="text-3xl font-black text-slate-900">The $20 upgrades that punch above their price</h2>
+          <h2 className="text-3xl font-black text-slate-900">Small upgrades to compare before buying</h2>
           <p className="mt-4 text-base leading-7 text-slate-700">
             On the Bambino Plus, the small prep tools deserve more respect than they usually get. A WDT tool and a correctly sized calibrated tamper do not have the glamour of a grinder, but they directly reduce messy, uneven puck prep. That matters because the machine is quick enough that workflow mistakes show up fast.
           </p>

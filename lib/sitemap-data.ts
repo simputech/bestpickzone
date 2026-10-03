@@ -92,6 +92,8 @@ export const standaloneBookPages: SitemapEntry[] = [
 
 export const mainPages: SitemapEntry[] = [
   ...['', ...bountyArticles.map(a => a.slug), bountyVideoSlug].map(slug => ({url: `${baseUrl}/amazon-offers${slug ? '/' + slug : ''}`, lastModified: bountyDate, changeFrequency: 'monthly' as const, priority: slug ? 0.8 : 0.9})),
+  { url: `${baseUrl}/privacy`, lastModified: '2026-10-02', changeFrequency: 'yearly', priority: 0.3 },
+  { url: `${baseUrl}/disclosure`, lastModified: '2026-10-02', changeFrequency: 'yearly', priority: 0.3 },
   { url: `${baseUrl}/home-kitchen/best-kitchenaid-attachments-worth-buying`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-pet-travel-products`, lastModified: '2026-07-11', changeFrequency: 'monthly', priority: 0.8 },

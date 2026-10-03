@@ -29,7 +29,7 @@ const products = [
     name: 'Keychron Q5 Max',
     badge: '🏆 Best Overall',
     badgeColor: 'bg-yellow-100 text-yellow-800 border border-yellow-300',
-    price: '$199',
+    price: 'Check current price',
     summary:
       'The Keychron Q5 Max is the pinnacle of value in mechanical keyboards — a fully gasket-mounted, aluminum-bodied board with wireless Bluetooth, hot-swap switches, and per-key RGB. It delivers premium typing feel at less than half the cost of endgame boards.',
     pros: ['Gasket-mounted for soft, premium typing feel', 'Wireless Bluetooth + USB-C', 'Hot-swappable switches (no soldering)', 'Full aluminum body — feels tank-like', 'QMK/VIA compatible for full remapping', 'Per-key RGB lighting'],
@@ -44,7 +44,7 @@ const products = [
     name: 'Logitech MX Keys S',
     badge: '💼 Best for Office & Typing',
     badgeColor: 'bg-blue-100 text-blue-800 border border-blue-300',
-    price: '$119',
+    price: 'Check current price',
     summary:
       'The MX Keys S isn\'t a traditional mechanical keyboard — it uses scissor switches with tactile feedback — but it\'s the best typing keyboard for productivity professionals. Whisper-quiet, premium feel, wireless, and excellent for Mac/Windows switching.',
     pros: ['Ultra-quiet typing — office-friendly', 'Multi-device pairing (3 devices)', 'Backlit keys with smart illumination', 'USB-C charging', 'Excellent key spacing and feedback', 'Works seamlessly with Logi Options+'],
@@ -59,12 +59,12 @@ const products = [
     name: 'Razer BlackWidow V4 75%',
     badge: '🎮 Best for Gaming',
     badgeColor: 'bg-red-100 text-red-800 border border-red-300',
-    price: '$149',
+    price: 'Check current price',
     summary:
       'The BlackWidow V4 75% brings Razer\'s best switches and per-key Chroma RGB into a compact 75% layout with a customizable multi-function roller. It\'s the go-to for gamers who want full-size performance in a smaller footprint.',
     pros: ['Razer Yellow linear switches — fast, quiet actuation', 'Compact 75% saves desk space', 'Multi-function roller + media keys', 'Full Razer Chroma RGB ecosystem', 'Doubleshot PBT keycaps', 'Detachable USB-C cable'],
     cons: ['Wired only (no wireless)', 'Pricey for a 75% board', 'Razer software is heavy', 'Rattly stabilizers out of the box'],
-    verdict: 'The best gaming mechanical keyboard under $150. If you\'re in the Razer ecosystem, the V4 75% is excellent. Gamers who want wireless should look at the Keychron Q series instead.',
+    verdict: 'A compact gaming mechanical keyboard. If you\'re in the Razer ecosystem, the V4 75% is excellent. Gamers who want wireless should look at the Keychron Q series instead.',
     amazonUrl: 'https://www.amazon.com/s?k=Razer+BlackWidow+V4+75&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Razer+BlackWidow+V4+75',
     specs: [{ label: 'Layout', value: '75%' }, { label: 'Switches', value: 'Razer Yellow (linear)' }, { label: 'Connectivity', value: 'USB-C (wired)' }, { label: 'RGB', value: 'Razer Chroma per-key' }, { label: 'Keycaps', value: 'Doubleshot PBT' }, { label: 'Weight', value: '0.95 kg' }],
@@ -74,10 +74,10 @@ const products = [
     name: 'Redragon K552 Kumara',
     badge: '💰 Best Budget Pick',
     badgeColor: 'bg-green-100 text-green-800 border border-green-300',
-    price: '$39',
+    price: 'Check current price',
     summary:
-      'The Redragon K552 is the best mechanical keyboard under $50. Outragex-Cherry Red clones, solid build quality, and bright RGB make it a genuine entry point into mechanical keyboards without any budget compromise.',
-    pros: ['Excellent value at $39', 'Solid build for the price', 'Bright RGB backlighting', 'Outemu Blue switches (tactile + clicky)', 'Compact TKL layout saves desk space', 'Available in multiple switch colors'],
+      'The Redragon K552 is an entry-level mechanical keyboard. Outragex-Cherry Red clones, solid build quality, and bright RGB make it a genuine entry point into mechanical keyboards without any budget compromise.',
+    pros: ['Entry-level keyboard option', 'Solid build for the price', 'Bright RGB backlighting', 'Outemu Blue switches (tactile + clicky)', 'Compact TKL layout saves desk space', 'Available in multiple switch colors'],
     cons: ['No USB-C (uses older micro-USB)', 'Outemu switches are good but below Cherry quality', 'No software customization', 'Loud clicky switches — not office-friendly'],
     verdict: 'The best gateway mechanical keyboard in 2026. If you\'ve never used a mechanical keyboard and want to try one without spending $100+, the K552 is where to start.',
     amazonUrl: 'https://www.amazon.com/s?k=Redragon+K552+Kumara&tag=althcu-20',
@@ -87,7 +87,7 @@ const products = [
 ]
 
 const faqs = [
-  { q: 'What is the best mechanical keyboard in 2026?', a: 'The Keychron Q5 Max is the best mechanical keyboard for most people in 2026. It combines a premium gasket-mounted aluminum body, hot-swappable switches, wireless Bluetooth, and full QMK/VIA support at $199 — significantly cheaper than comparable premium boards.' },
+  { q: 'What is the best mechanical keyboard in 2026?', a: 'The Keychron Q5 Max is the best mechanical keyboard for most people in 2026. It combines a premium gasket-mounted aluminum body, hot-swappable switches, wireless Bluetooth, and full QMK/VIA support — significantly cheaper than comparable premium boards.' },
   { q: 'What switch type should I choose?', a: 'Linear switches (Red) are smooth and quiet — best for gaming and fast typists. Tactile switches (Brown, Clear) have a bump feedback at actuation — best for typing. Clicky switches (Blue, Green) are loud with an audible click — best if you type alone and love feedback. Avoid clicky switches in shared office spaces.' },
   { q: 'What keyboard layout is best for a desk setup?', a: 'Full-size (100%) is best if you need numpad. TKL (80%) removes numpad for a cleaner setup. 75% is the sweet spot for desk real estate. 65% drops function row. 60% is the most compact. Most people are happiest with 75% or TKL.' },
   { q: 'Are mechanical keyboards worth it for typing?', a: 'Yes. Mechanical keyboards significantly reduce typing fatigue compared to membrane keyboards because each key actuates before full travel — you don\'t need to bottom out every keystroke. After a short adjustment period, most people type faster and more accurately on mechanical boards.' },
@@ -115,10 +115,10 @@ export default function BestMechanicalKeyboardsPage() {
       <h1 className="text-4xl font-bold text-gray-900 mb-5 leading-tight">Best Mechanical Keyboards in 2026</h1>
 
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        A good mechanical keyboard changes how you interact with your computer. Better switch feel, reduced fatigue, and years of durability — once you switch, you don't go back. We tested and compared over 20 boards to find the best picks for every budget and use case.
+        A good mechanical keyboard changes how you interact with your computer. Better switch feel, reduced fatigue, and years of durability — once you switch, you don't go back. This researched comparison considers published specifications, features and practical tradeoffs; it is not a hands-on test.
       </p>
       <p className="text-gray-600 mb-8 leading-relaxed">
-        <strong>Quick pick:</strong> The <strong>Keychron Q5 Max</strong> wins for most people. For office use, try the <strong>Logitech MX Keys S</strong>. Budget shoppers should start with the <strong>Redragon K552</strong> at $39.
+        <strong>Quick pick:</strong> The <strong>Keychron Q5 Max</strong> wins for most people. For office use, try the <strong>Logitech MX Keys S</strong>. Budget shoppers should start with the <strong>Redragon K552</strong>.
       </p>
 
       <section className="mb-12">
@@ -136,10 +136,10 @@ export default function BestMechanicalKeyboardsPage() {
             </thead>
             <tbody className="divide-y divide-gray-100">
               {[
-                { name: 'Keychron Q5 Max', price: '$199', layout: '96%', wireless: 'Yes', best: 'Best Overall' },
-                { name: 'Logitech MX Keys S', price: '$119', layout: 'Full-size', wireless: 'Yes', best: 'Office Typing' },
-                { name: 'Razer BlackWidow V4 75%', price: '$149', layout: '75%', wireless: 'No', best: 'Gaming' },
-                { name: 'Redragon K552 Kumara', price: '$39', layout: 'TKL', wireless: 'No', best: 'Budget' },
+                { name: 'Keychron Q5 Max', price: 'Check current price', layout: '96%', wireless: 'Yes', best: 'Best Overall' },
+                { name: 'Logitech MX Keys S', price: 'Check current price', layout: 'Full-size', wireless: 'Yes', best: 'Office Typing' },
+                { name: 'Razer BlackWidow V4 75%', price: 'Check current price', layout: '75%', wireless: 'No', best: 'Gaming' },
+                { name: 'Redragon K552 Kumara', price: 'Check current price', layout: 'TKL', wireless: 'No', best: 'Budget' },
               ].map((row, i) => (
                 <tr key={i} className={i === 0 ? 'bg-yellow-50' : 'bg-white'}>
                   <td className="px-4 py-3 font-medium text-gray-900">{i === 0 && <span className="text-yellow-600 mr-1">★</span>}{row.name}</td>
@@ -226,10 +226,10 @@ export default function BestMechanicalKeyboardsPage() {
       <section className="mb-10 bg-gray-50 rounded-xl p-6 border border-gray-200">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Final Verdict</h2>
         <div className="space-y-3 text-sm text-gray-700">
-          <p><strong>Best overall:</strong> Keychron Q5 Max — gasket-mounted, wireless, hot-swap, and QMK at $199.</p>
-          <p><strong>Best for office/productivity:</strong> Logitech MX Keys S — quiet, wireless, multi-device at $119.</p>
-          <p><strong>Best for gaming:</strong> Razer BlackWidow V4 75% — linear switches, Chroma RGB, compact layout at $149.</p>
-          <p><strong>Best budget:</strong> Redragon K552 — real mechanical switches and RGB for $39.</p>
+          <p><strong>Best overall:</strong> Keychron Q5 Max — gasket-mounted, wireless, hot-swap, and QMK.</p>
+          <p><strong>Best for office/productivity:</strong> Logitech MX Keys S — quiet, wireless, multi-device.</p>
+          <p><strong>Best for gaming:</strong> Razer BlackWidow V4 75% — linear switches, Chroma RGB, compact layout.</p>
+          <p><strong>Best budget:</strong> Redragon K552 — real mechanical switches and RGB.</p>
         </div>
       </section>
 

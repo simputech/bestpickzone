@@ -7,7 +7,7 @@ import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Laptops for College Students in 2026 (Every Budget)',
   description:
-    'From $400 Chromebooks to premium MacBooks, we ranked the best laptops for college students by battery life, portability, performance, and value.',
+    'From basic Chromebooks to premium MacBooks, we ranked the best laptops for college students by battery life, portability, performance, and value.',
   openGraph: {
     title: 'Best Laptops for College Students in 2026 (Every Budget)',
     description:
@@ -32,7 +32,7 @@ const products = [
     name: 'Apple MacBook Air M3 (13-inch)',
     badge: '🏆 Best Overall',
     badgeColor: 'bg-yellow-100 text-yellow-800 border border-yellow-300',
-    price: '$1,099',
+    price: 'Check current price',
     summary:
       'The MacBook Air M3 is the best college laptop for students who can stretch the budget. Featherlight at 2.7 lbs, utterly silent (no fan), 18-hour battery life, and M3 performance that handles everything from video editing to Python — all day without a charger.',
     pros: [
@@ -44,7 +44,7 @@ const products = [
       'Retina display is stunning for media and design work',
     ],
     cons: [
-      'Expensive — starts at $1,099 (8GB RAM)',
+      'Expensive — starts (8GB RAM)',
       'Only 2 USB-C ports — requires a hub for peripherals',
       'No touchscreen',
       'Base 8GB RAM feels limited for heavy multitasking in 2026',
@@ -65,11 +65,11 @@ const products = [
   {
     rank: 2,
     name: 'Lenovo IdeaPad Flex 5i',
-    badge: '💰 Best Under $600',
+    badge: '💰 Budget Windows Pick',
     badgeColor: 'bg-green-100 text-green-800 border border-green-300',
-    price: '$499',
+    price: 'Check current price',
     summary:
-      'The IdeaPad Flex 5i gives students a 2-in-1 touchscreen laptop with solid Intel Core i5 performance, a bright 14" display, and reliable battery life for under $500. One of the best value Windows laptops in 2026.',
+      'The IdeaPad Flex 5i gives students a 2-in-1 touchscreen laptop with solid Intel Core i5 performance, a bright 14" display, and reliable battery life in an entry-level configuration. One of the best value Windows laptops in 2026.',
     pros: [
       '2-in-1 touchscreen design (laptop + tablet mode)',
       'Intel Core i5 handles coursework and light multitasking',
@@ -84,7 +84,7 @@ const products = [
       'Not powerful enough for video editing or 3D rendering',
     ],
     verdict:
-      'The best laptop under $600 for college students. The 2-in-1 design is great for note-taking, and you get real Windows performance without breaking the bank.',
+      'A convertible Windows option for college students. The 2-in-1 design is great for note-taking, and you get real Windows performance without breaking the bank.',
     amazonUrl: 'https://www.amazon.com/s?k=Lenovo+IdeaPad+Flex+5i+14+inch&tag=althcu-20',
     bestBuyUrl: 'https://www.bestbuy.com/site/searchpage.jsp?st=Lenovo+IdeaPad+Flex+5i',
     specs: [
@@ -101,7 +101,7 @@ const products = [
     name: 'Dell XPS 13',
     badge: '🎨 Best for Design & Creative Work',
     badgeColor: 'bg-purple-100 text-purple-800 border border-purple-300',
-    price: '$1,099',
+    price: 'Check current price',
     summary:
       'The Dell XPS 13 pairs an Intel Core Ultra processor with a gorgeous OLED display option and a compact premium build — ideal for design, media, and business students who want Windows at its finest.',
     pros: [
@@ -135,11 +135,11 @@ const products = [
     name: 'Acer Chromebook Spin 714',
     badge: '📚 Best Budget / Best Chromebook',
     badgeColor: 'bg-blue-100 text-blue-800 border border-blue-300',
-    price: '$449',
+    price: 'Check current price',
     summary:
       'The Chromebook Spin 714 is the best Chromebook for college students who live in Google Workspace. Solid Intel Core i5, a 2K touchscreen, and a durable 2-in-1 build at a fraction of Windows laptop prices.',
     pros: [
-      'Affordable at $449',
+      'Entry-level Chromebook option',
       '2K touchscreen with 2-in-1 form factor',
       'ChromeOS is fast, secure, and virus-resistant',
       'Up to 10 hours battery life',
@@ -170,7 +170,7 @@ const products = [
 const faqs = [
   {
     q: 'What is the best laptop for college students in 2026?',
-    a: 'The Apple MacBook Air M3 is the best overall laptop for college students who can invest $1,099. For students on a tighter budget, the Lenovo IdeaPad Flex 5i delivers solid performance under $500. Chromebook users should consider the Acer Chromebook Spin 714 at $449.',
+    a: 'The Apple MacBook Air M3 is the best overall laptop for college students who prioritize portability. For students on a tighter budget, the Lenovo IdeaPad Flex 5i offers a convertible Windows option. Chromebook users should consider the Acer Chromebook Spin 714.',
   },
   {
     q: 'How much RAM do I need in a college laptop?',
@@ -220,8 +220,8 @@ export default function BestLaptopsForCollegeStudentsPage() {
       </p>
       <p className="text-gray-600 mb-8 leading-relaxed">
         <strong>Quick pick:</strong> The <strong>MacBook Air M3</strong> is the best
-        all-around choice at $1,099. On a budget? The{' '}
-        <strong>Lenovo IdeaPad Flex 5i</strong> at $499 is hard to beat. Google-only
+        all-around choice On a budget? The{' '}
+        <strong>Lenovo IdeaPad Flex 5i</strong> is hard to beat. Google-only
         students can save with the <strong>Acer Chromebook Spin 714</strong>.
       </p>
 
@@ -354,9 +354,9 @@ export default function BestLaptopsForCollegeStudentsPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Final Verdict</h2>
         <div className="space-y-3 text-sm text-gray-700">
           <p><strong>Best overall:</strong> MacBook Air M3 — unbeatable battery, portability, and macOS ecosystem.</p>
-          <p><strong>Best under $600:</strong> Lenovo IdeaPad Flex 5i — 2-in-1 touchscreen with reliable performance.</p>
+          <p><strong>Budget Windows pick:</strong> Lenovo IdeaPad Flex 5i — 2-in-1 touchscreen with reliable performance.</p>
           <p><strong>Best for design/creative:</strong> Dell XPS 13 — premium Windows laptop with optional OLED display.</p>
-          <p><strong>Best budget / Chromebook:</strong> Acer Chromebook Spin 714 — ideal for Google Workspace users at $449.</p>
+          <p><strong>Best budget / Chromebook:</strong> Acer Chromebook Spin 714 — ideal for Google Workspace users</p>
         </div>
       </section>
 

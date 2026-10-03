@@ -26,65 +26,65 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
 const products = [
   {
     rank: 1,
-    name: 'LG 27GP850-B (27" 1440p 180Hz)',
+    name: 'LG 27GP850-B (27" 1440p 165Hz, 180Hz overclock)',
     badge: '🏆 Best Overall',
     badgeColor: 'bg-yellow-100 text-yellow-800 border border-yellow-300',
-    price: '$279',
-    summary: 'The LG 27GP850-B gives you a 1440p NanoIPS panel with 180Hz refresh rate, 1ms response time, and NVIDIA G-Sync Compatible certification — all under $300. It\'s the monitor that competes with $400+ displays and wins on value.',
-    pros: ['1440p resolution — noticeably sharper than 1080p', '180Hz refresh rate — excellent for gaming', 'IPS panel with vibrant, accurate colors', 'G-Sync Compatible + FreeSync Premium', '1ms GtG response time', 'USB-C with 96W power delivery'],
-    cons: ['No built-in speakers', 'Stand is not height-adjustable (only tilt)', 'IPS glow noticeable in dark rooms', 'Requires VESA mount purchase for height adjustment'],
-    verdict: 'The best monitor under $300. The 1440p/180Hz combo makes it excellent for both productivity and gaming. The USB-C with 96W PD is a rare bonus at this price.',
+    price: 'Check current price',
+    summary: 'The LG 27GP850-B gives you a 1440p NanoIPS panel with 180Hz refresh rate, 1ms response time, and NVIDIA G-Sync Compatible certification — check the current price against your budget. Compare its resolution and refresh rate with other monitors on your shortlist.',
+    pros: ['1440p resolution — noticeably sharper than 1080p', '180Hz refresh rate — excellent for gaming', 'IPS panel with vibrant, accurate colors', 'G-Sync Compatible + FreeSync Premium', '1ms GtG response time', 'Compare your computer outputs before buying'],
+    cons: ['No built-in speakers', 'IPS glow noticeable in dark rooms', 'Check desk depth before purchase'],
+    verdict: 'A monitor to consider if its current price fits your budget. The 1440p/180Hz combo makes it excellent for both productivity and gaming. Check the input ports before pairing it with a laptop dock.',
     amazonUrl: 'https://www.amazon.com/s?k=LG+27GP850-B&tag=althcu-20',
     ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=LG+27GP850-B+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
-    specs: [{ label: 'Resolution', value: '2560×1440 (1440p)' }, { label: 'Panel', value: 'NanoIPS' }, { label: 'Refresh Rate', value: '180Hz' }, { label: 'Response Time', value: '1ms GtG' }, { label: 'HDR', value: 'HDR400' }, { label: 'Ports', value: 'HDMI 2.0, DP 1.4, USB-C 96W' }],
+    specs: [{ label: 'Resolution', value: '2560×1440 (1440p)' }, { label: 'Panel', value: 'NanoIPS' }, { label: 'Refresh Rate', value: '165Hz / 180Hz overclock' }, { label: 'Response Time', value: '1ms GtG' }],
   },
   {
     rank: 2,
     name: 'Dell S2722DGM (27" 1440p 165Hz)',
     badge: '🏢 Best for Home Office',
     badgeColor: 'bg-blue-100 text-blue-800 border border-blue-300',
-    price: '$229',
-    summary: 'The Dell S2722DGM is the best home office monitor under $250 — a curved 1440p VA panel with 165Hz, AMD FreeSync Premium, and Dell\'s reliable build quality. The VA panel delivers deeper blacks than IPS, ideal for documents and spreadsheets.',
-    pros: ['1500R curve reduces eye strain during long work sessions', 'VA panel — deeper blacks than IPS', '1440p resolution at an affordable price', 'Tilt, height, and pivot adjustable stand', 'FreeSync Premium for smooth scrolling', 'Dell reliability and warranty'],
+    price: 'Check current price',
+    summary: 'The Dell S2722DGM is the curved monitor to consider for home office use — a curved 1440p VA panel with 165Hz, AMD FreeSync Premium, and Dell\'s reliable build quality. The VA panel delivers deeper blacks than IPS, ideal for documents and spreadsheets.',
+    pros: ['1500R curved panel', 'VA panel — deeper blacks than IPS', '1440p resolution at an affordable price', 'Tilt and height adjustable stand', 'FreeSync Premium for smooth scrolling', 'Dell reliability and warranty'],
     cons: ['VA panel slower than IPS (4ms vs 1ms)', 'Colors less vibrant than IPS at same price', 'No USB hub or USB-C', 'Bezels are thicker than premium monitors'],
-    verdict: 'The best curved budget monitor for long workdays. The curved 1440p VA panel reduces eye fatigue, and the fully adjustable stand is rare at this price point.',
+    verdict: 'The best curved budget monitor for long workdays. The curved 1440p VA panel offers a different screen shape, and the height-adjustable stand is rare at this price point.',
     amazonUrl: 'https://www.amazon.com/s?k=Dell+S2722DGM&tag=althcu-20',
     ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=Dell+S2722DGM+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
-    specs: [{ label: 'Resolution', value: '2560×1440 (1440p)' }, { label: 'Panel', value: 'VA Curved (1500R)' }, { label: 'Refresh Rate', value: '165Hz' }, { label: 'Response Time', value: '4ms GtG' }, { label: 'Ports', value: '2x HDMI 2.0, 1x DP 1.4' }, { label: 'Stand', value: 'Tilt/Height/Pivot' }],
+    specs: [{ label: 'Resolution', value: '2560×1440 (1440p)' }, { label: 'Panel', value: 'VA Curved (1500R)' }, { label: 'Refresh Rate', value: '165Hz' }, { label: 'Response Time', value: '4ms GtG' }, { label: 'Ports', value: '2x HDMI 2.0, 1x DP 1.2' }, { label: 'Stand', value: 'Tilt/Height' }],
   },
   {
     rank: 3,
     name: 'ASUS TUF Gaming VG249Q3A (24" 1080p 180Hz)',
     badge: '🎮 Best Budget Gaming Monitor',
     badgeColor: 'bg-red-100 text-red-800 border border-red-300',
-    price: '$159',
-    summary: 'The ASUS TUF VG249Q3A is the best gaming monitor under $200 — a 24" IPS panel with a blistering 180Hz refresh rate and 0.5ms MPRT response time. For competitive FPS gaming, this display outperforms monitors twice its price.',
-    pros: ['180Hz refresh rate — competitive gaming ready', '0.5ms MPRT response time', 'IPS panel with 99% sRGB color coverage', 'FreeSync Premium Pro + G-Sync Compatible', 'Ergonomic stand (tilt, height, pivot, swivel)', ' ELMB-Sync motion blur reduction'],
-    cons: ['1080p resolution only — not great for productivity', 'No HDR worth noting (HDR10 in name only)', 'Built-in speakers are poor', 'Maximum brightness could be higher'],
-    verdict: 'The best competitive gaming monitor under $200. If you play fast-paced FPS games (Valorant, CS2, Apex), the 180Hz/0.5ms combo is a real performance upgrade over a typical office monitor.',
+    price: 'Check current price',
+    summary: 'The ASUS TUF VG249Q3A is the gaming monitor to compare within your budget — a 24" IPS panel with a blistering 180Hz refresh rate and 1ms GtG response time. For competitive FPS gaming, check the current offer against other 180Hz displays.',
+    pros: ['180Hz refresh rate — competitive gaming ready', '1ms GtG response time', 'IPS panel with 99% sRGB color coverage', 'FreeSync Premium', 'Tilt stand; no height adjustment', ' ELMB-Sync motion blur reduction'],
+    cons: ['1080p resolution only — not great for productivity', 'Basic brightness and contrast compared with HDR-focused monitors', 'Built-in speakers are poor', 'Maximum brightness could be higher'],
+    verdict: 'A compact option for high-refresh-rate gaming. If you play fast-paced FPS games (Valorant, CS2, Apex), the 180Hz/1ms specification is a real performance upgrade over a typical office monitor.',
     amazonUrl: 'https://www.amazon.com/s?k=ASUS+TUF+VG249Q3A&tag=althcu-20',
     ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=ASUS+TUF+VG249Q3A+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
-    specs: [{ label: 'Resolution', value: '1920×1080 (1080p)' }, { label: 'Panel', value: 'IPS' }, { label: 'Refresh Rate', value: '180Hz' }, { label: 'Response Time', value: '0.5ms MPRT' }, { label: 'HDR', value: 'HDR10' }, { label: 'Stand', value: 'Tilt/Height/Pivot/Swivel' }],
+    specs: [{ label: 'Resolution', value: '1920×1080 (1080p)' }, { label: 'Panel', value: 'IPS' }, { label: 'Refresh Rate', value: '180Hz' }, { label: 'Response Time', value: '1ms GtG' }, { label: 'Stand', value: 'Tilt only' }],
   },
   {
     rank: 4,
     name: 'Acer SB220Q bi (21.5" 1080p)',
-    badge: '💰 Best Entry-Level / Under $100',
+    badge: '💰 Best Entry-Level',
     badgeColor: 'bg-green-100 text-green-800 border border-green-300',
-    price: '$89',
-    summary: 'The Acer SB220Q bi is the best budget monitor under $100 — a clean 21.5" IPS display with ultra-thin bezels, zero-frame design, and accurate sRGB colors. Perfect as a first monitor or secondary display for light work.',
-    pros: ['Under $100 — excellent entry price', 'IPS panel with accurate, consistent colors', 'Ultra-thin 4mm bezel design', 'HDMI and VGA inputs', 'Quick 1ms VRB response time', 'Energy Star certified'],
-    cons: ['1080p only — fine for 21.5" but aging for larger displays', 'No height adjustment (tilt only)', 'No DisplayPort — HDMI and VGA only', '60Hz — no gaming or high refresh use case', 'Weak built-in speakers'],
-    verdict: 'The best monitor under $100 for basic home office use, students, or anyone adding a second screen. Not for gaming or creative work — but for email, docs, and web browsing it\'s perfectly sharp at 21.5".',
+    price: 'Check current price',
+    summary: 'The Acer SB220Q bi is the best budget monitor for entry-level use — a clean 21.5" IPS display with ultra-thin bezels, zero-frame design, and accurate sRGB colors. Perfect as a first monitor or secondary display for light work.',
+    pros: ['Entry-level monitor option', 'IPS panel with accurate, consistent colors', 'Ultra-thin 4mm bezel design', 'HDMI and VGA inputs', '4ms specified response time', 'Energy Star certified'],
+    cons: ['1080p only — fine for 21.5" but aging for larger displays', 'No height adjustment (tilt only)', 'No DisplayPort — HDMI and VGA only', '75Hz; lower refresh rate than the gaming options', 'Check regional model specifications'],
+    verdict: 'An entry-level option for basic home office use, students, or anyone adding a second screen. Not for gaming or creative work — but for email, docs, and web browsing it\'s perfectly sharp at 21.5".',
     amazonUrl: 'https://www.amazon.com/s?k=Acer+SB220Q+bi&tag=althcu-20',
     ebayUrl: 'https://www.ebay.com/sch/i.html?_nkw=Acer+SB220Q+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1',
-    specs: [{ label: 'Resolution', value: '1920×1080 (1080p)' }, { label: 'Panel', value: 'IPS' }, { label: 'Refresh Rate', value: '60Hz' }, { label: 'Response Time', value: '1ms VRB' }, { label: 'Ports', value: 'HDMI, VGA' }, { label: 'Stand', value: 'Tilt only' }],
+    specs: [{ label: 'Resolution', value: '1920×1080 (1080p)' }, { label: 'Panel', value: 'IPS' }, { label: 'Refresh Rate', value: '75Hz' }, { label: 'Response Time', value: '4ms' }, { label: 'Ports', value: 'HDMI, VGA' }, { label: 'Stand', value: 'Tilt only' }],
   },
 ]
 
 const faqs = [
-  { q: 'What is the best monitor under $300 in 2026?', a: 'The LG 27GP850-B is the best monitor under $300. It delivers a 1440p NanoIPS panel with 180Hz, G-Sync Compatible support, and USB-C with 96W power delivery — specifications that were exclusive to $400+ monitors just two years ago.' },
-  { q: 'Should I get 1080p or 1440p?', a: '1440p (2560×1440) is noticeably sharper on screens 24" and larger. On a 27" monitor, 1080p looks noticeably soft compared to 1440p. If you\'re buying a 27" monitor, choose 1440p — the price difference is often just $30–50.' },
+  { q: 'What is the best monitor under $300 in 2026?', a: 'Consider the LG 27GP850-B if the current offer falls within your $300 budget. It delivers a 1440p NanoIPS panel with 180Hz, G-Sync Compatible support, and a high-refresh-rate display for mixed work and gaming.' },
+  { q: 'Should I get 1080p or 1440p?', a: '1440p (2560×1440) is noticeably sharper on screens 24" and larger. On a 27" monitor, 1080p looks noticeably soft compared to 1440p. If you\'re buying a 27" monitor, choose 1440p — compare current prices before choosing.' },
   { q: 'What refresh rate do I need?', a: '60Hz is the baseline for general use. 144Hz+ is recommended for gaming — the difference in smooth motion is dramatic. For competitive gaming (FPS, fighting games), 165–180Hz offers a real advantage. Office and creative users don\'t need more than 75–100Hz.' },
   { q: 'IPS vs VA vs TN — which panel should I choose?', a: 'IPS offers the best color accuracy and viewing angles — best for most users. VA provides deeper blacks and better contrast — good for movies and office work. TN is fastest (best response time) but poor viewing angles — suited for competitive gaming at budget prices. In 2026, IPS is the default recommendation for most buyers.' },
   { q: 'Do I need G-Sync or FreeSync?', a: 'Adaptive sync (G-Sync or FreeSync) eliminates screen tearing and stuttering in games by syncing your monitor\'s refresh rate to your GPU\'s output. G-Sync is for NVIDIA cards; FreeSync for AMD. Most monitors now support both. If you game, choose a monitor with adaptive sync support.' },
@@ -111,10 +111,10 @@ export default function BestBudgetMonitorsPage() {
       <h1 className="text-4xl font-bold text-gray-900 mb-5 leading-tight">Best Budget Monitors Under $300 in 2026</h1>
 
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-        The sub-$300 monitor market has never been better. You can now get a 1440p 180Hz IPS display with G-Sync for under $280 — specs that cost $450+ just two years ago. After comparing 20+ monitors, these are our top picks.
+        A $300 budget is a useful starting point for comparing monitors, but the current offer determines what fits. This shortlist compares published display specifications and intended uses; it is not a hands-on test.
       </p>
       <p className="text-gray-600 mb-8 leading-relaxed">
-        <strong>Quick pick:</strong> The <strong>LG 27GP850-B</strong> at $279 is the best all-around budget monitor. On a tighter budget, the <strong>ASUS TUF VG249Q3A</strong> at $159 wins for gaming. Office users who want a curved display should look at the <strong>Dell S2722DGM</strong>.
+        <strong>Quick pick:</strong> The <strong>LG 27GP850-B</strong> is the best all-around budget monitor. On a tighter budget, the <strong>ASUS TUF VG249Q3A</strong> wins for gaming. Office users who want a curved display should look at the <strong>Dell S2722DGM</strong>.
       </p>
 
       <section className="mb-12">
@@ -198,7 +198,7 @@ export default function BestBudgetMonitorsPage() {
           <p><strong>Refresh rate:</strong> 144Hz+ transforms scrolling and gaming smoothness. For home office and general use, 75Hz is sufficient. For gaming, don't go below 144Hz.</p>
           <p><strong>Panel type:</strong> IPS panels are the best default in 2026 — accurate colors, wide viewing angles, and fast response. VA panels offer better contrast for movies. TN panels are fastest but have worst colors and viewing angles.</p>
           <p><strong>Response time:</strong> Matters most for gaming. 1ms IPS panels are now common at budget prices. For office use, even 4ms is imperceptible.</p>
-          <p><strong>Ergonomics:</strong> A height-adjustable stand prevents neck strain. Surprisingly rare under $200 — Dell includes them more consistently than most brands.</p>
+          <p><strong>Ergonomics:</strong> A height-adjustable stand prevents neck strain. Surprisingly rare for budget-conscious gamers — Dell includes them more consistently than most brands.</p>
         </div>
       </section>
 
@@ -214,13 +214,14 @@ export default function BestBudgetMonitorsPage() {
         </div>
       </section>
 
+      <p className="mb-8 text-sm text-gray-600">Specification references: <a className="underline" href="https://www.lg.com/uk/monitors/gaming/27gp850-b/">LG</a>, <a className="underline" href="https://dl.dell.com/manuals/all-products/esuprt_electronics_accessories/esuprt_electronics_accessories_monitor/dell-s2722dgm-monitor_users-guide_en-us.pdf">Dell manual</a>, <a className="underline" href="https://www.asus.com/us/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg249q3a/techspec/">ASUS</a>, and <a className="underline" href="https://www.acer.com/gb-en/monitors/entertainment/sb0/pdp/UM.WS0EE.008">Acer</a>. Confirm regional variants, included stand and connection limits before ordering.</p>
       <section className="mb-10 bg-gray-50 rounded-xl p-6 border border-gray-200">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Final Verdict</h2>
         <div className="space-y-3 text-sm text-gray-700">
-          <p><strong>Best overall:</strong> LG 27GP850-B — 1440p/180Hz IPS with USB-C 96W at $279.</p>
-          <p><strong>Best home office curved:</strong> Dell S2722DGM — 1440p VA curved with adjustable stand at $229.</p>
-          <p><strong>Best gaming under $200:</strong> ASUS TUF VG249Q3A — 180Hz IPS with 0.5ms MPRT at $159.</p>
-          <p><strong>Best under $100:</strong> Acer SB220Q bi — clean IPS display for basic home office use at $89.</p>
+          <p><strong>Best overall:</strong> LG 27GP850-B — 1440p/180Hz IPS with USB-C 96W</p>
+          <p><strong>Best home office curved:</strong> Dell S2722DGM — 1440p VA curved with adjustable stand</p>
+          <p><strong>Best gaming for budget-conscious gamers:</strong> ASUS TUF VG249Q3A — 180Hz IPS with 1ms GtG</p>
+          <p><strong>Best for entry-level use:</strong> Acer SB220Q bi — clean IPS display for basic home office use</p>
         </div>
       </section>
 

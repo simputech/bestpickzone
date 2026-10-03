@@ -103,7 +103,7 @@ export default function ShortClassicsFlightPage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-yellow-200 bg-yellow-50 px-4 py-3 text-sm leading-relaxed text-yellow-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change, so confirm before purchasing.
       </p>
 
@@ -130,7 +130,7 @@ export default function ShortClassicsFlightPage() {
                   <a
                     href={amazonLink(pick.title, pick.author)}
                     target="_blank"
-                    rel="noopener nofollow"
+                    rel="noopener nofollow sponsored"
                     className="font-semibold text-yellow-700"
                   >
                     Find on Amazon
@@ -188,7 +188,7 @@ export default function ShortClassicsFlightPage() {
             <a
               href={href}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-yellow-600 px-6 py-3 text-base font-bold text-white transition hover:bg-yellow-500"
             >
               Click Here to Buy on Amazon

@@ -72,7 +72,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -92,7 +92,7 @@ const products: Product[] = [
     ourPickWhy:
       'The high-volume Amazon pick in the category: fits large laptops, water-resistant shell, USB pass-through, and a price that leaves budget for what goes inside it.',
     asin: 'B092TQG5ZD',
-    image: 'https://m.media-amazon.com/images/I/810gZYpPz9L._AC_SL480_.jpg',
+
     amazonQuery: 'laptop backpack with usb charging port college',
   },
   {
@@ -110,7 +110,7 @@ const products: Product[] = [
     ourPickWhy:
       'The standard. Exam-approved everywhere that matters, a rechargeable battery that lasts weeks, and every teacher in the country can help you use it.',
     asin: 'B00TFYYWQA',
-    image: 'https://m.media-amazon.com/images/I/71AQD8aCcxL._AC_SL480_.jpg',
+
     amazonQuery: 'ti-84 plus ce graphing calculator',
   },
   {
@@ -128,7 +128,7 @@ const products: Product[] = [
     ourPickWhy:
       'Massive storage, voice activation that skips the silences, and a one-button workflow that works in the ten seconds before class starts.',
     asin: 'B084KQMH6V',
-    image: 'https://m.media-amazon.com/images/I/61g5p0fhHBL._AC_SL480_.jpg',
+
     amazonQuery: 'digital voice recorder lectures',
   },
   {
@@ -146,7 +146,7 @@ const products: Product[] = [
     ourPickWhy:
       'Two boards for the price of a notebook, colorful high-contrast writing, and a lock switch that prevents the accidental-erase tragedy.',
     asin: 'B0BJ1FK1ZY',
-    image: 'https://m.media-amazon.com/images/I/81aWHdRhZnL._AC_SL480_.jpg',
+
     amazonQuery: 'lcd writing tablet 10 inch',
   },
   {
@@ -164,7 +164,7 @@ const products: Product[] = [
     ourPickWhy:
       'The app is the differentiator: fast, actually pleasant to use, with cheap tape refills — the combination that keeps the labeler in use past week one.',
     asin: 'B0CZ6WCHGF',
-    image: 'https://m.media-amazon.com/images/I/61S4E7ff38L._AC_SL480_.jpg',
+
     amazonQuery: 'niimbot label maker',
   },
   {
@@ -182,7 +182,7 @@ const products: Product[] = [
     ourPickWhy:
       'The default tiny speaker for a reason: real JBL sound at pocket size, waterproof, and available in enough colors to claim yours on sight.',
     asin: 'B08KW1KR5H',
-    image: 'https://m.media-amazon.com/images/I/715ZUYP5N5L._AC_SL480_.jpg',
+
     amazonQuery: 'jbl go 3 bluetooth speaker',
   },
   {
@@ -200,7 +200,7 @@ const products: Product[] = [
     ourPickWhy:
       'The value pick that keeps showing up in dorms: solid brightness for the price, Bluetooth audio, and simple enough that movie night starts in five minutes.',
     asin: 'B0F43Q5B9K',
-    image: 'https://m.media-amazon.com/images/I/61qR4HNDK-L._AC_SL480_.jpg',
+
     amazonQuery: 'mini projector bedroom dorm',
   },
   {
@@ -218,7 +218,7 @@ const products: Product[] = [
     ourPickWhy:
       'The name brand of the pocket-print category: reliable app, sticky-backed prints sized for wall grids, and paper available everywhere.',
     asin: 'B07GFP7H8C',
-    image: 'https://m.media-amazon.com/images/I/81xi7PVo3mL._AC_SL480_.jpg',
+
     amazonQuery: 'hp sprocket photo printer',
   },
   {
@@ -236,7 +236,7 @@ const products: Product[] = [
     ourPickWhy:
       'The long-running category favorite: genuinely thin speakers, a breathable washable band, and a price that makes it a low-risk experiment.',
     asin: 'B07SHBQY7Z',
-    image: 'https://m.media-amazon.com/images/I/816WPXEbC9L._AC_SL480_.jpg',
+
     amazonQuery: 'sleep headphones headband bluetooth',
   },
   {
@@ -254,7 +254,7 @@ const products: Product[] = [
     ourPickWhy:
       'Full-height tripod instead of a desk stub, a 12-inch ring with real brightness range, and a remote shutter — the complete kit at a student price.',
     asin: 'B08L5VKNWR',
-    image: 'https://m.media-amazon.com/images/I/61tKCv30rNL._AC_SL480_.jpg',
+
     amazonQuery: 'ring light with tripod stand phone holder',
   },
   {
@@ -272,7 +272,7 @@ const products: Product[] = [
     ourPickWhy:
       'The presenter remote the category standardized on: instant plug-and-play, intuitive buttons you can operate blind, and a red laser for the actual pointing.',
     asin: 'B002GHBUTK',
-    image: 'https://m.media-amazon.com/images/I/51-7XfmB4ZL._AC_SL480_.jpg',
+
     amazonQuery: 'wireless presenter clicker powerpoint',
   },
   {
@@ -290,7 +290,7 @@ const products: Product[] = [
     ourPickWhy:
       'Works with the major voice assistants, a straightforward app with schedules, and a four-pack price that makes automating a whole dorm room trivial.',
     asin: 'B0B62LPR5Z',
-    image: 'https://m.media-amazon.com/images/I/61N63ZDrGML._AC_SL480_.jpg',
+
     amazonQuery: 'smart plug 4 pack wifi',
   },
   {
@@ -308,7 +308,7 @@ const products: Product[] = [
     ourPickWhy:
       'Strong magnets that hold through real backpack life, five-card capacity for the campus stack, and RFID blocking as the quiet bonus.',
     asin: 'B0D9W9VYPN',
-    image: 'https://m.media-amazon.com/images/I/81jBhxxN1zL._AC_SL480_.jpg',
+
     amazonQuery: 'magsafe wallet card holder rfid',
   },
   {
@@ -326,7 +326,7 @@ const products: Product[] = [
     ourPickWhy:
       'Three color temperatures with a memory function, a grippy clip, and a battery that lasts through a week of chapters per charge.',
     asin: 'B0C3BC4QG2',
-    image: 'https://m.media-amazon.com/images/I/711p9Q6p0vL._AC_SL480_.jpg',
+
     amazonQuery: 'rechargeable book light clip',
   },
   {
@@ -344,7 +344,7 @@ const products: Product[] = [
     ourPickWhy:
       'The best-known name in a novelty category it made practical: real pickup power for surface debris, USB rechargeable, and quiet enough to use mid-study-session.',
     asin: 'B07Q128V6W',
-    image: 'https://m.media-amazon.com/images/I/51bbbt-YaEL._AC_SL480_.jpg',
+
     amazonQuery: 'mini desk vacuum cleaner',
   },
   {
@@ -362,7 +362,7 @@ const products: Product[] = [
     ourPickWhy:
       'The default sleeve brand on Amazon: dense padding, clean fit across common laptop sizes, and a front pocket that swallows the charger and mouse.',
     asin: 'B0DG8R4KMQ',
-    image: 'https://m.media-amazon.com/images/I/71-1LJ816dL._AC_SL480_.jpg',
+
     amazonQuery: 'laptop sleeve 14 inch',
   },
 ]
@@ -382,7 +382,7 @@ const faqs = [
   {
     question: 'What back-to-school gadgets are worth it under $50?',
     answer:
-      'Most of this list qualifies: the sleep headphones, book light, desk vacuum, LCD writing tablet, presentation clicker, smart plugs, magnetic wallet, label maker, and laptop sleeve all typically land under $50. The under-$50 tier is actually where back-to-school gadgets are strongest — the expensive tier belongs to core tech like laptops and tablets.',
+      'Start by comparing simple accessories such as book lights, presentation clickers, laptop sleeves and writing tablets. Check each current offer against your $50 budget; this list does not promise that every item is available below that amount. Prioritize a specific daily need over adding several inexpensive gadgets.',
   },
   {
     question: 'Is it okay to record lectures with a voice recorder?',
@@ -531,20 +531,6 @@ export default function BestBackToSchoolGadgetsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={product.image}
-                      alt={product.ourPickName}
-                      loading="lazy"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>

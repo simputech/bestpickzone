@@ -115,7 +115,7 @@ export default function TJRBooksInOrderPage() {
         className="mb-6 w-full rounded-xl shadow-sm"
       />
       <p className="mb-8 rounded-xl border border-pink-200 bg-pink-50 px-4 py-3 text-sm leading-relaxed text-pink-900">
-        Titles, authors, and availability verified against Amazon as of June 2026. Availability and
+        Check the title, author, edition and current availability on Amazon. Availability and
         price can change, so confirm before purchasing.
       </p>
 
@@ -199,7 +199,7 @@ export default function TJRBooksInOrderPage() {
             <a
               href={href}
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-pink-600 px-6 py-3 text-base font-bold text-white transition hover:bg-pink-500"
             >
               Click Here to Buy on Amazon
@@ -231,14 +231,14 @@ export default function TJRBooksInOrderPage() {
             <a href="/books/best-beach-reads">best beach reads</a>
           </strong>
           . For direct author background, her{' '}
-          <a href="https://taylorjenkinsreid.com/" target="_blank" rel="noopener nofollow">
+          <a href="https://taylorjenkinsreid.com/" target="_blank" rel="noopener nofollow sponsored">
             official website
           </a>{' '}
           and this{' '}
           <a
             href="https://www.britannica.com/biography/Taylor-Jenkins-Reid"
             target="_blank"
-            rel="noopener nofollow"
+            rel="noopener nofollow sponsored"
           >
             Britannica biography
           </a>{' '}

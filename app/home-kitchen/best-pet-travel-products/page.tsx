@@ -2,7 +2,6 @@ import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import ExternalProductImage from '@/components/ui/ExternalProductImage'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
@@ -74,7 +73,7 @@ type Product = {
   ourPickName: string
   ourPickWhy: string
   asin: string
-  image: string
+
   amazonQuery: string
 }
 
@@ -97,7 +96,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is one of the more respected names in the crash-tested travel-harness category and is designed specifically for the part most cheaper harnesses never really solve: true in-car restraint.',
     asin: 'B00J5J4TIS',
-    image: 'https://m.media-amazon.com/images/I/71z5OaVv3zL._AC_SL480_.jpg',
+
     amazonQuery: 'sleepypod clickit sport dog harness',
   },
   {
@@ -118,7 +117,7 @@ const products: Product[] = [
     ourPickWhy:
       'It remains one of the best-known travel carriers for a reason: solid structure, good ventilation, and a design that has long been built around actual transport rather than just storage.',
     asin: 'B000FLETX8',
-    image: 'https://m.media-amazon.com/images/I/81-1z7Q8p2L._AC_SL480_.jpg',
+
     amazonQuery: 'sherpa original deluxe pet carrier',
   },
   {
@@ -139,7 +138,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a long-running popular pick because it solves the basic problem well: good coverage, easier cleanup, and a more stable ride surface.',
     asin: 'B0727Y5ZD7',
-    image: 'https://m.media-amazon.com/images/I/81M8N8A2mDL._AC_SL480_.jpg',
+
     amazonQuery: 'urpower dog car seat cover',
   },
   {
@@ -160,7 +159,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are compact, lightweight, and practical enough to leave attached to a bag or leash full-time without adding bulk.',
     asin: 'B07RJ7X6ZP',
-    image: 'https://m.media-amazon.com/images/I/71dT0ErRzzL._AC_SL480_.jpg',
+
     amazonQuery: 'collapsible dog bowls travel 2 pack',
   },
   {
@@ -181,7 +180,7 @@ const products: Product[] = [
     ourPickWhy:
       'It combines portability and ease of use well, which is really the whole point of this category.',
     asin: 'B07TX8Q8Q8',
-    image: 'https://m.media-amazon.com/images/I/61kAfRGr5nL._AC_SL480_.jpg',
+
     amazonQuery: 'malsipree dog water bottle',
   },
   {
@@ -202,7 +201,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is soft, washable, and purpose-suited for the kind of repeat travel use where familiarity matters more than luxury.',
     asin: 'B07L6S5R6H',
-    image: 'https://m.media-amazon.com/images/I/71r0mVdJ4PL._AC_SL480_.jpg',
+
     amazonQuery: 'furhaven pet throw blanket',
   },
   {
@@ -223,7 +222,7 @@ const products: Product[] = [
     ourPickWhy:
       'It folds flat, packs easily, and is designed around the actual mess-control and storage realities of cat travel.',
     asin: 'B01N6EJ0QY',
-    image: 'https://m.media-amazon.com/images/I/71WQvBsq4nL._AC_SL480_.jpg',
+
     amazonQuery: 'petpeppy travel litter box',
   },
   {
@@ -244,7 +243,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is compact enough to keep packed consistently, which matters more than owning a larger kit you never actually bring.',
     asin: 'B0002AQPA2',
-    image: 'https://m.media-amazon.com/images/I/71A7HqK8XzL._AC_SL480_.jpg',
+
     amazonQuery: 'pet first aid kit travel',
   },
   {
@@ -265,7 +264,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is a trusted ramp option with a practical folding design and a use case that solves a real travel limitation.',
     asin: 'B000RUJEUU',
-    image: 'https://m.media-amazon.com/images/I/71rlPj0gA1L._AC_SL480_.jpg',
+
     amazonQuery: 'petsafe happy ride folding dog ramp',
   },
   {
@@ -286,7 +285,7 @@ const products: Product[] = [
     ourPickWhy:
       'Earth Rated is widely used for a reason: dependable bags, simple hardware, and a format that is easy to keep attached to travel gear.',
     asin: 'B007EQL350',
-    image: 'https://m.media-amazon.com/images/I/81VQX0+bd8L._AC_SL480_.jpg',
+
     amazonQuery: 'earth rated poop bags dispenser',
   },
   {
@@ -307,7 +306,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is designed for the real containment problem rather than being a decorative mesh suggestion that a larger dog can immediately ignore.',
     asin: 'B002RL9ANU',
-    image: 'https://m.media-amazon.com/images/I/71mm9V5wQNL._AC_SL480_.jpg',
+
     amazonQuery: 'dog car barrier backseat',
   },
   {
@@ -328,7 +327,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is purpose-built for pet travel feeding and solves both storage and serving more cleanly than makeshift solutions.',
     asin: 'B0002DJOOI',
-    image: 'https://m.media-amazon.com/images/I/71Jg8R0JNYL._AC_SL480_.jpg',
+
     amazonQuery: 'gamma2 vittles vault travel-tainer',
   },
   {
@@ -349,7 +348,7 @@ const products: Product[] = [
     ourPickWhy:
       'They are easy to pack, pet-safe, and useful across enough travel situations to justify a permanent spot in a pet bag.',
     asin: 'B004R5VF5M',
-    image: 'https://m.media-amazon.com/images/I/71EoSM+0lYL._AC_SL480_.jpg',
+
     amazonQuery: 'earthbath pet grooming wipes',
   },
   {
@@ -370,7 +369,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is durable, familiar, and useful in enough travel-adjacent situations that it earns space in a pet kit without needing special handling.',
     asin: 'B0002AR0II',
-    image: 'https://m.media-amazon.com/images/I/71IAVN0jvEL._AC_SL480_.jpg',
+
     amazonQuery: 'kong classic dog toy',
   },
   {
@@ -391,7 +390,7 @@ const products: Product[] = [
     ourPickWhy:
       'It is built around the actual categories pet travelers need to separate and makes the whole setup feel more manageable.',
     asin: 'B07L4M2J6V',
-    image: 'https://m.media-amazon.com/images/I/81f4eB0B8gL._AC_SL480_.jpg',
+
     amazonQuery: 'modoker pet travel bag',
   },
 ]
@@ -607,20 +606,6 @@ export default function BestPetTravelProductsPage() {
               </div>
               <div className="rounded-3xl bg-slate-50 p-5">
                 <div className="flex items-start gap-4">
-                  <a
-                    href={amazonProduct(product.asin)}
-                    target="_blank"
-                    rel="noopener nofollow sponsored"
-                    className="shrink-0"
-                  >
-                    <ExternalProductImage
-                      src={product.image}
-                      alt={product.ourPickName}
-                      title={product.title}
-                      fallbackAccentClassName="from-cyan-100 via-white to-amber-100"
-                      className="h-32 w-32 rounded-2xl border border-slate-200 bg-white object-contain p-2"
-                    />
-                  </a>
                   <div>
                     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-700">Our Pick</p>
                     <p className="mt-2 text-lg font-bold text-slate-900">{product.ourPickName}</p>
