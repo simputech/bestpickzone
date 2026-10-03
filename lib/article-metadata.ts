@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { getLocalizedLanguages } from './localized-urls'
+import { getSeoTitle } from './seo-titles'
 
 export const ARTICLE_REFRESH_DATE = '2026-07-01'
 
@@ -163,9 +164,10 @@ export function withArticleMetadataDefaults(
   const seoTitle = typeof metadata.title === 'string'
     ? metadata.title.replace(/(?:\s*\|\s*BestPickZone)+\s*$/i, '').trim()
     : metadata.title
+  const url = canonicalToString(metadata, options.url)
+  const documentTitle = getSeoTitle(url) ?? seoTitle
   const title = titleToString(seoTitle)
   const description = descriptionToString(metadata.description)
-  const url = canonicalToString(metadata, options.url)
   const keywords = metadata.keywords ?? buildDefaultKeywords(title, options.category, options.keywords)
   const authorName = options.authorName ?? 'BestPickZone Editorial Team'
   const modifiedTime = options.modifiedTime ?? ARTICLE_REFRESH_DATE
@@ -183,7 +185,7 @@ export function withArticleMetadataDefaults(
 
   return {
     ...metadata,
-    title: seoTitle,
+    title: documentTitle,
     authors: metadata.authors ?? [{ name: authorName }],
     creator: metadata.creator ?? authorName,
     publisher: metadata.publisher ?? 'BestPickZone',
