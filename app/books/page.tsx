@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd';
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Book Recommendations 2026 | BestPickZone',
+  title: 'Best Book Recommendations 2026',
   description:
     'Expert book recommendations across every genre — author spotlights, genre fiction, self-help, kids & YA, and curated reader lists. Find your next great read at BestPickZone.',
   alternates: { canonical: 'https://bestpickzone.com/books' },

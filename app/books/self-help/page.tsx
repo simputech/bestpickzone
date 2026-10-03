@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Self-Help & Non-Fiction Books 2026 | BestPickZone',
+  title: 'Best Self-Help & Non-Fiction Books 2026',
   description:
     'The best self-help and non-fiction books on habits, leadership, personal finance, mindfulness, psychology, biographies, and more. Honest picks that actually deliver.',
   alternates: { canonical: 'https://bestpickzone.com/books/self-help' },

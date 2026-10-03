@@ -17,7 +17,7 @@ function amazonSearch(query: string) {
 }
 
 export const metadata: Metadata = withArticleMetadataDefaults(
-  { title: 'Complete Small-Kitchen Home Coffee Bar Setup (2026) | BestPickZone', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Complete Small-Kitchen Home Coffee Bar Setup', description: metaDescription, url: pageUrl, type: 'article' } },
+  { title: 'Complete Small-Kitchen Home Coffee Bar Setup (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Complete Small-Kitchen Home Coffee Bar Setup', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'coffee', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Coffee', url: pageUrl, tags: ['coffee bar', 'small kitchen', 'espresso setup'] }
 )
 

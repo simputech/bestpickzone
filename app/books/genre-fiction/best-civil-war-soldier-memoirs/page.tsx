@@ -15,7 +15,7 @@ const META_DESCRIPTION =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Civil War Soldier Memoirs to Read in 2026 | BestPickZone',
+    title: 'Best Civil War Soldier Memoirs to Read in 2026',
     description: META_DESCRIPTION,
     alternates: { canonical: CANONICAL },
     keywords: [

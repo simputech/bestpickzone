@@ -4,11 +4,11 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Finance & Software Reviews 2026 | BestPickZone',
+  title: 'Best Finance & Software Reviews 2026',
   description:
     'Honest comparisons of the best budgeting apps, password managers, VPNs, and productivity software. Research-backed picks with direct affiliate links.',
   openGraph: {
-    title: 'Best Finance & Software Reviews 2026 | BestPickZone',
+    title: 'Best Finance & Software Reviews 2026',
     description:
       'Honest comparisons of budgeting apps, password managers, VPNs, and more.',
     url: 'https://bestpickzone.com/finance-software',

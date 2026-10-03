@@ -11,6 +11,7 @@
     "monetization-tracker:generate": "python3 scripts/generate_monetization_tracker.py",
     "verify:crawl": "python3 scripts/audit-crawl.py",
     "typecheck": "tsc --noEmit",
+    "test:seo-titles": "node --test scripts/test-seo-titles.cjs",
     "test:multilingual": "node --test scripts/test-multilingual-seo.cjs",
     "verify:multilingual": "python3 scripts/verify-multilingual-seo.py"
   },

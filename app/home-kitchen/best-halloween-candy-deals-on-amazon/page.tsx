@@ -19,7 +19,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Halloween Candy Deals on Amazon (2026) | BestPickZone',
+    title: 'Best Halloween Candy Deals on Amazon (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

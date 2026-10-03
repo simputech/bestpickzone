@@ -5,7 +5,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import BookCTA from '@/components/article/BookCTA';
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best 2026 Summer Reading for High School Students | BestPickZone',
+  title: 'Best 2026 Summer Reading for High School Students',
   description:
     'The best 2026 summer reading for high school students, ranked with honest reader-fit logic: The Outsiders, Fahrenheit 451, The Hate U Give, The Poet X, and more.',
   alternates: {

@@ -22,7 +22,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Dorm Room Essentials for College (2026) | BestPickZone',
+    title: 'Best Dorm Room Essentials for College (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

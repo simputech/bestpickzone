@@ -19,7 +19,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'NuFACE Trinity+ vs Foreo Bear 2 vs MyoLift QT (2026) | BestPickZone',
+    title: 'NuFACE Trinity+ vs Foreo Bear 2 vs MyoLift QT (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

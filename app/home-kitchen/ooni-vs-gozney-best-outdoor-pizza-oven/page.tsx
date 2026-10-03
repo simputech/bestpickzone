@@ -16,7 +16,7 @@ function amazonSearch(query: string) {
 }
 
 export const metadata: Metadata = withArticleMetadataDefaults(
-  { title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup (2026) | BestPickZone', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup', description: metaDescription, url: pageUrl, type: 'article' } },
+  { title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'home-kitchen', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Home & Kitchen', url: pageUrl, tags: ['Ooni', 'Gozney', 'pizza oven', 'outdoor cooking'] }
 )
 

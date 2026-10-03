@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Reader-Intent Book Lists — Beach Reads, Book Clubs, One-Sitting Reads & More | BestPickZone',
+  title: 'Reader-Intent Book Lists — Beach Reads, Book Clubs, One-Sitting Reads & More',
   description:
     'Curated book lists for every reading mood and situation: beach reads, book club picks, one-sitting reads, audiobooks, feel-good books, and 25 more intent-based lists.',
   alternates: { canonical: 'https://bestpickzone.com/books/reader-picks' },

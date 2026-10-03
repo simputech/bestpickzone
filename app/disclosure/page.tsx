@@ -7,12 +7,12 @@ const pageUrl = 'https://bestpickzone.com/disclosure'
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Affiliate Disclosure | BestPickZone',
+    title: 'Affiliate Disclosure',
     description:
       'How BestPickZone uses affiliate links, how commissions work, and how we separate editorial fit guidance from monetization.',
     alternates: { canonical: pageUrl },
     openGraph: {
-      title: 'Affiliate Disclosure | BestPickZone',
+      title: 'Affiliate Disclosure',
       description:
         'How BestPickZone uses affiliate links, how commissions work, and how we separate editorial fit guidance from monetization.',
       url: pageUrl,

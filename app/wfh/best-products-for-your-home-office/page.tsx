@@ -18,7 +18,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'The Best Products for Your Home Office (2026) | BestPickZone',
+    title: 'The Best Products for Your Home Office (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

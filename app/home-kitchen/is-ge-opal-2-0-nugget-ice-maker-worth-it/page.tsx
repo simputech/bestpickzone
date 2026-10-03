@@ -19,7 +19,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Is the GE Opal 2.0 Nugget Ice Maker Worth It? (2026) | BestPickZone',
+    title: 'Is the GE Opal 2.0 Nugget Ice Maker Worth It? (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

@@ -13,7 +13,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Ultimate Kitchen Table Home Office Setup for WFH | BestPickZone',
+    title: 'Ultimate Kitchen Table Home Office Setup for WFH',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

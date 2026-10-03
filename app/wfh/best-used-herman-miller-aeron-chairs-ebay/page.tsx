@@ -14,7 +14,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Used Herman Miller Aeron Chairs on eBay in 2026 | BestPickZone',
+    title: 'Best Used Herman Miller Aeron Chairs on eBay in 2026',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

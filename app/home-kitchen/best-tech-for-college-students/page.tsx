@@ -22,7 +22,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Tech for College Students (2026) | BestPickZone',
+    title: 'Best Tech for College Students (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

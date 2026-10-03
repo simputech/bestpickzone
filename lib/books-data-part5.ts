@@ -284,7 +284,7 @@ export const articlesDataPart5: ArticleData[] = [
   {
     slug: "best-books-for-people-who-dont-like-reading",
     title: "Best Books for People Who Don't Like Reading",
-    metaTitle: "Best Books for People Who Don't Like Reading (2026 Guide)",
+    metaTitle: "Best Books for People Who Don't Like Reading (2026)",
     metaDescription: "Best books for non-readers \u2014 The Martian, Gone Girl, Born a Crime, Atomic Habits, Big Little Lies, and more page-turners for 2026.",
     category: "reader-intent",
     categoryLabel: "Reader-Intent Lists",

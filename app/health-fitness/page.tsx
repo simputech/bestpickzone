@@ -4,11 +4,11 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Health & Fitness Gear Reviews 2026 | BestPickZone',
+  title: 'Best Health & Fitness Gear Reviews 2026',
   description:
     'Expert comparisons of fitness trackers, adjustable dumbbells, yoga mats, and more. Research-backed picks with Amazon and Best Buy links.',
   openGraph: {
-    title: 'Best Health & Fitness Gear Reviews 2026 | BestPickZone',
+    title: 'Best Health & Fitness Gear Reviews 2026',
     description:
       'Expert comparisons of fitness trackers, adjustable dumbbells, yoga mats, and more.',
     url: 'https://bestpickzone.com/health-fitness',

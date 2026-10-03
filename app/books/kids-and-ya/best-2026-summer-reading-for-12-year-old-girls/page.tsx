@@ -5,7 +5,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import BookCTA from '@/components/article/BookCTA';
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best 2026 Summer Reading for 12-Year-Old Girls | BestPickZone',
+  title: 'Best 2026 Summer Reading for 12-Year-Old Girls',
   description:
     'The best 2026 summer reading for 12-year-old girls, ranked with honest reader-fit logic: Are You There God? It\'s Me, Margaret, A Wrinkle in Time, Anne of Green Gables, and more.',
   alternates: {

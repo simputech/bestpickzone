@@ -12,7 +12,7 @@ const META_DESCRIPTION =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: '7 Authors Like Colleen Hoover (Matched to What You Loved) | BestPickZone',
+    title: '7 Authors Like Colleen Hoover (Matched to What You Loved)',
     description: META_DESCRIPTION,
     alternates: { canonical: CANONICAL },
     keywords: [

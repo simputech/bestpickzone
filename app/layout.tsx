@@ -9,6 +9,7 @@ import AffiliateClickTracker from '@/components/analytics/AffiliateClickTracker'
 export const metadata: Metadata = {
   title: {
     default: 'BestPickZone — Buyer Guides, Product Comparisons & Book Recommendations',
+    // Page SEO titles omit the brand; this template adds it exactly once.
     template: '%s | BestPickZone',
   },
   description:

@@ -22,7 +22,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Productivity Products for Students (2026) | BestPickZone',
+    title: 'Best Productivity Products for Students (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

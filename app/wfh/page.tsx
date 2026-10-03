@@ -7,7 +7,7 @@ import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best WFH Setup Ideas, Ergonomic Home Office Comparisons & Desk Gear | BestPickZone',
+  title: 'Best WFH Setup Ideas, Ergonomic Home Office Comparisons & Desk Gear',
   description:
     'Build a better work-from-home setup with ergonomic chair, standing desk, keyboard, mouse, and monitor-arm comparisons plus practical home office tips for a calmer, more productive desk.',
   alternates: {

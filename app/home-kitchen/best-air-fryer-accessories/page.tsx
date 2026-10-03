@@ -23,7 +23,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Air Fryer Accessories (2026) | BestPickZone',
+    title: 'Best Air Fryer Accessories (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

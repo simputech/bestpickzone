@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Genre Fiction Books — Thrillers, Fantasy, Romance & More | BestPickZone',
+  title: 'Best Genre Fiction Books — Thrillers, Fantasy, Romance & More',
   description:
     'The best books in every fiction genre: psychological thrillers, fantasy series, dark romance, cozy mysteries, historical fiction, sci-fi, horror, and more.',
   alternates: { canonical: 'https://bestpickzone.com/books/genre-fiction' },

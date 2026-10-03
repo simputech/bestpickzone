@@ -18,7 +18,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Gaggia Classic Pro Upgrades (2026) | BestPickZone',
+    title: 'Best Gaggia Classic Pro Upgrades (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

@@ -16,7 +16,7 @@ function amazonSearch(query: string) {
 }
 
 export const metadata: Metadata = withArticleMetadataDefaults(
-  { title: 'Standing Desk Setup for a Dual-Monitor Ultrawide Workflow (2026) | BestPickZone', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Standing Desk Setup for a Dual-Monitor Ultrawide Workflow', description: metaDescription, url: pageUrl, type: 'article' } },
+  { title: 'Standing Desk Setup for a Dual-Monitor Ultrawide Workflow (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Standing Desk Setup for a Dual-Monitor Ultrawide Workflow', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'wfh', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'WFH', url: pageUrl, tags: ['standing desk', 'ultrawide monitor', 'dual monitor', 'home office'] }
 )
 

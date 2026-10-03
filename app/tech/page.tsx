@@ -5,11 +5,11 @@ import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Tech & Electronics Reviews 2026 | BestPickZone',
+  title: 'Best Tech & Electronics Reviews 2026',
   description:
     'Expert reviews and comparisons of the best laptops, headphones, keyboards, monitors, and more. Every pick backed by hands-on research with Amazon and Best Buy links.',
   openGraph: {
-    title: 'Best Tech & Electronics Reviews 2026 | BestPickZone',
+    title: 'Best Tech & Electronics Reviews 2026',
     description:
       'Expert reviews and comparisons of the best laptops, headphones, keyboards, monitors, and more.',
     url: 'https://bestpickzone.com/tech',

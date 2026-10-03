@@ -16,7 +16,7 @@ function amazonSearch(query: string) {
 }
 
 export const metadata: Metadata = withArticleMetadataDefaults(
-  { title: 'Is the Omnilux Contour Worth It? (2026) | BestPickZone', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Is the Omnilux Contour Worth It?', description: metaDescription, url: pageUrl, type: 'article' } },
+  { title: 'Is the Omnilux Contour Worth It? (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Is the Omnilux Contour Worth It?', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'beauty', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Beauty', url: pageUrl, tags: ['Omnilux', 'LED mask', 'beauty tech'] }
 )
 

@@ -19,7 +19,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Ergonomic Chairs for Sciatica & Lower Back Pain (2026) | BestPickZone',
+    title: 'Best Ergonomic Chairs for Sciatica & Lower Back Pain (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

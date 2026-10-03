@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Kids & Young Adult Books 2026 — Series, Picture Books & YA | BestPickZone',
+  title: 'Best Kids & Young Adult Books 2026 — Series, Picture Books & YA',
   description:
     'The best books for kids and teens: picture books, middle-grade series, YA fantasy, YA romance, reluctant reader picks, and more. Age-matched recommendations parents and kids trust.',
   alternates: { canonical: 'https://bestpickzone.com/books/kids-and-ya' },

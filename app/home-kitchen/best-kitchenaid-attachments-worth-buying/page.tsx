@@ -18,7 +18,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best KitchenAid Attachments Worth Buying (2026) | BestPickZone',
+    title: 'Best KitchenAid Attachments Worth Buying (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

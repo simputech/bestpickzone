@@ -19,7 +19,7 @@ const META_DESCRIPTION =
   'Seven great WWII novels, ranked by where to actually start and matched to reader type, emotional weight, and historical setting. Start with The Nightingale, then choose the best fit from All the Light We Cannot See, The Book Thief, and more.'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best WWII Novels to Read in 2026 (Ranked by Where to Start) | BestPickZone',
+  title: 'Best WWII Novels to Read in 2026 (Ranked by Where to Start)',
   description: META_DESCRIPTION,
   alternates: { canonical: CANONICAL },
   keywords: [

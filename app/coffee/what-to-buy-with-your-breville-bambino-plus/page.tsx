@@ -19,7 +19,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'What to Buy With Your Breville Bambino Plus (2026) | BestPickZone',
+    title: 'What to Buy With the Breville Bambino Plus',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

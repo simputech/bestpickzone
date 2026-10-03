@@ -16,7 +16,7 @@ function amazonSearch(query: string) {
 }
 
 export const metadata: Metadata = withArticleMetadataDefaults(
-  { title: 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair (2026) | BestPickZone', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair', description: metaDescription, url: pageUrl, type: 'article' } },
+  { title: 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair (2026)', description: metaDescription, alternates: { canonical: pageUrl }, openGraph: { title: 'Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair', description: metaDescription, url: pageUrl, type: 'article' } },
   { category: 'beauty', publishedTime: publishedDate, modifiedTime: updatedDate, section: 'Beauty', url: pageUrl, tags: ['Dyson Airwrap', 'Shark FlexStyle', 'fine hair', 'hair tools'] }
 )
 

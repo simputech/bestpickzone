@@ -23,7 +23,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Products for Your Dorm Room (2026) | BestPickZone',
+    title: 'Best Products for Your Dorm Room (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [

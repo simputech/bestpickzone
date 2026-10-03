@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Books by Author — Stephen King, Colleen Hoover & More | BestPickZone',
+  title: 'Best Books by Author — Stephen King, Colleen Hoover & More',
   description:
     'Author-by-author reading guides covering Stephen King, Colleen Hoover, James Clear, Malcolm Gladwell, and 11 more. Find the best books from your favorite author.',
   alternates: { canonical: 'https://bestpickzone.com/books/authors' },

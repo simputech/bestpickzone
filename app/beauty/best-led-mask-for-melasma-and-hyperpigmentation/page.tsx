@@ -18,7 +18,7 @@ function amazonSearch(query: string) {
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best LED Mask for Melasma & Hyperpigmentation (2026) | BestPickZone',
+    title: 'Best LED Mask for Melasma & Hyperpigmentation (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     openGraph: { title: 'Best LED Mask for Melasma & Hyperpigmentation', description: metaDescription, url: pageUrl, type: 'article' },

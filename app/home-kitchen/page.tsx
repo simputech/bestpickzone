@@ -5,14 +5,14 @@ import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 
 export const metadata: Metadata = withArticleMetadataDefaults({
-  title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
+  title: 'Best Home & Kitchen Product Reviews 2026',
   description:
     'Expert comparisons of the best air fryers, coffee makers, robot vacuums, kids room picks, instant pots, and more. Honest picks with affiliate links and clear buyer-fit guidance.',
   alternates: {
     canonical: 'https://bestpickzone.com/home-kitchen',
   },
   openGraph: {
-    title: 'Best Home & Kitchen Product Reviews 2026 | BestPickZone',
+    title: 'Best Home & Kitchen Product Reviews 2026',
     description:
       'Expert comparisons of the best air fryers, coffee makers, robot vacuums, and more.',
     url: 'https://bestpickzone.com/home-kitchen',

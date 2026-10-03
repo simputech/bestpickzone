@@ -219,7 +219,7 @@ export const articlesData: ArticleData[] = [
   {
     slug: "best-mark-manson-books",
     title: "Mark Manson Books: What to Read First and What to Skip",
-    metaTitle: "Mark Manson Books: What to Read First | BestPickZone",
+    metaTitle: "Mark Manson Books: What to Read First",
     metaDescription: "Compare Mark Manson books by purpose: The Subtle Art, Everything Is F*cked, Models, Will, and the journal. Find your best starting point.",
     category: "author",
     categoryLabel: "Author Guides",

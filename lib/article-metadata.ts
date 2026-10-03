@@ -158,7 +158,12 @@ export function withArticleMetadataDefaults(
   metadata: Metadata,
   options: ArticleMetadataOptions = {}
 ): Metadata {
-  const title = titleToString(metadata.title)
+  // The root layout owns branding. Legacy imports may already contain it.
+  // Preserve explicit absolute/template objects, which have their own semantics.
+  const seoTitle = typeof metadata.title === 'string'
+    ? metadata.title.replace(/(?:\s*\|\s*BestPickZone)+\s*$/i, '').trim()
+    : metadata.title
+  const title = titleToString(seoTitle)
   const description = descriptionToString(metadata.description)
   const url = canonicalToString(metadata, options.url)
   const keywords = metadata.keywords ?? buildDefaultKeywords(title, options.category, options.keywords)
@@ -178,6 +183,7 @@ export function withArticleMetadataDefaults(
 
   return {
     ...metadata,
+    title: seoTitle,
     authors: metadata.authors ?? [{ name: authorName }],
     creator: metadata.creator ?? authorName,
     publisher: metadata.publisher ?? 'BestPickZone',

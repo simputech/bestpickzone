@@ -22,7 +22,7 @@ const metaDescription =
 
 export const metadata: Metadata = withArticleMetadataDefaults(
   {
-    title: 'Best Study Desk Essentials for Students (2026) | BestPickZone',
+    title: 'Best Study Desk Essentials for Students (2026)',
     description: metaDescription,
     alternates: { canonical: pageUrl },
     keywords: [
