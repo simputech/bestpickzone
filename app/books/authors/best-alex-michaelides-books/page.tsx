@@ -4,6 +4,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
+import OrganicPilotProductCard from '@/components/article/OrganicPilotProductCard'
 import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 
 export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
@@ -223,6 +224,14 @@ export default function BestAlexMichaelidesBooksPage() {
       />
 
       <main className="mx-auto max-w-5xl px-4 py-10">
+        <section className="my-8 rounded-3xl border border-amber-200 bg-white p-5">
+          <h2 className="mb-3 text-2xl font-bold">Shop Alex Michaelides books</h2>
+          <p className="mb-5 text-sm text-gray-600">Compare editions and current Amazon listings before buying. Affiliate links may earn us a commission.</p>
+          <div className="grid gap-4 md:grid-cols-2">
+            <OrganicPilotProductCard query="The Silent Patient Alex Michaelides paperback" label="The Silent Patient" />
+            <OrganicPilotProductCard query="The Fury Alex Michaelides paperback" label="The Fury" />
+          </div>
+        </section>
         <Breadcrumb items={breadcrumbItems} />
 
         <header className="mb-10 overflow-hidden rounded-[36px] border border-cyan-200 bg-[radial-gradient(circle_at_top_right,_rgba(34,211,238,0.18),_transparent_28%),radial-gradient(circle_at_bottom_left,_rgba(125,211,252,0.18),_transparent_30%),linear-gradient(135deg,#f8fafc_0%,#ffffff_45%,#ecfeff_100%)] p-6 shadow-sm md:p-8">
