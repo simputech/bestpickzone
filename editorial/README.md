@@ -65,6 +65,8 @@ editorial/browser review described in checklist.md. HTML counts are not the
 The first pilot is intentionally conservative: approval requires articles under
 review to meet 1,000 editorial words even if older. A well-formed report may identify
 a shorter article for revision; report validity does not grant publishing approval.
+validateReview checks the report contract; publishingDecision enforces the approval
+requirements and blocks correction when any dimension is blocked.
 Any blocked review dimension stops automatic correction, even when the aggregate
 verdict says revise. Legacy FAQs are judged under the playbook's
 new/material-rebuild distinction, not deleted automatically. Large shared changes
