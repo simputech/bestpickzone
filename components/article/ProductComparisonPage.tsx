@@ -1,14 +1,17 @@
 import type { ComparisonPageData, ComparisonProductSection } from '@/lib/product-comparisons'
 import { amazonSearchUrl } from '@/lib/product-comparisons'
 import { searchAmazonProduct } from '@/lib/amazon-creators-api'
+import type { AmazonCreatorItem } from '@/lib/amazon-creators-api'
 import FaqJsonLd from '@/components/seo/FaqJsonLd'
 
 function ProductBlock({
   product,
   amazonUrl,
+  amazonItem,
 }: {
   product: ComparisonProductSection
   amazonUrl: string
+  amazonItem: AmazonCreatorItem | null
 }) {
   return (
     <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -51,14 +54,28 @@ function ProductBlock({
       <p className="mb-4 leading-relaxed text-amber-900">
         <strong>Skip this if:</strong> {product.skipIf}
       </p>
-      <a
-        href={amazonUrl}
-        target="_blank"
-        rel="sponsored noopener"
-        className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-400 px-6 py-3 text-base font-bold text-gray-900 transition hover:bg-amber-300"
-      >
-        Click Here to Buy on Amazon
-      </a>
+      <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5" data-amazon-source={amazonItem ? 'creators-api' : 'fallback'}>
+        <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-amber-900">Shop this product on Amazon</p>
+        <div className="flex flex-col items-center gap-5 sm:flex-row sm:items-start">
+          {amazonItem?.imageUrl ? (
+            <img src={amazonItem.imageUrl} alt={amazonItem.title || product.name} width={180} height={180} loading="lazy" className="h-40 w-40 shrink-0 object-contain" />
+          ) : (
+            <div className="flex h-40 w-40 shrink-0 items-center justify-center rounded-xl bg-white p-4 text-center text-sm text-gray-500">View product on Amazon</div>
+          )}
+          <div className="w-full min-w-0">
+            <h4 className="text-lg font-bold text-gray-900">{amazonItem?.title || product.name}</h4>
+            {amazonItem?.price ? (
+              <p className="mt-2 text-xl font-bold text-gray-900">{amazonItem.price}</p>
+            ) : (
+              <p className="mt-2 text-sm text-gray-600">Check Amazon for current price and availability</p>
+            )}
+            <a href={amazonUrl} target="_blank" rel="sponsored noopener noreferrer" className="mt-4 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-400 px-6 py-3 text-base font-bold text-gray-900 hover:bg-amber-300">
+              View on Amazon
+            </a>
+            <p className="mt-2 text-xs text-gray-600">{amazonItem ? 'Product information supplied by Amazon.' : 'Amazon product search; exact listing not verified.'}</p>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
@@ -118,8 +135,8 @@ export default async function ProductComparisonPage({ data }: { data: Comparison
         height={data.heroImage.height}
         className="mb-8 w-full rounded-xl shadow-sm"
       />
-      <ProductBlock product={data.productA} amazonUrl={productAUrl} />
-      <ProductBlock product={data.productB} amazonUrl={productBUrl} />
+      <ProductBlock product={data.productA} amazonUrl={productAUrl} amazonItem={productAItem} />
+      <ProductBlock product={data.productB} amazonUrl={productBUrl} amazonItem={productBItem} />
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-3 text-2xl font-bold text-gray-900">{data.faqQuestion}</h2>
         <p className="mb-4 leading-relaxed text-gray-700">{data.faqAnswer}</p>
