@@ -140,6 +140,9 @@ export default function Footer() {
           </p>
           <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
           <p className="flex flex-wrap gap-4 text-sm text-gray-300">
+            <Link href="/deals" className="underline hover:text-white">Deal guides</Link>
+            <Link href="/deal-alerts" className="underline hover:text-white">Watchlist & alerts</Link>
+            <a href="https://winblackfriday.com/deal-checker" className="underline hover:text-white">Check a discount</a>
             <Link href="/disclosure" className="underline hover:text-white">Affiliate disclosure</Link>
             <Link href="/privacy" className="underline hover:text-white">Privacy and cookies</Link>
             <a href="https://www.amazon.com/shop/althcu" target="_blank" rel="sponsored noopener" className="underline hover:text-white">Shop BestPickZone on Amazon</a>

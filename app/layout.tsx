@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import RelatedDealGuides from '@/components/deals/RelatedDealGuides'
 import CategorySiblingLinks from '@/components/seo/CategorySiblingLinks'
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
 import AffiliateClickTracker from '@/components/analytics/AffiliateClickTracker'
@@ -98,6 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <a href="/disclosure" className="underline">How we earn</a>
         </aside>
         <div className="flex-1">{children}</div>
+        <RelatedDealGuides />
         <CategorySiblingLinks />
         <Footer />
         <GoogleAnalytics production={process.env.NODE_ENV === 'production' && process.env.VERCEL_ENV === 'production'} />

@@ -16,7 +16,9 @@
     "verify:multilingual": "python3 scripts/verify-multilingual-seo.py",
     "validate:metadata": "node scripts/validate-metadata.mjs",
     "test:metadata": "node --test scripts/metadata.test.mjs",
-    "validate:indexability": "node scripts/validate-indexability.mjs"
+    "validate:indexability": "node scripts/validate-indexability.mjs",
+    "test:deals": "node --test scripts/deals/unit.test.cjs",
+    "deals:insights": "node scripts/deals/insights.mjs"
   },
   "dependencies": {
     "next": "14.2.3",

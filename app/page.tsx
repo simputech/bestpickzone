@@ -130,6 +130,7 @@ const labelColors: Record<string, string> = {
 export default function HomePage() {
   return (
     <main>
+      <section className="deal-shell"><div className="deal-panel"><p className="deal-eyebrow">SHOPPING STARTS WITH YOUR QUESTION</p><h2>Is it a good fit—and a good deal?</h2><p>Compare models, bundle contents and the total cost before chasing a discount.</p><div className="deal-actions"><Link className="deal-button" href="/deal-agent">Ask the Deal Agent →</Link><Link className="deal-button secondary" href="/deals">Explore deal guides →</Link></div></div></section>
       {/* Hero */}
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">

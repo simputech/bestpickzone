@@ -10,6 +10,7 @@ type NavItem = {
 }
 
 const navItems: NavItem[] = [
+  { href: '/deal-agent', label: 'Deal Agent' },
   {
     label: 'Books',
     children: [
@@ -29,6 +30,8 @@ const navItems: NavItem[] = [
   {
     label: 'More',
     children: [
+      { href: '/deals', label: 'Deal Guides' },
+      { href: '/deal-alerts', label: 'Watchlist & Alerts' },
       { href: '/amazon-offers', label: 'Amazon Memberships' },
       { href: '/tech', label: 'Tech' },
       { href: '/finance-software', label: 'Finance Software' },

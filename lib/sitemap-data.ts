@@ -1,3 +1,4 @@
+import { dealGuides } from './deals/catalog'
 import { bountyArticles, bountyDate, bountyVideoSlug } from './bounty-data'
 import { buyingGuides, guideDate } from './buying-guide-data'
 import { articlesData, getBookPath } from '@/lib/books-data'
@@ -91,6 +92,7 @@ export const standaloneBookPages: SitemapEntry[] = [
 ]
 
 export const mainPages: SitemapEntry[] = [
+  ...["/deals", "/deal-agent", "/deal-alerts", ...dealGuides.map(g => `/deals/${g.slug}`)].map(path => ({url: `${baseUrl}${path}`, lastModified: "2026-10-06", changeFrequency: "weekly" as const, priority: 0.85})),
   ...['', ...bountyArticles.map(a => a.slug), bountyVideoSlug].map(slug => ({url: `${baseUrl}/amazon-offers${slug ? '/' + slug : ''}`, lastModified: bountyDate, changeFrequency: 'monthly' as const, priority: slug ? 0.8 : 0.9})),
   { url: `${baseUrl}/privacy`, lastModified: '2026-10-02', changeFrequency: 'yearly', priority: 0.3 },
   { url: `${baseUrl}/disclosure`, lastModified: '2026-10-02', changeFrequency: 'yearly', priority: 0.3 },
