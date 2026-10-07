@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { DIMENSIONS, scopeChanges, validateReview, publishingDecision, correctionCycle } from './core.mjs';
+import { DIMENSIONS, scopeChanges, validateReview, publishingDecision, correctionCycle, validateCorrection } from './core.mjs';
 import { inspectHtml, duplicateCandidates } from './quality.mjs';
 const now = new Date('2026-10-06T12:00:00Z');
 const sentence = 'Concrete page-specific evidence with a clear explanation.';
 function fixture() {
-  const context = { reviewId:'review_0001', headSha:'a'.repeat(40), baseSha:'b'.repeat(40), policySha:'c'.repeat(40), corpusSha:'d'.repeat(64), routes:['/books/example'], inventory:['/books/example','/books/sibling'], policyChanged:false, missing:[] };
+  const context = { reviewId:'review_0001', headSha:'a'.repeat(40), baseSha:'b'.repeat(40), policySha:'c'.repeat(40), corpusSha:'d'.repeat(64), routes:['/books/example'], inventory:['/books/example','/books/sibling'], policyChanged:false, missing:[], allowedContentFiles:['app/books/example/page.tsx'] };
   const review = {version:1, ...Object.fromEntries(['reviewId','headSha','baseSha','policySha','corpusSha'].map(k=>[k,context[k]])), generatedAt:now.toISOString(), verdict:'pass', limitations:'This review does not guarantee universal originality or factual correctness.', pages:[{route:context.routes[0], checks:Object.fromEntries(DIMENSIONS.map(k=>[k,{status:'pass',evidence:sentence}])), editorialWords:1200, pageType:'article', findings:[], comparisons:[{route:'/books/sibling',difference:sentence}],sources:[{claim:sentence,url:'https://example.com/primary',kind:'primary',checkedAt:now.toISOString(),support:sentence}]}]};
   const deterministic = {headSha:context.headSha,corpusSha:context.corpusSha,status:'pass',errors:[]};
   return {context, review, deterministic, provenance:true, currentHead:context.headSha, now};
@@ -51,9 +51,9 @@ test('scope includes shared templates, data, assets and unknown files',()=>{
 test('correction requires a new commit and a fresh invocation',async()=>{
   let f=fixture(), calls=0, corrections=0;
   const result=await correctionCycle({
-    prepare:async()=>f, head:async()=>f.context.headSha,
+    prepare:async()=>structuredClone(f), head:async()=>f.context.headSha,
     review:async()=>{calls++;const r=structuredClone(f.review);if(calls===1){r.verdict='revise';r.pages[0].checks.readerIntent.status='revise';r.pages[0].findings=[sentence]}return r},
-    correct:async()=>{corrections++;f=fixture();f.context.headSha=f.currentHead=f.review.headSha=f.deterministic.headSha='e'.repeat(40);f.context.reviewId=f.review.reviewId='review_0002';return f.context.headSha}
+    correct:async()=>{corrections++;f=fixture();f.context.headSha=f.currentHead=f.review.headSha=f.deterministic.headSha='e'.repeat(40);f.context.reviewId=f.review.reviewId='review_0002';return {headSha:f.context.headSha,changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}}
   },{enabled:true});
   assert.equal(result.status,'pass');assert.equal(calls,2);assert.equal(corrections,1);
   assert.notEqual(result.history[0].headSha,result.history[1].headSha);
@@ -61,16 +61,16 @@ test('correction requires a new commit and a fresh invocation',async()=>{
 test('bounded correction loop stops after two attempts',async()=>{
   let round=0;let f=fixture();
   const result=await correctionCycle({
-    prepare:async()=>f,head:async()=>f.context.headSha,
+    prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,
     review:async()=>({...f.review,verdict:'revise'}),
-    correct:async()=>{round++;f.context.reviewId=f.review.reviewId='review_000'+(round+1);f.context.headSha=f.review.headSha=f.currentHead=f.deterministic.headSha=String(round).repeat(40);return f.context.headSha}
+    correct:async()=>{round++;f.context.reviewId=f.review.reviewId='review_000'+(round+1);f.context.headSha=f.review.headSha=f.currentHead=f.deterministic.headSha=String(round).repeat(40);return {headSha:f.context.headSha,changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}}
   },{enabled:true});
   assert.equal(result.status,'blocked');assert.equal(round,2);assert.equal(result.history.length,3);
 });
 test('no correction on invalid report or default inactive pilot',async()=>{
   assert.equal((await correctionCycle({})).reason,'pilot-inactive');
   const f=fixture();let edited=false;
-  const result=await correctionCycle({prepare:async()=>f,head:async()=>f.context.headSha,review:async()=>({}),correct:async()=>{edited=true}},{enabled:true});
+  const result=await correctionCycle({prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,review:async()=>({}),correct:async()=>{edited=true}},{enabled:true});
   assert.equal(result.status,'blocked');assert.equal(edited,false);
 });
 test('HTML checks find bad Amazon links, placeholders, heading and dead links',()=>{
@@ -83,4 +83,24 @@ test('proper affiliate attributes and internal routes pass',()=>{
 });
 test('duplication diagnostic compares existing rendered corpus',()=>{
   assert.equal(duplicateCandidates([{route:'/a',html:'<p>Repeated content</p>'},{route:'/b',html:'<p>Repeated content</p>'}],['/a'])[0].exact,true);
+});
+
+test('corrections cannot change policy, add files, symlinks or expand content scope',()=>{
+  const valid={path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false};
+  const allow=[valid.path,'.github/workflows/deploy.yml'];
+  assert.deepEqual(validateCorrection([valid],allow),[]);
+  for(const c of [{...valid,path:'.github/workflows/deploy.yml'},{...valid,path:'app/books/unscoped/page.tsx'},{...valid,mode:'120000'},{...valid,status:'added'},{...valid,binary:true}]) assert.ok(validateCorrection([c],allow).length);
+  assert.ok(validateCorrection([],allow).length);
+});
+test('schema dimensions and strict object boundaries agree with validator',async()=>{
+  const fs=await import('node:fs/promises');
+  const schema=JSON.parse(await fs.readFile(new URL('../../editorial/review.schema.json',import.meta.url),'utf8'));
+  assert.deepEqual(schema.properties.pages.items.properties.checks.required,DIMENSIONS);
+  assert.equal(schema.additionalProperties,false);
+  assert.equal(schema.properties.pages.items.additionalProperties,false);
+});
+test('release CLI exits blocked with missing evidence',async()=>{
+  const {spawnSync}=await import('node:child_process');
+  const result=spawnSync(process.execPath,['scripts/editorial/gate.mjs'],{encoding:'utf8'});
+  assert.equal(result.status,1);assert.match(result.stderr,/missing-or-malformed-evidence/);
 });

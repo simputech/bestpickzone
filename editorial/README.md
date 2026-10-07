@@ -84,7 +84,8 @@ services or repository write authority in this draft.
    snapshots. Structural validation runs on a clean trusted runner, not inside the
    model job. Missing/invalid evidence or unavailable tools block.
 3. A valid revise result may produce an editorial patch. A separate correction
-   adapter validates that every changed path is an already-scoped content file
+   adapter returns commit ID and independently inspected changed path/mode records;
+   validateCorrection and the adapter validate that every changed path is an already-scoped content file
    (app article page/source, content article, or existing lib article data).
    Reject workflow/policy/scripts/config/dependencies/new paths, symlinks, executable
    changes, binaries, credentials and scope expansion. Prefer a patch for human
@@ -142,7 +143,7 @@ review its transitive installation before use.
 - [ ] Approve trusted policy/controller ref and credentials/permissions, require review
       for policy changes, and configure the protected editorial environment.
 - [ ] Wire the activation workflow to the tested correctionCycle/decision contract.
-      Verify actual provenance and exact head/base/policy/corpus instead of trusting
+      Verify actual provenance and exact head/base/policy/corpus and derive changed paths/modes from GitHub/Git instead of trusting
       a boolean supplied by content. Test bot correction explicit dispatch.
 - [ ] Approve GitHub protection/ruleset changes for main: required trusted editorial
       and deterministic checks, expected check producer/app, current-head requirement,

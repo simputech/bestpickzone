@@ -14,7 +14,7 @@ function keys(o, expected) {
 export function scopeChanges(files, inventory) {
   const routes = [...new Set(inventory)].sort();
   if (routes.some(r => !routeOK(r))) throw new Error('Unsupported route inventory');
-  const policyChanged = files.some(f => /^(?:\.github\/|scripts\/editorial\/|editorial\/|BESTPICKZONE_.*\.md$)/.test(f));
+  const policyChanged = files.some(f => /^(?:\.github\/|\.agents\/|\.codex\/|scripts\/|editorial\/|AGENTS\.md$|BESTPICKZONE_.*\.md$|package(?:-lock)?\.json$|next\.config\.)/.test(f));
   const content = files.filter(f => !/^(?:docs\/|reports\/|scripts\/|editorial\/|\.github\/)/.test(f) && !/\.md$/.test(f));
   // Any shared, data, asset, unknown, dynamic, or routing edit fans out to all routes.
   // This intentionally over-reviews rather than guessing a dependency graph.
@@ -99,6 +99,22 @@ export async function correctionCycle(adapter, { enabled = false, maxCorrections
     // Correction adapter must enforce a content-only diff, no policy/workflow edits,
     // no new credentials, and commit with an expected-head lease.
     const corrected = await adapter.correct({ prepared, review, round: round + 1 });
-    if (!SHA.test(corrected) || corrected === prepared.context.headSha || await adapter.head() !== corrected) return { status: 'blocked', reason: 'correction-did-not-produce-current-commit', history };
+    const patchErrors = validateCorrection(corrected?.changes, prepared.context.allowedContentFiles);
+    if (patchErrors.length) return { status: 'blocked', reason: 'unsafe-correction', errors: patchErrors, history };
+    if (!SHA.test(corrected.headSha) || corrected.headSha === prepared.context.headSha || await adapter.head() !== corrected.headSha) return { status: 'blocked', reason: 'correction-did-not-produce-current-commit', history };
   }
+}
+
+export function validateCorrection(changes, allowedFiles) {
+  if (!Array.isArray(changes) || changes.length === 0 || changes.length > 20) return ['Empty or oversized correction'];
+  if (!Array.isArray(allowedFiles)) return ['Missing trusted file allowlist'];
+  const seen = new Set(), errors = [];
+  for (const c of changes) {
+    if (!keys(c,['path','status','mode','binary']) || typeof c.path !== 'string') { errors.push('Invalid correction entry'); continue; }
+    const p = c.path;
+    const content = /^(?:app\/[a-zA-Z0-9_/-]+\/(?:page\.tsx|article-source\.html)|content\/[a-zA-Z0-9_/-]+\.(?:html|md)|lib\/[a-zA-Z0-9_-]*(?:articles|books-data|showdowns|comparisons)[a-zA-Z0-9_-]*\.ts)$/.test(p);
+    if (!content || p.includes('..') || !allowedFiles.includes(p) || seen.has(p) || c.status !== 'modified' || c.mode !== '100644' || c.binary !== false) errors.push('Correction outside allowed editorial scope: ' + p);
+    seen.add(p);
+  }
+  return errors;
 }

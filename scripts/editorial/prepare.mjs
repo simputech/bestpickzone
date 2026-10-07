@@ -29,7 +29,8 @@ for (const [r,v] of Object.entries(manifest.dynamicRoutes || {})) {
   if (scope.routes.length && v.fallback !== false) scope.missing.push('dynamic-fallback:' + r);
 }
 const corpusSha = createHash('sha256').update(JSON.stringify(pages)).digest('hex');
-const context = { ...scope, version:1, reviewId:randomUUID(), baseSha, headSha, policySha, corpusSha, inventory };
+const allowedContentFiles = changedFiles.filter(p => fs.existsSync(p) && fs.lstatSync(p).isFile());
+const context = { ...scope, allowedContentFiles, version:1, reviewId:randomUUID(), baseSha, headSha, policySha, corpusSha, inventory };
 const assets = walk('public').map(p => '/' + path.relative('public',p));
 const inspected = pages.filter(p => scope.routes.includes(p.route)).map(p => inspectHtml(p.route,p.html,inventory,assets));
 const errors = inspected.flatMap(x => x.errors);
