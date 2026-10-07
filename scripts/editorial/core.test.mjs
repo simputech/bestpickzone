@@ -118,3 +118,84 @@ test('unsafe proposed correction is rejected before writer invocation',async()=>
   },{enabled:true});
   assert.equal(result.reason,'unsafe-correction');assert.equal(writes,0);
 });
+
+for (const dimension of DIMENSIONS) test('revise cannot override blocked dimension: '+dimension,async()=>{
+  const f=fixture();let proposals=0,writes=0;
+  f.review.verdict='revise';
+  f.review.pages[0].checks[dimension].status='block';
+  // The report is well formed, but a hard blocker forbids automatic repair.
+  assert.deepEqual(validateReview(f.review,f.context,now),[]);
+  const result=await correctionCycle({
+    prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,
+    review:async()=>f.review,
+    propose:async()=>{proposals++;return {changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}},
+    commit:async()=>{writes++;return 'e'.repeat(40)}
+  },{enabled:true});
+  assert.equal(result.reason,'semantic-block');
+  assert.equal(result.history.length,1);
+  assert.equal(proposals,0);assert.equal(writes,0);
+});
+
+test('blocked dimension also overrides aggregate pass',()=>{
+  const f=fixture();f.review.pages[0].checks.primarySourceSupport.status='block';
+  assert.equal(publishingDecision({...f,enabled:true}).reason,'semantic-block');
+});
+
+test('a valid 900-word revise report can be corrected and freshly reviewed',async()=>{
+  let f=fixture(),reviews=0,writes=0;
+  f.review.verdict='revise';f.review.pages[0].editorialWords=900;
+  f.review.pages[0].checks.structureAndDepth.status='revise';
+  f.review.pages[0].findings=['Add topic-specific decision guidance to reach the editorial depth requirement.'];
+  assert.deepEqual(validateReview(f.review,f.context,now),[]);
+  const result=await correctionCycle({
+    prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,
+    review:async()=>{reviews++;return structuredClone(f.review)},
+    propose:async()=>({changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}),
+    commit:async()=>{
+      writes++;f=fixture();
+      f.context.headSha=f.currentHead=f.review.headSha=f.deterministic.headSha='e'.repeat(40);
+      f.context.reviewId=f.review.reviewId='review_0002';
+      return f.context.headSha;
+    }
+  },{enabled:true});
+  assert.equal(result.status,'pass');assert.equal(reviews,2);assert.equal(writes,1);
+  assert.notEqual(result.history[0].headSha,result.history[1].headSha);
+  assert.notEqual(result.history[0].reviewId,result.history[1].reviewId);
+});
+
+test('a well-formed short-article pass report cannot authorize publishing',()=>{
+  const f=fixture();f.review.pages[0].editorialWords=900;
+  assert.deepEqual(validateReview(f.review,f.context,now),[]);
+  const result=publishingDecision({...f,enabled:true});
+  assert.equal(result.status,'blocked');
+  assert.ok(result.errors.includes('Article below 1000 editorial words'));
+});
+
+test('negative or non-integer word counts remain invalid even for revise',()=>{
+  for(const count of [-1,900.5,'900']) {
+    const f=fixture();f.review.verdict='revise';f.review.pages[0].editorialWords=count;
+    assert.ok(validateReview(f.review,f.context,now).includes('Invalid editorial word count'));
+  }
+});
+
+test('shared expansion preserves missing direct routes without treating shared files as routes',()=>{
+  const inventory=['/','/books/example','/books/sibling'];
+  for(const shared of ['components/article/HtmlComparisonArticlePage.tsx','lib/books-data.ts','app/books/[slug]/page.tsx','app/layout.tsx']) {
+    const scope=scopeChanges([shared,'app/books/deleted/page.tsx','app/books/example/page.tsx'],inventory);
+    assert.deepEqual(scope.routes,inventory);
+    assert.deepEqual(scope.missing,['/books/deleted']);
+    assert.deepEqual(scopeChanges([shared,'app/books/example/page.tsx'],inventory).missing,[]);
+  }
+});
+
+test('a deleted direct route plus shared edit blocks before correction',async()=>{
+  const f=fixture();let proposals=0,writes=0;
+  Object.assign(f.context,scopeChanges(['app/books/deleted/page.tsx','components/article/HtmlComparisonArticlePage.tsx'],f.context.inventory));
+  const result=await correctionCycle({
+    prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,
+    review:async()=>({...f.review,verdict:'revise'}),
+    propose:async()=>{proposals++},commit:async()=>{writes++}
+  },{enabled:true});
+  assert.equal(result.reason,'policy-or-scope-needs-maintainer');
+  assert.equal(proposals,0);assert.equal(writes,0);
+});

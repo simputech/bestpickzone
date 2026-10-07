@@ -18,9 +18,12 @@ export function scopeChanges(files, inventory) {
   const content = files.filter(f => !/^(?:docs\/|reports\/|scripts\/|editorial\/|\.github\/)/.test(f) && !/\.md$/.test(f));
   // Any shared, data, asset, unknown, dynamic, or routing edit fans out to all routes.
   // This intentionally over-reviews rather than guessing a dependency graph.
-  const all = content.some(f => !/^app\/(?:[a-zA-Z0-9_-]+\/)*page\.(?:tsx|jsx|js)$/.test(f));
-  const direct = content.map(f => '/' + f.replace(/^app\//, '').replace(/(?:^|\/)page\.(?:tsx|jsx|js)$/, ''));
-  const missing = all ? [] : direct.filter(r => !routes.includes(r));
+  const standalonePage = /^app\/(?:[a-zA-Z0-9_-]+\/)*page\.(?:tsx|jsx|js)$/;
+  const all = content.some(f => !standalonePage.test(f));
+  const direct = content.filter(f => standalonePage.test(f))
+    .map(f => '/' + f.replace(/^app\//, '').replace(/(?:^|\/)page\.(?:tsx|jsx|js)$/, ''));
+  // Expanding shared scope must not hide a deleted or unrendered direct route.
+  const missing = [...new Set(direct)].filter(r => !routes.includes(r));
   return { routes: content.length ? (all ? routes : [...new Set(direct)].sort()) : [],
     reason: all ? 'shared-or-unknown-change: all rendered routes' : 'standalone-pages-or-no-content',
     policyChanged, missing };
@@ -46,13 +49,10 @@ export function validateReview(value, context, now = new Date()) {
     for (const d of DIMENSIONS) {
       const check = page.checks[d];
       if (!keys(check, ['status','evidence']) || !['pass','revise','block'].includes(check.status) || !text(check.evidence)) fail('Invalid check: ' + d);
-      else if (value.verdict === 'pass' && check.status !== 'pass') fail('Contradictory pass');
     }
     if (!['article','hub','service'].includes(page.pageType)) fail('Invalid page type');
-    if (page.pageType === 'article' && page.editorialWords < 1000) fail('Article below 1000 editorial words');
     if (!Number.isInteger(page.editorialWords) || page.editorialWords < 0) fail('Invalid editorial word count');
     if (!Array.isArray(page.findings) || page.findings.some(f => !text(f))) fail('Invalid findings');
-    if (value.verdict === 'pass' && page.findings?.length) fail('Unresolved findings');
     if (!Array.isArray(page.comparisons) || page.comparisons.length < 1) fail('Existing-content comparison required');
     else for (const item of page.comparisons) {
       if (!keys(item,['route','difference']) || !context.inventory.includes(item.route) || item.route === page.route || !text(item.difference)) fail('Invalid existing-content comparison');
@@ -78,7 +78,21 @@ export function publishingDecision({ enabled = false, context, review, determini
   if (!deterministic || deterministic.headSha !== context.headSha || deterministic.corpusSha !== context.corpusSha ||
       deterministic.status !== 'pass' || deterministic.errors.length) return { status: 'blocked', reason: 'deterministic-checks' };
   const errors = validateReview(review, context, now);
-  if (errors.length || review.verdict !== 'pass') return { status: 'blocked', reason: 'semantic-review', errors };
+  if (errors.length) return { status: 'blocked', reason: 'semantic-review', errors };
+  // Any hard blocker overrides an aggregate revise/pass verdict, before proposal
+  // generation or writer invocation. Valid reports may describe failing content.
+  if (review.verdict === 'block' || review.pages.some(page => DIMENSIONS.some(d => page.checks[d].status === 'block'))) {
+    return { status: 'blocked', reason: 'semantic-block' };
+  }
+  if (review.verdict !== 'pass') return { status: 'blocked', reason: 'semantic-review', errors };
+  // Approval requirements are distinct from report validity: a short article can
+  // receive a valid revise report and enter the bounded correction flow.
+  for (const page of review.pages) {
+    if (DIMENSIONS.some(d => page.checks[d].status !== 'pass')) errors.push('Contradictory pass');
+    if (page.pageType === 'article' && page.editorialWords < 1000) errors.push('Article below 1000 editorial words');
+    if (page.findings.length) errors.push('Unresolved findings');
+  }
+  if (errors.length) return { status: 'blocked', reason: 'semantic-review', errors };
   return { status: 'pass', reason: 'reviewed-current-commit' };
 }
 export async function correctionCycle(adapter, { enabled = false, maxCorrections = 2 } = {}) {

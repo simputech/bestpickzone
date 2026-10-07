@@ -62,8 +62,11 @@ word counts, mobile disclosure placement and visual claims need the independent
 editorial/browser review described in checklist.md. HTML counts are not the
 1,000-word acceptance measurement.
 
-The first pilot is intentionally conservative: articles under review must meet
-1,000 editorial words even if older. Legacy FAQs are judged under the playbook's
+The first pilot is intentionally conservative: approval requires articles under
+review to meet 1,000 editorial words even if older. A well-formed report may identify
+a shorter article for revision; report validity does not grant publishing approval.
+Any blocked review dimension stops automatic correction, even when the aggregate
+verdict says revise. Legacy FAQs are judged under the playbook's
 new/material-rebuild distinction, not deleted automatically. Large shared changes
 require a complete review batch; do not sample routes and declare a site-wide pass.
 Activation must cap per-run route/input size and cost, block excess scope, or aggregate
