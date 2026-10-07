@@ -84,13 +84,13 @@ services or repository write authority in this draft.
    snapshots. Structural validation runs on a clean trusted runner, not inside the
    model job. Missing/invalid evidence or unavailable tools block.
 3. A valid revise result may produce an editorial patch. A separate correction
-   adapter returns commit ID and independently inspected changed path/mode records;
-   validateCorrection and the adapter validate that every changed path is an already-scoped content file
+   proposal adapter returns independently inspected changed path/mode records;
+   validateCorrection and the adapter validate before any writer is invoked that every changed path is an already-scoped content file
    (app article page/source, content article, or existing lib article data).
    Reject workflow/policy/scripts/config/dependencies/new paths, symlinks, executable
    changes, binaries, credentials and scope expansion. Prefer a patch for human
    inspection in the initial pilot; no write-capable adapter is installed here.
-4. If later approved to commit, a separate writer uses a minimal, short-lived
+4. If later approved to commit, a separate commit adapter/writer uses a minimal, short-lived
    GitHub App token and expected-head lease, records the new commit and round count,
    and explicitly requests the next review via a trusted workflow_dispatch.
    Persist the attempt count in trusted run/controller state, not editable PR files.

@@ -96,12 +96,15 @@ export async function correctionCycle(adapter, { enabled = false, maxCorrections
     history.push({ headSha: prepared.context.headSha, reviewId: prepared.context.reviewId, ...result });
     if (result.status === 'pass') return { ...result, history };
     if (result.reason !== 'semantic-review' || result.errors?.length || review.verdict !== 'revise' || round === maxCorrections) return { ...result, history };
-    // Correction adapter must enforce a content-only diff, no policy/workflow edits,
-    // no new credentials, and commit with an expected-head lease.
-    const corrected = await adapter.correct({ prepared, review, round: round + 1 });
-    const patchErrors = validateCorrection(corrected?.changes, prepared.context.allowedContentFiles);
+    // Validate proposal before giving a separate writer any authority.
+    // Trusted adapters derive these records from the real patch, not model JSON.
+    const proposal = await adapter.propose({ prepared, review, round: round + 1 });
+    const patchErrors = validateCorrection(proposal?.changes, prepared.context.allowedContentFiles);
     if (patchErrors.length) return { status: 'blocked', reason: 'unsafe-correction', errors: patchErrors, history };
-    if (!SHA.test(corrected.headSha) || corrected.headSha === prepared.context.headSha || await adapter.head() !== corrected.headSha) return { status: 'blocked', reason: 'correction-did-not-produce-current-commit', history };
+    if (await adapter.head() !== prepared.context.headSha) return { status: 'blocked', reason: 'head-moved', history };
+    // Writer must apply the inspected immutable proposal with an expected-head lease.
+    const corrected = await adapter.commit({ proposal, expectedHead: prepared.context.headSha });
+    if (!SHA.test(corrected) || corrected === prepared.context.headSha || await adapter.head() !== corrected) return { status: 'blocked', reason: 'correction-did-not-produce-current-commit', history };
   }
 }
 

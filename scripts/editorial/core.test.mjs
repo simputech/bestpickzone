@@ -53,7 +53,8 @@ test('correction requires a new commit and a fresh invocation',async()=>{
   const result=await correctionCycle({
     prepare:async()=>structuredClone(f), head:async()=>f.context.headSha,
     review:async()=>{calls++;const r=structuredClone(f.review);if(calls===1){r.verdict='revise';r.pages[0].checks.readerIntent.status='revise';r.pages[0].findings=[sentence]}return r},
-    correct:async()=>{corrections++;f=fixture();f.context.headSha=f.currentHead=f.review.headSha=f.deterministic.headSha='e'.repeat(40);f.context.reviewId=f.review.reviewId='review_0002';return {headSha:f.context.headSha,changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}}
+    propose:async()=>({changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}),
+    commit:async()=>{corrections++;f=fixture();f.context.headSha=f.currentHead=f.review.headSha=f.deterministic.headSha='e'.repeat(40);f.context.reviewId=f.review.reviewId='review_0002';return f.context.headSha}
   },{enabled:true});
   assert.equal(result.status,'pass');assert.equal(calls,2);assert.equal(corrections,1);
   assert.notEqual(result.history[0].headSha,result.history[1].headSha);
@@ -63,14 +64,16 @@ test('bounded correction loop stops after two attempts',async()=>{
   const result=await correctionCycle({
     prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,
     review:async()=>({...f.review,verdict:'revise'}),
-    correct:async()=>{round++;f.context.reviewId=f.review.reviewId='review_000'+(round+1);f.context.headSha=f.review.headSha=f.currentHead=f.deterministic.headSha=String(round).repeat(40);return {headSha:f.context.headSha,changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}}
+    propose:async()=>({changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}),
+    commit:async()=>{round++;f.context.reviewId=f.review.reviewId='review_000'+(round+1);f.context.headSha=f.review.headSha=f.currentHead=f.deterministic.headSha=String(round).repeat(40);return f.context.headSha}
   },{enabled:true});
   assert.equal(result.status,'blocked');assert.equal(round,2);assert.equal(result.history.length,3);
 });
 test('no correction on invalid report or default inactive pilot',async()=>{
   assert.equal((await correctionCycle({})).reason,'pilot-inactive');
   const f=fixture();let edited=false;
-  const result=await correctionCycle({prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,review:async()=>({}),correct:async()=>{edited=true}},{enabled:true});
+  const result=await correctionCycle({prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,review:async()=>({}),propose:async()=>({changes:[{path:'app/books/example/page.tsx',status:'modified',mode:'100644',binary:false}]}),
+    commit:async()=>{edited=true}},{enabled:true});
   assert.equal(result.status,'blocked');assert.equal(edited,false);
 });
 test('HTML checks find bad Amazon links, placeholders, heading and dead links',()=>{
@@ -103,4 +106,15 @@ test('release CLI exits blocked with missing evidence',async()=>{
   const {spawnSync}=await import('node:child_process');
   const result=spawnSync(process.execPath,['scripts/editorial/gate.mjs'],{encoding:'utf8'});
   assert.equal(result.status,1);assert.match(result.stderr,/missing-or-malformed-evidence/);
+});
+
+test('unsafe proposed correction is rejected before writer invocation',async()=>{
+  const f=fixture();let writes=0;
+  const result=await correctionCycle({
+    prepare:async()=>structuredClone(f),head:async()=>f.context.headSha,
+    review:async()=>({...f.review,verdict:'revise'}),
+    propose:async()=>({changes:[{path:'.github/workflows/deploy.yml',status:'modified',mode:'100644',binary:false}]}),
+    commit:async()=>{writes++;return 'e'.repeat(40)}
+  },{enabled:true});
+  assert.equal(result.reason,'unsafe-correction');assert.equal(writes,0);
 });
