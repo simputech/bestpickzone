@@ -78,7 +78,13 @@
         "question": "Does this page show today’s lowest Bambino price?",
         "answer": "No. We provide an offer checklist and retailer search links. A lowest-price claim requires current, matched offers that we have not verified here."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "Breville Bambino BES450",
+      "why": "Our starting recommendation if you want home espresso and are happy to steam milk manually. Reserve part of your setup budget for a suitable grinder before choosing a machine offer.",
+      "alternative": "Bambino Plus BES500 for automatic milk texturing",
+      "alternativeWhy": "Choose the Plus when hands-free milk preparation is a feature you will use regularly. Compare its complete setup cost separately; paying more makes sense only if that convenience matters to you."
+    }
   },
   {
     "slug": "ninja-creami-deals",
@@ -154,7 +160,13 @@
         "question": "Can I compare all CREAMi models as one product?",
         "answer": "No. Keep model families and package contents separate so the cheaper offer is not a different machine."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "A complete Ninja CREAMi with the containers you need",
+      "why": "Start with a complete machine package from your chosen CREAMi family. We recommend the smallest useful bundle for your household: enough compatible containers for the flavors you will actually prepare and store.",
+      "alternative": "A larger compatible container bundle for several flavors",
+      "alternativeWhy": "Consider extra tubs if you prepare different flavors ahead of time and have the freezer space. Choose the bundle only after checking the exact model compatibility and the cost of buying those tubs separately."
+    }
   },
   {
     "slug": "kitchenaid-stand-mixer-deals",
@@ -234,7 +246,13 @@
         "question": "Is the biggest discount the best mixer deal?",
         "answer": "No. A larger mixer or attachment bundle can cost more and be less useful for your kitchen even when its advertised percentage is higher."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "A new KitchenAid mixer sized for your regular batches",
+      "why": "For a first mixer, prioritize the bowl capacity, operating space and included beaters you need. We recommend a complete package before an attachment-heavy bundle; optional tools can wait until you know you will use them.",
+      "alternative": "KitchenAid certified refurbished in the same model",
+      "alternativeWhy": "Consider manufacturer-refurbished stock if its condition and current warranty terms work for you and the total saves enough to justify the tradeoff. Compare the same capacity and included tools."
+    }
   },
   {
     "slug": "ooni-koda-12-deals",
@@ -311,7 +329,13 @@
         "question": "Should I wait for Black Friday?",
         "answer": "We do not have verified price history to predict a lower offer. Use your complete setup budget, intended use date and current seller terms."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "Ooni Koda 12 for an outdoor gas setup",
+      "why": "Our recommendation if you want this size of pizza oven, have a suitable outdoor cooking space and have confirmed the regional fuel requirements. Budget for a compatible peel and any essentials missing from the box.",
+      "alternative": "A Koda 12 bundle with a peel you would buy anyway",
+      "alternativeWhy": "Choose the bundle when it includes the right tools and costs less than buying those same items separately. If you already own suitable accessories, start with the oven-only offer."
+    }
   },
   {
     "slug": "dyson-airwrap-refurbished-deals",
@@ -388,7 +412,13 @@
         "question": "Can I compare a small kit with a complete kit?",
         "answer": "Yes for personal value, but do not describe them as the same offer. Price any missing tools you actually need."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "A Dyson-refurbished Airwrap with your required attachments",
+      "why": "Our preferred starting point for a refurbished Airwrap is Dyson’s own channel, when the right kit is available. Buy only after checking the exact model, included tools and current sale terms; return eligibility matters if you have not tried the styling routine.",
+      "alternative": "A new Airwrap kit when purchase flexibility matters more",
+      "alternativeWhy": "Consider a new kit if the refurbished offer excludes an attachment you need or its return terms do not suit you. Compare the full cost and actual seller policies before deciding the refurbished option is better value."
+    }
   },
   {
     "slug": "baratza-encore-esp-deals",
@@ -464,7 +494,13 @@
         "question": "Should I pay more for accessories?",
         "answer": "Only if they solve a specific workflow need and cost less in the bundle than buying the useful pieces separately."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "Baratza Encore ESP for a home espresso setup",
+      "why": "We recommend the Encore ESP if you want a grinder for espresso with the option to make filter coffee too. Its dedicated espresso adjustment range and included dosing cup make it a sensible starting point for a Bambino setup. Allow for weighing your doses and adjusting the grind to your coffee.",
+      "alternative": "Keep a suitable filter grinder if you do not make espresso",
+      "alternativeWhy": "If your current grinder already makes filter coffee you enjoy, we would not replace it just because the ESP is discounted. If you are choosing your first grinder, compare options for your brewing method before paying for espresso-focused features."
+    }
   },
   {
     "slug": "elgato-stream-deck-mk2-deals",
@@ -541,7 +577,13 @@
         "question": "Will a Stream Deck make every app faster?",
         "answer": "That depends on supported actions and your setup. Verify a few specific tasks before purchasing."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "Elgato Stream Deck MK.2 for repeatable app shortcuts",
+      "why": "We recommend the MK.2 when you can name several repeated actions you want on physical keys and have confirmed support for your apps. Choose the complete unit with its normal accessories before paying for decorative extras.",
+      "alternative": "Try your existing keyboard shortcuts first",
+      "alternativeWhy": "If you only want one or two occasional commands, start with shortcuts you already have. Move to a dedicated control pad when the physical layout solves a clear workflow problem."
+    }
   },
   {
     "slug": "kindle-paperwhite-deals",
@@ -622,7 +664,13 @@
         "question": "Can I compare different Paperwhite generations?",
         "answer": "You can compare their usefulness, but a lower price on an older generation is not a same-product price match."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "A Kindle Paperwhite device-only offer in your chosen generation",
+      "why": "Our starting recommendation is the device configuration that meets your reading needs, with optional extras priced separately. Choose it for a clear reading benefit, and keep trade-in credit and subscription trials outside the basic price comparison.",
+      "alternative": "A same-generation bundle with a case you need",
+      "alternativeWhy": "Consider a bundle if you want a protective case and the combined total beats buying the same useful items separately. Keep your current reader if it still meets your needs and the promotion is the only reason to upgrade."
+    }
   },
   {
     "slug": "airpods-pro-deals",
@@ -695,7 +743,13 @@
         "question": "Why are some listings dramatically cheaper?",
         "answer": "They may be accessories, single replacements, older configurations or used items. Read the complete listing before treating it as a discount."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "A complete new AirPods Pro set from a clearly identified seller",
+      "why": "If you have chosen AirPods Pro, we recommend starting with a complete new set: both earbuds and the matching charging case. Confirm the generation and model numbers, then check the seller’s return terms before comparing totals.",
+      "alternative": "Compare other earbuds if you are still choosing a model",
+      "alternativeWhy": "If fit, phone compatibility or your budget is still undecided, use our wireless-earbud comparison before committing to AirPods. An unusually cheap replacement earbud, case-only listing or unclear used set is not our substitute for a complete pair."
+    }
   },
   {
     "slug": "lego-millennium-falcon-deals",
@@ -772,6 +826,12 @@
         "question": "Should I count loyalty points as cash savings?",
         "answer": "Show them separately. They are conditional future value, and may not be useful for your next purchase."
       }
-    ]
+    ],
+    "recommendation": {
+      "pick": "LEGO Millennium Falcon 75375 for a smaller display build",
+      "why": "Our starting recommendation for someone who wants a Falcon display project without committing to the much larger 75192 build. Check the finished dimensions against your shelf and compare offers for set 75375 specifically.",
+      "alternative": "LEGO Millennium Falcon 75192 for a large collector project",
+      "alternativeWhy": "Choose 75192 when the larger building project is what you want and you have planned the display space and total budget. Its size and piece count are reasons to choose that experience, not reasons to treat it as the same purchase as 75375."
+    }
   }
 ]

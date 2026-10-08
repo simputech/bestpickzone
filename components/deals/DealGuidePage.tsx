@@ -10,7 +10,7 @@ export default function DealGuidePage({ guide: g }: { guide: DealGuide }) {
         headline: g.title,
         description: g.description,
         datePublished: "2026-10-06",
-        dateModified: "2026-10-06",
+        dateModified: "2026-10-07",
         author: { "@type": "Organization", name: "BestPickZone" },
         publisher: { "@type": "Organization", name: "BestPickZone" },
         mainEntityOfPage: url,
@@ -38,12 +38,50 @@ export default function DealGuidePage({ guide: g }: { guide: DealGuide }) {
         <h1>{g.title}</h1>
         <p className="deal-lead">{g.answer}</p>
         <p className="deal-small">
-          By BestPickZone · Reviewed October 6, 2026 · US shopping guidance
+          By BestPickZone · Reviewed October 7, 2026 · US shopping guidance
         </p>
-        <Link className="deal-button" href={`/deal-agent?topic=${g.slug}`}>
-          Ask the Deal Agent about {g.product} →
-        </Link>
       </header>
+      <section aria-labelledby="our-recommendations">
+        <h2 id="our-recommendations">Our recommendations</h2>
+        <div className="deal-grid">
+          <div className="deal-card">
+            <p className="deal-eyebrow">OUR STARTING PICK</p>
+            <h3>{g.recommendation.pick}</h3>
+            <p>{g.recommendation.why}</p>
+          </div>
+          <div className="deal-card">
+            <p className="deal-eyebrow">WHEN YOUR NEEDS ARE DIFFERENT</p>
+            <h3>{g.recommendation.alternative}</h3>
+            <p>{g.recommendation.alternativeWhy}</p>
+          </div>
+        </div>
+        <p className="deal-small">
+          Editorial recommendations based on product information and buying
+          considerations. These are not verified live offers or hands-on test
+          results.
+        </p>
+      </section>
+      <section className="deal-panel" aria-labelledby="explore-with-agent">
+        <h2 id="explore-with-agent">
+          Want to learn more or find something else?
+        </h2>
+        <p>
+          Search our Deal Agent for more buying advice on {g.product}, or start
+          with a different product and your budget.
+        </p>
+        <div className="deal-actions">
+          <Link className="deal-button" href={`/deal-agent?topic=${g.slug}`}>
+            Learn more with our Deal Agent →
+          </Link>
+          <Link className="deal-button secondary" href="/deal-agent">
+            Find a different product →
+          </Link>
+        </div>
+        <p className="deal-small">
+          The Deal Agent searches our buying guides. Live retailer prices and
+          price history are not available.
+        </p>
+      </section>
       <aside className="deal-status">
         <strong>Price check: unavailable</strong>
         <p>
