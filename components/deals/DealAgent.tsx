@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { dealGuides, findGuide } from "@/lib/deals/products";
 type Result = {
@@ -21,6 +21,14 @@ export default function DealAgent() {
     [busy, setBusy] = useState(false),
     [error, setError] = useState(""),
     [feedback, setFeedback] = useState("");
+  const questionRef = useRef<HTMLTextAreaElement>(null);
+  const resultRef = useRef<HTMLHeadingElement>(null);
+  useEffect(() => {
+    if (result) {
+      resultRef.current?.focus({ preventScroll: true });
+      resultRef.current?.scrollIntoView({ block: "center" });
+    }
+  }, [result]);
   useEffect(() => {
     const topic = new URLSearchParams(location.search).get("topic");
     const g = topic && findGuide(topic);
@@ -28,22 +36,40 @@ export default function DealAgent() {
   }, []);
   async function ask(e: React.FormEvent) {
     e.preventDefault();
-    setBusy(true);
+    if (busy) return;
     setError("");
     setResult(null);
     setFeedback("");
+    const question = query.trim();
+    if (question.length < 3 || question.length > 400) {
+      setError("Enter a product or shopping question between 3 and 400 characters.");
+      questionRef.current?.focus();
+      return;
+    }
+    setBusy(true);
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
     try {
       const r = await fetch("/api/deal-agent", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query }),
+        body: JSON.stringify({ query: question }),
+        signal: controller.signal,
       });
-      const data = await r.json();
-      if (!r.ok) throw new Error(data.error);
+      const data = await r.json().catch(() => null);
+      if (!r.ok || !data)
+        throw new Error(data?.error || "Buying checks are temporarily unavailable. Please try again.");
       setResult(data);
     } catch (e) {
-      setError(e instanceof Error ? e.message : "Try again.");
+      setError(
+        controller.signal.aborted
+          ? "The request took too long. Please try again."
+          : e instanceof Error && e.name !== "TypeError"
+            ? e.message
+            : "We could not load your buying checks. Check your connection and try again.",
+      );
     } finally {
+      clearTimeout(timeout);
       setBusy(false);
     }
   }
@@ -80,15 +106,20 @@ export default function DealAgent() {
   }
   return (
     <>
-      <form className="deal-panel" onSubmit={ask}>
+      <form className="deal-panel" onSubmit={ask} noValidate>
         <label htmlFor="shopping-question">
           What are you looking for?
           <textarea
             id="shopping-question"
+            ref={questionRef}
+            disabled={busy}
+            aria-describedby="shopping-question-help shopping-question-error"
+            aria-invalid={Boolean(error) && (query.trim().length < 3 || query.trim().length > 400)}
             value={query}
             onChange={(e) => {
               setQuery(e.target.value);
               setResult(null);
+              setError("");
             }}
             minLength={3}
             maxLength={400}
@@ -97,18 +128,21 @@ export default function DealAgent() {
             placeholder="Is a refurbished Airwrap worth it? Find a Bambino setup under $500."
           />
         </label>
-        <p className="deal-small">
+        <p className="deal-small" id="shopping-question-help">
           Include a product, budget and must-haves. Do not include personal
           information. This guided assistant matches editorial buying guides; it
           does not retrieve or rank live retailer prices.
         </p>
-        <button className="deal-button" disabled={busy}>
+        <button type="submit" className="deal-button" disabled={busy}>
           {busy ? "Finding guidance…" : "Find my buying checks →"}
         </button>
+        <p className="error" id="shopping-question-error" role="alert">
+          {error}
+        </p>
+        <p role="status">
+          {busy ? "Finding your buying checks…" : result ? "Your buying checks are ready below." : ""}
+        </p>
       </form>
-      <p className="error" role="alert">
-        {error}
-      </p>
       <div className="deal-actions" aria-label="Example shopping questions">
         {[
           "Is a Bambino bundle a good deal?",
@@ -117,10 +151,14 @@ export default function DealAgent() {
         ].map((q) => (
           <button
             key={q}
+            type="button"
+            disabled={busy}
             className="deal-button secondary"
             onClick={() => {
               setQuery(q);
               setResult(null);
+              setError("");
+              questionRef.current?.focus();
             }}
           >
             {q}
@@ -130,7 +168,7 @@ export default function DealAgent() {
       <div aria-live="polite">
         {result && (
           <section>
-            <h2>Your next buying decision</h2>
+            <h2 ref={resultRef} tabIndex={-1}>Your next buying decision</h2>
             <p>{result.message}</p>
             {result.budget !== null && (
               <p>
