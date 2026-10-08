@@ -134,7 +134,7 @@ export default function DealAgent() {
           does not retrieve or rank live retailer prices.
         </p>
         <button type="submit" className="deal-button" disabled={busy}>
-          {busy ? "Finding guidance…" : "Find my buying checks →"}
+          {busy ? "Finding guidance…" : "Get buying advice →"}
         </button>
         <p className="error" id="shopping-question-error" role="alert">
           {error}
