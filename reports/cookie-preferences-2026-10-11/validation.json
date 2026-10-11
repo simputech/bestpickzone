@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-11",
+  "baseCommit": "3f5ae99",
+  "repository": "simputech/bestpickzone",
+  "vercelProject": "bestpickzone-fixed",
+  "checks": {
+    "lint": "passed; 110 existing warnings outside changed files",
+    "typecheck": "passed",
+    "unitAndRegressionTests": {
+      "passed": 31,
+      "failed": 0
+    },
+    "browserScenarios": {
+      "passed": 15,
+      "failed": 0,
+      "browser": "Chrome 154.0.8037.99",
+      "viewports": [
+        "1440x1000",
+        "390x844",
+        "320x568",
+        "844x390"
+      ]
+    },
+    "build": "passed; 345 generated pages",
+    "metadata": {
+      "pages": 325,
+      "errors": 0,
+      "warnings": 0
+    },
+    "indexability": {
+      "sitemapUrls": 325,
+      "renderedPages": 325,
+      "errors": 0,
+      "warnings": 0
+    },
+    "diffCheck": "passed"
+  },
+  "testIsolation": "Local production build with synthetic G-COOKIE-TEST ID. Browser routes proxy the production origin to localhost; Google scripts are intercepted and all other external requests aborted. No live GA events were sent.",
+  "buildEnvironmentNote": "Initial build failed with ENOSPC writing webpack cache. Removed only task-created .next/cache and retried npm run build with a temporary webpack cache=false override. next.config.js restored byte-for-byte; override not committed.",
+  "dependencyNote": "npm ci reported 21 existing vulnerabilities (2 moderate, 18 high, 1 critical); no dependency or lockfile changes.",
+  "affiliateVerification": {
+    "sourceUnchanged": [
+      "components/analytics/AffiliateClickTracker.tsx",
+      "components/article",
+      "lib/amazon-creators-api.ts",
+      "app/books",
+      "app/wfh"
+    ],
+    "browserRoutes": [
+      "/books/authors/best-alex-michaelides-books",
+      "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console"
+    ],
+    "result": "All Amazon hrefs identical before rejection, after rejection and after reload. Pilot grandparentsgift-20 and existing althcu-20 present. Native link activation requests the original URL; remote Amazon requests were aborted."
+  },
+  "knownIssue": {
+    "file": "components/analytics/AffiliateClickTracker.tsx",
+    "line": 16,
+    "runtimeClassification": {
+      "althcu-20": "amazon",
+      "fitnessbankd-20": "amazon",
+      "grandparentsgift-20": null
+    },
+    "impact": "Pilot tag is omitted from the custom affiliate_click event because getAffiliatePlatform returns null; destination links and affiliate tags remain intact. Tracker unchanged."
+  },
+  "deployment": "No merge or deployment. vercel.json disables automatic deployment only for codex/cookie-preferences; no production settings changed."
+}

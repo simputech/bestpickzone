@@ -1,1 +1,4 @@
-{ "crons": [{ "path": "/api/cron/deal-alerts", "schedule": "0 14 * * *" }] }
+{
+  "crons": [{ "path": "/api/cron/deal-alerts", "schedule": "0 14 * * *" }],
+  "git": { "deploymentEnabled": { "codex/cookie-preferences": false } }
+}

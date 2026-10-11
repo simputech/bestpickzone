@@ -1,0 +1,17 @@
+[
+  "layout, equal buttons, keyboard dialog and default off: 1440x1000",
+  "layout, equal buttons, keyboard dialog and default off: 390x844",
+  "layout, equal buttons, keyboard dialog and default off: 320x568",
+  "layout, equal buttons, keyboard dialog and default off: 844x390",
+  "Accept, reload persistence, reopen, revoke, and re-accept with isolated Google requests",
+  "Reject leaves Amazon hrefs/tags and native navigation unchanged on both pilot articles",
+  "existing granted choice is preserved",
+  "existing denied choice is preserved",
+  "blocked storage: Accept stays off and explains failure",
+  "blocked storage: Reject stays off and explains failure",
+  "blocked storage: Save preferences stays off and explains failure",
+  "failed revocation write disables an already-loaded GA instance without restoring old permission",
+  "exclusion remains off: {\"sessionBlocked\":true}",
+  "exclusion remains off: {\"webdriver\":true}",
+  "exclusion remains off: {\"host\":\"http://localhost\"}"
+]
