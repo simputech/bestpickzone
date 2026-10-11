@@ -7,14 +7,40 @@ declare global {
     gtag?: (...args: unknown[]) => void
     __BPZ_DISABLE_ANALYTICS__?: boolean
     __bpzAnalyticsInitialized?: boolean
+    __bpzAnalyticsConsentBlocked?: boolean
+    [key: `ga-disable-${string}`]: boolean | undefined
   }
+}
+
+const CONSENT_KEY = 'bpz_analytics_consent'
+
+export function readAnalyticsConsent(): 'granted' | 'denied' | null {
+  if (typeof window === 'undefined') return null
+  try {
+    const consent = window.localStorage.getItem(CONSENT_KEY)
+    return consent === 'granted' || consent === 'denied' ? consent : null
+  } catch { return null }
+}
+
+/** Keep the existing storage contract; failed writes must never reuse an old grant. */
+export function saveAnalyticsConsent(allow: boolean): boolean {
+  const consent = allow ? 'granted' : 'denied'
+  let saved = false
+  try {
+    window.localStorage.setItem(CONSENT_KEY, consent)
+    saved = window.localStorage.getItem(CONSENT_KEY) === consent
+  } catch { /* Fail closed, including browsers that can read but cannot write. */ }
+  window.__bpzAnalyticsConsentBlocked = !saved || !allow
+  // Stop an already-loaded GA instance immediately, before the revocation reload.
+  if (GA_MEASUREMENT_ID) window[`ga-disable-${GA_MEASUREMENT_ID}`] = !saved || !allow
+  return saved
 }
 
 /** Explicit monitoring opt-out; no geographic or user-agent heuristics. */
 export function visitorAnalyticsAllowed() {
   if (typeof window === 'undefined') return false
   if (window.location.hostname !== 'bestpickzone.com' || window.location.protocol !== 'https:') return false
-  if (window.__BPZ_DISABLE_ANALYTICS__ || window.navigator.webdriver) return false
+  if (window.__BPZ_DISABLE_ANALYTICS__ || window.__bpzAnalyticsConsentBlocked || window.navigator.webdriver) return false
   const optedOut = new URLSearchParams(window.location.search).get('bpz_analytics') === 'off'
   try {
     if (window.localStorage.getItem('bpz_analytics_consent') !== 'granted') return false
