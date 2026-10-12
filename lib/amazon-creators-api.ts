@@ -208,3 +208,51 @@ export async function searchAmazonProduct(query: string) {
 
   return cachedSearchAmazonProduct(query)
 }
+
+type GetItemsResponse = { itemsResult?: { items?: Array<{
+  asin?: string
+  detailPageURL?: string
+  images?: { primary?: { medium?: { url?: string } } }
+  itemInfo?: { title?: { displayValue?: string } }
+  offersV2?: { listings?: Array<{ price?: { displayAmount?: string } }> }
+}> } }
+
+async function getAmazonProductByAsinUncached(asin: string): Promise<AmazonCreatorItem | null> {
+  if (!isAmazonCreatorsApiConfigured() || !/^[A-Z0-9]{10}$/.test(asin)) return null
+  try {
+    const accessToken = await getAccessToken()
+    const { marketplace, partnerTag } = creatorsApiConfig()
+    const response = await fetch(`${API_BASE_URL}/catalog/v1/getItems`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${accessToken}`, 'Content-Type': 'application/json', 'x-marketplace': marketplace },
+      body: JSON.stringify({ itemIds: [asin], itemIdType: 'ASIN', marketplace, partnerTag,
+        resources: ['images.primary.medium', 'itemInfo.title', 'offersV2.listings.price'] }),
+      cache: 'no-store',
+    })
+    if (!response.ok) {
+      console.warn(`Amazon Creators API getItems HTTP ${response.status} for ASIN ${asin}`)
+      return null
+    }
+    const payload = (await response.json()) as GetItemsResponse
+    const item = payload.itemsResult?.items?.find((candidate) => candidate.asin === asin)
+    if (!item?.detailPageURL) return null
+    return {
+      asin, detailPageURL: item.detailPageURL,
+      title: item.itemInfo?.title?.displayValue,
+      imageUrl: item.images?.primary?.medium?.url,
+      price: item.offersV2?.listings?.[0]?.price?.displayAmount,
+    }
+  } catch (error) {
+    console.warn('Amazon Creators API getItems failed', error instanceof Error ? error.message : 'unknown')
+    return null
+  }
+}
+
+const cachedGetAmazonProductByAsin = unstable_cache(
+  getAmazonProductByAsinUncached, ['amazon-creators-api-getitems-v1'], { revalidate: 3600 }
+)
+
+export async function getAmazonProductByAsin(asin: string) {
+  if (!isAmazonCreatorsApiConfigured()) return null
+  return cachedGetAmazonProductByAsin(asin)
+}

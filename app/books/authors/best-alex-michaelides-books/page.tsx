@@ -228,8 +228,8 @@ export default function BestAlexMichaelidesBooksPage() {
           <h2 className="mb-3 text-2xl font-bold">Shop Alex Michaelides books</h2>
           <p className="mb-5 text-sm text-gray-600">Compare editions and current Amazon listings before buying. Affiliate links may earn us a commission.</p>
           <div className="grid gap-4 md:grid-cols-2">
-            <OrganicPilotProductCard query="The Silent Patient Alex Michaelides paperback" label="The Silent Patient" />
-            <OrganicPilotProductCard query="The Fury Alex Michaelides paperback" label="The Fury" />
+            <OrganicPilotProductCard query="The Silent Patient Alex Michaelides" label="The Silent Patient" asin="1250301696" />
+            <OrganicPilotProductCard query="The Fury Alex Michaelides" label="The Fury" asin="125075898X" />
           </div>
         </section>
         <Breadcrumb items={breadcrumbItems} />

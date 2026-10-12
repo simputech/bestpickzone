@@ -1,9 +1,9 @@
-import { searchAmazonProduct } from '@/lib/amazon-creators-api'
+import { getAmazonProductByAsin, searchAmazonProduct } from '@/lib/amazon-creators-api'
 
 const TEST_TAG = 'grandparentsgift-20'
 
-function trackedAmazonUrl(rawUrl: string | undefined, query: string) {
-  const fallback = `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${TEST_TAG}`
+function trackedAmazonUrl(rawUrl: string | undefined, query: string, asin?: string) {
+  const fallback = asin && /^[A-Z0-9]{10}$/.test(asin) ? `https://www.amazon.com/dp/${asin}?tag=${TEST_TAG}` : `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${TEST_TAG}`
   if (!rawUrl) return fallback
   try {
     const url = new URL(rawUrl)
@@ -13,9 +13,9 @@ function trackedAmazonUrl(rawUrl: string | undefined, query: string) {
   } catch { return fallback }
 }
 
-export default async function OrganicPilotProductCard({ query, label }: { query: string; label: string }) {
-  const item = await searchAmazonProduct(query)
-  const href = trackedAmazonUrl(item?.detailPageURL, query)
+export default async function OrganicPilotProductCard({ query, label, asin }: { query: string; label: string; asin?: string }) {
+  const item = asin ? await getAmazonProductByAsin(asin) : await searchAmazonProduct(query)
+  const href = trackedAmazonUrl(item?.detailPageURL, query, asin)
   return (
     <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5" data-organic-pilot="grandparentsgift-20" data-amazon-source={item ? 'creators-api' : 'fallback'}>
       <p className="mb-3 text-xs font-semibold uppercase tracking-wider text-amber-900">Amazon product • affiliate link</p>
@@ -25,7 +25,7 @@ export default async function OrganicPilotProductCard({ query, label }: { query:
           <h3 className="text-lg font-bold text-gray-900">{item?.title || label}</h3>
           <p className="mt-2 text-sm text-gray-700">{item?.price || 'Check Amazon for current price and availability'}</p>
           <a href={href} target="_blank" rel="sponsored noopener noreferrer" className="mt-4 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-400 px-5 py-3 font-bold text-gray-900 hover:bg-amber-300">View on Amazon</a>
-          <p className="mt-2 text-xs text-gray-600">{item ? 'Product details supplied by Amazon.' : 'Amazon search link; exact product not verified.'}</p>
+          <p className="mt-2 text-xs text-gray-600">{item ? 'Product details supplied by Amazon.' : 'Amazon product lookup unavailable; check listing details before buying.'}</p>
         </div>
       </div>
     </div>
