@@ -13,7 +13,7 @@ function getAffiliatePlatform(href: string): AffiliatePlatform {
     // Recognize the site, disclosed partner placements, and the branded storefront.
     if (
       (host === 'amazon.com' || host.endsWith('.amazon.com')) &&
-      (['althcu-20', 'fitnessbankd-20'].includes(url.searchParams.get('tag') ?? '') || url.pathname === '/shop/althcu')
+      (['althcu-20', 'fitnessbankd-20', 'grandparentsgift-20'].includes(url.searchParams.get('tag') ?? '') || url.pathname === '/shop/althcu')
     ) {
       return 'amazon'
     }
