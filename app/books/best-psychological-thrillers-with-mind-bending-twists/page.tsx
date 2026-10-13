@@ -162,7 +162,7 @@ export default function MindBendingThrillersPage() {
               rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-violet-600 px-6 py-3 text-base font-bold text-white transition hover:bg-violet-500"
             >
-              Click Here to Buy on Amazon
+              Compare editions and prices on Amazon
             </a>
           </section>
         )

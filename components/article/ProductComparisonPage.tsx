@@ -70,7 +70,7 @@ function ProductBlock({
               <p className="mt-2 text-sm text-gray-600">Check Amazon for current price and availability</p>
             )}
             <a href={amazonUrl} target="_blank" rel="sponsored noopener noreferrer" className="mt-4 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-400 px-6 py-3 text-base font-bold text-gray-900 hover:bg-amber-300">
-              View on Amazon
+              Check model and price on Amazon
             </a>
             <p className="mt-2 text-xs text-gray-600">{amazonItem ? 'Product information supplied by Amazon.' : 'Amazon product search; exact listing not verified.'}</p>
           </div>

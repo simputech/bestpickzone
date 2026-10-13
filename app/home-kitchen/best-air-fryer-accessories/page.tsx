@@ -618,7 +618,7 @@ export default function BestAirFryerAccessoriesPage() {
                   rel="noopener nofollow sponsored"
                   className="mt-4 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-amber-500"
                 >
-                  Click Here to Buy on Amazon
+                  Check model and price on Amazon
                 </a>
               </div>
             </div>
@@ -644,7 +644,7 @@ export default function BestAirFryerAccessoriesPage() {
             This page was reviewed after drafting to keep the advice specific, practical, and human. Each accessory includes clear usefulness guidance, short review language, and honest buy-or-skip context instead of generic praise.
           </p>
           <p className="mt-4 text-base leading-7 text-slate-300">
-            It also follows the BestPickZone structure: SEO metadata, FAQ and item-list schema, affiliate disclosure, direct Amazon product links, broader comparison links, and internal links to related Home &amp; Kitchen guides.
+            Before opening a listing, note your air fryer’s model and usable basket dimensions. Compare the accessory’s dimensions, care instructions, and stated temperature limit so a low price does not leave you with an item that does not fit.
           </p>
         </div>
       </section>

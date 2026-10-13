@@ -24,7 +24,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults(
 const faqItems = [
   { question: 'Should you choose by brand or by fuel type first?', answer: 'Fuel type first. Gas, multi-fuel, and electric point to very different ownership experiences.' },
   { question: 'What matters most for apartment or balcony buyers?', answer: 'Space, fuel practicality, and how realistic the oven is for your environment matter more than broad “best pizza oven” hype.' },
-  { question: 'Do you need accessories after the oven?', answer: 'Yes. Pizza ovens are one of the strongest accessory-cart categories because the oven is only the first purchase.' },
+  { question: 'Do you need accessories after the oven?', answer: 'Check the included equipment first. Budget for suitable handling tools and any model-specific items you need, without duplicating equipment you already own.' },
 ]
 
 const readingTime = formatReadingTime(getReadingTime([metaDescription, ...faqItems.map((f) => `${f.question} ${f.answer}`)].join(' ')))
@@ -45,7 +45,7 @@ export default function OoniVsGozneyPage() {
           Ooni vs Gozney only gets easier once you stop thinking in brand names and start thinking in fuel type, space, and how you actually cook.
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
-          This is one of the better outdoor-cooking comparisons on the site because buyers rarely stop at the oven. They choose by fuel, by where the oven will live, and by whether they want a more portable, more premium, or more flexible cooking setup. The accessories matter too, because nobody really buys just the oven and stops.
+          Compare the exact Ooni and Gozney models by fuel type, usable cooking area, storage space, and included equipment. Check the manufacturer’s placement requirements before deciding where an oven will go. Then compare the full cost of the oven and any tools you still need; a cheaper box may not be the cheaper setup.
         </p>
         <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-600">
           <span className="rounded-full bg-white px-4 py-2 ring-1 ring-orange-200">Updated July 11, 2026</span>

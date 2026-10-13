@@ -173,7 +173,7 @@ export default function BooksLikeVerityPage() {
           What are readers usually asking for when they search for books like Verity?
         </h2>
         <p className="mb-4 leading-relaxed text-gray-700">
-          Usually not “romance thrillers” in the abstract. The search intent is narrower than that.
+          Start by choosing which part of Verity you want more of: the intimate danger, the unreliable account, or the darker relationship tension.
           Most readers want a book with intimate danger, manipulative closeness, and a plot that feels
           a little lurid on purpose. They want tension that comes from sex, marriage, jealousy, private
           writing, or dependency, not just a detective trying to solve a clean external mystery.
@@ -215,7 +215,7 @@ export default function BooksLikeVerityPage() {
               rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-violet-600 px-6 py-3 text-base font-bold text-white transition hover:bg-violet-500"
             >
-              Click Here to Buy on Amazon
+              Compare editions and prices on Amazon
             </a>
           </section>
         )

@@ -433,7 +433,7 @@ export default function TopFantasyRomanceNovelsPage() {
                         rel="sponsored noopener"
                         className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-gray-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-fuchsia-800"
                       >
-                        Buy on Amazon
+                        Compare editions and prices on Amazon
                       </a>
                       <a
                         href={amazonLink(`${pick.title} ${pick.author} paperback hardcover kindle`)}

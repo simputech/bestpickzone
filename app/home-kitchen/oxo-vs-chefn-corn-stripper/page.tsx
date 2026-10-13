@@ -343,7 +343,7 @@ const rawHtml = `
 <div class="buy-bar" id="buyBar">
   <div class="buy-bar-text">🏆 Top Pick: <span>OXO Corn Stripper</span> — Check current price</div>
   <div class="buy-bar-btns">
-    <a class="btn-bar btn-bar-yellow" href="https://www.amazon.com/OXO-Good-Grips-Corn-Stripper/dp/B000V78JGO?tag=althcu-20" target="_blank" rel="noopener sponsored">Buy on Amazon →</a>
+    <a class="btn-bar btn-bar-yellow" href="https://www.amazon.com/OXO-Good-Grips-Corn-Stripper/dp/B000V78JGO?tag=althcu-20" target="_blank" rel="noopener sponsored">Check model and price on Amazon →</a>
     <a class="btn-bar btn-bar-outline" href="https://www.amazon.com/Chefn-Cob-Corn-Stripper-Yellow/dp/B01B5SOUF6?tag=althcu-20" target="_blank" rel="noopener sponsored">Budget Pick</a>
   </div>
   <button class="btn-bar-close" onclick="document.getElementById('buyBar').style.display='none'">✕</button>

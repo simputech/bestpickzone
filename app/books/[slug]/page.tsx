@@ -212,7 +212,7 @@ export default function ArticlePage({ params }: Props) {
   const topPickCtaLabels = [
     `Check current Amazon price for ${topPick.title}`,
     `See formats and availability for ${topPick.title} on Amazon`,
-    `View ${topPick.title} on Amazon`,
+    `Compare editions of ${topPick.title} on Amazon`,
   ];
 
   // JSON-LD schemas

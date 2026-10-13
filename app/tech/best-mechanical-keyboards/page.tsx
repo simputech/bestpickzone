@@ -191,7 +191,7 @@ export default function BestMechanicalKeyboardsPage() {
                   <p className="text-sm text-blue-900">{product.verdict}</p>
                 </div>
                 <div className="flex flex-wrap gap-3">
-                  <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="flex-1 min-w-[140px] bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-4 rounded-lg text-center text-sm transition-colors duration-150">View on Amazon</a>
+                  <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="flex-1 min-w-[140px] bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-4 rounded-lg text-center text-sm transition-colors duration-150">Check model and price on Amazon</a>
                   <a href={product.bestBuyUrl} target="_blank" rel="noopener noreferrer sponsored" className="flex-1 min-w-[140px] bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg text-center text-sm transition-colors duration-150">View on Best Buy</a>
                 </div>
               </div>
