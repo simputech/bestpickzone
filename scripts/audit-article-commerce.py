@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Read-only sitemap/corpus audit. API wiring and live data are separate evidence."""
-import concurrent.futures, hashlib, json, re, sys, time, urllib.request, urllib.parse, urllib.error
+import concurrent.futures, hashlib, http.cookiejar, json, os, re, sys, time, urllib.request, urllib.parse, urllib.error
 from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
@@ -9,6 +9,10 @@ ORIGIN = 'https://bestpickzone.com'
 BASE = sys.argv[1].rstrip('/') if len(sys.argv) > 1 else ORIGIN
 OUT = Path(sys.argv[2] if len(sys.argv) > 2 else 'reports/article-api-audit-2026-10-12/live-before.json')
 CACHE = Path('/tmp/bpz-article-audit-html'); CACHE.mkdir(exist_ok=True)
+COOKIES = http.cookiejar.MozillaCookieJar()
+if os.environ.get('BPZ_AUDIT_COOKIE_FILE'):
+ COOKIES = http.cookiejar.MozillaCookieJar(os.environ['BPZ_AUDIT_COOKIE_FILE'])
+ COOKIES.load(ignore_discard=True, ignore_expires=True)
 HUBS = {'/books','/books/authors','/books/genre-fiction','/books/self-help','/books/kids-and-ya','/books/reader-picks','/mahjong'}
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
 API_ROUTES = {
@@ -49,7 +53,7 @@ def get(path):
  for attempt in range(3):
   try:
    req=urllib.request.Request(BASE+path,headers={'User-Agent':'BestPickZone-EditorialAudit/1.0'})
-   try: response = urllib.request.build_opener(NoRedirect).open(req,timeout=20)
+   try: response = urllib.request.build_opener(NoRedirect, urllib.request.HTTPCookieProcessor(COOKIES)).open(req,timeout=20)
    except urllib.error.HTTPError as e: response = e
    with response as r:
     result=[r.status,r.read().decode('utf-8'),r.url];cache.write_text(json.dumps(result));return result

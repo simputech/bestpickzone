@@ -12,8 +12,8 @@
     "sitemapFailures": [],
     "extraRoutes": [],
     "notApiWired": 295,
-    "ctaChangedArticles": 0,
-    "bodyChangedArticles": 0,
+    "ctaChangedArticles": 141,
+    "bodyChangedArticles": 146,
     "shortArticlesUnder650Words": 30,
     "sections": {
       "amazon-offers": 10,
@@ -57,7 +57,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a0fdb529a3247b28d018204ae5c6763155769345ea1b45dfc3b7e85b79641d0a",
-      "afterHrefHash": null,
+      "afterHrefHash": "a0fdb529a3247b28d018204ae5c6763155769345ea1b45dfc3b7e85b79641d0a",
       "notes": []
     },
     {
@@ -84,7 +84,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "dc99c96979fc99b0f178e04649047f88d4b4e5183ccd619efd9c6aa3f7b127df",
-      "afterHrefHash": null,
+      "afterHrefHash": "dc99c96979fc99b0f178e04649047f88d4b4e5183ccd619efd9c6aa3f7b127df",
       "notes": []
     },
     {
@@ -111,7 +111,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "aaebad6885ef0229b2d425e58c8d1f8021cca5f850eeae44bd29b55a238b9029",
-      "afterHrefHash": null,
+      "afterHrefHash": "aaebad6885ef0229b2d425e58c8d1f8021cca5f850eeae44bd29b55a238b9029",
       "notes": []
     },
     {
@@ -138,7 +138,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9758830904864e2290f6d3fad08afd5087ec8ec3bad77086fc8d26f30aa1e328",
-      "afterHrefHash": null,
+      "afterHrefHash": "9758830904864e2290f6d3fad08afd5087ec8ec3bad77086fc8d26f30aa1e328",
       "notes": []
     },
     {
@@ -165,7 +165,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "84ce34e261839597d259cf6551195a149d9c35734a069c22ff6703f095cc55d7",
-      "afterHrefHash": null,
+      "afterHrefHash": "84ce34e261839597d259cf6551195a149d9c35734a069c22ff6703f095cc55d7",
       "notes": []
     },
     {
@@ -193,7 +193,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "0479051f43dc295992569f402b9ef57731122ed06f98210f0cbb07f2419b8dbd",
-      "afterHrefHash": null,
+      "afterHrefHash": "0479051f43dc295992569f402b9ef57731122ed06f98210f0cbb07f2419b8dbd",
       "notes": []
     },
     {
@@ -222,7 +222,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "fb30b1b8f545a32ed5ef8ecb95a7eb3a6e350acd75358b4a911848aca17ea9c7",
-      "afterHrefHash": null,
+      "afterHrefHash": "fb30b1b8f545a32ed5ef8ecb95a7eb3a6e350acd75358b4a911848aca17ea9c7",
       "notes": []
     },
     {
@@ -249,7 +249,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "989987fd3b2fba913c6f63228460fc7c69f8536caad174f7b7e7cdc817df7329",
-      "afterHrefHash": null,
+      "afterHrefHash": "989987fd3b2fba913c6f63228460fc7c69f8536caad174f7b7e7cdc817df7329",
       "notes": []
     },
     {
@@ -276,7 +276,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "0b6ef0508bba0fba0b759728df103adef270cc6cc07cf67ecab57da002ffa513",
-      "afterHrefHash": null,
+      "afterHrefHash": "0b6ef0508bba0fba0b759728df103adef270cc6cc07cf67ecab57da002ffa513",
       "notes": []
     },
     {
@@ -303,7 +303,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "84ce34e261839597d259cf6551195a149d9c35734a069c22ff6703f095cc55d7",
-      "afterHrefHash": null,
+      "afterHrefHash": "84ce34e261839597d259cf6551195a149d9c35734a069c22ff6703f095cc55d7",
       "notes": []
     },
     {
@@ -331,7 +331,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c049ea8083e15eae7f0525909b48e8280df66bf7bca9c70d89626f38f0d5f3c2",
-      "afterHrefHash": null,
+      "afterHrefHash": "c049ea8083e15eae7f0525909b48e8280df66bf7bca9c70d89626f38f0d5f3c2",
       "notes": []
     },
     {
@@ -362,7 +362,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "986238ccb612c9933ee16e087b06e5a9fb2a2278ce319deecd6182604cb60377",
-      "afterHrefHash": null,
+      "afterHrefHash": "986238ccb612c9933ee16e087b06e5a9fb2a2278ce319deecd6182604cb60377",
       "notes": []
     },
     {
@@ -389,10 +389,10 @@
         "Click Here to Buy on Amazon",
         "ghd Duet Style"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "10a8f0d359da5a8c5438bd93be8faa139bc55b601e35c2c0beb89f5350643860",
-      "afterHrefHash": null,
+      "afterHrefHash": "10a8f0d359da5a8c5438bd93be8faa139bc55b601e35c2c0beb89f5350643860",
       "notes": []
     },
     {
@@ -418,10 +418,10 @@
         "Click Here to Buy on Amazon",
         "Shark FlexStyle"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "a3b540ada366949ddaae5a4abf811a1a21aaeda51c072b32ebbe641116de0b05",
-      "afterHrefHash": null,
+      "afterHrefHash": "a3b540ada366949ddaae5a4abf811a1a21aaeda51c072b32ebbe641116de0b05",
       "notes": []
     },
     {
@@ -450,7 +450,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "87e484e5c671d6407c97de53df6f4772e206ef56e10ad547ca3f09df32a5e9db",
-      "afterHrefHash": null,
+      "afterHrefHash": "87e484e5c671d6407c97de53df6f4772e206ef56e10ad547ca3f09df32a5e9db",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -479,9 +479,9 @@
         "Daily SPF"
       ],
       "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "bodyChanged": true,
       "beforeHrefHash": "a7e0940720a84fdc6e83dd3d9807af16198f12b2b285dc7a0c2be18b1ecd666a",
-      "afterHrefHash": null,
+      "afterHrefHash": "a7e0940720a84fdc6e83dd3d9807af16198f12b2b285dc7a0c2be18b1ecd666a",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -514,7 +514,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "0faefd8c126e7a138015950b536082b060955cbd2bfe7052c309229cdd7961b2",
-      "afterHrefHash": null,
+      "afterHrefHash": "0faefd8c126e7a138015950b536082b060955cbd2bfe7052c309229cdd7961b2",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -545,7 +545,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9fd8fedeee8b2543951b99b6099b898309e03ddf235166fac484062df21a8400",
-      "afterHrefHash": null,
+      "afterHrefHash": "9fd8fedeee8b2543951b99b6099b898309e03ddf235166fac484062df21a8400",
       "notes": []
     },
     {
@@ -571,10 +571,10 @@
         "Click Here to Buy on Amazon",
         "Solawave Wand"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c187e1486546439f4cb1bb8297915fcbc40f9fb7ec1423e7a50e334c54b2f5ea",
-      "afterHrefHash": null,
+      "afterHrefHash": "c187e1486546439f4cb1bb8297915fcbc40f9fb7ec1423e7a50e334c54b2f5ea",
       "notes": []
     },
     {
@@ -603,7 +603,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "696646b40e3977f7e429bd6233a253baf68450b52f7bf071b7b778358cc5618c",
-      "afterHrefHash": null,
+      "afterHrefHash": "696646b40e3977f7e429bd6233a253baf68450b52f7bf071b7b778358cc5618c",
       "notes": []
     },
     {
@@ -629,10 +629,10 @@
         "Click Here to Buy on Amazon",
         "L'Oreal SteamPod"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "09d63b8d9831c73b35c7610b43e14fcb243c5d2a5ab24bb2df7dbda09be42921",
-      "afterHrefHash": null,
+      "afterHrefHash": "09d63b8d9831c73b35c7610b43e14fcb243c5d2a5ab24bb2df7dbda09be42921",
       "notes": []
     },
     {
@@ -663,7 +663,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "ddbd2c2e9df1c94b9d3d63e59aca4592c4353997babd7630d15477dd705a1150",
-      "afterHrefHash": null,
+      "afterHrefHash": "ddbd2c2e9df1c94b9d3d63e59aca4592c4353997babd7630d15477dd705a1150",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -696,7 +696,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "d98b6d7cacce5d0f3492e5eb3edc950a0c518bc2f0c94234d09d38fc162948d6",
-      "afterHrefHash": null,
+      "afterHrefHash": "d98b6d7cacce5d0f3492e5eb3edc950a0c518bc2f0c94234d09d38fc162948d6",
       "notes": []
     },
     {
@@ -726,10 +726,10 @@
         "Five Little Pigs",
         "Curtain"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "7499216365182e7c8efce230b7c909a80dde5397cd52ad5601a18b22caa0befa",
-      "afterHrefHash": null,
+      "afterHrefHash": "7499216365182e7c8efce230b7c909a80dde5397cd52ad5601a18b22caa0befa",
       "notes": []
     },
     {
@@ -767,7 +767,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "439fc0db06dd39146510d611b25701a2efe395f55a0558a2b9a498917bb14c93",
-      "afterHrefHash": null,
+      "afterHrefHash": "439fc0db06dd39146510d611b25701a2efe395f55a0558a2b9a498917bb14c93",
       "notes": []
     },
     {
@@ -791,10 +791,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon →"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "f690499451af83f247a54da0a8ecc10f9141903774058479b630690da0c386cb",
-      "afterHrefHash": null,
+      "afterHrefHash": "f690499451af83f247a54da0a8ecc10f9141903774058479b630690da0c386cb",
       "notes": []
     },
     {
@@ -825,10 +825,10 @@
         "See formats and current price for The Fury on Amazon",
         "See formats and current price for The Maidens on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "b44061144e66a1b8d205aa94a3ba714379e8681cb9911c11a4860b6909bd7350",
-      "afterHrefHash": null,
+      "afterHrefHash": "b44061144e66a1b8d205aa94a3ba714379e8681cb9911c11a4860b6909bd7350",
       "notes": [
         "Existing exact-ASIN/hostname correction is in open PR #6; not merged or rewritten here."
       ]
@@ -860,7 +860,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a3a1f91c9564a1646ddd6449342f3f53a09a823088cd9c36ad8bf404b8ce25be",
-      "afterHrefHash": null,
+      "afterHrefHash": "a3a1f91c9564a1646ddd6449342f3f53a09a823088cd9c36ad8bf404b8ce25be",
       "notes": []
     },
     {
@@ -892,7 +892,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "5c65b4a8b414a36bd1efe6ec374f5ff78e98bbb6dc61a23998ad4dd1986ad145",
-      "afterHrefHash": null,
+      "afterHrefHash": "5c65b4a8b414a36bd1efe6ec374f5ff78e98bbb6dc61a23998ad4dd1986ad145",
       "notes": []
     },
     {
@@ -930,7 +930,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "159eb653d5ec4d6e81a3b0e695f4494b0f06b9afb66f9d829a50aedfd998e003",
-      "afterHrefHash": null,
+      "afterHrefHash": "159eb653d5ec4d6e81a3b0e695f4494b0f06b9afb66f9d829a50aedfd998e003",
       "notes": []
     },
     {
@@ -970,7 +970,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "d9b76350f7f87b903537d5d4171c63f0660393d6df5e5c76fbe46d339a293d55",
-      "afterHrefHash": null,
+      "afterHrefHash": "d9b76350f7f87b903537d5d4171c63f0660393d6df5e5c76fbe46d339a293d55",
       "notes": []
     },
     {
@@ -1008,7 +1008,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "398d3bd0a63ededf810ea7120c8b3b1544546b561d24bef42fd5ed17251aec4c",
-      "afterHrefHash": null,
+      "afterHrefHash": "398d3bd0a63ededf810ea7120c8b3b1544546b561d24bef42fd5ed17251aec4c",
       "notes": []
     },
     {
@@ -1043,10 +1043,10 @@
         "See formats and current price for Guess How Much I Love You on Amazon",
         "See formats and current price for Sleep Tight Little Bear on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "92183e0c5b141f2db8000e0dadb3790d7591016b90386aa013a2eb8316792d55",
-      "afterHrefHash": null,
+      "afterHrefHash": "92183e0c5b141f2db8000e0dadb3790d7591016b90386aa013a2eb8316792d55",
       "notes": []
     },
     {
@@ -1081,10 +1081,10 @@
         "See formats and current price for Becoming on Amazon",
         "See formats and current price for When Breath Becomes Air on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "5b66d99cd6d3cd929fcbbb3ae8ab230bd9f2b9253fe7f73292acc2c05866eba7",
-      "afterHrefHash": null,
+      "afterHrefHash": "5b66d99cd6d3cd929fcbbb3ae8ab230bd9f2b9253fe7f73292acc2c05866eba7",
       "notes": []
     },
     {
@@ -1124,7 +1124,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "bffd4e2cc9a73938163a69555c6caca3d3b41ca8905a90b885eedd6f4c32ca63",
-      "afterHrefHash": null,
+      "afterHrefHash": "bffd4e2cc9a73938163a69555c6caca3d3b41ca8905a90b885eedd6f4c32ca63",
       "notes": []
     },
     {
@@ -1162,7 +1162,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "264400fafa85dbd32bfd8d8d32a0dc4d49a90cf55f7613d38852b8c43183412e",
-      "afterHrefHash": null,
+      "afterHrefHash": "264400fafa85dbd32bfd8d8d32a0dc4d49a90cf55f7613d38852b8c43183412e",
       "notes": []
     },
     {
@@ -1200,7 +1200,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "bae13b8deab3e263681991ead25c58478bd0e2d322fce0a07cf4ea87e6ae6b6a",
-      "afterHrefHash": null,
+      "afterHrefHash": "bae13b8deab3e263681991ead25c58478bd0e2d322fce0a07cf4ea87e6ae6b6a",
       "notes": []
     },
     {
@@ -1238,7 +1238,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "0679791020f7c94e42a3927b0acfd13179ccff57ab951a39b489fac1d0a867ca",
-      "afterHrefHash": null,
+      "afterHrefHash": "0679791020f7c94e42a3927b0acfd13179ccff57ab951a39b489fac1d0a867ca",
       "notes": []
     },
     {
@@ -1273,10 +1273,10 @@
         "See formats and current price for Daisy Jones and The Six on Amazon",
         "See formats and current price for The Secret History on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "d2952c150205f20325e1bd6ad3064e53a188c58cf23e1fe6fc6faa6c98f9d006",
-      "afterHrefHash": null,
+      "afterHrefHash": "d2952c150205f20325e1bd6ad3064e53a188c58cf23e1fe6fc6faa6c98f9d006",
       "notes": []
     },
     {
@@ -1311,10 +1311,10 @@
         "See formats and current price for Tiny Beautiful Things on Amazon",
         "See formats and current price for H is for Hawk on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "d385cb91cf7e408c9f16a4d94a020faefa381f76d6adb200b74f9d64a0909b52",
-      "afterHrefHash": null,
+      "afterHrefHash": "d385cb91cf7e408c9f16a4d94a020faefa381f76d6adb200b74f9d64a0909b52",
       "notes": []
     },
     {
@@ -1352,7 +1352,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "fdb417d31ce53d11076d36d472a3e69310e239445f1ed2e16be82d050ece67d1",
-      "afterHrefHash": null,
+      "afterHrefHash": "fdb417d31ce53d11076d36d472a3e69310e239445f1ed2e16be82d050ece67d1",
       "notes": []
     },
     {
@@ -1390,7 +1390,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "8143f56ba4fb45d83d145dd3007ef9c328e2d018f61a8ecd2f442a353dd49ca8",
-      "afterHrefHash": null,
+      "afterHrefHash": "8143f56ba4fb45d83d145dd3007ef9c328e2d018f61a8ecd2f442a353dd49ca8",
       "notes": []
     },
     {
@@ -1428,7 +1428,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "029e7973a1202a72d82df1f4d39f5de4cbb4476cc9276e003ec4eb3499a49ced",
-      "afterHrefHash": null,
+      "afterHrefHash": "029e7973a1202a72d82df1f4d39f5de4cbb4476cc9276e003ec4eb3499a49ced",
       "notes": []
     },
     {
@@ -1466,7 +1466,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "d69fbb37e23858e988c481a2c06daee40f00b13b4e3031d89dbfba32d8993715",
-      "afterHrefHash": null,
+      "afterHrefHash": "d69fbb37e23858e988c481a2c06daee40f00b13b4e3031d89dbfba32d8993715",
       "notes": []
     },
     {
@@ -1501,10 +1501,10 @@
         "See formats and current price for First We Make the Beast Beautiful on Amazon",
         "See formats and current price for The Worry Trick on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "d27cf3560be9cd290008f455547412cea5a0fa59ee566f1f96762290d176d8ad",
-      "afterHrefHash": null,
+      "afterHrefHash": "d27cf3560be9cd290008f455547412cea5a0fa59ee566f1f96762290d176d8ad",
       "notes": []
     },
     {
@@ -1539,10 +1539,10 @@
         "See formats and current price for Big Nate on Amazon",
         "See formats and current price for My Side of the Mountain on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "9bb15f4e25b8fa52acf38ac4ef00f0cfb109e7975278ae066a211e572e1b4147",
-      "afterHrefHash": null,
+      "afterHrefHash": "9bb15f4e25b8fa52acf38ac4ef00f0cfb109e7975278ae066a211e572e1b4147",
       "notes": []
     },
     {
@@ -1580,7 +1580,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "b2783d4f74c7417345f8bfdee4166267f8e49c4a86f5b7b39e6a5d50985fb909",
-      "afterHrefHash": null,
+      "afterHrefHash": "b2783d4f74c7417345f8bfdee4166267f8e49c4a86f5b7b39e6a5d50985fb909",
       "notes": []
     },
     {
@@ -1618,7 +1618,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "3cb4d4d665e0346db43f9a4569bbd87bd4c264ae938e82680159fcf895ba7be9",
-      "afterHrefHash": null,
+      "afterHrefHash": "3cb4d4d665e0346db43f9a4569bbd87bd4c264ae938e82680159fcf895ba7be9",
       "notes": []
     },
     {
@@ -1656,7 +1656,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "e9b4ac6c8811fc4d514682dae43f21b48e2419cc6d7eb148ad8a8bf071ca910d",
-      "afterHrefHash": null,
+      "afterHrefHash": "e9b4ac6c8811fc4d514682dae43f21b48e2419cc6d7eb148ad8a8bf071ca910d",
       "notes": []
     },
     {
@@ -1694,7 +1694,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4625e850fd5b02fe81d6f690aa1733a7c070f1c6717c6af6cf965bcc773f6404",
-      "afterHrefHash": null,
+      "afterHrefHash": "4625e850fd5b02fe81d6f690aa1733a7c070f1c6717c6af6cf965bcc773f6404",
       "notes": []
     },
     {
@@ -1730,7 +1730,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9c4bc4d879bc418e343bfcd80d37334c416f51d071c449b9822a8a35a2ef1ab3",
-      "afterHrefHash": null,
+      "afterHrefHash": "9c4bc4d879bc418e343bfcd80d37334c416f51d071c449b9822a8a35a2ef1ab3",
       "notes": []
     },
     {
@@ -1768,7 +1768,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "761365274c8633d55497ac547ff230a9d1f34642376c3333928059be5781898e",
-      "afterHrefHash": null,
+      "afterHrefHash": "761365274c8633d55497ac547ff230a9d1f34642376c3333928059be5781898e",
       "notes": []
     },
     {
@@ -1806,7 +1806,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "5d44f1858e9dcdf1aca26c0847496869d84c2cda2a1da4a0f6e1a2bc448bbb7c",
-      "afterHrefHash": null,
+      "afterHrefHash": "5d44f1858e9dcdf1aca26c0847496869d84c2cda2a1da4a0f6e1a2bc448bbb7c",
       "notes": []
     },
     {
@@ -1846,7 +1846,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "33efbd478d83cdb6c213ef31c798190438e32460e54fe982398e0dbc33e69ae0",
-      "afterHrefHash": null,
+      "afterHrefHash": "33efbd478d83cdb6c213ef31c798190438e32460e54fe982398e0dbc33e69ae0",
       "notes": []
     },
     {
@@ -1888,7 +1888,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "10dda98ffdf202e63f9135a267793dcb9753fe6c1867d9a00bda5b7263c16e9a",
-      "afterHrefHash": null,
+      "afterHrefHash": "10dda98ffdf202e63f9135a267793dcb9753fe6c1867d9a00bda5b7263c16e9a",
       "notes": []
     },
     {
@@ -1923,10 +1923,10 @@
         "See formats and current price for Big Magic on Amazon",
         "See formats and current price for Bird by Bird on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "7529ca9d75b29d2d13d0d08552363505d5569ee7e8a96179c7516667d037503f",
-      "afterHrefHash": null,
+      "afterHrefHash": "7529ca9d75b29d2d13d0d08552363505d5569ee7e8a96179c7516667d037503f",
       "notes": []
     },
     {
@@ -1964,7 +1964,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "39b0634d48d142d85a5183065b30eba4cd7002c2e88e3f3adfae845074807df8",
-      "afterHrefHash": null,
+      "afterHrefHash": "39b0634d48d142d85a5183065b30eba4cd7002c2e88e3f3adfae845074807df8",
       "notes": []
     },
     {
@@ -2002,7 +2002,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a5321626e4e1acc088b27b82be2629ab5e02b921968e04f25207344803fbc11c",
-      "afterHrefHash": null,
+      "afterHrefHash": "a5321626e4e1acc088b27b82be2629ab5e02b921968e04f25207344803fbc11c",
       "notes": []
     },
     {
@@ -2040,7 +2040,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "e04c65c89e5779a387787e76e00ceadf3c2e4bd947f547aeab81540a4d73447a",
-      "afterHrefHash": null,
+      "afterHrefHash": "e04c65c89e5779a387787e76e00ceadf3c2e4bd947f547aeab81540a4d73447a",
       "notes": []
     },
     {
@@ -2075,10 +2075,10 @@
         "See formats and current price for The Seven Principles for Making Marriage Work on Amazon",
         "See formats and current price for Mating in Captivity on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "1875aa4605403941057efe24e262cc90a148b0b4e084c21a127cead6a4ab6733",
-      "afterHrefHash": null,
+      "afterHrefHash": "1875aa4605403941057efe24e262cc90a148b0b4e084c21a127cead6a4ab6733",
       "notes": []
     },
     {
@@ -2116,7 +2116,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "e0190df8d9becfa083f975c734344e6dbb1fcd87849f7381ef13cbfa370c6f0a",
-      "afterHrefHash": null,
+      "afterHrefHash": "e0190df8d9becfa083f975c734344e6dbb1fcd87849f7381ef13cbfa370c6f0a",
       "notes": []
     },
     {
@@ -2154,7 +2154,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "bbbfe525029b410ff2a63bfcb48aa93acafd6631ff9d8b479e6e66f0e249c35c",
-      "afterHrefHash": null,
+      "afterHrefHash": "bbbfe525029b410ff2a63bfcb48aa93acafd6631ff9d8b479e6e66f0e249c35c",
       "notes": []
     },
     {
@@ -2194,7 +2194,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "f515a896d877a94304c4dc16999f2bb2c214e64855e31b5268da897f5e57ed60",
-      "afterHrefHash": null,
+      "afterHrefHash": "f515a896d877a94304c4dc16999f2bb2c214e64855e31b5268da897f5e57ed60",
       "notes": []
     },
     {
@@ -2225,10 +2225,10 @@
         "Words of Radiance",
         "Mistborn Era 2"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "72d047585bc524cdd72d8da1916771a210ec6a32759045b8ff085a8707a1c0b7",
-      "afterHrefHash": null,
+      "afterHrefHash": "72d047585bc524cdd72d8da1916771a210ec6a32759045b8ff085a8707a1c0b7",
       "notes": []
     },
     {
@@ -2263,10 +2263,10 @@
         "See formats and current price for Braving the Wilderness on Amazon",
         "See formats and current price for Atlas of the Heart on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "4711b49baa59336f677101d382b87f843821c9cfa103c44906ea5acb75efb6ae",
-      "afterHrefHash": null,
+      "afterHrefHash": "4711b49baa59336f677101d382b87f843821c9cfa103c44906ea5acb75efb6ae",
       "notes": []
     },
     {
@@ -2304,7 +2304,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "246a3e0f391f415d5e40505846f1215c71ff2789b7cf4a88c9678735b32043b4",
-      "afterHrefHash": null,
+      "afterHrefHash": "246a3e0f391f415d5e40505846f1215c71ff2789b7cf4a88c9678735b32043b4",
       "notes": []
     },
     {
@@ -2339,10 +2339,10 @@
         "See formats and current price for Skipping Christmas on Amazon",
         "See formats and current price for One Day in December on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "fc2ba6887ce6acba224037e76f14fc718020e5135c74bf012ba8de01fca864f2",
-      "afterHrefHash": null,
+      "afterHrefHash": "fc2ba6887ce6acba224037e76f14fc718020e5135c74bf012ba8de01fca864f2",
       "notes": []
     },
     {
@@ -2377,10 +2377,10 @@
         "See formats and current price for Treasure Island on Amazon",
         "See formats and current price for The Wind in the Willows on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "374920f784e41eb462d51b819d3c9d3fb76abb79cde6dabd591f6e28c3e9bb0b",
-      "afterHrefHash": null,
+      "afterHrefHash": "374920f784e41eb462d51b819d3c9d3fb76abb79cde6dabd591f6e28c3e9bb0b",
       "notes": []
     },
     {
@@ -2418,7 +2418,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "734c274bc5ec83f5835c8efcd838600d1bec366c71019b747a8215a611993afd",
-      "afterHrefHash": null,
+      "afterHrefHash": "734c274bc5ec83f5835c8efcd838600d1bec366c71019b747a8215a611993afd",
       "notes": []
     },
     {
@@ -2455,10 +2455,10 @@
         "See formats and current price for Reminders of Him on Amazon",
         "See formats and current price for Confess on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "8c861af0930ec8635952a093685e6cc16ad970d4135f0a2bcd727e77b97f68e8",
-      "afterHrefHash": null,
+      "afterHrefHash": "8c861af0930ec8635952a093685e6cc16ad970d4135f0a2bcd727e77b97f68e8",
       "notes": []
     },
     {
@@ -2493,10 +2493,10 @@
         "See formats and current price for Death at La Fenice on Amazon",
         "See formats and current price for Arsenic and Adobo on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "a3d5995083628049aaaaaee24c7e64255cf9c0d6f49bf9e550cf0512e3c75535",
-      "afterHrefHash": null,
+      "afterHrefHash": "a3d5995083628049aaaaaee24c7e64255cf9c0d6f49bf9e550cf0512e3c75535",
       "notes": []
     },
     {
@@ -2521,10 +2521,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "36110cee62bb6a0c342ba09ae7328d5a7b415f22caff99fb2dcc64265ea0561a",
-      "afterHrefHash": null,
+      "afterHrefHash": "36110cee62bb6a0c342ba09ae7328d5a7b415f22caff99fb2dcc64265ea0561a",
       "notes": []
     },
     {
@@ -2559,10 +2559,10 @@
         "See formats and current price for Mystic River on Amazon",
         "See formats and current price for Postmortem on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "e3121f27bfa1a50d6e8dd6fa5fbb119b18865aac2af2c90b7b2dc36613038559",
-      "afterHrefHash": null,
+      "afterHrefHash": "e3121f27bfa1a50d6e8dd6fa5fbb119b18865aac2af2c90b7b2dc36613038559",
       "notes": []
     },
     {
@@ -2602,7 +2602,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "b499b903abda7d7da67ab90331757e47367cc485ee87359c57a9b589cc737ed0",
-      "afterHrefHash": null,
+      "afterHrefHash": "b499b903abda7d7da67ab90331757e47367cc485ee87359c57a9b589cc737ed0",
       "notes": []
     },
     {
@@ -2627,10 +2627,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "0a5fa04517100aa2ddc63eeb54bb09fab7a5dda5bb520e0c3d4c22509e3e6d68",
-      "afterHrefHash": null,
+      "afterHrefHash": "0a5fa04517100aa2ddc63eeb54bb09fab7a5dda5bb520e0c3d4c22509e3e6d68",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -2669,7 +2669,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "110efe1cf67c6366e7afc4866a1af17959aee880d2a5325df07481b374b6ccdf",
-      "afterHrefHash": null,
+      "afterHrefHash": "110efe1cf67c6366e7afc4866a1af17959aee880d2a5325df07481b374b6ccdf",
       "notes": []
     },
     {
@@ -2704,10 +2704,10 @@
         "See formats and current price for A Touch of Darkness on Amazon",
         "See formats and current price for Den of Vipers on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "523b1c82d3977178152084a241c0b6cf835229ff490c5f54e1a7ff4a6d0f44e4",
-      "afterHrefHash": null,
+      "afterHrefHash": "523b1c82d3977178152084a241c0b6cf835229ff490c5f54e1a7ff4a6d0f44e4",
       "notes": []
     },
     {
@@ -2742,10 +2742,10 @@
         "See formats and current price for A Little Life on Amazon",
         "See formats and current price for Where the Crawdads Sing on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "8733f4c3bfafb67f958cdf4e4cedb04272db355d3c5c11f0c2314a4f9bd8148c",
-      "afterHrefHash": null,
+      "afterHrefHash": "8733f4c3bfafb67f958cdf4e4cedb04272db355d3c5c11f0c2314a4f9bd8148c",
       "notes": []
     },
     {
@@ -2783,7 +2783,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "22010e1d3a6e983c3be83befcbc7b1cdde27eb4a6131d6e8f603b81b3e48411e",
-      "afterHrefHash": null,
+      "afterHrefHash": "22010e1d3a6e983c3be83befcbc7b1cdde27eb4a6131d6e8f603b81b3e48411e",
       "notes": []
     },
     {
@@ -2821,7 +2821,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "035081d89c1adb7329ccd80545db82bf15111b3e6863fa55f76c2f136de1d68e",
-      "afterHrefHash": null,
+      "afterHrefHash": "035081d89c1adb7329ccd80545db82bf15111b3e6863fa55f76c2f136de1d68e",
       "notes": []
     },
     {
@@ -2856,10 +2856,10 @@
         "See formats and current price for The Magicians on Amazon",
         "See formats and current price for Sabriel on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "5c8669a79609879c8c55ce7f7ed14ad525d913c402ddb8887b3b7c3ce0c13933",
-      "afterHrefHash": null,
+      "afterHrefHash": "5c8669a79609879c8c55ce7f7ed14ad525d913c402ddb8887b3b7c3ce0c13933",
       "notes": []
     },
     {
@@ -2894,10 +2894,10 @@
         "See formats and current price for Mistborn on Amazon",
         "See formats and current price for The Lies of Locke Lamora on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "92fff91a554c79f5378d5077150c647167bec80b64fce37cfff79f08b07b611f",
-      "afterHrefHash": null,
+      "afterHrefHash": "92fff91a554c79f5378d5077150c647167bec80b64fce37cfff79f08b07b611f",
       "notes": []
     },
     {
@@ -2935,7 +2935,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "569de1945f272422f3deebe8f69407246ace7e585b9d0758052a84a363d5d0d2",
-      "afterHrefHash": null,
+      "afterHrefHash": "569de1945f272422f3deebe8f69407246ace7e585b9d0758052a84a363d5d0d2",
       "notes": []
     },
     {
@@ -2971,7 +2971,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9660872be07db6f09b7002e5660b1b570e21aa3ba97835cd4be1cc570abb110d",
-      "afterHrefHash": null,
+      "afterHrefHash": "9660872be07db6f09b7002e5660b1b570e21aa3ba97835cd4be1cc570abb110d",
       "notes": []
     },
     {
@@ -3009,7 +3009,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "ace4cdae93af47ac1d4e37c1b1925aba4090969c64d703c95093c9232ccb03ee",
-      "afterHrefHash": null,
+      "afterHrefHash": "ace4cdae93af47ac1d4e37c1b1925aba4090969c64d703c95093c9232ccb03ee",
       "notes": []
     },
     {
@@ -3044,10 +3044,10 @@
         "See formats and current price for 1Q84 on Amazon",
         "See formats and current price for Colorless Tsukuru Tazaki on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "930f685f6826d74e0e267f8f393d117723be598cc684912249aae216099eef78",
-      "afterHrefHash": null,
+      "afterHrefHash": "930f685f6826d74e0e267f8f393d117723be598cc684912249aae216099eef78",
       "notes": []
     },
     {
@@ -3082,10 +3082,10 @@
         "See formats and current price for The Alice Network on Amazon",
         "See formats and current price for Outlander on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "4f5827f07d23d704e5a19982864c32e92132dc24ab0c58604c0d2c5ceacc78fa",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f5827f07d23d704e5a19982864c32e92132dc24ab0c58604c0d2c5ceacc78fa",
       "notes": []
     },
     {
@@ -3110,10 +3110,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "20a5ee4db4e42e2cb53726279523d82506e5d582b148171a8dd40717ade08189",
-      "afterHrefHash": null,
+      "afterHrefHash": "20a5ee4db4e42e2cb53726279523d82506e5d582b148171a8dd40717ade08189",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -3153,7 +3153,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c09144001f9b4a0188979715e009e2eba8af7bc0b4454388523ff85ba973c43e",
-      "afterHrefHash": null,
+      "afterHrefHash": "c09144001f9b4a0188979715e009e2eba8af7bc0b4454388523ff85ba973c43e",
       "notes": []
     },
     {
@@ -3191,7 +3191,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "795d02ae4f52f4039d2016e9eb244238964c2ff4837221dba8a090c4572ac96c",
-      "afterHrefHash": null,
+      "afterHrefHash": "795d02ae4f52f4039d2016e9eb244238964c2ff4837221dba8a090c4572ac96c",
       "notes": []
     },
     {
@@ -3229,7 +3229,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "36e6845fa2ad116f7e7cdb341c70dfac58c461764164c373b7ad45d24099e836",
-      "afterHrefHash": null,
+      "afterHrefHash": "36e6845fa2ad116f7e7cdb341c70dfac58c461764164c373b7ad45d24099e836",
       "notes": []
     },
     {
@@ -3261,7 +3261,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "ab18b96be28b4d1e32e315929655ca4b1eb29c9bcf87dc892264097c801f47d4",
-      "afterHrefHash": null,
+      "afterHrefHash": "ab18b96be28b4d1e32e315929655ca4b1eb29c9bcf87dc892264097c801f47d4",
       "notes": []
     },
     {
@@ -3296,10 +3296,10 @@
         "See formats and current price for Maximum Ride on Amazon",
         "See formats and current price for 1st to Die on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "a0c0208b20fe98374c9b3a40771e621141c6724cba5723232d24f888c34ad252",
-      "afterHrefHash": null,
+      "afterHrefHash": "a0c0208b20fe98374c9b3a40771e621141c6724cba5723232d24f888c34ad252",
       "notes": []
     },
     {
@@ -3334,10 +3334,10 @@
         "See formats and current price for The Ickabog on Amazon",
         "See formats and current price for The Casual Vacancy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "08433d80436548a531e3f3176dd8c1984b4f5f601db737eda8d450f32382bee1",
-      "afterHrefHash": null,
+      "afterHrefHash": "08433d80436548a531e3f3176dd8c1984b4f5f601db737eda8d450f32382bee1",
       "notes": []
     },
     {
@@ -3372,10 +3372,10 @@
         "See formats and current price for Camino Island on Amazon",
         "See formats and current price for The Rainmaker on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c17d75130f5efef95315844921e59c5b0dd20d5b35b9a885f19d4c19829a5c7a",
-      "afterHrefHash": null,
+      "afterHrefHash": "c17d75130f5efef95315844921e59c5b0dd20d5b35b9a885f19d4c19829a5c7a",
       "notes": []
     },
     {
@@ -3413,7 +3413,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "0ed84990371ac52fb3f9d26fde48d43dcc9d52e82ebf1e58b2e10e80f243180a",
-      "afterHrefHash": null,
+      "afterHrefHash": "0ed84990371ac52fb3f9d26fde48d43dcc9d52e82ebf1e58b2e10e80f243180a",
       "notes": []
     },
     {
@@ -3451,7 +3451,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "629e6f1a63834de0567df8d0b03246d42c6e3176c72032a9efadf24d50483b3d",
-      "afterHrefHash": null,
+      "afterHrefHash": "629e6f1a63834de0567df8d0b03246d42c6e3176c72032a9efadf24d50483b3d",
       "notes": []
     },
     {
@@ -3486,10 +3486,10 @@
         "See formats and current price for Never Let Me Go on Amazon",
         "See formats and current price for Atonement on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "42b0c1f192a962e17d7ea54fc9781bcc2f9d1424b5672f7fe600ddf36eafc4be",
-      "afterHrefHash": null,
+      "afterHrefHash": "42b0c1f192a962e17d7ea54fc9781bcc2f9d1424b5672f7fe600ddf36eafc4be",
       "notes": []
     },
     {
@@ -3527,7 +3527,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4828ee968f8a6b5ab5f4bd50678f8ffadac5aeef4ddb1bf8c17d02764cc0f861",
-      "afterHrefHash": null,
+      "afterHrefHash": "4828ee968f8a6b5ab5f4bd50678f8ffadac5aeef4ddb1bf8c17d02764cc0f861",
       "notes": []
     },
     {
@@ -3567,7 +3567,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "85124beb8dc949f372b44789ca9ab16b249a2530c1e939afa2016e6a523ad480",
-      "afterHrefHash": null,
+      "afterHrefHash": "85124beb8dc949f372b44789ca9ab16b249a2530c1e939afa2016e6a523ad480",
       "notes": []
     },
     {
@@ -3591,10 +3591,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "2dc3eaae1c60e287112fa5cb70fe7550a22e74aaa193d35bfe7375508b790990",
-      "afterHrefHash": null,
+      "afterHrefHash": "2dc3eaae1c60e287112fa5cb70fe7550a22e74aaa193d35bfe7375508b790990",
       "notes": []
     },
     {
@@ -3632,7 +3632,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "564fedf1a3982356d6a6556bd50743613be4ee1e3946e4e4b593aad3ec1283b6",
-      "afterHrefHash": null,
+      "afterHrefHash": "564fedf1a3982356d6a6556bd50743613be4ee1e3946e4e4b593aad3ec1283b6",
       "notes": []
     },
     {
@@ -3670,7 +3670,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4531385e748da30a8c3a7218f9625567d5183ae2e1ab31d7a90279eebda29004",
-      "afterHrefHash": null,
+      "afterHrefHash": "4531385e748da30a8c3a7218f9625567d5183ae2e1ab31d7a90279eebda29004",
       "notes": []
     },
     {
@@ -3708,7 +3708,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "98c0479ed06f8dda71385ca5ca42a12662247e22f8df13bf742e5b79fb3baf28",
-      "afterHrefHash": null,
+      "afterHrefHash": "98c0479ed06f8dda71385ca5ca42a12662247e22f8df13bf742e5b79fb3baf28",
       "notes": []
     },
     {
@@ -3748,7 +3748,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "2c40e2567c8b7def88e64093251f7d6c2cd673388c4585296956bb2fc800007b",
-      "afterHrefHash": null,
+      "afterHrefHash": "2c40e2567c8b7def88e64093251f7d6c2cd673388c4585296956bb2fc800007b",
       "notes": []
     },
     {
@@ -3784,7 +3784,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a899decd29a0f5f640b0c481e5792d553ef64ce28cab2362a961ad403d82e1d7",
-      "afterHrefHash": null,
+      "afterHrefHash": "a899decd29a0f5f640b0c481e5792d553ef64ce28cab2362a961ad403d82e1d7",
       "notes": []
     },
     {
@@ -3824,7 +3824,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "84e272130381e5cbdcca5a84d293a848d69ce8eecee33a09654a14898e576a6f",
-      "afterHrefHash": null,
+      "afterHrefHash": "84e272130381e5cbdcca5a84d293a848d69ce8eecee33a09654a14898e576a6f",
       "notes": []
     },
     {
@@ -3859,10 +3859,10 @@
         "See formats and current price for Rich Dad Poor Dad on Amazon",
         "See formats and current price for The Millionaire Next Door on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "6f2791a0605151ebed8f7aae6b566cfee11a1091b2bcafe9cfedfbccf8706d39",
-      "afterHrefHash": null,
+      "afterHrefHash": "6f2791a0605151ebed8f7aae6b566cfee11a1091b2bcafe9cfedfbccf8706d39",
       "notes": []
     },
     {
@@ -3895,10 +3895,10 @@
         "See formats and current price for Thus Spoke Zarathustra on Amazon",
         "See formats and current price for The Republic on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c701eae0100331a6b2ecb35997cf44bbcdbd59c90c0fc03240eff6a9d6fb47e9",
-      "afterHrefHash": null,
+      "afterHrefHash": "c701eae0100331a6b2ecb35997cf44bbcdbd59c90c0fc03240eff6a9d6fb47e9",
       "notes": []
     },
     {
@@ -3936,7 +3936,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "8bce06cf75ac2889c04bf1a58c88d2c1753d2fd4ff79878f8bcdf63ae7aa441e",
-      "afterHrefHash": null,
+      "afterHrefHash": "8bce06cf75ac2889c04bf1a58c88d2c1753d2fd4ff79878f8bcdf63ae7aa441e",
       "notes": []
     },
     {
@@ -3972,7 +3972,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "1f3ca6b87f084b1ac2b97440d2b8e47b5eb98555d2f9574d5430421d6717af8f",
-      "afterHrefHash": null,
+      "afterHrefHash": "1f3ca6b87f084b1ac2b97440d2b8e47b5eb98555d2f9574d5430421d6717af8f",
       "notes": []
     },
     {
@@ -4012,7 +4012,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "93456da05b782ea744d248c7e2508a57fd327a2ec9e22054cc88051eaffe2c21",
-      "afterHrefHash": null,
+      "afterHrefHash": "93456da05b782ea744d248c7e2508a57fd327a2ec9e22054cc88051eaffe2c21",
       "notes": []
     },
     {
@@ -4037,10 +4037,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "6e54f8c1f347db4bd2b35adac32a08799ca2e4de6164c22d48c85ad4673210ed",
-      "afterHrefHash": null,
+      "afterHrefHash": "6e54f8c1f347db4bd2b35adac32a08799ca2e4de6164c22d48c85ad4673210ed",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -4078,7 +4078,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "0cd0ed08683417058080a0fb1e0f645d6c3e6082f300d6c8dc8a961828c9dbe9",
-      "afterHrefHash": null,
+      "afterHrefHash": "0cd0ed08683417058080a0fb1e0f645d6c3e6082f300d6c8dc8a961828c9dbe9",
       "notes": []
     },
     {
@@ -4113,10 +4113,10 @@
         "See formats and current price for Get a Life, Chloe Brown on Amazon",
         "See formats and current price for In a Holidaze on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "e02e25c91afd5fd3e36cb8a8fbd232a3ae3f9ab3d11058b2670621cac4ad491d",
-      "afterHrefHash": null,
+      "afterHrefHash": "e02e25c91afd5fd3e36cb8a8fbd232a3ae3f9ab3d11058b2670621cac4ad491d",
       "notes": []
     },
     {
@@ -4141,10 +4141,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "29838b32f43dafc892f2fee03db38db3c928e53fb281adf2e010e63c9ef2c70c",
-      "afterHrefHash": null,
+      "afterHrefHash": "29838b32f43dafc892f2fee03db38db3c928e53fb281adf2e010e63c9ef2c70c",
       "notes": []
     },
     {
@@ -4182,7 +4182,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "bf6f55d93de0da45a579e5a1ccccc88a700f028d6cea861836588d014fea2334",
-      "afterHrefHash": null,
+      "afterHrefHash": "bf6f55d93de0da45a579e5a1ccccc88a700f028d6cea861836588d014fea2334",
       "notes": []
     },
     {
@@ -4217,10 +4217,10 @@
         "See formats and current price for Ender's Game on Amazon",
         "See formats and current price for The Hitchhiker's Guide to the Galaxy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "fcca4af915a10b38fb5f14a30bbd557d243f6470dd69f4dc6a14a3844fc042b3",
-      "afterHrefHash": null,
+      "afterHrefHash": "fcca4af915a10b38fb5f14a30bbd557d243f6470dd69f4dc6a14a3844fc042b3",
       "notes": []
     },
     {
@@ -4257,10 +4257,10 @@
         "See formats and current price for The Power of Now on Amazon",
         "See formats and current price for Ikigai on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "88899d249a501b008f30d972acd4ff0dbbce276b5585eb92e0b067068e58ce7b",
-      "afterHrefHash": null,
+      "afterHrefHash": "88899d249a501b008f30d972acd4ff0dbbce276b5585eb92e0b067068e58ce7b",
       "notes": []
     },
     {
@@ -4285,10 +4285,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "d290ed5188de6610baee660800ef3eab61b3b5603c63db29732fe2dcb4f11f38",
-      "afterHrefHash": null,
+      "afterHrefHash": "d290ed5188de6610baee660800ef3eab61b3b5603c63db29732fe2dcb4f11f38",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -4325,10 +4325,10 @@
         "See formats and current price for Olive Kitteridge on Amazon",
         "See formats and current price for Her Body and Other Parties on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "3f5023cbece2cb5382438fb3e9ea04d77b082f063a5e4cc019ba091de0b1f09f",
-      "afterHrefHash": null,
+      "afterHrefHash": "3f5023cbece2cb5382438fb3e9ea04d77b082f063a5e4cc019ba091de0b1f09f",
       "notes": []
     },
     {
@@ -4363,10 +4363,10 @@
         "See formats and current price for Born to Run on Amazon",
         "See formats and current price for Friday Night Lights on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "9ae6d163d24908fad06cb756bcb250de1330d6ab4f157fba5b99c547a9c1aa79",
-      "afterHrefHash": null,
+      "afterHrefHash": "9ae6d163d24908fad06cb756bcb250de1330d6ab4f157fba5b99c547a9c1aa79",
       "notes": []
     },
     {
@@ -4401,10 +4401,10 @@
         "See formats and current price for Red Sparrow on Amazon",
         "See formats and current price for I Am Pilgrim on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "40c633c1185852769abefe5bbb40027f886fc086ebe0ae081beb46baf58698e3",
-      "afterHrefHash": null,
+      "afterHrefHash": "40c633c1185852769abefe5bbb40027f886fc086ebe0ae081beb46baf58698e3",
       "notes": []
     },
     {
@@ -4433,10 +4433,10 @@
         "Red Sparrow",
         "Slow Horses"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "f1d7981eb0412d177d213518f3e85451881ad4f01700eaa8f402d17f10470426",
-      "afterHrefHash": null,
+      "afterHrefHash": "f1d7981eb0412d177d213518f3e85451881ad4f01700eaa8f402d17f10470426",
       "notes": []
     },
     {
@@ -4474,7 +4474,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "35a4f92632cfbc9231ac46954fef1b546c2362e4d2026f48d16d2c07c9cd3325",
-      "afterHrefHash": null,
+      "afterHrefHash": "35a4f92632cfbc9231ac46954fef1b546c2362e4d2026f48d16d2c07c9cd3325",
       "notes": []
     },
     {
@@ -4506,7 +4506,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "0ffcd897454af0e7a34404d98e28aca9af405c9abe2d4dd7c9241bd2ec5815fd",
-      "afterHrefHash": null,
+      "afterHrefHash": "0ffcd897454af0e7a34404d98e28aca9af405c9abe2d4dd7c9241bd2ec5815fd",
       "notes": []
     },
     {
@@ -4539,10 +4539,10 @@
         "See formats and current price for Song of Solomon on Amazon",
         "See formats and current price for Sula on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "2099150333f696cef0338bd781a76b43414e86b9f476babc7cea76d1a09037f8",
-      "afterHrefHash": null,
+      "afterHrefHash": "2099150333f696cef0338bd781a76b43414e86b9f476babc7cea76d1a09037f8",
       "notes": []
     },
     {
@@ -4580,7 +4580,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "747b92fec1fc2796f5557206a7caf625baa4b4a3c90df0ac8d85904a4764a324",
-      "afterHrefHash": null,
+      "afterHrefHash": "747b92fec1fc2796f5557206a7caf625baa4b4a3c90df0ac8d85904a4764a324",
       "notes": []
     },
     {
@@ -4605,10 +4605,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "e790f4bcbebd13ad2e6b73dd6f8d9242e83aff744e7bf7f82a7da020c5e671f8",
-      "afterHrefHash": null,
+      "afterHrefHash": "e790f4bcbebd13ad2e6b73dd6f8d9242e83aff744e7bf7f82a7da020c5e671f8",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context.",
@@ -4650,7 +4650,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "be0cd5dde0233f4d6fc9e2dd4dc5f4715e2028769d2311fef29125f879010662",
-      "afterHrefHash": null,
+      "afterHrefHash": "be0cd5dde0233f4d6fc9e2dd4dc5f4715e2028769d2311fef29125f879010662",
       "notes": []
     },
     {
@@ -4690,7 +4690,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "5ba4ea5816ed75f7cebf208e03de44570f7c860e61a7ee6658c6cc9ab23b24d7",
-      "afterHrefHash": null,
+      "afterHrefHash": "5ba4ea5816ed75f7cebf208e03de44570f7c860e61a7ee6658c6cc9ab23b24d7",
       "notes": []
     },
     {
@@ -4728,7 +4728,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "98801564c09b1f74b6ee7f87b3a04877b792ee6bdb8c76df4f44fb57eeeea18b",
-      "afterHrefHash": null,
+      "afterHrefHash": "98801564c09b1f74b6ee7f87b3a04877b792ee6bdb8c76df4f44fb57eeeea18b",
       "notes": []
     },
     {
@@ -4764,7 +4764,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "ca381e251dadc86244d4143dd94916a748bc68ba278ce38a6ba32f9f34a9b41b",
-      "afterHrefHash": null,
+      "afterHrefHash": "ca381e251dadc86244d4143dd94916a748bc68ba278ce38a6ba32f9f34a9b41b",
       "notes": []
     },
     {
@@ -4799,10 +4799,10 @@
         "See formats and current price for Throne of Glass on Amazon",
         "See formats and current price for Shadow and Bone on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "b68333f1be268565f726081e975234a10d334223ec693a4f10e8b7c802059425",
-      "afterHrefHash": null,
+      "afterHrefHash": "b68333f1be268565f726081e975234a10d334223ec693a4f10e8b7c802059425",
       "notes": []
     },
     {
@@ -4837,10 +4837,10 @@
         "See formats and current price for Anna and the French Kiss on Amazon",
         "See formats and current price for The Sun Is Also a Star on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "d57cdd83bb110ca5e07c245fe17daf2ab41675fe14787aa0da8b5448083d829e",
-      "afterHrefHash": null,
+      "afterHrefHash": "d57cdd83bb110ca5e07c245fe17daf2ab41675fe14787aa0da8b5448083d829e",
       "notes": []
     },
     {
@@ -4878,7 +4878,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "6e8baa6eb45dae54375e9115f6b4061b3e280364db9593bfbb75e1be88c3d9b1",
-      "afterHrefHash": null,
+      "afterHrefHash": "6e8baa6eb45dae54375e9115f6b4061b3e280364db9593bfbb75e1be88c3d9b1",
       "notes": []
     },
     {
@@ -4903,10 +4903,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "414f4948133c45058dd80d8894e4a35fb589ea41cf51749859f20278833441f7",
-      "afterHrefHash": null,
+      "afterHrefHash": "414f4948133c45058dd80d8894e4a35fb589ea41cf51749859f20278833441f7",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -4933,10 +4933,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "a5977ff47a15c0748eef586e34ddbad2c304d8d98d67948004e46f17a45311d3",
-      "afterHrefHash": null,
+      "afterHrefHash": "a5977ff47a15c0748eef586e34ddbad2c304d8d98d67948004e46f17a45311d3",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -4967,10 +4967,10 @@
         "Pack Up the Moon",
         "All Your Perfects"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "e071d76fe25393962b38b6c8feb59864528ebf7628736f4bcee5f4226da698c5",
-      "afterHrefHash": null,
+      "afterHrefHash": "e071d76fe25393962b38b6c8feb59864528ebf7628736f4bcee5f4226da698c5",
       "notes": []
     },
     {
@@ -4995,10 +4995,10 @@
         "Find on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "747680b2f9225217a0b5f9a9155809388b240ca5cea5d280c04fd46f01befe12",
-      "afterHrefHash": null,
+      "afterHrefHash": "747680b2f9225217a0b5f9a9155809388b240ca5cea5d280c04fd46f01befe12",
       "notes": []
     },
     {
@@ -5027,10 +5027,10 @@
         "Blood Meridian",
         "All the Pretty Horses"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "e37a8cadab24f7f37c98c88dbf45489ae8bbb759aa824660d4f3a032a095e17e",
-      "afterHrefHash": null,
+      "afterHrefHash": "e37a8cadab24f7f37c98c88dbf45489ae8bbb759aa824660d4f3a032a095e17e",
       "notes": []
     },
     {
@@ -5057,10 +5057,10 @@
         "Click Here to Buy on Amazon",
         "The Gifts of Imperfection"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "0cd7416ede7d3ffeb511246deff0c0edf22bf602282e67b4fc84cd3c455ee3c5",
-      "afterHrefHash": null,
+      "afterHrefHash": "0cd7416ede7d3ffeb511246deff0c0edf22bf602282e67b4fc84cd3c455ee3c5",
       "notes": []
     },
     {
@@ -5086,10 +5086,10 @@
         "A Man Called Ove",
         "Beartown"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "251865740f57ec198d69707a20c746fc706623cf865d98a30c0f2baf035bb1fb",
-      "afterHrefHash": null,
+      "afterHrefHash": "251865740f57ec198d69707a20c746fc706623cf865d98a30c0f2baf035bb1fb",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -5122,7 +5122,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "21a87f2be1c715ebddbca178f21f7b9db204bde2d61aefd9ad1e7d85b0be5f81",
-      "afterHrefHash": null,
+      "afterHrefHash": "21a87f2be1c715ebddbca178f21f7b9db204bde2d61aefd9ad1e7d85b0be5f81",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -5155,7 +5155,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "d04a44aca78a0543eda0e3eccff4069108cd6264f1f9f5322f9eeeb23f2d1dc0",
-      "afterHrefHash": null,
+      "afterHrefHash": "d04a44aca78a0543eda0e3eccff4069108cd6264f1f9f5322f9eeeb23f2d1dc0",
       "notes": []
     },
     {
@@ -5179,10 +5179,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c94a26a4289049a0cefa74ab967c1d2b27c2fd3774383b765c387ac5f6f1b841",
-      "afterHrefHash": null,
+      "afterHrefHash": "c94a26a4289049a0cefa74ab967c1d2b27c2fd3774383b765c387ac5f6f1b841",
       "notes": []
     },
     {
@@ -5206,10 +5206,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon →"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c8acf4a2f16c08ee76bd73e209208e27082c0569341316de943adca73a5e07c1",
-      "afterHrefHash": null,
+      "afterHrefHash": "c8acf4a2f16c08ee76bd73e209208e27082c0569341316de943adca73a5e07c1",
       "notes": []
     },
     {
@@ -5233,10 +5233,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon →"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "7b1c6ce3f63a0704f2e7faedd8d5d92ffb30e986eee4014ddf74612f32d12182",
-      "afterHrefHash": null,
+      "afterHrefHash": "7b1c6ce3f63a0704f2e7faedd8d5d92ffb30e986eee4014ddf74612f32d12182",
       "notes": []
     },
     {
@@ -5268,7 +5268,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c57a894d8d163557a063930bc786ef7d98ef6b65f641cf6dfb5f1fa36a241441",
-      "afterHrefHash": null,
+      "afterHrefHash": "c57a894d8d163557a063930bc786ef7d98ef6b65f641cf6dfb5f1fa36a241441",
       "notes": []
     },
     {
@@ -5292,10 +5292,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "bcc5e3829d0bb76ed16ccf9a2bda2c290d38bc0004a9b08aeb979c5f92ffe11c",
-      "afterHrefHash": null,
+      "afterHrefHash": "bcc5e3829d0bb76ed16ccf9a2bda2c290d38bc0004a9b08aeb979c5f92ffe11c",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -5328,7 +5328,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "f78cbbb58993cad7443db44dd68785aed37e608ddee355ffd2c7383a7ad6b289",
-      "afterHrefHash": null,
+      "afterHrefHash": "f78cbbb58993cad7443db44dd68785aed37e608ddee355ffd2c7383a7ad6b289",
       "notes": []
     },
     {
@@ -5353,10 +5353,10 @@
         "Check preorder editions on Amazon",
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "2e8f1951ec453b980f9de2ac2ed4ad9d657671dc32cc7bf90f13da46f0b92dfe",
-      "afterHrefHash": null,
+      "afterHrefHash": "2e8f1951ec453b980f9de2ac2ed4ad9d657671dc32cc7bf90f13da46f0b92dfe",
       "notes": []
     },
     {
@@ -5388,7 +5388,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "3bfcd8f53da156d261444fc8a5fc8467866a8363d58badb6edfddddcb2c82397",
-      "afterHrefHash": null,
+      "afterHrefHash": "3bfcd8f53da156d261444fc8a5fc8467866a8363d58badb6edfddddcb2c82397",
       "notes": []
     },
     {
@@ -5419,7 +5419,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "6074a2fda187cafee18d73055680d1e4d80f99917a0154b23399ebeb12dd3459",
-      "afterHrefHash": null,
+      "afterHrefHash": "6074a2fda187cafee18d73055680d1e4d80f99917a0154b23399ebeb12dd3459",
       "notes": []
     },
     {
@@ -5443,10 +5443,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon →"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "5a8cc67273bbc43f22779bbde9f22e74420a6e5cc478685415f6e19b1451cf70",
-      "afterHrefHash": null,
+      "afterHrefHash": "5a8cc67273bbc43f22779bbde9f22e74420a6e5cc478685415f6e19b1451cf70",
       "notes": []
     },
     {
@@ -5471,9 +5471,9 @@
         "See formats and current price for Devil's Guard on Amazon"
       ],
       "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "bodyChanged": true,
       "beforeHrefHash": "d3f6a5ba062cb3630eb916e30775a95034b04f5892db161ac14796cb82786b26",
-      "afterHrefHash": null,
+      "afterHrefHash": "d3f6a5ba062cb3630eb916e30775a95034b04f5892db161ac14796cb82786b26",
       "notes": []
     },
     {
@@ -5502,10 +5502,10 @@
         "A Wild Sheep Chase",
         "1Q84"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "94ecba8a63cb7b4cf51dbe96ac16856b30fcaa91cbe3137da59478e142165d87",
-      "afterHrefHash": null,
+      "afterHrefHash": "94ecba8a63cb7b4cf51dbe96ac16856b30fcaa91cbe3137da59478e142165d87",
       "notes": []
     },
     {
@@ -5543,7 +5543,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9a627834833fb1e9e5b25717739240a7d32980b1c4c35cd8c8114325b321010d",
-      "afterHrefHash": null,
+      "afterHrefHash": "9a627834833fb1e9e5b25717739240a7d32980b1c4c35cd8c8114325b321010d",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -5577,7 +5577,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c0c6d481f2b7d3366c5f7d21c6fafc2428d74aa9bdef83be86df06b8493a87ce",
-      "afterHrefHash": null,
+      "afterHrefHash": "c0c6d481f2b7d3366c5f7d21c6fafc2428d74aa9bdef83be86df06b8493a87ce",
       "notes": []
     },
     {
@@ -5610,7 +5610,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "2c6efe8f7a56372621ae3f3f3e7b9721ce385d785f725ced98318e75d8978eec",
-      "afterHrefHash": null,
+      "afterHrefHash": "2c6efe8f7a56372621ae3f3f3e7b9721ce385d785f725ced98318e75d8978eec",
       "notes": []
     },
     {
@@ -5641,7 +5641,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "28a16da6b729fe1af808630dbf925815dfef13eba15925a5bc9226516a68e9cd",
-      "afterHrefHash": null,
+      "afterHrefHash": "28a16da6b729fe1af808630dbf925815dfef13eba15925a5bc9226516a68e9cd",
       "notes": []
     },
     {
@@ -5676,7 +5676,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "50c5e8f1aceafe7d5232da3d2a52a1a257ed0241ce18ee9a4002bcb9dc39a63a",
-      "afterHrefHash": null,
+      "afterHrefHash": "50c5e8f1aceafe7d5232da3d2a52a1a257ed0241ce18ee9a4002bcb9dc39a63a",
       "notes": []
     },
     {
@@ -5708,7 +5708,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9b4c5a408cfd2678dcd9d1555f8d5f3b09cb7c39c604d291b15898aec2324de1",
-      "afterHrefHash": null,
+      "afterHrefHash": "9b4c5a408cfd2678dcd9d1555f8d5f3b09cb7c39c604d291b15898aec2324de1",
       "notes": []
     },
     {
@@ -5743,7 +5743,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "ace01a221b89347536a1214b9da09fdd0aedd26c34bdf37e533e42c20f9065a8",
-      "afterHrefHash": null,
+      "afterHrefHash": "ace01a221b89347536a1214b9da09fdd0aedd26c34bdf37e533e42c20f9065a8",
       "notes": []
     },
     {
@@ -5774,7 +5774,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9a58e79fcc830ad700ccdd904b37c8d69bc1b91d2b2c1526c1ff92f15fb6313d",
-      "afterHrefHash": null,
+      "afterHrefHash": "9a58e79fcc830ad700ccdd904b37c8d69bc1b91d2b2c1526c1ff92f15fb6313d",
       "notes": []
     },
     {
@@ -5798,10 +5798,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "1a46819ca972abdfe400339e986ea3af47826c0d1e9c9ee1253f92db456bf20d",
-      "afterHrefHash": null,
+      "afterHrefHash": "1a46819ca972abdfe400339e986ea3af47826c0d1e9c9ee1253f92db456bf20d",
       "notes": []
     },
     {
@@ -5833,7 +5833,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c4081c86f943c4a1e333e92d00f78f1232819d7141df4a4bb988c14e11af79f1",
-      "afterHrefHash": null,
+      "afterHrefHash": "c4081c86f943c4a1e333e92d00f78f1232819d7141df4a4bb988c14e11af79f1",
       "notes": []
     },
     {
@@ -5864,7 +5864,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "62f99117994155296350a596af415ca31fbc9c3f7c4888fb0a02f3b2b021a188",
-      "afterHrefHash": null,
+      "afterHrefHash": "62f99117994155296350a596af415ca31fbc9c3f7c4888fb0a02f3b2b021a188",
       "notes": []
     },
     {
@@ -5888,10 +5888,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon →"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "cfb39b99664bad8374f26264435b69b019b06a60cc476db85f0a000f36f28750",
-      "afterHrefHash": null,
+      "afterHrefHash": "cfb39b99664bad8374f26264435b69b019b06a60cc476db85f0a000f36f28750",
       "notes": []
     },
     {
@@ -5921,7 +5921,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "418efc1d69f3bdef40072f3a31f4845a864c1c07423ca048bfd5c2c3b23df3ba",
-      "afterHrefHash": null,
+      "afterHrefHash": "418efc1d69f3bdef40072f3a31f4845a864c1c07423ca048bfd5c2c3b23df3ba",
       "notes": []
     },
     {
@@ -5951,7 +5951,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "cbee891d5c2fa66d318dc26f1b68a5e2b676a098c21f18850791e87d6fc7ae77",
-      "afterHrefHash": null,
+      "afterHrefHash": "cbee891d5c2fa66d318dc26f1b68a5e2b676a098c21f18850791e87d6fc7ae77",
       "notes": []
     },
     {
@@ -5975,10 +5975,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon →"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "bafdb2a384b546467a735e570b648fcbb6a123066d319976505a920635a1a0e8",
-      "afterHrefHash": null,
+      "afterHrefHash": "bafdb2a384b546467a735e570b648fcbb6a123066d319976505a920635a1a0e8",
       "notes": []
     },
     {
@@ -6009,7 +6009,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "45a48bcd6d9e37695ef8b596a30bf3b916f938964179b884f38b7bcd63ca9849",
-      "afterHrefHash": null,
+      "afterHrefHash": "45a48bcd6d9e37695ef8b596a30bf3b916f938964179b884f38b7bcd63ca9849",
       "notes": []
     },
     {
@@ -6039,7 +6039,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "caa850ddcb830a7cea8cf782126b63fcd1bf4af8061a412559dbc1d30b451acf",
-      "afterHrefHash": null,
+      "afterHrefHash": "caa850ddcb830a7cea8cf782126b63fcd1bf4af8061a412559dbc1d30b451acf",
       "notes": []
     },
     {
@@ -6077,7 +6077,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a4225f60b209bd3012abcdd60c3c49ead250e5c230402ad32ea0ff17f802d698",
-      "afterHrefHash": null,
+      "afterHrefHash": "a4225f60b209bd3012abcdd60c3c49ead250e5c230402ad32ea0ff17f802d698",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -6103,10 +6103,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "e30602aa2d7af73aa7ccdf050a284c12d38fceb36677087f9d19e006b04e1161",
-      "afterHrefHash": null,
+      "afterHrefHash": "e30602aa2d7af73aa7ccdf050a284c12d38fceb36677087f9d19e006b04e1161",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -6135,10 +6135,10 @@
         "Compare editions on Amazon",
         "Start with ACOTAR"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "f923101f8bf9fa0e425ff9b4d245c2ca1111c360c6398d0cda699b24fdd939d4",
-      "afterHrefHash": null,
+      "afterHrefHash": "f923101f8bf9fa0e425ff9b4d245c2ca1111c360c6398d0cda699b24fdd939d4",
       "notes": []
     },
     {
@@ -6164,10 +6164,10 @@
         "Click Here to Buy on Amazon",
         "Comandante C40"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "bcef1b9dc56276c05af1086a5203ed29be21eb0aa7166ca27ac712b78aa3c709",
-      "afterHrefHash": null,
+      "afterHrefHash": "bcef1b9dc56276c05af1086a5203ed29be21eb0aa7166ca27ac712b78aa3c709",
       "notes": []
     },
     {
@@ -6193,10 +6193,10 @@
         "Click Here to Buy on Amazon",
         "Timemore Black Mirror Nano"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "b77a1b73faac7758ed304ed985a845a6fa46a55ea44c67b210bfbfc44b4a8b1e",
-      "afterHrefHash": null,
+      "afterHrefHash": "b77a1b73faac7758ed304ed985a845a6fa46a55ea44c67b210bfbfc44b4a8b1e",
       "notes": []
     },
     {
@@ -6222,10 +6222,10 @@
         "Click Here to Buy on Amazon",
         "AeroPress Premium"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c9a8f60fba0e7c416a2c03183225895293f3005b3e65dbfd485933877487c49d",
-      "afterHrefHash": null,
+      "afterHrefHash": "c9a8f60fba0e7c416a2c03183225895293f3005b3e65dbfd485933877487c49d",
       "notes": []
     },
     {
@@ -6253,7 +6253,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "546420aeac690ffea2107a9f239f2975311be0d01ab6b3e413b78015e66421f7",
-      "afterHrefHash": null,
+      "afterHrefHash": "546420aeac690ffea2107a9f239f2975311be0d01ab6b3e413b78015e66421f7",
       "notes": []
     },
     {
@@ -6279,10 +6279,10 @@
         "Click Here to Buy on Amazon",
         "Fellow Ode Gen 2"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "2ea7d64f63bad6ddc8552b76fac6150b2bfc91fa30394d97b9a1225d5ce07109",
-      "afterHrefHash": null,
+      "afterHrefHash": "2ea7d64f63bad6ddc8552b76fac6150b2bfc91fa30394d97b9a1225d5ce07109",
       "notes": []
     },
     {
@@ -6310,10 +6310,10 @@
         "Normcore Gaggia 58mm bottomless portafilter with removable basket",
         "IMS B682TH24.5M"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "75e37fee0ddad528cef436f5a3570b2b49766ec3ad26fde57d7fc9440a29aa2d",
-      "afterHrefHash": null,
+      "afterHrefHash": "75e37fee0ddad528cef436f5a3570b2b49766ec3ad26fde57d7fc9440a29aa2d",
       "notes": []
     },
     {
@@ -6339,10 +6339,10 @@
         "Click Here to Buy on Amazon",
         "Fellow Ode Gen 2"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "949c97c2b278493acd924901053e9abe5f1f2efa1a706b41136ac69f2dee4378",
-      "afterHrefHash": null,
+      "afterHrefHash": "949c97c2b278493acd924901053e9abe5f1f2efa1a706b41136ac69f2dee4378",
       "notes": []
     },
     {
@@ -6368,10 +6368,10 @@
         "Click Here to Buy on Amazon",
         "Zojirushi ZUTTO EC-DAC50"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "7f894dc27b91f90e5f21b8abb0d8628a05cef912a8fccc85a49efb109202ea3e",
-      "afterHrefHash": null,
+      "afterHrefHash": "7f894dc27b91f90e5f21b8abb0d8628a05cef912a8fccc85a49efb109202ea3e",
       "notes": []
     },
     {
@@ -6397,10 +6397,10 @@
         "Click Here to Buy on Amazon",
         "Breville Smart Grinder Pro"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "a617a2e41560b117bff1fe09370cfa174cb2af849ef213635f9d9566ba588517",
-      "afterHrefHash": null,
+      "afterHrefHash": "a617a2e41560b117bff1fe09370cfa174cb2af849ef213635f9d9566ba588517",
       "notes": []
     },
     {
@@ -6427,10 +6427,10 @@
         "1Zpresso J-Ultra",
         "Eureka Mignon Specialità"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c79cec7b2507d5be2e5210be52ba330b741fcb1cbea8b874fde65a14bc7982e7",
-      "afterHrefHash": null,
+      "afterHrefHash": "c79cec7b2507d5be2e5210be52ba330b741fcb1cbea8b874fde65a14bc7982e7",
       "notes": []
     },
     {
@@ -6468,7 +6468,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "de2232746630badba724456973d226d65b2da7b9797f7437a94ade48a92407b1",
-      "afterHrefHash": null,
+      "afterHrefHash": "de2232746630badba724456973d226d65b2da7b9797f7437a94ade48a92407b1",
       "notes": []
     },
     {
@@ -6494,10 +6494,10 @@
         "Click Here to Buy on Amazon",
         "Wacaco Exagram Pro"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "e1ba924b140ee8857341d350be356f34ef5b2d7e63a083316f7570890493f608",
-      "afterHrefHash": null,
+      "afterHrefHash": "e1ba924b140ee8857341d350be356f34ef5b2d7e63a083316f7570890493f608",
       "notes": []
     },
     {
@@ -6518,7 +6518,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "notes": [
         "No Amazon links in article body; check other retailers or informational intent before adding any."
       ]
@@ -6541,7 +6541,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context.",
         "No Amazon links in article body; check other retailers or informational intent before adding any."
@@ -6572,10 +6572,10 @@
         "View on Amazon",
         "Gaggia Classic Pro E24"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "b690927c970b80a1726c774d806e84adc46d490737fc394b84f9e79e575d342e",
-      "afterHrefHash": null,
+      "afterHrefHash": "d04d0218350b54fa113d47790d36a45340b2e68ad6d7bb817dda6bbebeceb6ea",
       "notes": []
     },
     {
@@ -6601,10 +6601,10 @@
         "Click Here to Buy on Amazon",
         "Breville Barista Express"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "bf18259a470d3f039dacbb709859f8e89447f9499d6c8e06270036172672a6d3",
-      "afterHrefHash": null,
+      "afterHrefHash": "bf18259a470d3f039dacbb709859f8e89447f9499d6c8e06270036172672a6d3",
       "notes": []
     },
     {
@@ -6632,9 +6632,9 @@
         "Cleanup layer A tiny mat can do a lot when counter inches are precious."
       ],
       "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "bodyChanged": true,
       "beforeHrefHash": "aacb2ece54c0ad31cf62cce2d54d8896329de5a91c751a737a8c5baa44658a04",
-      "afterHrefHash": null,
+      "afterHrefHash": "aacb2ece54c0ad31cf62cce2d54d8896329de5a91c751a737a8c5baa44658a04",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -6662,10 +6662,10 @@
         "Click Here to Buy on Amazon",
         "Cosori gooseneck kettle"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "3a03eb4679ed12f5065a5beac178f4cf18a12c951ce4f2411e364ff1b0ad88f6",
-      "afterHrefHash": null,
+      "afterHrefHash": "3a03eb4679ed12f5065a5beac178f4cf18a12c951ce4f2411e364ff1b0ad88f6",
       "notes": []
     },
     {
@@ -6691,10 +6691,10 @@
         "Click Here to Buy on Amazon",
         "Chemex"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "d205efc513b334be60bcc27b436547777bd132ddcae355436c39eb263bb93f80",
-      "afterHrefHash": null,
+      "afterHrefHash": "d205efc513b334be60bcc27b436547777bd132ddcae355436c39eb263bb93f80",
       "notes": []
     },
     {
@@ -6720,10 +6720,10 @@
         "Click Here to Buy on Amazon",
         "Kingrinder K6"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "42501331020dd42a1455132051586ba787d5489df963f8031a63620d737bc9d3",
-      "afterHrefHash": null,
+      "afterHrefHash": "42501331020dd42a1455132051586ba787d5489df963f8031a63620d737bc9d3",
       "notes": []
     },
     {
@@ -6754,7 +6754,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "6543e24b1484f45cd4a4d24d6b5a49694278520b72bc58026d759c86b191f0d5",
-      "afterHrefHash": null,
+      "afterHrefHash": "6543e24b1484f45cd4a4d24d6b5a49694278520b72bc58026d759c86b191f0d5",
       "notes": []
     },
     {
@@ -6781,7 +6781,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a494c4a43bb9fd6282daedd5bdb1cf8b26c497fc4e0256852e3ff41a4cbc2b14",
-      "afterHrefHash": null,
+      "afterHrefHash": "a494c4a43bb9fd6282daedd5bdb1cf8b26c497fc4e0256852e3ff41a4cbc2b14",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -6810,7 +6810,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4330e157249659f4840c3274dc58fae25e20e018bc02e19b2959d8b75a365de9",
-      "afterHrefHash": null,
+      "afterHrefHash": "4330e157249659f4840c3274dc58fae25e20e018bc02e19b2959d8b75a365de9",
       "notes": []
     },
     {
@@ -6837,7 +6837,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "5628d1b48bde9c63cabc98599182ad4d28f990780e06c7d4297316eeea4fafae",
-      "afterHrefHash": null,
+      "afterHrefHash": "5628d1b48bde9c63cabc98599182ad4d28f990780e06c7d4297316eeea4fafae",
       "notes": []
     },
     {
@@ -6864,7 +6864,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "f1d24c38d02ba082d847248fac3fcbd0674016604ae5000a8a8665828b29acec",
-      "afterHrefHash": null,
+      "afterHrefHash": "f1d24c38d02ba082d847248fac3fcbd0674016604ae5000a8a8665828b29acec",
       "notes": []
     },
     {
@@ -6891,7 +6891,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c2633159e619ca2f26f40b39019ffb27ad08bd5b43100301f36a50de4a035635",
-      "afterHrefHash": null,
+      "afterHrefHash": "c2633159e619ca2f26f40b39019ffb27ad08bd5b43100301f36a50de4a035635",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -6924,7 +6924,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "03b036e754f2c32723fd382180f989b4daa9675a65f58ea9bf3e5aa57997d737",
-      "afterHrefHash": null,
+      "afterHrefHash": "03b036e754f2c32723fd382180f989b4daa9675a65f58ea9bf3e5aa57997d737",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -6953,7 +6953,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "ffd77e9d5ae1216237f2b8ec2b56d6614c2f34b2884ec4c31bcd23528e0dc886",
-      "afterHrefHash": null,
+      "afterHrefHash": "ffd77e9d5ae1216237f2b8ec2b56d6614c2f34b2884ec4c31bcd23528e0dc886",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -6982,7 +6982,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "9a0dce6fe1c37a9cccd0ebf172ff635d5c9b4bd3ff2f47bae664564384929dbf",
-      "afterHrefHash": null,
+      "afterHrefHash": "9a0dce6fe1c37a9cccd0ebf172ff635d5c9b4bd3ff2f47bae664564384929dbf",
       "notes": []
     },
     {
@@ -7009,7 +7009,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "dec81caf4c61a70bae2c9f667688cc75a0984f94d3dfb9d39ff6e18d2a29fcf9",
-      "afterHrefHash": null,
+      "afterHrefHash": "dec81caf4c61a70bae2c9f667688cc75a0984f94d3dfb9d39ff6e18d2a29fcf9",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -7038,7 +7038,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "38b0aea7f323e9221dad9bafd36cc40e817ad0b3bb42a3ad9adebad5581fa51d",
-      "afterHrefHash": null,
+      "afterHrefHash": "38b0aea7f323e9221dad9bafd36cc40e817ad0b3bb42a3ad9adebad5581fa51d",
       "notes": []
     },
     {
@@ -7062,10 +7062,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "6211cf2ae64d14707e7d4f8b730366979420624c798bf2b6b00861df2f2c43a9",
-      "afterHrefHash": null,
+      "afterHrefHash": "6211cf2ae64d14707e7d4f8b730366979420624c798bf2b6b00861df2f2c43a9",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7091,10 +7091,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "4a9f97a1d83d2177fb4f4db458666540b3931181934ce3b56439d536ff3fd72b",
-      "afterHrefHash": null,
+      "afterHrefHash": "4a9f97a1d83d2177fb4f4db458666540b3931181934ce3b56439d536ff3fd72b",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7120,10 +7120,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "7185c9fc75b8301006b3e33984e8a0bdabb5c3fd4ce450de09d383107bc7b6c6",
-      "afterHrefHash": null,
+      "afterHrefHash": "7185c9fc75b8301006b3e33984e8a0bdabb5c3fd4ce450de09d383107bc7b6c6",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7149,10 +7149,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "faef4992dd328038bc45f418da405def1cd96f87622e8a4c97f0653f02763b41",
-      "afterHrefHash": null,
+      "afterHrefHash": "faef4992dd328038bc45f418da405def1cd96f87622e8a4c97f0653f02763b41",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7178,10 +7178,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c981bded45d40335ffb6d290fc52c7bfcf35f633f467bcfb3346db2ea2b9d05d",
-      "afterHrefHash": null,
+      "afterHrefHash": "c981bded45d40335ffb6d290fc52c7bfcf35f633f467bcfb3346db2ea2b9d05d",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7213,7 +7213,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a619ef6a0ea4fe7d74de1ae98415e630c8fbad0dc95e5c669cd9841dbc4a5d0e",
-      "afterHrefHash": null,
+      "afterHrefHash": "a619ef6a0ea4fe7d74de1ae98415e630c8fbad0dc95e5c669cd9841dbc4a5d0e",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7246,7 +7246,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "763b533bd7ad63ea6d8718d7b0bd76fb66093925e7d0dc1993b071791c4139e4",
-      "afterHrefHash": null,
+      "afterHrefHash": "763b533bd7ad63ea6d8718d7b0bd76fb66093925e7d0dc1993b071791c4139e4",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7278,7 +7278,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "183ddb2eca5ae6959bf7e741a7655b96aa163ee5355579d6cbeb9e25ac2c58e8",
-      "afterHrefHash": null,
+      "afterHrefHash": "183ddb2eca5ae6959bf7e741a7655b96aa163ee5355579d6cbeb9e25ac2c58e8",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7312,7 +7312,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "dcb2f5259539bac0d7f6b7bdb3f477acf3d81c812e8aa3c65bd717d70be1f9b6",
-      "afterHrefHash": null,
+      "afterHrefHash": "dcb2f5259539bac0d7f6b7bdb3f477acf3d81c812e8aa3c65bd717d70be1f9b6",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7344,7 +7344,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "e314d002af712b43ab72834f55cac90cfdc7d6aa63ec85b78e1ed49c6e7170c1",
-      "afterHrefHash": null,
+      "afterHrefHash": "e314d002af712b43ab72834f55cac90cfdc7d6aa63ec85b78e1ed49c6e7170c1",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7377,7 +7377,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "62311247f0724cc301539765fbff373abea374c96f38879b219bb848e8954185",
-      "afterHrefHash": null,
+      "afterHrefHash": "62311247f0724cc301539765fbff373abea374c96f38879b219bb848e8954185",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7410,7 +7410,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "883611891597a481a04679c43f382621c484e94b89c5bfd8aadcf81824417ed8",
-      "afterHrefHash": null,
+      "afterHrefHash": "883611891597a481a04679c43f382621c484e94b89c5bfd8aadcf81824417ed8",
       "notes": []
     },
     {
@@ -7440,7 +7440,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "78a4ce9af19b7c038529671828560c7af6b49769121226a63b54bb025c67a771",
-      "afterHrefHash": null,
+      "afterHrefHash": "78a4ce9af19b7c038529671828560c7af6b49769121226a63b54bb025c67a771",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7473,7 +7473,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "b7b2b372788489ed24f7f5fae2d12b4186df578e5a1a6ee45c98863a5cd0eb1e",
-      "afterHrefHash": null,
+      "afterHrefHash": "b7b2b372788489ed24f7f5fae2d12b4186df578e5a1a6ee45c98863a5cd0eb1e",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7499,10 +7499,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "b5284d75476e9dd19906640e86ce2262da56583fe5c259741aeba7750e96e7d7",
-      "afterHrefHash": null,
+      "afterHrefHash": "b5284d75476e9dd19906640e86ce2262da56583fe5c259741aeba7750e96e7d7",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7528,10 +7528,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "7bfc93acb644e940907dfe52bd0be7c0dd9dab8576848ce81e7eeab2c5c0371e",
-      "afterHrefHash": null,
+      "afterHrefHash": "7bfc93acb644e940907dfe52bd0be7c0dd9dab8576848ce81e7eeab2c5c0371e",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7554,7 +7554,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context.",
@@ -7582,10 +7582,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c7f969e2432eca0e2b8dcc15ed6826df9b653f19770e9f8b4314a400a2b168a2",
-      "afterHrefHash": null,
+      "afterHrefHash": "c7f969e2432eca0e2b8dcc15ed6826df9b653f19770e9f8b4314a400a2b168a2",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7612,10 +7612,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "ad7f2effe6ec6cdcad3ab6eceb566fc09f7352a62834bae54a0a299d0b6f04cb",
-      "afterHrefHash": null,
+      "afterHrefHash": "ad7f2effe6ec6cdcad3ab6eceb566fc09f7352a62834bae54a0a299d0b6f04cb",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7642,10 +7642,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "77ac64f1bbd2f9d5884eb73a88b2d4d2f839a4d394a3aef4608afe6998a8ae75",
-      "afterHrefHash": null,
+      "afterHrefHash": "77ac64f1bbd2f9d5884eb73a88b2d4d2f839a4d394a3aef4608afe6998a8ae75",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7671,10 +7671,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "c50d8f3c774def6000c4ebfe8c33e285fdb0eeb8f77fb3590ca706abe50dbc8b",
-      "afterHrefHash": null,
+      "afterHrefHash": "c50d8f3c774def6000c4ebfe8c33e285fdb0eeb8f77fb3590ca706abe50dbc8b",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7700,10 +7700,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "4312607edeac269c54f4ae1a8fca4439808161a705c6e8825d4cea19f835cd89",
-      "afterHrefHash": null,
+      "afterHrefHash": "4312607edeac269c54f4ae1a8fca4439808161a705c6e8825d4cea19f835cd89",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7730,10 +7730,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "518f3d7355e3fec319e3e6bb7735a4164d31872a233af935a7781439dd7e5204",
-      "afterHrefHash": null,
+      "afterHrefHash": "518f3d7355e3fec319e3e6bb7735a4164d31872a233af935a7781439dd7e5204",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7760,10 +7760,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "68b46d04051945ba83f06e8180e3436a714afaf6b98dd74aab794f17963971dc",
-      "afterHrefHash": null,
+      "afterHrefHash": "68b46d04051945ba83f06e8180e3436a714afaf6b98dd74aab794f17963971dc",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict."
       ]
@@ -7789,10 +7789,10 @@
       "ctaLabelsBefore": [
         "Ver en Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "30996afc45d1e185ba80f4c15fdea06efcab4b809921b8b9c4f95a5e0c202d73",
-      "afterHrefHash": null,
+      "afterHrefHash": "30996afc45d1e185ba80f4c15fdea06efcab4b809921b8b9c4f95a5e0c202d73",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -7836,10 +7836,10 @@
         "Crumb-cleaning brush",
         "Accessory storage bin"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "28772bcb63c4f7541102277ccc1760af2891d795834ca975bc7b1e257beef31b",
-      "afterHrefHash": null,
+      "afterHrefHash": "28772bcb63c4f7541102277ccc1760af2891d795834ca975bc7b1e257beef31b",
       "notes": []
     },
     {
@@ -7872,7 +7872,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "94f8aaee679b8e4938a473471ff32558446461e2f84f3f92f9ab50e35f70a145",
-      "afterHrefHash": null,
+      "afterHrefHash": "94f8aaee679b8e4938a473471ff32558446461e2f84f3f92f9ab50e35f70a145",
       "notes": []
     },
     {
@@ -7914,10 +7914,10 @@
         "Mini desk vacuum",
         "Laptop sleeve"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "15df1c9fc696033f2e252b66700759b7707897d264b53a9a6bfe23f4e3584ea0",
-      "afterHrefHash": null,
+      "afterHrefHash": "15df1c9fc696033f2e252b66700759b7707897d264b53a9a6bfe23f4e3584ea0",
       "notes": []
     },
     {
@@ -7947,7 +7947,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c45d7528a27fefb2360495d5ae6be1d6725eabbab0abb19556e8320137292c44",
-      "afterHrefHash": null,
+      "afterHrefHash": "c45d7528a27fefb2360495d5ae6be1d6725eabbab0abb19556e8320137292c44",
       "notes": []
     },
     {
@@ -7981,7 +7981,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "c36122adace851d09162b9e5a65274b4b1f138db544e3f342625435f732d4dee",
-      "afterHrefHash": null,
+      "afterHrefHash": "c36122adace851d09162b9e5a65274b4b1f138db544e3f342625435f732d4dee",
       "notes": []
     },
     {
@@ -8023,10 +8023,10 @@
         "Folding storage ottoman",
         "Wall grid panels"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "a933a1499c8973209682a5769db1640addae27501b2894a10120f8aac8d49669",
-      "afterHrefHash": null,
+      "afterHrefHash": "a933a1499c8973209682a5769db1640addae27501b2894a10120f8aac8d49669",
       "notes": []
     },
     {
@@ -8068,10 +8068,10 @@
         "Laundry backpack",
         "First aid kit"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "a49526d3708ae34114bd05d7caddd984e4a4bdd7420972843650f99d2ef2a72f",
-      "afterHrefHash": null,
+      "afterHrefHash": "a49526d3708ae34114bd05d7caddd984e4a4bdd7420972843650f99d2ef2a72f",
       "notes": []
     },
     {
@@ -8097,10 +8097,10 @@
         "Click Here to Buy on Amazon",
         "Shop the Flannel Pair on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "d1950319cd9a47effa6374263754d23ce8575dad3bebd07bd80d13d5a5da4d79",
-      "afterHrefHash": null,
+      "afterHrefHash": "d1950319cd9a47effa6374263754d23ce8575dad3bebd07bd80d13d5a5da4d79",
       "notes": []
     },
     {
@@ -8131,10 +8131,10 @@
         "HERSHEY'S Assorted Halloween Candy, 65-piece variety pack",
         "Buy the Best Overall Pick on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "9885be63387790719ce74390eec9c2d074f97ed93bf3bbd2a5eee816f2ad8272",
-      "afterHrefHash": null,
+      "afterHrefHash": "9885be63387790719ce74390eec9c2d074f97ed93bf3bbd2a5eee816f2ad8272",
       "notes": []
     },
     {
@@ -8158,10 +8158,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "3510c08c02303e1d5aec3eb56c529ce31ad1ab8c4361dee199d057443b3fe324",
-      "afterHrefHash": null,
+      "afterHrefHash": "3510c08c02303e1d5aec3eb56c529ce31ad1ab8c4361dee199d057443b3fe324",
       "notes": []
     },
     {
@@ -8199,7 +8199,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "d5083f26021dabe9b5bb1401445c6030a145a28d64586ada51983382504125e5",
-      "afterHrefHash": null,
+      "afterHrefHash": "d5083f26021dabe9b5bb1401445c6030a145a28d64586ada51983382504125e5",
       "notes": []
     },
     {
@@ -8240,10 +8240,10 @@
         "Chew-safe travel toy",
         "Pet travel bag organizer"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "9f2d7266b1cafd9aeea0844ea309ebf52a755d5013804a5b4198be02dcc1d985",
-      "afterHrefHash": null,
+      "afterHrefHash": "9f2d7266b1cafd9aeea0844ea309ebf52a755d5013804a5b4198be02dcc1d985",
       "notes": []
     },
     {
@@ -8284,10 +8284,10 @@
         "Portable sun hat",
         "Portable Bluetooth speaker"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "86412e25ff9bed9a5097898bd051b6c317ae8b8552bf247a1c1f4952e1f19dfd",
-      "afterHrefHash": null,
+      "afterHrefHash": "86412e25ff9bed9a5097898bd051b6c317ae8b8552bf247a1c1f4952e1f19dfd",
       "notes": []
     },
     {
@@ -8314,10 +8314,10 @@
         "compact Ooni turning peel",
         "12-inch Ooni bamboo peel"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "9ac9507f6a1e0f2c7d771ac9809510752fe1958deebd866e359d5aacaa652d22",
-      "afterHrefHash": null,
+      "afterHrefHash": "9ac9507f6a1e0f2c7d771ac9809510752fe1958deebd866e359d5aacaa652d22",
       "notes": []
     },
     {
@@ -8359,10 +8359,10 @@
         "Habit tracker journal",
         "Atomic Habits (the book)"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "923ecba058a3d3c195eab891ccf3c035da25c1c3c6e8ce8d084669c61a9cb5a3",
-      "afterHrefHash": null,
+      "afterHrefHash": "923ecba058a3d3c195eab891ccf3c035da25c1c3c6e8ce8d084669c61a9cb5a3",
       "notes": []
     },
     {
@@ -8403,10 +8403,10 @@
         "Hammock chair",
         "Collapsible wagon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "3908313f8fabc7c35565e9ac89a6829ab0eafc87646f084de4cb29edb738c5aa",
-      "afterHrefHash": null,
+      "afterHrefHash": "3908313f8fabc7c35565e9ac89a6829ab0eafc87646f084de4cb29edb738c5aa",
       "notes": []
     },
     {
@@ -8447,10 +8447,10 @@
         "Folding storage ottoman",
         "Compact first aid kit"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "53f13830d5f70df9a7e8d27844ef693284d5f10ca3c5863c53d936f5cae35030",
-      "afterHrefHash": null,
+      "afterHrefHash": "53f13830d5f70df9a7e8d27844ef693284d5f10ca3c5863c53d936f5cae35030",
       "notes": []
     },
     {
@@ -8483,7 +8483,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a23cbccc33051df7466c05c35ace152e8219c7e911c45d57fdb7327d287c7d48",
-      "afterHrefHash": null,
+      "afterHrefHash": "a23cbccc33051df7466c05c35ace152e8219c7e911c45d57fdb7327d287c7d48",
       "notes": []
     },
     {
@@ -8511,7 +8511,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "fcc3b76518c373288d2b050dc866065ff6f2fffe789e1d21b8d0562b814c840c",
-      "afterHrefHash": null,
+      "afterHrefHash": "fcc3b76518c373288d2b050dc866065ff6f2fffe789e1d21b8d0562b814c840c",
       "notes": []
     },
     {
@@ -8553,10 +8553,10 @@
         "Phone stand",
         "Mug warmer"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "501e69224469eb2cb37aa0c58bdf75a74a0ff3817b96e4fdc9db67d74c2cec40",
-      "afterHrefHash": null,
+      "afterHrefHash": "501e69224469eb2cb37aa0c58bdf75a74a0ff3817b96e4fdc9db67d74c2cec40",
       "notes": []
     },
     {
@@ -8598,10 +8598,10 @@
         "Smartwatch",
         "Webcam"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "8252856264405d09527acc2bbf6e3642f0a4e47917888dcf1ed47c0fa1299c57",
-      "afterHrefHash": null,
+      "afterHrefHash": "8252856264405d09527acc2bbf6e3642f0a4e47917888dcf1ed47c0fa1299c57",
       "notes": []
     },
     {
@@ -8622,7 +8622,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context.",
         "No Amazon links in article body; check other retailers or informational intent before adding any."
@@ -8658,7 +8658,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "7230a6ef0a0aac6573be5abd3bf8f32831491e7dc34467edbaf4e4cc8d606f29",
-      "afterHrefHash": null,
+      "afterHrefHash": "7230a6ef0a0aac6573be5abd3bf8f32831491e7dc34467edbaf4e4cc8d606f29",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -8691,7 +8691,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "15a42a6eb4c7423e9023939aade66a4a36765e059dc4e4d8b1b3ce42dccc3c8d",
-      "afterHrefHash": null,
+      "afterHrefHash": "15a42a6eb4c7423e9023939aade66a4a36765e059dc4e4d8b1b3ce42dccc3c8d",
       "notes": []
     },
     {
@@ -8720,10 +8720,10 @@
         "KSMPEXTA press",
         "KSM3MPA"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "080a0988d5a2f082d44feb989fa232eb42ec1dc907e58750a3caf36f052f59b5",
-      "afterHrefHash": null,
+      "afterHrefHash": "080a0988d5a2f082d44feb989fa232eb42ec1dc907e58750a3caf36f052f59b5",
       "notes": []
     },
     {
@@ -8750,10 +8750,10 @@
         "XSKPNTLD2 pack",
         "XSK7PNTLD2 Swirl pack"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "16b2f216dc7b85c8a59e0248c4580a0028da353213523d1c755a95e1674ef6d8",
-      "afterHrefHash": null,
+      "afterHrefHash": "16b2f216dc7b85c8a59e0248c4580a0028da353213523d1c755a95e1674ef6d8",
       "notes": []
     },
     {
@@ -8780,9 +8780,9 @@
         "Accessory stack Cover, dough tools, and turning peel are where the real cart stack shows up."
       ],
       "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "bodyChanged": true,
       "beforeHrefHash": "4633de7a6821592531ce48da0e33885084cc314c65b46f7f472e410039f425c7",
-      "afterHrefHash": null,
+      "afterHrefHash": "4633de7a6821592531ce48da0e33885084cc314c65b46f7f472e410039f425c7",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -8817,10 +8817,10 @@
         "Buy on Amazon →",
         "Budget Pick"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "3a3607c9861973d2b50a0ffcb064603f6b09e1c82c6bb0c61973d4c2bc28a709",
-      "afterHrefHash": null,
+      "afterHrefHash": "3a3607c9861973d2b50a0ffcb064603f6b09e1c82c6bb0c61973d4c2bc28a709",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -8850,10 +8850,10 @@
         "Buy on Amazon",
         "Budget pick"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "bddda28c1e4de15988dcaba2b0c1f6f21c085f37a2905ca15332f0b1ede97860",
-      "afterHrefHash": null,
+      "afterHrefHash": "bddda28c1e4de15988dcaba2b0c1f6f21c085f37a2905ca15332f0b1ede97860",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -8879,10 +8879,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "2cb21fe3343006007eb94e64d29ebbbad01dfb561a85f79c9c4eb62e7a2236e5",
-      "afterHrefHash": null,
+      "afterHrefHash": "2cb21fe3343006007eb94e64d29ebbbad01dfb561a85f79c9c4eb62e7a2236e5",
       "notes": []
     },
     {
@@ -8911,7 +8911,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "050bd78fff9d9d1d224e4163bb582825f4cf33e6028ef6dc5bfbfdc69e21612e",
-      "afterHrefHash": null,
+      "afterHrefHash": "050bd78fff9d9d1d224e4163bb582825f4cf33e6028ef6dc5bfbfdc69e21612e",
       "notes": []
     },
     {
@@ -8937,10 +8937,10 @@
         "Click Here to Buy on Amazon",
         "Yellow Mountain Imports Pepper case-only bag"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "f75cd22af2f935895db47b3fef063f7adf17053aef93bf0ec49c44315f9b1754",
-      "afterHrefHash": null,
+      "afterHrefHash": "f75cd22af2f935895db47b3fef063f7adf17053aef93bf0ec49c44315f9b1754",
       "notes": []
     },
     {
@@ -8966,10 +8966,10 @@
         "Click Here to Buy on Amazon",
         "COSCO 34-inch vinyl-top folding table"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "9a9dd27668bd0da51303806a3ac2302ad0d59859a3c0a3a71ac209c78630d649",
-      "afterHrefHash": null,
+      "afterHrefHash": "9a9dd27668bd0da51303806a3ac2302ad0d59859a3c0a3a71ac209c78630d649",
       "notes": []
     },
     {
@@ -8998,10 +8998,10 @@
         "Shop Mahjong line finders on Amazon",
         "Shop Mahjong carrying bags on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "1f87b2a0b334e89c43eac30a1732883d176b52c79ed4e06c62d626782633bb92",
-      "afterHrefHash": null,
+      "afterHrefHash": "1f87b2a0b334e89c43eac30a1732883d176b52c79ed4e06c62d626782633bb92",
       "notes": []
     },
     {
@@ -9029,7 +9029,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "b08157b11f2e793b3db552f9bc7f947ea00de4976fb739be97505236f26eb7af",
-      "afterHrefHash": null,
+      "afterHrefHash": "b08157b11f2e793b3db552f9bc7f947ea00de4976fb739be97505236f26eb7af",
       "notes": []
     },
     {
@@ -9055,10 +9055,10 @@
         "Click Here to Buy on Amazon",
         "Yellow Mountain Imports fitted square cover"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "1df7ce4ae76f054580561e475ab9fb1cbdcd0f136835279787f64d1f59945618",
-      "afterHrefHash": null,
+      "afterHrefHash": "1df7ce4ae76f054580561e475ab9fb1cbdcd0f136835279787f64d1f59945618",
       "notes": []
     },
     {
@@ -9084,10 +9084,10 @@
         "Click Here to Buy on Amazon",
         "My Fair Mahjong 20-inch wooden rack set"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "f96c758b4733d8b5922446de25f309d113d36cfe5cf389cffeaae523a16c288c",
-      "afterHrefHash": null,
+      "afterHrefHash": "f96c758b4733d8b5922446de25f309d113d36cfe5cf389cffeaae523a16c288c",
       "notes": []
     },
     {
@@ -9111,10 +9111,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "06ccd50588a1204f7894f9559582279cb9a0080e5ad06ca7a484662c4f0a8bbd",
-      "afterHrefHash": null,
+      "afterHrefHash": "06ccd50588a1204f7894f9559582279cb9a0080e5ad06ca7a484662c4f0a8bbd",
       "notes": []
     },
     {
@@ -9138,10 +9138,10 @@
       "ctaLabelsBefore": [
         "Click Here to Buy on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "4e06d17fd06d4eb263499d6290986c3234964afde1d58e5bd95a9eda08d91d8b",
-      "afterHrefHash": null,
+      "afterHrefHash": "4e06d17fd06d4eb263499d6290986c3234964afde1d58e5bd95a9eda08d91d8b",
       "notes": []
     },
     {
@@ -9169,7 +9169,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "490ca369a291cc019d3c91e6ed81eec4515ea906dbba310723b1231df2c78563",
-      "afterHrefHash": null,
+      "afterHrefHash": "490ca369a291cc019d3c91e6ed81eec4515ea906dbba310723b1231df2c78563",
       "notes": []
     },
     {
@@ -9190,7 +9190,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context.",
         "No Amazon links in article body; check other retailers or informational intent before adding any."
@@ -9217,10 +9217,10 @@
       "ctaLabelsBefore": [
         "View on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "bc48dc2a3b2951afdf2117c9f4fcb2906ae70ab13827ec49c8c8ab5b5367f56a",
-      "afterHrefHash": null,
+      "afterHrefHash": "bc48dc2a3b2951afdf2117c9f4fcb2906ae70ab13827ec49c8c8ab5b5367f56a",
       "notes": []
     },
     {
@@ -9244,10 +9244,10 @@
       "ctaLabelsBefore": [
         "View on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "ae353f71e6ef70a55f9f39c8b0205d09e7118e36596ee607d8f55ca2a76cc22c",
-      "afterHrefHash": null,
+      "afterHrefHash": "ae353f71e6ef70a55f9f39c8b0205d09e7118e36596ee607d8f55ca2a76cc22c",
       "notes": []
     },
     {
@@ -9271,10 +9271,10 @@
       "ctaLabelsBefore": [
         "View on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "f2f1853a2ab3d85a3d682e3e02a5291aa97a4a346979a1ef4df25f1c59388398",
-      "afterHrefHash": null,
+      "afterHrefHash": "f2f1853a2ab3d85a3d682e3e02a5291aa97a4a346979a1ef4df25f1c59388398",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -9300,10 +9300,10 @@
       "ctaLabelsBefore": [
         "View on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "3f755143d7e46162a7e16a3f2d2a11fd4c197129c0c6a0aeb017d4e4facf8838",
-      "afterHrefHash": null,
+      "afterHrefHash": "3f755143d7e46162a7e16a3f2d2a11fd4c197129c0c6a0aeb017d4e4facf8838",
       "notes": []
     },
     {
@@ -9327,10 +9327,10 @@
       "ctaLabelsBefore": [
         "View on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "15ea32e8b7d1488209c1ff35d0a8133a5c1997745bda8bf388670653a42d6957",
-      "afterHrefHash": null,
+      "afterHrefHash": "15ea32e8b7d1488209c1ff35d0a8133a5c1997745bda8bf388670653a42d6957",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -9364,7 +9364,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "356b626e41bcb075d02aa04d9e3dfdc57e1affc272f7195aef5dc4bb9c7c6fc3",
-      "afterHrefHash": null,
+      "afterHrefHash": "356b626e41bcb075d02aa04d9e3dfdc57e1affc272f7195aef5dc4bb9c7c6fc3",
       "notes": []
     },
     {
@@ -9395,7 +9395,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "f4520d30025e0396db4bed44424689e63f438559ec5f7a7289b630ff11a15702",
-      "afterHrefHash": null,
+      "afterHrefHash": "f4520d30025e0396db4bed44424689e63f438559ec5f7a7289b630ff11a15702",
       "notes": []
     },
     {
@@ -9421,10 +9421,10 @@
         "Click Here to Buy on Amazon",
         "Ergotron LX Pro"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "5dd74606e887857a2e7e3fb6cb9ce64d006f7dc3885f4a50f4bfa5c8c650adf1",
-      "afterHrefHash": null,
+      "afterHrefHash": "5dd74606e887857a2e7e3fb6cb9ce64d006f7dc3885f4a50f4bfa5c8c650adf1",
       "notes": []
     },
     {
@@ -9445,7 +9445,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "notes": [
         "No Amazon links in article body; check other retailers or informational intent before adding any."
       ]
@@ -9490,7 +9490,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "8f49fc605a94d01b208ca7813d5437776c3bfd93ade7eb2b26087d7938597059",
-      "afterHrefHash": null,
+      "afterHrefHash": "8f49fc605a94d01b208ca7813d5437776c3bfd93ade7eb2b26087d7938597059",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -9518,10 +9518,10 @@
         "Click Here to Buy on Amazon",
         "Plugable UD-6950PDH"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "2deb48919236809313de94e380c95ba5fab48708b842f6ef970a4cf06b52f877",
-      "afterHrefHash": null,
+      "afterHrefHash": "2deb48919236809313de94e380c95ba5fab48708b842f6ef970a4cf06b52f877",
       "notes": []
     },
     {
@@ -9542,7 +9542,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-      "afterHrefHash": null,
+      "afterHrefHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
       "notes": [
         "No Amazon links in article body; check other retailers or informational intent before adding any."
       ]
@@ -9570,10 +9570,10 @@
         "Click Here to Buy on Amazon",
         "Elgato Key Light Neo"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "ab0bcf8181c9bbe94b20f219ad240fdb46d4bba150e694bbc3e6f3bd353486df",
-      "afterHrefHash": null,
+      "afterHrefHash": "ab0bcf8181c9bbe94b20f219ad240fdb46d4bba150e694bbc3e6f3bd353486df",
       "notes": []
     },
     {
@@ -9605,10 +9605,10 @@
         "standalone MX Keypad",
         "View on Amazon"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "bef2f25077c7a6b33e62fc6d3f2ec934b8439b59208d168e1cffca7adb41c023",
-      "afterHrefHash": null,
+      "afterHrefHash": "bef2f25077c7a6b33e62fc6d3f2ec934b8439b59208d168e1cffca7adb41c023",
       "notes": [
         "Existing exact-ASIN/hostname correction is in open PR #6; not merged or rewritten here."
       ]
@@ -9641,7 +9641,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "52b3c39c3c9ccc425f67a6be8ebb0711a224d6bd809c41ec305c4764234427c1",
-      "afterHrefHash": null,
+      "afterHrefHash": "52b3c39c3c9ccc425f67a6be8ebb0711a224d6bd809c41ec305c4764234427c1",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -9674,7 +9674,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "a3dd7bd0da4430ce74a69105f852d05d643f802de67beaab81ff81a8f1f2bddb",
-      "afterHrefHash": null,
+      "afterHrefHash": "a3dd7bd0da4430ce74a69105f852d05d643f802de67beaab81ff81a8f1f2bddb",
       "notes": [
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
       ]
@@ -9702,10 +9702,10 @@
         "Click Here to Buy on Amazon",
         "Steelcase Gesture"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "6143910289ffa4969f604b7c9165b4df805f68fdfb63a998bb80e671a8ae1aac",
-      "afterHrefHash": null,
+      "afterHrefHash": "6143910289ffa4969f604b7c9165b4df805f68fdfb63a998bb80e671a8ae1aac",
       "notes": []
     },
     {
@@ -9731,10 +9731,10 @@
         "Click Here to Buy on Amazon",
         "Apple Magic Keyboard"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "52548a614ebd52f1b9001dfcfbbeb5da00bccd8fda8b32cfabcd114c6e532ee6",
-      "afterHrefHash": null,
+      "afterHrefHash": "52548a614ebd52f1b9001dfcfbbeb5da00bccd8fda8b32cfabcd114c6e532ee6",
       "notes": []
     },
     {
@@ -9760,10 +9760,10 @@
         "Click Here to Buy on Amazon",
         "Apple Magic Mouse"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "378b099887739567c327639cf0c376dfbcb08ddd6d9547eaf1502b57a5d99521",
-      "afterHrefHash": null,
+      "afterHrefHash": "378b099887739567c327639cf0c376dfbcb08ddd6d9547eaf1502b57a5d99521",
       "notes": []
     },
     {
@@ -9794,7 +9794,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "5a4f5a4b3003353f5e5bb71643b86401df829549200a29fa7d8d6479d61358c2",
-      "afterHrefHash": null,
+      "afterHrefHash": "5a4f5a4b3003353f5e5bb71643b86401df829549200a29fa7d8d6479d61358c2",
       "notes": []
     },
     {
@@ -9826,7 +9826,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "479177f09b49383891a44237ec9b607f49e25ca5b8c8754207231b4e48d5c7db",
-      "afterHrefHash": null,
+      "afterHrefHash": "479177f09b49383891a44237ec9b607f49e25ca5b8c8754207231b4e48d5c7db",
       "notes": []
     },
     {
@@ -9854,9 +9854,9 @@
         "Under-desk drawer Useful when the desktop is already crowded by a serious monitor load."
       ],
       "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "bodyChanged": true,
       "beforeHrefHash": "0f255eec85c1f7aeea55bc5be429bc358e55e1bf04c68ddb4a318f2b5c7d03b8",
-      "afterHrefHash": null,
+      "afterHrefHash": "0f255eec85c1f7aeea55bc5be429bc358e55e1bf04c68ddb4a318f2b5c7d03b8",
       "notes": [
         "Short article: prioritize deeper, sourced reader guidance; word count alone is not a quality verdict.",
         "No explicit skip/avoid wording detected; inspect tradeoffs in context."
@@ -9886,7 +9886,7 @@
       "ctaCopyChanged": false,
       "bodyChanged": false,
       "beforeHrefHash": "2816c4e72bab54b8bb03424b9338e54b3ffc8fa016a1a3612c6b82b15ce62d7c",
-      "afterHrefHash": null,
+      "afterHrefHash": "2816c4e72bab54b8bb03424b9338e54b3ffc8fa016a1a3612c6b82b15ce62d7c",
       "notes": []
     },
     {
@@ -9912,10 +9912,10 @@
         "Click Here to Buy on Amazon",
         "VIVO desk riser"
       ],
-      "ctaCopyChanged": false,
-      "bodyChanged": false,
+      "ctaCopyChanged": true,
+      "bodyChanged": true,
       "beforeHrefHash": "8cfd62f66364ae2f67017d744bc6973dd921c54005368dd357a17800e6775e30",
-      "afterHrefHash": null,
+      "afterHrefHash": "8cfd62f66364ae2f67017d744bc6973dd921c54005368dd357a17800e6775e30",
       "notes": []
     }
   ],

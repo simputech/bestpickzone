@@ -1,0 +1,51 @@
+{
+  "sourceCommit": "98c803f72b121ab8507e9d105d3a1d50bdfcd8be",
+  "pullRequest": "https://github.com/simputech/bestpickzone/pull/9",
+  "productionChanged": false,
+  "preview": {
+    "deploymentId": "dpl_D482ECGSQg2NBhnjpnv9SNmyWPLL",
+    "url": "https://bestpickzone-fixed-7ubqs3srx-simputechs-projects.vercel.app",
+    "state": "READY",
+    "compile": "PASS",
+    "lintAndTypeCheck": "PASS (existing lint warnings)",
+    "metadata": {
+      "pages": 325,
+      "errors": 0,
+      "warnings": 0
+    },
+    "indexability": {
+      "pages": 325,
+      "errors": 0,
+      "warnings": 0
+    },
+    "crawl": {
+      "pages": 325,
+      "httpFailures": 0
+    }
+  },
+  "tests": {
+    "existing": 38,
+    "auditParser": 4,
+    "failed": 0,
+    "localTypeCheck": "PASS",
+    "visualBrowserQA": "INCOMPLETE: local Playwright processes exited with signal 9 or stalled before checks; in-app browser kernel also exited with signal 9. No visual pass or screenshot claimed.",
+    "localBuild": "Not completed; exact official SWC reinstall fixed loading, but local execution remained unstable. Hosted Vercel build is verified."
+  },
+  "renderedLinks": {
+    "compared": 3776,
+    "identical": 3772,
+    "differences": 4,
+    "explanation": "Only Breville/Gaggia differs: production displayed API product URLs, preview displayed existing tagged search fallbacks. API and URL construction code unchanged. Two pilot pages' links unchanged."
+  },
+  "copy": {
+    "articles": 298,
+    "changedCTA": 141,
+    "changedBody": 146,
+    "shortArticlesFlagged": 30
+  },
+  "limits": [
+    "Source inspection plus rendered HTML audit; not a new factual certification or rewrite of every article.",
+    "No claim of improved click rate; no new analytics events or tracking.",
+    "PRs #6, #3 and #1 remain untouched."
+  ]
+}
