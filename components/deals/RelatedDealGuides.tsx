@@ -7,12 +7,11 @@ export default function RelatedDealGuides() {
   const matched = links.filter((x) => x.route === path);
   if (!matched.length) return null;
   return (
-    <aside className="deal-shell" aria-label="Related deal questions">
+    <aside className="deal-shell" aria-label="Product recommendations">
       <div className="deal-panel">
-        <h2>Ready to compare an offer?</h2>
+        <h2>Find the right product for you</h2>
         <p>
-          Check the exact model, useful bundle contents and full cost before
-          buying.
+          Tell our Deal Agent what you need and get a recommendation with reasons.
         </p>
         <div className="deal-actions">
           {matched.map((g) => (
@@ -21,7 +20,7 @@ export default function RelatedDealGuides() {
               key={g.slug}
               href={`/deals/${g.slug}`}
             >
-              {g.product}: assess a deal →
+              {g.product}: find your fit →
             </Link>
           ))}
         </div>

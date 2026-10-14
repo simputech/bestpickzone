@@ -1,4 +1,16 @@
-# Deal discovery release — October 6, 2026
+# Category recommendation refresh — October 13, 2026
+
+The ten former product-specific deal pages have been retired. `lib/legacy-redirects.json` maps each old URL directly to its category replacement with a permanent redirect. The sitemap and internal links use only the new category URLs. Existing comparisons retain their original editorial intent; the new pages are interactive product-selection tools with brief category introductions, a visible chat composer and CollectionPage/Breadcrumb markup.
+
+`lib/deals/categories.json` holds the curated options, fit rules, tradeoffs and manufacturer sources. `category-index.json` is the small client-side index; update it when category names or prompts change. The Deal Agent uses guided matching, not an LLM or live shopping feed. It asks a follow-up before selecting a product when the preference is unclear, carries a budget across turns, and supports changing preferences. It does not verify price fit, availability or arbitrary product links. Uncovered needs must not be represented as supported recommendations.
+
+The legacy product catalog and subscription topic IDs remain internally available so saved targets, email requests and feedback history remain compatible. They no longer generate public deal-guide pages. Optional ratings retain the consented topic/budget-band/helpfulness flow without saving raw messages.
+
+Current release checks: `npm run test:deals`, `npm run build`, and `node scripts/deals/verify-categories.mjs <base-url>`. The category verifier checks all ten pages and redirects, all starter prompts, metadata, sitemap replacement and API input controls without creating subscription records. The older integration script also exercises capture/removal and must be used only when that lifecycle test is intended.
+
+## Historical October 6 foundation (superseded page layout)
+
+### Deal discovery release — October 6, 2026
 
 ## Content ownership and inventory
 

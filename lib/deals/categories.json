@@ -1,0 +1,611 @@
+[
+  {
+    "slug": "espresso-machines",
+    "title": "Espresso machines",
+    "heading": "Find your espresso machine.",
+    "intro": "Straight espresso or daily lattes? Choose around your drinks, counter space and how much of the process you want to handle.",
+    "description": "Find espresso machines that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "breville-bambino-deals",
+    "terms": [
+      "espresso machine",
+      "bambino",
+      "coffee machine",
+      "latte machine"
+    ],
+    "question": "Would you rather steam milk yourself or have automatic milk texturing?",
+    "examples": [
+      "I want to steam milk myself",
+      "I want automatic milk for lattes"
+    ],
+    "criteria": [
+      "Milk workflow",
+      "Grinder needs",
+      "Counter space"
+    ],
+    "related": [
+      "/coffee/best-espresso-grinders-for-breville-bambino",
+      "/coffee/what-to-buy-with-your-breville-bambino-plus"
+    ],
+    "products": [
+      {
+        "id": "manual",
+        "name": "Breville Bambino BES450",
+        "terms": [
+          "manual",
+          "myself",
+          "learn",
+          "straight espresso",
+          "black coffee",
+          "bambino bes450"
+        ],
+        "reason": "Its manual steam wand suits someone who wants to learn milk texturing or mainly drinks straight espresso. This is our starting pick for a hands-on routine.",
+        "tradeoff": "You do the milk steaming, and a suitable grinder belongs in your total setup budget.",
+        "source": "https://www.breville.com/en-us/product/bes450"
+      },
+      {
+        "id": "automatic",
+        "name": "Breville Bambino Plus BES500",
+        "terms": [
+          "automatic",
+          "hands free",
+          "easy milk",
+          "milk drinks",
+          "lattes",
+          "cappuccino",
+          "bambino plus"
+        ],
+        "reason": "Automatic milk texturing makes this the more relevant choice when convenient milk drinks are your priority. You still control the espresso preparation.",
+        "tradeoff": "It does not grind coffee for you. Compare the complete machine-and-grinder cost.",
+        "source": "https://www.breville.com/en-us/product/bes500"
+      }
+    ]
+  },
+  {
+    "slug": "ice-cream-makers",
+    "title": "Ice cream makers",
+    "heading": "Find your ice cream maker.",
+    "intro": "Frozen bases and traditional churning suit different routines. Choose around the treats you want, preparation time and freezer space.",
+    "description": "Find ice cream makers that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "ninja-creami-deals",
+    "terms": [
+      "ice cream",
+      "creami",
+      "frozen dessert",
+      "sorbet"
+    ],
+    "question": "Do you prefer preparing individual frozen bases, or churning a batch in a freezer bowl?",
+    "examples": [
+      "I want individual frozen bases and mix-ins",
+      "I prefer traditional churning"
+    ],
+    "criteria": [
+      "Preparation routine",
+      "Batch size",
+      "Freezer space"
+    ],
+    "related": [
+      "/home-kitchen/ninja-creami-containers-compatibility",
+      "/home-kitchen"
+    ],
+    "products": [
+      {
+        "id": "frozen-base",
+        "name": "Ninja CREAMi NC301",
+        "terms": [
+          "creami",
+          "frozen base",
+          "individual",
+          "mix ins",
+          "mix-ins",
+          "protein"
+        ],
+        "reason": "This model processes a base you prepare and freeze ahead of time. We would start here for individually planned flavors and mix-ins.",
+        "tradeoff": "You must freeze the base ahead of processing; it is not an instant ice cream machine.",
+        "source": "https://www.sharkninja.com/ninja-creami-7-in-1-ice-cream-maker/NC301.html"
+      },
+      {
+        "id": "churn",
+        "name": "Cuisinart ICE-21P1",
+        "terms": [
+          "churn",
+          "traditional",
+          "freezer bowl",
+          "cuisinart"
+        ],
+        "reason": "Its freezer-bowl churning approach suits someone who wants to pour in a mixture and make a batch using a traditional ice cream workflow.",
+        "tradeoff": "The bowl needs freezer space and advance freezing. It is not a self-refrigerating compressor machine.",
+        "source": "https://www.cuisinart.com/frozen-yogurt---ice-cream-sorbet-maker/ICE-21P1.html"
+      }
+    ]
+  },
+  {
+    "slug": "stand-mixers",
+    "title": "Stand mixers",
+    "heading": "Find your stand mixer.",
+    "intro": "Weekend cakes or frequent bread batches? Choose around your regular recipes, bowl capacity and the space where your mixer will live.",
+    "description": "Find stand mixers that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "kitchenaid-stand-mixer-deals",
+    "terms": [
+      "stand mixer",
+      "kitchenaid",
+      "baking mixer"
+    ],
+    "question": "Will you mainly make cakes and cookies, or frequent bread and larger batches?",
+    "examples": [
+      "Mostly cakes and cookies",
+      "Frequent bread and larger batches"
+    ],
+    "criteria": [
+      "Regular recipes",
+      "Bowl capacity",
+      "Storage and lifting"
+    ],
+    "related": [
+      "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press"
+    ],
+    "products": [
+      {
+        "id": "everyday",
+        "name": "KitchenAid Artisan 5-quart tilt-head",
+        "terms": [
+          "cake",
+          "cookies",
+          "everyday",
+          "tilt head",
+          "small batch",
+          "artisan"
+        ],
+        "reason": "The tilt-head layout is a practical starting point for everyday batters and cookie dough. Match the bowl capacity to the batches you regularly make.",
+        "tradeoff": "Allow clearance to tilt the head and follow the model’s dough limits; more attachments do not make the mixer a better fit.",
+        "source": "https://producthelp.kitchenaid.com/Countertop_Appliances/Stand_Mixers/Product_Info/Stand_Mixer_Tips_and_Tricks/Which_Stand_Mixer_is_Right_for_Me%3F"
+      },
+      {
+        "id": "batches",
+        "name": "KitchenAid 5.5-quart bowl-lift",
+        "terms": [
+          "bread",
+          "large",
+          "dough",
+          "bowl lift",
+          "frequent"
+        ],
+        "reason": "We would compare this bowl-lift design for frequent mixing and larger batches. Its bowl support and capacity are more relevant than a decorative bundle.",
+        "tradeoff": "It needs a suitable permanent or easy-access spot. Check the recipe limits and dimensions for the exact model.",
+        "source": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/bowl-lift-stand-mixers/p.kitchenaid-5.5-quart-bowl-lift-stand-mixer.ksm55sxxxcu.html"
+      }
+    ]
+  },
+  {
+    "slug": "pizza-ovens",
+    "title": "Pizza ovens",
+    "heading": "Find your pizza oven.",
+    "intro": "Outdoor gas and indoor electric ovens solve different problems. Start with where you can cook and the fuel you can use.",
+    "description": "Find pizza ovens that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "ooni-koda-12-deals",
+    "terms": [
+      "pizza oven",
+      "ooni",
+      "koda",
+      "volt"
+    ],
+    "question": "Will you cook outdoors with gas, or do you need an indoor electric oven?",
+    "examples": [
+      "Outdoors with gas",
+      "Indoors with electricity"
+    ],
+    "criteria": [
+      "Indoor or outdoor use",
+      "Fuel and power",
+      "Cooking space"
+    ],
+    "related": [
+      "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "/home-kitchen/best-pizza-peels-ooni-koda-12"
+    ],
+    "products": [
+      {
+        "id": "outdoor",
+        "name": "Ooni Koda 12",
+        "terms": [
+          "outdoor",
+          "gas",
+          "propane",
+          "garden",
+          "patio",
+          "koda",
+          "outdoors"
+        ],
+        "reason": "This gas-powered oven fits an outdoor cooking plan. We would start here when you have a suitable outdoor location and want the Koda 12 format.",
+        "tradeoff": "Outdoor use only. Check regional fuel requirements and include a suitable peel in the setup.",
+        "source": "https://ooni.com/products/ooni-koda"
+      },
+      {
+        "id": "indoor",
+        "name": "Ooni Volt 2",
+        "terms": [
+          "indoor",
+          "electric",
+          "inside",
+          "apartment",
+          "volt",
+          "indoors",
+          "electricity"
+        ],
+        "reason": "Its indoor electric design makes it the relevant option when cooking inside is essential. Compare its dimensions with the counter space you can dedicate.",
+        "tradeoff": "Confirm electrical requirements, clearances and the full accessory cost before buying.",
+        "source": "https://ooni.com/products/ooni-volt-2"
+      }
+    ]
+  },
+  {
+    "slug": "hair-stylers",
+    "title": "Hair stylers",
+    "heading": "Find your hair styler.",
+    "intro": "Air stylers combine drying, smoothing and curling. Choose around your hair routine and the attachments you will actually use.",
+    "description": "Find hair stylers that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "dyson-airwrap-refurbished-deals",
+    "terms": [
+      "hair styler",
+      "airwrap",
+      "flexstyle",
+      "hair dryer",
+      "hair styling"
+    ],
+    "question": "Are you exploring an Airwrap attachment kit, or a tool that converts into a conventional hair dryer?",
+    "examples": [
+      "I want an Airwrap attachment kit",
+      "I want a dryer that also styles"
+    ],
+    "criteria": [
+      "Desired style",
+      "Included attachments",
+      "Drying routine"
+    ],
+    "related": [
+      "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "/beauty"
+    ],
+    "products": [
+      {
+        "id": "airwrap",
+        "name": "Dyson Airwrap multi-styler",
+        "terms": [
+          "airwrap",
+          "dyson",
+          "attachment kit",
+          "barrel"
+        ],
+        "reason": "Start with an Airwrap kit when its included curling and smoothing tools match the styles you want. We recommend choosing the attachment set before choosing a color or promotion.",
+        "tradeoff": "Results depend on hair and technique. Model generations and attachment kits differ, so confirm the exact package.",
+        "source": "https://www.dyson.com/hair-care/hair-stylers/airwrap"
+      },
+      {
+        "id": "dryer",
+        "name": "Shark FlexStyle HD430",
+        "terms": [
+          "shark",
+          "flexstyle",
+          "dryer",
+          "conventional",
+          "twist"
+        ],
+        "reason": "The converting dryer-and-styler format is relevant if drying and styling need to share one tool. Check that the HD430 kit includes the tools your routine needs.",
+        "tradeoff": "Do not assume every FlexStyle bundle has the same brushes, curlers or diffuser.",
+        "source": "https://www.sharkninja.com/shark-flexstyle-air-styling-drying-system/HD430.html"
+      }
+    ]
+  },
+  {
+    "slug": "coffee-grinders",
+    "title": "Coffee grinders",
+    "heading": "Find your coffee grinder.",
+    "intro": "Espresso, pour-over or French press? Tell us how you brew, what you want to improve and your budget.",
+    "description": "Find coffee grinders that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "baratza-encore-esp-deals",
+    "terms": [
+      "coffee grinder",
+      "grinder",
+      "baratza",
+      "encore",
+      "grind coffee"
+    ],
+    "question": "Will you make espresso, filter coffee only, or both?",
+    "examples": [
+      "Espresso and filter coffee",
+      "Filter coffee only"
+    ],
+    "criteria": [
+      "Brewing method",
+      "Grind adjustment",
+      "Dosing routine"
+    ],
+    "related": [
+      "/coffee/best-espresso-grinders-for-breville-bambino",
+      "/coffee/baratza-encore-esp-vs-fellow-opus-2"
+    ],
+    "products": [
+      {
+        "id": "espresso",
+        "name": "Baratza Encore ESP",
+        "terms": [
+          "espresso",
+          "both",
+          "bambino",
+          "portafilter",
+          "encore esp"
+        ],
+        "reason": "Its dedicated espresso adjustment range is the reason to choose it for espresso or a mix of espresso and filter brewing. The included dosing cup helps transfer grounds to a portafilter.",
+        "tradeoff": "You still need to weigh doses and dial in your coffee; the grinder does not automatically choose a recipe.",
+        "source": "https://assets.breville.com/ZCG495/manual-encoreesp-v1-0-en-010923.pdf"
+      },
+      {
+        "id": "filter",
+        "name": "Baratza Encore",
+        "terms": [
+          "filter",
+          "pour over",
+          "french press",
+          "cold brew",
+          "drip",
+          "v60",
+          "chemex"
+        ],
+        "reason": "For filter-only brewing, we would start with the Encore rather than paying specifically for the ESP’s espresso-focused adjustment range.",
+        "tradeoff": "If espresso is part of your plans, compare the Encore ESP instead. The two model names are not interchangeable.",
+        "source": "https://www.baratza.com/en-us/product/encore-zcg485"
+      }
+    ]
+  },
+  {
+    "slug": "desktop-controllers",
+    "title": "Desktop shortcut controllers",
+    "heading": "Find your shortcut controller.",
+    "intro": "Make repeated actions easier with physical shortcuts. Choose around your apps and whether you want keys, turning dials, or both.",
+    "description": "Find desktop shortcut controllers that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "elgato-stream-deck-mk2-deals",
+    "terms": [
+      "stream deck",
+      "shortcut",
+      "desktop controller",
+      "control pad",
+      "macro pad"
+    ],
+    "question": "Would you prefer more shortcut keys, or physical dials for adjustments?",
+    "examples": [
+      "Mostly shortcut keys",
+      "Dials for volume and adjustments"
+    ],
+    "criteria": [
+      "App support",
+      "Keys versus dials",
+      "Repeated tasks"
+    ],
+    "related": [
+      "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+      "/wfh"
+    ],
+    "products": [
+      {
+        "id": "keys",
+        "name": "Elgato Stream Deck MK.2",
+        "terms": [
+          "keys",
+          "buttons",
+          "shortcut",
+          "scenes",
+          "mk2",
+          "mk.2"
+        ],
+        "reason": "The 15-key layout is a good starting point for discrete actions such as app shortcuts and scene changes. Confirm support for the exact apps you use.",
+        "tradeoff": "It has no rotary dials. A shortcut pad is unnecessary if existing keyboard shortcuts already solve the task.",
+        "source": "https://help.elgato.com/hc/en-us/articles/4405167312397-Elgato-Stream-Deck-What-is-the-difference-between-Stream-Deck-and-Stream-Deck-MK-2"
+      },
+      {
+        "id": "dials",
+        "name": "Elgato Stream Deck +",
+        "terms": [
+          "dials",
+          "dial",
+          "volume",
+          "adjustment",
+          "knob",
+          "plus"
+        ],
+        "reason": "Its rotary controls and touch strip are the reason to choose it when you want physical adjustments alongside shortcut keys.",
+        "tradeoff": "It has fewer keys than the MK.2. Dial support depends on your software and the actions you configure.",
+        "source": "https://www.elgato.com/us/en/p/stream-deck-plus"
+      }
+    ]
+  },
+  {
+    "slug": "e-readers",
+    "title": "E-readers",
+    "heading": "Find your next e-reader.",
+    "intro": "Novels, color or an existing Kindle library? Choose around your books, preferred screen and the controls you want.",
+    "description": "Find e-readers that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "kindle-paperwhite-deals",
+    "terms": [
+      "e reader",
+      "ereader",
+      "kindle",
+      "kobo",
+      "paperwhite",
+      "reading device"
+    ],
+    "question": "Do you want to keep a Kindle library, read mostly black-and-white novels, or use color and page-turn buttons?",
+    "examples": [
+      "Compact black-and-white for novels",
+      "Color and page-turn buttons",
+      "I want to keep my Kindle library"
+    ],
+    "criteria": [
+      "Book compatibility",
+      "Text versus color",
+      "Size and controls"
+    ],
+    "related": [
+      "/books",
+      "/books/best-books-to-read-on-the-beach"
+    ],
+    "products": [
+      {
+        "id": "novels",
+        "name": "Kobo Clara BW",
+        "terms": [
+          "novels",
+          "black and white",
+          "black-and-white",
+          "compact",
+          "text",
+          "clara"
+        ],
+        "reason": "We would start here for a compact reader focused on black-and-white books. Its 6-inch screen suits a small reading device without paying for color features.",
+        "tradeoff": "Check your book library first: purchased Kindle books with Amazon DRM do not transfer directly to Kobo.",
+        "source": "https://ereader.kobo.com/en-us/products/kobo-clara-bw"
+      },
+      {
+        "id": "color",
+        "name": "Kobo Libra Colour",
+        "terms": [
+          "color",
+          "colour",
+          "buttons",
+          "annotat",
+          "libra"
+        ],
+        "reason": "The color screen and page-turn buttons make it the more relevant option when those features are part of your reading routine.",
+        "tradeoff": "The stylus is sold separately. Check book compatibility before moving an existing library.",
+        "source": "https://ereader.kobo.com/en-us/products/kobo-libra-colour"
+      },
+      {
+        "id": "kindle",
+        "name": "Kindle Paperwhite (2024, 12th generation)",
+        "terms": [
+          "kindle",
+          "paperwhite",
+          "amazon library",
+          "amazon books"
+        ],
+        "reason": "If you want to keep using your purchased Kindle library, this Paperwhite is a relevant starting point. The 2024 model has a 7-inch screen; compare the exact generation rather than a generic Paperwhite listing.",
+        "tradeoff": "This is a black-and-white reader. Confirm the generation, configuration and current seller terms; we are not claiming it is the newest model or cheapest offer.",
+        "source": "https://press.aboutamazon.com/2024/10/amazon-launches-entirely-new-kindle-lineup-including-reimagined-kindle-scribe-and-first-ever-color-kindle"
+      }
+    ]
+  },
+  {
+    "slug": "wireless-earbuds",
+    "title": "Wireless earbuds",
+    "heading": "Find your wireless earbuds.",
+    "intro": "Your phone, listening routine and fit matter more than a promotion. Tell us where and how you use your earbuds.",
+    "description": "Find wireless earbuds that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "airpods-pro-deals",
+    "terms": [
+      "earbuds",
+      "airpods",
+      "wireless headphones",
+      "sony wf"
+    ],
+    "question": "Will you mainly use an iPhone, or Android and other devices?",
+    "examples": [
+      "I use an iPhone",
+      "I use Android and other devices"
+    ],
+    "criteria": [
+      "Phone compatibility",
+      "Listening needs",
+      "Fit and returns"
+    ],
+    "related": [
+      "/tech/airpods-pro-vs-sony-wf-1000xm5",
+      "/tech/best-wireless-earbuds"
+    ],
+    "products": [
+      {
+        "id": "apple",
+        "name": "Apple AirPods Pro 3",
+        "terms": [
+          "iphone",
+          "apple",
+          "ios",
+          "airpods"
+        ],
+        "reason": "For an iPhone user, integration with Apple devices is a clear reason to shortlist AirPods Pro 3. Choose this for that ecosystem fit rather than an unspecified “Pro” listing.",
+        "tradeoff": "Fit is personal, and some features depend on compatible Apple hardware and software. Confirm return terms.",
+        "source": "https://www.apple.com/airpods-pro/"
+      },
+      {
+        "id": "other",
+        "name": "Sony WF-1000XM5",
+        "terms": [
+          "android",
+          "sony",
+          "other devices",
+          "samsung",
+          "pixel"
+        ],
+        "reason": "We would compare these for listening across Android and other devices, especially when noise cancellation and app controls are priorities.",
+        "tradeoff": "Try the fit if possible. Confirm support for the functions you want on your exact phone.",
+        "source": "https://electronics.sony.com/audio/headphones/truly-wireless-earbuds/p/wf1000xm5-b"
+      }
+    ]
+  },
+  {
+    "slug": "lego-display-sets",
+    "title": "LEGO display sets",
+    "heading": "Find your LEGO display build.",
+    "intro": "Choose an adult display build for the space you have and the project you want. Start with our Millennium Falcon shortlist.",
+    "description": "Find lego display sets that fit your needs. Tell the BestPickZone Deal Agent what you want and get a shortlist with reasons, tradeoffs and product sources.",
+    "oldSlug": "lego-millennium-falcon-deals",
+    "terms": [
+      "lego",
+      "display set",
+      "millennium",
+      "falcon",
+      "star wars"
+    ],
+    "question": "For our Millennium Falcon shortlist, do you want a smaller shelf build or a large collector project?",
+    "examples": [
+      "A smaller shelf display",
+      "A large collector project"
+    ],
+    "criteria": [
+      "Display space",
+      "Building commitment",
+      "Exact set number"
+    ],
+    "related": [
+      "/home-kitchen",
+      "/books/kids-and-ya"
+    ],
+    "products": [
+      {
+        "id": "shelf",
+        "name": "LEGO Millennium Falcon 75375",
+        "terms": [
+          "small",
+          "shelf",
+          "compact",
+          "75375"
+        ],
+        "reason": "This smaller Falcon display build is our starting point when shelf space matters more than maximum scale. Compare the finished dimensions with your available spot.",
+        "tradeoff": "This is an adult display set, not a substitute for a child’s playset. Confirm the age guidance.",
+        "source": "https://www.lego.com/en-us/product/millennium-falcon-75375"
+      },
+      {
+        "id": "collector",
+        "name": "LEGO Millennium Falcon 75192",
+        "terms": [
+          "large",
+          "collector",
+          "ucs",
+          "big",
+          "75192"
+        ],
+        "reason": "Choose this much larger Falcon project when the building commitment and display scale are exactly what you want.",
+        "tradeoff": "Plan the display space and budget first. We make no resale-value prediction or current-stock claim.",
+        "source": "https://www.lego.com/en-us/product/millennium-falcon-75192"
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import { randomUUID } from "node:crypto";
 const base = process.argv[2] || "http://127.0.0.1:3106";
-const guides = JSON.parse(fs.readFileSync("lib/deals/guides.json", "utf8"));
+const guides = JSON.parse(fs.readFileSync("lib/deals/categories.json", "utf8"));
 const post = (path, body, origin = base) =>
   fetch(base + path, {
     method: "POST",
@@ -17,9 +17,11 @@ for (const g of guides) {
   assert.ok(html.includes(`https://bestpickzone.com/deals/${g.slug}`));
   assert.ok(!/<meta[^>]+name="robots"[^>]+noindex/.test(html));
   assert.equal((html.match(/<h1\b/g) || []).length, 1);
-  assert.ok(html.includes("Price check: unavailable"));
-  assert.ok(html.includes("sponsored noopener"));
-  assert.ok(html.includes("althcu-20"));
+  assert.ok(html.includes("shopping-question"));
+  assert.ok(html.includes("WHY WE CAN HELP"));
+  const old = await fetch(`${base}/deals/${g.oldSlug}`, {redirect:"manual"});
+  assert.equal(old.status,308);
+  assert.equal(new URL(old.headers.get("location"),base).pathname, `/deals/${g.slug}`);
   for (const m of html.matchAll(
     /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,
   ))
@@ -38,10 +40,10 @@ assert.equal(r.status, 200);
 let d = await r.json();
 assert.equal(d.budget, 250);
 assert.equal(d.livePrices, false);
-assert.equal(d.guides[0].slug, "ninja-creami-deals");
+assert.equal(d.products[0].id, "frozen-base");
 r = await post("/api/deal-agent", { query: "a telescope for my balcony" });
 d = await r.json();
-assert.equal(d.guides.length, 0);
+assert.equal(d.products.length, 0);
 r = await post(
   "/api/deal-agent",
   { query: "Bambino" },

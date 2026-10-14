@@ -1,276 +1,310 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { dealGuides, findGuide } from "@/lib/deals/products";
-type Result = {
-  budget: number | null;
-  intent: string;
-  message: string;
-  guides: {
-    slug: string;
-    product: string;
-    title: string;
-    answer: string;
-    checks: { label: string; detail: string }[];
-    searches: { name: string; url: string; affiliate: boolean }[];
-  }[];
-};
-export default function DealAgent() {
-  const [query, setQuery] = useState(""),
-    [result, setResult] = useState<Result | null>(null),
-    [busy, setBusy] = useState(false),
-    [error, setError] = useState(""),
-    [feedback, setFeedback] = useState("");
-  const questionRef = useRef<HTMLTextAreaElement>(null);
-  const resultRef = useRef<HTMLHeadingElement>(null);
+import type { RecommendationResult } from "@/lib/deals/recommend";
+import categoryIndex from "@/lib/deals/category-index.json";
+
+type Category = (typeof categoryIndex)[number];
+type Turn = { question: string; answer: RecommendationResult };
+export default function DealAgent({
+  initialCategory,
+}: {
+  initialCategory?: Category;
+}) {
+  const [category, setCategory] = useState(initialCategory);
+  const [query, setQuery] = useState("");
+  const [turns, setTurns] = useState<Turn[]>([]);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState("");
+  const [feedback, setFeedback] = useState("");
+  const input = useRef<HTMLTextAreaElement>(null);
+  const answer = useRef<HTMLDivElement>(null);
+  const pending = useRef(false);
   useEffect(() => {
-    if (result) {
-      resultRef.current?.focus({ preventScroll: true });
-      resultRef.current?.scrollIntoView({ block: "center" });
+    if (initialCategory) return;
+    const topic = new URLSearchParams(window.location.search).get("topic");
+    setCategory(
+      categoryIndex.find((c) => c.oldSlug === topic || c.slug === topic),
+    );
+  }, [initialCategory]);
+  useEffect(() => {
+    if (turns.length) {
+      answer.current?.focus({ preventScroll: true });
+      answer.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
-  }, [result]);
-  useEffect(() => {
-    const topic = new URLSearchParams(location.search).get("topic");
-    const g = topic && findGuide(topic);
-    if (g) setQuery(`Is this ${g.product} offer a good deal?`);
-  }, []);
-  async function ask(e: React.FormEvent) {
-    e.preventDefault();
-    if (busy) return;
-    setError("");
-    setResult(null);
-    setFeedback("");
-    const question = query.trim();
+  }, [turns]);
+  async function ask(value = query) {
+    if (pending.current) return;
+    const question = value.trim();
     if (question.length < 3 || question.length > 400) {
-      setError("Enter a product or shopping question between 3 and 400 characters.");
-      questionRef.current?.focus();
+      setError("Tell me what you need in 3–400 characters.");
+      input.current?.focus();
       return;
     }
+    pending.current = true;
     setBusy(true);
+    setError("");
+    setFeedback("");
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 15000);
+    const timer = setTimeout(() => controller.abort(), 15000);
     try {
-      const r = await fetch("/api/deal-agent", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: question }),
-        signal: controller.signal,
-      });
-      const data = await r.json().catch(() => null);
-      if (!r.ok || !data)
-        throw new Error(data?.error || "Buying checks are temporarily unavailable. Please try again.");
-      setResult(data);
-    } catch (e) {
-      setError(
-        controller.signal.aborted
-          ? "The request took too long. Please try again."
-          : e instanceof Error && e.name !== "TypeError"
-            ? e.message
-            : "We could not load your buying checks. Check your connection and try again.",
-      );
-    } finally {
-      clearTimeout(timeout);
-      setBusy(false);
-    }
-  }
-  async function share(helpful: boolean) {
-    if (!result) return;
-    setFeedback("Saving…");
-    try {
-      const r = await fetch("/api/deal-feedback", {
+      const response = await fetch("/api/deal-agent", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          query: question,
+          category: category?.slug,
+          history: turns.slice(-6).map((t) => t.question),
+        }),
+        signal: controller.signal,
+      });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || "Please try again.");
+      setTurns((old) => [...old, { question, answer: result }]);
+      setQuery("");
+      if (result.category)
+        setCategory(categoryIndex.find((c) => c.slug === result.category));
+    } catch {
+      setError(
+        "Your answer could not load. Please try again; your message is still here.",
+      );
+      setQuery(question);
+    } finally {
+      clearTimeout(timer);
+      pending.current = false;
+      setBusy(false);
+    }
+  }
+  const latest = turns.at(-1)?.answer;
+  async function rate(helpful: boolean) {
+    if (!category || feedback) return;
+    setFeedback("Saving…");
+    try {
+      const response = await fetch("/api/deal-feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          topic: category.oldSlug,
+          intent: "compare-offers",
           consent: true,
-          topic: result.guides[0]?.slug || "unmatched",
-          intent: result.intent,
           budgetBand:
-            result.budget === null
+            latest?.budget == null
               ? "unspecified"
-              : result.budget < 100
+              : latest.budget < 100
                 ? "under-100"
-                : result.budget < 500
+                : latest.budget < 500
                   ? "100-499"
                   : "500-plus",
           helpful,
         }),
       });
-      setFeedback(
-        r.ok
-          ? "Thank you. Your anonymous topic and feedback were saved."
-          : "Feedback could not be saved. Please try again.",
-      );
+      if (!response.ok) throw new Error();
+      setFeedback("Thanks — this helps us improve our recommendations.");
     } catch {
       setFeedback("Feedback could not be saved.");
     }
   }
+  function reset() {
+    setTurns([]);
+    setQuery("");
+    setError("");
+    setFeedback("");
+    input.current?.focus();
+  }
   return (
-    <>
-      <form className="deal-panel" onSubmit={ask} noValidate>
-        <label htmlFor="shopping-question">
-          What are you looking for?
-          <textarea
-            id="shopping-question"
-            ref={questionRef}
+    <div className="shopping-chat" aria-label="Deal Agent chat">
+      <div className="shopping-chat-top">
+        <span className="shopping-agent-mark" aria-hidden="true">
+          ✦
+        </span>
+        <div>
+          <strong>BestPickZone Deal Agent</strong>
+          <span>
+            Your shopping shortlist{category ? ` · ${category.title}` : ""}
+          </span>
+        </div>
+        {turns.length > 0 && (
+          <button
+            type="button"
+            className="shopping-reset"
             disabled={busy}
-            aria-describedby="shopping-question-help shopping-question-error"
-            aria-invalid={Boolean(error) && (query.trim().length < 3 || query.trim().length > 400)}
-            value={query}
-            onChange={(e) => {
-              setQuery(e.target.value);
-              setResult(null);
-              setError("");
-            }}
-            minLength={3}
-            maxLength={400}
-            required
-            rows={3}
-            placeholder="Is a refurbished Airwrap worth it? Find a Bambino setup under $500."
-          />
+            onClick={reset}
+          >
+            Start over
+          </button>
+        )}
+      </div>
+      {!turns.length && (
+        <div className="shopping-welcome">
+          <h2>Tell me what you’re looking for.</h2>
+          <p>I’ll help find your best fit and explain why.</p>
+        </div>
+      )}
+      <div
+        className="shopping-conversation"
+        aria-live="polite"
+        aria-busy={busy}
+      >
+        {turns.slice(-3).map((turn, i, visible) => (
+          <div
+            key={turns.length - visible.length + i}
+            className="shopping-turn"
+          >
+            <p className="shopping-user">
+              <span className="sr-only">You: </span>
+              {turn.question}
+            </p>
+            <div
+              className="shopping-answer"
+              ref={i === visible.length - 1 ? answer : undefined}
+              tabIndex={-1}
+            >
+              <span className="shopping-answer-label">DEAL AGENT</span>
+              <p>{turn.answer.message}</p>
+              {turn.answer.budget !== null && (
+                <p className="shopping-note">
+                  Your budget: ${turn.answer.budget.toLocaleString("en-US")}.
+                  Price fit has not been verified.
+                </p>
+              )}
+              {turn.answer.products.map((p) => (
+                <article className="shopping-pick" key={p.id}>
+                  <span className="shopping-answer-label">
+                    YOUR SUGGESTED STARTING POINT
+                  </span>
+                  <h3>{p.name}</h3>
+                  <p>
+                    <strong>Why it fits:</strong> {p.reason}
+                  </p>
+                  <p>
+                    <strong>The tradeoff:</strong> {p.tradeoff}
+                  </p>
+                  <div className="shopping-pick-links">
+                    <a
+                      href={p.source}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Manufacturer information ↗
+                    </a>
+                    <a href={p.search} target="_blank" rel="sponsored noopener">
+                      Check Amazon (affiliate) ↗
+                    </a>
+                  </div>
+                </article>
+              ))}
+              {"switchCategory" in turn.answer &&
+                turn.answer.switchCategory && (
+                  <Link href={`/deals/${turn.answer.switchCategory.slug}`}>
+                    Open {turn.answer.switchCategory.title} →
+                  </Link>
+                )}
+            </div>
+          </div>
+        ))}
+      </div>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          void ask();
+        }}
+        className="shopping-composer"
+      >
+        <label
+          htmlFor="shopping-question"
+          className={!turns.length ? "sr-only" : undefined}
+        >
+          {turns.length
+            ? "Refine your recommendation"
+            : "What are you looking for?"}
         </label>
-        <p className="deal-small" id="shopping-question-help">
-          Include a product, budget and must-haves. Do not include personal
-          information. This guided assistant matches editorial buying guides; it
-          does not retrieve or rank live retailer prices.
-        </p>
-        <button type="submit" className="deal-button" disabled={busy}>
-          {busy ? "Finding guidance…" : "Get buying advice →"}
-        </button>
-        <p className="error" id="shopping-question-error" role="alert">
+        <textarea
+          ref={input}
+          id="shopping-question"
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setError("");
+          }}
+          disabled={busy}
+          maxLength={400}
+          rows={2}
+          aria-describedby="shopping-chat-note shopping-chat-error"
+          placeholder={
+            category
+              ? `${category.examples[0]}. My budget is…`
+              : "e.g. A coffee grinder for espresso and filter coffee…"
+          }
+        />
+        <div className="shopping-send-row">
+          <span className="shopping-note">
+            Your needs, budget and must-haves.
+          </span>
+          <button type="submit" disabled={busy} className="shopping-send">
+            {busy
+              ? "Finding your fit…"
+              : turns.length
+                ? "Send message →"
+                : "Find my recommendation →"}
+          </button>
+        </div>
+        <p id="shopping-chat-error" role="alert" className="shopping-error">
           {error}
         </p>
-        <p role="status">
-          {busy ? "Finding your buying checks…" : result ? "Your buying checks are ready below." : ""}
-        </p>
+        <span className="sr-only" role="status">
+          {busy
+            ? "Finding your recommendation."
+            : turns.length
+              ? "Your answer is ready."
+              : ""}
+        </span>
       </form>
-      <div className="deal-actions" aria-label="Example shopping questions">
-        {[
-          "Is a Bambino bundle a good deal?",
-          "Should I buy refurbished Airwrap?",
-          "Find a CREAMi under $250",
-        ].map((q) => (
+      <div className="shopping-prompts" aria-label="Suggested replies">
+        {(
+          latest?.suggestions ||
+          category?.examples || [
+            "A coffee grinder",
+            "An espresso machine",
+            "Wireless earbuds",
+          ]
+        ).map((prompt) => (
           <button
-            key={q}
+            key={prompt}
             type="button"
             disabled={busy}
-            className="deal-button secondary"
-            onClick={() => {
-              setQuery(q);
-              setResult(null);
-              setError("");
-              questionRef.current?.focus();
-            }}
+            onClick={() => void ask(prompt)}
           >
-            {q}
+            {prompt} ↗
           </button>
         ))}
       </div>
-      <div aria-live="polite">
-        {result && (
-          <section>
-            <h2 ref={resultRef} tabIndex={-1}>Your next buying decision</h2>
-            <p>{result.message}</p>
-            {result.budget !== null && (
-              <p>
-                <strong>
-                  Your stated budget: ${result.budget.toLocaleString("en-US")}
-                </strong>{" "}
-                — a personal limit, not a verified product price. No matching
-                offer has been confirmed.
-              </p>
-            )}
-            <div className="deal-status">
-              <strong>Live prices and price history: unavailable</strong>
-              <p>
-                Model, condition, stock, seller terms and your other
-                requirements still need verification. Searches below may include
-                products outside your budget.
-              </p>
-            </div>
-            {result.guides.map((g) => (
-              <article className="deal-panel" key={g.slug}>
-                <h3>{g.title}</h3>
-                <p>{g.answer}</p>
-                <ul>
-                  {g.checks.map((c) => (
-                    <li key={c.label}>
-                      <strong>{c.label}:</strong> {c.detail}
-                    </li>
-                  ))}
-                </ul>
-                <div className="deal-actions">
-                  <Link href={`/deals/${g.slug}`} className="deal-button">
-                    Read the full deal guide →
-                  </Link>
-                  <Link
-                    href={`/deal-alerts?topic=${g.slug}${result.budget ? `&target=${result.budget}` : ""}`}
-                    className="deal-button secondary"
-                  >
-                    Save my target →
-                  </Link>
-                </div>
-                <div className="deal-actions">
-                  {g.searches.map((s) => (
-                    <a
-                      key={s.name}
-                      href={s.url}
-                      rel={
-                        s.affiliate
-                          ? "sponsored noopener"
-                          : "noopener noreferrer"
-                      }
-                      target="_blank"
-                    >
-                      Search {s.name}
-                      {s.affiliate ? " (affiliate)" : ""} ↗
-                    </a>
-                  ))}
-                </div>
-              </article>
-            ))}
-            <aside className="deal-panel">
-              <h3>Help choose our next content update</h3>
-              <p>
-                Optionally share whether this helped. We save only the matched
-                topic, question type, budget range and your rating—not your
-                question text or email. Feedback informs editorial review, never
-                automatic publication.
-              </p>
-              <div className="deal-actions">
-                <button
-                  className="deal-button secondary"
-                  disabled={
-                    feedback.startsWith("Thank") || feedback === "Saving…"
-                  }
-                  onClick={() => share(true)}
-                >
-                  Share: useful
-                </button>
-                <button
-                  className="deal-button secondary"
-                  disabled={
-                    feedback.startsWith("Thank") || feedback === "Saving…"
-                  }
-                  onClick={() => share(false)}
-                >
-                  Share: still need help
-                </button>
-              </div>
-              <p role="status">{feedback}</p>
-            </aside>
-          </section>
-        )}
-      </div>
-      <section>
-        <h2>Choose a product to start</h2>
-        <div className="deal-grid">
-          {dealGuides.map((g) => (
-            <Link className="deal-card" key={g.slug} href={`/deals/${g.slug}`}>
-              {g.product} deal questions →
-            </Link>
-          ))}
+      <p className="shopping-note" id="shopping-chat-note">
+        Curated recommendations, with linked sources. Live prices and stock are
+        not checked. Please leave personal information out of your message.
+      </p>
+      {!!latest?.products.length && (
+        <div className="shopping-feedback">
+          <span>
+            Did this help? Share the topic, budget range and rating (not your
+            message).
+          </span>
+          <button
+            type="button"
+            disabled={!!feedback}
+            onClick={() => void rate(true)}
+          >
+            Yes
+          </button>
+          <button
+            type="button"
+            disabled={!!feedback}
+            onClick={() => void rate(false)}
+          >
+            Not yet
+          </button>
+          <span role="status">{feedback}</span>
         </div>
-      </section>
-    </>
+      )}
+    </div>
   );
 }

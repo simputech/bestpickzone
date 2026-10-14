@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "espresso-machines",
+    "title": "Espresso machines",
+    "oldSlug": "breville-bambino-deals",
+    "examples": [
+      "I want to steam milk myself",
+      "I want automatic milk for lattes"
+    ]
+  },
+  {
+    "slug": "ice-cream-makers",
+    "title": "Ice cream makers",
+    "oldSlug": "ninja-creami-deals",
+    "examples": [
+      "I want individual frozen bases and mix-ins",
+      "I prefer traditional churning"
+    ]
+  },
+  {
+    "slug": "stand-mixers",
+    "title": "Stand mixers",
+    "oldSlug": "kitchenaid-stand-mixer-deals",
+    "examples": [
+      "Mostly cakes and cookies",
+      "Frequent bread and larger batches"
+    ]
+  },
+  {
+    "slug": "pizza-ovens",
+    "title": "Pizza ovens",
+    "oldSlug": "ooni-koda-12-deals",
+    "examples": [
+      "Outdoors with gas",
+      "Indoors with electricity"
+    ]
+  },
+  {
+    "slug": "hair-stylers",
+    "title": "Hair stylers",
+    "oldSlug": "dyson-airwrap-refurbished-deals",
+    "examples": [
+      "I want an Airwrap attachment kit",
+      "I want a dryer that also styles"
+    ]
+  },
+  {
+    "slug": "coffee-grinders",
+    "title": "Coffee grinders",
+    "oldSlug": "baratza-encore-esp-deals",
+    "examples": [
+      "Espresso and filter coffee",
+      "Filter coffee only"
+    ]
+  },
+  {
+    "slug": "desktop-controllers",
+    "title": "Desktop shortcut controllers",
+    "oldSlug": "elgato-stream-deck-mk2-deals",
+    "examples": [
+      "Mostly shortcut keys",
+      "Dials for volume and adjustments"
+    ]
+  },
+  {
+    "slug": "e-readers",
+    "title": "E-readers",
+    "oldSlug": "kindle-paperwhite-deals",
+    "examples": [
+      "Compact black-and-white for novels",
+      "Color and page-turn buttons",
+      "I want to keep my Kindle library"
+    ]
+  },
+  {
+    "slug": "wireless-earbuds",
+    "title": "Wireless earbuds",
+    "oldSlug": "airpods-pro-deals",
+    "examples": [
+      "I use an iPhone",
+      "I use Android and other devices"
+    ]
+  },
+  {
+    "slug": "lego-display-sets",
+    "title": "LEGO display sets",
+    "oldSlug": "lego-millennium-falcon-deals",
+    "examples": [
+      "A smaller shelf display",
+      "A large collector project"
+    ]
+  }
+]

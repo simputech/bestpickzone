@@ -30,7 +30,7 @@ const navItems: NavItem[] = [
   {
     label: 'More',
     children: [
-      { href: '/deals', label: 'Deal Guides' },
+      { href: '/deals', label: 'Find a product' },
       { href: '/deal-alerts', label: 'Watchlist & Alerts' },
       { href: '/amazon-offers', label: 'Amazon Memberships' },
       { href: '/tech', label: 'Tech' },

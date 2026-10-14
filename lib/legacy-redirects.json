@@ -19,5 +19,15 @@
   "/wp-sitemap.xml": "/sitemap.xml",
   "/post-sitemap.xml": "/sitemap.xml",
   "/wp-sitemap-posts-page-1.xml": "/sitemap.xml",
-  "/books/best-books-for-people-who-dont-like-reading": "/books/reader-picks/best-books-for-people-who-dont-like-reading"
+  "/books/best-books-for-people-who-dont-like-reading": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+  "/deals/breville-bambino-deals": "/deals/espresso-machines",
+  "/deals/ninja-creami-deals": "/deals/ice-cream-makers",
+  "/deals/kitchenaid-stand-mixer-deals": "/deals/stand-mixers",
+  "/deals/ooni-koda-12-deals": "/deals/pizza-ovens",
+  "/deals/dyson-airwrap-refurbished-deals": "/deals/hair-stylers",
+  "/deals/baratza-encore-esp-deals": "/deals/coffee-grinders",
+  "/deals/elgato-stream-deck-mk2-deals": "/deals/desktop-controllers",
+  "/deals/kindle-paperwhite-deals": "/deals/e-readers",
+  "/deals/airpods-pro-deals": "/deals/wireless-earbuds",
+  "/deals/lego-millennium-falcon-deals": "/deals/lego-display-sets"
 }

@@ -17,7 +17,7 @@
     "validate:metadata": "node scripts/validate-metadata.mjs",
     "test:metadata": "node --test scripts/metadata.test.mjs",
     "validate:indexability": "node scripts/validate-indexability.mjs",
-    "test:deals": "node --test scripts/deals/unit.test.cjs",
+    "test:deals": "node --test scripts/deals/*.test.cjs",
     "deals:insights": "node scripts/deals/insights.mjs"
   },
   "dependencies": {

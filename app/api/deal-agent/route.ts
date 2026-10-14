@@ -1,40 +1,43 @@
 import { NextResponse } from "next/server";
-import {
-  matchGuides,
-  queryBudget,
-  queryIntent,
-  retailerSearches,
-} from "@/lib/deals/catalog";
 import { requestBody } from "@/lib/deals/backend";
+import { recommend, findCategory } from "@/lib/deals/recommend";
 export async function POST(request: Request) {
   try {
-    const b = await requestBody(request);
-    const q = String(b.query || "").trim();
-    if (q.length < 3 || q.length > 400)
+    const body = await requestBody(request);
+    if (
+      typeof body.query !== "string" ||
+      body.query.trim().length < 3 ||
+      body.query.length > 400
+    )
       return NextResponse.json(
-        { error: "Ask a shopping question between 3 and 400 characters." },
+        { error: "Tell me what you need in 3–400 characters." },
         { status: 400 },
       );
-    const guides = matchGuides(q);
-    return NextResponse.json({
-      budget: queryBudget(q),
-      intent: queryIntent(q),
-      livePrices: false,
-      guides: guides.map((g) => ({
-        slug: g.slug,
-        product: g.product,
-        title: g.title,
-        answer: g.answer,
-        checks: g.checks,
-        searches: retailerSearches(g.product),
-      })),
-      message: guides.length
-        ? "Start with these buying checks, then compare the same model at each retailer."
-        : "We do not yet have a matching product guide. Try a product name below, or use WinBlackFriday to check an offer. No product or price has been verified.",
-    });
+    if (
+      body.category !== undefined &&
+      (typeof body.category !== "string" || !findCategory(body.category))
+    )
+      return NextResponse.json(
+        { error: "Please choose one of our shopping categories." },
+        { status: 400 },
+      );
+    const history = body.history ?? [];
+    if (
+      !Array.isArray(history) ||
+      history.length > 6 ||
+      history.some((s: unknown) => typeof s !== "string" || s.length > 400)
+    )
+      return NextResponse.json(
+        { error: "Start a new chat and try again." },
+        { status: 400 },
+      );
+    return NextResponse.json(
+      recommend(body.query.trim(), body.category, history),
+      { headers: { "Cache-Control": "no-store" } },
+    );
   } catch {
     return NextResponse.json(
-      { error: "Please enter a valid shopping question." },
+      { error: "We could not read that request. Please try again." },
       { status: 400 },
     );
   }
