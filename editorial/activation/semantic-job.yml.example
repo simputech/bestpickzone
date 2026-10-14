@@ -1,0 +1,40 @@
+# INERT REFERENCE FRAGMENT: outside .github/workflows, not an activatable workflow.
+# Copy only in the separately reviewed activation PR after all README prerequisites.
+# Requires a trusted producer; PR-authored packs/reports cannot authorize publication.
+semantic:
+  # Workflow/controller must be from an approved immutable policy commit.
+  # Do not use pull_request_target with PR checkout.
+  runs-on: ubuntu-latest
+  timeout-minutes: 15
+  permissions:
+    contents: read
+  environment: editorial-review # Must already be protected before activation.
+  outputs:
+    report: ${{ steps.review.outputs.final-message }}
+  steps:
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      with:
+        ref: REPLACE_WITH_APPROVED_40_CHARACTER_POLICY_COMMIT
+        persist-credentials: false
+        path: trusted
+    # Obtain data-only input from the expected producer run ID and head SHA.
+    # Verify identity/digest/size/coverage in a separate clean controller first.
+    # Copy only normalized JSON to inputs/, not a PR checkout, .git or configuration.
+    # A separately isolated research stage supplies primary-source snapshots.
+    - name: Independent read-only semantic review
+      id: review
+      uses: openai/codex-action@bdf19a4a223ec2549a3e2274a0cf61556bc07675 # v1 resolved 2026-10-06
+      with:
+        openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+        codex-version: REPLACE_WITH_REVIEWED_EXACT_CLI_VERSION
+        model: REPLACE_WITH_APPROVED_MODEL
+        working-directory: trusted
+        prompt-file: trusted/editorial/reviewer-prompt.md
+        output-schema-file: trusted/editorial/review.schema.json
+        permission-profile: ':read-only'
+        safety-strategy: drop-sudo
+        allow-bots: false
+        # Final step: no credentialed publishing or script execution after the model.
+# Report is untrusted output. A fresh job validates it with trusted code and verifies
+# producer provenance and latest head via GitHub API. Never execute output as shell.
+# Do not set checks/status write, contents write or deploy secrets in this job.
