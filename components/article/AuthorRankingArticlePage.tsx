@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
+import AmazonBookCard from '@/components/article/AmazonBookCard'
+import type { AmazonBookItem } from '@/lib/amazon-book-match'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { withSeo } from '@/lib/seo-metadata'
 import { authorRankingGuides } from '@/lib/author-ranking-guides'
 
-type AuthorRankingArticle = {
+export type AuthorRankingArticle = {
   author: string
   title: string
   seoTitle: string
@@ -40,7 +42,14 @@ function displayDate(date: string) {
   return new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`))
 }
 
-export default function AuthorRankingArticlePage({ article }: { article: AuthorRankingArticle }) {
+export default function AuthorRankingArticlePage({ article, bookProducts }: { article: AuthorRankingArticle; bookProducts?: Record<string, AmazonBookItem> }) {
+  const bookCta = (title: string, placement: string) => {
+    const trackingId = `${article.path.split('/').pop()}-${placement}`
+    const product = bookProducts?.[title]
+    if (product) return <AmazonBookCard item={product} trackingId={trackingId} />
+    const fallback = <BookCTA title={title} author={article.author} trackingId={trackingId} ctaLabel={`Find ${title} editions on Amazon`} />
+    return bookProducts ? <div data-amazon-source="fallback">{fallback}</div> : fallback
+  }
   const related = article.relatedPaths.map(path => authorRankingGuides.find(guide => guide.path === path)).filter(guide => guide !== undefined)
   const schema = {
     '@context': 'https://schema.org',
@@ -89,11 +98,11 @@ export default function AuthorRankingArticlePage({ article }: { article: AuthorR
             <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-slate-600">Author reading guide · {Math.ceil(article.words / 220)} min read</p>
             <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 sm:text-5xl">{article.title}</h1>
             <p className="mb-4 text-sm text-gray-600">By BestPickZone Editorial Team · Published <time dateTime={article.published}>{displayDate(article.published)}</time> · Sources checked <time dateTime={article.verified}>{displayDate(article.verified)}</time></p>
-            <p className="affiliate-disclosure">As an Amazon Associate we earn from qualifying purchases. Shopping links below are Amazon searches for the named book and author; check the edition, language and format before buying.</p>
+            <p className="affiliate-disclosure">As an Amazon Associate we earn from qualifying purchases. {bookProducts ? 'Shopping links lead to the featured Amazon edition, or to an Amazon search when a matching listing is unavailable. Check the edition, language and format before buying.' : 'Shopping links below are Amazon searches for the named book and author; check the edition, language and format before buying.'}</p>
           </header>
 
           <div className="comparison-html [&_a]:break-words [&_a]:underline [&_a]:decoration-amber-400 [&_a]:underline-offset-4" dangerouslySetInnerHTML={{ __html: article.introHtml }} />
-          <BookCTA title={article.topPick} author={article.author} trackingId={`${article.path.split('/').pop()}-top-pick`} ctaLabel={`Find ${article.topPick} editions on Amazon`} />
+          {bookCta(article.topPick, 'top-pick')}
 
           <nav aria-label="Jump to a ranked book" className="my-8 rounded-2xl border border-slate-200 bg-slate-50 p-5">
             <p className="mb-3 font-semibold text-gray-900">Jump to a book</p>
@@ -108,9 +117,12 @@ export default function AuthorRankingArticlePage({ article }: { article: AuthorR
             <section key={section.id} id={section.id} className={`scroll-mt-6 ${section.bookTitle ? 'my-8 rounded-2xl border border-slate-200 bg-white p-5 sm:p-7' : 'my-10'}`}>
               <h2 className="mb-4 text-2xl font-bold leading-snug text-gray-900">{section.heading}</h2>
               <div className="comparison-html [&_a]:break-words [&_a]:underline [&_a]:decoration-amber-400 [&_a]:underline-offset-4 [&_ol]:mb-5 [&_ol]:ml-6 [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:leading-relaxed" dangerouslySetInnerHTML={{ __html: section.html }} />
-              {section.bookTitle && <BookCTA title={section.bookTitle} author={article.author} trackingId={`${article.path.split('/').pop()}-rank-${section.rank}`} ctaLabel={`Find ${section.bookTitle} editions on Amazon`} />}
+              {section.bookTitle && bookCta(section.bookTitle, `rank-${section.rank}`)}
             </section>
           ))}
+          {bookProducts && Object.keys(bookProducts).length > 0 && (
+            <p className="mt-8 text-xs leading-relaxed text-gray-600">CERTAIN CONTENT THAT APPEARS ON THIS SITE COMES FROM AMAZON. THIS CONTENT IS PROVIDED ‘AS IS’ AND IS SUBJECT TO CHANGE OR REMOVAL AT ANY TIME.</p>
+          )}
         </article>
 
         <aside className="mt-12 border-t border-slate-200 pt-8" aria-labelledby="related-author-guides">
