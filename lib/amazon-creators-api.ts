@@ -1,6 +1,7 @@
 import 'server-only'
 
 import { unstable_cache } from 'next/cache'
+import { matchAmazonBook, type AmazonBookItem, type AmazonBookRequest, type AmazonBookResponseItem } from './amazon-book-match'
 
 type CreatorsApiTokenResponse = {
   access_token?: string
@@ -207,4 +208,68 @@ export async function searchAmazonProduct(query: string) {
   }
 
   return cachedSearchAmazonProduct(query)
+}
+
+
+// Only the two opted-in author pages use these book-specific lookups.
+// No product payload is written to disk or persisted in the Next data cache.
+const BOOK_CACHE_MS = 60 * 60 * 1000
+const bookCache = new Map<string, { expiresAt: number; items: Record<string, AmazonBookItem> }>()
+const bookRequests = new Map<string, Promise<Record<string, AmazonBookItem>>>()
+
+async function fetchAmazonBooks(books: AmazonBookRequest[]): Promise<Record<string, AmazonBookItem>> {
+  try {
+    const accessToken = await getAccessToken()
+    const { marketplace, partnerTag } = creatorsApiConfig()
+    const response = await fetch(`${API_BASE_URL}/catalog/v1/getItems`, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${accessToken}`, 'Content-Type': 'application/json', 'x-marketplace': marketplace },
+      body: JSON.stringify({
+        itemIds: books.map(book => book.asin),
+        itemIdType: 'ASIN',
+        marketplace,
+        partnerTag,
+        resources: ['images.primary.large', 'itemInfo.title', 'itemInfo.byLineInfo', 'itemInfo.classifications', 'itemInfo.contentInfo'],
+      }),
+      cache: 'no-store',
+      signal: AbortSignal.timeout(8000),
+    })
+    if (!response.ok) {
+      console.warn(`Amazon book lookup failed with HTTP ${response.status}; keeping search links.`)
+      return {}
+    }
+    const payload = await response.json() as { itemsResult?: { items?: AmazonBookResponseItem[] } }
+    const fetchedAt = new Date().toISOString()
+    const matched: Record<string, AmazonBookItem> = {}
+    for (const expected of books) {
+      const item = payload.itemsResult?.items?.find(candidate => candidate.asin === expected.asin)
+      const valid = item && matchAmazonBook(item, expected, partnerTag, fetchedAt)
+      if (valid) matched[expected.title] = valid
+    }
+    return matched
+  } catch {
+    console.warn('Amazon book lookup failed; keeping search links.')
+    return {}
+  }
+}
+
+export async function getAmazonBooks(books: AmazonBookRequest[]): Promise<Record<string, AmazonBookItem>> {
+  if (!isAmazonCreatorsApiConfigured() || !books.length || books.length > 10) return {}
+  const now = Date.now()
+  for (const [key, entry] of bookCache) if (entry.expiresAt <= now) bookCache.delete(key)
+  const { marketplace, partnerTag } = creatorsApiConfig()
+  const key = JSON.stringify([marketplace, partnerTag, books])
+  const cached = bookCache.get(key)
+  if (cached) return cached.items
+  const pending = bookRequests.get(key)
+  if (pending) return pending
+
+  const request = fetchAmazonBooks(books).then(items => {
+    // Short negative cache prevents repeated failures from exhausting the API.
+    const ttl = Object.keys(items).length === books.length ? BOOK_CACHE_MS : 60_000
+    bookCache.set(key, { expiresAt: Date.now() + ttl, items })
+    return items
+  }).finally(() => bookRequests.delete(key))
+  bookRequests.set(key, request)
+  return request
 }
