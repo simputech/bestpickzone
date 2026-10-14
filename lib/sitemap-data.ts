@@ -1,3 +1,4 @@
+import { authorRankingGuides } from './author-ranking-guides'
 import { categories } from './deals/recommend'
 import { bountyArticles, bountyDate, bountyVideoSlug } from './bounty-data'
 import { buyingGuides, guideDate } from './buying-guide-data'
@@ -27,8 +28,9 @@ export const techSlugs: { slug: string; date: string }[] = [
 ]
 
 export const standaloneBookPages: SitemapEntry[] = [
+  ...authorRankingGuides.map((guide) => ({ url: guide.canonical, lastModified: guide.published, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/books`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.95 },
-  { url: `${baseUrl}/books/authors`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.9 },
+  { url: `${baseUrl}/books/authors`, lastModified: '2026-10-14', changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/books/genre-fiction`, lastModified: contentRefreshDate, changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/books/self-help`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.9 },
   { url: `${baseUrl}/books/kids-and-ya`, lastModified: '2026-10-03', changeFrequency: 'weekly', priority: 0.9 },
@@ -76,7 +78,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/genre-fiction/devils-guard-review`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/genre-fiction/best-legal-thriller-books`, lastModified: '2026-08-01', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/authors-like-colleen-hoover`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/books/authors/best-alex-michaelides-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/books/authors/best-alex-michaelides-books`, lastModified: '2026-10-14', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/best-lee-child-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/authors/best-patrick-radden-keefe-books`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/books/reader-picks/best-new-books-april-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.85 },
