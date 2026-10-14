@@ -1,0 +1,685 @@
+{
+  "coffee-grinders": {
+    "title": "Coffee Grinders: Choose by Brewing Method",
+    "description": "Choose a coffee grinder for espresso, filter or both. Compare Encore and Encore ESP, learn what matters, and ask the Deal Agent to narrow your shortlist.",
+    "answer": "Start with the Baratza Encore for filter-only coffee; consider the Encore ESP if espresso is part of your routine. The difference that matters is espresso adjustment, not the similar model names.",
+    "overview": "A grinder should match the coffee you actually make. A French press household and a Bambino owner need different control over grind size. Our two-product shortlist starts with that distinction; it does not claim to cover every electric or manual grinder. If you already own a grinder, identify the problem before replacing it: awkward adjustment, inconvenient dosing or a brewing method it was not designed around.",
+    "sections": [
+      {
+        "heading": "Espresso needs fine adjustment, not just a fine setting",
+        "text": "The Encore ESP manual divides its adjustment into an espresso range, settings 1–20, and a filter range, 21–40. The smaller changes in the espresso range are its practical distinction. For a buyer, the question is whether you need to fine-tune espresso shots, not simply whether a grinder can produce small particles. These numbers are starting points, not a universal recipe for every bean."
+      },
+      {
+        "heading": "Choose a workflow you will repeat every morning",
+        "text": "Decide whether you want to weigh beans for each cup or keep beans in the hopper and measure the output. Think through where the grounds go: a filter basket, a catch bin or a portafilter. A dosing cup is useful only if it makes that transfer easier. Leave room for a scale and a place to brush away spilled grounds."
+      },
+      {
+        "heading": "Do not let burr labels replace the buying decision",
+        "text": "Burr shape and material alone do not tell you whether a grinder fits your routine. For this shortlist, adjustment range and handling are more actionable. We have not measured particle distribution, retention or noise, so we do not rank these models on those grounds. If quiet operation is essential, seek model-specific noise evidence before buying."
+      }
+    ],
+    "checks": [
+      "Write down every brewing method you use, including any espresso machine you already own.",
+      "Compare the exact Encore or Encore ESP model, included cup or bin, and warranty terms.",
+      "Budget for a scale if you do not own one; check access for cleaning and replacement parts.",
+      "Check today’s delivered price for the selected model instead of treating a sale badge as evidence of value."
+    ],
+    "faqs": [
+      {
+        "question": "Is the Encore ESP worth considering for filter coffee only?",
+        "answer": "For filter-only use, our starting point is the Encore. The ESP becomes more relevant when you also make espresso or have a definite plan to do so. Do not pay for a hypothetical upgrade without comparing the actual price difference."
+      },
+      {
+        "question": "Can one grinder handle espresso and pour-over?",
+        "answer": "The Encore ESP supports both ranges. The practical compromise is switching settings and returning to your espresso recipe, so keep a note of the settings and dose that work for each coffee. It does not dial in the shot automatically."
+      },
+      {
+        "question": "Should I replace my grinder before my espresso machine?",
+        "answer": "First identify the limitation. If the grinder cannot make useful small adjustments for espresso, that is a reason to investigate it before buying a different machine. A cleaning or technique issue calls for a different solution; this shortlist cannot diagnose a faulty setup."
+      }
+    ],
+    "picks": [
+      {
+        "id": "espresso",
+        "fit": "Espresso, or espresso plus filter",
+        "skip": "Skip this if you only brew filter coffee and have no reason to pay for espresso adjustment."
+      },
+      {
+        "id": "filter",
+        "fit": "Drip, pour-over and French press",
+        "skip": "Skip this if espresso is a regular part of your routine."
+      }
+    ],
+    "links": [
+      {
+        "href": "/coffee/best-espresso-grinders-for-breville-bambino",
+        "label": "Grinders to pair with a Breville Bambino"
+      },
+      {
+        "href": "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+        "label": "Encore ESP versus Fellow Opus"
+      },
+      {
+        "href": "/coffee/best-burr-grinders-french-press-cold-brew",
+        "label": "Grinders for French press and cold brew"
+      },
+      {
+        "href": "/coffee",
+        "label": "Explore our coffee buying guides"
+      }
+    ],
+    "prompt": "Tell us whether you brew espresso, filter coffee or both, and what you want to spend."
+  },
+  "espresso-machines": {
+    "title": "Espresso Machines: Choose Your Milk Workflow",
+    "description": "Compare hands-on and automatic milk espresso setups. See Bambino tradeoffs, plan your grinder budget, and ask the Deal Agent which routine fits you.",
+    "answer": "Start with the Breville Bambino for hands-on milk steaming; consider the Bambino Plus when automatic milk texturing is the feature you will use every day. Neither removes the need to prepare the coffee.",
+    "overview": "The right home espresso machine depends on the drinks you make and the work you want to do. Our shortlist covers two compact machines with different milk workflows, not capsule machines or fully automatic bean-to-cup systems. Decide whether learning the process is part of the appeal before spending more on equipment. A convenient steam wand does not make the whole routine automatic.",
+    "sections": [
+      {
+        "heading": "Choose around the drinks you repeat",
+        "text": "For straight espresso, automatic milk texturing has little relevance. For morning lattes, it can change the task you perform most often. The Bambino uses a manual wand; the Plus offers automatic milk texturing. Our recommendation follows that difference rather than declaring one machine universally better. If you enjoy practicing milk technique, manual control can be a reason to choose the simpler option."
+      },
+      {
+        "heading": "Set a budget for the whole espresso station",
+        "text": "Separate your machine budget from your complete setup budget. Account for an espresso-capable grinder, a scale and the cleaning supplies specified in the manual. Check the included baskets, jug and tamper before buying an accessory bundle. Spending the entire allowance on the machine can leave you without a useful way to prepare the coffee."
+      },
+      {
+        "heading": "Measure working space as well as the footprint",
+        "text": "You need room to insert the portafilter, move a milk jug and refill water, not just somewhere to park the machine. Plan where the grinder and scale will sit. If several people share the setup, discuss whether each person wants to learn the same preparation routine; convenience is a household decision as much as a specification."
+      }
+    ],
+    "checks": [
+      "Choose manual or automatic milk texturing based on your regular drinks.",
+      "Confirm BES450 versus BES500 and the accessories in that exact listing.",
+      "Read the cleaning routine before buying; include it in your assessment of convenience.",
+      "Compare the machine, grinder and necessary accessories as a complete purchase."
+    ],
+    "faqs": [
+      {
+        "question": "Does the Bambino Plus grind the beans?",
+        "answer": "No. Its automatic milk feature does not include grinding. You still need a coffee preparation plan, and an appropriate grinder is part of a fresh-bean setup."
+      },
+      {
+        "question": "Which option makes more sense for black coffee drinkers?",
+        "answer": "The Bambino is our starting point in this shortlist when you mainly want espresso and do not need automatic milk. That is a fit recommendation, not a claim that it beats every alternative in taste tests."
+      },
+      {
+        "question": "Do I need a large accessory bundle?",
+        "answer": "Start with the included equipment and add an accessory only when it solves a specific problem. Confirm sizes and compatibility with your exact machine. A bundle with unused tools can be poorer value even when its discount looks larger."
+      }
+    ],
+    "picks": [
+      {
+        "id": "manual",
+        "fit": "Hands-on espresso and milk preparation",
+        "skip": "Skip this if automatic milk texturing is a must-have."
+      },
+      {
+        "id": "automatic",
+        "fit": "Frequent lattes with less manual milk work",
+        "skip": "Skip this if you expect automatic grinding and fully automatic coffee preparation."
+      }
+    ],
+    "links": [
+      {
+        "href": "/coffee/best-espresso-grinders-for-breville-bambino",
+        "label": "Choose a grinder for the Bambino"
+      },
+      {
+        "href": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+        "label": "Useful Bambino Plus accessories"
+      },
+      {
+        "href": "/deals/coffee-grinders",
+        "label": "Find a grinder by brewing method"
+      },
+      {
+        "href": "/coffee",
+        "label": "Browse coffee equipment guides"
+      }
+    ],
+    "prompt": "Tell us whether you want to steam milk yourself or prefer automatic milk, plus your total setup budget."
+  },
+  "ice-cream-makers": {
+    "title": "Ice Cream Makers: Frozen Base or Traditional Churn?",
+    "description": "Choose between frozen-base processing and freezer-bowl churning. Compare CREAMi and Cuisinart routines, freezer space and cleanup before asking our Deal Agent.",
+    "answer": "Start with the Ninja CREAMi NC301 for individually prepared frozen bases; consider the Cuisinart ICE-21P1 for traditional freezer-bowl churning. Both require preparation before dessert time.",
+    "overview": "An ice cream maker is as much a freezer-space decision as a countertop purchase. Think about the portion you want to serve, how many flavors you make and whether you can prepare ahead. Our shortlist compares two different workflows. It does not include compressor machines that refrigerate their own bowls, so neither recommendation solves a requirement for no advance freezing.",
+    "sections": [
+      {
+        "heading": "Frozen bases suit planned individual flavors",
+        "text": "The NC301 processes a base that you prepare and freeze in advance. That makes it relevant when household members want separate flavors or mix-ins. The important purchase question is whether you will keep prepared containers ready. Do not mistake a short processing step for a short total preparation time; follow the model’s recipes and freezing instructions."
+      },
+      {
+        "heading": "A freezer bowl suits a shared batch",
+        "text": "The ICE-21P1 churns a mixture using a pre-frozen bowl. Before choosing it, find a permanent place for that bowl in your freezer and decide where you will store the finished dessert. If you want several flavors back to back, check the manual’s requirements for bowl freezing between batches instead of assuming unlimited repeat use."
+      },
+      {
+        "heading": "Count containers, cleanup and storage",
+        "text": "Lay out the workflow from mixing the base to washing the parts. Extra containers are useful when they serve a plan, but container compatibility matters more than a bundle count. CREAMi accessories are not interchangeable merely because the product names sound similar. Check the series number, lids and manufacturer cleaning instructions before adding extras."
+      }
+    ],
+    "checks": [
+      "Choose individual frozen bases or a shared churned batch.",
+      "Measure freezer space for the required container or bowl, including its upright storage needs.",
+      "Check the model number before buying spare pints, bowls or lids.",
+      "Compare total preparation time, not only the machine’s active cycle."
+    ],
+    "faqs": [
+      {
+        "question": "Does the Ninja CREAMi make ice cream instantly?",
+        "answer": "No. The NC301 workflow starts with preparing and freezing a base before processing. It suits planning ahead, not an expectation of pouring in room-temperature ingredients and immediately serving frozen dessert."
+      },
+      {
+        "question": "Is the Cuisinart ICE-21P1 a compressor machine?",
+        "answer": "No. It uses a freezer bowl. If avoiding advance bowl freezing is your main requirement, this model is outside that requirement even if a promotion makes it attractive."
+      },
+      {
+        "question": "Should I buy extra CREAMi containers immediately?",
+        "answer": "Only after confirming the machine series and deciding how many flavors you will keep ready. One extra compatible container you regularly use can be more useful than a larger mismatched accessory pack."
+      }
+    ],
+    "picks": [
+      {
+        "id": "frozen-base",
+        "fit": "Separate prepared flavors and mix-ins",
+        "skip": "Skip this if you cannot plan and freeze bases ahead."
+      },
+      {
+        "id": "churn",
+        "fit": "Traditional batch churning",
+        "skip": "Skip this if you cannot dedicate freezer space to the bowl."
+      }
+    ],
+    "links": [
+      {
+        "href": "/home-kitchen/ninja-creami-containers-compatibility",
+        "label": "Check CREAMi container compatibility"
+      },
+      {
+        "href": "/home-kitchen",
+        "label": "Explore home and kitchen guides"
+      },
+      {
+        "href": "/deals/stand-mixers",
+        "label": "Choose a stand mixer for your baking routine"
+      }
+    ],
+    "prompt": "Tell us whether you prefer individual frozen bases or traditional churning, and how much freezer space you have."
+  },
+  "stand-mixers": {
+    "title": "Stand Mixers: Choose for Your Recipes and Space",
+    "description": "Compare tilt-head and bowl-lift stand mixers by recipes, access and batch size. See practical KitchenAid tradeoffs and narrow your choice with the Deal Agent.",
+    "answer": "Start with the KitchenAid Artisan 5-quart tilt-head for everyday cakes and cookies; compare the 5.5-quart bowl-lift for frequent mixing and larger batches. Check recipe limits before treating bowl size as dough capacity.",
+    "overview": "The useful mixer is the one you can comfortably use for your normal recipe, not the one with the largest bowl or most attachments. Our shortlist compares two KitchenAid formats. It is a starting point for household baking, not a recommendation for commercial production. Write down what you bake most often and the size of a normal batch before comparing offers.",
+    "sections": [
+      {
+        "heading": "Tilt-head access versus bowl-lift access",
+        "text": "A tilt-head design lifts the motor head away from the bowl; a bowl-lift design raises and lowers the supported bowl. Imagine adding ingredients, scraping the bowl and changing the beater where the mixer will actually sit. A low cabinet or cramped corner can make a seemingly compact mixer inconvenient once you start using it."
+      },
+      {
+        "heading": "Match capacity to a real recipe",
+        "text": "Bowl volume is not a promise that any dough can fill it. Check the exact model’s manual for quantities, speeds and mixing instructions, especially for bread. If you mostly make modest batches of cake batter, buying for an occasional oversized project can be the wrong priority. Splitting an uncommon large batch may suit your kitchen better than storing a larger machine all year."
+      },
+      {
+        "heading": "Attachments should follow the mixer choice",
+        "text": "Choose the base machine for mixing first. Then identify a task you really want an attachment to perform, such as rolling pasta. Verify the accessory against the exact model and check which beaters and bowl are included. Owning more attachments does not fix a mixer that is awkward to lift out of a cupboard or too inconvenient to clean."
+      }
+    ],
+    "checks": [
+      "List your three most frequent recipes and normal batch sizes.",
+      "Measure operating clearance, including room to tilt the head or remove the bowl.",
+      "Check dough limits in the exact model’s manual rather than comparing watts alone.",
+      "Price only the attachments you intend to use and check their compatibility."
+    ],
+    "faqs": [
+      {
+        "question": "Is a bowl-lift mixer always better than a tilt-head?",
+        "answer": "No. The bowl-lift format is worth comparing for frequent mixing and larger batches, but access, storage and the recipes you make may favor the Artisan. A larger machine is not automatically more convenient."
+      },
+      {
+        "question": "Can I judge bread capacity from the bowl size?",
+        "answer": "No. Use the model’s dough limits and instructions. A bowl’s stated volume does not account for the demands of every recipe, so do not convert quarts into a promised number of loaves."
+      },
+      {
+        "question": "Should I choose a mixer because a pasta attachment is included?",
+        "answer": "Only if the mixer itself fits your baking and you want that particular pasta tool. A roller and a press perform different jobs. Compare the package against buying the suitable machine and the one attachment you actually need."
+      }
+    ],
+    "picks": [
+      {
+        "id": "everyday",
+        "fit": "Cakes, cookies and everyday batters",
+        "skip": "Skip this if your usual recipe exceeds the exact model’s mixing limits."
+      },
+      {
+        "id": "batches",
+        "fit": "Frequent mixing and larger batches",
+        "skip": "Skip this if storage and lifting make it unlikely you will use it regularly."
+      }
+    ],
+    "links": [
+      {
+        "href": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+        "label": "KitchenAid attachments worth considering"
+      },
+      {
+        "href": "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+        "label": "Pasta roller versus pasta press"
+      },
+      {
+        "href": "/home-kitchen",
+        "label": "Browse kitchen buying guides"
+      }
+    ],
+    "prompt": "Tell us whether you mostly bake cakes and cookies or make frequent bread and larger batches."
+  },
+  "pizza-ovens": {
+    "title": "Pizza Ovens: Choose Indoor Electric or Outdoor Gas",
+    "description": "Choose a pizza oven by cooking location, fuel and working space. Compare Ooni Koda 12 and Volt 2 tradeoffs, then ask the Deal Agent for a starting recommendation.",
+    "answer": "Start with the Ooni Koda 12 for a suitable outdoor gas setup; consider the Ooni Volt 2 when indoor electric cooking is essential. Location and fuel should decide the shortlist before a discount does.",
+    "overview": "A pizza oven needs a cooking station, not merely an empty patch of counter. Think about where you will stretch dough, place a peel and set a hot pizza down. Our shortlist covers one outdoor gas format and one indoor electric format; it does not compare every fuel, oven size or brand. Choosing the correct operating environment comes before comparing cooking claims.",
+    "sections": [
+      {
+        "heading": "Decide where the oven can safely operate",
+        "text": "The Koda 12 is an outdoor gas oven; the Volt 2 is an indoor electric model. These are different solutions, not interchangeable versions of the same purchase. Follow the exact manual for placement, ventilation and clearances. An open window does not turn an indoor room into an appropriate location for an outdoor gas oven."
+      },
+      {
+        "heading": "Plan a workspace around the opening",
+        "text": "Measure the oven and the space needed to use a peel comfortably. Think about the route from dough preparation to the oven and then to serving. If the only available spot leaves you twisting around furniture with the peel, rethink the layout before ordering. A convenient setup matters especially when making several pizzas for other people."
+      },
+      {
+        "heading": "Compare the complete fuel and accessory plan",
+        "text": "For a gas model, confirm the regional fuel requirements and required connections. For an electric model, check the power requirements where you intend to cook. Include a suitable peel, a stable surface and any storage protection you need in the budget. Do not value a bundle by accessory count; a peel that fits your oven is the useful inclusion."
+      }
+    ],
+    "checks": [
+      "Confirm indoor electric or genuinely outdoor gas use.",
+      "Check model-specific clearance, fuel or electrical requirements in the manual.",
+      "Measure the operating area with room to launch and retrieve a pizza.",
+      "Compare the complete setup, including a compatible peel and suitable surface."
+    ],
+    "faqs": [
+      {
+        "question": "Can I use the Koda 12 indoors?",
+        "answer": "No. It is an outdoor gas oven. If cooking indoors is a requirement, compare an oven designed for indoor use, such as the Volt 2, and follow its placement instructions."
+      },
+      {
+        "question": "Is indoor electric automatically the better choice for an apartment?",
+        "answer": "Only if the appliance and its operating requirements fit your available space and applicable building rules. Check the counter, clearances and power supply before deciding. The word apartment alone is not enough to confirm suitability."
+      },
+      {
+        "question": "What should I buy with a pizza oven first?",
+        "answer": "Prioritize a suitable peel and a workable cooking surface, after checking what is already included. Decorative extras can wait. The right accessory depends on the oven opening and your layout, so avoid choosing a generic bundle solely for its discount."
+      }
+    ],
+    "picks": [
+      {
+        "id": "outdoor",
+        "fit": "Outdoor cooking with gas",
+        "skip": "Skip this if you need to cook indoors."
+      },
+      {
+        "id": "indoor",
+        "fit": "An indoor electric cooking station",
+        "skip": "Skip this if the required power or clearances do not fit your space."
+      }
+    ],
+    "links": [
+      {
+        "href": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+        "label": "Compare Ooni and Gozney outdoor ovens"
+      },
+      {
+        "href": "/home-kitchen/best-pizza-peels-ooni-koda-12",
+        "label": "Choose a peel for the Koda 12"
+      },
+      {
+        "href": "/home-kitchen",
+        "label": "Explore kitchen equipment guides"
+      }
+    ],
+    "prompt": "Tell us whether you will cook outdoors with gas or indoors with electricity, plus your available space."
+  },
+  "hair-stylers": {
+    "title": "Hair Stylers: Choose the Attachments You Will Use",
+    "description": "Choose an air styler by your drying routine and attachment needs. Compare Airwrap and FlexStyle tradeoffs, avoid mismatched bundles and ask the Deal Agent.",
+    "answer": "Start with a Dyson Airwrap kit when its curling and smoothing attachments match your planned styles; compare the Shark FlexStyle HD430 if a tool that converts into a conventional dryer is your priority.",
+    "overview": "The right air styler is the one whose attachments fit your routine. Buying the largest kit is not helpful if you only want a smooth blowout, and a curling-focused bundle may not include the tool you need for your usual drying method. Our shortlist compares formats and included-tool decisions. We have not tested these products on your hair and cannot promise a particular curl, finish or hold time.",
+    "sections": [
+      {
+        "heading": "Choose the finished style before choosing a kit",
+        "text": "Write down whether you want volume at the roots, smoother lengths, loose curls or a way to dry your natural texture. Then identify the attachments needed for those jobs. Dyson offers different Airwrap sets, so the family name alone does not identify a package. Start from the actual contents rather than the color or promotional photography."
+      },
+      {
+        "heading": "Decide how much drying the tool must do",
+        "text": "A styler used after partial drying serves a different routine from a tool that is your only dryer. The FlexStyle’s converting format is why it appears in this shortlist. Check the exact HD430 package rather than assuming all FlexStyle bundles contain the same accessories. Also think about where you will place hot attachments while changing tools."
+      },
+      {
+        "heading": "Treat technique and returns as part of the purchase",
+        "text": "An air styler still requires sectioning, attachment selection and learning a routine. The manufacturer’s instructions are the starting point, not a guarantee of identical results across hair types. Read the seller’s return terms for opened hair tools before ordering. If you are comparing refurbished and new products, check the exact generation, attachments, condition and warranty separately."
+      }
+    ],
+    "checks": [
+      "Name the styles you will make regularly and match each to an included attachment.",
+      "Confirm model generation and kit contents in writing.",
+      "Check storage space for the handle and attachments, not just the presentation case.",
+      "Read opened-product or refurbished return terms before comparing the final price."
+    ],
+    "faqs": [
+      {
+        "question": "Are all Dyson Airwrap kits the same?",
+        "answer": "No. The Airwrap family includes different generations and attachment sets. Compare the exact package and confirm accessory compatibility with the manufacturer; do not assume a shared family name makes every attachment interchangeable."
+      },
+      {
+        "question": "Will an air styler guarantee long-lasting curls?",
+        "answer": "No result can be promised for every hair type or routine. Technique, preparation and the style you want all matter. Use the manufacturer’s instructions and avoid buying solely because an advertisement shows one person’s result."
+      },
+      {
+        "question": "Is the biggest accessory bundle the best value?",
+        "answer": "Only if you will use the tools and they fit your needs. A smaller suitable kit can be the more sensible purchase. Compare a list of necessary attachments first, then the delivered price and seller terms."
+      }
+    ],
+    "picks": [
+      {
+        "id": "airwrap",
+        "fit": "A deliberately chosen curling and smoothing kit",
+        "skip": "Skip this if you have not confirmed that the exact kit includes your required tools."
+      },
+      {
+        "id": "dryer",
+        "fit": "One converting dryer-and-styler format",
+        "skip": "Skip this if the HD430 package omits an attachment central to your routine."
+      }
+    ],
+    "links": [
+      {
+        "href": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+        "label": "Airwrap and FlexStyle considerations for fine, flat hair"
+      },
+      {
+        "href": "/beauty",
+        "label": "Explore beauty tool guides"
+      },
+      {
+        "href": "/deals",
+        "label": "Find another product category"
+      }
+    ],
+    "prompt": "Tell us whether you want an Airwrap attachment kit or a converting dryer, and the styles you want to create."
+  },
+  "desktop-controllers": {
+    "title": "Desktop Controllers: Shortcut Keys or Dials?",
+    "description": "Choose a desktop shortcut controller by your apps and repeated tasks. Compare Stream Deck keys and dials, check compatibility, and ask the Deal Agent.",
+    "answer": "Start with the Elgato Stream Deck MK.2 when you want dedicated shortcut keys; consider Stream Deck + when turning dials is central to your work. Verify support for your actual apps before buying either.",
+    "overview": "A desktop controller earns its space by removing repeated steps from work you already do. It is less useful when you are buying hardware before identifying the tasks it should control. Our shortlist covers two Elgato layouts, not every macro pad or editing console. Begin with five actions you repeat each day and decide whether each needs a button press or a continuous adjustment.",
+    "sections": [
+      {
+        "heading": "Keys suit distinct actions; dials suit adjustments",
+        "text": "The MK.2 provides 15 LCD keys. Stream Deck + combines eight keys with dials and a touch strip. Opening a workspace and triggering a command are button-like tasks; adjusting a supported parameter can benefit from a dial. More control types are not automatically better. Choose the layout that maps to your recurring actions without forcing a new routine."
+      },
+      {
+        "heading": "Software support comes before hardware appeal",
+        "text": "Check the manufacturer’s current operating-system requirements, the integration for your application and whether the action you need is supported. A product image showing an app logo does not tell you that every function in that app is available. If an integration requires an additional subscription or purchase, include that in your decision before comparing controller prices."
+      },
+      {
+        "heading": "Start with one useful profile",
+        "text": "Plan a simple layout you can remember: your core apps, a few frequent commands and clear labels. Add complexity only when it saves effort. Leave room on the desk for the controller without pushing the keyboard or mouse into an awkward position. If keyboard shortcuts already solve the task comfortably, there may be no reason to buy extra hardware."
+      }
+    ],
+    "checks": [
+      "List five repeated actions and mark each as a press or an adjustment.",
+      "Verify your operating system and exact app integration.",
+      "Check any extra software cost and the required connection.",
+      "Plan a desk position and a first profile before selecting a larger controller."
+    ],
+    "faqs": [
+      {
+        "question": "Do I need to stream to use a Stream Deck?",
+        "answer": "No. The buying question is whether supported shortcuts and integrations serve your work. A non-streamer with repeated app actions may find a use for it; someone without those tasks may not."
+      },
+      {
+        "question": "Does Stream Deck + have more shortcut keys?",
+        "answer": "No. It has eight keys, while the MK.2 has 15. The reason to compare the Plus is its dials and touch strip, not a higher physical key count."
+      },
+      {
+        "question": "Will every dial work in every editing app?",
+        "answer": "Do not assume that. Confirm the particular app, integration and parameter you want to control. Our guided recommendation distinguishes layouts; it does not certify compatibility with every software version or plug-in."
+      }
+    ],
+    "picks": [
+      {
+        "id": "keys",
+        "fit": "Repeated commands on dedicated keys",
+        "skip": "Skip this if physical dials are the main feature you need."
+      },
+      {
+        "id": "dials",
+        "fit": "Supported adjustments using dials",
+        "skip": "Skip this if you mainly want the larger physical key count of the MK.2."
+      }
+    ],
+    "links": [
+      {
+        "href": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+        "label": "Stream Deck MK.2 versus MX Creative Console"
+      },
+      {
+        "href": "/wfh",
+        "label": "Explore work-from-home equipment"
+      },
+      {
+        "href": "/deals",
+        "label": "Explore other product shortlists"
+      }
+    ],
+    "prompt": "Tell us whether you want keys, dials or both, and name the apps and actions you want to control."
+  },
+  "e-readers": {
+    "title": "E-Readers: Choose Around Your Books and Reading Habits",
+    "description": "Choose an e-reader by your book library, screen preferences and note-taking needs. Compare Kobo and Kindle starting points and ask the Deal Agent for help.",
+    "answer": "Start with Kobo Clara BW for straightforward monochrome reading, Kobo Libra Colour for color and optional handwriting, or the 2024 Kindle Paperwhite when staying with your Kindle library matters most.",
+    "overview": "Choose the book ecosystem before comparing screen features. A device is only useful if it gives you a workable way to read the books you own, borrow or plan to buy. Our shortlist covers three distinct starting points; it is not a survey of every current e-reader. A new screen feature should solve a reading need rather than complicate access to your library.",
+    "sections": [
+      {
+        "heading": "Check access to the books you actually read",
+        "text": "List where your books come from, including purchases and library loans. Then check the device and service requirements in your country. Do not assume that books protected by one store’s digital-rights system will open on another store’s reader. For an established Kindle library, the named Paperwhite is our starting option here; changing brands deserves a compatibility check first."
+      },
+      {
+        "heading": "Match the display to your reading material",
+        "text": "Clara BW is the monochrome option in this shortlist. Libra Colour adds color, which may matter for covers, highlights or illustrated material. Ask whether that changes your daily reading enough to justify the choice. If your priority is large fixed-layout PDFs or detailed full-page illustrations, compare actual page handling and size before treating any compact reader as a substitute for a larger display."
+      },
+      {
+        "heading": "Separate reading from handwriting",
+        "text": "Libra Colour supports Kobo Stylus 2, sold separately. That makes the full note-taking setup a different purchase from the reader alone. If you only want to read novels, optional handwriting may add cost without improving your main task. Consider how you will hold the reader, protect it in a bag and charge it before buying a cover or accessory bundle."
+      }
+    ],
+    "checks": [
+      "Check your existing bookstore and local library borrowing workflow.",
+      "Confirm the exact generation, including the 2024 Paperwhite where that is the option being compared.",
+      "Decide whether color or handwriting serves a real reading task.",
+      "Include a compatible cover or separately sold stylus only if you need it."
+    ],
+    "faqs": [
+      {
+        "question": "Should I buy a color e-reader for novels?",
+        "answer": "Not automatically. For mostly text-based reading, Clara BW is the simpler starting point in this shortlist. Consider color when illustrations, covers or colored annotations are meaningful to you, rather than assuming color makes every book better."
+      },
+      {
+        "question": "Is a stylus included with Kobo Libra Colour?",
+        "answer": "Kobo lists Stylus 2 as a separate purchase. Check the contents of any retailer bundle and include the compatible stylus in the total if handwriting is the reason you are choosing the device."
+      },
+      {
+        "question": "Can I assume all my Kindle books will work on Kobo?",
+        "answer": "No. Verify file format and digital-rights restrictions for your actual books before switching. If preserving a Kindle library is your priority, our shortlist directs you toward the named Paperwhite instead of promising automatic transfer."
+      }
+    ],
+    "picks": [
+      {
+        "id": "novels",
+        "fit": "Straightforward monochrome reading",
+        "skip": "Skip this if color or stylus handwriting is essential."
+      },
+      {
+        "id": "color",
+        "fit": "Color reading and optional stylus notes",
+        "skip": "Skip this if you only need a simple novel reader and will not use the extra functions."
+      },
+      {
+        "id": "kindle",
+        "fit": "Continuing with a Kindle library",
+        "skip": "Skip this if your required book or lending service is not supported on Kindle."
+      }
+    ],
+    "links": [
+      {
+        "href": "/books",
+        "label": "Browse book recommendations"
+      },
+      {
+        "href": "/books/best-books-to-read-on-the-beach",
+        "label": "Choose books for beach reading"
+      },
+      {
+        "href": "/deals",
+        "label": "Find another shopping category"
+      }
+    ],
+    "prompt": "Tell us where you get your books and whether you want simple reading, color or handwritten notes."
+  },
+  "wireless-earbuds": {
+    "title": "Wireless Earbuds: Choose by Phone, Fit and Routine",
+    "description": "Choose wireless earbuds around your phone, comfort and listening routine. Compare AirPods Pro 3 and Sony WF-1000XM5 starting points with the Deal Agent.",
+    "answer": "Start with AirPods Pro 3 when Apple-device integration is your priority; compare Sony WF-1000XM5 for an Android or mixed-device routine. Neither is a good recommendation if the fit does not work for you.",
+    "overview": "Earbuds are a personal fit purchase as well as an electronics purchase. Choose around the phone you carry, the devices you switch between and the places where you listen. Our two-model shortlist is a starting point, not a claim that these cover every budget, ear shape or sports requirement. We have not conducted comparative sound, microphone or noise-cancellation tests.",
+    "sections": [
+      {
+        "heading": "Check the features on your own phone",
+        "text": "Basic Bluetooth playback and access to every advertised feature are different questions. Check the manufacturer’s device, software and regional requirements for the functions you want. Our Apple-versus-mixed-device starting point is about that practical fit. It is not proof that one pair produces better sound on every phone or that either supports every advertised function everywhere."
+      },
+      {
+        "heading": "Make comfort and return terms a first filter",
+        "text": "Think about how long you wear earbuds and whether you tolerate an in-ear seal. Compare the included tip options and the seller’s terms for an opened product. If previous in-ear models have been uncomfortable, a promotion does not resolve that problem. Try the supplied fit guidance within the applicable return period instead of judging only by appearance."
+      },
+      {
+        "heading": "Separate daily listening from special requirements",
+        "text": "A commute, long meeting and workout are different use cases. Check microphone evidence for your environment, per-charge endurance under the settings you use, and the exact water-resistance guidance if exercising. Do not confuse total listening time including case recharges with one uninterrupted session. If your essential requirement falls outside this shortlist’s evidence, investigate it before accepting the suggested model."
+      }
+    ],
+    "checks": [
+      "Name your phone and the other devices you use daily.",
+      "Check support for the particular feature that justifies your purchase.",
+      "Read opened-earbud return terms and inspect the included ear tips.",
+      "Confirm the generation and case in the listing; compare delivered cost for the same package."
+    ],
+    "faqs": [
+      {
+        "question": "Are AirPods Pro 3 the automatic choice for every iPhone owner?",
+        "answer": "No. Apple integration is a reason to start there, but fit, price and your listening requirements can outweigh it. This shortlist does not establish that they are the best-sounding or most comfortable option for every person."
+      },
+      {
+        "question": "Is Sony WF-1000XM5 only for Android?",
+        "answer": "No. Android or a mixed-device routine is our suggested starting use case, not an exclusivity claim. Check Sony’s current compatibility information for your devices and the particular features you expect to use."
+      },
+      {
+        "question": "Can the Deal Agent confirm the cheapest earbuds today?",
+        "answer": "No. It helps choose from the curated shortlist and explains the tradeoff. It does not verify live prices or stock. Compare the exact generation, seller, condition and return terms before deciding whether an offer is worthwhile."
+      }
+    ],
+    "picks": [
+      {
+        "id": "apple",
+        "fit": "Apple-device integration",
+        "skip": "Skip this if the Apple-specific functions are irrelevant to your devices or the in-ear fit is unsuitable."
+      },
+      {
+        "id": "other",
+        "fit": "Android or a mixed-device routine",
+        "skip": "Skip this if the required feature is unsupported on your devices or the fit does not suit you."
+      }
+    ],
+    "links": [
+      {
+        "href": "/tech/airpods-pro-vs-sony-wf-1000xm5",
+        "label": "Read the earlier AirPods Pro and Sony comparison; check generations"
+      },
+      {
+        "href": "/tech",
+        "label": "Explore technology buying guides"
+      },
+      {
+        "href": "/deals/desktop-controllers",
+        "label": "Choose desktop shortcuts for your work setup"
+      }
+    ],
+    "prompt": "Tell us your phone, the devices you switch between and where you listen most often."
+  },
+  "lego-display-sets": {
+    "title": "LEGO Display Sets: Choose the Space Before the Set",
+    "description": "Choose an adult LEGO display set around shelf space and building plans. Compare two Millennium Falcon formats and ask the Deal Agent for a starting point.",
+    "answer": "Start with Millennium Falcon 75375 for a smaller display project; compare 75192 for a large collector centerpiece. Choose the place it will live before choosing the set.",
+    "overview": "A LEGO display purchase continues after the build is finished. You need a place to assemble it, a place to keep it and a way to move or clean around it. Our shortlist is deliberately narrow: two adult Millennium Falcon display formats. It does not represent all LEGO themes, child-appropriate playsets or an investment recommendation. A recognizable ship is not enough to make a set suitable for a particular recipient.",
+    "sections": [
+      {
+        "heading": "Measure the display, not just the available shelf",
+        "text": "Use the exact set’s finished dimensions and the orientation in which you plan to show it. Allow room to place and remove it without scraping nearby objects. If you intend to use a separate stand or case, check its dimensions and compatibility too. A photograph on a large table can hide how much of a normal shelf a model occupies."
+      },
+      {
+        "heading": "Decide whether the build or the centerpiece is the goal",
+        "text": "A larger collector model may appeal when the long project and finished scale are the point. The smaller Falcon is the starting choice when you want a more manageable display footprint. We do not assign a promised build time: pace, experience and how often you pause all change the commitment. Plan a work surface that can remain undisturbed between sessions."
+      },
+      {
+        "heading": "Compare exact set numbers and condition",
+        "text": "The Millennium Falcon name appears on different LEGO sets. Compare 75375 with the same set number, and 75192 with the same set number, before judging an offer. For opened sets, ask what is included, whether pieces have been checked and how missing parts are handled. Include a needed display case or stand in your total rather than treating it as a surprise after assembly."
+      }
+    ],
+    "checks": [
+      "Check the manufacturer’s age guidance for the recipient; these are adult display options.",
+      "Measure the finished model, shelf and any separate case or stand.",
+      "Decide where pieces and part-built sections will stay during assembly.",
+      "Confirm set number, condition, included parts and return terms before evaluating a discount."
+    ],
+    "faqs": [
+      {
+        "question": "Which Falcon should I consider for a smaller display?",
+        "answer": "Start by measuring for 75375. It is the smaller display option in this shortlist. Still check the finished dimensions and any stand or enclosure; smaller does not guarantee it fits your particular shelf."
+      },
+      {
+        "question": "Is the larger collector set better value because it has more pieces?",
+        "answer": "Not necessarily. Piece count does not tell you whether you want that build or can display the result. Compare what you will enjoy, the space required and the complete cost rather than making price per piece the only decision."
+      },
+      {
+        "question": "Are these recommendations suitable for a young child?",
+        "answer": "This shortlist is for adult display sets. For a child, choose around the manufacturer’s age guidance and whether the goal is play or display. The Deal Agent should not turn a request for a child’s playset into a recommendation for a large adult collector model."
+      }
+    ],
+    "picks": [
+      {
+        "id": "shelf",
+        "fit": "A smaller adult display project",
+        "skip": "Skip this if you specifically want the scale and commitment of the large collector build."
+      },
+      {
+        "id": "collector",
+        "fit": "A large adult collector centerpiece",
+        "skip": "Skip this if you cannot dedicate suitable assembly and display space."
+      }
+    ],
+    "links": [
+      {
+        "href": "/deals",
+        "label": "Explore all product-selection guides"
+      },
+      {
+        "href": "/home-kitchen",
+        "label": "Browse home setup and kitchen guides"
+      },
+      {
+        "href": "/deal-alerts",
+        "label": "Save a target for a supported product"
+      }
+    ],
+    "prompt": "Tell us whether you want a compact display or a large collector build, and where you plan to put it."
+  }
+}
