@@ -137,6 +137,21 @@ const faqs = [
 
 const relatedGuides = [
   {
+    href: '/books/authors/best-gillian-flynn-books',
+    title: 'Gillian Flynn Books Ranked',
+    text: 'Choose between marital warfare, Gothic family unease and a cold case with a harsher edge.',
+  },
+  {
+    href: '/books/authors/best-lucy-foley-books',
+    title: 'Lucy Foley Books Ranked',
+    text: 'Find a closed-circle thriller built around a wedding, a winter reunion or a suspicious apartment building.',
+  },
+  {
+    href: '/books/authors/best-ruth-ware-books',
+    title: 'Ruth Ware Books Ranked',
+    text: 'Compare Gothic households, dark academia and isolated getaways, with clear guidance on where to start.',
+  },
+  {
     href: '/books/genre-fiction',
     title: 'Genre Fiction Guides',
     text: 'The broader shelf if Alex Michaelides is pushing you deeper into thriller and suspense reading.',

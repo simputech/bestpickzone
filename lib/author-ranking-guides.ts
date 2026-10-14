@@ -1,0 +1,122 @@
+export const authorRankingGuides = [
+  {
+    "author": "Gillian Flynn",
+    "title": "Best Gillian Flynn Books Ranked: Where to Start",
+    "seoTitle": "Best Gillian Flynn Books Ranked | BestPickZone",
+    "description": "Gillian Flynn's three novels and The Grownup ranked by reader fit, with a clear starting point, spoiler-free tradeoffs and practical reading-order advice.",
+    "path": "/books/authors/best-gillian-flynn-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-gillian-flynn-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1545,
+    "topPick": "Gone Girl"
+  },
+  {
+    "author": "Lucy Foley",
+    "title": "Best Lucy Foley Books: Four Modern Thrillers Ranked",
+    "seoTitle": "Best Lucy Foley Books: Thrillers Ranked | BestPickZone",
+    "description": "Compare Lucy Foley's four modern standalone thrillers, from The Guest List to The Midnight Feast, with reading paths, honest tradeoffs and a Marple note.",
+    "path": "/books/authors/best-lucy-foley-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-lucy-foley-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1573,
+    "topPick": "The Guest List"
+  },
+  {
+    "author": "Ruth Ware",
+    "title": "Best Ruth Ware Books Ranked: Six Places to Start",
+    "seoTitle": "Best Ruth Ware Books Ranked | BestPickZone",
+    "description": "Find the best Ruth Ware book for your mood: Gothic inheritance, a sinister smart home, campus secrets or an isolated getaway, with clear sequel advice.",
+    "path": "/books/authors/best-ruth-ware-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-ruth-ware-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1735,
+    "topPick": "The Death of Mrs Westaway"
+  },
+  {
+    "author": "Lisa Jewell",
+    "title": "Best Lisa Jewell Books Ranked: Six Thriller Starting Points",
+    "seoTitle": "Best Lisa Jewell Books Ranked | BestPickZone",
+    "description": "Lisa Jewell's best thriller starting points ranked, with spoiler-free comparisons of None of This Is True, Then She Was Gone and four more reader-fit picks.",
+    "path": "/books/authors/best-lisa-jewell-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-lisa-jewell-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1744,
+    "topPick": "None of This Is True"
+  },
+  {
+    "author": "Riley Sager",
+    "title": "Best Riley Sager Books Ranked: Six Thriller Entry Points",
+    "seoTitle": "Best Riley Sager Books Ranked | BestPickZone",
+    "description": "Choose your first Riley Sager thriller with six ranked picks, from The Last Time I Lied to Home Before Dark, plus honest tradeoffs and reading-order advice.",
+    "path": "/books/authors/best-riley-sager-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-riley-sager-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1726,
+    "topPick": "The Last Time I Lied"
+  },
+  {
+    "author": "Freida McFadden",
+    "title": "Best Freida McFadden Books Ranked: Six Places to Start",
+    "seoTitle": "Best Freida McFadden Books Ranked | BestPickZone",
+    "description": "Start with The Housemaid or choose a standalone: six Freida McFadden thrillers ranked by reader fit, with honest tradeoffs and the correct Housemaid order.",
+    "path": "/books/authors/best-freida-mcfadden-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-freida-mcfadden-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1683,
+    "topPick": "The Housemaid"
+  },
+  {
+    "author": "Tana French",
+    "title": "Best Tana French Books: Six Picks and Where to Start",
+    "seoTitle": "Best Tana French Books Ranked: Where to Start",
+    "description": "Find the best Tana French books for family secrets, dark academia and rural suspense, with clear starting points and Dublin Murder Squad reading order.",
+    "path": "/books/authors/best-tana-french-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-tana-french-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1535,
+    "topPick": "Faithful Place"
+  },
+  {
+    "author": "Jane Harper",
+    "title": "Best Jane Harper Books: Six Novels Ranked for Reader Fit",
+    "seoTitle": "Best Jane Harper Books Ranked: Where to Start",
+    "description": "Choose the best Jane Harper book for outback suspense, family secrets or a coastal mystery, with six ranked picks and the correct Aaron Falk reading order.",
+    "path": "/books/authors/best-jane-harper-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-jane-harper-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1593,
+    "topPick": "The Dry"
+  },
+  {
+    "author": "Shari Lapena",
+    "title": "Best Shari Lapena Books: Seven Picks for Different Thriller Moods",
+    "seoTitle": "Best Shari Lapena Books Ranked: Where to Start",
+    "description": "Find the best Shari Lapena books for missing-person suspense, family secrets and snowbound mysteries, with seven ranked picks and clear reasons to skip each.",
+    "path": "/books/authors/best-shari-lapena-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-shari-lapena-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1592,
+    "topPick": "The Couple Next Door"
+  },
+  {
+    "author": "Anthony Horowitz",
+    "title": "Best Anthony Horowitz Books: Seven Adult Mysteries Ranked",
+    "seoTitle": "Best Anthony Horowitz Books: Adult Mysteries Ranked",
+    "description": "Choose the best Anthony Horowitz mysteries, from Magpie Murders to Hawthorne, with seven ranked picks, clear reader fit and separate series reading orders.",
+    "path": "/books/authors/best-anthony-horowitz-books",
+    "canonical": "https://bestpickzone.com/books/authors/best-anthony-horowitz-books",
+    "published": "2026-10-14",
+    "verified": "2026-10-14",
+    "words": 1680,
+    "topPick": "Magpie Murders"
+  }
+] as const

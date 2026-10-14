@@ -1,3 +1,4 @@
+import { authorRankingGuides } from '@/lib/author-ranking-guides'
 import { withSeo } from '@/lib/seo-metadata'
 import { getBookPath } from '@/lib/books-data'
 import type { Metadata } from 'next'
@@ -10,11 +11,11 @@ import ItemListJsonLd from '@/components/seo/ItemListJsonLd'
 export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   title: 'Best Books by Author — Stephen King, Colleen Hoover & More',
   description:
-    'Author-by-author reading guides covering Stephen King, Colleen Hoover, James Clear, Malcolm Gladwell, and 11 more. Find the best books from your favorite author.',
+    'Find your next read with author book rankings, from Gillian Flynn and Ruth Ware to Stephen King and Colleen Hoover. Compare starting points, moods and reading order.',
   alternates: { canonical: 'https://bestpickzone.com/books/authors' },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
-  modifiedTime: '2026-10-03T00:00:00Z',
+  modifiedTime: '2026-10-14T00:00:00Z',
   category: 'authors' }), "/books/authors")
 
 const breadcrumbItems = [
@@ -139,7 +140,7 @@ export default function AuthorsHubPage() {
         <Breadcrumb items={breadcrumbItems} />
         <ItemListJsonLd
           name="Author Book Guides"
-          items={articles.map((article) => ({ name: article.title, path: getBookPath(article.slug) }))}
+          items={[...authorRankingGuides.map((guide) => ({ name: guide.title, path: guide.path })), ...articles.map((article) => ({ name: article.title, path: getBookPath(article.slug) }))]}
         />
 
         <header className="mb-10">
@@ -153,11 +154,25 @@ export default function AuthorsHubPage() {
             Not sure where to start with a new author? Each guide below covers the essential
             reads — ranked by quality, accessibility, and what kind of reader will love them
             most. We cover Stephen King&apos;s scariest page-turners, Colleen Hoover&apos;s most
-            emotional romances, James Clear&apos;s productivity framework, and 12 more household
-            names. Every recommendation includes an honest &quot;skip this if&quot; note so you
+            emotional romances, James Clear&apos;s productivity framework, and a growing shelf of thriller and mystery writers. Every recommendation includes an honest &quot;skip this if&quot; note so you
             never waste time on the wrong book.
           </p>
         </header>
+
+        <section className="mb-10 rounded-3xl border border-slate-200 bg-slate-50 p-6" aria-labelledby="thriller-author-rankings">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-slate-600">Find your next author</p>
+          <h2 id="thriller-author-rankings" className="mb-3 text-2xl font-bold text-gray-900">Thriller and mystery books, ranked by author</h2>
+          <p className="mb-5 leading-relaxed text-gray-700">Choose a starting point by mood, compare each book’s tradeoffs, and keep series order separate from the ranking.</p>
+          <div className="grid gap-4 md:grid-cols-2">
+            {authorRankingGuides.map((guide) => (
+              <Link key={guide.path} href={guide.path} className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:border-amber-400">
+                <h3 className="mb-2 text-lg font-bold text-gray-900">{guide.author} books ranked</h3>
+                <p className="mb-2 text-sm font-semibold text-amber-800">Start with {guide.topPick}</p>
+                <p className="text-sm leading-relaxed text-gray-600">{guide.description}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <section className="mb-10 rounded-[28px] border border-amber-200 bg-gradient-to-br from-amber-50 via-white to-orange-50 p-6">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-amber-700">
