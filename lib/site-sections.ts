@@ -46,7 +46,7 @@ export const siteSections: SiteSection[] = [
     key: 'finance-software',
     href: '/finance-software',
     title: 'Finance & Software',
-    description: 'Budgeting, privacy, and software buying guides as this section expands.',
+    description: 'Compare budgeting tools, privacy features, and software for everyday tasks.',
   },
   {
     key: 'health-fitness',
@@ -70,7 +70,7 @@ export const siteSections: SiteSection[] = [
     key: 'tech',
     href: '/tech',
     title: 'Tech',
-    description: 'Laptop, monitor, earbuds, and keyboard recommendations for high-intent buyers.',
+    description: 'Laptop, monitor, earbuds, and keyboard guides organized around how you use them.',
   },
   {
     key: 'wfh',
