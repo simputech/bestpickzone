@@ -441,7 +441,7 @@ function PickHead({ p }: { p: Pick }) {
 function BuyButton({ p }: { p: Pick }) {
   return (
     <a className="cta" href={amazon(p.amazonQuery)} target="_blank" rel="sponsored noopener">
-      Click Here to Buy on Amazon →
+      Compare editions and prices on Amazon →
     </a>
   )
 }

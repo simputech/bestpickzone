@@ -239,14 +239,6 @@ export default function BestAlexMichaelidesBooksPage() {
       />
 
       <main className="mx-auto max-w-5xl px-4 py-10">
-        <section className="my-8 rounded-3xl border border-amber-200 bg-white p-5">
-          <h2 className="mb-3 text-2xl font-bold">Shop Alex Michaelides books</h2>
-          <p className="mb-5 text-sm text-gray-600">Compare editions and current Amazon listings before buying. Affiliate links may earn us a commission.</p>
-          <div className="grid gap-4 md:grid-cols-2">
-            <OrganicPilotProductCard query="The Silent Patient Alex Michaelides paperback" label="The Silent Patient" />
-            <OrganicPilotProductCard query="The Fury Alex Michaelides paperback" label="The Fury" />
-          </div>
-        </section>
         <Breadcrumb items={breadcrumbItems} />
 
         <header className="mb-10 overflow-hidden rounded-[36px] border border-cyan-200 bg-[radial-gradient(circle_at_top_right,_rgba(34,211,238,0.18),_transparent_28%),radial-gradient(circle_at_bottom_left,_rgba(125,211,252,0.18),_transparent_30%),linear-gradient(135deg,#f8fafc_0%,#ffffff_45%,#ecfeff_100%)] p-6 shadow-sm md:p-8">
@@ -299,6 +291,15 @@ export default function BestAlexMichaelidesBooksPage() {
           </div>
         </header>
 
+        <section className="my-8 rounded-3xl border border-amber-200 bg-white p-5">
+          <h2 className="mb-3 text-2xl font-bold">Shop Alex Michaelides books</h2>
+          <p className="mb-5 text-sm text-gray-600">Start with The Silent Patient for the central mystery, or choose The Fury for a more theatrical narrator. Compare the paperback, ebook, and audio options on Amazon before choosing a format. Search results can include different editions; confirm the title and author. Affiliate links may earn us a commission.</p>
+          <div className="grid gap-4 md:grid-cols-2">
+            <OrganicPilotProductCard query="The Silent Patient Alex Michaelides paperback" label="The Silent Patient" />
+            <OrganicPilotProductCard query="The Fury Alex Michaelides paperback" label="The Fury" />
+          </div>
+        </section>
+
         <section className="mb-10 grid gap-4 md:grid-cols-3">
           {quickAnswers.map((item) => (
             <div
@@ -316,7 +317,7 @@ export default function BestAlexMichaelidesBooksPage() {
                 rel="noopener noreferrer sponsored"
                 className="mt-4 inline-flex items-center text-sm font-bold text-amber-700 transition-colors hover:text-amber-800"
               >
-                Click here to find on Amazon
+                Compare editions on Amazon
               </Link>
             </div>
           ))}

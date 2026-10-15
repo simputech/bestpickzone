@@ -618,7 +618,7 @@ export default function BestPicnicEssentialsPage() {
                   rel="noopener nofollow sponsored"
                   className="mt-4 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-amber-500"
                 >
-                  Click Here to Buy on Amazon
+                  Check model and price on Amazon
                 </a>
               </div>
             </div>
@@ -644,7 +644,7 @@ export default function BestPicnicEssentialsPage() {
             This page was reviewed after drafting to keep the tone human, practical, and specific rather than generic. Each product has a clear use case, an honest tradeoff, and short review-style guidance instead of empty praise.
           </p>
           <p className="mt-4 text-base leading-7 text-slate-300">
-            It also follows the BestPickZone structure: SEO metadata, FAQ and item-list schema, affiliate disclosure, direct Amazon product links, broader comparison links, and internal links to related Home &amp; Kitchen guides.
+            Compare packed dimensions, carrying weight, and cleaning instructions before ordering. The useful upgrade is the item that solves a problem on your usual outing without making the bag harder to carry.
           </p>
         </div>
       </section>

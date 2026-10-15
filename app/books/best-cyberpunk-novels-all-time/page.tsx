@@ -74,7 +74,7 @@ export default function CyberpunkPage() {
           and <strong><a href="/books/best-science-fiction-books">best science fiction books</a></strong>.
         </p>
         <a href={`https://www.amazon.com/s?k=${encodeURIComponent('Neuromancer William Gibson')}&tag=althcu-20`} target="_blank" rel="noopener nofollow sponsored" className="mt-5 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-cyan-700 px-6 py-3 text-base font-bold text-white transition hover:bg-cyan-600">
-          Click Here to Buy on Amazon
+          Compare editions and prices on Amazon
         </a>
       </section>
     </main>

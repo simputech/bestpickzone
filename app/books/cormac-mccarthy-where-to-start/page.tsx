@@ -107,7 +107,7 @@ export default function CormacPage() {
             <tbody><tr><td className="px-3 py-3 text-gray-700"><ul><li>{pick.fit}</li></ul></td><td className="px-3 py-3 text-gray-700"><ul><li>{pick.skipIf}</li></ul></td></tr></tbody>
           </table>
           <p className="mb-4 text-amber-900"><strong>Skip this if:</strong> {pick.skipIf}</p>
-          <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow sponsored" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-stone-700 px-6 py-3 text-base font-bold text-white transition hover:bg-stone-600">Click Here to Buy on Amazon</a>
+          <a href={amazonLink(pick.title)} target="_blank" rel="noopener nofollow sponsored" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-stone-700 px-6 py-3 text-base font-bold text-white transition hover:bg-stone-600">Compare editions and prices on Amazon</a>
         </section>
       ))}
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">

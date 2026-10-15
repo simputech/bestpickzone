@@ -186,7 +186,7 @@ export default function PoirotOrderPage() {
             </table>
             <p className="mb-4 text-amber-900"><strong>Skip this if:</strong> {book.skipIf}</p>
             <a href={href} target="_blank" rel="noopener nofollow sponsored" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-500 px-6 py-3 text-base font-bold text-white transition hover:bg-amber-400">
-              Click Here to Buy on Amazon
+              Compare editions and prices on Amazon
             </a>
           </section>
         )

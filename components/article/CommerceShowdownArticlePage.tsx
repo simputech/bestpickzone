@@ -83,7 +83,7 @@ function ProductCard({ product }: { product: ShowdownProduct }) {
             rel="sponsored noopener"
             className="inline-flex items-center justify-center rounded-xl border border-[#f0c14b] bg-gradient-to-b from-[#ffd814] to-[#f7ca00] px-6 py-3 text-base font-extrabold text-[#111] shadow-sm transition hover:from-[#f7ca00] hover:to-[#ddb100]"
           >
-            Click Here to Check Price on Amazon
+            Check model and price on Amazon
           </Link>
           <p className="mt-3 text-xs text-gray-600">{product.primeNote}</p>
         </div>
@@ -308,7 +308,7 @@ export default function CommerceShowdownArticlePage({ article }: { article: Show
               rel="sponsored noopener"
               className="rounded-lg bg-amber-300 px-4 py-2 text-sm font-extrabold text-slate-950 transition hover:bg-amber-200"
             >
-              Buy on Amazon
+              Check model and price on Amazon
             </Link>
             <Link
               href={right.amazonUrl}

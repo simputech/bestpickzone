@@ -353,7 +353,7 @@ export default function BestLegalThrillerBooksPage() {
               <BookCTA
                 title={pick.title}
                 author={pick.author}
-                affiliateLabel="Click Here to Buy on Amazon"
+                affiliateLabel="Compare editions and prices on Amazon"
               />
             </article>
           ))}
@@ -443,7 +443,7 @@ export default function BestLegalThrillerBooksPage() {
             <BookCTA
               title="The Firm"
               author="John Grisham"
-              affiliateLabel="Click Here to Buy on Amazon"
+              affiliateLabel="Compare editions and prices on Amazon"
             />
           </div>
         </section>

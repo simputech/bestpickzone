@@ -1,0 +1,26 @@
+{
+  "linksCompared": 3776,
+  "differences": [
+    {
+      "route": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "beforeCards": {
+        "creators-api": 2
+      },
+      "afterCards": {
+        "fallback": 2
+      },
+      "before": [
+        "https://www.amazon.com/dp/B07JVD78TT?tag=althcu-20&linkCode=osi&th=1&psc=1",
+        "https://www.amazon.com/dp/B07JVD78TT?tag=althcu-20&linkCode=osi&th=1&psc=1",
+        "https://www.amazon.com/dp/B07RQ3NL76?tag=althcu-20&linkCode=osi&th=1&psc=1",
+        "https://www.amazon.com/dp/B07RQ3NL76?tag=althcu-20&linkCode=osi&th=1&psc=1"
+      ],
+      "after": [
+        "https://www.amazon.com/s?k=Breville%20Bambino%20Plus%20Espresso%20Machine%20BES500BSS&tag=althcu-20",
+        "https://www.amazon.com/s?k=Breville%20Bambino%20Plus%20Espresso%20Machine%20BES500BSS&tag=althcu-20",
+        "https://www.amazon.com/s?k=Gaggia%20Classic%20Pro%20E24%20Espresso%20Machine&tag=althcu-20",
+        "https://www.amazon.com/s?k=Gaggia%20Classic%20Pro%20E24%20Espresso%20Machine&tag=althcu-20"
+      ]
+    }
+  ]
+}

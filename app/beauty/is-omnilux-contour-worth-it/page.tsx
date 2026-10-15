@@ -45,7 +45,7 @@ export default function OmniluxWorthItPage() {
           Is the Omnilux Contour worth the investment? Yes for the right LED-mask buyer, not for the casual one.
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
-          The Omnilux Contour is easier to rank than a giant LED-mask roundup because the buying question is much simpler: if you are already serious about a premium face mask, is this the one worth paying for? The honest answer is that it is a strong premium pick, but only if you are actually willing to become the kind of person who uses an LED mask regularly.
+          Consider the Omnilux Contour only if its care routine fits your week and its cost fits your budget. Before comparing retailer prices, read the manufacturer’s instructions and suitability information for the exact model. Skip the purchase if you are unlikely to use it consistently; an expensive device left in a drawer offers little value.
         </p>
         <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-600">
           <span className="rounded-full bg-white px-4 py-2 ring-1 ring-rose-200">Updated July 11, 2026</span>

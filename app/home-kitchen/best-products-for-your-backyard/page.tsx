@@ -621,7 +621,7 @@ export default function BestProductsForYourBackyardPage() {
                   rel="noopener nofollow sponsored"
                   className="mt-4 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-amber-500"
                 >
-                  Click Here to Buy on Amazon
+                  Check model and price on Amazon
                 </a>
               </div>
             </div>
@@ -647,7 +647,7 @@ export default function BestProductsForYourBackyardPage() {
             This page was written to sound like a human recommendation list, not a generic outdoor roundup. Each product has a real backyard use case, honest tradeoff language, and buy-or-skip framing instead of empty praise.
           </p>
           <p className="mt-4 text-base leading-7 text-slate-300">
-            It also follows the BestPickZone pattern: SEO metadata, FAQ and item-list schema, affiliate disclosure, direct Amazon product links, broader comparison links, and internal links to related home and outdoor content.
+            Measure the intended space and check power, storage, and care requirements before opening a listing. Compare the exact size and included parts so the item fits the way you actually use your yard.
           </p>
         </div>
       </section>

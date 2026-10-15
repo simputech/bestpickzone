@@ -543,7 +543,7 @@ export default function BestProductivityProductsForStudentsPage() {
                   rel="noopener nofollow sponsored"
                   className="mt-4 inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-amber-500"
                 >
-                  Click Here to Buy on Amazon
+                  Check model and price on Amazon
                 </a>
               </div>
             </div>

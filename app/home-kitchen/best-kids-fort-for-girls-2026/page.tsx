@@ -143,7 +143,7 @@ export default function BestKidsFortForGirlsPage() {
                 rel="noopener noreferrer sponsored"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-yellow-400 px-6 py-3 text-base font-bold text-gray-900 transition-colors hover:bg-yellow-300"
               >
-                Click Here to Buy on Amazon
+                Check model and price on Amazon
               </Link>
             </div>
           </div>
@@ -264,7 +264,7 @@ export default function BestKidsFortForGirlsPage() {
             rel="noopener noreferrer sponsored"
             className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-yellow-400 px-6 py-3 text-base font-bold text-gray-900 transition-colors hover:bg-yellow-300"
           >
-            Click Here to Buy on Amazon
+            Check model and price on Amazon
           </Link>
         </section>
 

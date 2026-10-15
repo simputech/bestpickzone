@@ -186,7 +186,7 @@ export default function BackmanRankedPage() {
               rel="noopener nofollow sponsored"
               className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-sky-600 px-6 py-3 text-base font-bold text-white transition hover:bg-sky-500"
             >
-              Click Here to Buy on Amazon
+              Compare editions and prices on Amazon
             </a>
           </section>
         )

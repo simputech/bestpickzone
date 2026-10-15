@@ -235,7 +235,7 @@ export default function BestRealisticSpyThrillersPage() {
               <strong>Skip this if:</strong> {pick.skipIf}
             </p>
             <a href={href} target="_blank" rel="noopener nofollow sponsored" className="inline-flex min-h-[44px] items-center justify-center rounded-xl bg-slate-700 px-6 py-3 text-base font-bold text-white transition hover:bg-slate-600">
-              Click Here to Buy on Amazon
+              Compare editions and prices on Amazon
             </a>
           </section>
         )

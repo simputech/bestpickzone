@@ -8,7 +8,7 @@ import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 // Standalone custom page. Format cloned from best-historical-epics-2026.
 // Every title, author, year, page count, and series fact verified against
 // real sources (Amazon / publisher / Wikipedia) as of June 2026.
-// Amazon tag: althcu-20 ONLY. CTA text: "Click Here to Buy on Amazon".
+// Amazon tag: althcu-20 ONLY. CTA text: "Compare editions and prices on Amazon".
 // ---------------------------------------------------------------------------
 
 const CANONICAL =
@@ -647,7 +647,7 @@ function BuyButton({ b }: { b: Book }) {
       target="_blank"
       rel="sponsored noopener"
     >
-      Click Here to Buy on Amazon →
+      Compare editions and prices on Amazon →
     </a>
   )
 }

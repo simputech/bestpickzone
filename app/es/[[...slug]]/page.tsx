@@ -84,7 +84,7 @@ function buildRecommendationLink(
 function defaultAffiliateLabel(recommendation: SpanishRecommendationItem) {
   return (
     recommendation.affiliateLabel ??
-    (recommendation.affiliatePlatform === 'ebay' ? 'Ver opciones en eBay' : 'Ver en Amazon')
+    (recommendation.affiliatePlatform === 'ebay' ? 'Ver opciones en eBay' : 'Consultar opciones y precio en Amazon')
   )
 }
 

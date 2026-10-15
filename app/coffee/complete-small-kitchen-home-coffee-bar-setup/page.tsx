@@ -56,7 +56,7 @@ export default function SmallKitchenCoffeeBarPage() {
           The complete small-kitchen home coffee bar setup under 24 inches wide.
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
-          This format is one of the highest-value coffee setups on the site because it mirrors how people actually shop: one buyer, one narrow counter, one cookie window, and several items that need to work together without turning the kitchen into a gear graveyard.
+          Start with the coffee you make most often and the counter space you can leave clear. Choose the brewer first, then add only the grinder, scale, and storage that your routine needs. Use the retailer links to check dimensions and the total setup cost before buying several pieces that may not fit together.
         </p>
         <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-600">
           <span className="rounded-full bg-white px-4 py-2 ring-1 ring-stone-200">Updated July 11, 2026</span>

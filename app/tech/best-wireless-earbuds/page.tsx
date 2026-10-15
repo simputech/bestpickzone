@@ -376,7 +376,7 @@ export default function BestWirelessEarbudsPage() {
                     rel="noopener noreferrer sponsored"
                     className="flex-1 min-w-[140px] bg-amber-400 hover:bg-amber-500 text-gray-900 font-bold py-3 px-4 rounded-lg text-center text-sm transition-colors duration-150"
                   >
-                    View on Amazon
+                    Check model and price on Amazon
                   </a>
                   <a
                     href={product.bestBuyUrl}

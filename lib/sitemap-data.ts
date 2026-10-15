@@ -55,7 +55,7 @@ export const standaloneBookPages: SitemapEntry[] = [
   { url: `${baseUrl}/books/taylor-jenkins-reid-books-in-order`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-psychological-thrillers-with-mind-bending-twists`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/books-like-dune-hard-sci-fi`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/books/best-urban-fantasy-series-completed`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/books/best-urban-fantasy-series-completed`, lastModified: '2026-10-12', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/fredrik-backman-books-ranked`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/best-short-classic-books-for-a-flight`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/books/top-fantasy-romance-novels`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },

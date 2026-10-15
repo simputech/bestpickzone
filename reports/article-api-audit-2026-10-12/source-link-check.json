@@ -1,0 +1,8 @@
+{
+  "base": "00621729648459a89c9a32d4d6a2dcc716091351",
+  "sourceCommit": "98c803f72b121ab8507e9d105d3a1d50bdfcd8be",
+  "method": "Compare every Amazon URL literal and JSX href expression in all changed source lines; untouched source is unchanged by definition.",
+  "expressionsInChangedLines": 159,
+  "removed": [],
+  "added": []
+}
