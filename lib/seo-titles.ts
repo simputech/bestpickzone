@@ -49,7 +49,7 @@ export const SEO_TITLES: Record<string, string> = {
   '/tech/best-laptops-for-college-students': 'Best Laptops for College Students in 2026',
   '/tech/best-mechanical-keyboards': 'Best Mechanical Keyboards for Typing & Gaming (2026)',
   '/tech/best-wireless-earbuds': 'Best Wireless Earbuds for Every Budget (2026)',
-  '/wfh': 'Best WFH Setups: Ergonomic Home Office & Desk Gear',
+  '/wfh': 'WFH Setup Guides: Desk Space, Screens & Chair Fit',
   '/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro': 'Autonomous ErgoChair Pro vs. Hinomi H1 Pro',
   '/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain': 'Best Chairs for Sciatica & Lower Back Pain (2026)',
   '/wfh/best-usb-c-docks-for-two-monitors': 'Best USB-C Docks for Two Monitors: Laptop Fit',

@@ -1,0 +1,14 @@
+Base: 067dcef234a2ef4f83f57708d345aae059e77063
+Branch: codex/shopper-hubs-20261015
+Production build: passed (temporary webpack disk cache disabled; config restored)
+Metadata validation: 333 rendered indexable pages, 0 errors, 0 warnings
+Indexability validation: 335 sitemap URLs, 335 rendered indexable pages, 0 errors, 0 warnings
+TypeScript: passed
+Changed TS/TSX ESLint: no warnings or errors
+Existing regression tests: 39 passed, 0 failed
+Hub inventory tests: 2 passed, 0 failed
+Responsive production-page checks: 16 passed (4 routes × 320, 390, 768, 1440 px)
+Internal destinations: 103 direct HTTP 200 responses
+Previous hub article destinations: 68 retained (21 Coffee, 18 WFH, 29 Home & Kitchen)
+Protected author article, Amazon API/card, tracking, consent, workflow files: zero diff
+Production deployment: not performed

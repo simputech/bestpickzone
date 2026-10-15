@@ -1,0 +1,562 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "width": 320,
+      "title": "Book Recommendations & Practical Buying Guides | BestPickZone",
+      "description": "Find your next book or compare coffee gear, home office equipment, and kitchen essentials. Start with your reading mood, available space, and everyday routine.",
+      "canonical": "https://bestpickzone.com/",
+      "directoryCount": 10,
+      "overflow": false
+    },
+    {
+      "route": "/coffee",
+      "width": 320,
+      "title": "Coffee gear that fits how you brew | BestPickZone",
+      "description": "Choose coffee gear by brewing method, counter space, grinder needs, and accessory fit. Find espresso, filter-coffee, and machine-specific buying guides.",
+      "canonical": "https://bestpickzone.com/coffee",
+      "directoryCount": 21,
+      "overflow": false
+    },
+    {
+      "route": "/wfh",
+      "width": 320,
+      "title": "WFH Setup Guides: Desk Space, Screens & Chair Fit | BestPickZone",
+      "description": "Plan a home office around desk space, screen placement, laptop compatibility, and chair fit. Find practical guides for docks, monitor arms, lighting, and controls.",
+      "canonical": "https://bestpickzone.com/wfh",
+      "directoryCount": 18,
+      "overflow": false
+    },
+    {
+      "route": "/home-kitchen",
+      "width": 320,
+      "title": "Choose what earns space in your home | BestPickZone",
+      "description": "Compare appliances, attachments, and home essentials by usable space, model compatibility, cleaning, and storage. Find guides for kitchens, dorms, and outdoor setups.",
+      "canonical": "https://bestpickzone.com/home-kitchen",
+      "directoryCount": 29,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "title": "Book Recommendations & Practical Buying Guides | BestPickZone",
+      "description": "Find your next book or compare coffee gear, home office equipment, and kitchen essentials. Start with your reading mood, available space, and everyday routine.",
+      "canonical": "https://bestpickzone.com/",
+      "directoryCount": 10,
+      "overflow": false
+    },
+    {
+      "route": "/coffee",
+      "width": 390,
+      "title": "Coffee gear that fits how you brew | BestPickZone",
+      "description": "Choose coffee gear by brewing method, counter space, grinder needs, and accessory fit. Find espresso, filter-coffee, and machine-specific buying guides.",
+      "canonical": "https://bestpickzone.com/coffee",
+      "directoryCount": 21,
+      "overflow": false
+    },
+    {
+      "route": "/wfh",
+      "width": 390,
+      "title": "WFH Setup Guides: Desk Space, Screens & Chair Fit | BestPickZone",
+      "description": "Plan a home office around desk space, screen placement, laptop compatibility, and chair fit. Find practical guides for docks, monitor arms, lighting, and controls.",
+      "canonical": "https://bestpickzone.com/wfh",
+      "directoryCount": 18,
+      "overflow": false
+    },
+    {
+      "route": "/home-kitchen",
+      "width": 390,
+      "title": "Choose what earns space in your home | BestPickZone",
+      "description": "Compare appliances, attachments, and home essentials by usable space, model compatibility, cleaning, and storage. Find guides for kitchens, dorms, and outdoor setups.",
+      "canonical": "https://bestpickzone.com/home-kitchen",
+      "directoryCount": 29,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "title": "Book Recommendations & Practical Buying Guides | BestPickZone",
+      "description": "Find your next book or compare coffee gear, home office equipment, and kitchen essentials. Start with your reading mood, available space, and everyday routine.",
+      "canonical": "https://bestpickzone.com/",
+      "directoryCount": 10,
+      "overflow": false
+    },
+    {
+      "route": "/coffee",
+      "width": 768,
+      "title": "Coffee gear that fits how you brew | BestPickZone",
+      "description": "Choose coffee gear by brewing method, counter space, grinder needs, and accessory fit. Find espresso, filter-coffee, and machine-specific buying guides.",
+      "canonical": "https://bestpickzone.com/coffee",
+      "directoryCount": 21,
+      "overflow": false
+    },
+    {
+      "route": "/wfh",
+      "width": 768,
+      "title": "WFH Setup Guides: Desk Space, Screens & Chair Fit | BestPickZone",
+      "description": "Plan a home office around desk space, screen placement, laptop compatibility, and chair fit. Find practical guides for docks, monitor arms, lighting, and controls.",
+      "canonical": "https://bestpickzone.com/wfh",
+      "directoryCount": 18,
+      "overflow": false
+    },
+    {
+      "route": "/home-kitchen",
+      "width": 768,
+      "title": "Choose what earns space in your home | BestPickZone",
+      "description": "Compare appliances, attachments, and home essentials by usable space, model compatibility, cleaning, and storage. Find guides for kitchens, dorms, and outdoor setups.",
+      "canonical": "https://bestpickzone.com/home-kitchen",
+      "directoryCount": 29,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "title": "Book Recommendations & Practical Buying Guides | BestPickZone",
+      "description": "Find your next book or compare coffee gear, home office equipment, and kitchen essentials. Start with your reading mood, available space, and everyday routine.",
+      "canonical": "https://bestpickzone.com/",
+      "directoryCount": 10,
+      "overflow": false
+    },
+    {
+      "route": "/coffee",
+      "width": 1440,
+      "title": "Coffee gear that fits how you brew | BestPickZone",
+      "description": "Choose coffee gear by brewing method, counter space, grinder needs, and accessory fit. Find espresso, filter-coffee, and machine-specific buying guides.",
+      "canonical": "https://bestpickzone.com/coffee",
+      "directoryCount": 21,
+      "overflow": false
+    },
+    {
+      "route": "/wfh",
+      "width": 1440,
+      "title": "WFH Setup Guides: Desk Space, Screens & Chair Fit | BestPickZone",
+      "description": "Plan a home office around desk space, screen placement, laptop compatibility, and chair fit. Find practical guides for docks, monitor arms, lighting, and controls.",
+      "canonical": "https://bestpickzone.com/wfh",
+      "directoryCount": 18,
+      "overflow": false
+    },
+    {
+      "route": "/home-kitchen",
+      "width": 1440,
+      "title": "Choose what earns space in your home | BestPickZone",
+      "description": "Compare appliances, attachments, and home essentials by usable space, model compatibility, cleaning, and storage. Find guides for kitchens, dorms, and outdoor setups.",
+      "canonical": "https://bestpickzone.com/home-kitchen",
+      "directoryCount": 29,
+      "overflow": false
+    }
+  ],
+  "links": [
+    {
+      "href": "/books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors",
+      "status": 200
+    },
+    {
+      "href": "/books/genre-fiction",
+      "status": 200
+    },
+    {
+      "href": "/books/self-help",
+      "status": 200
+    },
+    {
+      "href": "/books/kids-and-ya",
+      "status": 200
+    },
+    {
+      "href": "/books/reader-picks",
+      "status": 200
+    },
+    {
+      "href": "/coffee",
+      "status": 200
+    },
+    {
+      "href": "/wfh",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-coffee-makers-for-low-cabinets",
+      "status": 200
+    },
+    {
+      "href": "/wfh/best-usb-c-docks-for-two-monitors",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/ninja-creami-containers-compatibility",
+      "status": 200
+    },
+    {
+      "href": "/wfh/best-monitor-arms-for-shallow-desks",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-gillian-flynn-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-lucy-foley-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-ruth-ware-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-lisa-jewell-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-riley-sager-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-freida-mcfadden-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-tana-french-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-jane-harper-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-shari-lapena-books",
+      "status": 200
+    },
+    {
+      "href": "/books/authors/best-anthony-horowitz-books",
+      "status": 200
+    },
+    {
+      "href": "/beauty",
+      "status": 200
+    },
+    {
+      "href": "/tech",
+      "status": 200
+    },
+    {
+      "href": "/mahjong",
+      "status": 200
+    },
+    {
+      "href": "/health-fitness",
+      "status": 200
+    },
+    {
+      "href": "/finance-software",
+      "status": 200
+    },
+    {
+      "href": "/deals",
+      "status": 200
+    },
+    {
+      "href": "/deal-agent",
+      "status": 200
+    },
+    {
+      "href": "/disclosure",
+      "status": 200
+    },
+    {
+      "href": "/",
+      "status": 200
+    },
+    {
+      "href": "/deals/espresso-machines",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-burr-grinders-french-press-cold-brew",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-espresso-grinders-gaggia-classic-pro",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-low-profile-espresso-scales",
+      "status": 200
+    },
+    {
+      "href": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "status": 200
+    },
+    {
+      "href": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-gaggia-classic-pro-upgrades",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-used-breville-espresso-machines-ebay",
+      "status": 200
+    },
+    {
+      "href": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "status": 200
+    },
+    {
+      "href": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "status": 200
+    },
+    {
+      "href": "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+      "status": 200
+    },
+    {
+      "href": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "status": 200
+    },
+    {
+      "href": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "status": 200
+    },
+    {
+      "href": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "status": 200
+    },
+    {
+      "href": "/coffee/hario-v60-vs-chemex-classic",
+      "status": 200
+    },
+    {
+      "href": "/coffee/aeropress-original-vs-aeropress-premium",
+      "status": 200
+    },
+    {
+      "href": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "status": 200
+    },
+    {
+      "href": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "status": 200
+    },
+    {
+      "href": "/coffee/best-vintage-coffee-grinders-ebay",
+      "status": 200
+    },
+    {
+      "href": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "status": 200
+    },
+    {
+      "href": "/wfh/best-video-call-lighting-for-glasses",
+      "status": 200
+    },
+    {
+      "href": "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+      "status": 200
+    },
+    {
+      "href": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "status": 200
+    },
+    {
+      "href": "/wfh/best-portable-monitors-under-100-ebay",
+      "status": 200
+    },
+    {
+      "href": "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+      "status": 200
+    },
+    {
+      "href": "/wfh/best-used-herman-miller-aeron-chairs-ebay",
+      "status": 200
+    },
+    {
+      "href": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "status": 200
+    },
+    {
+      "href": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "status": 200
+    },
+    {
+      "href": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "status": 200
+    },
+    {
+      "href": "/wfh/best-products-for-your-home-office",
+      "status": 200
+    },
+    {
+      "href": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "status": 200
+    },
+    {
+      "href": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "status": 200
+    },
+    {
+      "href": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "status": 200
+    },
+    {
+      "href": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "status": 200
+    },
+    {
+      "href": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-study-desk-essentials",
+      "status": 200
+    },
+    {
+      "href": "/deals/desktop-controllers",
+      "status": 200
+    },
+    {
+      "href": "/amazon-offers/amazon-business-account-for-small-business",
+      "status": 200
+    },
+    {
+      "href": "/amazon-offers/is-amazon-prime-paid-membership-worth-it",
+      "status": 200
+    },
+    {
+      "href": "/amazon-offers",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-dorm-room-essentials",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-air-fryers",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-coffee-makers-under-100",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-pizza-peels-ooni-koda-12",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-air-fryer-accessories",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/oxo-vs-chefn-corn-stripper",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-products-for-your-dorm-room",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-productivity-products-for-students",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-tech-for-college-students",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-back-to-school-gadgets",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-dorm-organization-products",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-picnic-essentials",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-products-for-your-backyard",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-fall-clothes-for-couples",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-halloween-candy-deals-on-amazon",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-car-cleaning-products",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-pet-travel-products",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-solar-powered-attic-fans",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-kids-fort-for-girls-2026",
+      "status": 200
+    },
+    {
+      "href": "/home-kitchen/best-robot-vacuums",
+      "status": 200
+    },
+    {
+      "href": "/amazon-offers/prime-free-trial-before-prime-day",
+      "status": 200
+    },
+    {
+      "href": "/amazon-offers/prime-access-eligibility-value",
+      "status": 200
+    }
+  ]
+}
