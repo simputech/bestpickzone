@@ -7,5 +7,5 @@ export const dynamic = 'force-dynamic'
 export const metadata = authorRankingMetadata(article)
 
 export default function Page() {
-  return <AmazonAuthorRankingArticlePage article={article} />
+  return <AmazonAuthorRankingArticlePage article={article} editions={{ "The Survivors": "1250232422" }} />
 }

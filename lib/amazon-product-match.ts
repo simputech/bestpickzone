@@ -14,6 +14,41 @@ export type AmazonProductRequest = {
   allowAccessory?: boolean
 }
 
+/** Diagnostics contain only fixed codes, never catalog strings or returned identifiers. */
+export type AmazonProductMismatchReason =
+  | 'invalid_candidate'
+  | 'missing_title'
+  | 'missing_asin'
+  | 'missing_image'
+  | 'invalid_image_dimensions'
+  | 'asin_mismatch'
+  | 'invalid_detail_url'
+  | 'invalid_image_url'
+  | 'title_mismatch'
+  | 'required_title_term_missing'
+  | 'forbidden_title_term'
+  | 'brand_missing'
+  | 'query_brand_unverified'
+  | 'brand_mismatch'
+  | 'model_missing'
+  | 'model_mismatch'
+  | 'model_prefix_mismatch'
+  | 'unrequested_condition'
+  | 'unrequested_accessory'
+  | 'accessory_compatibility'
+  | 'unrequested_variant'
+  | 'ambiguous_candidates'
+  | 'no_candidates'
+  | 'malformed_candidate'
+
+export type AmazonProductMismatchReporter = (reason: AmazonProductMismatchReason) => void
+
+function reportMismatch(report: AmazonProductMismatchReporter | undefined, reason: AmazonProductMismatchReason) {
+  // Optional observability must never change the matching result or throw during rendering.
+  try { report?.(reason) } catch { /* Ignore diagnostic sink errors. */ }
+  return null
+}
+
 export type AmazonCreatorItem = {
   asin: string
   detailPageURL: string
@@ -88,40 +123,49 @@ export function matchAmazonProduct(
   partnerTag: string,
   marketplace: string,
   fetchedAt: string,
+  onMismatch?: AmazonProductMismatchReporter,
 ): AmazonCreatorItem | null {
-  if (!item || typeof item !== 'object') return null
+  const reject = (reason: AmazonProductMismatchReason) => reportMismatch(onMismatch, reason)
+  if (!item || typeof item !== 'object') return reject('invalid_candidate')
   const title = item.itemInfo?.title?.displayValue
   const asin = item.asin
   const image = item.images?.primary?.large ?? item.images?.primary?.medium
-  if (typeof title !== 'string' || !title || typeof asin !== 'string' || typeof image?.url !== 'string' || !Number.isFinite(image.width) || !Number.isFinite(image.height) ||
-    !image.width || image.width < 1 || !image.height || image.height < 1) return null
-  if (expected.asin && asin !== expected.asin) return null
-  if (!isAmazonProductUrl(item.detailPageURL, asin, partnerTag, marketplace) || !isAmazonImageUrl(image.url)) return null
+  if (typeof title !== 'string' || !title) return reject('missing_title')
+  if (typeof asin !== 'string') return reject('missing_asin')
+  if (typeof image?.url !== 'string') return reject('missing_image')
+  if (!Number.isFinite(image.width) || !Number.isFinite(image.height) ||
+    !image.width || image.width < 1 || !image.height || image.height < 1) return reject('invalid_image_dimensions')
+  if (expected.asin && asin !== expected.asin) return reject('asin_mismatch')
+  if (!isAmazonProductUrl(item.detailPageURL, asin, partnerTag, marketplace)) return reject('invalid_detail_url')
+  if (!isAmazonImageUrl(image.url)) return reject('invalid_image_url')
 
   const expectedTitle = expected.expectedTitle?.trim() || expected.query.trim()
   const pinnedIdentity = Boolean(expected.asin && expected.brand && expected.requiredTitleTerms?.length)
-  if (!expectedTitle || (!pinnedIdentity && !containsWords(title, expectedTitle))) return null
-  if (expected.requiredTitleTerms?.some(term => !containsPhrase(title, term))) return null
-  if (expected.forbiddenTitleTerms?.some(term => containsPhrase(title, term))) return null
+  if (!expectedTitle || (!pinnedIdentity && !containsWords(title, expectedTitle))) return reject('title_mismatch')
+  if (expected.requiredTitleTerms?.some(term => !containsPhrase(title, term))) return reject('required_title_term_missing')
+  if (expected.forbiddenTitleTerms?.some(term => containsPhrase(title, term))) return reject('forbidden_title_term')
 
   const brand = item.itemInfo?.byLineInfo?.brand?.displayValue
   // For discovery, an actual brand field must agree with the requested identity.
   // A category-only query ("wireless keyboard") must remain an honest search link.
-  if (!expected.asin && (typeof brand !== 'string' || !brand || (!expected.brand && !containsPhrase(expectedTitle, brand)))) return null
-  if (expected.brand && (typeof brand !== 'string' || !brand || normalizeAmazonText(brand) !== normalizeAmazonText(expected.brand))) return null
+  if (!expected.asin && (typeof brand !== 'string' || !brand)) return reject('brand_missing')
+  if (!expected.asin && !expected.brand && !containsPhrase(expectedTitle, brand!)) return reject('query_brand_unverified')
+  if (expected.brand && (typeof brand !== 'string' || !brand)) return reject('brand_missing')
+  if (expected.brand && normalizeAmazonText(brand!) !== normalizeAmazonText(expected.brand)) return reject('brand_mismatch')
   if (expected.model || expected.modelPrefix) {
     const model = item.itemInfo?.manufactureInfo
     const identifiers = [model?.model?.displayValue, model?.itemPartNumber?.displayValue].filter((value): value is string => typeof value === 'string' && Boolean(value))
+    if (!identifiers.length) return reject('model_missing')
     if (expected.model) {
       const expectedModel = normalizeAmazonText(expected.model)
-      if (!identifiers.some(value => normalizeAmazonText(value) === expectedModel)) return null
+      if (!identifiers.some(value => normalizeAmazonText(value) === expectedModel)) return reject('model_mismatch')
     }
     if (expected.modelPrefix) {
       const prefix = normalizeAmazonText(expected.modelPrefix)
       if (!prefix || !identifiers.some(value => {
         const identifier = normalizeAmazonText(value)
         return identifier === prefix || identifier.startsWith(`${prefix} `)
-      })) return null
+      })) return reject('model_prefix_mismatch')
     }
   }
 
@@ -129,16 +173,16 @@ export function matchAmazonProduct(
   const normalizedExpected = normalizeAmazonText(expectedTitle)
   // Avoid a compatible accessory, used listing, bundle or adjacent model variant.
   for (const condition of normalizedTitle.match(UNREQUESTED_CONDITIONS) ?? []) {
-    if (!containsPhrase(normalizedExpected, condition)) return null
+    if (!containsPhrase(normalizedExpected, condition)) return reject('unrequested_condition')
   }
   if (!(expected.allowAccessory && pinnedIdentity)) {
     for (const word of normalizedTitle.match(ACCESSORY_WORDS) ?? []) {
-      if (!containsPhrase(normalizedExpected, word)) return null
+      if (!containsPhrase(normalizedExpected, word)) return reject('unrequested_accessory')
     }
-    if (/\b(compatible with|for use with|fits)\b/.test(normalizedTitle)) return null
+    if (/\b(compatible with|for use with|fits)\b/.test(normalizedTitle)) return reject('accessory_compatibility')
   }
-  if (!expected.asin && VARIANT_WORDS.some(word => containsPhrase(normalizedTitle, word) && !containsPhrase(normalizedExpected, word))) return null
-  if (!expected.asin && /\bfor\b/.test(normalizedTitle) && brand && !containsPhrase(title.split(/\bfor\b/i)[0], brand)) return null
+  if (!expected.asin && VARIANT_WORDS.some(word => containsPhrase(normalizedTitle, word) && !containsPhrase(normalizedExpected, word))) return reject('unrequested_variant')
+  if (!expected.asin && /\bfor\b/.test(normalizedTitle) && brand && !containsPhrase(title.split(/\bfor\b/i)[0], brand)) return reject('accessory_compatibility')
 
   return { asin, title, detailPageURL: item.detailPageURL!, imageUrl: image.url, imageWidth: image.width, imageHeight: image.height, fetchedAt }
 }
@@ -150,13 +194,16 @@ export function selectAmazonProduct(
   partnerTag: string,
   marketplace: string,
   fetchedAt: string,
+  onMismatch?: AmazonProductMismatchReporter,
 ): AmazonCreatorItem | null {
+  if (!items.length) return reportMismatch(onMismatch, 'no_candidates')
   const matches = new Map<string, AmazonCreatorItem>()
   for (const item of items) {
     try {
-      const match = matchAmazonProduct(item, expected, partnerTag, marketplace, fetchedAt)
+      const match = matchAmazonProduct(item, expected, partnerTag, marketplace, fetchedAt, onMismatch)
       if (match) matches.set(match.asin, match)
-    } catch { /* Malformed catalog entries are not verified products. */ }
+    } catch { reportMismatch(onMismatch, 'malformed_candidate') }
   }
+  if (matches.size > 1) return reportMismatch(onMismatch, 'ambiguous_candidates')
   return matches.size === 1 ? Array.from(matches.values())[0] : null
 }

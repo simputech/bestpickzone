@@ -170,3 +170,49 @@ test('pinned ASINs still require requested dimensions and reject forbidden confi
   assert.equal(match(source, { ...request, requiredTitleTerms: ['portafilter', '58mm'] }), null);
   assert.equal(match(source, { ...request, forbiddenTitleTerms: ['dual'] }), null);
 });
+
+test('optional mismatch reporting emits only fixed reason codes and preserves fail-closed checks', () => {
+  const checks = [
+    ['missing_title', source => { source.itemInfo.title.displayValue = ''; }, expected],
+    ['missing_asin', source => { delete source.asin; }, expected],
+    ['missing_image', source => { delete source.images; }, expected],
+    ['invalid_image_dimensions', source => { source.images.primary.large.width = 0; }, expected],
+    ['asin_mismatch', () => {}, { ...expected, asin: 'B000OTHER1' }],
+    ['invalid_detail_url', source => { source.detailPageURL = 'https://untrusted.example/private'; }, expected],
+    ['invalid_image_url', source => { source.images.primary.large.url = 'https://untrusted.example/private.jpg'; }, expected],
+    ['title_mismatch', source => { source.itemInfo.title.displayValue = 'Private Amazon Title'; }, expected],
+    ['required_title_term_missing', () => {}, { ...expected, requiredTitleTerms: ['missing-term'] }],
+    ['forbidden_title_term', () => {}, { ...expected, forbiddenTitleTerms: ['Aero'] }],
+    ['brand_missing', source => { delete source.itemInfo.byLineInfo; }, expected],
+    ['brand_mismatch', source => { source.itemInfo.byLineInfo.brand.displayValue = 'Private Amazon Brand'; }, expected],
+    ['model_missing', source => { delete source.itemInfo.manufactureInfo; }, expected],
+    ['model_mismatch', source => { source.itemInfo.manufactureInfo.model.displayValue = 'Private Amazon Model'; }, expected],
+    ['model_prefix_mismatch', () => {}, { ...expected, model: undefined, modelPrefix: '45-682' }],
+    ['unrequested_condition', source => { source.itemInfo.title.displayValue += ' Renewed'; }, expected],
+    ['unrequested_accessory', source => { source.itemInfo.title.displayValue += ' Replacement'; }, expected],
+    ['accessory_compatibility', source => { source.itemInfo.title.displayValue += ' Fits'; }, expected],
+    ['unrequested_variant', source => { source.itemInfo.title.displayValue += ' Mini'; }, expected],
+  ];
+  for (const [code, alter, request] of checks) {
+    const source = item(); alter(source); const reasons = [];
+    const result = matchAmazonProduct(source, request, 'althcu-20', 'www.amazon.com', fetchedAt, (...args) => reasons.push(args));
+    assert.equal(result, null, code);
+    assert.deepEqual(reasons, [[code]], code);
+  }
+  const successReasons = [];
+  assert.ok(matchAmazonProduct(item(), expected, 'althcu-20', 'www.amazon.com', fetchedAt, reason => successReasons.push(reason)));
+  assert.deepEqual(successReasons, []);
+  assert.equal(matchAmazonProduct(null, expected, 'althcu-20', 'www.amazon.com', fetchedAt, () => { throw Error('diagnostic error'); }), null);
+});
+
+test('selection diagnostics distinguish absent, invalid and ambiguous candidates without exposing content', () => {
+  for (const [items, expectedReason] of [
+    [[], 'no_candidates'],
+    [[null], 'invalid_candidate'],
+    [[item(), item('B000TEST02')], 'ambiguous_candidates'],
+  ]) {
+    const reasons = [];
+    assert.equal(selectAmazonProduct(items, expected, 'althcu-20', 'www.amazon.com', fetchedAt, reason => reasons.push(reason)), null);
+    assert.deepEqual(reasons, [expectedReason]);
+  }
+});

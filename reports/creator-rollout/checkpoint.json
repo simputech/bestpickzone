@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-16T22:51:16.761863+00:00",
+  "updatedAt": "2026-10-16T23:20:58.401666+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 1,
-  "status": "awaiting-private-preview-access",
+  "status": "batch-01-production-corrections-in-progress",
   "completedBatches": [],
   "batch01": {
     "reviewedPaths": [
@@ -31,14 +31,17 @@
     ],
     "substantialRefreshes": [],
     "sitemapUpdates": [],
-    "publicationCommit": null,
-    "deploymentId": null,
+    "publicationCommit": "7dcf29d25e0fa9ffb9ef4383c408bc68beb4507c",
+    "deploymentId": "dpl_6eh3MyzLgCniPKGdZfBCsfUCz6Zz",
     "runtimeVerified": false,
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/13",
-    "staticTestsPassed": 85,
-    "previewAccess": "Protected preview access requires explicit temporary-access permission; no production deployment has been requested."
+    "staticTestsPassed": 144,
+    "previewAccess": "23-hour private QA browser access authorized for this rollout. Preview has no Amazon configuration; fallback rendering only was verified. Production API cards and all 75 images verified on 20 routes.",
+    "initialLiveCards": 75,
+    "initialFallbackCards": 16,
+    "corrections": "Thirteen source-backed identity corrections: eleven product picks plus two exact English hardcover editions. Partial author-edition maps preserve unpinned recommendations. Strict matching remains unchanged; fixed enum-only fallback diagnostics added."
   },
-  "nextAction": "Complete authorized preview browser/API verification, publish batch 1, verify production, then start batch 2.",
+  "nextAction": "Publish reviewed narrow identity corrections, verify all 20 production routes, complete batch 1 checkpoint, then start batch 2.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
