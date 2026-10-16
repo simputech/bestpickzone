@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "kitchenaid-pasta-roller-vs-pasta-press",
+    "products": [
+      {
+        "query": "KitchenAid KSMPRA Pasta Roller Cutter Set",
+        "expectedBrandOrAuthor": "KitchenAid",
+        "expectedModelOrTitle": "KSMPRA",
+        "selectionConstraints": "Three separate attachments: roller, spaghetti cutter, fettuccine cutter; not KSM3PPA or KSM3MPA."
+      },
+      {
+        "query": "KitchenAid KSMPSA Pasta Sheet Roller",
+        "expectedBrandOrAuthor": "KitchenAid",
+        "expectedModelOrTitle": "KSMPSA",
+        "selectionConstraints": "Roller alone, not a third-party compatible attachment."
+      },
+      {
+        "query": "KitchenAid KSMPEXTA Gourmet Pasta Press",
+        "expectedBrandOrAuthor": "KitchenAid",
+        "expectedModelOrTitle": "KSMPEXTA",
+        "selectionConstraints": "Complete press with six shaping discs; not a sheet roller."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "best-pizza-peels-ooni-koda-12",
+    "products": [
+      {
+        "query": "Ooni 12 inch Perforated Pizza Peel",
+        "expectedBrandOrAuthor": "Ooni",
+        "expectedModelOrTitle": "12-inch Perforated Pizza Peel",
+        "selectionConstraints": "Standard 12-inch variant; reject 14/16-inch and Signature substitutions."
+      },
+      {
+        "query": "Ooni Pizza Turning Peel 7 inch",
+        "expectedBrandOrAuthor": "Ooni",
+        "expectedModelOrTitle": "7-inch Pizza Turning Peel",
+        "selectionConstraints": "Compact turning peel, not the 9-inch variant."
+      },
+      {
+        "query": "Ooni 12 inch Bamboo Pizza Peel Serving Board",
+        "expectedBrandOrAuthor": "Ooni",
+        "expectedModelOrTitle": "12-inch Bamboo Pizza Peel & Serving Board",
+        "selectionConstraints": "12-inch bamboo variant, not larger boards."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "best-mahjong-racks-pushers-oversized-tiles",
+    "products": [
+      {
+        "query": "My Fair Mahjong 20 inch acrylic racks magnetic pushers",
+        "expectedBrandOrAuthor": "My Fair Mahjong",
+        "expectedModelOrTitle": "20-inch Acrylic Mahjong Racks",
+        "selectionConstraints": "Four racks and four magnetic pushers; verify exact brand and 20-inch size. Known Amazon-fit gap; suppress card if no exact item."
+      },
+      {
+        "query": "My Fair Mahjong 20 inch wooden racks magnetic pushers",
+        "expectedBrandOrAuthor": "My Fair Mahjong",
+        "expectedModelOrTitle": "20-inch Wooden Mahjong Racks",
+        "selectionConstraints": "Four racks and matching magnetic pushers. Do not replace with 18-inch YMI or another brand."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "ninja-creami-containers-compatibility",
+    "products": [
+      {
+        "query": "Ninja XSKPLID2CD CREAMi pints lids 16 oz",
+        "expectedBrandOrAuthor": "Ninja",
+        "expectedModelOrTitle": "XSKPLID2CD",
+        "selectionConstraints": "Genuine Original-compatible 16-oz two-pack, not generic compatible pints."
+      },
+      {
+        "query": "Ninja XSKPNTLD2 CREAMi Deluxe XL tubs 24 oz",
+        "expectedBrandOrAuthor": "Ninja",
+        "expectedModelOrTitle": "XSKPNTLD2",
+        "selectionConstraints": "Genuine NC500/NC600-compatible 24-oz two-pack."
+      },
+      {
+        "query": "Ninja XSK7PNTLD2 Scoop Swirl pints lids nozzles",
+        "expectedBrandOrAuthor": "Ninja",
+        "expectedModelOrTitle": "XSK7PNTLD2",
+        "selectionConstraints": "Genuine NC700-family 16-oz 2-in-1 pints, lids and nozzles; not Original pints."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+    "products": [
+      {
+        "query": "Elgato Stream Deck MK.2 15 LCD keys",
+        "expectedBrandOrAuthor": "Elgato",
+        "expectedModelOrTitle": "Stream Deck MK.2",
+        "selectionConstraints": "15-key MK.2, not XL, Mini, Neo or Plus."
+      },
+      {
+        "query": "Logitech MX Creative Console keypad dialpad",
+        "expectedBrandOrAuthor": "Logitech",
+        "expectedModelOrTitle": "MX Creative Console",
+        "selectionConstraints": "Full kit including keypad and dialpad, not standalone MX Keypad."
+      },
+      {
+        "query": "Logitech MX Keypad standalone 9 LCD keys",
+        "expectedBrandOrAuthor": "Logitech",
+        "expectedModelOrTitle": "MX Keypad",
+        "selectionConstraints": "Standalone nine-LCD-key device announced September 2026, not full console or keyboard."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "best-espresso-grinders-gaggia-classic-pro",
+    "products": [
+      {
+        "query": "Baratza Encore ESP coffee grinder",
+        "expectedBrandOrAuthor": "Baratza",
+        "expectedModelOrTitle": "Encore ESP",
+        "selectionConstraints": "Original ESP, not ordinary Encore or Encore ESP Pro."
+      },
+      {
+        "query": "1Zpresso J-Ultra manual coffee grinder",
+        "expectedBrandOrAuthor": "1Zpresso",
+        "expectedModelOrTitle": "J-Ultra",
+        "selectionConstraints": "Exact J-Ultra, not JX-Pro/K-Ultra/J-Max."
+      },
+      {
+        "query": "Eureka Mignon Specialita 55mm 110V espresso grinder",
+        "expectedBrandOrAuthor": "Eureka",
+        "expectedModelOrTitle": "Mignon Specialità",
+        "selectionConstraints": "Original Specialità, not Specialità Smart; US-compatible voltage and seller warranty."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "best-bottomless-portafilters-gaggia-classic-pro",
+    "products": [
+      {
+        "query": "KNODOS Gaggia 58mm Rosewood Portafilter",
+        "expectedBrandOrAuthor": "KNODOS",
+        "expectedModelOrTitle": "58mm Gaggia Bottomless Portafilter, Rosewood",
+        "selectionConstraints": "Gaggia Classic/Classic Pro/E24/Evo two-ear version with removable 18–21g basket; not E61/Breville."
+      },
+      {
+        "query": "Normcore bottomless portafilter Gaggia 58mm removable basket",
+        "expectedBrandOrAuthor": "Normcore",
+        "expectedModelOrTitle": "58mm Gaggia Bottomless Portafilter with Handle",
+        "selectionConstraints": "Gaggia-specific removable basket version, not E61/Breville or Unibody."
+      },
+      {
+        "query": "IMS B682TH24.5M Gaggia basket",
+        "expectedBrandOrAuthor": "IMS",
+        "expectedModelOrTitle": "B682TH24.5M",
+        "selectionConstraints": "Exact model; do not replace with B70 series or other IMS baskets. Existing exact Amazon listing gap; suppress if unmatched."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "daring-greatly-vs-the-gifts-of-imperfection",
+    "products": [
+      {
+        "query": "Daring Greatly Brene Brown",
+        "expectedBrandOrAuthor": "Brené Brown",
+        "expectedModelOrTitle": "Daring Greatly",
+        "selectionConstraints": "Original book by Brené Brown. Reject summaries, workbooks, journals and bundles; format/edition must be explicit."
+      },
+      {
+        "query": "The Gifts of Imperfection Brene Brown 10th Anniversary",
+        "expectedBrandOrAuthor": "Brené Brown",
+        "expectedModelOrTitle": "The Gifts of Imperfection",
+        "selectionConstraints": "Original book by Brené Brown, preferably tenth-anniversary edition matching article link; reject unofficial companions/summaries."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "best-folding-tables-for-mahjong",
+    "products": [
+      {
+        "query": "COSCO XL 38.5 fold in half card table 14036",
+        "expectedBrandOrAuthor": "COSCO",
+        "expectedModelOrTitle": "14036BLK1E / 14036 family",
+        "selectionConstraints": "38.5-inch square resin fold-in-half top with handle; no rectangular or different size substitution."
+      },
+      {
+        "query": "COSCO 34 vinyl top folding table 14696",
+        "expectedBrandOrAuthor": "COSCO",
+        "expectedModelOrTitle": "14696BLK1E / 14696 family",
+        "selectionConstraints": "34-inch square vinyl-top folding-leg table, not 6-foot fold-in-half despite inconsistent manufacturer variant selector."
+      }
+    ],
+    "plannedBatch": 1
+  },
+  {
+    "slug": "best-monitor-arms-for-shallow-desks",
+    "products": [
+      {
+        "query": "VIVO STAND-V001 single monitor desk mount",
+        "expectedBrandOrAuthor": "VIVO",
+        "expectedModelOrTitle": "STAND-V001",
+        "selectionConstraints": "Single pole-based articulated arm, not V001O/V001Q or other similarly named variants."
+      },
+      {
+        "query": "Ergotron LX Pro 45-682 single monitor arm",
+        "expectedBrandOrAuthor": "Ergotron",
+        "expectedModelOrTitle": "LX Pro 45-682",
+        "selectionConstraints": "Single monitor LX Pro, not legacy LX or dual-monitor kit. Verify exact mounting kit."
+      }
+    ],
+    "plannedBatch": 2
+  }
+]

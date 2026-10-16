@@ -23,7 +23,8 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
     type: 'article',
   },
 }, {
-  publishedTime: '2026-01-01T00:00:00Z',
+  publishedTime: '2026-06-13T00:00:00Z',
+  modifiedTime: '2026-06-26T00:00:00Z',
   category: 'authors' }), "/books/authors/best-alex-michaelides-books")
 
 const breadcrumbItems = [
@@ -41,7 +42,7 @@ const books = [
     author: 'Alex Michaelides',
     badge: 'Start Here',
     badgeClass: 'border border-emerald-300 bg-emerald-100 text-emerald-900',
-    meta: 'Celadon Books · 304 pages · published February 5, 2019',
+    meta: 'Celadon Books · US hardcover: 336 pages · published February 5, 2019',
     vibe: 'Fast, twist-first psychological thriller with the cleanest hook',
     bestFor:
       'Readers who want the Alex Michaelides book with the strongest elevator pitch and the most dependable page-turning momentum',
@@ -77,14 +78,14 @@ const books = [
     author: 'Alex Michaelides',
     badge: 'Skip First',
     badgeClass: 'border border-violet-300 bg-violet-100 text-violet-900',
-    meta: 'Celadon Books · 336 pages · published June 15, 2021',
+    meta: 'Celadon Books · US hardcover: 352 pages · published June 15, 2021',
     vibe: 'Dark academia, Greek myth, grief, obsession, and more atmosphere than snap',
     bestFor:
       'Readers who want Cambridge cloisters, cultish student energy, and a thriller that sells mood before it sells precision',
     whyItWins:
       'When it works, it works because Michaelides merges his fascination with classic tragedy and damaged psyches into a very specific dark-academia package.',
     description:
-      'The Maidens is the most divisive Alex Michaelides novel and that is exactly why it belongs in third place instead of first. Mariana Andros investigates the murder of a student at Cambridge and becomes convinced that a charismatic professor and his all-female circle are at the center of something rotten. The book has the strongest atmospheric identity in Michaelides\' catalog: Greek myth references, old-college melancholy, ritualized charisma, and a lingering sense of grief. But it is also the book most likely to frustrate readers who came for the crisp puzzle-engine of The Silent Patient. Read it when you want mood, obsession, and a slightly feverish campus-thriller texture more than airtight logic.',
+      'The Maidens is our third-place recommendation because its campus atmosphere is a more specific draw than the immediate hook of The Silent Patient. Mariana Andros investigates the murder of a student at Cambridge and becomes convinced that a charismatic professor and his all-female circle are at the center of something rotten. The book has the strongest atmospheric identity in Michaelides\' catalog: Greek myth references, old-college melancholy, ritualized charisma, and a lingering sense of grief. But it is also the book most likely to frustrate readers who came for the crisp puzzle-engine of The Silent Patient. Read it when you want mood, obsession, and a slightly feverish campus-thriller texture more than airtight logic.',
     skipIf:
       'Skip this first if your main reason for reading Alex Michaelides is “I want the tightest thriller he wrote.” Start with The Silent Patient instead.',
   },
@@ -239,14 +240,6 @@ export default function BestAlexMichaelidesBooksPage() {
       />
 
       <main className="mx-auto max-w-5xl px-4 py-10">
-        <section className="my-8 rounded-3xl border border-amber-200 bg-white p-5">
-          <h2 className="mb-3 text-2xl font-bold">Shop Alex Michaelides books</h2>
-          <p className="mb-5 text-sm text-gray-600">Compare editions and current Amazon listings before buying. Affiliate links may earn us a commission.</p>
-          <div className="grid gap-4 md:grid-cols-2">
-            <OrganicPilotProductCard query="The Silent Patient Alex Michaelides paperback" label="The Silent Patient" />
-            <OrganicPilotProductCard query="The Fury Alex Michaelides paperback" label="The Fury" />
-          </div>
-        </section>
         <Breadcrumb items={breadcrumbItems} />
 
         <header className="mb-10 overflow-hidden rounded-[36px] border border-cyan-200 bg-[radial-gradient(circle_at_top_right,_rgba(34,211,238,0.18),_transparent_28%),radial-gradient(circle_at_bottom_left,_rgba(125,211,252,0.18),_transparent_30%),linear-gradient(135deg,#f8fafc_0%,#ffffff_45%,#ecfeff_100%)] p-6 shadow-sm md:p-8">
@@ -298,6 +291,16 @@ export default function BestAlexMichaelidesBooksPage() {
             </div>
           </div>
         </header>
+
+        <section className="my-8 rounded-3xl border border-amber-200 bg-white p-5">
+          <h2 className="mb-3 text-2xl font-bold">Shop Alex Michaelides books</h2>
+          <p className="mb-5 text-sm text-gray-600">Compare editions and current Amazon listings before buying. Affiliate links may earn us a commission.</p>
+          <div className="grid gap-4 md:grid-cols-2">
+            <OrganicPilotProductCard query="The Silent Patient Alex Michaelides" label="The Silent Patient" asin="1250301696" author="Alex Michaelides" />
+            <OrganicPilotProductCard query="The Fury Alex Michaelides" label="The Fury" asin="125075898X" author="Alex Michaelides" />
+          </div>
+        </section>
+
 
         <section className="mb-10 grid gap-4 md:grid-cols-3">
           {quickAnswers.map((item) => (
@@ -452,6 +455,18 @@ export default function BestAlexMichaelidesBooksPage() {
               can change, so confirm before purchasing.
             </p>
           </div>
+        </section>
+
+        <section className="mb-10 rounded-[34px] border border-slate-200 bg-white p-6 shadow-sm md:p-8">
+          <h2 className="mb-4 text-2xl font-bold text-slate-950">Sources and edition details</h2>
+          <p className="text-sm leading-7 text-slate-700">
+            The <a href="https://www.alexmichaelides.com/" className="underline">author&apos;s official catalog</a> identifies these three novels.
+            Macmillan&apos;s listings for <a href="https://us.macmillan.com/books/9781250301697/thesilentpatient/" className="underline">The Silent Patient</a>,{' '}
+            <a href="https://us.macmillan.com/books/9781250304452/themaidens/" className="underline">The Maidens</a>, and{' '}
+            <a href="https://us.macmillan.com/books/9781250759009/thefury/" className="underline">The Fury</a> support the publication and premise details.
+            Page counts depend on edition and format; check the selected offer rather than treating one printed count as universal.
+            The ranking and reading path are our editorial judgments, not reader-survey results or a claim that everyone will prefer the same book.
+          </p>
         </section>
 
         <section className="mb-10 rounded-[34px] border border-slate-200 bg-white p-6 shadow-sm md:p-8">

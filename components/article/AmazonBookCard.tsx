@@ -1,4 +1,5 @@
 import type { AmazonBookItem } from '@/lib/amazon-book-match'
+import AmazonProductImage from './AmazonProductImage'
 
 export default function AmazonBookCard({ item, trackingId }: { item: AmazonBookItem; trackingId: string }) {
   const linkProps = {
@@ -17,7 +18,7 @@ export default function AmazonBookCard({ item, trackingId }: { item: AmazonBookI
         <a {...linkProps} className="shrink-0 rounded-lg bg-white p-3" aria-label={`View ${item.title} on Amazon`}>
           {/* Amazon hosts the original image; preserve its proportions and do not proxy/cache it. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={item.imageUrl} alt={`${item.title} book cover`} width={item.imageWidth} height={item.imageHeight} loading="lazy" className="h-48 w-36 object-contain" />
+          <AmazonProductImage src={item.imageUrl} alt={`${item.title} book cover`} width={item.imageWidth} height={item.imageHeight} className="h-48 w-36 object-contain" />
         </a>
         <div className="min-w-0 w-full flex-1">
           <h3 className="break-words text-xl font-bold leading-snug text-gray-900"><a {...linkProps} className="underline decoration-amber-400 underline-offset-4">{item.title}</a></h3>

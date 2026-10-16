@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "canonical_articles": 299,
+  "non_articles": 38,
+  "batches": 15,
+  "last_batch": 19,
+  "source_snapshot_commit": "48009045041c0129328f8769b9d4487d7e7c900c"
+}
