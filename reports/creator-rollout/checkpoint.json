@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-16T22:41:25.279544+00:00",
+  "updatedAt": "2026-10-16T22:51:16.761863+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 1,
-  "status": "preview-validation",
+  "status": "awaiting-private-preview-access",
   "completedBatches": [],
   "batch01": {
     "reviewedPaths": [
@@ -33,9 +33,12 @@
     "sitemapUpdates": [],
     "publicationCommit": null,
     "deploymentId": null,
-    "runtimeVerified": false
+    "runtimeVerified": false,
+    "pullRequest": "https://github.com/simputech/bestpickzone/pull/13",
+    "staticTestsPassed": 85,
+    "previewAccess": "Protected preview access requires explicit temporary-access permission; no production deployment has been requested."
   },
-  "nextAction": "Finish independent identity review, preview QA, publish batch1, verify production, then start batch2.",
+  "nextAction": "Complete authorized preview browser/API verification, publish batch 1, verify production, then start batch 2.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",

@@ -121,10 +121,7 @@ export default function AuthorRankingArticlePage({ article, bookProducts }: { ar
               {section.bookTitle && bookCta(section.bookTitle, `rank-${section.rank}`)}
             </section>
           ))}
-          {bookProducts && Object.keys(bookProducts).length > 0 && (
-            <p className="mt-8 text-xs leading-relaxed text-gray-600">CERTAIN CONTENT THAT APPEARS ON THIS SITE COMES FROM AMAZON. THIS CONTENT IS PROVIDED ‘AS IS’ AND IS SUBJECT TO CHANGE OR REMOVAL AT ANY TIME.</p>
-          )}
-        {bookProducts && <AmazonContentDisclaimer />}
+          {bookProducts && <AmazonContentDisclaimer />}
         </article>
 
         <aside className="mt-12 border-t border-slate-200 pt-8" aria-labelledby="related-author-guides">

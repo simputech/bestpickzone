@@ -29,7 +29,7 @@ function book(asin, title = 'Example Book', author = 'Sample Author', tag = 'alt
 function response(payload, status = 200, headers = {}) {
   return { ok: status >= 200 && status < 300, status, headers: new Headers(headers), json: async () => payload };
 }
-function harness(catalog, env = {}) {
+function harness(catalog, env = {}, tokenResponse) {
   let now = Date.parse('2026-10-16T22:00:00.000Z');
   let noStoreCalls = 0; const calls = []; const warnings = [];
   class FakeDate extends Date {
@@ -43,7 +43,7 @@ function harness(catalog, env = {}) {
     setTimeout: callback => { queueMicrotask(callback); return 1; },
     fetch: async (url, options) => {
       const call = { url, options, body: JSON.parse(options.body) }; calls.push(call);
-      if (url.includes('/auth/o2/token')) return response({ access_token: 'test-token', expires_in: 3600 });
+      if (url.includes('/auth/o2/token')) return tokenResponse ? tokenResponse(call) : response({ access_token: 'test-token', expires_in: 3600 });
       return catalog(call, calls);
     },
   });
@@ -177,4 +177,68 @@ test('blank optional default tag environment does not disable valid API credenti
   assert.ok(await state.api.searchAmazonProduct('Example Aero 2 coffee grinder'));
   assert.equal(catalogCalls(state)[0].body.partnerTag, 'althcu-20');
   assert.equal(await state.api.searchAmazonProduct('Example Aero 2 coffee grinder', { partnerTag: '' }), null);
+});
+
+test('known Gillian edition mapping preserves baseline GetItems authentication and resources', async () => {
+  // Synthetic responses exercise production's existing identifiers; not live Amazon evidence.
+  const requests = [
+    { asin: '0307588378', title: 'Gone Girl', author: 'Gillian Flynn' },
+    { asin: '0307341550', title: 'Sharp Objects', author: 'Gillian Flynn' },
+    { asin: '0307341577', title: 'Dark Places', author: 'Gillian Flynn' },
+    { asin: '0804188971', title: 'The Grownup', author: 'Gillian Flynn' },
+  ];
+  const state = harness(call => response({ itemsResult: { items: requests.map(request => book(request.asin, request.title, request.author, call.body.partnerTag)) } }));
+  const results = await state.api.getAmazonBooks(requests);
+  assert.equal(Object.keys(results).length, 4);
+  const token = state.calls[0]; const catalog = catalogCalls(state)[0];
+  assert.equal(token.url, 'https://api.amazon.com/auth/o2/token');
+  assert.deepEqual(token.body, { grant_type: 'client_credentials', client_id: 'test-client', client_secret: 'test-secret', scope: 'creatorsapi::default' });
+  assert.equal(catalog.url, 'https://creatorsapi.amazon/catalog/v1/getItems');
+  assert.deepEqual(catalog.body, {
+    itemIds: requests.map(request => request.asin), itemIdType: 'ASIN',
+    resources: ['images.primary.large', 'itemInfo.title', 'itemInfo.byLineInfo', 'itemInfo.classifications', 'itemInfo.contentInfo'],
+    marketplace: 'www.amazon.com', partnerTag: 'althcu-20',
+  });
+  assert.equal(catalog.options.headers.Authorization, 'Bearer test-token');
+  assert.equal(catalog.options.headers['x-marketplace'], 'www.amazon.com');
+});
+
+test('pilot book requests use their exact tag and do not accept differently tagged responses', async () => {
+  for (const returnedTag of ['grandparentsgift-20', 'althcu-20']) {
+    const state = harness(() => response({ itemsResult: { items: [book('1250301696', 'The Silent Patient', 'Alex Michaelides', returnedTag)] } }));
+    const result = await state.api.getAmazonBooks([{ asin: '1250301696', title: 'The Silent Patient', author: 'Alex Michaelides' }], { partnerTag: 'grandparentsgift-20' });
+    assert.equal(catalogCalls(state)[0].body.partnerTag, 'grandparentsgift-20');
+    assert.equal(Boolean(result['The Silent Patient']), returnedTag === 'grandparentsgift-20');
+  }
+});
+
+test('credential versions use the current regional OAuth endpoints', async () => {
+  for (const [version, host] of [['3.1', 'api.amazon.com'], ['3.2', 'api.amazon.co.uk'], ['3.3', 'api.amazon.co.jp']]) {
+    const state = harness(() => response({ searchResult: { items: [product()] } }), { AMAZON_CREATORS_API_CREDENTIAL_VERSION: version });
+    assert.ok(await state.api.searchAmazonProduct('Example Aero 2 coffee grinder'));
+    assert.equal(state.calls[0].url, `https://${host}/auth/o2/token`);
+    assert.equal(state.calls[0].body.scope, 'creatorsapi::default');
+  }
+});
+
+test('bad authentication responses fail closed and are short-term negative cached', async () => {
+  for (const payload of [null, {}, { access_token: '' }, { access_token: 'bad', expires_in: -1 }, { access_token: 'bad', expires_in: '3600' }]) {
+    const state = harness(() => { throw Error('catalog must not be called'); }, {}, () => response(payload));
+    assert.equal(await state.api.searchAmazonProduct('Example Aero 2'), null);
+    assert.equal(await state.api.searchAmazonProduct('Example Aero 3'), null);
+    assert.equal(state.calls.length, 1);
+    assert.ok(state.warnings.every(message => !/test-secret|test-client|test-token/.test(message)));
+  }
+});
+
+test('malformed public lookup arguments safely return fallback without network access', async () => {
+  const state = harness(() => { throw Error('must not fetch'); });
+  for (const query of [null, undefined, 42, {}, []]) assert.equal(await state.api.searchAmazonProduct(query), null);
+  for (const options of [null, 7, { partnerTag: 42 }]) assert.equal(await state.api.searchAmazonProduct('Example', options), null);
+  for (const input of [null, undefined, 17, {}, [null, {}, { title: 1, author: 'A' }, { title: 'Title', author: null }]]) {
+    assert.equal(Object.keys(await state.api.getAmazonBooks(input)).length, 0);
+    assert.equal(Object.keys(await state.api.getAmazonBooksByTitle(input)).length, 0);
+  }
+  assert.equal(await state.api.lookupAmazonProduct(null), null);
+  assert.equal(state.calls.length, 0);
 });

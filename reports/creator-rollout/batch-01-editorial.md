@@ -10,7 +10,7 @@ Review date: 2026-10-16 UTC. Final scope: ten author-ranking JSON articles, nine
 - The recommendations and compatibility explanations remain useful independently of affiliate links. All guides lead with a clear purchase decision, include real model distinctions, explain who should skip each choice, and separate manufacturer claims, calculations, and editorial reasoning from hands-on testing.
 - No fabricated testing or first-person ownership experience, duplicate H1, or filler-driven rebuild was found. The ten JSON author articles and reviewed buying guides have no FAQ. Alex Michaelides retains its legacy FAQ/schema, permitted by the playbook when the article is not materially rebuilt. All guides remain comfortably above the 1,000-word editorial floor; full visible body counts run 1,367–1,893 words before small edits and include some headings/table labels. All ten author articles also exceed the floor.
 - Raw-guide validation passes: every Amazon link uses `althcu-20`, `target="_blank"`, and `rel="sponsored noopener"`. All relative content links resolve to an existing static route or registered content slug. The existing shared guide renderer supplies the H1, above-fold affiliate disclosure, decision visual, and Article metadata.
-- No article-date metadata, shared component, sitemap, commit, or deployment was changed by this reviewer. The parent owns Alex publication-date consistency and API edits. Build, responsive render, API compliance, edition matching and live publication checks remain release gates owned by the integration lead.
+- No article-date metadata, shared component, sitemap, commit, or deployment was changed by this reviewer. Alex publication-date consistency and API edits are tracked separately from the content review. Build, responsive render, API compliance, edition matching and live publication checks remain release gates owned by the integration lead.
 
 ## Exact changes
 
@@ -160,10 +160,14 @@ Initial synthetic catalog tests exposed five accepted wrong variants: Encore ESP
 
 After the integration lead added per-pick exclusions, required title terms and a model-prefix capability, ten fixtures against the actual batch-01 registry pass: incorrect ESP Pro, Specialità Smart, Unibody, 9-inch Ooni and pusher-less My Fair items are rejected; corresponding intended products are accepted. The LX Pro constraint is recorded for batch 02, which must preserve the 45-682 single clamp-arm family.
 
-The Elgato pilot's `grandparentsgift-20` card attribution exception was raised and explicitly confirmed by the integration lead from existing source and parent history; it remains intentionally separate from the article-body `althcu-20` links. No new attribution decision was made by this reviewer.
+The Elgato pilot's `grandparentsgift-20` card attribution exception was raised and explicitly confirmed by the integration lead from the existing production source and approved pilot placement; it remains intentionally separate from the article-body `althcu-20` links. No new attribution decision was made by this reviewer.
 
 ## Creator API handoff
 
 `batch-01-product-queries.json` contains 26 selected candidates across ten reviewed guides (nine batch-01 guides and the deferred batch-02 monitor-arm guide): two or three exact product queries per article, expected brand/model or book title/author, and rejection/variant constraints. Existing article ASINs can seed API lookup but are not independently certified merely by appearing in older HTML. Current API data must match the expected product before display.
 
 Final content/identity review passes, with Alex publication metadata reconciled; build/render/live release gates remain with the integration lead. Product integration must preserve those identities and the existing limitation language. Do not change recommendations to whatever the API happens to return. Do not present an unmatched result, fallback search or empty response as a verified listing. None of the reviewed content requires a substantial-refresh sitemap update.
+
+## Final source QA
+
+A second source review verified the original Gillian Flynn GetItems contract and pilot-tag forwarding. Offline regression tests now detect broken image fallbacks, missing images, incorrect image-link ASINs, wrong pilot tags, malformed caller data and adjacent product variants. The author renderer has one Amazon content disclaimer, not two. All 85 non-browser tests pass; typechecking and whitespace checks pass. These checks do not establish live API success. Protected preview browser verification and production verification remain outstanding.

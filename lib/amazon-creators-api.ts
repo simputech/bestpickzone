@@ -55,6 +55,7 @@ const pendingBooks = new Map<string, Promise<AmazonBookItem | null>>()
 const pendingBookBatches = new Map<string, Promise<Record<string, AmazonBookItem>>>()
 
 function creatorsApiConfig(options: AmazonLookupOptions = {}): CreatorsApiConfig | null {
+  if (!options || typeof options !== 'object' || (options.partnerTag !== undefined && typeof options.partnerTag !== 'string')) return null
   const clientId = process.env.AMAZON_CREATORS_API_CLIENT_ID?.trim()
   const clientSecret = process.env.AMAZON_CREATORS_API_CLIENT_SECRET?.trim()
   const credentialVersion = process.env.AMAZON_CREATORS_API_CREDENTIAL_VERSION?.trim() || '3.1'
@@ -145,6 +146,7 @@ export async function searchAmazonProduct(query: string, options: AmazonProductO
   // Also opt out on cache hits/missing configuration: API data must never enter static HTML or ISR.
   noStore()
   const config = creatorsApiConfig(options)
+  if (typeof query !== 'string') return null
   const normalizedQuery = query.trim().replace(/\s+/g, ' ')
   if (!config || !normalizedQuery || normalizedQuery.length > 512 || (options.asin && !/^[A-Z0-9]{10}$/.test(options.asin))) return null
   const { partnerTag: _partnerTag, ...identity } = options
@@ -173,6 +175,7 @@ export async function searchAmazonProduct(query: string, options: AmazonProductO
 }
 
 export async function lookupAmazonProduct(request: AmazonProductRequest, options: AmazonLookupOptions = {}) {
+  if (!request || typeof request !== 'object') { noStore(); return null }
   const { query, ...identity } = request
   return searchAmazonProduct(query, { ...identity, ...options })
 }
@@ -186,7 +189,8 @@ function safelyMatchBook(candidate: AmazonBookResponseItem, expected: AmazonBook
 }
 
 function validBookRequest(book: AmazonBookTitleRequest) {
-  return Boolean(book.title.trim() && book.author.trim() && book.title.length <= 300 && book.author.length <= 200)
+  return Boolean(book && typeof book === 'object' && typeof book.title === 'string' && typeof book.author === 'string' &&
+    book.title.trim() && book.author.trim() && book.title.length <= 300 && book.author.length <= 200)
 }
 
 /** Resolve a known work, not a merely related result; multiple valid English print editions are acceptable. */
@@ -194,7 +198,7 @@ export async function getAmazonBooksByTitle(books: AmazonBookTitleRequest[], opt
   noStore()
   const config = creatorsApiConfig(options)
   // Existing book validation is deliberately US-only. Never relabel a foreign edition.
-  if (!config || config.marketplace !== DEFAULT_MARKETPLACE || !books.length || books.length > 20) return {}
+  if (!config || config.marketplace !== DEFAULT_MARKETPLACE || !Array.isArray(books) || !books.length || books.length > 20) return {}
   const results = await Promise.all(books.filter(validBookRequest).map(async book => {
     const key = requestKey(config, 'book-title-v1', book)
     const cached = bookCache.get(key)
@@ -229,7 +233,7 @@ export async function getAmazonBooksByTitle(books: AmazonBookTitleRequest[], opt
 export async function getAmazonBooks(books: AmazonBookRequest[], options: AmazonLookupOptions = {}): Promise<Record<string, AmazonBookItem>> {
   noStore()
   const config = creatorsApiConfig(options)
-  if (!config || config.marketplace !== DEFAULT_MARKETPLACE || !books.length || books.length > 100) return {}
+  if (!config || config.marketplace !== DEFAULT_MARKETPLACE || !Array.isArray(books) || !books.length || books.length > 100) return {}
   const validBooks = books.filter(book => validBookRequest(book) && /^[A-Z0-9]{10}$/.test(book.asin))
   const matched: Record<string, AmazonBookItem> = {}
   const missing: AmazonBookRequest[] = []

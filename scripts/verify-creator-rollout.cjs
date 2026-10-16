@@ -35,7 +35,8 @@ const results = []
         const metadata = document.querySelector('link[rel="canonical"]')?.href
         const wrongLinks = links.filter(link => {
           const u = new URL(link.href)
-          return u.protocol !== 'https:' || u.hostname !== 'www.amazon.com' || !['althcu-20','grandparentsgift-20'].includes(u.searchParams.get('tag')) || !link.rel.includes('sponsored')
+          const pilotTag = link.closest('[data-organic-pilot]')?.getAttribute('data-organic-pilot')
+          return (pilotTag && u.searchParams.get('tag') !== pilotTag) || u.protocol !== 'https:' || u.hostname !== 'www.amazon.com' || Boolean(u.port || u.username || u.password) || u.searchParams.getAll('tag').length !== 1 || !['althcu-20','grandparentsgift-20'].includes(u.searchParams.get('tag')) || !link.rel.includes('sponsored')
         })
         return {
           canonical: metadata, h1Count: document.querySelectorAll('h1').length,
@@ -43,7 +44,14 @@ const results = []
           asins: Array.from(new Set(live.map(card => card.getAttribute('data-amazon-asin')))).filter(Boolean),
           badLinks: wrongLinks.length, imageCount: images.length,
           brokenImages: images.filter(img => !img.complete || !img.naturalWidth).length,
-          unlinkedImages: images.filter(img => !img.closest('a[href*="amazon.com/dp/"]')).length,
+          imageFailureFallbacks: document.querySelectorAll('[data-amazon-image-status="unavailable"]').length,
+          missingImages: live.filter(card => !card.querySelector('img')).length,
+          unlinkedImages: images.filter(img => {
+            const link = img.closest('a'); if (!link) return true
+            const url = new URL(link.href)
+            const asin = img.closest('[data-amazon-asin]')?.getAttribute('data-amazon-asin')
+            return url.protocol !== 'https:' || url.hostname !== 'www.amazon.com' || !/^\/(?:[^/]+\/)?dp\/[A-Z0-9]{10}\/?$/.test(url.pathname) || !asin || url.pathname.split('/').filter(Boolean).at(-1) !== asin
+          }).length,
           overflow: document.documentElement.scrollWidth > innerWidth + 1,
           hasDisclaimer: Boolean(document.querySelector('[data-amazon-content-disclaimer]')),
           hasPrice: cards.some(card => /\$\s*\d/.test(card.textContent || '')),
@@ -51,7 +59,7 @@ const results = []
         }
       })
       result.path = entry.path; result.status = response.status(); result.pageErrors = errors
-      result.pass = result.status === 200 && result.h1Count === 1 && result.canonical === 'https://bestpickzone.com' + entry.path && !result.badLinks && !result.brokenImages && !result.unlinkedImages && !result.overflow && !result.hasPrice && !result.leakedCredentialNames && !errors.length && (entry.disposition.startsWith('exception-') || result.hasDisclaimer)
+      result.pass = result.status === 200 && result.h1Count === 1 && result.canonical === 'https://bestpickzone.com' + entry.path && !result.badLinks && !result.brokenImages && !result.imageFailureFallbacks && !result.missingImages && result.imageCount === result.liveCards && !result.unlinkedImages && !result.overflow && !result.hasPrice && !result.leakedCredentialNames && !errors.length && (entry.disposition.startsWith('exception-') || (result.hasDisclaimer && result.liveCards + result.fallbackCards > 0))
       results.push(result)
       console.log(`${result.pass ? 'PASS' : 'FAIL'} ${entry.path}: API=${result.liveCards}, fallback=${result.fallbackCards}, images=${result.imageCount}`)
     } catch (error) { results.push({ path: entry.path, pass: false, error: error.message }); console.log(`FAIL ${entry.path}: ${error.message}`) }
