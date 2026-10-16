@@ -242,3 +242,44 @@ test('malformed public lookup arguments safely return fallback without network a
   assert.equal(await state.api.lookupAmazonProduct(null), null);
   assert.equal(state.calls.length, 0);
 });
+
+const diagnosticPrefix = 'Amazon Creators API product fallback: ';
+const productDiagnostics = state => state.warnings.filter(message => message.startsWith(diagnosticPrefix)).map(message => JSON.parse(message.slice(diagnosticPrefix.length)));
+
+test('fallback diagnostics distinguish empty results and match rejections without catalog content', async () => {
+  const privateTitle = 'UniqueReturnedAmazonTitle';
+  const source = product(); source.itemInfo.title.displayValue = privateTitle;
+  const state = harness(() => response({ itemsResult: { items: [source] } }));
+  const request = { asin: 'B000TEST01', expectedTitle: 'Editorial expectation' };
+  await Promise.all(Array.from({ length: 5 }, () => state.api.searchAmazonProduct('Our curated request', request)));
+  await state.api.searchAmazonProduct('Our curated request', request);
+  assert.deepEqual(productDiagnostics(state), [{ expectedAsin: 'B000TEST01', candidateCount: 1, reasons: ['title_mismatch'] }]);
+  assert.equal(catalogCalls(state).length, 1);
+  const logged = state.warnings.join(' ');
+  assert.doesNotMatch(logged, /UniqueReturnedAmazonTitle|Example|Our curated request|https:|images|test-client|test-secret|test-token/);
+  state.advance(60001);
+  await state.api.searchAmazonProduct('Our curated request', request);
+  assert.equal(productDiagnostics(state).length, 2, 'one additional diagnostic after the negative cache expires');
+
+  for (const payload of [{ searchResult: { items: [] } }, { errors: [{ message: 'PRIVATE RAW API ERROR' }] }]) {
+    const empty = harness(() => response(payload));
+    await empty.api.searchAmazonProduct('Our curated query');
+    assert.deepEqual(productDiagnostics(empty), [{ query: 'Our curated query', candidateCount: 0, reasons: ['no_candidates'] }]);
+    assert.doesNotMatch(empty.warnings.join(' '), /PRIVATE RAW API ERROR/);
+  }
+});
+
+test('diagnostics aggregate rejection enums once, skip successful matches and distinguish unavailable catalog', async () => {
+  const badTitle = product(); badTitle.itemInfo.title.displayValue = 'Private incorrect title';
+  const badBrand = product('B000TEST02'); badBrand.itemInfo.byLineInfo.brand.displayValue = 'Private incorrect brand';
+  const rejected = harness(() => response({ searchResult: { items: [badTitle, badTitle, badBrand] } }));
+  await rejected.api.searchAmazonProduct('Example Aero 2 coffee grinder', { brand: 'Example' });
+  assert.deepEqual(productDiagnostics(rejected), [{ query: 'Example Aero 2 coffee grinder', candidateCount: 3, reasons: ['brand_mismatch', 'title_mismatch'] }]);
+  assert.doesNotMatch(rejected.warnings.join(' '), /Private incorrect|B000TEST0[12]|https:/);
+  const accepted = harness(() => response({ searchResult: { items: [badTitle, product('B000TEST03')] } }));
+  assert.ok(await accepted.api.searchAmazonProduct('Example Aero 2 coffee grinder'));
+  assert.deepEqual(productDiagnostics(accepted), []);
+  const unavailable = harness(() => response({}, 503));
+  assert.equal(await unavailable.api.searchAmazonProduct('Our curated query'), null);
+  assert.deepEqual(productDiagnostics(unavailable), [{ query: 'Our curated query', candidateCount: 0, reasons: ['catalog_unavailable'] }]);
+});

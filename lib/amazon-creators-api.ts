@@ -2,7 +2,7 @@ import 'server-only'
 
 import { unstable_noStore as noStore } from 'next/cache'
 import { matchAmazonBook, type AmazonBookItem, type AmazonBookRequest, type AmazonBookResponseItem } from './amazon-book-match'
-import { isAmazonImageUrl, isAmazonProductUrl, selectAmazonProduct, type AmazonCreatorItem, type AmazonProductRequest, type AmazonProductResponseItem } from './amazon-product-match'
+import { isAmazonImageUrl, isAmazonProductUrl, selectAmazonProduct, type AmazonCreatorItem, type AmazonProductRequest, type AmazonProductResponseItem, type AmazonProductMismatchReason } from './amazon-product-match'
 import { AmazonMemoryCache, AmazonRequestGate, amazonRetryDelay } from './amazon-creators-runtime'
 
 export type { AmazonCreatorItem, AmazonProductRequest } from './amazon-product-match'
@@ -166,7 +166,20 @@ export async function searchAmazonProduct(query: string, options: AmazonProductO
       ...(expected.searchIndex ? { searchIndex: expected.searchIndex } : {}),
     })
     const candidates = expected.asin ? payload?.itemsResult?.items : payload?.searchResult?.items
-    const item = Array.isArray(candidates) ? selectAmazonProduct(candidates, expected, config.partnerTag, config.marketplace, new Date().toISOString()) : null
+    const reasons = new Set<AmazonProductMismatchReason | 'catalog_unavailable' | 'invalid_items_container'>()
+    const item = Array.isArray(candidates) ? selectAmazonProduct(candidates, expected, config.partnerTag, config.marketplace, new Date().toISOString(), reason => reasons.add(reason)) : null
+    if (!item) {
+      if (!payload) reasons.add('catalog_unavailable')
+      else if (candidates === undefined) reasons.add('no_candidates')
+      else if (!Array.isArray(candidates)) reasons.add('invalid_items_container')
+      // One diagnostic per cache miss. Only source-authored request identifiers, counts and
+      // fixed enums are logged; never returned titles, brands, URLs, ASINs or raw payloads.
+      console.warn(`Amazon Creators API product fallback: ${JSON.stringify({
+        ...(expected.asin ? { expectedAsin: expected.asin } : { query: normalizedQuery }),
+        candidateCount: Array.isArray(candidates) ? candidates.length : 0,
+        reasons: Array.from(reasons).sort(),
+      })}`)
+    }
     productCache.set(key, item, item ? PRODUCT_CACHE_MS : NEGATIVE_CACHE_MS)
     return item
   })().finally(() => pendingProducts.delete(key))
