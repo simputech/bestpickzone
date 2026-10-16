@@ -1,0 +1,49 @@
+{
+  "updatedAt": "2026-10-16T22:41:25.279544+00:00",
+  "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
+  "totalArticles": 299,
+  "batchSize": 20,
+  "currentBatch": 1,
+  "status": "preview-validation",
+  "completedBatches": [],
+  "batch01": {
+    "reviewedPaths": [
+      "/books/authors/best-gillian-flynn-books",
+      "/books/authors/best-lucy-foley-books",
+      "/books/authors/best-ruth-ware-books",
+      "/books/authors/best-lisa-jewell-books",
+      "/books/authors/best-riley-sager-books",
+      "/books/authors/best-freida-mcfadden-books",
+      "/books/authors/best-tana-french-books",
+      "/books/authors/best-jane-harper-books",
+      "/books/authors/best-shari-lapena-books",
+      "/books/authors/best-anthony-horowitz-books",
+      "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+      "/home-kitchen/best-pizza-peels-ooni-koda-12",
+      "/mahjong/best-mahjong-racks-pushers-oversized-tiles",
+      "/home-kitchen/ninja-creami-containers-compatibility",
+      "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+      "/coffee/best-espresso-grinders-gaggia-classic-pro",
+      "/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+      "/books/daring-greatly-vs-the-gifts-of-imperfection",
+      "/mahjong/best-folding-tables-for-mahjong",
+      "/books/authors/best-alex-michaelides-books"
+    ],
+    "substantialRefreshes": [],
+    "sitemapUpdates": [],
+    "publicationCommit": null,
+    "deploymentId": null,
+    "runtimeVerified": false
+  },
+  "nextAction": "Finish independent identity review, preview QA, publish batch1, verify production, then start batch2.",
+  "limits": [
+    "No local production secrets retrieved; runtime API checks require deployment.",
+    "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
+    "Local browser process sandbox unavailable; use supported cloud browser against preview/production."
+  ],
+  "existingPullRequest": {
+    "number": 6,
+    "state": "open-conflicted",
+    "handling": "Carry forward exact-ASIN Alex Michaelides intent with stricter book validation. Do not merge the stale branch wholesale."
+  }
+}

@@ -290,6 +290,8 @@ Do not use:
 
 - `bestpickzone-20`
 
+The existing organic pilot cards on the Alex Michaelides and Elgato/Logitech comparison routes retain `grandparentsgift-20`; their standard article-body links retain `althcu-20`. Request the pilot tag from Creators API itself and do not rewrite returned product URLs.
+
 ### Link format rules
 
 Standard comparison-page Amazon search links should use:
@@ -373,7 +375,7 @@ Prefer:
 
 Do not:
 
-- hotlink Amazon product images
+- scrape or hardcode Amazon product image URLs. Verified Creators API image URLs may be displayed directly in linked product cards; preserve the returned URL and proportions, refresh metadata within the allowed cache period, and never download, proxy, or persist Amazon image bytes.
 - wrap decorative images in affiliate links
 - use generic images that imply they are the exact product
 - use placeholders on live pages

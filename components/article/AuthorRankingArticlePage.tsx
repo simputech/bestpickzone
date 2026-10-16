@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import BookCTA from '@/components/article/BookCTA'
 import AmazonBookCard from '@/components/article/AmazonBookCard'
+import AmazonContentDisclaimer from './AmazonContentDisclaimer'
 import type { AmazonBookItem } from '@/lib/amazon-book-match'
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { withSeo } from '@/lib/seo-metadata'
@@ -123,6 +124,7 @@ export default function AuthorRankingArticlePage({ article, bookProducts }: { ar
           {bookProducts && Object.keys(bookProducts).length > 0 && (
             <p className="mt-8 text-xs leading-relaxed text-gray-600">CERTAIN CONTENT THAT APPEARS ON THIS SITE COMES FROM AMAZON. THIS CONTENT IS PROVIDED ‘AS IS’ AND IS SUBJECT TO CHANGE OR REMOVAL AT ANY TIME.</p>
           )}
+        {bookProducts && <AmazonContentDisclaimer />}
         </article>
 
         <aside className="mt-12 border-t border-slate-200 pt-8" aria-labelledby="related-author-guides">

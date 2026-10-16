@@ -1,0 +1,22 @@
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const root='reports/creator-rollout/inventory/';
+const inventory=JSON.parse(fs.readFileSync(root+'canonical-article-inventory.json','utf8'));
+const queue=JSON.parse(fs.readFileSync(root+'rollout-queue.json','utf8'));
+const articlePaths=inventory.articles.map(a=>a.path),queuedPaths=queue.batches.flatMap(b=>b.pages.map(p=>p.path));
+assert.equal(new Set(articlePaths).size,articlePaths.length,'Canonical paths must be unique');
+assert.deepEqual([...articlePaths].sort(),[...queuedPaths].sort(),'Queue must include every article exactly once');
+assert.equal(queue.batches[0].pages.length,20);
+assert.equal(queue.batches[0].pages.filter(p=>p.data_source?.startsWith('content/author-rankings/')).length,10);
+assert.equal(queue.batches[0].pages.filter(p=>p.renderer==='ResearchedBuyingGuide').length,9);
+assert.equal(queue.batches[0].pages.filter(p=>p.baseline_creator_coverage!=='none').length,4);
+assert.ok(queue.batches[0].pages.some(p=>p.path==='/books/authors/best-alex-michaelides-books'));
+assert.equal(queue.batches[1].pages[0].path,'/wfh/best-monitor-arms-for-shallow-desks');
+for(const batch of queue.batches.slice(0,-1))assert.equal(batch.pages.length,20);
+for(const a of inventory.articles){assert.ok(a.sitemap.included,`${a.path} missing from sitemap`);assert.ok(a.title);assert.ok(fs.existsSync(a.page_source));if(a.data_source&&!a.data_source.includes('*'))assert.ok(fs.existsSync(a.data_source),a.data_source);assert.ok(!a.redirect_target);assert.ok(a.creator_api.runtime_verified===false);}
+assert.deepEqual(inventory.summary.sitemap_paths_missing_route,[]);
+assert.ok(!inventory.articles.some(a=>['navigation_hub','legal','deal_tool','deal_discovery_hub'].includes(a.content_type)));
+assert.equal(inventory.articles.filter(a=>a.language==='es').length,25);
+assert.equal(inventory.articles.filter(a=>a.creator_api.coverage!=='none').length,5);
+assert.ok(inventory.articles.filter(a=>a.creator_disposition.type==='eligible-product-review').every(a=>a.product_candidates.length));
+assert.ok(inventory.articles.flatMap(a=>a.affiliate.amazon_tags).every(tag=>['althcu-20','fitnessbankd-20'].includes(tag)));
+console.log(JSON.stringify({ok:true,canonical_articles:articlePaths.length,non_articles:inventory.excluded_routes.length,batches:queue.batches.length,last_batch:queue.batches.at(-1).pages.length,source_snapshot_commit:inventory.source_snapshot_commit},null,2));

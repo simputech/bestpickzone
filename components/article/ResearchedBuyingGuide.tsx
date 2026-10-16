@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ArticleAmazonProducts from './ArticleAmazonProducts'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import { getBuyingGuide, guideDate } from '@/lib/buying-guides'
 
@@ -25,6 +26,7 @@ export default function ResearchedBuyingGuide({ slug }: { slug: string }) {
       <div className="comparison-html mt-7 rounded-2xl border border-teal-100 bg-teal-50 p-6 text-lg" dangerouslySetInnerHTML={{ __html: intro }} />
       <figure aria-label="Buying decision sequence" className="my-7 grid gap-3 sm:grid-cols-3">{g.visual.map((text, i) => <div key={text} className="rounded-2xl border border-amber-200 bg-amber-50 p-5"><span className="text-2xl font-black text-amber-700">0{i + 1}</span><p className="mt-2 font-semibold text-slate-900">{text}</p></div>)}</figure>
       <div className="comparison-html rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-8" dangerouslySetInnerHTML={{ __html: body }} />
+      <ArticleAmazonProducts path={`/${g.silo}/${g.slug}`} />
     </article>
   </main>
 }
