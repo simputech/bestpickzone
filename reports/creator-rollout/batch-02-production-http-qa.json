@@ -1,0 +1,197 @@
+{
+  "checkedAt": "2026-10-17T00:56:39.086Z",
+  "deploymentId": "dpl_GttZyTor6oXtfosafSm1FFhaG8wZ",
+  "sourceCommit": "2da905de53a0ab813cf46bccd96d7c0bdaebbdfd",
+  "environment": "public production",
+  "browserIdentityAndImageVerification": "separate browser report",
+  "routes": [
+    {
+      "path": "/wfh/best-monitor-arms-for-shallow-desks",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/best-burr-grinders-french-press-cold-brew",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/best-coffee-makers-for-low-cabinets",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 1,
+      "liveCards": 1,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 1,
+      "liveCards": 1,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/mahjong/best-mahjong-mats-for-small-tables",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/wfh/best-video-call-lighting-for-glasses",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 1,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 1,
+      "liveCards": 1,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/aeropress-original-vs-aeropress-premium",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": true
+    },
+    {
+      "path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/hario-v60-vs-chemex-classic",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 2,
+      "commerceShelves": 1,
+      "faqSchema": false
+    },
+    {
+      "path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 1,
+      "liveCards": 1,
+      "commerceShelves": 0,
+      "faqSchema": false
+    },
+    {
+      "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "status": 200,
+      "h1": 1,
+      "fallbackCards": 0,
+      "liveCards": 1,
+      "commerceShelves": 1,
+      "faqSchema": false
+    }
+  ],
+  "metadata": {
+    "checked": 20,
+    "errors": [],
+    "warnings": []
+  },
+  "sitemapUrls": 335,
+  "approvedDatesVerified": 11,
+  "errors": []
+}

@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-10-17T00:48:37.337651+00:00",
+  "updatedAt": "2026-10-17T00:59:39.394Z",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 2,
-  "status": "preview-packaging-correction",
+  "currentBatch": 3,
+  "status": "batch-two-published-verified",
   "completedBatches": [
-    1
+    1,
+    2
   ],
   "batch01": {
     "reviewedPaths": [
@@ -51,7 +52,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Verify the corrected serverless package on a new preview, finish desktop/mobile deployed QA, publish PR #15, then verify exact production commit and live API identities/images before batch three.",
+  "nextAction": "Begin the next twenty queued articles in batch three from verified production 2da905de53a0ab813cf46bccd96d7c0bdaebbdfd. Preserve independent review/re-review, exact identities, narrow lastmod scope and preview/production gates.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -111,9 +112,9 @@
       "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
       "/wfh/best-usb-c-docks-for-two-monitors"
     ],
-    "publicationCommit": null,
-    "deploymentId": null,
-    "runtimeVerified": false,
+    "publicationCommit": "2da905de53a0ab813cf46bccd96d7c0bdaebbdfd",
+    "deploymentId": "dpl_GttZyTor6oXtfosafSm1FFhaG8wZ",
+    "runtimeVerified": true,
     "minorEdits": [
       "/wfh/best-monitor-arms-for-shallow-desks",
       "/coffee/best-burr-grinders-french-press-cold-brew",
@@ -147,28 +148,27 @@
       "lint": "passed with existing warnings",
       "build": "passed; metadata 296; indexable sitemap URLs 335; zero errors/warnings",
       "httpQaReport": "reports/creator-rollout/batch-02-mac-http-qa.json",
-      "previewBrowserVerified": false,
-      "productionPublished": false,
+      "previewBrowserVerified": true,
+      "productionPublished": true,
       "localBrowserQaReport": "reports/creator-rollout/batch-02-mac-browser-qa.json",
       "localBrowserVerified": true,
-      "accessibilityCorrection": "LED mask comparison table now has a keyboard-focusable scroll region, visible focus outline and horizontal-scroll instructions; keyboard ArrowRight produced scrollLeft 40 at 390px with no page overflow."
+      "accessibilityCorrection": "LED mask comparison table now has a keyboard-focusable scroll region, visible focus outline and horizontal-scroll instructions; keyboard ArrowRight produced scrollLeft 40 at 390px with no page overflow.",
+      "productionVerified": true
     },
     "previewAccess": "Resolved through ordinary Continue with GitHub sign-in using the existing browser account. No new permissions screen, bypass token or share link was used. The former pending share-link question is obsolete.",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/15",
-    "sourceCommit": "ae528653ff70513098dbfa3e0eec5050fb6f8ca2",
+    "sourceCommit": "1ed2c1ecb84402a15513e9b70ff9303fc65a4d13",
     "previewDeployment": {
-      "id": "dpl_5wn8FTqzWmPavoHCa93DdWjksELd",
-      "url": "https://bestpickzone-fixed-1mf6sefe0-simputechs-projects.vercel.app",
-      "commit": "1f27aa5767cd925fba3c9f2c830d485b5144b6c8",
-      "stateAtLastCheck": "READY; QA failed LED route with missing runtime HTML"
+      "id": "dpl_BTbbeB2nfLqRTAeMm7CPGAR8taEz",
+      "url": "https://bestpickzone-fixed-8rurve9xl-simputechs-projects.vercel.app",
+      "commit": "1ed2c1ecb84402a15513e9b70ff9303fc65a4d13",
+      "stateAtLastCheck": "READY; desktop/mobile QA passed"
     },
-    "pendingBlocker": {
-      "action": "Verify packaging correction before publishing",
-      "target": "/beauty/dr-dennis-gross-vs-omnilux-contour on the next PR #15 preview",
-      "status": "implementation in progress; no approval blocker",
-      "reason": "Preview logs confirmed ENOENT for article-source.html; local generated function trace omitted the file.",
-      "completed": "Existing sign-in resolved access; other nineteen routes passed deployed desktop/mobile fallback layout checks.",
-      "requiresAfterAccess": "Rebuild with exact route-scoped include and validate generated trace; verify deployed route and remaining gates."
-    }
+    "pendingBlocker": null,
+    "pullRequestMerged": true,
+    "liveCards": 31,
+    "fallbackCards": 7,
+    "liveArticleRoutes": 19,
+    "productionReport": "reports/creator-rollout/batch-02-production-final.json"
   }
 }
