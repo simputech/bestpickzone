@@ -66,3 +66,37 @@ Eight works retained, all strict title/author mappings. Replaced unsupported sal
 - https://tracychevalier.com/my-novels/girl-with-a-pearl-earring
 - https://www.philippagregory.com/books/the-other-boleyn-girl
 - https://www.arts.gov/initiatives/nea-big-read/beloved
+
+## Historical series — source and accessibility corrections
+
+Author/publisher lists verify five Kingsbridge, thirteen Last Kingdom, three Cromwell, three Warlord, three Century and twelve Poldark books. Cadfael exact count omitted without a verified source; opening premise checked with publisher. Softened unsubstantiated comparative superlatives, distinguished Arthurian invention from biography, added source/edition guidance, and made the narrow-screen table keyboard-scrollable. Existing substantial article/reading choices retained; minor correction classification proposed, no date change. Seven exact first-title/author requests; no guessed ASINs.
+- https://ken-follett.com/books/ — Follett’s Kingsbridge and Century lists
+- https://www.bernardcornwell.net/series/the-last-kingdom-series/ — Cornwell’s Last Kingdom sequence
+- https://www.bernardcornwell.net/books/war-lord/ — War Lord, book thirteen
+- https://us.macmillan.com/series/wolfhalltrilogy — Macmillan’s Wolf Hall trilogy
+- https://www.bernardcornwell.net/books/the-winter-king-2/ — Cornwell on The Winter King and Derfel
+- https://ken-follett.com/books/fall-of-giants/ — Follett on Fall of Giants
+- https://www.panmacmillan.com/series/poldark/panmac24823 — Pan Macmillan’s Poldark sequence
+- https://www.winstongraham.org/list-of-novels — Graham’s authorized bibliography
+- https://www.mysteriouspress.com/products/historical-fiction/a-morbid-taste-for-bones-by-ellis-peters.asp — Mysterious Press on A Morbid Taste for Bones
+
+## True crime — final drafting pass
+
+Removed unsupported origin-of-genre, definitive, most-reliable, bestseller-ranking and universal-fit claims. Replaced seven descriptions with specific premise/perspective and reader-fit paragraphs, removed edition-unspecific page counts, retained dated Lost Girls epilogue guidance. Eight title/author API requests; no guessed ASINs. A returned Lost Girls card is not proof it contains the updated epilogue; article tells readers to check. Independent review and runtime QA remain pending.
+- https://bestpickzone.com/books/reader-picks/best-true-crime-books
+- https://fonts.googleapis.com
+- https://fonts.gstatic.com
+- https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,800;9..144,900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@400;500&display=swap
+- https://www.penguinrandomhouse.com/books/23728/in-cold-blood-by-truman-capote/
+- https://www.faber.co.uk/journal/illbegoneinthedarkopening/
+- https://www.davidgrann.com/book/killers-of-the-flower-moon/
+- https://www.penguinrandomhouse.com/books/90837/say-nothing-by-patrick-radden-keefe/
+- https://www.simonandschuster.com/books/The-Stranger-Beside-Me/Ann-Rule/9781442353800
+- https://wwnorton.co.uk/books/9780393087000-helter-skelter
+- https://eriklarsonbooks.com/book/the-devil-in-the-white-city/
+- https://www.harpercollins.co.nz/9780063411111/lost-girls/
+- https://robertkolker.com/news-and-events/2024/5/1/an-updated-lost-girls-on-sale-may-14
+
+Final minor espionage correction: omitted the un-reverified twenty-sixth series number after the large official PDF could not be read. Retained verified author-page identity and reader guidance; no date bump.
+
+Adult-work identity: David Grann’s official page Amazon link resolves to https://amazon.com/dp/0307742482 (retailer fetch HTTP500). Curated that publisher/author-linked ASIN for the adult Killers of the Flower Moon work so a Young Readers Edition is not silently substituted. Runtime title/author/format/language/image checks remain mandatory; no availability inferred.

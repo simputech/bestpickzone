@@ -688,7 +688,7 @@
     {
       "batch": 3,
       "reviewed_page_target": 20,
-      "status": "research-and-drafting",
+      "status": "drafts-ready-for-independent-review",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -700,10 +700,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
@@ -714,10 +714,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
@@ -728,10 +728,10 @@
           "data_source": "app/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/nuface-trinity-vs-solawave-wand",
@@ -742,10 +742,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
@@ -756,10 +756,11 @@
           "data_source": "app/beauty/retinol-vs-bakuchiol-for-sensitive-skin/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication.",
+          "creator_exception": "Ingredient information without a verified exact retail formula; no forced product recommendation."
         },
         {
           "path": "/beauty/revlon-one-step-vs-loreal-steampod",
@@ -770,10 +771,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/salicylic-acid-vs-benzoyl-peroxide",
@@ -784,10 +785,11 @@
           "data_source": "app/beauty/salicylic-acid-vs-benzoyl-peroxide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication.",
+          "creator_exception": "Ingredient information without a verified exact retail formula; no forced product recommendation."
         },
         {
           "path": "/beauty/vitamin-c-vs-niacinamide",
@@ -798,10 +800,11 @@
           "data_source": "app/beauty/vitamin-c-vs-niacinamide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication.",
+          "creator_exception": "Ingredient information without a verified exact retail formula; no forced product recommendation."
         },
         {
           "path": "/books/agatha-christie-vs-arthur-conan-doyle",
@@ -812,10 +815,10 @@
           "data_source": "app/books/agatha-christie-vs-arthur-conan-doyle/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/best-mark-manson-books",
@@ -826,10 +829,10 @@
           "data_source": "app/books/best-mark-manson-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-historical-epics-2026",
@@ -840,10 +843,10 @@
           "data_source": "app/books/genre-fiction/best-historical-epics-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-historical-fiction-books",
@@ -854,10 +857,10 @@
           "data_source": "app/books/genre-fiction/best-historical-fiction-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-historical-fiction-series-2026",
@@ -868,10 +871,10 @@
           "data_source": "app/books/genre-fiction/best-historical-fiction-series-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
@@ -882,10 +885,10 @@
           "data_source": "app/books/genre-fiction/best-new-spy-thriller-books-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/hemingway-vs-fitzgerald",
@@ -896,10 +899,10 @@
           "data_source": "app/books/hemingway-vs-fitzgerald/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/lord-of-the-rings-vs-harry-potter",
@@ -910,10 +913,10 @@
           "data_source": "app/books/lord-of-the-rings-vs-harry-potter/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/reader-picks/best-true-crime-books",
@@ -924,10 +927,10 @@
           "data_source": "app/books/reader-picks/best-true-crime-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/self-help/best-james-clear-books",
@@ -938,10 +941,10 @@
           "data_source": "app/books/self-help/best-james-clear-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-pending-independent-review",
+          "review_status": "author-pass-complete-pending-independent-review",
           "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/stephen-king-vs-dean-koontz",
@@ -952,10 +955,10 @@
           "data_source": "app/books/stephen-king-vs-dean-koontz/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/home-kitchen/best-air-fryers",
@@ -966,12 +969,16 @@
           "data_source": "app/home-kitchen/best-air-fryers/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "author-pass-complete-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Independent review/re-review and full local/preview/production QA pending. Dates unchanged until approved substantive publication."
         }
-      ]
+      ],
+      "editorial_pass_count": 20,
+      "independently_approved_count": 0,
+      "substantive_draft_count": 16,
+      "minor_update_count": 4
     },
     {
       "batch": 4,

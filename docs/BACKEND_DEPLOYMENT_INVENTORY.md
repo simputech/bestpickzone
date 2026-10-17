@@ -1,6 +1,9 @@
 # BestPickZone backend and deployment inventory
 
-Last verified: 2026-10-17 UTC. Maintained with [the operating notes](DEAL_DISCOVERY_OPERATIONS.md) and [release evidence](../reports/deal-agent-budget/verification.md). This is the durable inventory for this repository; update it with every service, credential-location, migration or deployment change. Do not copy secret values or real user records into it.
+Last verified: 2026-10-17 UTC.
+
+**Release-status reconciliation:** PR18 has since merged as `c96a013c67d7e93f1ca16e32ae08ce67276612be`. Vercel returned READY production deployment `dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt`. The pre-release audit below retains its original test scope; its draft/pending statements describe that earlier checkpoint, not current merge status. The article-rollout task integrated the release and did not repeat its live behavior checks in this documentation update.
+ Maintained with [the operating notes](DEAL_DISCOVERY_OPERATIONS.md) and [release evidence](../reports/deal-agent-budget/verification.md). This records the PR18 release audit. The combined article-rollout state and machine-readable service register are maintained in [the project operations inventory](BACKEND_AND_DEPLOYMENT_INVENTORY.md). Keep both aligned when services or deployments change. Do not copy secret values or real user records into it.
 
 ## Lifecycle and ownership
 

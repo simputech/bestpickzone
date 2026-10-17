@@ -24,8 +24,8 @@
       "organizationId": "team_wFkeAj93TVooMQ1IzpbkABSJ",
       "account": "SimpuTech's projects / simputechs-projects",
       "ownershipEvidence": "Project accountId matches returned team ID; deployment creator simputech is not evidence of sole ownership.",
-      "productionCommit": "b6f43f86eab87c85d2ac047a822dba3271e53ab0",
-      "productionDeployment": "dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg",
+      "productionCommit": "c96a013c67d7e93f1ca16e32ae08ce67276612be",
+      "productionDeployment": "dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt",
       "domains": [
         "bestpickzone.com",
         "www.bestpickzone.com",
@@ -118,7 +118,7 @@
       "backend": "BPZ_BACKEND_URL and BPZ_BACKEND_SECRET configured; masked target binding unknown",
       "creatorApi": "Production credentials configured; batch-two live QA passed",
       "email": "Inactive: required settings absent",
-      "prices": "Unavailable"
+      "prices": "Price-alert feed unavailable. PR18 deploys on-demand Deal Agent offer checks; this inventory pass verified deployment metadata, not fresh live offer behavior."
     },
     "preview": {
       "hosting": "Same Vercel project, branch deployments",
@@ -364,7 +364,14 @@
     },
     "articleProduction": "reports/creator-rollout/batch-02-production-final.json",
     "pregnancyCorrection": "reports/creator-rollout/pregnancy-claim-correction-qa.json",
-    "batchThree": "Draft PR16; independent review, final checks, preview and production QA pending."
+    "batchThree": "Draft PR16; independent review, final checks, preview and production QA pending.",
+    "dealAgentDeployment": {
+      "commit": "c96a013c67d7e93f1ca16e32ae08ce67276612be",
+      "deploymentId": "dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt",
+      "state": "READY",
+      "scope": "Production metadata observed October 17; PR18 integrated into article branch; live behavior not rerun in this inventory pass.",
+      "receipt": "reports/deal-agent-budget/verification.md"
+    }
   },
   "unknowns": [
     "Exact production BPZ_BACKEND_URL target cannot be read back without revealing a Sensitive variable; no decryption attempted.",

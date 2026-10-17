@@ -1,5 +1,7 @@
 # Deal Agent budget fix verification
 
+**October 17 deployment reconciliation (article rollout):** PR18 is merged as `c96a013c67d7e93f1ca16e32ae08ce67276612be`; Vercel returned READY production deployment `dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt`. The chronological pre-release notes below retain their original scope. This added metadata receipt is not a new live behavior test.
+
 Date: 2026-10-17 UTC. Branch `fix/deal-agent-budget`; draft PR https://github.com/simputech/bestpickzone/pull/18. Production has not changed yet.
 
 ## Confirmed before behavior
