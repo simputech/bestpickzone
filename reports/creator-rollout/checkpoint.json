@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-17T00:59:39.394Z",
+  "updatedAt": "2026-10-17T01:13:44.160751+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 3,
-  "status": "batch-two-published-verified",
+  "status": "batch-three-triage; pregnancy-claim correction published and verified",
   "completedBatches": [
     1,
     2
@@ -52,7 +52,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Begin the next twenty queued articles in batch three from verified production 2da905de53a0ab813cf46bccd96d7c0bdaebbdfd. Preserve independent review/re-review, exact identities, narrow lastmod scope and preview/production gates.",
+  "nextAction": "Resume batch-three primary-source research, useful article refreshes and Creator API integration. Require independent review/re-review and preview/production QA before publishing. Batches three through fifteen remain incomplete.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -170,5 +170,25 @@
     "fallbackCards": 7,
     "liveArticleRoutes": 19,
     "productionReport": "reports/creator-rollout/batch-02-production-final.json"
+  },
+  "batch03": {
+    "status": "initial-triage-only",
+    "pullRequest": "https://github.com/simputech/bestpickzone/pull/16",
+    "triageReport": "reports/creator-rollout/batch-03-triage.json",
+    "articleCount": 20,
+    "independentReview": "pending",
+    "previewQa": "pending",
+    "productionPublished": false
+  },
+  "pregnancyClaimCorrection": {
+    "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",
+    "sourceCommit": "6f4dd151d2272cb9119825d0c076a53d26925f52",
+    "publicationCommit": "b6f43f86eab87c85d2ac047a822dba3271e53ab0",
+    "deploymentId": "dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg",
+    "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+    "previewVerified": true,
+    "productionVerified": true,
+    "scope": "Remove affirmative pregnancy-safety claims and pregnancy/breastfeeding-based bakuchiol recommendations. This narrow correction does not mark the batch-three article fully refreshed.",
+    "qaReport": "reports/creator-rollout/pregnancy-claim-correction-qa.json"
   }
 }
