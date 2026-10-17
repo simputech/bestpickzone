@@ -1,0 +1,77 @@
+{
+  "/coffee/breville-bambino-plus-vs-gaggia-classic-pro": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Breville Bambino Plus Espresso Machine BES500BSS",
+        "label": "Breville Bambino Plus BES500",
+        "asin": "B07JVD78TT",
+        "brand": "Breville",
+        "expectedTitle": "Breville Bambino Plus",
+        "requiredTitleTerms": [
+          "Bambino",
+          "Plus"
+        ],
+        "forbiddenTitleTerms": [
+          "BES450"
+        ],
+        "note": "US Bambino Plus BES500, not the base Bambino. The ASIN comes from the existing verified Creator API baseline; preserve the API-returned URL and image."
+      },
+      {
+        "query": "Gaggia Classic Pro E24 Espresso Machine US 120V",
+        "label": "Gaggia Classic Pro E24 (US brass-boiler model)",
+        "brand": "Gaggia",
+        "expectedTitle": "Gaggia Classic E24",
+        "requiredTitleTerms": [
+          "E24",
+          "120V",
+          "espresso machine"
+        ],
+        "forbiddenTitleTerms": [
+          "220V",
+          "230V",
+          "240V",
+          "220 V",
+          "230 V",
+          "240 V",
+          "heating element",
+          "boiler only",
+          "replacement boiler",
+          "pump",
+          "gasket"
+        ],
+        "note": "Require positive E24 and 120V title evidence for this US brass-boiler comparison. Older Pro/Evo, overseas, or voltage-ambiguous listings are not substitutes. Retain safe fallback when these checks fail."
+      }
+    ]
+  },
+  "/beauty/dr-dennis-gross-vs-omnilux-contour": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Dr Dennis Gross DRx SpectraLite FaceWare Pro LED Mask",
+        "label": "Dr. Dennis Gross DRx SpectraLite FaceWare Pro",
+        "expectedTitle": "Dr Dennis Gross SpectraLite FaceWare Pro",
+        "requiredTitleTerms": [
+          "SpectraLite",
+          "FaceWare",
+          "Pro",
+          "mask"
+        ],
+        "forbiddenTitleTerms": [
+          "EyeCare",
+          "LipWare",
+          "BodyWare",
+          "replacement",
+          "strap",
+          "controller",
+          "charger",
+          "charging cable",
+          "power cable",
+          "adapter"
+        ],
+        "note": "Full-face FaceWare Pro device only, not another body-area device or accessory. No ASIN verified for this refresh; retain a search fallback unless Creator API verifies the exact product. A product match does not establish authorized-seller or warranty eligibility.",
+        "brand": "Dr. Dennis Gross"
+      }
+    ]
+  }
+}

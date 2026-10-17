@@ -5,15 +5,18 @@ import type { AmazonCreatorItem } from '@/lib/amazon-creators-api'
 import AmazonProductCard from './AmazonProductCard'
 import AmazonContentDisclaimer from './AmazonContentDisclaimer'
 import FaqJsonLd from '@/components/seo/FaqJsonLd'
+import { articleCommerce } from '@/lib/article-commerce'
 
 function ProductBlock({
   product,
   amazonUrl,
   amazonItem,
+  query,
 }: {
   product: ComparisonProductSection
   amazonUrl: string
   amazonItem: AmazonCreatorItem | null
+  query: string
 }) {
   return (
     <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
@@ -56,23 +59,28 @@ function ProductBlock({
       <p className="mb-4 leading-relaxed text-amber-900">
         <strong>Skip this if:</strong> {product.skipIf}
       </p>
-      <AmazonProductCard item={amazonItem} label={product.name} query={product.amazonQuery} partnerTag={new URL(amazonUrl).searchParams.get('tag') || 'althcu-20'} placement={`comparison-${product.shortName}`} />
+      <AmazonProductCard item={amazonItem} label={product.name} query={query} partnerTag={new URL(amazonUrl).searchParams.get('tag') || 'althcu-20'} placement={`comparison-${product.shortName}`} />
     </section>
   )
 }
 
-export default async function ProductComparisonPage({ data }: { data: ComparisonPageData }) {
+export default async function ProductComparisonPage({ data, path }: { data: ComparisonPageData; path?: string }) {
+  const commerce = path ? articleCommerce[path] : undefined
+  const pickA = commerce?.products?.[0]
+  const pickB = commerce?.products?.[1]
+  const queryA = pickA?.query ?? data.productA.amazonQuery
+  const queryB = pickB?.query ?? data.productB.amazonQuery
   const [productAItem, productBItem] = await Promise.all([
-    searchAmazonProduct(data.productA.amazonQuery),
-    searchAmazonProduct(data.productB.amazonQuery),
+    searchAmazonProduct(queryA, { ...pickA, partnerTag: commerce?.partnerTag }),
+    searchAmazonProduct(queryB, { ...pickB, partnerTag: commerce?.partnerTag }),
   ])
 
-  const productAUrl = productAItem?.detailPageURL ?? amazonSearchUrl(data.productA.amazonQuery)
-  const productBUrl = productBItem?.detailPageURL ?? amazonSearchUrl(data.productB.amazonQuery)
+  const productAUrl = productAItem?.detailPageURL ?? amazonSearchUrl(queryA, commerce?.partnerTag)
+  const productBUrl = productBItem?.detailPageURL ?? amazonSearchUrl(queryB, commerce?.partnerTag)
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
-      <FaqJsonLd faqs={data.faq} />
+      {data.faq.length > 0 ? <FaqJsonLd faqs={data.faq} /> : null}
       <p className="mb-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-950">
         <em>{data.disclosure}</em>
       </p>
@@ -116,9 +124,9 @@ export default async function ProductComparisonPage({ data }: { data: Comparison
         height={data.heroImage.height}
         className="mb-8 w-full rounded-xl shadow-sm"
       />
-      <ProductBlock product={data.productA} amazonUrl={productAUrl} amazonItem={productAItem} />
-      <ProductBlock product={data.productB} amazonUrl={productBUrl} amazonItem={productBItem} />
-      <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
+      <ProductBlock product={data.productA} amazonUrl={productAUrl} amazonItem={productAItem} query={queryA} />
+      <ProductBlock product={data.productB} amazonUrl={productBUrl} amazonItem={productBItem} query={queryB} />
+      {data.faq.length > 0 ? <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-3 text-2xl font-bold text-gray-900">{data.faqQuestion}</h2>
         <p className="mb-4 leading-relaxed text-gray-700">{data.faqAnswer}</p>
         {data.faq.map((item) => (
@@ -127,7 +135,7 @@ export default async function ProductComparisonPage({ data }: { data: Comparison
             <p className="leading-relaxed text-gray-700">{item.answer}</p>
           </div>
         ))}
-      </section>
+      </section> : null}
       <section className="mb-10 rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
         <h2 className="mb-4 text-2xl font-bold text-gray-900">Where should you go next?</h2>
         <p className="leading-relaxed text-gray-700">

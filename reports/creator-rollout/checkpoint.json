@@ -1,11 +1,13 @@
 {
-  "updatedAt": "2026-10-16T23:20:58.401666+00:00",
+  "updatedAt": "2026-10-17T00:31:17.730168+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 1,
-  "status": "batch-01-production-corrections-in-progress",
-  "completedBatches": [],
+  "currentBatch": 2,
+  "status": "mac-checks-passed-awaiting-preview",
+  "completedBatches": [
+    1
+  ],
   "batch01": {
     "reviewedPaths": [
       "/books/authors/best-gillian-flynn-books",
@@ -31,25 +33,123 @@
     ],
     "substantialRefreshes": [],
     "sitemapUpdates": [],
-    "publicationCommit": "7dcf29d25e0fa9ffb9ef4383c408bc68beb4507c",
-    "deploymentId": "dpl_6eh3MyzLgCniPKGdZfBCsfUCz6Zz",
-    "runtimeVerified": false,
+    "publicationCommit": "9e0f09593218febf1f9d9ba51c6a0be5115801fe",
+    "deploymentId": "dpl_7yx4CMzxRa7k8AXM9TZ5p975NJhi",
+    "runtimeVerified": true,
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/13",
     "staticTestsPassed": 144,
-    "previewAccess": "23-hour private QA browser access authorized for this rollout. Preview has no Amazon configuration; fallback rendering only was verified. Production API cards and all 75 images verified on 20 routes.",
+    "previewAccess": "23-hour private QA browser access authorized for this rollout. Preview has no Amazon configuration; fallback rendering only was verified. Corrective production API cards and all 88 images verified on 20 routes.",
     "initialLiveCards": 75,
     "initialFallbackCards": 16,
-    "corrections": "Thirteen source-backed identity corrections: eleven product picks plus two exact English hardcover editions. Partial author-edition maps preserve unpinned recommendations. Strict matching remains unchanged; fixed enum-only fallback diagnostics added."
+    "corrections": "Thirteen source-backed identity corrections: eleven product picks plus two exact English hardcover editions. Partial author-edition maps preserve unpinned recommendations. Strict matching remains unchanged; fixed enum-only fallback diagnostics added.",
+    "liveCards": 88,
+    "fallbackCards": 3,
+    "liveArticleRoutes": 19,
+    "correctivePullRequest": "https://github.com/simputech/bestpickzone/pull/14",
+    "exceptions": [
+      "MyFair racks: two unverified exact catalog matches; search fallback only.",
+      "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
+    ]
   },
-  "nextAction": "Publish reviewed narrow identity corrections, verify all 20 production routes, complete batch 1 checkpoint, then start batch 2.",
+  "nextAction": "Push the recovered batch-two branch as a draft PR. Verify protected preview on desktop/mobile after Chrome coordination and authorized preview access, then publish and verify production before batch three.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
-    "Local browser process sandbox unavailable; use supported cloud browser against preview/production."
+    "Mac supported browser inventory exposes shared Chrome only; isolated in-app browser is unavailable. Chrome is reserved for another Stripe task until coordination. Prior cloud-browser preview approval is not transferred."
   ],
   "existingPullRequest": {
     "number": 6,
     "state": "open-conflicted",
-    "handling": "Carry forward exact-ASIN Alex Michaelides intent with stricter book validation. Do not merge the stale branch wholesale."
+    "handling": "PR6 intent superseded by verified production PR13 and PR14. Both Alex and Elgato/Logitech pilot images are now live. Stale conflicted PR6 left unmerged."
+  },
+  "batch02": {
+    "reviewedPaths": [
+      "/wfh/best-monitor-arms-for-shallow-desks",
+      "/coffee/best-burr-grinders-french-press-cold-brew",
+      "/coffee/best-coffee-makers-for-low-cabinets",
+      "/coffee/best-espresso-grinders-for-breville-bambino",
+      "/coffee/best-low-profile-espresso-scales",
+      "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+      "/mahjong/best-mahjong-mats-for-small-tables",
+      "/wfh/best-usb-c-docks-for-two-monitors",
+      "/wfh/best-video-call-lighting-for-glasses",
+      "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "/coffee/aeropress-original-vs-aeropress-premium",
+      "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+      "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "/coffee/hario-v60-vs-chemex-classic",
+      "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "/beauty/dr-dennis-gross-vs-omnilux-contour"
+    ],
+    "substantialRefreshes": [
+      "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "/coffee/aeropress-original-vs-aeropress-premium",
+      "/coffee/hario-v60-vs-chemex-classic",
+      "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "/wfh/best-usb-c-docks-for-two-monitors"
+    ],
+    "sitemapUpdates": [
+      "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "/coffee/aeropress-original-vs-aeropress-premium",
+      "/coffee/hario-v60-vs-chemex-classic",
+      "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "/wfh/best-usb-c-docks-for-two-monitors"
+    ],
+    "publicationCommit": null,
+    "deploymentId": null,
+    "runtimeVerified": false,
+    "minorEdits": [
+      "/wfh/best-monitor-arms-for-shallow-desks",
+      "/coffee/best-burr-grinders-french-press-cold-brew",
+      "/coffee/best-espresso-grinders-for-breville-bambino",
+      "/coffee/best-low-profile-espresso-scales",
+      "/mahjong/best-mahjong-mats-for-small-tables",
+      "/wfh/best-video-call-lighting-for-glasses",
+      "/coffee/baratza-encore-esp-vs-fellow-opus-2"
+    ],
+    "unchanged": [
+      "/coffee/best-coffee-makers-for-low-cabinets",
+      "/mahjong/best-carrying-bags-for-american-mahjong-sets"
+    ],
+    "productRequests": 38,
+    "staticTestsPassed": 174,
+    "build": "passed; 335 sitemap URLs rendered indexable; 0 errors",
+    "exceptions": [
+      "Omnilux Contour Face: official-store-first; authorized Amazon seller not verified.",
+      "Elgato Air MK.2: official-store-first; exact US with-mount ASIN not verified. The exclusive badge concerns a site bundle, not the whole product."
+    ],
+    "previousProductionDeployment": "dpl_7yx4CMzxRa7k8AXM9TZ5p975NJhi",
+    "independentReview": "passed; 114 focused tests and eight adversarial probes",
+    "macRecovery": {
+      "archiveLibraryId": "libfile_93579fc364ac81919c3f9b112ab34e15",
+      "archiveSha256": "a7f985ff7089974d1f9b7a5258e830347a102ec7e27c084add2ee3767d0d0fa1",
+      "baselineCommit": "9e0f09593218febf1f9d9ba51c6a0be5115801fe",
+      "restoredFileHashesVerified": 38,
+      "gitApplyCheck": "passed",
+      "staticTestsPassed": 174,
+      "typecheck": "passed",
+      "lint": "passed with existing warnings",
+      "build": "passed; metadata 296; indexable sitemap URLs 335; zero errors/warnings",
+      "httpQaReport": "reports/creator-rollout/batch-02-mac-http-qa.json",
+      "previewBrowserVerified": false,
+      "productionPublished": false
+    },
+    "previewAccess": "Not established on this Mac. Old cloud-browser approval is private and nontransferable."
   }
 }

@@ -1,0 +1,179 @@
+{
+  "AeroPress Original": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B0047BIWSK",
+    "brand": "AeroPress",
+    "expectedTitle": "AeroPress Original Coffee Press",
+    "requiredTitleTerms": [
+      "Original",
+      "Coffee Press"
+    ],
+    "forbiddenTitleTerms": [
+      "Premium",
+      "Clear",
+      "Go",
+      "XL"
+    ],
+    "model": "85A01",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B0047BIWSK",
+    "manufacturerSource": "https://aeropress.com/products/aeropress-coffee-maker",
+    "qualification": "Current Amazon model is 85A01, not historical 83R01. Original full press; do not substitute Clear, Go, XL, or accessories."
+  },
+  "AeroPress Premium": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B0FRWSKCX6",
+    "brand": "AeroPress",
+    "expectedTitle": "AeroPress Premium Coffee Press Glass",
+    "requiredTitleTerms": [
+      "Premium",
+      "Coffee Press",
+      "Glass"
+    ],
+    "forbiddenTitleTerms": [
+      "Original",
+      "Clear",
+      "Go",
+      "XL"
+    ],
+    "model": "PR001",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B0FRWSKCX6",
+    "manufacturerSource": "https://aeropress.com/products/aeropress-coffee-maker-premium",
+    "qualification": "This exact ASIN is BLACK, not silver. Glass, stainless steel and aluminum full press; same Premium family. Use only when article does not require silver."
+  },
+  "Baratza Virtuoso+": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B07QMY8GLX",
+    "brand": "Baratza",
+    "expectedTitle": "Baratza Virtuoso+ Coffee Grinder",
+    "requiredTitleTerms": [
+      "Virtuoso+",
+      "grinder"
+    ],
+    "forbiddenTitleTerms": [
+      "Encore",
+      "Sette",
+      "Vario"
+    ],
+    "model": "Virtuoso+",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B07QMY8GLX",
+    "manufacturerSource": "https://www.baratza.com/en-us/product/virtuoso-zcg587",
+    "qualification": "Amazon title identifies ZCG587BLK; model field is Virtuoso+, part number 587. Do not require model ZCG587BLK. US storefront identity is established, not a live offer or voltage guarantee."
+  },
+  "Fellow Ode Gen 2": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B0BLRMCM9Y",
+    "brand": "Fellow",
+    "expectedTitle": "Fellow Ode Gen 2 Coffee Grinder",
+    "requiredTitleTerms": [
+      "Ode",
+      "Gen 2",
+      "grinder"
+    ],
+    "forbiddenTitleTerms": [
+      "SSP",
+      "Opus",
+      "Gen 1"
+    ],
+    "model": "Ode Gen 2",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B0BLRMCM9Y",
+    "manufacturerSource": "https://fellowproducts.com/products/ode-brew-grinder-gen-2",
+    "qualification": "Black, standard Gen 2 brew-burr identity. Manufacturer explicitly separates SSP upgrade and says not for espresso."
+  },
+  "Breville Barista Express BES870XL": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B00CH9QWOU",
+    "brand": "Breville",
+    "expectedTitle": "Breville BES870XL Barista Express Espresso Machine",
+    "requiredTitleTerms": [
+      "BES870XL",
+      "Barista Express",
+      "Espresso Machine"
+    ],
+    "forbiddenTitleTerms": [
+      "Impress",
+      "Touch",
+      "Pro"
+    ],
+    "model": "BES870XL",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B00CH9QWOU",
+    "manufacturerSource": "https://www.breville.com/en-us/product/bes870?sku=BES870XL",
+    "qualification": "Brushed stainless steel original Barista Express. Manufacturer manual also available at https://www.breville.com/content/dam/breville/us/assets/miscellaneous/instruction-manual/espresso/BES870-instruction-manual.pdf ."
+  },
+  "De'Longhi La Specialista EC9335M": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B07QMWZ6PT",
+    "brand": "De'Longhi",
+    "expectedTitle": "De'Longhi La Specialista EC9335M Espresso Machine",
+    "requiredTitleTerms": [
+      "La Specialista",
+      "espresso",
+      "EC9335M"
+    ],
+    "forbiddenTitleTerms": [
+      "Arte",
+      "Prestigio",
+      "Opera",
+      "Maestro",
+      "Touch"
+    ],
+    "model": "EC9335M",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B07QMWZ6PT",
+    "manufacturerSource": "https://www.delonghi.com/en-us/s/EC9335M",
+    "qualification": "Original sensor-grinder, dual-heating La Specialista, not newer subfamilies. Listing title includes inconsistent capacity wording; do not import it as a specification. Current availability and discontinued status were not established."
+  },
+  "Fellow Stagg EKG original": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B077JBQZPX",
+    "brand": "Fellow",
+    "expectedTitle": "Fellow Stagg EKG Electric Gooseneck Kettle",
+    "requiredTitleTerms": [
+      "Stagg EKG",
+      "kettle"
+    ],
+    "forbiddenTitleTerms": [
+      "Pro",
+      "Studio",
+      "Corvo",
+      "EKG+"
+    ],
+    "model": "1137",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B077JBQZPX",
+    "manufacturerSource": "https://help.fellowproducts.com/hc/en-us/article_attachments/115002323432",
+    "qualification": "Original matte-black Stagg EKG, model 1137. The old manufacturer product URL now presents Pro/Pro Studio, so use the original official manual as version-specific evidence. Do not attribute current Pro features or warranty to original."
+  },
+  "Cosori CO108-NK": {
+    "verifiedAt": "2026-10-16",
+    "status": "public_identity_verified_runtime_unchecked",
+    "asin": "B07T1CH2HH",
+    "brand": "Cosori",
+    "expectedTitle": "Cosori Gooseneck Electric Kettle",
+    "requiredTitleTerms": [
+      "Gooseneck",
+      "Kettle"
+    ],
+    "forbiddenTitleTerms": [
+      "Smart",
+      "WiFi",
+      "Wi-Fi"
+    ],
+    "model": "CO108-NK",
+    "allowAccessory": false,
+    "amazonSource": "https://www.amazon.com/dp/B07T1CH2HH",
+    "manufacturerSource": "https://cosori.com/products/electric-gooseneck-kettle-co108-nk",
+    "qualification": "Black original five-preset kettle. Model CO108-NK is in Amazon model fields, NOT current title: do not require model text in title. Manufacturer UPC 817915026922 agrees. Silver alternative B081LQMXKP was discovered but not fully checked and is not recommended here."
+  }
+}

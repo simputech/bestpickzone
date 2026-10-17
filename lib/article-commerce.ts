@@ -46,4 +46,796 @@ export const articleCommerce: Record<string, ArticleCommerce> = {
     { query: 'COSCO XL 38.5 fold in half card table 14036', label: 'COSCO XL 38.5-inch fold-in-half table', asin: 'B084QF1F6M', model: '14036BLK1E', brand: 'Cosco', expectedTitle: 'COSCO XL 38.5 fold', note: 'For more rack space. Inspect the center seam and verify the folded storage envelope.' },
     { query: 'COSCO 34 vinyl top folding table 14696', label: 'COSCO 34-inch vinyl-top table', asin: 'B00SOWJUO8', model: '14696BLK1E', brand: 'Cosco', expectedTitle: 'COSCO 34 vinyl', note: 'For a smaller playing footprint. Test the actual four-player layout inside a 34-inch square.' },
   ] },
+  // Batch 2: explicit reviewed products; missing catalog identities fail closed.
+  "/wfh/best-monitor-arms-for-shallow-desks": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "VIVO STAND-V001 single monitor desk mount black",
+        "label": "VIVO STAND-V001 single monitor arm",
+        "note": "For a mostly fixed screen position. Confirm the exact pole arm, desktop construction and clamp clearance.",
+        "asin": "B00B21TLQU",
+        "brand": "VIVO",
+        "expectedTitle": "VIVO STAND V001 monitor",
+        "requiredTitleTerms": [
+          "STAND-V001",
+          "monitor"
+        ],
+        "forbiddenTitleTerms": [
+          "dual",
+          "STAND-V001C",
+          "STAND-V001VA",
+          "STAND-V001T"
+        ],
+        "model": "STAND-V001"
+      },
+      {
+        "query": "Ergotron LX Pro 45-682 single monitor desk arm",
+        "label": "Ergotron LX Pro 45-682 single desk arm",
+        "note": "The single-arm two-piece-clamp family, not a dual, tall-pole or wall-mount kit. Check the complete folded envelope.",
+        "asin": "B0DSJJMRFL",
+        "brand": "Ergotron",
+        "expectedTitle": "Ergotron LX Pro single monitor arm",
+        "requiredTitleTerms": [
+          "LX Pro",
+          "single",
+          "monitor arm"
+        ],
+        "forbiddenTitleTerms": [
+          "dual",
+          "stacking",
+          "tall pole",
+          "wall mount"
+        ],
+        "modelPrefix": "45-682",
+        "allowAccessory": true
+      }
+    ]
+  },
+  "/coffee/best-burr-grinders-french-press-cold-brew": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Encore standard coffee grinder black",
+        "label": "Baratza Encore, standard model",
+        "note": "For a simple brew-grinder routine. This is not the Encore ESP; keep grounds below the bin's maximum-fill line.",
+        "asin": "B007F183LK",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Encore coffee grinder",
+        "requiredTitleTerms": [
+          "Encore",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "ESP",
+          "Pro"
+        ],
+        "model": "ENCORE"
+      },
+      {
+        "query": "Fellow Ode Gen 2 brew grinder matte black standard burrs",
+        "label": "Fellow Ode Gen 2",
+        "note": "For weighed brewed-coffee batches. Not an espresso grinder; doses above its 100g capacity need multiple loads.",
+        "asin": "B0BLRMCM9Y",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Ode Gen 2 grinder",
+        "requiredTitleTerms": [
+          "Ode",
+          "Gen 2",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "SSP"
+        ]
+      }
+    ]
+  },
+  "/coffee/best-coffee-makers-for-low-cabinets": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Hamilton Beach FrontFill 46310J coffee maker",
+        "label": "Hamilton Beach FrontFill 46310J",
+        "note": "For front loading beneath a cabinet. An unverified 46310J match stays a search link; do not substitute the older 46310.",
+        "brand": "Hamilton Beach",
+        "expectedTitle": "Hamilton Beach FrontFill",
+        "requiredTitleTerms": [
+          "46310J"
+        ],
+        "model": "46310J"
+      },
+      {
+        "query": "Zojirushi ZUTTO EC-DAC50 coffee maker silver",
+        "label": "Zojirushi ZUTTO EC-DAC50, silver",
+        "note": "Silver EC-DAC50SA listing. Check the exact version and tank-removal space; five coffee-maker cups are not five large mugs.",
+        "asin": "B000EPLK6O",
+        "brand": "Zojirushi",
+        "expectedTitle": "Zojirushi EC DAC50 Zutto",
+        "requiredTitleTerms": [
+          "EC-DAC50",
+          "Zutto"
+        ],
+        "model": "EC-DAC50SA"
+      }
+    ]
+  },
+  "/coffee/best-espresso-grinders-for-breville-bambino": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Encore ESP coffee grinder",
+        "label": "Baratza Encore ESP",
+        "note": "For simple cup-based dosing with espresso-focused adjustment. Choose ESP, not the standard Encore or ESP Pro.",
+        "asin": "B0BW272XCV",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Encore ESP",
+        "requiredTitleTerms": [
+          "Encore ESP",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "Pro"
+        ]
+      },
+      {
+        "query": "Breville Smart Grinder Pro BCG820BSS",
+        "label": "Breville Smart Grinder Pro BCG820BSS",
+        "note": "For timed hopper dosing with a 50–54mm cradle. The timer controls duration, not an exact grounds weight.",
+        "asin": "B00OXGXW8O",
+        "brand": "Breville",
+        "expectedTitle": "Breville Smart Grinder Pro",
+        "requiredTitleTerms": [
+          "BCG820BSS",
+          "Smart Grinder Pro"
+        ],
+        "model": "BCG820BSS"
+      }
+    ]
+  },
+  "/coffee/best-low-profile-espresso-scales": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Acaia Lunar 2021 espresso scale",
+        "label": "Acaia Lunar 2021",
+        "note": "For preserving vertical cup clearance. Confirm the 2021 scale, not a plate, base, carrying case or unrelated compact scale.",
+        "brand": "Acaia",
+        "expectedTitle": "Acaia Lunar",
+        "requiredTitleTerms": [
+          "2021",
+          "scale"
+        ],
+        "forbiddenTitleTerms": [
+          "Pearl",
+          "weighing plate",
+          "carrying case",
+          "base",
+          "protective film"
+        ]
+      },
+      {
+        "query": "WACACO Exagram Pro coffee scale",
+        "label": "Wacaco Exagram Pro",
+        "note": "For a smaller tray footprint with enough cup headroom. Its 22mm body is taller than the Lunar; do not substitute the original Exagram.",
+        "asin": "B0D7378WJL",
+        "brand": "WACACO",
+        "expectedTitle": "WACACO Exagram Pro coffee scale",
+        "requiredTitleTerms": [
+          "Exagram Pro",
+          "scale"
+        ]
+      }
+    ]
+  },
+  "/mahjong/best-carrying-bags-for-american-mahjong-sets": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Yellow Mountain Imports Mojave soft case YM-XH012-A case only",
+        "label": "YMI Mojave case-only bag",
+        "note": "Case and packing pouches, not a full tile set. Match rack and tile dimensions; interior and mat fit are unverified.",
+        "asin": "B00SR63J2A",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports Mojave soft case",
+        "requiredTitleTerms": [
+          "Mojave",
+          "case only"
+        ],
+        "model": "YM-XH012-A"
+      },
+      {
+        "query": "Yellow Mountain Imports Pepper soft case DX-XH001-A case only",
+        "label": "YMI Pepper case-only bag",
+        "note": "The case-only model, not the complete Pepper Mahjong set. No exact US ASIN verified; an unmatched result stays a search link.",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports Pepper soft case",
+        "requiredTitleTerms": [
+          "case only"
+        ],
+        "model": "DX-XH001-A"
+      }
+    ]
+  },
+  "/mahjong/best-mahjong-mats-for-small-tables": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Yellow Mountain Imports 31.1 table cover YW-TR001-A blue rubber backing",
+        "label": "YMI 31.1-inch rubber-backed mat",
+        "note": "Roll-up YW-TR001-A, not a fitted cover. Confirm all four corners are supported. No exact US ASIN verified.",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports 31.1 table cover",
+        "requiredTitleTerms": [
+          "31.1"
+        ],
+        "model": "YW-TR001-A"
+      },
+      {
+        "query": "Yellow Mountain Imports blue fitted square table cover YM-TR001-B87",
+        "label": "YMI blue fitted cover YM-TR001-B87",
+        "note": "Exact blue-cover identity; published size fields conflict. Obtain current finished dimensions and table-fit confirmation before ordering.",
+        "asin": "B0753FHDC8",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports table cover Mahjong",
+        "requiredTitleTerms": [
+          "table cover",
+          "Mahjong",
+          "professional grade"
+        ]
+      }
+    ]
+  },
+  "/wfh/best-usb-c-docks-for-two-monitors": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "CalDigit TS4 Thunderbolt 4 dock 98W",
+        "label": "CalDigit TS4",
+        "note": "Native displays on a supported host. Does not bypass base M1/M2 limits; plan the DisplayPort and downstream Thunderbolt video connections.",
+        "asin": "B09GK8LBWS",
+        "brand": "CalDigit",
+        "expectedTitle": "CalDigit TS4 Thunderbolt 4 dock",
+        "requiredTitleTerms": [
+          "TS4",
+          "Thunderbolt",
+          "dock"
+        ]
+      },
+      {
+        "query": "Plugable UD-6950PDH dual monitor docking station",
+        "label": "Plugable UD-6950PDH",
+        "note": "Office DisplayLink option, with software and permissions required. On macOS, protected video can fail on all screens while connected.",
+        "asin": "B09TQY97MJ",
+        "brand": "Plugable",
+        "expectedTitle": "Plugable docking station dual monitor",
+        "requiredTitleTerms": [
+          "docking station",
+          "dual monitor"
+        ],
+        "model": "UD-6950PDH"
+      }
+    ]
+  },
+  "/wfh/best-video-call-lighting-for-glasses": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Elgato Key Light Neo Black with Monitor Mount",
+        "label": "Elgato Key Light Neo with monitor mount, black",
+        "note": "Compact with-mount package. Position and power source matter; a diffused panel cannot guarantee reflection-free glasses.",
+        "asin": "B0FDBL5MVM",
+        "brand": "Elgato",
+        "expectedTitle": "Elgato Key Light Neo Black with Monitor Mount",
+        "requiredTitleTerms": [
+          "Key Light Neo",
+          "Black",
+          "Monitor Mount"
+        ]
+      }
+    ]
+  },
+
+  "/coffee/breville-bambino-plus-vs-gaggia-classic-pro": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Breville Bambino Plus Espresso Machine BES500BSS",
+        "label": "Breville Bambino Plus BES500",
+        "asin": "B07JVD78TT",
+        "brand": "Breville",
+        "expectedTitle": "Breville Bambino Plus",
+        "requiredTitleTerms": [
+          "Bambino",
+          "Plus"
+        ],
+        "forbiddenTitleTerms": [
+          "BES450"
+        ],
+        "note": "US Bambino Plus BES500, not the base Bambino. The ASIN comes from the existing verified Creator API baseline; preserve the API-returned URL and image."
+      },
+      {
+        "query": "Gaggia Classic Pro E24 Espresso Machine US 120V",
+        "label": "Gaggia Classic Pro E24 (US brass-boiler model)",
+        "brand": "Gaggia",
+        "expectedTitle": "Gaggia Classic E24",
+        "requiredTitleTerms": [
+          "E24",
+          "120V",
+          "espresso machine"
+        ],
+        "forbiddenTitleTerms": [
+          "220V",
+          "230V",
+          "240V",
+          "220 V",
+          "230 V",
+          "240 V",
+          "heating element",
+          "boiler only",
+          "replacement boiler",
+          "pump",
+          "gasket"
+        ],
+        "note": "Require positive E24 and 120V title evidence for this US brass-boiler comparison. Older Pro/Evo, overseas, or voltage-ambiguous listings are not substitutes. Retain safe fallback when these checks fail."
+      }
+    ]
+  },
+  "/beauty/dr-dennis-gross-vs-omnilux-contour": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Dr Dennis Gross DRx SpectraLite FaceWare Pro LED Mask",
+        "label": "Dr. Dennis Gross DRx SpectraLite FaceWare Pro",
+        "expectedTitle": "Dr Dennis Gross SpectraLite FaceWare Pro",
+        "requiredTitleTerms": [
+          "SpectraLite",
+          "FaceWare",
+          "Pro",
+          "mask"
+        ],
+        "forbiddenTitleTerms": [
+          "EyeCare",
+          "LipWare",
+          "BodyWare",
+          "replacement",
+          "strap",
+          "controller",
+          "charger",
+          "charging cable",
+          "power cable",
+          "adapter"
+        ],
+        "note": "Full-face FaceWare Pro device only, not another body-area device or accessory. No ASIN verified for this refresh; retain a search fallback unless Creator API verifies the exact product. A product match does not establish authorized-seller or warranty eligibility.",
+        "brand": "Dr. Dennis Gross"
+      }
+    ]
+  },
+
+  "/coffee/1zpresso-jx-pro-vs-comandante-c40": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "1Zpresso JX-Pro original manual coffee grinder",
+        "label": "1Zpresso JX-Pro (original)",
+        "brand": "1Zpresso",
+        "expectedTitle": "1Zpresso JX Pro",
+        "requiredTitleTerms": [
+          "JX Pro",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "JX Pro S",
+          "JX ProS",
+          "J Ultra",
+          "J Max",
+          "K Ultra",
+          "catch cup",
+          "carrying case",
+          "handle only",
+          "burr set",
+          "grinder handle",
+          "spare handle"
+        ],
+        "note": "Legacy original JX-Pro only. Confirm stock, condition and support; JX-Pro S or J-Ultra is not a substitute."
+      },
+      {
+        "query": "Comandante C40 MK4 Nitro Blade manual coffee grinder",
+        "label": "Comandante C40 MK4 Nitro Blade",
+        "brand": "Comandante",
+        "expectedTitle": "Comandante C40 MK4 Nitro Blade",
+        "requiredTitleTerms": [
+          "C40",
+          "MK4",
+          "Nitro Blade",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "MK3",
+          "C60",
+          "Trailmaster",
+          "Tigershark",
+          "Red Clix",
+          "jar",
+          "catch cup",
+          "carrying case",
+          "protective case",
+          "handle only",
+          "shaft",
+          "drivetrain",
+          "grinder handle",
+          "spare handle"
+        ],
+        "note": "Standard MK4 Nitro Blade grinder, not a separate jar, drivetrain or another burr edition."
+      }
+    ]
+  },
+  "/coffee/acaia-lunar-vs-timemore-black-mirror-nano": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Acaia Lunar 2021 espresso coffee scale",
+        "label": "Acaia Lunar 2021",
+        "brand": "Acaia",
+        "expectedTitle": "Acaia Lunar 2021",
+        "requiredTitleTerms": [
+          "Lunar",
+          "2021",
+          "scale"
+        ],
+        "forbiddenTitleTerms": [
+          "Pearl",
+          "Pyxis",
+          "Cinco",
+          "weighing plate",
+          "carrying case",
+          "protective case",
+          "base",
+          "protective film",
+          "silicone pad",
+          "charger",
+          "charging cable",
+          "adapter"
+        ],
+        "note": "2021 generation only. Check cup clearance; Lunar is water-resistant, not waterproof."
+      },
+      {
+        "query": "TIMEMORE Black Mirror Nano coffee scale",
+        "label": "Timemore Black Mirror Nano, white",
+        "brand": "TIMEMORE",
+        "expectedTitle": "TIMEMORE Black Mirror Nano",
+        "requiredTitleTerms": [
+          "Black Mirror",
+          "Nano",
+          "scale"
+        ],
+        "forbiddenTitleTerms": [
+          "Mini",
+          "Basic",
+          "Pro"
+        ],
+        "note": "Exact Nano, not Mini or Basic. Check current availability, side-button clearance and seller support. Pinned white variant; do not substitute a different Nano color ASIN without verification.",
+        "asin": "B09KL96K8V"
+      }
+    ]
+  },
+  "/coffee/aeropress-original-vs-aeropress-premium": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "AeroPress Original standard coffee maker",
+        "label": "AeroPress Original",
+        "brand": "AeroPress",
+        "expectedTitle": "AeroPress Original Coffee Press",
+        "requiredTitleTerms": [
+          "Original",
+          "Coffee Press"
+        ],
+        "forbiddenTitleTerms": [
+          "XL",
+          "Clear",
+          "Go",
+          "Premium",
+          "Steel"
+        ],
+        "note": "Standard-size Original brewer, not Original XL or a filter-only listing.",
+        "asin": "B0047BIWSK",
+        "model": "85A01"
+      },
+      {
+        "query": "AeroPress Premium glass metal coffee maker",
+        "label": "AeroPress Premium, black",
+        "brand": "AeroPress",
+        "expectedTitle": "AeroPress Premium Coffee Press Glass",
+        "requiredTitleTerms": [
+          "Premium",
+          "Coffee Press",
+          "Glass"
+        ],
+        "forbiddenTitleTerms": [
+          "Walnut",
+          "XL",
+          "Original",
+          "Go Plus",
+          "Clear",
+          "Go"
+        ],
+        "note": "Glass-and-metal Premium brewer. Handwash only; not the Steel or Premium Walnut model. The verified catalog identity is the black finish.",
+        "asin": "B0FRWSKCX6",
+        "model": "PR001"
+      }
+    ]
+  },
+  "/coffee/baratza-encore-esp-vs-fellow-opus-2": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Encore ESP coffee grinder black",
+        "label": "Baratza Encore ESP",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Encore ESP",
+        "requiredTitleTerms": [
+          "Encore",
+          "ESP"
+        ],
+        "forbiddenTitleTerms": [
+          "Pro"
+        ],
+        "note": "Original Encore ESP in black, not standard Encore or Encore ESP Pro.",
+        "asin": "B0BW272XCV"
+      },
+      {
+        "query": "Fellow Opus 2 conical burr coffee grinder",
+        "label": "Fellow Opus 2",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Opus 2",
+        "requiredTitleTerms": [
+          "Opus 2",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "Opus 1",
+          "Ode",
+          "Walnut",
+          "wood lid"
+        ],
+        "note": "Opus 2 with 48 mm burrs and stepless adjustment. The original 40 mm Opus is not a substitute. Pinned black North American model.",
+        "asin": "B0FPCHNSX2",
+        "model": "1222MB-NA"
+      }
+    ]
+  },
+  "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Virtuoso Plus coffee grinder",
+        "label": "Baratza Virtuoso+",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Virtuoso+ Coffee Grinder",
+        "requiredTitleTerms": [
+          "Virtuoso+",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "Encore",
+          "Sette",
+          "Vario"
+        ],
+        "note": "Digital-timer Virtuoso+, not the original Virtuoso. Weigh output when calibrating a timed dose.",
+        "asin": "B07QMY8GLX",
+        "model": "Virtuoso+"
+      },
+      {
+        "query": "Fellow Ode Gen 2 coffee grinder standard brew burrs",
+        "label": "Fellow Ode Gen 2, standard burrs",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Ode Gen 2 Coffee Grinder",
+        "requiredTitleTerms": [
+          "Ode",
+          "Gen 2",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "SSP",
+          "Gen 1",
+          "Opus"
+        ],
+        "note": "Complete Gen 2 grinder with standard Gen 2 Brew Burrs, not a burr-only upgrade or SSP configuration. Not for espresso.",
+        "asin": "B0BLRMCM9Y",
+        "model": "Ode Gen 2"
+      }
+    ]
+  },
+  "/coffee/breville-barista-express-vs-delonghi-la-specialista": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Breville Barista Express BES870XL espresso machine",
+        "label": "Breville Barista Express BES870XL",
+        "brand": "Breville",
+        "expectedTitle": "Breville BES870XL Barista Express Espresso Machine",
+        "requiredTitleTerms": [
+          "BES870XL",
+          "Barista Express",
+          "Espresso Machine"
+        ],
+        "forbiddenTitleTerms": [
+          "Impress",
+          "Pro",
+          "Touch",
+          "Bambino"
+        ],
+        "note": "Original BES870XL, not Express Impress or Barista Pro. Confirm US electrical specification and seller warranty.",
+        "asin": "B00CH9QWOU",
+        "model": "BES870XL"
+      },
+      {
+        "query": "De'Longhi La Specialista EC9335M espresso machine",
+        "label": "De'Longhi La Specialista EC9335M",
+        "brand": "De'Longhi",
+        "expectedTitle": "De'Longhi La Specialista EC9335M Espresso Machine",
+        "requiredTitleTerms": [
+          "La Specialista",
+          "espresso",
+          "EC9335M"
+        ],
+        "forbiddenTitleTerms": [
+          "Arte",
+          "Evo",
+          "Prestigio",
+          "Opera",
+          "Maestro",
+          "Touch"
+        ],
+        "note": "Legacy EC9335M only. Verify condition, complete accessories, voltage and warranty; newer La Specialista models are not substitutes.",
+        "asin": "B07QMWZ6PT",
+        "model": "EC9335M"
+      }
+    ]
+  },
+  "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Fellow Stagg EKG original electric kettle",
+        "label": "Fellow Stagg EKG (original)",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Stagg EKG Electric Gooseneck Kettle",
+        "requiredTitleTerms": [
+          "Stagg EKG",
+          "kettle"
+        ],
+        "forbiddenTitleTerms": [
+          "Pro",
+          "Studio",
+          "EKG Plus",
+          "stovetop",
+          "Corvo",
+          "EKG+"
+        ],
+        "note": "Original EKG only. Current Pro and Pro Studio models have different features and are not substitutions.",
+        "asin": "B077JBQZPX",
+        "model": "1137"
+      },
+      {
+        "query": "COSORI CO108-NK electric gooseneck kettle",
+        "label": "COSORI CO108-NK",
+        "brand": "Cosori",
+        "expectedTitle": "Cosori Gooseneck Electric Kettle",
+        "requiredTitleTerms": [
+          "Gooseneck",
+          "Kettle"
+        ],
+        "forbiddenTitleTerms": [
+          "Smart",
+          "Bluetooth",
+          "WiFi",
+          "Wi-Fi"
+        ],
+        "note": "CO108-NK with five temperature presets, not a smart kettle. Check the US electrical version.",
+        "model": "CO108-NK",
+        "asin": "B07T1CH2HH"
+      }
+    ]
+  },
+  "/coffee/hario-v60-vs-chemex-classic": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "HARIO V60 02 plastic clear VD-02T dripper",
+        "label": "Hario V60 02 clear plastic dripper",
+        "brand": "Hario",
+        "expectedTitle": "Hario V60",
+        "requiredTitleTerms": [
+          "V60",
+          "02",
+          "plastic",
+          "clear",
+          "dripper"
+        ],
+        "forbiddenTitleTerms": [
+          "ceramic",
+          "metal",
+          "glass",
+          "01",
+          "03",
+          "switch"
+        ],
+        "note": "Clear plastic size 02, model VD-02T. Needs size 02 papers and a stable mug or server. Require returned VD-02T part/model evidence because listing model fields conflict.",
+        "model": "VD-02T",
+        "asin": "B001RBTSMM"
+      },
+      {
+        "query": "Chemex Six Cup Classic CM-6A coffee maker",
+        "label": "Chemex Six Cup Classic CM-6A",
+        "brand": "Chemex",
+        "expectedTitle": "Chemex Classic",
+        "requiredTitleTerms": [
+          "Classic",
+          "6-Cup"
+        ],
+        "forbiddenTitleTerms": [
+          "8 cup",
+          "10 cup",
+          "3 cup",
+          "glass handle",
+          "handblown"
+        ],
+        "note": "Six-cup Classic carafe, CM-6A. Capacity is 30 US fl oz, not six large mugs.",
+        "model": "CM-6A",
+        "asin": "B0000YWF5E"
+      }
+    ]
+  },
+  "/coffee/timemore-chestnut-c3-vs-kingrinder-k6": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "TIMEMORE Chestnut C3 manual coffee grinder",
+        "label": "Timemore Chestnut C3 (standard)",
+        "brand": "TIMEMORE",
+        "expectedTitle": "TIMEMORE Chestnut C3",
+        "requiredTitleTerms": [
+          "Chestnut",
+          "C3",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "C3S",
+          "C3 S",
+          "Pro",
+          "ESP",
+          "C2",
+          "C5",
+          "grinder handle",
+          "handle only",
+          "spare handle",
+          "replacement crank",
+          "burr set",
+          "catch cup",
+          "carrying case"
+        ],
+        "note": "Standard C3 with classic internal adjustment. Do not substitute C3S, Pro or ESP editions."
+      },
+      {
+        "query": "KINGrinder K6 manual coffee grinder",
+        "label": "KINGrinder K6, straight handle silver",
+        "brand": "KINGrinder",
+        "expectedTitle": "KINGrinder K6",
+        "requiredTitleTerms": [
+          "K6",
+          "grinder",
+          "straight handle"
+        ],
+        "forbiddenTitleTerms": [
+          "K4",
+          "K2",
+          "K7"
+        ],
+        "note": "Complete K6 grinder with external adjustment, not another K-series model or a replacement part. The pinned current catalog identity has a straight handle and silver finish.",
+        "asin": "B0GKFDZ725"
+      }
+    ]
+  },
+
 }

@@ -1,0 +1,182 @@
+{
+  "/wfh/best-monitor-arms-for-shallow-desks": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "VIVO STAND-V001 single monitor desk mount black",
+        "label": "VIVO STAND-V001 single monitor arm",
+        "note": "For a mostly fixed screen position. Confirm the exact pole arm, desktop construction and clamp clearance.",
+        "asin": "B00B21TLQU",
+        "brand": "VIVO",
+        "expectedTitle": "VIVO STAND V001 monitor",
+        "requiredTitleTerms": [
+          "STAND-V001",
+          "monitor"
+        ],
+        "forbiddenTitleTerms": [
+          "dual",
+          "STAND-V001C",
+          "STAND-V001VA",
+          "STAND-V001T"
+        ],
+        "model": "STAND-V001"
+      },
+      {
+        "query": "Ergotron LX Pro 45-682 single monitor desk arm",
+        "label": "Ergotron LX Pro 45-682 single desk arm",
+        "note": "The single-arm two-piece-clamp family, not a dual, tall-pole or wall-mount kit. Check the complete folded envelope.",
+        "asin": "B0DSJJMRFL",
+        "brand": "Ergotron",
+        "expectedTitle": "Ergotron LX Pro single monitor arm",
+        "requiredTitleTerms": [
+          "LX Pro",
+          "single",
+          "monitor arm"
+        ],
+        "forbiddenTitleTerms": [
+          "dual",
+          "stacking",
+          "tall pole",
+          "wall mount"
+        ],
+        "modelPrefix": "45-682",
+        "allowAccessory": true
+      }
+    ]
+  },
+  "/coffee/best-burr-grinders-french-press-cold-brew": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Encore standard coffee grinder black",
+        "label": "Baratza Encore, standard model",
+        "note": "For a simple brew-grinder routine. This is not the Encore ESP; keep grounds below the bin's maximum-fill line.",
+        "asin": "B007F183LK",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Encore coffee grinder",
+        "requiredTitleTerms": [
+          "Encore",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "ESP",
+          "Pro"
+        ],
+        "model": "ENCORE"
+      },
+      {
+        "query": "Fellow Ode Gen 2 brew grinder matte black standard burrs",
+        "label": "Fellow Ode Gen 2",
+        "note": "For weighed brewed-coffee batches. Not an espresso grinder; doses above its 100g capacity need multiple loads.",
+        "asin": "B0BLRMCM9Y",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Ode Gen 2 grinder",
+        "requiredTitleTerms": [
+          "Ode",
+          "Gen 2",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "SSP"
+        ]
+      }
+    ]
+  },
+  "/coffee/best-coffee-makers-for-low-cabinets": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Hamilton Beach FrontFill 46310J coffee maker",
+        "label": "Hamilton Beach FrontFill 46310J",
+        "note": "For front loading beneath a cabinet. An unverified 46310J match stays a search link; do not substitute the older 46310.",
+        "brand": "Hamilton Beach",
+        "expectedTitle": "Hamilton Beach FrontFill",
+        "requiredTitleTerms": [
+          "46310J"
+        ],
+        "model": "46310J"
+      },
+      {
+        "query": "Zojirushi ZUTTO EC-DAC50 coffee maker silver",
+        "label": "Zojirushi ZUTTO EC-DAC50, silver",
+        "note": "Silver EC-DAC50SA listing. Check the exact version and tank-removal space; five coffee-maker cups are not five large mugs.",
+        "asin": "B000EPLK6O",
+        "brand": "Zojirushi",
+        "expectedTitle": "Zojirushi EC DAC50 Zutto",
+        "requiredTitleTerms": [
+          "EC-DAC50",
+          "Zutto"
+        ],
+        "model": "EC-DAC50SA"
+      }
+    ]
+  },
+  "/coffee/best-espresso-grinders-for-breville-bambino": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Encore ESP coffee grinder",
+        "label": "Baratza Encore ESP",
+        "note": "For simple cup-based dosing with espresso-focused adjustment. Choose ESP, not the standard Encore or ESP Pro.",
+        "asin": "B0BW272XCV",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Encore ESP",
+        "requiredTitleTerms": [
+          "Encore ESP",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "Pro"
+        ]
+      },
+      {
+        "query": "Breville Smart Grinder Pro BCG820BSS",
+        "label": "Breville Smart Grinder Pro BCG820BSS",
+        "note": "For timed hopper dosing with a 50–54mm cradle. The timer controls duration, not an exact grounds weight.",
+        "asin": "B00OXGXW8O",
+        "brand": "Breville",
+        "expectedTitle": "Breville Smart Grinder Pro",
+        "requiredTitleTerms": [
+          "BCG820BSS",
+          "Smart Grinder Pro"
+        ],
+        "model": "BCG820BSS"
+      }
+    ]
+  },
+  "/coffee/best-low-profile-espresso-scales": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Acaia Lunar 2021 espresso scale",
+        "label": "Acaia Lunar 2021",
+        "note": "For preserving vertical cup clearance. Confirm the 2021 scale, not a plate, base, carrying case or unrelated compact scale.",
+        "brand": "Acaia",
+        "expectedTitle": "Acaia Lunar",
+        "requiredTitleTerms": [
+          "2021",
+          "scale"
+        ],
+        "forbiddenTitleTerms": [
+          "Pearl",
+          "weighing plate",
+          "carrying case",
+          "base",
+          "protective film"
+        ]
+      },
+      {
+        "query": "WACACO Exagram Pro coffee scale",
+        "label": "Wacaco Exagram Pro",
+        "note": "For a smaller tray footprint with enough cup headroom. Its 22mm body is taller than the Lunar; do not substitute the original Exagram.",
+        "asin": "B0D7378WJL",
+        "brand": "WACACO",
+        "expectedTitle": "WACACO Exagram Pro coffee scale",
+        "requiredTitleTerms": [
+          "Exagram Pro",
+          "scale"
+        ]
+      }
+    ]
+  }
+}
