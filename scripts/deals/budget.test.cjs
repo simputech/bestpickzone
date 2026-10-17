@@ -12,7 +12,9 @@ test('budget parsing retains, replaces, removes and rejects invalid or foreign a
  assert.deepEqual(readBudget(Array(12).fill('filter coffee only'),state),state);
  assert.equal(readBudget(['now $40'],state).budget,40);
  assert.deepEqual(readBudget(['no budget'],state),emptyBudget);
- for(const text of ['$-20','$20.123','$100001'])assert.equal(readBudget([text],state).budgetIssue,'invalid',text);
+ assert.deepEqual(readBudget(['was $20, now no budget'],state),emptyBudget);
+ assert.equal(readBudget(['no budget, actually $50'],state).budget,50);
+ for(const text of ['$-20','$20.123','$100001','$1,2'])assert.equal(readBudget([text],state).budgetIssue,'invalid',text);
  assert.equal(readBudget(['under €20']).budgetIssue,'currency');
  assert.equal(readBudget(['filter only'],readBudget(['€20'])).budgetIssue,'currency');
 });
@@ -49,4 +51,11 @@ test('offer parser only accepts exact unrestricted new in-stock offers and prese
  }
  const wrong=item();wrong.itemInfo.title.displayValue='Example Aero replacement burr';assert.equal(parse(wrong),null);
  const wrongTag=item();wrongTag.detailPageURL=wrongTag.detailPageURL.replace('althcu-20','wrong-20');assert.equal(parse(wrongTag),null);
+});
+test('unsupported grinder types survive budget-only follow-ups',()=>{
+ const first='manual coffee grinder under $20';
+ assert.equal(recommend(first).status,'no-match');
+ assert.equal(recommend('now $300','coffee-grinders',[first]).status,'no-match');
+ assert.equal(recommend('actually electric, budget to $200','coffee-grinders',[first]).budget,200);
+ assert.equal(recommend('actually electric, budget to $200','coffee-grinders',[first]).status,'verification-unavailable');
 });

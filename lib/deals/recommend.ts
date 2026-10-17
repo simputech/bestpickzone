@@ -114,7 +114,9 @@ export function recommend(
       message:
         "This shortlist covers adult display sets, so I do not have a suitable child’s playset recommendation here. Use LEGO’s age guidance to choose an age-appropriate set.",
     };
-  if (category.slug === "coffee-grinders" && /\b(manual|hand grinder|hand crank|blade|cordless|battery powered)\b/i.test(query))
+  const grinderType = [...messages].reverse().find(text => /\b(manual|hand grinder|hand crank|blade|cordless|battery powered|electric)\b/i.test(text));
+  if (category.slug === "coffee-grinders" && grinderType &&
+    ["manual", "hand grinder", "hand crank", "blade", "cordless", "battery powered"].some(term => mentioned(grinderType, term)))
     return { ...base, status: "no-match" as const, message: "Our grinder shortlist covers two electric burr grinders. I do not have a verified manual, blade or cordless option here. Check retailer listings for that type, or read the category guide before choosing." };
   let selected: ShoppingCategory["products"][number] | undefined;
   const rejected = new Set<string>();
@@ -146,7 +148,7 @@ export function recommend(
         ? "I have no verified free products in this shortlist. Enter a positive budget, or check retailer listings yourself."
         : !candidates.length
           ? "None of our curated choices matches those preferences. Browse the category guide or check retailer listings for other models."
-          : `I cannot verify a ${budgetState.budgetExclusive ? "below" : "within"} $${budget.toLocaleString("en-US")} match right now. No unverified product is being recommended against your budget. Check current retailer listings and the final total, including shipping and tax, or try again later.`,
+          : `I cannot verify a match ${budgetState.budgetExclusive ? "below" : "within"} $${budget.toLocaleString("en-US")} right now. No unverified product is being recommended against your budget. Check current retailer listings and the final total, including shipping and tax, or try again later.`,
     };
   }
   if (!selected)

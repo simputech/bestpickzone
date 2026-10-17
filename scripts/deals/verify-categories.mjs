@@ -40,7 +40,7 @@ for(const c of categories){
   const answer=await r.json();assert.ok(answer.products[0]?.reason,c.slug+q);assert.ok(answer.products[0].tradeoff);assert.equal(answer.livePrices,false);questions++;
  }
 }
-for(const body of [{query:'x'},{query:'Valid question',category:'not-a-category'},{query:'Valid question',history:['x'.repeat(401)]},{query:'Valid question',history:Array(7).fill('old')}]){
+for(const body of [{query:'Valid question',budgetState:{budget:'20'}},{query:'Valid question',budgetState:{budget:-1,budgetExclusive:false,budgetIssue:null}},{query:'x'},{query:'Valid question',category:'not-a-category'},{query:'Valid question',history:['x'.repeat(401)]},{query:'Valid question',history:Array(7).fill('old')}]){
  const r=await fetch(base+'/api/deal-agent',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});assert.equal(r.status,400);
 }
 const foreign=await fetch(base+'/api/deal-agent',{method:'POST',headers:{'Content-Type':'application/json',origin:'https://unrelated.example'},body:JSON.stringify({query:'coffee grinder'})});assert.equal(foreign.status,400);
