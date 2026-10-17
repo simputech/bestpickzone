@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:49:23.621964+00:00",
+  "updatedAt": "2026-10-17T01:57:55.923187+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -187,20 +187,25 @@
       "/beauty/dyson-airstrait-vs-ghd-duet-style",
       "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
       "/beauty/nuface-trinity-vs-solawave-wand",
-      "/beauty/revlon-one-step-vs-loreal-steampod"
+      "/beauty/revlon-one-step-vs-loreal-steampod",
+      "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+      "/beauty/vitamin-c-vs-niacinamide"
     ],
     "commerceWiring": "13 eligible raw renderers wired; eight routes mapped after identity research. Remaining book/air-fryer mappings pending. Rhode and exact US SteamPod remain official-store-first.",
     "technicalChecks": {
       "typecheck": "Passed after Revlon/SteamPod draft and operations gate integration.",
       "build": "Passed after eight substantive drafts and operations inventory: 279 statically rendered metadata pages; 335 indexable sitemap URLs; 0 metadata/indexability errors or warnings; 14 runtime assets; operations gate passed. Later editorial changes require rerun.",
       "runtimeTraceGate": "Passed for all 14 explicit route assets.",
-      "newIdentityTests": "Five synthetic boundary tests, including generation, flavor, kit and accessory exclusions; no live batch-three catalog claim."
+      "newIdentityTests": "Five synthetic boundary tests, including generation, flavor, kit and accessory exclusions; no live batch-three catalog claim.",
+      "editorialDrafts": "Ten substantive drafts saved; the two latest ingredient rewrites need build/preview verification."
     },
     "researchNotes": [
       "reports/creator-rollout/batch-03-research/retinol-bakuchiol.md",
       "reports/creator-rollout/batch-03-research/books-corrections.md",
       "reports/creator-rollout/batch-03-research/hair-tools.md",
-      "reports/creator-rollout/batch-03-research/lip-treatments.md"
+      "reports/creator-rollout/batch-03-research/lip-treatments.md",
+      "reports/creator-rollout/batch-03-research/acne-ingredients.md",
+      "reports/creator-rollout/batch-03-research/vitamin-c-niacinamide.md"
     ]
   },
   "pregnancyClaimCorrection": {

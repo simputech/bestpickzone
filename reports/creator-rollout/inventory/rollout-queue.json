@@ -322,7 +322,7 @@
         {
           "path": "/books/daring-greatly-vs-the-gifts-of-imperfection",
           "url": "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection",
-          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First?",
+          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Bren\u00e9 Brown Book First?",
           "renderer": "ResearchedBuyingGuide",
           "page_source": "app/books/daring-greatly-vs-the-gifts-of-imperfection/page.tsx",
           "data_source": "content/buying-guides/daring-greatly-vs-the-gifts-of-imperfection.html",
@@ -688,7 +688,7 @@
     {
       "batch": 3,
       "reviewed_page_target": 20,
-      "status": "pending",
+      "status": "research-and-drafting",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -700,10 +700,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
@@ -714,10 +714,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
@@ -728,10 +728,10 @@
           "data_source": "app/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/beauty/nuface-trinity-vs-solawave-wand",
@@ -742,10 +742,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
@@ -756,10 +756,10 @@
           "data_source": "app/beauty/retinol-vs-bakuchiol-for-sensitive-skin/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/beauty/revlon-one-step-vs-loreal-steampod",
@@ -770,10 +770,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/beauty/salicylic-acid-vs-benzoyl-peroxide",
@@ -784,10 +784,10 @@
           "data_source": "app/beauty/salicylic-acid-vs-benzoyl-peroxide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/beauty/vitamin-c-vs-niacinamide",
@@ -798,10 +798,10 @@
           "data_source": "app/beauty/vitamin-c-vs-niacinamide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/books/agatha-christie-vs-arthur-conan-doyle",
@@ -924,10 +924,10 @@
           "data_source": "app/books/reader-picks/best-true-crime-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/books/self-help/best-james-clear-books",
@@ -938,10 +938,10 @@
           "data_source": "app/books/self-help/best-james-clear-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-pending-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Draft saved; independent review/re-review and runtime QA pending. Sitemap date deferred until publication gate."
         },
         {
           "path": "/books/stephen-king-vs-dean-koontz",
@@ -1782,7 +1782,7 @@
         {
           "path": "/books/authors/best-lee-child-books",
           "url": "https://bestpickzone.com/books/authors/best-lee-child-books",
-          "title": "Best Lee Child Books in Order — Jack Reacher Reading Guide (2026)",
+          "title": "Best Lee Child Books in Order \u2014 Jack Reacher Reading Guide (2026)",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/authors/best-lee-child-books/page.tsx",
           "data_source": null,
@@ -2056,7 +2056,7 @@
         {
           "path": "/books/genre-fiction/best-cold-war-thriller-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-cold-war-thriller-books",
-          "title": "Best Cold War Thriller Books — Ranked with Winner Logic",
+          "title": "Best Cold War Thriller Books \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-cold-war-thriller-books/page.tsx",
           "data_source": null,
@@ -2070,7 +2070,7 @@
         {
           "path": "/books/genre-fiction/best-history-books-for-beginners",
           "url": "https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners",
-          "title": "Best History Books for Beginners — Ranked with Winner Logic",
+          "title": "Best History Books for Beginners \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-history-books-for-beginners/page.tsx",
           "data_source": null,
@@ -2098,7 +2098,7 @@
         {
           "path": "/books/genre-fiction/best-military-fiction-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-military-fiction-books",
-          "title": "Best Military Fiction Books — Ranked with Winner Logic",
+          "title": "Best Military Fiction Books \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-military-fiction-books/page.tsx",
           "data_source": null,
@@ -2112,7 +2112,7 @@
         {
           "path": "/books/genre-fiction/best-spy-thriller-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-spy-thriller-books",
-          "title": "Best Spy Thriller Books of All Time — Ranked with Winner Logic",
+          "title": "Best Spy Thriller Books of All Time \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-spy-thriller-books/page.tsx",
           "data_source": null,
@@ -2134,7 +2134,7 @@
         {
           "path": "/books/genre-fiction/best-world-war-ii-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-world-war-ii-books",
-          "title": "Best Books About World War II — Ranked with Winner Logic",
+          "title": "Best Books About World War II \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-world-war-ii-books/page.tsx",
           "data_source": null,
@@ -2232,7 +2232,7 @@
         {
           "path": "/books/reader-picks/best-action-adventure-books-for-men",
           "url": "https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men",
-          "title": "Best Action Adventure Books for Men — Ranked with Winner Logic",
+          "title": "Best Action Adventure Books for Men \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-action-adventure-books-for-men/page.tsx",
           "data_source": null,
@@ -2246,7 +2246,7 @@
         {
           "path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
           "url": "https://bestpickzone.com/books/reader-picks/best-books-for-people-who-dont-like-reading",
-          "title": "Best Books for People Who Don't Like Reading — Ranked by Why They Work",
+          "title": "Best Books for People Who Don't Like Reading \u2014 Ranked by Why They Work",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-books-for-people-who-dont-like-reading/page.tsx",
           "data_source": null,
@@ -2260,7 +2260,7 @@
         {
           "path": "/books/reader-picks/best-books-like-da-vinci-code",
           "url": "https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code",
-          "title": "Best Books Like The Da Vinci Code — Ranked with Winner Logic",
+          "title": "Best Books Like The Da Vinci Code \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-books-like-da-vinci-code/page.tsx",
           "data_source": null,
@@ -2288,7 +2288,7 @@
         {
           "path": "/books/reader-picks/best-new-books-april-2026",
           "url": "https://bestpickzone.com/books/reader-picks/best-new-books-april-2026",
-          "title": "Best New Books in April 2026 — This Month's Standout Releases",
+          "title": "Best New Books in April 2026 \u2014 This Month's Standout Releases",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-new-books-april-2026/page.tsx",
           "data_source": null,
@@ -2302,7 +2302,7 @@
         {
           "path": "/books/reader-picks/best-new-books-june-2026",
           "url": "https://bestpickzone.com/books/reader-picks/best-new-books-june-2026",
-          "title": "Best New Books in June 2026 — This Month's Standout Releases",
+          "title": "Best New Books in June 2026 \u2014 This Month's Standout Releases",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-new-books-june-2026/page.tsx",
           "data_source": null,
@@ -2344,7 +2344,7 @@
         {
           "path": "/books/self-help/best-personal-finance-books-young-adults",
           "url": "https://bestpickzone.com/books/self-help/best-personal-finance-books-young-adults",
-          "title": "Best Personal Finance Books for Young Adults — Matched to Your Situation",
+          "title": "Best Personal Finance Books for Young Adults \u2014 Matched to Your Situation",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/self-help/best-personal-finance-books-young-adults/page.tsx",
           "data_source": null,
@@ -2358,7 +2358,7 @@
         {
           "path": "/books/self-help/best-self-help-books-2026",
           "url": "https://bestpickzone.com/books/self-help/best-self-help-books-2026",
-          "title": "Best Self-Help Books to Read in 2026 — Honest Picks with Skip-This-If Guidance",
+          "title": "Best Self-Help Books to Read in 2026 \u2014 Honest Picks with Skip-This-If Guidance",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/self-help/best-self-help-books-2026/page.tsx",
           "data_source": null,
@@ -2892,7 +2892,7 @@
         {
           "path": "/books/best-brene-brown-books",
           "url": "https://bestpickzone.com/books/best-brene-brown-books",
-          "title": "Best Brené Brown Books",
+          "title": "Best Bren\u00e9 Brown Books",
           "renderer": "DynamicBookArticlePage",
           "page_source": "app/books/[slug]/page.tsx",
           "data_source": "lib/books-data-part1.ts",
