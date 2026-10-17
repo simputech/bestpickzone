@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:30:15.671000+00:00",
+  "updatedAt": "2026-10-17T01:41:15.367157+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -184,15 +184,23 @@
       "/books/self-help/best-james-clear-books",
       "/books/reader-picks/best-true-crime-books",
       "/beauty/dyson-airwrap-vs-shark-flexstyle",
-      "/beauty/dyson-airstrait-vs-ghd-duet-style"
+      "/beauty/dyson-airstrait-vs-ghd-duet-style",
+      "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+      "/beauty/nuface-trinity-vs-solawave-wand"
     ],
-    "commerceWiring": "13 eligible raw renderers wired; Mark Manson and two hair-tool comparisons mapped. Other mappings pending identity research.",
+    "commerceWiring": "13 eligible raw renderers wired; seven routes mapped after identity research (two hair comparisons, facial devices, lip treatment, Mark Manson, historical epics and spy calendar). Remaining mappings pending.",
     "technicalChecks": {
-      "typecheck": "passed before latest content-only edits",
+      "typecheck": "Passed after lip-treatment and facial-device drafts and maps.",
       "build": "Passed at 797e30a before Airwrap draft/mappings: 335 indexable URLs, zero errors/warnings, 14 runtime assets packaged.",
       "runtimeTraceGate": "Passed for all 14 explicit route assets.",
-      "newIdentityTests": "Four air-styler identity boundary tests; run recorded in current checkpoint commit."
-    }
+      "newIdentityTests": "Five synthetic boundary tests, including generation, flavor, kit and accessory exclusions; no live batch-three catalog claim."
+    },
+    "researchNotes": [
+      "reports/creator-rollout/batch-03-research/retinol-bakuchiol.md",
+      "reports/creator-rollout/batch-03-research/books-corrections.md",
+      "reports/creator-rollout/batch-03-research/hair-tools.md",
+      "reports/creator-rollout/batch-03-research/lip-treatments.md"
+    ]
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",

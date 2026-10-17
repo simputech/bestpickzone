@@ -52,3 +52,16 @@ test('wet-to-dry mappings reject adjacent tools and accessory-only listings', ()
  for (const title of ['ghd Duet Blowdry Hair Styler','ghd Duet Style Styler Stand','ghd Duet Style Styler 220V'])
   assert.equal(match(candidate(title,'ghd','TEST'),ghd),null,title);
 });
+test('facial-device and lip mappings reject wrong generations, kit contents and flavors', () => {
+ const [nuface, sola] = articleCommerce['/beauty/nuface-trinity-vs-solawave-wand'].products;
+ const [laneige] = articleCommerce['/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide'].products;
+ assert.ok(match(candidate('NuFACE TRINITY+ Starter Kit','NuFACE','TEST'),nuface));
+ assert.ok(match(candidate('Solawave Radiant Renewal 4-in-1 Skincare Wand','Solawave','TEST'),sola));
+ assert.ok(match(candidate('LANEIGE Lip Sleeping Mask Berry 20g','LANEIGE','TEST'),laneige));
+ for (const title of ['NuFACE Trinity Starter Kit','NuFACE TRINITY+ Complete Kit','NuFACE TRINITY+ Starter Kit Replacement Attachment'])
+  assert.equal(match(candidate(title,'NuFACE','TEST'),nuface),null,title);
+ for (const title of ['Solawave Advanced 4-in-1 Skincare Wand','Solawave Radiant Renewal 4-in-1 Skincare Wand Charger Only'])
+  assert.equal(match(candidate(title,'Solawave','TEST'),sola),null,title);
+ for (const title of ['LANEIGE Lip Sleeping Mask Vanilla 20g','LANEIGE Lip Sleeping Mask Berry 3g','LANEIGE Lip Sleeping Mask Berry 20g Gift Set','LANEIGE Lip Sleeping Mask Berry 20g Applicator'])
+  assert.equal(match(candidate(title,'LANEIGE','TEST'),laneige),null,title);
+});

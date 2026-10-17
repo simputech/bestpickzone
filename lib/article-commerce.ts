@@ -839,6 +839,25 @@ export const articleCommerce: Record<string, ArticleCommerce> = {
   },
 
   // Batch 3: mappings are added after primary-source identity review.
+  '/beauty/nuface-trinity-vs-solawave-wand': { batch: 3, products: [
+    { query: 'NuFACE TRINITY+ Starter Kit', label: 'NuFACE TRINITY+ Starter Kit', brand: 'NuFACE', expectedTitle: 'NuFACE Trinity+ Starter Kit', requiredTitleTerms: ['Trinity+', 'Starter Kit'], forbiddenTitleTerms: ['Complete', 'Mini', 'FIX', 'refill', 'attachment only'], note: 'TRINITY+ Starter Kit, not Classic Trinity or Complete. Check the included activator and read the exact device manual before buying.' },
+    { query: 'Solawave Radiant Renewal 4 in 1 Skincare Wand', label: 'Solawave Radiant Renewal 4-in-1 Wand', brand: 'Solawave', expectedTitle: 'Solawave Radiant Renewal Skincare Wand', requiredTitleTerms: ['Radiant Renewal', '4-in-1', 'Wand'], forbiddenTitleTerms: ['Advanced', 'mini', 'mask', 'serum only', 'charger only'], note: 'Radiant Renewal generation, not the earlier Advanced wand. Check the full 12-minute routine and contraindications; serum may be separate.' },
+  ] },
+  '/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide': { batch: 3, products: [
+    { query: 'LANEIGE Lip Sleeping Mask Berry 20g', label: 'Laneige Lip Sleeping Mask, Berry 20g', brand: 'LANEIGE', expectedTitle: 'LANEIGE Lip Sleeping Mask Berry', requiredTitleTerms: ['Berry', '20g'], forbiddenTitleTerms: ['Vanilla', 'Gummy', 'Candy', 'Grapefruit', 'mini', 'set', 'pack', 'duo', 'topper', 'holder', 'applicator'], note: 'Standard Berry 20g jar only. If the returned title does not establish the flavor and size, the card remains a search link. Rhode is official-store-first in the article.' },
+  ] },
+  '/books/genre-fiction/best-historical-epics-2026': { batch: 3, books: [
+    { title: 'The Pillars of the Earth', author: 'Ken Follett' },
+    { title: 'Shōgun', author: 'James Clavell', asin: '1982537523' },
+    { title: 'Lonesome Dove', author: 'Larry McMurtry' },
+    { title: 'The Covenant of Water', author: 'Abraham Verghese' },
+    { title: 'Wolf Hall', author: 'Hilary Mantel' },
+  ] },
+  '/books/genre-fiction/best-new-spy-thriller-books-2026': { batch: 3, books: [
+    { title: 'The Taper Man', author: 'Nick Harkaway' },
+    { title: 'Icarus 17', author: 'Charles Cumming' },
+    { title: 'Ransom', author: 'Daniel Silva' },
+  ] },
   '/beauty/dyson-airstrait-vs-ghd-duet-style': { batch: 3, products: [
     { query: 'Dyson Airstrait straightener US 120V', label: 'Dyson Airstrait', brand: 'Dyson', expectedTitle: 'Dyson Airstrait straightener', requiredTitleTerms: ['Airstrait', 'straightener'], forbiddenTitleTerms: ['Airwrap', 'Corrale', '220V', '240V', 'case', 'stand', 'holder', 'filter'], note: 'Airstrait, not Airwrap or Corrale. Confirm the selected US electrical version and seller support before buying.' },
     { query: 'ghd Duet Style 2 in 1 hot air styler US', label: 'ghd Duet Style', brand: 'ghd', expectedTitle: 'ghd Duet Style styler', requiredTitleTerms: ['Duet Style', 'styler'], forbiddenTitleTerms: ['Blowdry', '220V', '240V', 'case', 'stand', 'holder'], note: 'Duet Style, not the Duet Blowdry brush. US version is not universal voltage; Shine Shot is for fully dry hair only.' },
