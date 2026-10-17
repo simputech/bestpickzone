@@ -412,3 +412,7 @@ The winning formula for this project is:
 - earlier Amazon click opportunities
 
 If we keep pushing the best pages toward custom editorial quality while staying disciplined on linking, sitemaps, and factual accuracy, the site will be much better positioned both to rank and to convert.
+
+## Service and deployment inventory — October 17, 2026
+
+Use the maintained [backend and deployment inventory](docs/BACKEND_DEPLOYMENT_INVENTORY.md) for exact provider/project identities, environment mapping, credential locations (names only), migration receipts, test/deployment evidence, rollback steps and explicit unknowns. This inventory supplements the historical brief above and is part of the release gate. Deal Agent implementation and operations are documented in [Deal Discovery Operations](docs/DEAL_DISCOVERY_OPERATIONS.md).

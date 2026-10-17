@@ -1,19 +1,15 @@
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
-const ts=require('typescript');
-const fs=require('node:fs');
-const path=require('node:path');
-const mod={exports:{}};
-const code=ts.transpileModule(fs.readFileSync('lib/deals/recommend.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText;
-new Function('require','module','exports',code)(s=>require(path.resolve('lib/deals',s)),mod,mod.exports);
-const {recommend,categories}=mod.exports;
+const {recommend,categories}=require('./load.cjs')('lib/deals/recommend.ts');
 const pick=r=>r.products[0]?.id;
-test('every category can clarify and answer each starter prompt with a source and tradeoff',()=>{
+test('every category returns immediate options and answers starter prompts with a source and tradeoff',()=>{
  assert.equal(categories.length,10);
  for(const c of categories){
   const vague=recommend('I need help choosing',c.slug);
-  assert.equal(vague.products.length,0,c.slug);
-  assert.equal(vague.message,c.question);
+  assert.equal(vague.products.length,c.products.length,c.slug);
+  assert.equal(vague.status,'recommendation');
+  assert.doesNotMatch(vague.message,/\?/);
+  assert.notEqual(vague.message,c.question);
   for(const q of c.examples){
    const r=recommend(q,c.slug);
    assert.ok(r.products.length,c.slug+': '+q);
@@ -26,13 +22,13 @@ test('every category can clarify and answer each starter prompt with a source an
 });
 test('a follow-up replaces a brewing preference without losing the budget',()=>{
  const first='I need espresso under $300';
- assert.equal(pick(recommend(first,'coffee-grinders')),'espresso');
+ assert.deepEqual(recommend(first,'coffee-grinders').candidateIds,['espresso']);
  const later=recommend('Actually filter coffee only, not espresso','coffee-grinders',[first]);
- assert.equal(pick(later),'filter');assert.equal(later.budget,300);
+ assert.deepEqual(later.candidateIds,['filter']);assert.equal(later.products.length,0);assert.equal(later.budget,300);
 });
 test('new budget follow-up retains context without claiming price fit',()=>{
  const r=recommend('My budget is $50','espresso-machines',['I want automatic milk']);
- assert.equal(pick(r),'automatic');assert.equal(r.budget,50);assert.match(r.message,/cannot confirm/);
+ assert.deepEqual(r.candidateIds,['automatic']);assert.equal(r.products.length,0);assert.equal(r.budget,50);assert.match(r.message,/cannot verify/);
 });
 test('negative preferences do not become reasons to recommend that feature',()=>{
  assert.equal(pick(recommend('No dials, just shortcut keys','desktop-controllers')),'keys');
@@ -49,5 +45,13 @@ test('links are never represented as inspected and adult sets are not offered fo
 test('Kindle library requests receive a Kindle option rather than incompatible Kobo advice',()=>assert.equal(pick(recommend('I want my Kindle library','e-readers')),'kindle'));
 test('rejecting a prior choice never brings it back from chat history',()=>{
  const r=recommend("I don't want espresso",'coffee-grinders',['I want espresso']);
- assert.equal(r.products.length,0);
+ assert.deepEqual(r.products.map(p=>p.id),['filter']);
+});
+
+test('plain grinder requests show options immediately; excluding all options gives a direct no-match',()=>{
+ const plain=recommend('coffee grinder');
+ assert.deepEqual(plain.products.map(p=>p.id),['espresso','filter']);
+ assert.equal(plain.status,'recommendation');assert.doesNotMatch(plain.message,/\?/);
+ const none=recommend('not espresso and not filter','coffee-grinders');
+ assert.equal(none.status,'no-match');assert.equal(none.products.length,0);assert.doesNotMatch(none.message,/\?/);
 });

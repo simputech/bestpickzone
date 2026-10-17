@@ -40,8 +40,14 @@ for(const c of categories){
   const answer=await r.json();assert.ok(answer.products[0]?.reason,c.slug+q);assert.ok(answer.products[0].tradeoff);assert.equal(answer.livePrices,false);questions++;
  }
 }
-for(const body of [{query:'x'},{query:'Valid question',category:'not-a-category'},{query:'Valid question',history:['x'.repeat(401)]},{query:'Valid question',history:Array(7).fill('old')}]){
+for(const body of [{query:'Valid question',budgetState:{budget:'20'}},{query:'Valid question',budgetState:{budget:-1,budgetExclusive:false,budgetIssue:null}},{query:'x'},{query:'Valid question',category:'not-a-category'},{query:'Valid question',history:['x'.repeat(401)]},{query:'Valid question',history:Array(7).fill('old')}]){
  const r=await fetch(base+'/api/deal-agent',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});assert.equal(r.status,400);
 }
+for(const query of ['coffee grinder under $20, maximum 200 watts','coffee grinder under $20 and below 500 grams','coffee grinder under USD 20','coffee grinder budget: 20','coffee grinder under $20 in stock','coffee grinder under $20 in black','coffee grinder under $20 and below 8 in wide']){
+ const response=await fetch(base+'/api/deal-agent',{method:'POST',headers:{'Content-Type':'application/json',origin:base},body:JSON.stringify({query})});
+ assert.equal(response.status,200);const result=await response.json();
+ assert.equal(result.budget,20,query);assert.equal(result.budgetIssue,null,query);assert.notEqual(result.status,'clarify');
+ assert.ok(result.products.every(product=>product.offer && (result.budgetExclusive?product.offer.amount<20:product.offer.amount<=20)),query);
+}
 const foreign=await fetch(base+'/api/deal-agent',{method:'POST',headers:{'Content-Type':'application/json',origin:'https://unrelated.example'},body:JSON.stringify({query:'coffee grinder'})});assert.equal(foreign.status,400);
-console.log(JSON.stringify({base,categories:10,permanentRedirects:10,promptResponses:questions,sitemap:'new categories only',metadata:'self-canonicals and single H1',invalidRequests:'rejected',buyingGuides:'10 fully server rendered',faqs:30,relatedLinksChecked:checkedLinks.size,structuredData:'shortlists match visible products'},null,2));
+console.log(JSON.stringify({base,categories:10,permanentRedirects:10,promptResponses:questions,sitemap:'new categories only',metadata:'self-canonicals and single H1',invalidRequests:'rejected',budgetContextCases:7,buyingGuides:'10 fully server rendered',faqs:30,relatedLinksChecked:checkedLinks.size,structuredData:'shortlists match visible products'},null,2));

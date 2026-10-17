@@ -283,3 +283,27 @@ test('diagnostics aggregate rejection enums once, skip successful matches and di
   assert.equal(await unavailable.api.searchAmazonProduct('Our curated query'), null);
   assert.deepEqual(productDiagnostics(unavailable), [{ query: 'Our curated query', candidateCount: 0, reasons: ['catalog_unavailable'] }]);
 });
+
+test('budget offers request OffersV2 separately, deduplicate, preserve URLs and expire after five minutes', async () => {
+  let available = true;
+  const item = product();
+  item.offersV2 = { listings: [{price:{money:{amount:19.99,currency:'USD',displayAmount:'$19.99'}},availability:{type:'IN_STOCK',minOrderQuantity:1},condition:{value:'New'},isBuyBoxWinner:true,violatesMAP:false}] };
+  const state = harness(() => available ? response({itemsResult:{items:[item]}}) : response({},503));
+  const expected={query:'Example Aero 2 coffee grinder',asin:'B000TEST01',brand:'Example'};
+  const results=await Promise.all([state.api.lookupAmazonBudgetOffer(expected),state.api.lookupAmazonBudgetOffer(expected)]);
+  assert.equal(results[0].amount,19.99);assert.equal(results[0].url,item.detailPageURL);assert.equal(results[0],results[1]);
+  assert.equal(catalogCalls(state).length,1);
+  const call=catalogCalls(state)[0];assert.equal(call.body.condition,'New');assert.ok(call.body.resources.includes('offersV2.listings.price'));
+  assert.equal(call.options.headers['User-Agent'],'Agent/BestPickZoneDealAgent');
+  state.advance(5*60*1000+1);available=false;
+  assert.equal(await state.api.lookupAmazonBudgetOffer(expected),null);
+  assert.equal(catalogCalls(state).length,2);
+});
+test('budget checking does not fetch without US credentials and never guesses a missing price',async()=>{
+  for(const env of [{AMAZON_CREATORS_API_CLIENT_ID:''},{AMAZON_MARKETPLACE:'www.amazon.ca'}]){
+    const state=harness(()=>{throw Error('no network expected')},env);
+    assert.equal(await state.api.lookupAmazonBudgetOffer({query:'Example Aero'}),null);assert.equal(state.calls.length,0);
+  }
+  const state=harness(()=>response({searchResult:{items:[product()]}}));
+  assert.equal(await state.api.lookupAmazonBudgetOffer({query:'Example Aero 2 coffee grinder'}),null);
+});

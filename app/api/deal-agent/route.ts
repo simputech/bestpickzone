@@ -1,3 +1,6 @@
+import { lookupAmazonBudgetOffer } from "@/lib/amazon-creators-api";
+import { verifyBudget } from "@/lib/deals/budget-recommendation";
+import type { BudgetState } from "@/lib/deals/budget";
 import { NextResponse } from "next/server";
 import { requestBody } from "@/lib/deals/backend";
 import { recommend, findCategory } from "@/lib/deals/recommend";
@@ -31,8 +34,20 @@ export async function POST(request: Request) {
         { error: "Start a new chat and try again." },
         { status: 400 },
       );
+    const state = body.budgetState as BudgetState | undefined;
+    if (state !== undefined && (!state || typeof state !== "object" ||
+      !(state.budget === null || (typeof state.budget === "number" && Number.isFinite(state.budget) && state.budget >= 0 && state.budget <= 100000)) ||
+      typeof state.budgetExclusive !== "boolean" || ![null, "invalid", "currency"].includes(state.budgetIssue)))
+      return NextResponse.json({ error: "Start a new chat and try again." }, { status: 400 });
+    const recommendation = recommend(body.query.trim(), body.category, history, state ? { budget: state.budget, budgetExclusive: state.budgetExclusive, budgetIssue: state.budgetIssue } : undefined);
+    // Bound response latency even when authentication, rate limits or the catalog stall.
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const result = await Promise.race([
+      verifyBudget(recommendation, lookupAmazonBudgetOffer),
+      new Promise<typeof recommendation>(resolve => { timer = setTimeout(() => resolve(recommendation), 12000); }),
+    ]).finally(() => clearTimeout(timer));
     return NextResponse.json(
-      recommend(body.query.trim(), body.category, history),
+      result,
       { headers: { "Cache-Control": "no-store" } },
     );
   } catch {
