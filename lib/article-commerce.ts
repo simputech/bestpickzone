@@ -839,6 +839,9 @@ export const articleCommerce: Record<string, ArticleCommerce> = {
   },
 
   // Batch 3: mappings are added after primary-source identity review.
+  '/beauty/revlon-one-step-vs-loreal-steampod': { batch: 3, products: [
+    { query: 'Revlon One-Step Volumizer PLUS 2.4 inch US', label: 'Revlon One-Step Volumizer PLUS', brand: 'REVLON', expectedTitle: 'Revlon One Step Volumizer Plus', requiredTitleTerms: ['Volumizer', 'PLUS', '2.4'], forbiddenTitleTerms: ['Air Straight', '220V', '240V', 'head only', 'replacement head'], note: 'PLUS with the 2.4-inch oval head, not the original Volumizer or Air Straight. Confirm US electrical compatibility. SteamPod remains linked to its official US source in the article.' },
+  ] },
   '/beauty/nuface-trinity-vs-solawave-wand': { batch: 3, products: [
     { query: 'NuFACE TRINITY+ Starter Kit', label: 'NuFACE TRINITY+ Starter Kit', brand: 'NuFACE', expectedTitle: 'NuFACE Trinity+ Starter Kit', requiredTitleTerms: ['Trinity+', 'Starter Kit'], forbiddenTitleTerms: ['Complete', 'Mini', 'FIX', 'refill', 'attachment only'], note: 'TRINITY+ Starter Kit, not Classic Trinity or Complete. Check the included activator and read the exact device manual before buying.' },
     { query: 'Solawave Radiant Renewal 4 in 1 Skincare Wand', label: 'Solawave Radiant Renewal 4-in-1 Wand', brand: 'Solawave', expectedTitle: 'Solawave Radiant Renewal Skincare Wand', requiredTitleTerms: ['Radiant Renewal', '4-in-1', 'Wand'], forbiddenTitleTerms: ['Advanced', 'mini', 'mask', 'serum only', 'charger only'], note: 'Radiant Renewal generation, not the earlier Advanced wand. Check the full 12-minute routine and contraindications; serum may be separate.' },
