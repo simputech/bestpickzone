@@ -59,3 +59,34 @@ test('unsupported grinder types survive budget-only follow-ups',()=>{
  assert.equal(recommend('actually electric, budget to $200','coffee-grinders',[first]).budget,200);
  assert.equal(recommend('actually electric, budget to $200','coffee-grinders',[first]).status,'verification-unavailable');
 });
+
+test('measurement constraints never overwrite an explicit monetary budget',()=>{
+ const state=readBudget(['coffee grinder under $20']);
+ for(const query of [
+  'coffee grinder under $20, maximum 200 watts',
+  'coffee grinder under $20 and below 500 grams',
+  'coffee grinder under $20, maximum 200',
+  'coffee grinder under 20, maximum 200',
+  'coffee grinder under $20 and below 5 pounds',
+  ...['watts','W','grams','g','kg','inch','inches','cm','ml','rpm','dB','years','GB','%'].map(unit=>`coffee grinder under $20 and below 500 ${unit}`),
+ ]){
+  assert.deepEqual(readBudget([query]),state,query);
+  const result=recommend(query);assert.equal(result.budget,20);assert.equal(result.products.length,0);assert.equal(result.status,'verification-unavailable');assert.doesNotMatch(result.message,/\?/);
+ }
+ for(const query of ['maximum 200 watts','below 500 grams','under 5 pounds'])assert.deepEqual(readBudget([query],state),state,query);
+});
+test('USD and punctuated budget formats remain constrained through direct results and genuine revisions',()=>{
+ for(const query of ['coffee grinder under USD 20','coffee grinder budget: 20','coffee grinder under 20 USD','coffee grinder budget: USD 20','coffee grinder under USD$20','coffee grinder under US$20']){
+  const result=recommend(query);assert.equal(result.budget,20,query);assert.equal(result.products.length,0);assert.equal(result.status,'verification-unavailable');assert.doesNotMatch(result.message,/\?/);
+ }
+ assert.equal(readBudget(['coffee grinder under USD 20']).budgetExclusive,true);
+ let state=readBudget(['coffee grinder under $20']);
+ for(const [query,value] of [['now $30',30],['under USD 40',40],['budget: 50',50],['actually under 60',60],['up to 70',70]]){
+  state=readBudget([query],state);assert.equal(state.budget,value,query);
+ }
+ assert.equal(readBudget(['was $20, now under 40']).budget,40);
+ assert.equal(readBudget(['under $20 and budget: 30']).budget,30);
+ assert.equal(readBudget(['under GBP 20']).budgetIssue,'currency');
+ assert.equal(readBudget(['budget: 20 pounds']).budgetIssue,'currency');
+ for(const query of ['under CAD 20','under $20 CAD','under CA$20','under A$20','under CAD$20','under AUD$20'])assert.equal(readBudget([query]).budgetIssue,'currency',query);
+});

@@ -10,7 +10,7 @@ The screenshot's title occlusion was a scrolled sticky-header state. Fresh deskt
 
 ## Automated checks
 
-- Deal Agent unit tests: 20 passed (budget parsing, both chips, retention, changed/removed/invalid/foreign/zero budgets, strict/inclusive limits, unsupported manual grinders, no-match, unavailable, stale/future offers, restricted offers and identity/attribution).
+- Deal Agent unit tests: 22 passed (budget parsing, both chips, retention, changed/removed/invalid/foreign/zero budgets, strict/inclusive limits, unsupported manual grinders, no-match, unavailable, stale/future offers, restricted offers and identity/attribution).
 - Amazon regression/API tests: 49 passed, including real-shaped OffersV2 parsing, separate five-minute offer cache, deduplication, stale failure, no-credential/foreign-market failure and unchanged article resources.
 - TypeScript passed. ESLint passed with pre-existing warnings in unrelated article files.
 - Next.js production compilation passed; metadata: 296 rendered indexable pages, zero errors/warnings. Indexability: 335 sitemap URLs, zero errors/warnings. Runtime asset trace check passed.
@@ -42,3 +42,7 @@ Independent review and final preview verification, then expected-head merge and 
 ## Direct-results revision
 
 User preference recorded on October 16, 2026 (America/New_York): return results without asking a follow-up question. All ten supported categories now produce immediate curated options when no preference is given, narrowed results when one is given, or a direct no-match/unavailable result. Budget verification is unchanged. Post-answer preference chips are removed and the input is explicitly optional. Rejected options are excluded, including an all-rejected no-match.
+
+## Independent review correction: monetary context
+
+Review of `3c227e239fd1fd10c0bd07f1202d99440b89f659` identified that a later watt/gram limit could overwrite an explicit dollar budget, and that `under USD 20` / `budget: 20` were not recognized. The parser now requires currency or budget/comparison context, excludes measurement suffixes, and prioritizes explicit monetary amounts over bare comparisons in the same request. Explicit budget revisions and separate-turn unitless budget updates remain supported. Regression coverage includes both reported overwrites, power/weight/dimension/capacity/time/storage units, USD placement, punctuation, currency conflicts, revisions, direct results and withholding unverified products. Production remains unchanged pending re-review of the corrected head.
