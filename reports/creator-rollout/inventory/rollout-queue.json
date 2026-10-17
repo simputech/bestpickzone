@@ -370,7 +370,7 @@
     {
       "batch": 2,
       "reviewed_page_target": 20,
-      "status": "blocked-preview-access-approval",
+      "status": "preview-packaging-correction",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -674,7 +674,7 @@
           "creator_product_requests": 1
         }
       ],
-      "last_verified_at": "2026-10-17T00:44:12.433461+00:00",
+      "last_verified_at": "2026-10-17T00:48:37.337651+00:00",
       "recovery_evidence": "reports/creator-rollout/batch-02-mac-recovery.md",
       "pull_request": "https://github.com/simputech/bestpickzone/pull/15",
       "source_commit": "ae528653ff70513098dbfa3e0eec5050fb6f8ca2",

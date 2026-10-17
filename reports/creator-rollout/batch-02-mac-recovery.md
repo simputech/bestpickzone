@@ -25,10 +25,18 @@ Screenshots were visually inspected for the AeroPress desktop header/disclosure/
 
 All 174 tests passed after the initial focusability correction. After the final refinement separating the table from its heading/instructions, 30 focused integration/batch tests and the full production build passed again (335 sitemap URLs, zero indexability errors/warnings). The substantive-date scope remains eleven URLs.
 
-## Remaining gates
+## Prior access gate (resolved below)
 
 Deployed protected-preview desktop/mobile fallback QA and live production API identity/image QA remain pending. The dedicated Chrome preview tab reaches Vercel login. The earlier private cloud-browser preview approval is not reused or transferred. The pending one-hour share-link approval named preview `dpl_Bepp8bPJhVwBvSFwQtBifkLNnwr7`; the accessibility-fix push will produce a replacement deployment, so that earlier target must not silently authorize the replacement.
 
 Omnilux Contour Face and Elgato Air MK.2 remain official-store-first. `althcu-20` and existing `grandparentsgift-20` pilots are preserved. Batch two is not published; batch three has not begun. Do not infer production sign-off from local fallback tests.
 
 Draft PR #15: https://github.com/simputech/bestpickzone/pull/15. Existing CLI identity `simputech` and the exact project/team were verified. The CLI preview read stopped at confirmation before requesting the route. Because it can create a project automation bypass token, it was not retried with automatic confirmation. No bypass token or access setting was created. Preview access is pending, not denied. No production secrets were retrieved or copied.
+
+## Deployed-preview finding and packaging correction
+
+Ordinary Continue with GitHub sign-in opened the protected preview using existing account access. No new grant, permission screen, share link or bypass token was needed. The former pending share-link request is obsolete. Nineteen routes passed deployed desktop/mobile fallback checks on READY deployment `dpl_5wn8FTqzWmPavoHCa93DdWjksELd` (`1f27aa5`).
+
+The LED article instead returned 500. Preview function logs identify `ENOENT` for `/var/task/app/beauty/dr-dennis-gross-vs-omnilux-contour/article-source.html`. Its generated local `page.js.nft.json` also omitted that runtime file. A route-specific Next.js file-tracing include now packages the HTML. A new build gate reads the actual generated trace and checks the asset exists, preventing a local checkout from hiding the same deployment failure. It failed against the previous build as expected. Publication waits for the corrected build and deployed recheck.
+
+The corrected full build passed metadata, all 335 indexable sitemap URLs and the generated runtime-asset trace gate. All 30 focused batch/integration tests passed again. The narrow include uses the installed Next.js 14.2.3 experimental configuration field; no framework/dependency upgrade or secret change was made.
