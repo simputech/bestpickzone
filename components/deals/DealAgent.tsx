@@ -216,7 +216,7 @@ export default function DealAgent({
                   </div>
                 </article>
               ))}
-              {!turn.answer.products.length && turn.answer.retailerSearch && turn.answer.status !== "clarify" && (
+              {!turn.answer.products.length && turn.answer.retailerSearch && (
                 <div className="shopping-pick-links">
                   <a href={turn.answer.retailerSearch} target="_blank" rel="sponsored noopener">Search Amazon yourself (affiliate) ↗</a>
                   <Link href={`/deals/${turn.answer.category}`}>Read the category guide →</Link>
@@ -245,7 +245,7 @@ export default function DealAgent({
           className={!turns.length ? "sr-only" : undefined}
         >
           {turns.length
-            ? "Refine your recommendation"
+            ? "Update your search (optional)"
             : "What are you looking for?"}
         </label>
         <textarea
@@ -291,9 +291,8 @@ export default function DealAgent({
               : ""}
         </span>
       </form>
-      <div className="shopping-prompts" aria-label="Suggested replies">
+      {!turns.length && <div className="shopping-prompts" aria-label="Suggested searches">
         {(
-          latest?.suggestions ||
           category?.examples || [
             "A coffee grinder",
             "An espresso machine",
@@ -309,7 +308,7 @@ export default function DealAgent({
             {prompt} ↗
           </button>
         ))}
-      </div>
+      </div>}
       <p className="shopping-note" id="shopping-chat-note">
         We check Amazon offers for our limited curated shortlist when you give a USD budget.
         A missing or unverified offer is not a budget match. We do not search every product or retailer.

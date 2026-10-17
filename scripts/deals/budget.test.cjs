@@ -35,10 +35,10 @@ test('verified item prices obey inclusive and exclusive limits; partial failures
  for(const value of [null,{...offer(10),expiresAt:new Date(now-1).toISOString()},{...offer(10),checkedAt:new Date(now+1).toISOString()}])assert.equal((await verifyBudget(r,async()=>value,now)).products.length,0);
  assert.equal((await verifyBudget(r,async()=>{throw Error('offline')},now)).status,'verification-unavailable');
 });
-test('impossible budgets, rejected features, and unrecognized replies terminate clearly',()=>{
+test('impossible budgets terminate clearly and vague requests return direct options',()=>{
  assert.equal(recommend('coffee grinder under $0').status,'no-match');
  assert.equal(recommend('coffee grinder $-1').status,'invalid-budget');
- const r=recommend('I do not know','coffee-grinders',['coffee grinder']);assert.equal(r.status,'no-match');assert.doesNotMatch(r.message,/Will you make/);
+ const r=recommend('I do not know','coffee-grinders',['coffee grinder']);assert.equal(r.status,'recommendation');assert.equal(r.products.length,2);assert.doesNotMatch(r.message,/Will you make/);
  assert.equal(recommend('a telescope under $20').products.length,0);
 });
 const request={query:'Example Aero coffee grinder',brand:'Example'};

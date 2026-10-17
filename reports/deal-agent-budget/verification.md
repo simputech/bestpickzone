@@ -10,7 +10,7 @@ The screenshot's title occlusion was a scrolled sticky-header state. Fresh deskt
 
 ## Automated checks
 
-- Deal Agent unit tests: 19 passed (budget parsing, both chips, retention, changed/removed/invalid/foreign/zero budgets, strict/inclusive limits, unsupported manual grinders, no-match, unavailable, stale/future offers, restricted offers and identity/attribution).
+- Deal Agent unit tests: 20 passed (budget parsing, both chips, retention, changed/removed/invalid/foreign/zero budgets, strict/inclusive limits, unsupported manual grinders, no-match, unavailable, stale/future offers, restricted offers and identity/attribution).
 - Amazon regression/API tests: 49 passed, including real-shaped OffersV2 parsing, separate five-minute offer cache, deduplication, stale failure, no-credential/foreign-market failure and unchanged article resources.
 - TypeScript passed. ESLint passed with pre-existing warnings in unrelated article files.
 - Next.js production compilation passed; metadata: 296 rendered indexable pages, zero errors/warnings. Indexability: 335 sitemap URLs, zero errors/warnings. Runtime asset trace check passed.
@@ -22,7 +22,7 @@ The screenshot's title occlusion was a scrolled sticky-header state. Fresh deskt
 - Credential-free local and exact Vercel preview return actionable verification-unavailable for the user's $20 query, with zero product cards. Preview's Amazon environment is absent by verified Vercel metadata; no secrets copied to preview.
 - Real existing local Creator API credentials tested without printing or persisting values. `$20` grinder request returned `no-match` after checking both curated products. Filter coffee under a higher budget returned the exact standard Encore with a verified within-budget item price. The espresso/filter chip changed to exact Encore ESP while retaining the higher budget. Prices/stock are not persisted in this evidence file.
 - Verified source/date/new-condition/in-stock text, price disclaimer, Amazon content notice and unchanged Amazon-vended affiliate URL in rendered cards.
-- Both original chips still work for an unbudgeted query. Free-text filter refinement preserves $20 and returns no unverified pick.
+- Earlier QA verified both original refinement chips. The newer user instruction removes post-result chips and the question step: broad requests now return options immediately, while free-text updates remain optional and preserve the budget.
 - Nine-turn deployed-preview conversation retained the original $20 even beyond the six-message window.
 - Changed budget via free text succeeded, including lowering a real verified result back to $20 (no-match, zero cards). Zero budget returned a clear no-free-product response.
 - Double-click produced one turn. Tab-scoped simulated offline request preserved the message and produced retry feedback; restored network and retry succeeded with the new budget.
@@ -37,4 +37,8 @@ Existing production before this fix: READY `dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg`, s
 
 ## Remaining gate
 
-Independent review and final preview verification, then expected-head merge and exact production commit/behavior verification. Additional review-agent authorization is pending; parent independent review can fulfill the gate. Live displayed-offer expiry passed browser observation: both real offer cards disappeared after five minutes, with the $300 constraint retained and an explicit retry message. Project inventory structural verification passed and is now included in the production build gate. No new credentials, provider resources, database migrations, purchases, email sends or alert activation occurred.
+Independent review and final preview verification, then expected-head merge and exact production commit/behavior verification. Parent will coordinate independent read-only review of the final revised head; no local review agent is required. Live displayed-offer expiry passed browser observation: both real offer cards disappeared after five minutes, with the $300 constraint retained and an explicit retry message. Project inventory structural verification passed and is now included in the production build gate. No new credentials, provider resources, database migrations, purchases, email sends or alert activation occurred.
+
+## Direct-results revision
+
+User preference recorded on October 16, 2026 (America/New_York): return results without asking a follow-up question. All ten supported categories now produce immediate curated options when no preference is given, narrowed results when one is given, or a direct no-match/unavailable result. Budget verification is unchanged. Post-answer preference chips are removed and the input is explicitly optional. Rejected options are excluded, including an all-rejected no-match.

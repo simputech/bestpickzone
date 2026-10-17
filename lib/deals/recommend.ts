@@ -53,7 +53,7 @@ export function recommend(
   const base = {
     category: category?.slug || null,
     ...budgetState,
-    status: "clarify" as "clarify" | "recommendation" | "no-match" | "verification-unavailable" | "invalid-budget",
+    status: "no-match" as "recommendation" | "no-match" | "verification-unavailable" | "invalid-budget",
     candidateIds: [] as string[],
     retailerSearch: category ? `https://www.amazon.com/s?k=${encodeURIComponent(category.title)}&tag=althcu-20` : null,
     livePrices: false,
@@ -151,12 +151,12 @@ export function recommend(
           : `I cannot verify a match ${budgetState.budgetExclusive ? "below" : "within"} $${budget.toLocaleString("en-US")} right now. No unverified product is being recommended against your budget. Check current retailer listings and the final total, including shipping and tax, or try again later.`,
     };
   }
-  if (!selected)
+  const matches = selected ? [selected] : category.products.filter(p => !rejected.has(p.id));
+  if (!matches.length)
     return {
       ...base,
-      status: history.length ? "no-match" as const : "clarify" as const,
-      message: history.length ? "I could not match that answer to our curated choices. Choose one of the options below, or browse the category guide for other needs." : category.question,
-      suggestions: category.examples,
+      status: "no-match" as const,
+      message: "None of our curated choices matches those preferences. Browse the category guide or check retailer listings for other models.",
     };
   const priceQuestion =
     /\b(price|cheaper|cheapest|cost|deal|discount|sale|budget)\b|\$/.test(
@@ -167,17 +167,15 @@ export function recommend(
     status: "recommendation" as const,
     message: priceQuestion
       ? "Here’s a fit to compare. I cannot confirm its current price or whether it meets your budget."
-      : "This is my starting recommendation from our curated shortlist.",
-    products: [
-      {
-        ...selected,
-        offer: undefined as AmazonBudgetOffer | undefined,
-        search: `https://www.amazon.com/s?k=${encodeURIComponent(selected.name)}&tag=althcu-20`,
-      },
-    ],
-    suggestions: category.examples.filter(
-      (e) => !selected!.terms.some((t) => mentioned(e, t)),
-    ),
+      : matches.length > 1
+        ? "Here are the curated options for this category, with the use case and tradeoff for each. Current prices have not been checked."
+        : "This is my starting recommendation from our curated shortlist.",
+    products: matches.map(product => ({
+      ...product,
+      offer: undefined as AmazonBudgetOffer | undefined,
+      search: `https://www.amazon.com/s?k=${encodeURIComponent(product.name)}&tag=althcu-20`,
+    })),
+    suggestions: [] as string[],
   };
 }
 export type RecommendationResult = ReturnType<typeof recommend>;

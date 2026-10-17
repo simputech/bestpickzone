@@ -72,6 +72,6 @@ See [verification evidence](../reports/deal-agent-budget/verification.md). The r
 
 ## Outstanding approvals and unknowns
 
-- One separate review agent was requested because this session requires explicit authorization before adding agents; authorization is pending. Parent/human independent review can satisfy the review gate without adding an agent.
+- Parent-coordinated independent read-only review of the final revised PR head is the agreed release gate. No additional local review agent is required.
 - Final deployment/publication remains pending review, not a lack of site publishing authorization.
 - Vercel sensitive backend URL binding, individual Supabase/Amazon account ownership, database backup/PITR configuration, exact historical migration SQL, current database grants, Resend sender/account, and analytics property ownership remain explicitly unverified. No service was migrated to fill these gaps.
