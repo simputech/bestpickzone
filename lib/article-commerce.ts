@@ -839,6 +839,14 @@ export const articleCommerce: Record<string, ArticleCommerce> = {
   },
 
   // Batch 3: mappings are added after primary-source identity review.
+  '/beauty/dyson-airstrait-vs-ghd-duet-style': { batch: 3, products: [
+    { query: 'Dyson Airstrait straightener US 120V', label: 'Dyson Airstrait', brand: 'Dyson', expectedTitle: 'Dyson Airstrait straightener', requiredTitleTerms: ['Airstrait', 'straightener'], forbiddenTitleTerms: ['Airwrap', 'Corrale', '220V', '240V', 'case', 'stand', 'holder', 'filter'], note: 'Airstrait, not Airwrap or Corrale. Confirm the selected US electrical version and seller support before buying.' },
+    { query: 'ghd Duet Style 2 in 1 hot air styler US', label: 'ghd Duet Style', brand: 'ghd', expectedTitle: 'ghd Duet Style styler', requiredTitleTerms: ['Duet Style', 'styler'], forbiddenTitleTerms: ['Blowdry', '220V', '240V', 'case', 'stand', 'holder'], note: 'Duet Style, not the Duet Blowdry brush. US version is not universal voltage; Shine Shot is for fully dry hair only.' },
+  ] },
+  '/beauty/dyson-airwrap-vs-shark-flexstyle': { batch: 3, products: [
+    { query: 'Dyson Airwrap i.d. Straight Wavy multi styler', label: 'Dyson Airwrap i.d. Straight+Wavy', brand: 'Dyson', expectedTitle: 'Dyson Airwrap i d multi styler dryer Straight+Wavy', requiredTitleTerms: ['i.d.', 'Straight', 'Wavy'], forbiddenTitleTerms: ['Co-anda2x', 'Origin', 'Curly', 'Coily'], note: 'The i.d. Straight+Wavy kit. Verify the selected color and included tools against the article; do not substitute Origin, Complete or Co-anda2x.' },
+    { query: 'Shark FlexStyle HD430 hair styling system', label: 'Shark FlexStyle HD430', brand: 'Shark', model: 'HD430', expectedTitle: 'Shark FlexStyle styling system', requiredTitleTerms: ['HD430'], forbiddenTitleTerms: ['IonCurl', 'Glam', 'HD435', 'HD440'], note: 'Original US HD430: two directional curlers, oval brush, paddle brush and concentrator. A diffuser is not included in this kit.' },
+  ] },
   '/books/best-mark-manson-books': { batch: 3, books: [
     { title: 'The Subtle Art of Not Giving a F*ck', author: 'Mark Manson' },
     { title: 'Everything Is F*cked', author: 'Mark Manson' },
