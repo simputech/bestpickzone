@@ -189,15 +189,17 @@
       "/beauty/nuface-trinity-vs-solawave-wand",
       "/beauty/revlon-one-step-vs-loreal-steampod",
       "/beauty/salicylic-acid-vs-benzoyl-peroxide",
-      "/beauty/vitamin-c-vs-niacinamide"
+      "/beauty/vitamin-c-vs-niacinamide",
+      "/books/agatha-christie-vs-arthur-conan-doyle",
+      "/books/stephen-king-vs-dean-koontz"
     ],
-    "commerceWiring": "13 eligible raw renderers wired; eight routes mapped after identity research. Remaining book/air-fryer mappings pending. Rhode and exact US SteamPod remain official-store-first.",
+    "commerceWiring": "13 eligible raw renderers wired; ten routes mapped. Remaining book/air-fryer mappings pending. Rhode and exact US SteamPod remain official-store-first.",
     "technicalChecks": {
       "typecheck": "Passed after Revlon/SteamPod draft and operations gate integration.",
       "build": "Passed after eight substantive drafts and operations inventory: 279 statically rendered metadata pages; 335 indexable sitemap URLs; 0 metadata/indexability errors or warnings; 14 runtime assets; operations gate passed. Later editorial changes require rerun.",
       "runtimeTraceGate": "Passed for all 14 explicit route assets.",
       "newIdentityTests": "Five synthetic boundary tests, including generation, flavor, kit and accessory exclusions; no live batch-three catalog claim.",
-      "editorialDrafts": "Ten substantive drafts saved; the two latest ingredient rewrites need build/preview verification."
+      "editorialDrafts": "Twelve substantive drafts saved; latest ingredient and author rewrites need build/preview verification."
     },
     "researchNotes": [
       "reports/creator-rollout/batch-03-research/retinol-bakuchiol.md",
@@ -205,7 +207,8 @@
       "reports/creator-rollout/batch-03-research/hair-tools.md",
       "reports/creator-rollout/batch-03-research/lip-treatments.md",
       "reports/creator-rollout/batch-03-research/acne-ingredients.md",
-      "reports/creator-rollout/batch-03-research/vitamin-c-niacinamide.md"
+      "reports/creator-rollout/batch-03-research/vitamin-c-niacinamide.md",
+      "reports/creator-rollout/batch-03-research/author-comparisons.md"
     ]
   },
   "pregnancyClaimCorrection": {
