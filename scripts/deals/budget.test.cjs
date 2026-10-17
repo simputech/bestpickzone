@@ -90,3 +90,28 @@ test('USD and punctuated budget formats remain constrained through direct result
  assert.equal(readBudget(['budget: 20 pounds']).budgetIssue,'currency');
  for(const query of ['under CAD 20','under $20 CAD','under CA$20','under A$20','under CAD$20','under AUD$20'])assert.equal(readBudget([query]).budgetIssue,'currency',query);
 });
+
+test('explicit money survives stock, color and dimension language without a follow-up question',()=>{
+ const state=readBudget(['coffee grinder under $20']);
+ for(const query of [
+  'coffee grinder under $20 in stock',
+  'coffee grinder under $20 in black',
+  'coffee grinder under USD 20 in stock',
+  'coffee grinder under 20 USD in black',
+  'coffee grinder under $20 in black and below 8 inches tall',
+  'coffee grinder under $20 and below 8 in wide',
+  'coffee grinder under $20 and below 8 in.',
+  'coffee grinder under $20 and below 8-inch height',
+  'coffee grinder under $20 and below 8in tall',
+  'coffee grinder under $20 and below 8″ tall',
+  'coffee grinder under 20 in stock',
+  'coffee grinder under 20 in black',
+ ]){
+  assert.deepEqual(readBudget([query]),state,query);
+  const result=recommend(query);assert.equal(result.budget,20,query);assert.equal(result.products.length,0);assert.equal(result.status,'verification-unavailable');assert.doesNotMatch(result.message,/\?/);
+ }
+ for(const query of ['below 8 inches tall','under 8 in','below 8 in wide','below 8 in. tall','below 8-inch height','below 8in tall','under 8″ tall'])assert.deepEqual(readBudget([query],state),state,query);
+ assert.equal(readBudget(['budget: 30 in black'],state).budget,30);
+ assert.equal(readBudget(['under $30 in stock'],state).budget,30);
+ assert.equal(readBudget(['under €20 in stock']).budgetIssue,'currency');
+});

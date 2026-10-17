@@ -10,7 +10,7 @@ The screenshot's title occlusion was a scrolled sticky-header state. Fresh deskt
 
 ## Automated checks
 
-- Deal Agent unit tests: 22 passed (budget parsing, both chips, retention, changed/removed/invalid/foreign/zero budgets, strict/inclusive limits, unsupported manual grinders, no-match, unavailable, stale/future offers, restricted offers and identity/attribution).
+- Deal Agent unit tests: 23 passed (budget parsing, both chips, retention, changed/removed/invalid/foreign/zero budgets, strict/inclusive limits, unsupported manual grinders, no-match, unavailable, stale/future offers, restricted offers and identity/attribution).
 - Amazon regression/API tests: 49 passed, including real-shaped OffersV2 parsing, separate five-minute offer cache, deduplication, stale failure, no-credential/foreign-market failure and unchanged article resources.
 - TypeScript passed. ESLint passed with pre-existing warnings in unrelated article files.
 - Next.js production compilation passed; metadata: 296 rendered indexable pages, zero errors/warnings. Indexability: 335 sitemap URLs, zero errors/warnings. Runtime asset trace check passed.
@@ -46,3 +46,7 @@ User preference recorded on October 16, 2026 (America/New_York): return results 
 ## Independent review correction: monetary context
 
 Review of `3c227e239fd1fd10c0bd07f1202d99440b89f659` identified that a later watt/gram limit could overwrite an explicit dollar budget, and that `under USD 20` / `budget: 20` were not recognized. The parser now requires currency or budget/comparison context, excludes measurement suffixes, and prioritizes explicit monetary amounts over bare comparisons in the same request. Explicit budget revisions and separate-turn unitless budget updates remain supported. Regression coverage includes both reported overwrites, power/weight/dimension/capacity/time/storage units, USD placement, punctuation, currency conflicts, revisions, direct results and withholding unverified products. Production remains unchanged pending re-review of the corrected head.
+
+## Re-review correction: explicit currency precedence
+
+Re-review of `0802a763d4f44bd73756b74e5354a89b0defe771` found that the inch abbreviation `in` caused an explicit `$20` amount to be discarded in phrases such as “in stock” and “in black”. Explicit currency and budget labels now take precedence over measurement detection. Bare `in` is treated as an inch abbreviation only when attached to the amount, terminated, punctuated as an abbreviation, or followed by dimensional wording. Regression tests cover stock/color prose, dimensions, inches/in/in./hyphenated/quoted inch constraints, USD positions, retained constraints across turns, genuine budget revisions, and foreign currency. API integration coverage includes seven budget-context queries. Production remains unchanged pending re-review.

@@ -4,7 +4,10 @@ export const emptyBudget: BudgetState = { budget: null, budgetExclusive: false, 
 const currencyBefore = /(?:\b(USD|US dollars?|dollars?|EUR|GBP|CAD|AUD|euros?)(?:\s*\$)?|(\$|€|£|¥|CA\$|AU\$|US\$|C\$|A\$))\s*$/i;
 const currencyAfter = /^\s*(USD|US dollars?|dollars?|bucks?|EUR|GBP|CAD|AUD|euros?|pounds?)\b/i;
 const limitBefore = /\b(under|below|less than|up to|at most|max(?:imum)?(?:\s+(?:is|of))?|budget(?:\s+(?:of|is|to))?)\s*:?\s*$/i;
-const measurementAfter = /^\s*[-–—]?\s*(?:watts?|w|kw|volts?|v|amps?|amperes?|mah|wh|grams?|g|kg|kilograms?|lbs?|pounds?|ounces?|oz|ml|liters?|litres?|l|quarts?|qt|cups?|mm|cm|millimeters?|millimetres?|centimeters?|centimetres?|meters?|metres?|m|inch(?:es)?|in|feet|foot|ft|rpm|db|decibels?|hz|mhz|seconds?|secs?|minutes?|mins?|hours?|days?|years?|gb|mb|tb|ports?|percent)\b|^\s*[%"″′]/i;
+const measurementAfter = /^\s*[-–—]?\s*(?:watts?|w|kw|volts?|v|amps?|amperes?|mah|wh|grams?|g|kg|kilograms?|lbs?|pounds?|ounces?|oz|ml|liters?|litres?|l|quarts?|qt|cups?|mm|cm|millimeters?|millimetres?|centimeters?|centimetres?|meters?|metres?|m|inch(?:es)?|feet|foot|ft|rpm|db|decibels?|hz|mhz|seconds?|secs?|minutes?|mins?|hours?|days?|years?|gb|mb|tb|ports?|percent)\b|^\s*[%"″′]/i;
+
+// “in stock” / “in black” use a preposition; an inch abbreviation needs dimensional context.
+const inchAbbreviationAfter = /^in\b|^\s*[-–—]?\s*in\b(?:\.(?=\s|$)|(?=\s*(?:$|[,;:!?)]))|\s+(?:wide|long|tall|deep|high|height|width|length|depth|diameter|x|by)\b)/i;
 
 /** Parse monetary context, not product dimensions. Newest explicit budget wins. */
 export function readBudget(messages: string[], previous: BudgetState = emptyBudget): BudgetState {
@@ -22,10 +25,11 @@ export function readBudget(messages: string[], previous: BudgetState = emptyBudg
       const prefix = before.match(currencyBefore);
       const context = (prefix ? before.slice(0, prefix.index) : before).match(limitBefore);
       const budgetContext = /^budget/i.test(context?.[1] || '');
-      // “under $20, maximum 200 watts” and “below 500 grams” are not budget revisions.
-      // A bare “pounds” can be weight; only explicit budget context treats it as currency.
-      if (measurementAfter.test(after) && !(budgetContext && /^\s*pounds?\b/i.test(after))) return [];
       const suffix = after.match(currencyAfter);
+      // Explicit money takes precedence: “$20 in stock” still has a $20 cap.
+      // A bare “pounds” can be weight; budget/currency context disambiguates it.
+      const monetaryContext = !!prefix || budgetContext || (!!suffix && !/^pounds?$/i.test(suffix[1]));
+      if (!monetaryContext && (measurementAfter.test(after) || inchAbbreviationAfter.test(after))) return [];
       if (!prefix && !suffix && !context) return [];
       const currencies = [prefix?.[0].trim(), suffix?.[1]].filter((value): value is string => !!value);
       const explicit = currencies.length > 0 || budgetContext;
