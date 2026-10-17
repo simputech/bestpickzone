@@ -1,8 +1,6 @@
 # Deal Agent budget fix verification
 
-**October 17 deployment reconciliation (article rollout):** PR18 is merged as `c96a013c67d7e93f1ca16e32ae08ce67276612be`; Vercel returned READY production deployment `dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt`. The chronological pre-release notes below retain their original scope. This added metadata receipt is not a new live behavior test.
-
-Date: 2026-10-17 UTC. Branch `fix/deal-agent-budget`; draft PR https://github.com/simputech/bestpickzone/pull/18. Production has not changed yet.
+Date: 2026-10-17 UTC. Branch `fix/deal-agent-budget`; draft PR https://github.com/simputech/bestpickzone/pull/18. Implementation history follows; the final release receipt is recorded below.
 
 ## Confirmed before behavior
 
@@ -37,9 +35,9 @@ Initial preview: READY `dpl_BJ84XNYhPS5feZkT3tgM6hJb3KgG`, source `7c9a02035ab94
 
 Existing production before this fix: READY `dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg`, source `b6f43f86eab87c85d2ac047a822dba3271e53ab0`. No merge or production publication yet.
 
-## Remaining gate
+## Pre-release gate (historical)
 
-Independent review and final preview verification, then expected-head merge and exact production commit/behavior verification. Parent will coordinate independent read-only review of the final revised head; no local review agent is required. Live displayed-offer expiry passed browser observation: both real offer cards disappeared after five minutes, with the $300 constraint retained and an explicit retry message. Project inventory structural verification passed and is now included in the production build gate. No new credentials, provider resources, database migrations, purchases, email sends or alert activation occurred.
+At that checkpoint, independent review and final preview verification were required before expected-head merge and exact production commit/behavior verification. Parent will coordinate independent read-only review of the final revised head; no local review agent is required. Live displayed-offer expiry passed browser observation: both real offer cards disappeared after five minutes, with the $300 constraint retained and an explicit retry message. Project inventory structural verification passed and is now included in the production build gate. No new credentials, provider resources, database migrations, purchases, email sends or alert activation occurred.
 
 ## Direct-results revision
 
@@ -52,3 +50,21 @@ Review of `3c227e239fd1fd10c0bd07f1202d99440b89f659` identified that a later wat
 ## Re-review correction: explicit currency precedence
 
 Re-review of `0802a763d4f44bd73756b74e5354a89b0defe771` found that the inch abbreviation `in` caused an explicit `$20` amount to be discarded in phrases such as “in stock” and “in black”. Explicit currency and budget labels now take precedence over measurement detection. Bare `in` is treated as an inch abbreviation only when attached to the amount, terminated, punctuated as an abbreviation, or followed by dimensional wording. Regression tests cover stock/color prose, dimensions, inches/in/in./hyphenated/quoted inch constraints, USD positions, retained constraints across turns, genuine budget revisions, and foreign currency. API integration coverage includes seven budget-context queries. Production remains unchanged pending re-review.
+
+## Release receipt — October 16, 2026 (America/New_York)
+
+Independent review passed exact application head `4a11ba18b211b2291b6c02a52c65bb0a73bf52e3`: 33 independent parser checks plus 12-reply retention, replacement and reset. Main was still `b6f43f86eab87c85d2ac047a822dba3271e53ab0`. PR #18 was marked ready and merged with the expected-head guard as `c96a013c67d7e93f1ca16e32ae08ce67276612be`; its file tree equals the reviewed head. No article conflict or reconciliation was required.
+
+Production verified on `https://bestpickzone.com/deal-agent` after the domain resolved to READY deployment `dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt`, source `c96a013c67d7e93f1ca16e32ae08ce67276612be`, production target, project `prj_nmIr0ohVP4y08vpuYRFDi6Lgnbao`, team `team_wFkeAj93TVooMQ1IzpbkABSJ`. Both apex and www aliases were confirmed. Vercel build started at 2026-10-17 02:10:58 UTC and was READY at 02:13:30 UTC (about 152 seconds); release date was October 16 in America/New_York.
+
+Live checks passed:
+
+- `coffee grinder under $20` returned a scoped no-match after checking both curated products, retained the strict $20 limit, displayed no product card and asked no follow-up question.
+- `filter coffee only, under $300` returned the exact standard Encore, ASIN `B007F183LK`, with verified item-price presentation and Amazon-vended URL retaining `althcu-20`. No current price/stock values are persisted here.
+- An optional `espresso and filter coffee` update retained $300 and returned exact Encore ESP, ASIN `B0BW272XCV`, with the same correct attribution. No follow-up chips appeared.
+- Start over cleared all turns, the detected category and budget; the three initial search examples returned.
+- The subsequent combined desktop/mobile layout repeat was interrupted by browser control stopping before a result was returned. Its outcome is uncertain and it was not retried. Earlier desktop/mobile QA passed; no layout code changed after that QA. Temporary viewport overrides, if applied before interruption, were confined to the ephemeral test tab.
+
+Vercel's scoped `/api/deal-agent` runtime-error aggregate returned no errors for the preceding hour; project drains were empty. No monitoring configuration changed. This is a bounded observation, not continuous monitoring.
+
+Rollback: revert merge `c96a013c67d7e93f1ca16e32ae08ce67276612be` with mainline parent 1 on current main, preserving later article changes. The prior production deployment is `dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg`, commit `b6f43f86eab87c85d2ac047a822dba3271e53ab0`; use it for emergency rollback only after accounting for later changes. No database rollback is needed. This documentation-only receipt does not change the reviewed application code.

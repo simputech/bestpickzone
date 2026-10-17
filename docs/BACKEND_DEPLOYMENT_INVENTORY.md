@@ -2,8 +2,9 @@
 
 Last verified: 2026-10-17 UTC.
 
-**Release-status reconciliation:** PR18 has since merged as `c96a013c67d7e93f1ca16e32ae08ce67276612be`. Vercel returned READY production deployment `dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt`. The pre-release audit below retains its original test scope; its draft/pending statements describe that earlier checkpoint, not current merge status. The article-rollout task integrated the release and did not repeat its live behavior checks in this documentation update.
- Maintained with [the operating notes](DEAL_DISCOVERY_OPERATIONS.md) and [release evidence](../reports/deal-agent-budget/verification.md). This records the PR18 release audit. The combined article-rollout state and machine-readable service register are maintained in [the project operations inventory](BACKEND_AND_DEPLOYMENT_INVENTORY.md). Keep both aligned when services or deployments change. Do not copy secret values or real user records into it.
+**Combined rollout status:** PR18’s live behavior receipt is preserved below. Documentation-only PR19 is now production commit `b3bcdb2b966ac30551be148057b6f1df1529d683`, READY deployment `dpl_FgLKjLsp8RFJtKgF33wv9a7rvUgL`, verified through provider metadata on October 17. The article branch integrates both releases.
+
+Maintained with [the operating notes](DEAL_DISCOVERY_OPERATIONS.md) and [release evidence](../reports/deal-agent-budget/verification.md). This records the PR18 release audit. The combined article-rollout state and machine-readable service register are maintained in [the project operations inventory](BACKEND_AND_DEPLOYMENT_INVENTORY.md). Keep both aligned when services or deployments change. Do not copy secret values or real user records into it.
 
 ## Lifecycle and ownership
 
@@ -11,10 +12,10 @@ Last verified: 2026-10-17 UTC.
 
 | Service | Exact nonsecret identity and verified account | Responsibility | State and environment mapping |
 | --- | --- | --- | --- |
-| GitHub | Repository `simputech/bestpickzone`, repository ID `1181307137`; repository owner/login `simputech` | Source, review, version history | Existing/live. Production branch `main`; this isolated fix is `fix/deal-agent-budget`, draft [PR #18](https://github.com/simputech/bestpickzone/pull/18). Article rollout PR #16 is separate and untouched. |
+| GitHub | Repository `simputech/bestpickzone`, repository ID `1181307137`; repository owner/login `simputech` | Source, review, version history | Existing/live. Production branch `main`; this isolated fix is `fix/deal-agent-budget`, merged [PR #18](https://github.com/simputech/bestpickzone/pull/18). Article rollout PR #16 is separate and untouched. |
 | Vercel | Project `bestpickzone-fixed`, ID `prj_nmIr0ohVP4y08vpuYRFDi6Lgnbao`; account/team `team_wFkeAj93TVooMQ1IzpbkABSJ`, slug `simputechs-projects`; observed deployment creator `simputech` | Next.js hosting, API functions, environment storage and scheduled cleanup | Existing/live: `bestpickzone.com` and `www.bestpickzone.com` map to this project. Region observed `iad1`; configured Node `24.x`. Git integration creates branch previews. `.github/workflows/deploy.yml` also defines main-branch deployment; its current enabled/running state is not reverified here. |
 | Supabase | Project/ref `ewqmxrhsajdfgwnbqunw`, name `simputech`, region `us-east-1`; organization `iuhwwftdvuypmbhfpllr`, name/slug `simputech`/`iuhwwftdvuypmbhfpllr` | Existing BPZ subscription requests, consented aggregate feedback, rate buckets, delivery reservations and secret hash | Existing/created/configured: project ACTIVE_HEALTHY; exact BPZ function and migration verified below. Shared portfolio project, not a new BestPickZone-only database. Vercel's sensitive `BPZ_BACKEND_URL` is configured in production, but its value/binding was not decrypted in this audit. No separate dev/preview database is established. No database was created or migrated by PR #18. Individual owner not established. |
-| Amazon Creators API / Associates | API `https://creatorsapi.amazon/catalog/v1/`; US marketplace `www.amazon.com`; standard Associate tag `althcu-20` | Product identity/images for existing articles; proposed Deal Agent current-offer checks | Existing/configured in Vercel production only. No preview credentials. Existing local credentials successfully tested against real offers, without printing or copying values. Deal Agent offer behavior is tested locally and in credential-free preview; not yet live. Human account ownership not independently established. Existing article pilots retain `grandparentsgift-20`. |
+| Amazon Creators API / Associates | API `https://creatorsapi.amazon/catalog/v1/`; US marketplace `www.amazon.com`; standard Associate tag `althcu-20` | Product identity/images for existing articles; Deal Agent current-offer checks | Existing/configured in Vercel production only. No preview credentials. Existing local credentials successfully tested against real offers, without printing or copying values. Deal Agent offer behavior is live and verified on bestpickzone.com: the original $20 query returns a checked no-match and a higher budget returns exact-product offers with retained attribution. Human account ownership not independently established. Existing article pilots retain `grandparentsgift-20`. |
 | Resend | Provider integration present in source; no verified BestPickZone account/project ID or sender domain | Planned confirmation/notification email | Planned/inactive: production environment inventory has no `RESEND_API_KEY`, `BPZ_EMAIL_FROM`, or `BPZ_POSTAL_ADDRESS`. No email sent or verified. Do not reuse other projects' credentials. |
 | Google Analytics | `NEXT_PUBLIC_GA_MEASUREMENT_ID` is configured in Vercel production and development; property/account ID not read in this audit | Optional, consent-gated visit and affiliate-click analytics | Configured; no configuration changed. Cookie rejection tested in preview. Analytics ingestion not retested by this change. |
 | Browser memory / local storage | No external organization/project | Deal Agent turns are in memory only; separate existing watchlist is browser-local | Existing. New offer checks use in-process server cache and temporary rendered state, not persistent browser storage. No raw chat or offer history is written to the database. |
@@ -23,8 +24,8 @@ Last verified: 2026-10-17 UTC.
 
 - Local fix worktree: `Documents/Codex/2026-10-16/task-2/deal-agent`, branch `fix/deal-agent-budget`. Separate local clone/worktree preserves the dirty primary checkout. Development QA uses `127.0.0.1:3117`; stop the server after testing.
 - Preview initially verified: `dpl_BJ84XNYhPS5feZkT3tgM6hJb3KgG`, READY, commit `7c9a02035ab9469fae58cf98f03b4a4a5bd6e0df`, URL `https://bestpickzone-fixed-2zxcrghi2-simputechs-projects.vercel.app`. Later PR-head previews require their own verification. Preview has no production Amazon or backend secrets; unavailable is the expected offer result there.
-- Current production verified before this fix: `dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg`, READY, commit `b6f43f86eab87c85d2ac047a822dba3271e53ab0`, branch `main`; apex and www aliases present. This is PR #17's pregnancy-claim correction, not the Deal Agent fix.
-- PR #18 is draft. Independent review, merge, final production commit/deployment receipt and custom-domain behavior verification remain required. Publishing authorization exists; no merge or production change has occurred in this task yet.
+- Previous production verified before this fix: `dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg`, READY, commit `b6f43f86eab87c85d2ac047a822dba3271e53ab0`, branch `main`; apex and www aliases present. This is PR #17's pregnancy-claim correction, not the Deal Agent fix.
+- Independent review passed exact head `4a11ba18b211b2291b6c02a52c65bb0a73bf52e3`, including 33 independent parser checks and 12-reply retention/replacement/reset. PR #18 merged with an expected-head guard as `c96a013c67d7e93f1ca16e32ae08ce67276612be`; its tree is identical to the reviewed head. Production release verified: READY deployment `dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt`, source `c96a013c67d7e93f1ca16e32ae08ce67276612be`, project `bestpickzone-fixed`, production target, with apex/www aliases. The custom-domain direct-result, budget, exact-offer and reset checks passed; see release evidence for the interrupted final layout repeat.
 
 ## Credentials and configuration locations — names only
 
@@ -67,14 +68,18 @@ See [verification evidence](../reports/deal-agent-budget/verification.md). The r
 
 ## Rollback and recovery
 
-- For a Deal Agent regression, revert the scoped fix PR on current main and deploy; do not reset main to an old commit that would discard unrelated article updates. Emergency Vercel rollback must choose a known-good deployment and explicitly account for later article releases.
-- Preserve the prior production receipt above and final successful receipt. Verify apex/www mapping and behavior after any rollback. No database rollback is required for this fix.
+- For a Deal Agent regression, revert PR #18 (merge `c96a013c67d7e93f1ca16e32ae08ce67276612be`, mainline parent 1) on current main and deploy; do not reset main to an old commit that would discard unrelated article updates. Emergency Vercel rollback must choose a known-good deployment and explicitly account for later article releases.
+- The prior deployment `dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg` is the pre-fix fallback; the verified release is `dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt`. Preserve both receipts. Verify apex/www mapping and behavior after any rollback. No database rollback is required for this fix.
 - On Creator API failure, withhold budget matches and show the existing actionable unavailable response. Do not substitute editorial price bands or scrape retailer pages. Cached offers expire after five minutes; negative results after one minute; no stale-serving path.
 - If backend identity is uncertain, verify Vercel's configured URL against the exact Supabase project/function before any migration, restore or deletion. Do not infer identity from a similar project name. Resolve shared ownership before touching other tables.
 - Coordinate any backend-secret rotation between the Vercel secret and the Supabase hash, with a no-secret unauthorized-access test afterward. No rotation was performed here.
 
 ## Outstanding approvals and unknowns
 
-- Parent-coordinated independent read-only review of the final revised PR head is the agreed release gate. No additional local review agent is required.
-- Final deployment/publication remains pending review, not a lack of site publishing authorization.
+- Parent-coordinated independent read-only review passed the exact final application head. No additional local review agent is required.
+- Independent review, expected-head merge and custom-domain core behavior verification completed. The final production layout repeat was interrupted; prior desktop/mobile checks passed and no layout code changed after them.
 - Vercel sensitive backend URL binding, individual Supabase/Amazon account ownership, database backup/PITR configuration, exact historical migration SQL, current database grants, Resend sender/account, and analytics property ownership remain explicitly unverified. No service was migrated to fill these gaps.
+
+## Release observability
+
+At release, the scoped Vercel runtime-error query for `/api/deal-agent` returned no error clusters in the preceding hour. This is a bounded aggregate check, not a guarantee about all traffic. Project drain inventory returned no configured drains. No telemetry or logging configuration changed. Browser QA used synthetic shopping requests and did not submit feedback, emails or subscriptions.

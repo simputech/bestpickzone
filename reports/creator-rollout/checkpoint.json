@@ -245,7 +245,7 @@
     "scope": "Remove affirmative pregnancy-safety claims and pregnancy/breastfeeding-based bakuchiol recommendations. This narrow correction does not mark the batch-three article fully refreshed.",
     "qaReport": "reports/creator-rollout/pregnancy-claim-correction-qa.json"
   },
-  "coordination": "PR18 production main c96a013 integrated at local merge 6324e17, preserving direct Deal Agent results, strict budgets, tests and both inventory gates. Parent reports newer main b3bcdb2; fetch and integrate after saving this checkpoint.",
+  "coordination": "Integrated main b3bcdb2b966ac30551be148057b6f1df1529d683 (PR18 implementation and PR19 live verification receipt). Only conflict was documentation pre-release header; retained authoritative main release report. Both inventory gates and all Deal Agent code/tests preserved.",
   "operationsInventory": {
     "document": "docs/BACKEND_AND_DEPLOYMENT_INVENTORY.md",
     "register": "docs/operations/service-inventory.json",

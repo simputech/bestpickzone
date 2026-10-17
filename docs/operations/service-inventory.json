@@ -24,8 +24,8 @@
       "organizationId": "team_wFkeAj93TVooMQ1IzpbkABSJ",
       "account": "SimpuTech's projects / simputechs-projects",
       "ownershipEvidence": "Project accountId matches returned team ID; deployment creator simputech is not evidence of sole ownership.",
-      "productionCommit": "c96a013c67d7e93f1ca16e32ae08ce67276612be",
-      "productionDeployment": "dpl_GYCXGWyJTyHzv8jnMXHcYwAGipdt",
+      "productionCommit": "b3bcdb2b966ac30551be148057b6f1df1529d683",
+      "productionDeployment": "dpl_FgLKjLsp8RFJtKgF33wv9a7rvUgL",
       "domains": [
         "bestpickzone.com",
         "www.bestpickzone.com",
@@ -371,6 +371,12 @@
       "state": "READY",
       "scope": "Production metadata observed October 17; PR18 integrated into article branch; live behavior not rerun in this inventory pass.",
       "receipt": "reports/deal-agent-budget/verification.md"
+    },
+    "latestProduction": {
+      "commit": "b3bcdb2b966ac30551be148057b6f1df1529d683",
+      "deploymentId": "dpl_FgLKjLsp8RFJtKgF33wv9a7rvUgL",
+      "state": "READY",
+      "scope": "PR19 documentation-only follow-up; application behavior evidence remains PR18 release receipt."
     }
   },
   "unknowns": [
