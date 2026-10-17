@@ -11,197 +11,185 @@ export const revalidate = 0
 const pageUrl = 'https://bestpickzone.com/coffee/breville-bambino-plus-vs-gaggia-classic-pro'
 
 export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
-  title: 'Breville Bambino Plus vs Gaggia Classic Pro: Which Wins',
+  title: 'Breville Bambino Plus vs Gaggia Classic Pro E24',
   description:
-    'Breville Bambino Plus vs Gaggia Classic Pro - thermoblock speed vs. brass-boiler control. Specs, steam, footprint, and which espresso machine to buy first.',
+    'Compare the US Bambino Plus BES500 and Gaggia Classic Pro E24 by milk workflow, grinder budget, model identity and accessory compatibility.',
   alternates: {
     canonical: pageUrl,
   },
   openGraph: {
-    title: 'Breville Bambino Plus vs Gaggia Classic Pro: Which Should You Buy?',
+    title: 'Breville Bambino Plus vs Gaggia Classic Pro E24',
     description:
-      'A spec-by-spec espresso showdown - heat-up time, steam power, and footprint - with a clear start-here pick for new home baristas.',
+      'A manufacturer-document comparison of automatic milk texturing versus manual single-boiler workflow, with exact-model and setup checks.',
     url: pageUrl,
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Breville Bambino Plus vs Gaggia Classic Pro',
+    title: 'Breville Bambino Plus vs Gaggia Classic Pro E24',
     description:
-      'Thermoblock convenience vs. boiler-grade control. The specs that decide it, and which to buy first.',
+      'Choose by your espresso routine: automatic milk on the Bambino Plus or a manual 58mm workflow on the US Gaggia Classic Pro E24.',
   },
 }, {
   publishedTime: '2026-01-01T00:00:00Z',
+  modifiedTime: '2026-10-16T00:00:00Z',
   category: 'coffee' }), "/coffee/breville-bambino-plus-vs-gaggia-classic-pro")
 
 const data: ComparisonPageData = {
-  title: 'Breville Bambino Plus vs Gaggia Classic Pro',
-  disclosure:
-    'Affiliate disclosure: BestPickZone earns a commission on qualifying purchases made through links on this page, at no extra cost to you. Specs and availability verified against manufacturer pages and live retailer listings in June 2026; confirm current pricing before buying.',
-  lastVerified: 'June 2026',
-  intro: [
-    'For most new home baristas the Breville Bambino Plus is the easier machine to buy first, while the Gaggia Classic Pro E24 is the better fit for someone who wants a heavier, more traditional 58mm workflow from day one.',
-    'Breville lists the Bambino Plus with a ThermoJet heating system that reaches extraction temperature in 3 seconds, low-pressure pre-infusion, a 54mm stainless steel portafilter, and hands-free automatic milk texturing with three milk temperatures and three texture levels.',
-    'Gaggia North America positions the Classic Pro E24 around a lead-free brass single boiler, 58mm stainless steel portafilter, commercial-style two-hole steam wand, 72-ounce reservoir, and 9-bar brew pressure through an OPV-calibrated Ulka pump.',
-    'Check current prices for both machines before comparing value. Weigh any price difference against workflow, steam style, and how quickly you want to get from a cold machine to your first shot.',
+  "title": "Breville Bambino Plus vs Gaggia Classic Pro E24",
+  "disclosure": "Affiliate disclosure: BestPickZone earns a commission on qualifying purchases made through links on this page, at no extra cost to you. This is a manufacturer-document comparison, not a hands-on test. Check the exact model, seller and current offer before buying.",
+  "lastVerified": "October 16, 2026",
+  "intro": [
+    "Choose the Breville Bambino Plus if quick startup and automatic milk texturing are what will make you use an espresso machine every morning. Choose the Gaggia Classic Pro E24 if you specifically want a manually controlled, 58mm single-boiler setup and accept the extra brew-to-steam steps.",
+    "This comparison is between the US Breville BES500 Bambino Plus and the US Gaggia Classic Pro E24 with a lead-free brass boiler. It does not cover the base Bambino BES450, an older aluminum-boiler Classic Pro or Evo, or a different-voltage overseas Gaggia. Similar names in a shopping result are not equivalent machines.",
+    "Neither includes a grinder. Put the machine, an espresso-capable grinder, a scale and routine cleaning supplies in the same budget before deciding which offer is better. An accessory-heavy bundle is not good value if it leaves you without an appropriate grinder."
   ],
-  heroImage: {
-    src: '/images/coffee/espresso-machine-brewing.jpg',
-    alt: 'A generic espresso machine brewing two shots of coffee into cups.',
-    width: 1200,
-    height: 800,
+  "heroImage": {
+    "src": "/images/coffee/espresso-machine-brewing.jpg",
+    "alt": "Illustrative photo of an espresso machine brewing coffee; not either compared model.",
+    "width": 1200,
+    "height": 800
   },
-  specsQuestion: 'Which specs separate the Breville Bambino Plus and Gaggia Classic Pro E24 the fastest?',
-  specsAnswer:
-    'The fastest way to separate these machines is to look at heating style, portafilter size, steam behavior, footprint, and reservoir size. The Bambino Plus wins on speed and automation, while the Gaggia Classic Pro E24 wins on traditional 58mm hardware, brass-boiler construction, and heavier long-term platform feel.',
-  specs: [
+  "specsQuestion": "Which differences matter most between the Bambino Plus and Classic Pro E24?",
+  "specsAnswer": "Start with who controls the milk and how the machine moves between brewing and steaming. The Bambino Plus automates milk temperature and texture; the Gaggia puts those decisions in your hands. Portafilter compatibility and model identity matter more than pump-pressure marketing or the number of accessories in a bundle.",
+  "specs": [
     {
-      label: 'Heating system',
-      productA: 'ThermoJet heating system; Breville says it reaches extraction temperature in 3 seconds.',
-      productB: 'Single-boiler, dual-use machine with a lead-free brass boiler.',
+      "label": "Compared version",
+      "productA": "US Bambino Plus BES500; not Bambino BES450.",
+      "productB": "US Classic Pro E24; lead-free brass boiler, 110–120V."
     },
     {
-      label: 'Portafilter basket diameter',
-      productA: '54mm stainless steel portafilter.',
-      productB: '58mm stainless steel commercial-style portafilter.',
+      "label": "Heating and readiness",
+      "productA": "ThermoJet; manufacturer claims extraction temperature in 3 seconds, not a finished drink in 3 seconds.",
+      "productB": "Single boiler shared between brewing and steaming; allow for warm-up and mode changes."
     },
     {
-      label: 'Steam wand type',
-      productA: 'Automatic or manual steam wand with 3 milk temperatures and 3 texture levels.',
-      productB: 'Commercial-style stainless steel steam wand with a two-hole tip.',
+      "label": "Portafilter",
+      "productA": "54mm; buy accessories explicitly compatible with BES500.",
+      "productB": "58mm; diameter alone does not establish handle/lug compatibility."
     },
     {
-      label: 'Pre-infusion capability',
-      productA: 'Low-pressure pre-infusion followed by 9-bar extraction.',
-      productB: 'Gaggia does not list a built-in pre-infusion setting on the Classic Pro E24 product page.',
+      "label": "Milk workflow",
+      "productA": "Automatic or manual steaming; 3 temperature and 3 texture settings.",
+      "productB": "Manual steam wand with a two-hole tip."
     },
     {
-      label: 'Footprint (W x D x H)',
-      productA: '7.5 x 13.5 x 12 inches.',
-      productB: '8 x 9.5 x 14.2 inches.',
+      "label": "Brewing controls",
+      "productA": "Low-pressure pre-infusion and programmable shot volume.",
+      "productB": "Manual brew switch; no built-in pre-infusion setting listed by Gaggia North America."
     },
     {
-      label: 'Weight',
-      productA: '10.91 pounds.',
-      productB: '19 pounds.',
+      "label": "Tank capacity",
+      "productA": "64 fl oz, per the US instruction manual.",
+      "productB": "72 oz, per Gaggia North America."
     },
     {
-      label: 'Tank capacity',
-      productA: '64 fluid ounces.',
-      productB: '72 fluid ounces.',
-    },
-    {
-      label: 'Price and availability',
-      productA: 'Check current price and availability on Amazon.',
-      productB: 'Check current price and availability for the E24 model and your chosen finish.',
-    },
+      "label": "What is not included",
+      "productA": "A built-in grinder.",
+      "productB": "A built-in grinder or automatic milk texturing."
+    }
   ],
-  productA: {
-    name: 'Breville Bambino Plus',
-    shortName: 'Bambino Plus',
-    amazonQuery: 'Breville Bambino Plus Espresso Machine BES500BSS',
-    verdict: 'Start Here for Most Buyers',
-    question: 'Is the Breville Bambino Plus the better first espresso machine for most people?',
-    snippetAnswer:
-      'Yes. The Breville Bambino Plus is the easier first buy for most home users because it pairs a 3-second ThermoJet warm-up, low-pressure pre-infusion, and automatic milk texturing with a smaller learning curve than a single-boiler machine that asks you to manage steam timing yourself.',
-    paragraphs: [
-      'is the right start-here pick if you want speed, lower friction, and enough built-in help to start pulling drinkable shots before you have memorized a boiler routine.',
-      'Breville\'s own product page is unusually clear about what makes this machine different: a ThermoJet heating system, low-pressure pre-infusion, 9-bar extraction, a 54mm stainless steel portafilter, and an automatic steam wand that can run hands-free or manually. That combination matters because it removes two of the biggest beginner frustrations at once: long warm-up windows and inconsistent milk texture.',
-      'The machine is also easier to fit into a small kitchen. Breville lists the footprint at 7.5 by 13.5 by 12 inches, and Breville\'s comparison pages place the machine at 10.91 pounds with a 64-ounce water tank. That lighter build makes it less tank-like than the Gaggia, but it also makes the Bambino Plus much easier to park on a cramped counter or pull out only when you want it.',
-      'Where the Bambino Plus gives ground is ecosystem depth. The 54mm portafilter is perfectly usable, but it does not open the same accessory universe as a 58mm commercial standard machine. You can absolutely learn puck prep and shot dialing on it, but if your long-term goal is to build a heavily upgraded manual workflow with bottomless tools, precision baskets, and boiler-temperature rituals, the Bambino Plus starts to look more like a convenience specialist than a forever tinkering platform.',
+  "productA": {
+    "name": "Breville Bambino Plus",
+    "shortName": "Bambino Plus",
+    "amazonQuery": "Breville Bambino Plus Espresso Machine BES500BSS",
+    "verdict": "Start Here for Weekday Milk Drinks",
+    "question": "Is the Bambino Plus easier for a first-time espresso owner?",
+    "snippetAnswer": "Yes, especially for someone who wants a repeatable milk routine without learning manual steaming immediately. Its automation is useful assistance, not a substitute for choosing an appropriate grind and preparing the coffee. You still dose, tamp, lock in the portafilter and clean up after each drink.",
+    "paragraphs": [
+      "is our starting recommendation for a household where the espresso machine is an appliance first and a hobby second. That is an editorial fit judgment based on its controls, not a claim that its espresso tastes better in a side-by-side test.",
+      "The useful distinction is automatic milk texturing. A person making a cappuccino before work can focus on preparing the coffee while leaving milk temperature and texture to the selected settings. Manual steaming remains available if practicing milk technique becomes part of the appeal later.",
+      "Read the startup claim narrowly. Breville states that the ThermoJet reaches extraction temperature in three seconds. Grinding, warming a cup, preparing the basket, extracting espresso and steaming milk still take time. Comparing that specification with a complete Gaggia drink-making routine would exaggerate the difference.",
+      "The supplied single-wall and dual-wall baskets serve different needs. Breville directs fresh-ground coffee toward single-wall baskets and pre-ground coffee toward dual-wall baskets. If you intend to learn non-pressurized espresso, plan for a grinder with sufficiently fine adjustment rather than treating automatic milk as automatic espresso.",
+      "The 54mm format is a compatibility requirement, not evidence of inferior coffee. There is no reason to replace the included portafilter on day one. First establish whether a new accessory solves an actual problem, such as messy dosing or insufficient clearance for a cup and scale. A bottomless handle will not correct an unsuitable grind."
     ],
-    pros: [
-      'Breville lists a 3-second ThermoJet warm-up, which is still the fastest workflow advantage in this matchup.',
-      'Low-pressure pre-infusion is built in and easy to live with for newer users.',
-      'Automatic milk texturing is a real quality-of-life feature if your default drink includes milk.',
-      'The 64-ounce tank and lighter 10.91-pound build make it easier to place in smaller kitchens.',
+    "pros": [
+      "Automatic milk settings reduce the number of manual tasks in a milk drink.",
+      "Manual steaming remains available for learning and experimentation.",
+      "Short heater startup suits an on-demand routine rather than a planned warm-up."
     ],
-    cons: [
-      'The 54mm platform is less universal than the Gaggia\'s 58mm commercial standard.',
-      'Lighter construction feels less anchored when you lock in the portafilter.',
-      'If you want a traditional single-boiler workflow, the Bambino Plus is not trying to be that machine.',
+    "cons": [
+      "Coffee preparation remains manual; this is not a bean-to-cup machine.",
+      "Accessories must match the Breville 54mm fitting, not just look similar.",
+      "Automatic milk does not eliminate wand wiping, purging or machine cleaning."
     ],
-    skipIf:
-      'you specifically want a heavier 58mm platform, a brass boiler, and a machine that pushes you toward manual technique rather than convenience.',
+    "skipIf": "you mainly drink straight espresso and specifically want a 58mm Gaggia platform. Do not pay for milk automation merely because it sounds like a higher specification."
   },
-  productB: {
-    name: 'Gaggia Classic Pro E24',
-    shortName: 'Gaggia Classic Pro E24',
-    amazonQuery: 'Gaggia Classic Pro E24 Espresso Machine',
-    verdict: 'Best for Traditional Espresso Workflow',
-    question: 'Is the Gaggia Classic Pro E24 worth the extra effort over the Bambino Plus?',
-    snippetAnswer:
-      'Yes, if what you want is a more traditional espresso platform. The Gaggia Classic Pro E24 earns its extra effort with a lead-free brass single boiler, a 58mm commercial-style portafilter, a two-hole steam wand, and a much more upgrade-friendly long-term path than the Breville.',
-    paragraphs: [
-      'is the better buy for someone who already knows they want to learn a more hands-on machine and would rather accept a slower workflow now than outgrow a convenience-first design later.',
-      'Gaggia North America is explicit about the mechanical story: the Classic Pro E24 uses a lead-free brass single boiler, commercial-style 58mm stainless steel portafilter, 9-bar OPV calibration, a commercial-style rotating steam wand, and a 72-ounce reservoir. That stack is why the machine keeps its reputation with tinkerers. The portafilter size is standard, the body is heavier, and the brass boiler moves the machine closer to the feel of a traditional entry-level enthusiast setup.',
-      'This is also the page where version clarity matters. The current E24 is not the same thing as the older aluminum-boiler variants people still reference in videos and forum threads. Gaggia North America calls out the E24\'s lead-free brass boiler directly, and that is the version you should be comparing against the Bambino Plus in 2026, not an older Classic Pro or Evo listing floating around on the used market.',
-      'The tradeoff is workflow patience. The Classic Pro E24 is a single-boiler, dual-use machine, so it does not behave like a one-touch milk-and-shot appliance. It gives you more of the traditional espresso ritual, but it also asks you to manage brew mode, steam mode, warm-up behavior, and milk timing more actively than the Breville does. That is exactly why some people love it and others never should have bought it.',
+  "productB": {
+    "name": "Gaggia Classic Pro E24",
+    "shortName": "Gaggia Classic Pro E24",
+    "amazonQuery": "Gaggia Classic Pro E24 Espresso Machine",
+    "verdict": "Choose for a Deliberately Manual Routine",
+    "question": "Who should choose the Gaggia Classic Pro E24 instead?",
+    "snippetAnswer": "Choose the E24 if controlling the extraction and steaming process is part of what you want to learn, not an inconvenience to remove. Its brass boiler and 58mm portafilter define the platform; they do not make it a dual-boiler machine or guarantee better espresso than the Breville.",
+    "paragraphs": [
+      "makes sense for a buyer who wants the process to stay visible: prepare a dose, use the brew switch, watch the output, then move to steam when making a milk drink. That routine rewards attention but can become a chore when several people want coffee quickly.",
+      "Gaggia North America specifies a lead-free brass single boiler, a 58mm stainless steel portafilter and a manual two-hole steam wand. The US machine has a pump rated at 15 bar with the over-pressure valve calibrated to 9 bar. Do not compare pump ratings as though a larger number proves better brewing.",
+      "For two cappuccinos, consider the sequence before choosing the machine: making the espresso, changing to steam, texturing milk and preparing the machine for the next brew are distinct tasks. A larger reservoir does not remove those transitions. The E24 is not automatically the better choice for repeated milk drinks just because its hardware looks more traditional.",
+      "The 58mm basket format can be useful if your planned tools are compatible, but portafilter handles also depend on lug geometry and basket clearance. Buy a Gaggia-compatible handle, not a generic item chosen solely by diameter. Internal modifications are a separate decision with safety and warranty implications, not a prerequisite for enjoying the stock machine.",
+      "Verify E24 and brass boiler together on the seller’s exact offer. Reviews attached to a mixed-generation listing may describe a different boiler, and an inexpensive imported model may have the wrong electrical specification for a US kitchen. If the seller cannot confirm the version, skip the offer rather than filling in the missing information from this article."
     ],
-    pros: [
-      'Official specs include a lead-free brass single boiler and a 58mm commercial-style portafilter.',
-      'The 19-pound build feels much more anchored and durable on the counter.',
-      'The two-hole commercial steam wand and 72-ounce tank favor repeated milk drinks better than many small starter machines.',
-      'The 58mm format gives you a better long-term accessory and upgrade path.',
+    "pros": [
+      "A manual brew-and-steam routine suits a buyer who wants to develop those skills.",
+      "US E24 specification clearly identifies the brass-boiler revision.",
+      "58mm baskets provide a useful starting point for a compatible accessory setup."
     ],
-    cons: [
-      'Single-boiler workflow is slower and asks more from the user.',
-      'Gaggia does not market this machine around built-in pre-infusion convenience.',
-      'It is taller, heavier, and less forgiving if you want quick weekday lattes with minimal ceremony.',
+    "cons": [
+      "Brew and steam share one boiler; the workflow needs planning.",
+      "No automatic milk temperature or texture settings.",
+      "E24, older Pro/Evo and overseas listings need careful separation."
     ],
-    skipIf:
-      'your priority is fast warm-up, automatic milk texturing, and the easiest route from unopened box to first cappuccino.',
+    "skipIf": "you want milk automation, minimal mode switching or a machine you can buy without checking the version. The Gaggia is not a convenience upgrade over the Bambino Plus."
   },
-  faqQuestion: 'What do buyers usually ask before choosing between the Bambino Plus and the Gaggia Classic Pro E24?',
-  faqAnswer:
-    'Most buyers ask the same four things first: which one heats faster, which one is better for milk drinks, which one has the stronger long-term upgrade path, and whether the price gap is actually meaningful. Those questions map directly to the real differences in this comparison.',
-  faq: [
+  "faqQuestion": "",
+  "faqAnswer": "",
+  "faq": [],
+  "relatedLinks": [
     {
-      question: 'Which machine heats up faster: Bambino Plus or Gaggia Classic Pro E24?',
-      answer:
-        'The Breville Bambino Plus heats up faster by a wide margin. Breville says its ThermoJet system reaches extraction temperature in 3 seconds, while the Gaggia is a single-boiler machine built around a brass boiler workflow rather than instant start behavior.',
+      "href": "/coffee",
+      "label": "Coffee gear hub"
     },
     {
-      question: 'Does the Gaggia Classic Pro E24 have a bigger accessory ecosystem?',
-      answer:
-        'Yes. The Gaggia Classic Pro E24 uses a 58mm commercial-style portafilter, which makes it a better long-term platform for baskets, tampers, bottomless handles, and other enthusiast accessories than the Bambino Plus and its 54mm system.',
+      "href": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "label": "Choosing an espresso grinder for the Bambino"
     },
     {
-      question: 'Which one is better for milk drinks every morning?',
-      answer:
-        'The Bambino Plus is better for routine milk drinks if speed matters most, because Breville pairs automatic milk texturing with a 3-second heat-up system. The Gaggia can produce excellent microfoam too, but it asks you to manage a single-boiler steam workflow manually.',
-    },
-    {
-      question: 'Is the price gap between these two machines actually large?',
-      answer:
-        'The gap changes with retailer offers, finish, and included accessories. Check current prices for both exact models, then decide whether automatic milk texturing or a traditional 58mm workflow matters more to you. Include delivery and any accessories you need in the comparison.',
-    },
+      "href": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "label": "Bambino Plus accessory buying order"
+    }
   ],
-  relatedLinks: [
-    { href: '/coffee', label: 'Coffee Gear and Brewing Lab' },
-    { href: '/', label: 'BestPickZone homepage' },
-  ],
-  closing: {
-    title: 'What should you buy first, and what comes next after the machine?',
-    paragraphs: [
-      'Start Here: the Breville Bambino Plus is the safer first purchase for most people because the 3-second warm-up, built-in pre-infusion, and automatic milk texturing remove enough friction that you can focus on beans, grind, and dose before you start debugging boiler rhythm.',
-      'Skip This First: the Gaggia Classic Pro E24 is the one to skip first if you are not excited by manual workflow. Its value comes from the brass boiler, 58mm platform, and traditional steam routine. If those details do not already sound appealing, the machine will feel like work instead of progress.',
-      'Whichever route you choose, the next upgrades are different. Bambino Plus buyers usually get the most value from a grinder upgrade, a firmer tamper, and a small scale. Gaggia buyers usually end up thinking earlier about a good grinder, a bottomless 58mm portafilter, cleaning backflush rhythm, and how often they are realistically willing to descale and manage single-boiler steam timing.',
-    ],
-  },
+  "closing": {
+    "title": "Which machine should you buy first?",
+    "paragraphs": [
+      "Start Here: buy the Bambino Plus when the goal is a manageable weekday espresso-and-milk routine. Use the included tools, learn one coffee and keep the initial setup simple. Its convenience is most valuable when you will actually use the automatic milk function.",
+      "Skip This First: pass on the Gaggia if you are buying it mainly because “commercial-style” sounds more capable. Choose it when its manual process and compatible 58mm tools are deliberate priorities. Neither heavier construction nor a brass boiler establishes a measured durability or cup-quality win in this comparison.",
+      "Before checkout, compare the exact model, voltage, condition, seller, included items and return terms. Add the grinder and essentials to each total. Do not count a bargain accessory bundle as a saving if half its contents are incompatible or duplicate tools you already own."
+    ]
+  }
 }
 
 export default function BrevilleVsGaggiaPage() {
   return (
     <>
-      <BreadcrumbJsonLd
-        trail={[
-          { name: 'Home', path: '/' },
-          { name: 'Coffee', path: '/coffee' },
-          { name: 'Breville Bambino Plus vs Gaggia Classic Pro' },
-        ]}
-      />
-      <ProductComparisonPage data={data} />
+      <BreadcrumbJsonLd trail={[
+        { name: 'Home', path: '/' },
+        { name: 'Coffee', path: '/coffee' },
+        { name: 'Breville Bambino Plus vs Gaggia Classic Pro E24' },
+      ]} />
+      <ProductComparisonPage data={data} path="/coffee/breville-bambino-plus-vs-gaggia-classic-pro" />
+      <section className="mx-auto max-w-5xl px-4 pb-10 text-gray-700">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">What should you check before setting up either machine?</h2>
+        <p className="mb-4 leading-relaxed">Measure the usable counter, not just the space occupied by the machine body. Leave room for the portafilter handle, a milk pitcher beside the steam wand, tank access and a place to prepare the coffee. Check the current dimensional drawing for the exact offer if a tight cabinet clearance will decide the purchase. We have omitted the Bambino’s disputed dimensional figures rather than combine conflicting manufacturer listings.</p>
+        <p className="mb-4 leading-relaxed">Keep a simple record of the coffee dose, beverage output and grind adjustment when learning. Change one thing at a time instead of buying several accessories after a disappointing shot. Cleaning is also part of the routine: follow the model’s instructions for the steam wand, coffee-oil cleaning and descaling rather than assuming those are one interchangeable procedure.</p>
+        <h2 className="mb-3 text-2xl font-bold text-gray-900">Which primary sources support this comparison?</h2>
+        <p className="mb-3 leading-relaxed">Specifications come from the manufacturers and the US Bambino manual. The workflow recommendations are editorial interpretation; we did not time drinks, measure brewing temperatures or test long-term reliability.</p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li><a className="underline" href="https://www.breville.com/en-us/product/bes500" target="_blank" rel="noopener">Breville Bambino Plus US product specifications</a></li>
+          <li><a className="underline" href="https://assets.breville.com/BES500/BES500_USCM_IB_T23_LR.pdf" target="_blank" rel="noopener">Breville BES500 US/Canada instruction manual</a></li>
+          <li><a className="underline" href="https://www.gaggia-na.com/products/gaggia-classic-pro" target="_blank" rel="noopener">Gaggia North America Classic Pro E24 specifications</a></li>
+          <li><a className="underline" href="https://www.gaggia-na.com/pages/product-manuals" target="_blank" rel="noopener">Gaggia North America model-specific manuals</a></li>
+        </ul>
+      </section>
     </>
   )
 }

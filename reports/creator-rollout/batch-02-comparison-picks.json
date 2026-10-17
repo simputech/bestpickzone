@@ -1,0 +1,428 @@
+{
+  "/coffee/1zpresso-jx-pro-vs-comandante-c40": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "1Zpresso JX-Pro original manual coffee grinder",
+        "label": "1Zpresso JX-Pro (original)",
+        "brand": "1Zpresso",
+        "expectedTitle": "1Zpresso JX Pro",
+        "requiredTitleTerms": [
+          "JX Pro",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "JX Pro S",
+          "JX ProS",
+          "J Ultra",
+          "J Max",
+          "K Ultra",
+          "catch cup",
+          "carrying case",
+          "handle only",
+          "burr set",
+          "grinder handle",
+          "spare handle"
+        ],
+        "note": "Legacy original JX-Pro only. Confirm stock, condition and support; JX-Pro S or J-Ultra is not a substitute."
+      },
+      {
+        "query": "Comandante C40 MK4 Nitro Blade manual coffee grinder",
+        "label": "Comandante C40 MK4 Nitro Blade",
+        "brand": "Comandante",
+        "expectedTitle": "Comandante C40 MK4 Nitro Blade",
+        "requiredTitleTerms": [
+          "C40",
+          "MK4",
+          "Nitro Blade",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "MK3",
+          "C60",
+          "Trailmaster",
+          "Tigershark",
+          "Red Clix",
+          "jar",
+          "catch cup",
+          "carrying case",
+          "protective case",
+          "handle only",
+          "shaft",
+          "drivetrain",
+          "grinder handle",
+          "spare handle"
+        ],
+        "note": "Standard MK4 Nitro Blade grinder, not a separate jar, drivetrain or another burr edition."
+      }
+    ]
+  },
+  "/coffee/acaia-lunar-vs-timemore-black-mirror-nano": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Acaia Lunar 2021 espresso coffee scale",
+        "label": "Acaia Lunar 2021",
+        "brand": "Acaia",
+        "expectedTitle": "Acaia Lunar 2021",
+        "requiredTitleTerms": [
+          "Lunar",
+          "2021",
+          "scale"
+        ],
+        "forbiddenTitleTerms": [
+          "Pearl",
+          "Pyxis",
+          "Cinco",
+          "weighing plate",
+          "carrying case",
+          "protective case",
+          "base",
+          "protective film",
+          "silicone pad",
+          "charger",
+          "charging cable",
+          "adapter"
+        ],
+        "note": "2021 generation only. Check cup clearance; Lunar is water-resistant, not waterproof."
+      },
+      {
+        "query": "TIMEMORE Black Mirror Nano coffee scale",
+        "label": "Timemore Black Mirror Nano, white",
+        "brand": "TIMEMORE",
+        "expectedTitle": "TIMEMORE Black Mirror Nano",
+        "requiredTitleTerms": [
+          "Black Mirror",
+          "Nano",
+          "scale"
+        ],
+        "forbiddenTitleTerms": [
+          "Mini",
+          "Basic",
+          "Pro"
+        ],
+        "note": "Exact Nano, not Mini or Basic. Check current availability, side-button clearance and seller support. Pinned white variant; do not substitute a different Nano color ASIN without verification.",
+        "asin": "B09KL96K8V"
+      }
+    ]
+  },
+  "/coffee/aeropress-original-vs-aeropress-premium": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "AeroPress Original standard coffee maker",
+        "label": "AeroPress Original",
+        "brand": "AeroPress",
+        "expectedTitle": "AeroPress Original Coffee Press",
+        "requiredTitleTerms": [
+          "Original",
+          "Coffee Press"
+        ],
+        "forbiddenTitleTerms": [
+          "XL",
+          "Clear",
+          "Go",
+          "Premium",
+          "Steel"
+        ],
+        "note": "Standard-size Original brewer, not Original XL or a filter-only listing.",
+        "asin": "B0047BIWSK",
+        "model": "85A01"
+      },
+      {
+        "query": "AeroPress Premium glass metal coffee maker",
+        "label": "AeroPress Premium, black",
+        "brand": "AeroPress",
+        "expectedTitle": "AeroPress Premium Coffee Press Glass",
+        "requiredTitleTerms": [
+          "Premium",
+          "Coffee Press",
+          "Glass"
+        ],
+        "forbiddenTitleTerms": [
+          "Walnut",
+          "XL",
+          "Original",
+          "Go Plus",
+          "Clear",
+          "Go"
+        ],
+        "note": "Glass-and-metal Premium brewer. Handwash only; not the Steel or Premium Walnut model. The verified catalog identity is the black finish.",
+        "asin": "B0FRWSKCX6",
+        "model": "PR001"
+      }
+    ]
+  },
+  "/coffee/baratza-encore-esp-vs-fellow-opus-2": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Encore ESP coffee grinder black",
+        "label": "Baratza Encore ESP",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Encore ESP",
+        "requiredTitleTerms": [
+          "Encore",
+          "ESP"
+        ],
+        "forbiddenTitleTerms": [
+          "Pro"
+        ],
+        "note": "Original Encore ESP in black, not standard Encore or Encore ESP Pro.",
+        "asin": "B0BW272XCV"
+      },
+      {
+        "query": "Fellow Opus 2 conical burr coffee grinder",
+        "label": "Fellow Opus 2",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Opus 2",
+        "requiredTitleTerms": [
+          "Opus 2",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "Opus 1",
+          "Ode",
+          "Walnut",
+          "wood lid"
+        ],
+        "note": "Opus 2 with 48 mm burrs and stepless adjustment. The original 40 mm Opus is not a substitute. Pinned black North American model.",
+        "asin": "B0FPCHNSX2",
+        "model": "1222MB-NA"
+      }
+    ]
+  },
+  "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Baratza Virtuoso Plus coffee grinder",
+        "label": "Baratza Virtuoso+",
+        "brand": "Baratza",
+        "expectedTitle": "Baratza Virtuoso+ Coffee Grinder",
+        "requiredTitleTerms": [
+          "Virtuoso+",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "Encore",
+          "Sette",
+          "Vario"
+        ],
+        "note": "Digital-timer Virtuoso+, not the original Virtuoso. Weigh output when calibrating a timed dose.",
+        "asin": "B07QMY8GLX",
+        "model": "Virtuoso+"
+      },
+      {
+        "query": "Fellow Ode Gen 2 coffee grinder standard brew burrs",
+        "label": "Fellow Ode Gen 2, standard burrs",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Ode Gen 2 Coffee Grinder",
+        "requiredTitleTerms": [
+          "Ode",
+          "Gen 2",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "SSP",
+          "Gen 1",
+          "Opus"
+        ],
+        "note": "Complete Gen 2 grinder with standard Gen 2 Brew Burrs, not a burr-only upgrade or SSP configuration. Not for espresso.",
+        "asin": "B0BLRMCM9Y",
+        "model": "Ode Gen 2"
+      }
+    ]
+  },
+  "/coffee/breville-barista-express-vs-delonghi-la-specialista": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Breville Barista Express BES870XL espresso machine",
+        "label": "Breville Barista Express BES870XL",
+        "brand": "Breville",
+        "expectedTitle": "Breville BES870XL Barista Express Espresso Machine",
+        "requiredTitleTerms": [
+          "BES870XL",
+          "Barista Express",
+          "Espresso Machine"
+        ],
+        "forbiddenTitleTerms": [
+          "Impress",
+          "Pro",
+          "Touch",
+          "Bambino"
+        ],
+        "note": "Original BES870XL, not Express Impress or Barista Pro. Confirm US electrical specification and seller warranty.",
+        "asin": "B00CH9QWOU",
+        "model": "BES870XL"
+      },
+      {
+        "query": "De'Longhi La Specialista EC9335M espresso machine",
+        "label": "De'Longhi La Specialista EC9335M",
+        "brand": "De'Longhi",
+        "expectedTitle": "De'Longhi La Specialista EC9335M Espresso Machine",
+        "requiredTitleTerms": [
+          "La Specialista",
+          "espresso",
+          "EC9335M"
+        ],
+        "forbiddenTitleTerms": [
+          "Arte",
+          "Evo",
+          "Prestigio",
+          "Opera",
+          "Maestro",
+          "Touch"
+        ],
+        "note": "Legacy EC9335M only. Verify condition, complete accessories, voltage and warranty; newer La Specialista models are not substitutes.",
+        "asin": "B07QMWZ6PT",
+        "model": "EC9335M"
+      }
+    ]
+  },
+  "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Fellow Stagg EKG original electric kettle",
+        "label": "Fellow Stagg EKG (original)",
+        "brand": "Fellow",
+        "expectedTitle": "Fellow Stagg EKG Electric Gooseneck Kettle",
+        "requiredTitleTerms": [
+          "Stagg EKG",
+          "kettle"
+        ],
+        "forbiddenTitleTerms": [
+          "Pro",
+          "Studio",
+          "EKG Plus",
+          "stovetop",
+          "Corvo",
+          "EKG+"
+        ],
+        "note": "Original EKG only. Current Pro and Pro Studio models have different features and are not substitutions.",
+        "asin": "B077JBQZPX",
+        "model": "1137"
+      },
+      {
+        "query": "COSORI CO108-NK electric gooseneck kettle",
+        "label": "COSORI CO108-NK",
+        "brand": "Cosori",
+        "expectedTitle": "Cosori Gooseneck Electric Kettle",
+        "requiredTitleTerms": [
+          "Gooseneck",
+          "Kettle"
+        ],
+        "forbiddenTitleTerms": [
+          "Smart",
+          "Bluetooth",
+          "WiFi",
+          "Wi-Fi"
+        ],
+        "note": "CO108-NK with five temperature presets, not a smart kettle. Check the US electrical version.",
+        "model": "CO108-NK",
+        "asin": "B07T1CH2HH"
+      }
+    ]
+  },
+  "/coffee/hario-v60-vs-chemex-classic": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "HARIO V60 02 plastic clear VD-02T dripper",
+        "label": "Hario V60 02 clear plastic dripper",
+        "brand": "Hario",
+        "expectedTitle": "Hario V60",
+        "requiredTitleTerms": [
+          "V60",
+          "02",
+          "plastic",
+          "clear",
+          "dripper"
+        ],
+        "forbiddenTitleTerms": [
+          "ceramic",
+          "metal",
+          "glass",
+          "01",
+          "03",
+          "switch"
+        ],
+        "note": "Clear plastic size 02, model VD-02T. Needs size 02 papers and a stable mug or server. Require returned VD-02T part/model evidence because listing model fields conflict.",
+        "model": "VD-02T",
+        "asin": "B001RBTSMM"
+      },
+      {
+        "query": "Chemex Six Cup Classic CM-6A coffee maker",
+        "label": "Chemex Six Cup Classic CM-6A",
+        "brand": "Chemex",
+        "expectedTitle": "Chemex Classic",
+        "requiredTitleTerms": [
+          "Classic",
+          "6-Cup"
+        ],
+        "forbiddenTitleTerms": [
+          "8 cup",
+          "10 cup",
+          "3 cup",
+          "glass handle",
+          "handblown"
+        ],
+        "note": "Six-cup Classic carafe, CM-6A. Capacity is 30 US fl oz, not six large mugs.",
+        "model": "CM-6A",
+        "asin": "B0000YWF5E"
+      }
+    ]
+  },
+  "/coffee/timemore-chestnut-c3-vs-kingrinder-k6": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "TIMEMORE Chestnut C3 manual coffee grinder",
+        "label": "Timemore Chestnut C3 (standard)",
+        "brand": "TIMEMORE",
+        "expectedTitle": "TIMEMORE Chestnut C3",
+        "requiredTitleTerms": [
+          "Chestnut",
+          "C3",
+          "grinder"
+        ],
+        "forbiddenTitleTerms": [
+          "C3S",
+          "C3 S",
+          "Pro",
+          "ESP",
+          "C2",
+          "C5",
+          "grinder handle",
+          "handle only",
+          "spare handle",
+          "replacement crank",
+          "burr set",
+          "catch cup",
+          "carrying case"
+        ],
+        "note": "Standard C3 with classic internal adjustment. Do not substitute C3S, Pro or ESP editions."
+      },
+      {
+        "query": "KINGrinder K6 manual coffee grinder",
+        "label": "KINGrinder K6, straight handle silver",
+        "brand": "KINGrinder",
+        "expectedTitle": "KINGrinder K6",
+        "requiredTitleTerms": [
+          "K6",
+          "grinder",
+          "straight handle"
+        ],
+        "forbiddenTitleTerms": [
+          "K4",
+          "K2",
+          "K7"
+        ],
+        "note": "Complete K6 grinder with external adjustment, not another K-series model or a replacement part. The pinned current catalog identity has a straight handle and silver finish.",
+        "asin": "B0GKFDZ725"
+      }
+    ]
+  }
+}

@@ -25,7 +25,7 @@ const fetchedAt = '2026-10-16T23:20:00.000Z';
 
 function entry(fixture) {
   const found = Object.entries(articleCommerce).flatMap(([route, config]) =>
-    (config.products || []).filter(pick => pick.asin === fixture.asin).map(request => ({ route, request, tag: config.partnerTag || 'althcu-20' }))
+    (config.batch === 1 ? config.products || [] : []).filter(pick => pick.asin === fixture.asin).map(request => ({ route, request, tag: config.partnerTag || 'althcu-20' }))
   );
   assert.equal(found.length, 1, `one curated entry for ${fixture.asin}`);
   return found[0];

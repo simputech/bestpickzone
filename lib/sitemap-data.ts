@@ -157,7 +157,7 @@ export const beautyPages: SitemapEntry[] = [
   { url: `${baseUrl}/beauty/retinol-vs-bakuchiol-for-sensitive-skin`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/beauty/salicylic-acid-vs-benzoyl-peroxide`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/beauty/dr-dennis-gross-vs-omnilux-contour`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/beauty/dr-dennis-gross-vs-omnilux-contour`, lastModified: '2026-10-16', changeFrequency: 'monthly', priority: 0.88 },
   ...beautyComparisonArticles.map((article) => ({
     url: `${baseUrl}/beauty/${article.slug}`,
     lastModified: contentRefreshDate,
@@ -174,10 +174,10 @@ export const coffeePages: SitemapEntry[] = [
   ...buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ url: `${baseUrl}/${g.silo}/${g.slug}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/coffee`, lastModified: '2026-10-15', changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/coffee/best-vintage-coffee-grinders-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: '2026-10-16', changeFrequency: 'monthly', priority: 0.88 },
   ...coffeeComparisonArticles.map((article) => ({
     url: `${baseUrl}/coffee/${article.slug}`,
-    lastModified: article.slug === 'baratza-encore-esp-vs-fellow-opus-2' ? '2026-09-19' : contentRefreshDate,
+    lastModified: article.modifiedDate ?? (article.slug === 'baratza-encore-esp-vs-fellow-opus-2' ? '2026-09-19' : contentRefreshDate),
     changeFrequency: 'monthly' as const,
     priority: 0.88,
   })),

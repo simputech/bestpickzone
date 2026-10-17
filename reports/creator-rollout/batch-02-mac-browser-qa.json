@@ -1,0 +1,437 @@
+{
+  "checkedAt": "2026-10-17T00:44:12.433461+00:00",
+  "environment": "Local production build at http://127.0.0.1:3117; no Amazon production secrets",
+  "scope": "20 batch-two routes at 1440x1000 and 390x844 via tab-scoped Chrome emulation",
+  "observations": [
+    {
+      "path": "/wfh/best-monitor-arms-for-shallow-desks",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-burr-grinders-french-press-cold-brew",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-coffee-makers-for-low-cabinets",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/mahjong/best-mahjong-mats-for-small-tables",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/wfh/best-video-call-lighting-for-glasses",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 1,
+      "fallbacks": 1,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/aeropress-original-vs-aeropress-premium",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/hario-v60-vs-chemex-classic",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "width": 1440,
+      "pageWidth": 1440,
+      "h1": 1,
+      "cards": 1,
+      "fallbacks": 1,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/wfh/best-monitor-arms-for-shallow-desks",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-burr-grinders-french-press-cold-brew",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-coffee-makers-for-low-cabinets",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/mahjong/best-mahjong-mats-for-small-tables",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/wfh/best-video-call-lighting-for-glasses",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 1,
+      "fallbacks": 1,
+      "images": 0,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/aeropress-original-vs-aeropress-premium",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/hario-v60-vs-chemex-classic",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 2,
+      "fallbacks": 2,
+      "images": 1,
+      "brokenImages": 0
+    },
+    {
+      "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "width": 390,
+      "pageWidth": 390,
+      "h1": 1,
+      "cards": 1,
+      "fallbacks": 1,
+      "images": 0,
+      "brokenImages": 0
+    }
+  ],
+  "keyboardRecheck": {
+    "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+    "width": 390,
+    "pageWidth": 390,
+    "focusable": true,
+    "tabIndex": 0,
+    "key": "ArrowRight",
+    "scrollLeft": 40,
+    "headingLeft": 20
+  },
+  "visualChecks": [
+    "AeroPress desktop top, disclosure, heading, comparison",
+    "LED mask mobile top and corrected table focus/overflow",
+    "Bambino/Gaggia mobile table wrapping and compatibility rows"
+  ],
+  "results": {
+    "routeViewportChecks": 40,
+    "horizontalPageOverflow": 0,
+    "brokenImages": 0,
+    "cardsPerViewport": 38,
+    "fallbackCardsPerViewport": 38,
+    "liveApiCards": 0,
+    "articleBodyRetained": true,
+    "disclosureBeforeArticle": true
+  },
+  "limitations": [
+    "These are local fallback results, not deployed-preview verification.",
+    "Live Amazon API identity and product-image validation require authorized production QA after publication."
+  ],
+  "change": "Added a separate focusable LED comparison-table scroll region so horizontal table movement does not move the heading, instructions or source links."
+}

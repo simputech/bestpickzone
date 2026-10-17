@@ -24,7 +24,7 @@ function resolvePageMetadata({ params }: { params: Params }): Metadata {
 
   const pageUrl = `https://bestpickzone.com/coffee/${article.slug}`
   const modifiedTime =
-    article.slug === 'baratza-encore-esp-vs-fellow-opus-2'
+    article.modifiedDate ? `${article.modifiedDate}T00:00:00Z` : article.slug === 'baratza-encore-esp-vs-fellow-opus-2'
       ? '2026-09-19T00:00:00Z'
       : undefined
 

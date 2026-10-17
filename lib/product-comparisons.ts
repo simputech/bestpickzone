@@ -58,9 +58,9 @@ export type ComparisonPageData = {
 // - Retailers are used for live price and availability only.
 // - If a figure cannot be verified from an allowed source, do not render it.
 // - Hero and section images live under /public/images/{silo}/ to avoid hotlinking.
-export function amazonSearchUrl(query: string) {
+export function amazonSearchUrl(query: string, partnerTag?: string) {
   const trackingId =
-    process.env.NEXT_PUBLIC_AMAZON_TRACKING_ID?.trim() || 'althcu-20'
+    partnerTag?.trim() || process.env.NEXT_PUBLIC_AMAZON_TRACKING_ID?.trim() || 'althcu-20'
 
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${encodeURIComponent(trackingId)}`
 }

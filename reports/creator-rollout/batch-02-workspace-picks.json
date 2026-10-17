@@ -1,0 +1,109 @@
+{
+  "/mahjong/best-carrying-bags-for-american-mahjong-sets": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Yellow Mountain Imports Mojave soft case YM-XH012-A case only",
+        "label": "YMI Mojave case-only bag",
+        "note": "Case and packing pouches, not a full tile set. Match rack and tile dimensions; interior and mat fit are unverified.",
+        "asin": "B00SR63J2A",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports Mojave soft case",
+        "requiredTitleTerms": [
+          "Mojave",
+          "case only"
+        ],
+        "model": "YM-XH012-A"
+      },
+      {
+        "query": "Yellow Mountain Imports Pepper soft case DX-XH001-A case only",
+        "label": "YMI Pepper case-only bag",
+        "note": "The case-only model, not the complete Pepper Mahjong set. No exact US ASIN verified; an unmatched result stays a search link.",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports Pepper soft case",
+        "requiredTitleTerms": [
+          "case only"
+        ],
+        "model": "DX-XH001-A"
+      }
+    ]
+  },
+  "/mahjong/best-mahjong-mats-for-small-tables": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Yellow Mountain Imports 31.1 table cover YW-TR001-A blue rubber backing",
+        "label": "YMI 31.1-inch rubber-backed mat",
+        "note": "Roll-up YW-TR001-A, not a fitted cover. Confirm all four corners are supported. No exact US ASIN verified.",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports 31.1 table cover",
+        "requiredTitleTerms": [
+          "31.1"
+        ],
+        "model": "YW-TR001-A"
+      },
+      {
+        "query": "Yellow Mountain Imports blue fitted square table cover YM-TR001-B87",
+        "label": "YMI blue fitted cover YM-TR001-B87",
+        "note": "Exact blue-cover identity; published size fields conflict. Obtain current finished dimensions and table-fit confirmation before ordering.",
+        "asin": "B0753FHDC8",
+        "brand": "Yellow Mountain Imports",
+        "expectedTitle": "Yellow Mountain Imports table cover Mahjong",
+        "requiredTitleTerms": [
+          "table cover",
+          "Mahjong",
+          "professional grade"
+        ]
+      }
+    ]
+  },
+  "/wfh/best-usb-c-docks-for-two-monitors": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "CalDigit TS4 Thunderbolt 4 dock 98W",
+        "label": "CalDigit TS4",
+        "note": "Native displays on a supported host. Does not bypass base M1/M2 limits; plan the DisplayPort and downstream Thunderbolt video connections.",
+        "asin": "B09GK8LBWS",
+        "brand": "CalDigit",
+        "expectedTitle": "CalDigit TS4 Thunderbolt 4 dock",
+        "requiredTitleTerms": [
+          "TS4",
+          "Thunderbolt",
+          "dock"
+        ]
+      },
+      {
+        "query": "Plugable UD-6950PDH dual monitor docking station",
+        "label": "Plugable UD-6950PDH",
+        "note": "Office DisplayLink option, with software and permissions required. On macOS, protected video can fail on all screens while connected.",
+        "asin": "B09TQY97MJ",
+        "brand": "Plugable",
+        "expectedTitle": "Plugable docking station dual monitor",
+        "requiredTitleTerms": [
+          "docking station",
+          "dual monitor"
+        ],
+        "model": "UD-6950PDH"
+      }
+    ]
+  },
+  "/wfh/best-video-call-lighting-for-glasses": {
+    "batch": 2,
+    "products": [
+      {
+        "query": "Elgato Key Light Neo Black with Monitor Mount",
+        "label": "Elgato Key Light Neo with monitor mount, black",
+        "note": "Compact with-mount package. Position and power source matter; a diffused panel cannot guarantee reflection-free glasses.",
+        "asin": "B0FDBL5MVM",
+        "brand": "Elgato",
+        "expectedTitle": "Elgato Key Light Neo Black with Monitor Mount",
+        "requiredTitleTerms": [
+          "Key Light Neo",
+          "Black",
+          "Monitor Mount"
+        ]
+      }
+    ]
+  }
+}

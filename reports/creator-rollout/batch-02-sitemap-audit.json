@@ -1,0 +1,62 @@
+{
+  "baselineCommit": "bcb535dde8485697dd34eb21afac5b19a1748ae6",
+  "beforeUrls": 305,
+  "afterUrls": 305,
+  "changes": [
+    {
+      "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/aeropress-original-vs-aeropress-premium",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/hario-v60-vs-chemex-classic",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "before": "2026-07-01",
+      "after": "2026-10-16"
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "before": "2026-09-27",
+      "after": "2026-10-16"
+    }
+  ]
+}

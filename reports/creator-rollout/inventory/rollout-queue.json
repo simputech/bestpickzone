@@ -78,7 +78,7 @@
     {
       "batch": 1,
       "reviewed_page_target": 20,
-      "status": "awaiting-runtime-verification",
+      "status": "published-verified-with-catalog-exceptions",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -90,7 +90,7 @@
           "data_source": "content/author-rankings/best-gillian-flynn-books.json",
           "baseline_creator_coverage": "indirect",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -104,7 +104,7 @@
           "data_source": "content/author-rankings/best-lucy-foley-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -118,7 +118,7 @@
           "data_source": "content/author-rankings/best-ruth-ware-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -132,7 +132,7 @@
           "data_source": "content/author-rankings/best-lisa-jewell-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -146,7 +146,7 @@
           "data_source": "content/author-rankings/best-riley-sager-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -160,7 +160,7 @@
           "data_source": "content/author-rankings/best-freida-mcfadden-books.json",
           "baseline_creator_coverage": "indirect",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -174,7 +174,7 @@
           "data_source": "content/author-rankings/best-tana-french-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -188,7 +188,7 @@
           "data_source": "content/author-rankings/best-jane-harper-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -202,7 +202,7 @@
           "data_source": "content/author-rankings/best-shari-lapena-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -216,7 +216,7 @@
           "data_source": "content/author-rankings/best-anthony-horowitz-books.json",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -230,7 +230,7 @@
           "data_source": "content/buying-guides/kitchenaid-pasta-roller-vs-pasta-press.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "minor-clarity-correction",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -244,7 +244,7 @@
           "data_source": "content/buying-guides/best-pizza-peels-ooni-koda-12.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -258,7 +258,7 @@
           "data_source": "content/buying-guides/best-mahjong-racks-pushers-oversized-tiles.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -272,7 +272,7 @@
           "data_source": "content/buying-guides/ninja-creami-containers-compatibility.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -286,7 +286,7 @@
           "data_source": "content/buying-guides/elgato-stream-deck-mk2-vs-logitech-mx-creative-console.html",
           "baseline_creator_coverage": "indirect-partial",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -300,7 +300,7 @@
           "data_source": "content/buying-guides/best-espresso-grinders-gaggia-classic-pro.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -314,7 +314,7 @@
           "data_source": "content/buying-guides/best-bottomless-portafilters-gaggia-classic-pro.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "minor-clarity-correction",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -322,13 +322,13 @@
         {
           "path": "/books/daring-greatly-vs-the-gifts-of-imperfection",
           "url": "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection",
-          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First?",
+          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Bren\u00e9 Brown Book First?",
           "renderer": "ResearchedBuyingGuide",
           "page_source": "app/books/daring-greatly-vs-the-gifts-of-imperfection/page.tsx",
           "data_source": "content/buying-guides/daring-greatly-vs-the-gifts-of-imperfection.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -342,7 +342,7 @@
           "data_source": "content/buying-guides/best-folding-tables-for-mahjong.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "no-editorial-refresh-needed",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
@@ -356,17 +356,21 @@
           "data_source": null,
           "baseline_creator_coverage": "indirect-partial",
           "disposition": "eligible-product-review",
-          "review_status": "reviewed-awaiting-runtime-verification",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "minor-clarity-correction",
           "sitemap_update_required": false,
           "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
         }
-      ]
+      ],
+      "publication_commit": "9e0f09593218febf1f9d9ba51c6a0be5115801fe",
+      "deployment_id": "dpl_7yx4CMzxRa7k8AXM9TZ5p975NJhi",
+      "substantive_refresh_count": 0,
+      "sitemap_update_count": 0
     },
     {
       "batch": 2,
       "reviewed_page_target": 20,
-      "status": "pending",
+      "status": "preview-packaging-correction",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -378,10 +382,11 @@
           "data_source": "content/buying-guides/best-monitor-arms-for-shallow-desks.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/best-burr-grinders-french-press-cold-brew",
@@ -392,10 +397,11 @@
           "data_source": "content/buying-guides/best-burr-grinders-french-press-cold-brew.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/best-coffee-makers-for-low-cabinets",
@@ -406,10 +412,11 @@
           "data_source": "content/buying-guides/best-coffee-makers-for-low-cabinets.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "none",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/best-espresso-grinders-for-breville-bambino",
@@ -420,10 +427,11 @@
           "data_source": "content/buying-guides/best-espresso-grinders-for-breville-bambino.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/best-low-profile-espresso-scales",
@@ -434,10 +442,11 @@
           "data_source": "content/buying-guides/best-low-profile-espresso-scales.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/mahjong/best-carrying-bags-for-american-mahjong-sets",
@@ -448,10 +457,11 @@
           "data_source": "content/buying-guides/best-carrying-bags-for-american-mahjong-sets.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "none",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/mahjong/best-mahjong-mats-for-small-tables",
@@ -462,10 +472,11 @@
           "data_source": "content/buying-guides/best-mahjong-mats-for-small-tables.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/wfh/best-usb-c-docks-for-two-monitors",
@@ -476,10 +487,11 @@
           "data_source": "content/buying-guides/best-usb-c-docks-for-two-monitors.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/wfh/best-video-call-lighting-for-glasses",
@@ -490,38 +502,41 @@
           "data_source": "content/buying-guides/best-video-call-lighting-for-glasses.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 1
         },
         {
           "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
           "url": "https://bestpickzone.com/coffee/1zpresso-jx-pro-vs-comandante-c40",
-          "title": "1Zpresso JX-Pro vs Comandante C40",
+          "title": "1Zpresso JX-Pro vs Comandante C40 MK4",
           "renderer": "HtmlComparisonArticlePage",
           "page_source": "app/coffee/[slug]/page.tsx",
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
           "url": "https://bestpickzone.com/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
-          "title": "Acaia Lunar vs Timemore Black Mirror Nano",
+          "title": "Acaia Lunar 2021 vs Timemore Black Mirror Nano",
           "renderer": "HtmlComparisonArticlePage",
           "page_source": "app/coffee/[slug]/page.tsx",
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/aeropress-original-vs-aeropress-premium",
@@ -532,10 +547,11 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/baratza-encore-esp-vs-fellow-opus-2",
@@ -546,10 +562,11 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independent-review-passed",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
@@ -560,66 +577,71 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
           "url": "https://bestpickzone.com/coffee/breville-barista-express-vs-delonghi-la-specialista",
-          "title": "Breville Barista Express vs De'Longhi La Specialista",
+          "title": "Breville Barista Express vs De'Longhi La Specialista EC9335M",
           "renderer": "HtmlComparisonArticlePage",
           "page_source": "app/coffee/[slug]/page.tsx",
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
           "url": "https://bestpickzone.com/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
-          "title": "Fellow Stagg EKG vs Cosori Gooseneck Kettle",
+          "title": "Fellow Stagg EKG vs COSORI CO108-NK Gooseneck Kettle",
           "renderer": "HtmlComparisonArticlePage",
           "page_source": "app/coffee/[slug]/page.tsx",
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/hario-v60-vs-chemex-classic",
           "url": "https://bestpickzone.com/coffee/hario-v60-vs-chemex-classic",
-          "title": "Hario V60 vs Chemex",
+          "title": "Hario V60 02 vs Chemex Six Cup Classic",
           "renderer": "HtmlComparisonArticlePage",
           "page_source": "app/coffee/[slug]/page.tsx",
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
           "url": "https://bestpickzone.com/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
-          "title": "Timemore Chestnut C3 vs Kingrinder K6",
+          "title": "Timemore Chestnut C3 vs KINGrinder K6",
           "renderer": "HtmlComparisonArticlePage",
           "page_source": "app/coffee/[slug]/page.tsx",
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
@@ -630,10 +652,11 @@
           "data_source": null,
           "baseline_creator_coverage": "indirect",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 2
         },
         {
           "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
@@ -644,12 +667,18 @@
           "data_source": "app/beauty/dr-dennis-gross-vs-omnilux-contour/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independent-review-passed",
+          "refresh_scope": "substantial",
+          "sitemap_update_required": true,
+          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable.",
+          "creator_product_requests": 1
         }
-      ]
+      ],
+      "last_verified_at": "2026-10-17T00:48:37.337651+00:00",
+      "recovery_evidence": "reports/creator-rollout/batch-02-mac-recovery.md",
+      "pull_request": "https://github.com/simputech/bestpickzone/pull/15",
+      "source_commit": "ae528653ff70513098dbfa3e0eec5050fb6f8ca2",
+      "local_browser_qa": "reports/creator-rollout/batch-02-mac-browser-qa.json"
     },
     {
       "batch": 3,
@@ -1748,7 +1777,7 @@
         {
           "path": "/books/authors/best-lee-child-books",
           "url": "https://bestpickzone.com/books/authors/best-lee-child-books",
-          "title": "Best Lee Child Books in Order — Jack Reacher Reading Guide (2026)",
+          "title": "Best Lee Child Books in Order \u2014 Jack Reacher Reading Guide (2026)",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/authors/best-lee-child-books/page.tsx",
           "data_source": null,
@@ -2022,7 +2051,7 @@
         {
           "path": "/books/genre-fiction/best-cold-war-thriller-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-cold-war-thriller-books",
-          "title": "Best Cold War Thriller Books — Ranked with Winner Logic",
+          "title": "Best Cold War Thriller Books \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-cold-war-thriller-books/page.tsx",
           "data_source": null,
@@ -2036,7 +2065,7 @@
         {
           "path": "/books/genre-fiction/best-history-books-for-beginners",
           "url": "https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners",
-          "title": "Best History Books for Beginners — Ranked with Winner Logic",
+          "title": "Best History Books for Beginners \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-history-books-for-beginners/page.tsx",
           "data_source": null,
@@ -2064,7 +2093,7 @@
         {
           "path": "/books/genre-fiction/best-military-fiction-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-military-fiction-books",
-          "title": "Best Military Fiction Books — Ranked with Winner Logic",
+          "title": "Best Military Fiction Books \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-military-fiction-books/page.tsx",
           "data_source": null,
@@ -2078,7 +2107,7 @@
         {
           "path": "/books/genre-fiction/best-spy-thriller-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-spy-thriller-books",
-          "title": "Best Spy Thriller Books of All Time — Ranked with Winner Logic",
+          "title": "Best Spy Thriller Books of All Time \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-spy-thriller-books/page.tsx",
           "data_source": null,
@@ -2100,7 +2129,7 @@
         {
           "path": "/books/genre-fiction/best-world-war-ii-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-world-war-ii-books",
-          "title": "Best Books About World War II — Ranked with Winner Logic",
+          "title": "Best Books About World War II \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-world-war-ii-books/page.tsx",
           "data_source": null,
@@ -2198,7 +2227,7 @@
         {
           "path": "/books/reader-picks/best-action-adventure-books-for-men",
           "url": "https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men",
-          "title": "Best Action Adventure Books for Men — Ranked with Winner Logic",
+          "title": "Best Action Adventure Books for Men \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-action-adventure-books-for-men/page.tsx",
           "data_source": null,
@@ -2212,7 +2241,7 @@
         {
           "path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
           "url": "https://bestpickzone.com/books/reader-picks/best-books-for-people-who-dont-like-reading",
-          "title": "Best Books for People Who Don't Like Reading — Ranked by Why They Work",
+          "title": "Best Books for People Who Don't Like Reading \u2014 Ranked by Why They Work",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-books-for-people-who-dont-like-reading/page.tsx",
           "data_source": null,
@@ -2226,7 +2255,7 @@
         {
           "path": "/books/reader-picks/best-books-like-da-vinci-code",
           "url": "https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code",
-          "title": "Best Books Like The Da Vinci Code — Ranked with Winner Logic",
+          "title": "Best Books Like The Da Vinci Code \u2014 Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-books-like-da-vinci-code/page.tsx",
           "data_source": null,
@@ -2254,7 +2283,7 @@
         {
           "path": "/books/reader-picks/best-new-books-april-2026",
           "url": "https://bestpickzone.com/books/reader-picks/best-new-books-april-2026",
-          "title": "Best New Books in April 2026 — This Month's Standout Releases",
+          "title": "Best New Books in April 2026 \u2014 This Month's Standout Releases",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-new-books-april-2026/page.tsx",
           "data_source": null,
@@ -2268,7 +2297,7 @@
         {
           "path": "/books/reader-picks/best-new-books-june-2026",
           "url": "https://bestpickzone.com/books/reader-picks/best-new-books-june-2026",
-          "title": "Best New Books in June 2026 — This Month's Standout Releases",
+          "title": "Best New Books in June 2026 \u2014 This Month's Standout Releases",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-new-books-june-2026/page.tsx",
           "data_source": null,
@@ -2310,7 +2339,7 @@
         {
           "path": "/books/self-help/best-personal-finance-books-young-adults",
           "url": "https://bestpickzone.com/books/self-help/best-personal-finance-books-young-adults",
-          "title": "Best Personal Finance Books for Young Adults — Matched to Your Situation",
+          "title": "Best Personal Finance Books for Young Adults \u2014 Matched to Your Situation",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/self-help/best-personal-finance-books-young-adults/page.tsx",
           "data_source": null,
@@ -2324,7 +2353,7 @@
         {
           "path": "/books/self-help/best-self-help-books-2026",
           "url": "https://bestpickzone.com/books/self-help/best-self-help-books-2026",
-          "title": "Best Self-Help Books to Read in 2026 — Honest Picks with Skip-This-If Guidance",
+          "title": "Best Self-Help Books to Read in 2026 \u2014 Honest Picks with Skip-This-If Guidance",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/self-help/best-self-help-books-2026/page.tsx",
           "data_source": null,
@@ -2858,7 +2887,7 @@
         {
           "path": "/books/best-brene-brown-books",
           "url": "https://bestpickzone.com/books/best-brene-brown-books",
-          "title": "Best Brené Brown Books",
+          "title": "Best Bren\u00e9 Brown Books",
           "renderer": "DynamicBookArticlePage",
           "page_source": "app/books/[slug]/page.tsx",
           "data_source": "lib/books-data-part1.ts",

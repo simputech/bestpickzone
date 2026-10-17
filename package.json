@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run validate:metadata && npm run validate:indexability",
+    "build": "next build && npm run validate:metadata && npm run validate:indexability && npm run validate:runtime-assets",
     "start": "next start",
     "lint": "next lint",
     "indexnow:submit": "node scripts/submit-indexnow.mjs",
@@ -18,7 +18,8 @@
     "test:metadata": "node --test scripts/metadata.test.mjs",
     "validate:indexability": "node scripts/validate-indexability.mjs",
     "test:deals": "node --test scripts/deals/*.test.cjs",
-    "deals:insights": "node scripts/deals/insights.mjs"
+    "deals:insights": "node scripts/deals/insights.mjs",
+    "validate:runtime-assets": "node scripts/validate-runtime-assets.mjs"
   },
   "dependencies": {
     "next": "14.2.3",
