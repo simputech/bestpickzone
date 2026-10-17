@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T02:12:03.503673+00:00",
+  "updatedAt": "2026-10-17T02:18:15.412780+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -194,15 +194,16 @@
       "/books/stephen-king-vs-dean-koontz",
       "/books/hemingway-vs-fitzgerald",
       "/books/lord-of-the-rings-vs-harry-potter",
-      "/home-kitchen/best-air-fryers"
+      "/home-kitchen/best-air-fryers",
+      "/books/genre-fiction/best-historical-fiction-books"
     ],
-    "commerceWiring": "13 eligible raw renderers wired; thirteen routes mapped. Remaining historical-fiction, James Clear and true-crime maps/research pending. Rhode and exact US SteamPod official-store-first.",
+    "commerceWiring": "13 raw routes wired; fifteen batch-three routes mapped. Historical-series and true-crime maps pending. Official workbook separately linked; shared workbook exclusion unchanged.",
     "technicalChecks": {
       "typecheck": "Passed after twelve drafts; rerun after latest three drafts.",
       "build": "Passed after eight substantive drafts and operations inventory: 279 statically rendered metadata pages; 335 indexable sitemap URLs; 0 metadata/indexability errors or warnings; 14 runtime assets; operations gate passed. Later editorial changes require rerun.",
       "runtimeTraceGate": "Passed for all 14 explicit route assets.",
-      "newIdentityTests": "Five synthetic boundary tests, including generation, flavor, kit and accessory exclusions; no live batch-three catalog claim.",
-      "editorialDrafts": "Fifteen substantive drafts saved. Later book and air-fryer rewrites require build/preview verification."
+      "newIdentityTests": "Six synthetic identity boundary tests passed, including air-fryer recalled/adjacent model and accessory exclusions. No live batch-three catalog claim.",
+      "editorialDrafts": "Sixteen substantive drafts saved; historical-series/true-crime final source checks, independent review/re-review, build and deployment QA remain."
     },
     "researchNotes": [
       "reports/creator-rollout/batch-03-research/retinol-bakuchiol.md",
@@ -226,7 +227,7 @@
     "scope": "Remove affirmative pregnancy-safety claims and pregnancy/breastfeeding-based bakuchiol recommendations. This narrow correction does not mark the batch-three article fully refreshed.",
     "qaReport": "reports/creator-rollout/pregnancy-claim-correction-qa.json"
   },
-  "coordination": "Separate Deal Agent task owns its routes/components/tests and necessary layout fix. Fetch current main before any rollout release; do not overwrite or merge unrelated branches.",
+  "coordination": "Fetched origin/main c96a013 (PR18 Deal Agent budget fix). Integrate before rollout release; preserve Deal Agent routes, API budget behavior, tests and operations documentation.",
   "operationsInventory": {
     "document": "docs/BACKEND_AND_DEPLOYMENT_INVENTORY.md",
     "register": "docs/operations/service-inventory.json",

@@ -42,3 +42,27 @@ Primary source pages confirm five author/work identities and disclosed premises.
 - https://us.macmillan.com/series/wolfhalltrilogy
 
 Do not use broad Shogun discovery: the title matcher strips colon subtitles, so a split volume could otherwise be mistaken for the whole work. Pin the publisher-linked complete edition and require runtime inspection; keep fallback if absent. No shared matcher changes made.
+
+## Follow-up habit books — October 17 research and correction
+
+All seven follow-up scopes checked against author/publisher pages. Replaced unsupported causal links to Clear's framework, guaranteed efficacy, single-trait success claims, broad psychology endorsement and implied universal reading sequence with specific reading purposes and limitations. Removed edition-unspecific page counts. Eight title/author maps include Atomic Habits and seven distinct authors. The official workbook remains separately linked: shared book matching deliberately rejects workbooks, and that policy was not weakened.
+- https://charlesduhigg.com/the-power-of-habit/
+- https://tinyhabits.com/book/
+- https://www.penguinrandomhouse.com/books/44330/mindset-by-carol-s-dweck-phd/
+- https://calnewport.com/writing/
+- https://www.angeladuckworth.com/grit
+- https://us.macmillan.com/books/9780374533557/thinkingfastandslow/
+- https://www.franklincovey.com/courses/the-7-habits/
+
+## General historical-fiction list — substantive draft
+
+Eight works retained, all strict title/author mappings. Replaced unsupported sales/current-popularity/critical-consensus claims and universal reader guarantees, removed edition-unspecific lengths, removed rebuilt FAQ, added actual author/publisher/award-body source links. Literary preferences are editorial judgments, not inferred reader-survey findings. No lastmod update yet.
+- https://www.simonandschuster.com/books/All-the-Light-We-Cannot-See/Anthony-Doerr/9781501173219
+- https://www.pulitzer.org/winners/anthony-doerr
+- https://www.penguinrandomhouse.com/books/196153/the-book-thief-anniversary-edition-by-markus-zusak/
+- https://www.penguinrandomhouse.com/books/804246/hamnet-movie-tie-in-edition-by-maggie-ofarrell/
+- https://www.pulitzer.org/winners/colson-whitehead (publisher synopsis reproduced)
+- https://www.nationalbook.org/books/cold-mountain/
+- https://tracychevalier.com/my-novels/girl-with-a-pearl-earring
+- https://www.philippagregory.com/books/the-other-boleyn-girl
+- https://www.arts.gov/initiatives/nea-big-read/beloved

@@ -65,3 +65,12 @@ test('facial-device and lip mappings reject wrong generations, kit contents and 
  for (const title of ['LANEIGE Lip Sleeping Mask Vanilla 20g','LANEIGE Lip Sleeping Mask Berry 3g','LANEIGE Lip Sleeping Mask Berry 20g Gift Set','LANEIGE Lip Sleeping Mask Berry 20g Applicator'])
   assert.equal(match(candidate(title,'LANEIGE','TEST'),laneige),null,title);
 });
+test('air fryer picks keep recalled and adjacent model identities separate', () => {
+ const [cosori,ninja] = articleCommerce['/home-kitchen/best-air-fryers'].products;
+ assert.ok(match(candidate('COSORI CP358-AF 5.8QT Air Fryer Non-Smart','COSORI','CP358-AF'),cosori));
+ assert.ok(match(candidate('Ninja AF101 4 Qt Air Fryer','Ninja','AF101','B07FDJMC9Q'),ninja));
+ for (const title of ['COSORI CP158-AF 5.8QT Air Fryer','COSORI CS358-AF 5.8QT Smart Air Fryer','COSORI CP358-AF Replacement Basket'])
+  assert.equal(match(candidate(title,'COSORI','TEST'),cosori),null,title);
+ for (const title of ['Ninja AF101C 4 Qt Air Fryer','Ninja AF101 4 Qt Air Fryer Replacement Basket','Ninja AF101 4 Qt Air Fryer 240V'])
+  assert.equal(match(candidate(title,'Ninja','TEST','B07FDJMC9Q'),ninja),null,title);
+});
