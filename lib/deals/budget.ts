@@ -4,7 +4,7 @@ export const emptyBudget: BudgetState = { budget: null, budgetExclusive: false, 
 const currencyBefore = /(?:\b(USD|US dollars?|dollars?|EUR|GBP|CAD|AUD|euros?)(?:\s*\$)?|(\$|€|£|¥|CA\$|AU\$|US\$|C\$|A\$))\s*$/i;
 const currencyAfter = /^\s*(USD|US dollars?|dollars?|bucks?|EUR|GBP|CAD|AUD|euros?|pounds?)\b/i;
 const limitBefore = /\b(under|below|less than|up to|at most|max(?:imum)?(?:\s+(?:is|of))?|budget(?:\s+(?:of|is|to))?)\s*:?\s*$/i;
-const measurementAfter = /^\s*(?:watts?|w|kw|volts?|v|amps?|amperes?|mah|wh|grams?|g|kg|kilograms?|lbs?|pounds?|ounces?|oz|ml|liters?|litres?|l|quarts?|qt|cups?|mm|cm|millimeters?|millimetres?|centimeters?|centimetres?|meters?|metres?|m|inch(?:es)?|in|feet|foot|ft|rpm|db|decibels?|hz|mhz|seconds?|secs?|minutes?|mins?|hours?|days?|years?|gb|mb|tb|ports?|percent)\b|^\s*[%"″′]/i;
+const measurementAfter = /^\s*[-–—]?\s*(?:watts?|w|kw|volts?|v|amps?|amperes?|mah|wh|grams?|g|kg|kilograms?|lbs?|pounds?|ounces?|oz|ml|liters?|litres?|l|quarts?|qt|cups?|mm|cm|millimeters?|millimetres?|centimeters?|centimetres?|meters?|metres?|m|inch(?:es)?|in|feet|foot|ft|rpm|db|decibels?|hz|mhz|seconds?|secs?|minutes?|mins?|hours?|days?|years?|gb|mb|tb|ports?|percent)\b|^\s*[%"″′]/i;
 
 /** Parse monetary context, not product dimensions. Newest explicit budget wins. */
 export function readBudget(messages: string[], previous: BudgetState = emptyBudget): BudgetState {

@@ -73,7 +73,7 @@ test('measurement constraints never overwrite an explicit monetary budget',()=>{
   assert.deepEqual(readBudget([query]),state,query);
   const result=recommend(query);assert.equal(result.budget,20);assert.equal(result.products.length,0);assert.equal(result.status,'verification-unavailable');assert.doesNotMatch(result.message,/\?/);
  }
- for(const query of ['maximum 200 watts','below 500 grams','under 5 pounds'])assert.deepEqual(readBudget([query],state),state,query);
+ for(const query of ['maximum 200 watts','maximum 200-watt motor','below 500 grams','below 500-gram weight','under 5 pounds'])assert.deepEqual(readBudget([query],state),state,query);
 });
 test('USD and punctuated budget formats remain constrained through direct results and genuine revisions',()=>{
  for(const query of ['coffee grinder under USD 20','coffee grinder budget: 20','coffee grinder under 20 USD','coffee grinder budget: USD 20','coffee grinder under USD$20','coffee grinder under US$20']){
