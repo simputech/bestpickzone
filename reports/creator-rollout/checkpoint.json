@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-17T01:13:44.160751+00:00",
+  "updatedAt": "2026-10-17T01:21:35.860671+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 3,
-  "status": "batch-three-triage; pregnancy-claim correction published and verified",
+  "status": "batch-three-research-and-drafting",
   "completedBatches": [
     1,
     2
@@ -172,13 +172,24 @@
     "productionReport": "reports/creator-rollout/batch-02-production-final.json"
   },
   "batch03": {
-    "status": "initial-triage-only",
+    "status": "research-and-drafting",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/16",
     "triageReport": "reports/creator-rollout/batch-03-triage.json",
     "articleCount": 20,
-    "independentReview": "pending",
+    "independentReview": "pending; separate research/review agent authorization question asked, no response yet",
     "previewQa": "pending",
-    "productionPublished": false
+    "productionPublished": false,
+    "draftedSubstantivePaths": [
+      "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+      "/books/self-help/best-james-clear-books",
+      "/books/reader-picks/best-true-crime-books"
+    ],
+    "commerceWiring": "13 eligible raw-HTML renderers wired; only Mark Manson mappings currently added. Other mappings pending identity research.",
+    "technicalChecks": {
+      "typecheck": "passed before latest content-only edits",
+      "build": "pending",
+      "runtimeTraceGate": "expanded to all explicitly packaged runtime articles; pending build"
+    }
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",

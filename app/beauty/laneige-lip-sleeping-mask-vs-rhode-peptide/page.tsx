@@ -1,7 +1,10 @@
+import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
+
+export const dynamic = 'force-dynamic'
 
 const pageUrl = 'https://bestpickzone.com/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide'
 
@@ -13,10 +16,5 @@ const article = loadRawHtmlArticle(
 export const metadata: Metadata = withSeo(article.metadata, "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide")
 
 export default function Page() {
-  return (
-    <>
-      <style dangerouslySetInnerHTML={{ __html: article.rawCss }} />
-      <div dangerouslySetInnerHTML={{ __html: article.rawHtml }} />
-    </>
-  )
+  return <RawHtmlCommerceArticle article={article} path="/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide" />
 }

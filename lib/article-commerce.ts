@@ -838,4 +838,12 @@ export const articleCommerce: Record<string, ArticleCommerce> = {
     ]
   },
 
+  // Batch 3: mappings are added after primary-source identity review.
+  '/books/best-mark-manson-books': { batch: 3, books: [
+    { title: 'The Subtle Art of Not Giving a F*ck', author: 'Mark Manson' },
+    { title: 'Everything Is F*cked', author: 'Mark Manson' },
+    { title: 'Models', author: 'Mark Manson' },
+    { title: 'Will', author: 'Will Smith' },
+    { title: 'The Subtle Art of Not Giving a F*ck Journal', author: 'Mark Manson' },
+  ] },
 }

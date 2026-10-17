@@ -1,7 +1,10 @@
+import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
+
+export const dynamic = 'force-dynamic'
 
 const pageUrl = 'https://bestpickzone.com/books/genre-fiction/best-historical-fiction-series-2026'
 
@@ -10,10 +13,5 @@ const article = loadRawHtmlArticle('app/books/genre-fiction/best-historical-fict
 export const metadata: Metadata = withSeo(article.metadata, "/books/genre-fiction/best-historical-fiction-series-2026")
 
 export default function Page() {
-  return (
-    <>
-      <style dangerouslySetInnerHTML={{ __html: article.rawCss }} />
-      <div dangerouslySetInnerHTML={{ __html: article.rawHtml }} />
-    </>
-  )
+  return <RawHtmlCommerceArticle article={article} path="/books/genre-fiction/best-historical-fiction-series-2026" />
 }
