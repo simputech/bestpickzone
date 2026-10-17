@@ -1,4 +1,5 @@
 import 'server-only'
+import { matchBudgetOffer, BUDGET_OFFER_TTL_MS, type AmazonBudgetOffer, type AmazonOfferResponseItem } from './amazon-budget-offer'
 
 import { unstable_noStore as noStore } from 'next/cache'
 import { matchAmazonBook, type AmazonBookItem, type AmazonBookRequest, type AmazonBookResponseItem } from './amazon-book-match'
@@ -19,6 +20,7 @@ type CreatorsApiConfig = {
   partnerTag: string
 }
 type CatalogResponse = {
+  itemResults?: { items?: AmazonProductResponseItem[] }
   searchResult?: { items?: AmazonProductResponseItem[] }
   itemsResult?: { items?: AmazonProductResponseItem[] }
 }
@@ -115,7 +117,7 @@ async function requestCatalog(config: CreatorsApiConfig, operation: 'searchItems
     if (!await requestGate.acquire()) return null
     const response = await fetch(`${API_BASE_URL}/catalog/v1/${operation}`, {
       method: 'POST',
-      headers: { Authorization: `Bearer ${accessToken}`, 'Content-Type': 'application/json', 'x-marketplace': config.marketplace },
+      headers: { Authorization: `Bearer ${accessToken}`, 'Content-Type': 'application/json', 'x-marketplace': config.marketplace, 'User-Agent': 'Agent/BestPickZoneDealAgent' },
       body: JSON.stringify({ ...parameters, marketplace: config.marketplace, partnerTag: config.partnerTag }),
       cache: 'no-store',
       redirect: 'error',
@@ -280,4 +282,35 @@ export async function getAmazonBooks(books: AmazonBookRequest[], options: Amazon
     Object.assign(matched, await pending)
   }
   return matched
+}
+
+// Separate, short-lived cache: article identity/image lookups continue to exclude offers.
+const budgetOfferCache = new AmazonMemoryCache<AmazonBudgetOffer | null>()
+const pendingBudgetOffers = new Map<string, Promise<AmazonBudgetOffer | null>>()
+const BUDGET_RESOURCES = [...PRODUCT_RESOURCES, 'offersV2.listings.price', 'offersV2.listings.availability',
+  'offersV2.listings.condition', 'offersV2.listings.isBuyBoxWinner', 'offersV2.listings.type', 'offersV2.listings.dealDetails']
+
+/** Only source-authored product requests belong here; never pass a user's shopping message. */
+export async function lookupAmazonBudgetOffer(expected: AmazonProductRequest): Promise<AmazonBudgetOffer | null> {
+  noStore()
+  const config = creatorsApiConfig({ partnerTag: 'althcu-20' })
+  if (!config || config.marketplace !== 'www.amazon.com') return null
+  const key = requestKey(config, 'budget-offer-v1', expected)
+  const cached = budgetOfferCache.get(key)
+  if (cached !== undefined) return cached
+  const pending = pendingBudgetOffers.get(key)
+  if (pending) return pending
+  const request = (async () => {
+    const payload = await requestCatalog(config, expected.asin ? 'getItems' : 'searchItems', {
+      ...(expected.asin ? { itemIds: [expected.asin], itemIdType: 'ASIN' } : { keywords: expected.query, itemCount: 10, ...(expected.brand ? { brand: expected.brand } : {}) }),
+      condition: 'New', resources: BUDGET_RESOURCES,
+    })
+    const candidates = expected.asin ? (payload?.itemsResult?.items ?? payload?.itemResults?.items) : payload?.searchResult?.items
+    let offer: AmazonBudgetOffer | null = null
+    try { if (Array.isArray(candidates)) offer = matchBudgetOffer(candidates as AmazonOfferResponseItem[], expected, config.partnerTag, new Date().toISOString()) } catch { /* Malformed catalog data fails closed. */ }
+    budgetOfferCache.set(key, offer, offer ? BUDGET_OFFER_TTL_MS : NEGATIVE_CACHE_MS)
+    return offer
+  })().finally(() => pendingBudgetOffers.delete(key))
+  pendingBudgetOffers.set(key, request)
+  return request
 }

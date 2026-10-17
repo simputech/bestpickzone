@@ -41,3 +41,18 @@ The daily Vercel cron uses `CRON_SECRET`. The operator insights endpoint accepts
 ## Verification
 
 Run `npm run test:deals`, existing affiliate/analytics tests, `npm run build` (includes full metadata and sitemap indexability validation), and `node scripts/deals/integration.mjs <base-url>`. Test browser question matching, unknown questions, budget labels, saved-target persistence, opt-in request storage/removal, responsive navigation and WinBlackFriday scoring. A Ready deployment is followed by custom-domain verification. Indexability is not proof of Google/Bing indexing.
+
+## Deal Agent budget fix — October 17, 2026
+
+The October 13 implementation acknowledged budgets but still suggested unpriced products. Its six-turn history could also drop the budget, and Start over retained a detected category. The revised endpoint carries a validated budget state independently of the history window. New explicit amounts replace earlier ones; `no budget` clears the constraint; invalid/unsupported-currency amounts fail closed. Under/below are strict limits; up to and a plain dollar budget are inclusive. USD only, with shipping and tax excluded from item-price comparisons.
+
+A budget request is resolved before a preference question. The endpoint checks only the appropriate curated choices against Amazon Creators API OffersV2, using existing credentials and `althcu-20`. Queries sent to Amazon are source-authored product identities, never user messages. Grinder ASIN/model constraints reuse the verified article mappings. Other categories require strict full-name/brand agreement and one unambiguous result. No product is returned as a budget match unless identity, unrestricted new condition, in-stock status and item price pass validation. Missing, ambiguous, member-only, subscription, deal or MAP-restricted offers fail closed. This is a limited shortlist, not exhaustive product or retailer search. No editorial price bands enter this decision.
+
+Offer cache is separate from article metadata: five minutes in process, one-minute negative cache, deduplicated requests, existing request gate and bounded API response time. No offer history, persistence, emails or alerts. Returned Amazon URLs retain all attribution parameters. Cards show the source, check time, new condition, availability and required price/content notices. Displayed checks expire after five minutes and require a fresh user request; no automatic tracking. Existing article image/identity calls still request no offers. Production/preview responses use no-store.
+
+Primary documentation checked October 17, 2026:
+- https://affiliate-program.amazon.com/creatorsapi/docs/en-us/api-reference/operations/get-items — request resources and product lookup.
+- https://affiliate-program.amazon.com/creatorsapi/docs/en-us/api-reference/resources/offersV2 — price money, condition, availability, featured offer and restriction fields.
+- https://affiliate-program.amazon.com/help/operating/policies — API attribution, cache, timestamp and notices; agent identification. No price alerts/tracking enabled by this change.
+
+Run `npm run test:deals`, `node --test scripts/amazon-*.test.cjs`, `npm run typecheck`, `npm run lint`, `npm run build`, and `node scripts/deals/verify-categories.mjs <base-url>`. Review and browser evidence must cover initial $20 query, both preference chips, free-text replies, budget changes and retention beyond six turns, impossible budgets, no-match, unavailable/offline recovery, repeated clicks, reset, and desktop/mobile layout. Test requests use synthetic shopping text only.

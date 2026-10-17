@@ -1,3 +1,5 @@
+import { readBudget, emptyBudget, type BudgetState } from "./budget";
+import type { AmazonBudgetOffer } from "../amazon-budget-offer";
 import data from "./categories.json";
 export const categories = data;
 export type ShoppingCategory = (typeof data)[number];
@@ -38,29 +40,24 @@ function detectCategory(query: string) {
     .filter((x) => x.score)
     .sort((a, b) => b.score - a.score)[0]?.c;
 }
-function budgetFrom(messages: string[]) {
-  for (const text of [...messages].reverse()) {
-    const match = text.match(
-      /(?:under|below|budget(?:\s+of|\s+is)?|up to|max(?:imum)?|\$)\s*\$?\s*([\d,]+(?:\.\d{1,2})?)/i,
-    );
-    const amount = match ? Number(match[1].replace(/,/g, "")) : NaN;
-    if (Number.isFinite(amount) && amount > 0 && amount <= 100000)
-      return amount;
-  }
-  return null;
-}
 export function recommend(
   query: string,
   slug?: string,
   history: string[] = [],
+  previousBudget?: BudgetState,
 ) {
-  const category = slug ? findCategory(slug) : detectCategory(query);
+  const category = slug ? findCategory(slug) : detectCategory([...history, query].join(" "));
   const messages = [...history, query];
-  const budget = budgetFrom(messages);
+  const budgetState = previousBudget ? readBudget([query], previousBudget) : readBudget(messages, emptyBudget);
+  const { budget } = budgetState;
   const base = {
     category: category?.slug || null,
-    budget,
-    livePrices: false as const,
+    ...budgetState,
+    status: "clarify" as "clarify" | "recommendation" | "no-match" | "verification-unavailable" | "invalid-budget",
+    candidateIds: [] as string[],
+    retailerSearch: category ? `https://www.amazon.com/s?k=${encodeURIComponent(category.title)}&tag=althcu-20` : null,
+    livePrices: false,
+    priceCheckExpiresAt: null as string | null,
     products: [] as Array<{
       id: string;
       name: string;
@@ -68,15 +65,21 @@ export function recommend(
       tradeoff: string;
       source: string;
       search: string;
+      offer?: AmazonBudgetOffer;
     }>,
     suggestions: [] as string[],
     message: "",
   };
+  if (budgetState.budgetIssue)
+    return { ...base, status: "invalid-budget" as const, message: budgetState.budgetIssue === "currency"
+      ? "Price checks support US dollars only. Please give a USD budget, or say ‘no budget’ to compare features. I have not converted your amount."
+      : "Please enter a budget between $0 and $100,000 with no more than two decimal places. I have not removed your budget constraint." };
   if (!category)
     return {
       ...base,
       message:
-        "Which kind of product are you looking for? Choose a category below so I can ask the right questions.",
+        "I do not have a curated match for that request. Choose a supported category, or name the type of product you need.",
+      status: "no-match" as const,
     };
   const other = detectCategory(query);
   if (
@@ -86,6 +89,7 @@ export function recommend(
   )
     return {
       ...base,
+      status: "no-match" as const,
       message: `That sounds like ${other.title.toLowerCase()}. Open that category to start a new recommendation.`,
       switchCategory: { slug: other.slug, title: other.title },
     };
@@ -93,6 +97,7 @@ export function recommend(
   if (/https?:\/\//i.test(query))
     return {
       ...base,
+      status: "no-match" as const,
       message:
         "I cannot read a product link here. Tell me the model name and what you need it to do, or use WinBlackFriday to check the offer details.",
       suggestions: category.examples,
@@ -105,9 +110,12 @@ export function recommend(
   )
     return {
       ...base,
+      status: "no-match" as const,
       message:
         "This shortlist covers adult display sets, so I do not have a suitable child’s playset recommendation here. Use LEGO’s age guidance to choose an age-appropriate set.",
     };
+  if (category.slug === "coffee-grinders" && /\b(manual|hand grinder|hand crank|blade|cordless|battery powered)\b/i.test(query))
+    return { ...base, status: "no-match" as const, message: "Our grinder shortlist covers two electric burr grinders. I do not have a verified manual, blade or cordless option here. Check retailer listings for that type, or read the category guide before choosing." };
   let selected: ShoppingCategory["products"][number] | undefined;
   const rejected = new Set<string>();
   // The newest explicit preference replaces earlier choices; a budget-only follow-up keeps the prior choice.
@@ -128,10 +136,24 @@ export function recommend(
       break;
     }
   }
+  if (budget !== null) {
+    const candidates = selected ? [selected] : category.products.filter(p => !rejected.has(p.id));
+    return {
+      ...base,
+      status: budget === 0 || !candidates.length ? "no-match" as const : "verification-unavailable" as const,
+      candidateIds: budget === 0 ? [] : candidates.map(p => p.id),
+      message: budget === 0
+        ? "I have no verified free products in this shortlist. Enter a positive budget, or check retailer listings yourself."
+        : !candidates.length
+          ? "None of our curated choices matches those preferences. Browse the category guide or check retailer listings for other models."
+          : `I cannot verify a ${budgetState.budgetExclusive ? "below" : "within"} $${budget.toLocaleString("en-US")} match right now. No unverified product is being recommended against your budget. Check current retailer listings and the final total, including shipping and tax, or try again later.`,
+    };
+  }
   if (!selected)
     return {
       ...base,
-      message: category.question,
+      status: history.length ? "no-match" as const : "clarify" as const,
+      message: history.length ? "I could not match that answer to our curated choices. Choose one of the options below, or browse the category guide for other needs." : category.question,
       suggestions: category.examples,
     };
   const priceQuestion =
@@ -140,12 +162,14 @@ export function recommend(
     );
   return {
     ...base,
+    status: "recommendation" as const,
     message: priceQuestion
       ? "Here’s a fit to compare. I cannot confirm its current price or whether it meets your budget."
       : "This is my starting recommendation from our curated shortlist.",
     products: [
       {
         ...selected,
+        offer: undefined as AmazonBudgetOffer | undefined,
         search: `https://www.amazon.com/s?k=${encodeURIComponent(selected.name)}&tag=althcu-20`,
       },
     ],

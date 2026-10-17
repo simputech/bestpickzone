@@ -11,6 +11,7 @@ export default function DealAgent({
 }: {
   initialCategory?: Category;
 }) {
+  const [clock, setClock] = useState(Date.now());
   const [category, setCategory] = useState(initialCategory);
   const [query, setQuery] = useState("");
   const [turns, setTurns] = useState<Turn[]>([]);
@@ -21,6 +22,10 @@ export default function DealAgent({
   const answer = useRef<HTMLDivElement>(null);
   const pending = useRef(false);
   useEffect(() => {
+    const timer = setInterval(() => setClock(Date.now()), 1000);
+    return () => clearInterval(timer);
+  }, []);
+  useEffect(() => {
     if (initialCategory) return;
     const topic = new URLSearchParams(window.location.search).get("topic");
     setCategory(
@@ -30,7 +35,10 @@ export default function DealAgent({
   useEffect(() => {
     if (turns.length) {
       answer.current?.focus({ preventScroll: true });
-      answer.current?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      // Keep the page title in place when the answer already fits on screen.
+      const bounds = answer.current?.getBoundingClientRect();
+      if (bounds && (bounds.top < 80 || bounds.bottom > window.innerHeight))
+        answer.current?.scrollIntoView({ block: "start", behavior: "smooth" });
     }
   }, [turns]);
   async function ask(value = query) {
@@ -55,6 +63,11 @@ export default function DealAgent({
           query: question,
           category: category?.slug,
           history: turns.slice(-6).map((t) => t.question),
+          budgetState: turns.length ? {
+            budget: turns.at(-1)!.answer.budget,
+            budgetExclusive: turns.at(-1)!.answer.budgetExclusive,
+            budgetIssue: turns.at(-1)!.answer.budgetIssue,
+          } : undefined,
         }),
         signal: controller.signal,
       });
@@ -62,6 +75,7 @@ export default function DealAgent({
       if (!response.ok) throw new Error(result.error || "Please try again.");
       setTurns((old) => [...old, { question, answer: result }]);
       setQuery("");
+      setClock(Date.now());
       if (result.category)
         setCategory(categoryIndex.find((c) => c.slug === result.category));
     } catch {
@@ -105,6 +119,8 @@ export default function DealAgent({
     }
   }
   function reset() {
+    const topic = new URLSearchParams(window.location.search).get("topic");
+    setCategory(initialCategory || categoryIndex.find(c => c.oldSlug === topic || c.slug === topic));
     setTurns([]);
     setQuery("");
     setError("");
@@ -145,7 +161,9 @@ export default function DealAgent({
         aria-live="polite"
         aria-busy={busy}
       >
-        {turns.slice(-3).map((turn, i, visible) => (
+        {turns.slice(-3).map((turn, i, visible) => {
+          const expired = !!turn.answer.priceCheckExpiresAt && Date.parse(turn.answer.priceCheckExpiresAt) <= clock;
+          return (
           <div
             key={turns.length - visible.length + i}
             className="shopping-turn"
@@ -160,21 +178,26 @@ export default function DealAgent({
               tabIndex={-1}
             >
               <span className="shopping-answer-label">DEAL AGENT</span>
-              <p>{turn.answer.message}</p>
+              <p>{expired ? "This price check has expired. Send your request again to check current offers; your budget is still saved." : turn.answer.message}</p>
               {turn.answer.budget !== null && (
                 <p className="shopping-note">
-                  Your budget: ${turn.answer.budget.toLocaleString("en-US")}.
-                  Price fit has not been verified.
+                  Your budget: {turn.answer.budgetExclusive ? "under " : "up to "}${turn.answer.budget.toLocaleString("en-US")} USD.
+                  {turn.answer.livePrices && !expired ? " Item prices checked; shipping and tax are extra." : " No verified budget match is shown."}
                 </p>
               )}
-              {turn.answer.products.map((p) => (
+              {!expired && turn.answer.products.map((p) => (
                 <article className="shopping-pick" key={p.id}>
                   <span className="shopping-answer-label">
-                    YOUR SUGGESTED STARTING POINT
+                    {p.offer ? "VERIFIED ITEM PRICE" : "CURATED FEATURE MATCH"}
                   </span>
                   <h3>{p.name}</h3>
+                  {p.offer && <div className="shopping-note">
+                    <p><a className="shopping-text-link" href={p.offer.url} target="_blank" rel="sponsored noopener">Amazon.com price: {p.offer.displayAmount}</a> · New · In stock when checked</p>
+                    <p>Checked {new Date(p.offer.checkedAt).toLocaleString("en-US", { timeZone: "UTC" })} UTC. Before shipping and tax.</p>
+                    <p>Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon.com at the time of purchase will apply to the purchase of this product.</p>
+                  </div>}
                   <p>
-                    <strong>Why it fits:</strong> {p.reason}
+                    <strong>Best for:</strong> {p.reason}
                   </p>
                   <p>
                     <strong>The tradeoff:</strong> {p.tradeoff}
@@ -193,6 +216,13 @@ export default function DealAgent({
                   </div>
                 </article>
               ))}
+              {!turn.answer.products.length && turn.answer.retailerSearch && turn.answer.status !== "clarify" && (
+                <div className="shopping-pick-links">
+                  <a href={turn.answer.retailerSearch} target="_blank" rel="sponsored noopener">Search Amazon yourself (affiliate) ↗</a>
+                  <Link href={`/deals/${turn.answer.category}`}>Read the category guide →</Link>
+                </div>
+              )}
+              {!expired && turn.answer.livePrices && <p className="shopping-note">CERTAIN CONTENT THAT APPEARS ON THIS SITE COMES FROM AMAZON. THIS CONTENT IS PROVIDED ‘AS IS’ AND IS SUBJECT TO CHANGE OR REMOVAL AT ANY TIME.</p>}
               {"switchCategory" in turn.answer &&
                 turn.answer.switchCategory && (
                   <Link href={`/deals/${turn.answer.switchCategory.slug}`}>
@@ -201,7 +231,7 @@ export default function DealAgent({
                 )}
             </div>
           </div>
-        ))}
+        ); })}
       </div>
       <form
         onSubmit={(e) => {
@@ -232,7 +262,9 @@ export default function DealAgent({
           aria-describedby="shopping-chat-note shopping-chat-error"
           placeholder={
             category
-              ? `${category.examples[0]}. My budget is…`
+              ? latest?.budget !== null && latest?.budget !== undefined
+                ? "Change your needs or budget, or retry the price check…"
+                : `${category.examples[0]}. My budget is…`
               : "e.g. A coffee grinder for espresso and filter coffee…"
           }
         />
@@ -279,8 +311,9 @@ export default function DealAgent({
         ))}
       </div>
       <p className="shopping-note" id="shopping-chat-note">
-        Curated recommendations, with linked sources. Live prices and stock are
-        not checked. Please leave personal information out of your message.
+        We check Amazon offers for our limited curated shortlist when you give a USD budget.
+        A missing or unverified offer is not a budget match. We do not search every product or retailer.
+        Please leave personal information out of your message.
       </p>
       {!!latest?.products.length && (
         <div className="shopping-feedback">
