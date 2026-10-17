@@ -97,7 +97,9 @@
     .wc ul li{font-size:14px;padding:4px 0;display:flex;gap:8px;color:#374151}
     .wci ul li::before{content:"→";color:var(--indigo);font-weight:700;flex-shrink:0}
     .wcr ul li::before{content:"→";color:var(--red);font-weight:700;flex-shrink:0}
-    .ctw{margin:32px 0;overflow-x:auto}
+    .ctw{margin:32px 0}
+    .ct-scroll{overflow-x:auto}
+    .ct-scroll:focus-visible{outline:2px solid var(--indigo);outline-offset:4px}
     .ctw h2{font-family:'Playfair Display',serif;font-size:24px;margin-bottom:16px}
     table.ct{width:100%;border-collapse:collapse;font-size:14px}
     table.ct th{padding:13px 16px;font-weight:800;font-size:13px;background:var(--dark);color:#fff;text-align:center}
@@ -191,6 +193,8 @@
 
   <div class="ctw">
     <h2>Which specifications should you compare?</h2>
+    <p>Scroll the table horizontally to compare all columns. Keyboard users can focus the table region and use the arrow keys.</p>
+    <div class="ct-scroll" role="region" aria-label="LED mask comparison table: scroll horizontally to see all columns" tabindex="0">
     <table class="ct">
       <thead><tr><th scope="col">Decision point</th><th scope="col">FaceWare Pro</th><th scope="col">Contour Face</th></tr></thead>
       <tbody>
@@ -202,6 +206,7 @@
         <tr><th scope="row">What the numbers do not prove</th><td colspan="2">LED totals and session length do not establish a clinical winner, equivalent doses or guaranteed results.</td></tr>
       </tbody>
     </table>
+    </div>
     <p style="font-size:14px">Sources: <a href="https://www.drdennisgross.com/drx-spectralite-faceware-pro-3-minute-led-device/695866568117.html" target="_blank" rel="noopener">FaceWare Pro product page</a>, <a href="https://omniluxled.com/products/omnilux-contour-face" target="_blank" rel="noopener">Contour Face specifications</a> and <a href="https://omniluxled.com/pages/help-center-products" target="_blank" rel="noopener">Omnilux treatment instructions</a>. Manufacturer specifications are not independent performance measurements.</p>
   </div>
 

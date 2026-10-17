@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-17T00:34:13.335816+00:00",
+  "updatedAt": "2026-10-17T00:44:12.433461+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 2,
-  "status": "blocked-preview-browser-coordination",
+  "status": "blocked-preview-access-approval",
   "completedBatches": [
     1
   ],
@@ -51,11 +51,11 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Complete protected-preview desktop/mobile QA for draft PR #15 after shared Chrome coordination and authorized preview access. Publish only after passing, then verify exact production commit and API identities/images before batch three.",
+  "nextAction": "Obtain scoped access or user Vercel sign-in for the latest PR #15 preview, complete deployed desktop/mobile fallback QA, then publish and verify exact production commit and live API identities/images before batch three.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
-    "Mac supported browser inventory exposes shared Chrome only; isolated in-app browser is unavailable. Chrome is reserved for another Stripe task until coordination. Prior cloud-browser preview approval is not transferred."
+    "Shared Chrome coordination released for this task-owned tab only. Local desktop/mobile QA completed without changing other tabs or global viewport. Protected preview still requires sign-in or a new scoped grant; old cloud approval is not transferred."
   ],
   "existingPullRequest": {
     "number": 6,
@@ -148,9 +148,12 @@
       "build": "passed; metadata 296; indexable sitemap URLs 335; zero errors/warnings",
       "httpQaReport": "reports/creator-rollout/batch-02-mac-http-qa.json",
       "previewBrowserVerified": false,
-      "productionPublished": false
+      "productionPublished": false,
+      "localBrowserQaReport": "reports/creator-rollout/batch-02-mac-browser-qa.json",
+      "localBrowserVerified": true,
+      "accessibilityCorrection": "LED mask comparison table now has a keyboard-focusable scroll region, visible focus outline and horizontal-scroll instructions; keyboard ArrowRight produced scrollLeft 40 at 390px with no page overflow."
     },
-    "previewAccess": "Pending on this Mac. Preview returns HTTP 302 to vercel.com/sso-api. Existing CLI identity simputech and project/team were verified, but vercel curl stopped at confirmation before requesting the page. No bypass token or access setting was created; old cloud approval is not transferred.",
+    "previewAccess": "Pending scoped approval or user Vercel sign-in in the dedicated QA tab. The existing browser session reaches Vercel login. No new bypass token/share grant was created; previous cloud approval is not transferred. Latest source update needs a new READY deployment target.",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/15",
     "sourceCommit": "ae528653ff70513098dbfa3e0eec5050fb6f8ca2",
     "previewDeployment": {
@@ -160,12 +163,12 @@
       "stateAtLastCheck": "READY"
     },
     "pendingBlocker": {
-      "action": "Desktop/mobile browser QA of batch-two protected preview",
-      "target": "https://bestpickzone-fixed-3rjonq3k7-simputechs-projects.vercel.app",
-      "status": "pending coordination; not denied",
-      "reason": "Only shared Chrome is supported; user reserved it for concurrent Stripe work. Isolated in-app browser is unavailable. Coordination question is unanswered.",
-      "completed": "Recovery integrity; 174 tests; typecheck; lint; full build; 335 indexable URLs; 20-route local HTTP QA; draft PR #15; READY preview",
-      "requiresAfterAccess": "Preview layout/disclosure/tables/body/images; then authorized publication and production API identity/image verification"
+      "action": "Create a one-hour deployment-scoped private preview access link, or user Vercel sign-in, to complete deployed QA",
+      "target": "Latest deployment of draft PR #15; resolve after accessibility-fix push",
+      "status": "pending approval; not denied",
+      "reason": "Dedicated Chrome preview tab is signed out of Vercel. Prior approval covered the old cloud browser only. The pending question named the previous deployment and must not silently cover the replacement.",
+      "completed": "Archive integrity; 174 tests; typecheck; lint; full build; 335 indexable URLs; 20-route HTTP QA; 40 local desktop/mobile browser observations; table accessibility correction and recheck; draft PR #15",
+      "requiresAfterAccess": "Deployed preview QA; publication; exact production commit and live API identity/image verification"
     }
   }
 }
