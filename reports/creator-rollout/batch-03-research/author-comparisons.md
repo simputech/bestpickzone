@@ -17,3 +17,18 @@ Five specific starting novels, supported by author synopses. Omitted unverified 
 - https://www.deankoontz.com/book/watchers/
 - https://www.deankoontz.com/book/intensity/
 - https://www.deankoontz.com/book/odd-thomas/
+
+## Hemingway / Fitzgerald
+Three original novels mapped by title and author. Replaced unsupported biographical rankings and a points-based winner with differences in narration, setting and reading commitment. Gutenberg original texts support Gatsby/Sun; publisher supports Tender. No Old Man edition added without sufficient source review.
+- https://www.gutenberg.org/cache/epub/64317/pg64317-images.html
+- https://www.gutenberg.org/cache/epub/67138/pg67138-images.html
+- https://www.simonandschuster.com/books/Tender-Is-the-Night/F-Scott-Fitzgerald/9781982147716
+
+## Tolkien / Rowling
+Start-book maps only, avoiding ambiguous complete-series/individual-volume substitution. Distinguishes the single Lord of the Rings work in three volumes, separate Hobbit, seven Harry Potter novels, UK/US first-title difference and Cursed Child script. Reader-fit and family selection guidance replaces unsupported winner tallies. No unsupported sales counts or fixed age recommendation.
+- https://www.tolkienestate.com/writing/the-lord-of-the-rings/
+- https://www.tolkienestate.com/writing/john-d-rateliff-the-hobbit/
+- https://www.tolkienestate.com/writing/vincent-ferre-is-the-lord-of-the-rings-an-adventure-story/
+- https://www.jkrowling.com/book/harry-potter-philosophers-stone/
+- https://www.jkrowling.com/writing/
+- https://www.jkrowling.com/book/harry-potter-order-phoenix/

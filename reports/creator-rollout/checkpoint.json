@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:57:55.923187+00:00",
+  "updatedAt": "2026-10-17T02:12:03.503673+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -191,15 +191,18 @@
       "/beauty/salicylic-acid-vs-benzoyl-peroxide",
       "/beauty/vitamin-c-vs-niacinamide",
       "/books/agatha-christie-vs-arthur-conan-doyle",
-      "/books/stephen-king-vs-dean-koontz"
+      "/books/stephen-king-vs-dean-koontz",
+      "/books/hemingway-vs-fitzgerald",
+      "/books/lord-of-the-rings-vs-harry-potter",
+      "/home-kitchen/best-air-fryers"
     ],
-    "commerceWiring": "13 eligible raw renderers wired; ten routes mapped. Remaining book/air-fryer mappings pending. Rhode and exact US SteamPod remain official-store-first.",
+    "commerceWiring": "13 eligible raw renderers wired; thirteen routes mapped. Remaining historical-fiction, James Clear and true-crime maps/research pending. Rhode and exact US SteamPod official-store-first.",
     "technicalChecks": {
-      "typecheck": "Passed after Revlon/SteamPod draft and operations gate integration.",
+      "typecheck": "Passed after twelve drafts; rerun after latest three drafts.",
       "build": "Passed after eight substantive drafts and operations inventory: 279 statically rendered metadata pages; 335 indexable sitemap URLs; 0 metadata/indexability errors or warnings; 14 runtime assets; operations gate passed. Later editorial changes require rerun.",
       "runtimeTraceGate": "Passed for all 14 explicit route assets.",
       "newIdentityTests": "Five synthetic boundary tests, including generation, flavor, kit and accessory exclusions; no live batch-three catalog claim.",
-      "editorialDrafts": "Twelve substantive drafts saved; latest ingredient and author rewrites need build/preview verification."
+      "editorialDrafts": "Fifteen substantive drafts saved. Later book and air-fryer rewrites require build/preview verification."
     },
     "researchNotes": [
       "reports/creator-rollout/batch-03-research/retinol-bakuchiol.md",
@@ -208,7 +211,8 @@
       "reports/creator-rollout/batch-03-research/lip-treatments.md",
       "reports/creator-rollout/batch-03-research/acne-ingredients.md",
       "reports/creator-rollout/batch-03-research/vitamin-c-niacinamide.md",
-      "reports/creator-rollout/batch-03-research/author-comparisons.md"
+      "reports/creator-rollout/batch-03-research/author-comparisons.md",
+      "reports/creator-rollout/batch-03-research/air-fryers.md"
     ]
   },
   "pregnancyClaimCorrection": {
