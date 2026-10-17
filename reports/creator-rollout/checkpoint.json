@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:41:15.367157+00:00",
+  "updatedAt": "2026-10-17T01:49:23.621964+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -186,12 +186,13 @@
       "/beauty/dyson-airwrap-vs-shark-flexstyle",
       "/beauty/dyson-airstrait-vs-ghd-duet-style",
       "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
-      "/beauty/nuface-trinity-vs-solawave-wand"
+      "/beauty/nuface-trinity-vs-solawave-wand",
+      "/beauty/revlon-one-step-vs-loreal-steampod"
     ],
-    "commerceWiring": "13 eligible raw renderers wired; seven routes mapped after identity research (two hair comparisons, facial devices, lip treatment, Mark Manson, historical epics and spy calendar). Remaining mappings pending.",
+    "commerceWiring": "13 eligible raw renderers wired; eight routes mapped after identity research. Remaining book/air-fryer mappings pending. Rhode and exact US SteamPod remain official-store-first.",
     "technicalChecks": {
-      "typecheck": "Passed after lip-treatment and facial-device drafts and maps.",
-      "build": "Passed at 797e30a before Airwrap draft/mappings: 335 indexable URLs, zero errors/warnings, 14 runtime assets packaged.",
+      "typecheck": "Passed after Revlon/SteamPod draft and operations gate integration.",
+      "build": "Passed after eight substantive drafts and operations inventory: 279 statically rendered metadata pages; 335 indexable sitemap URLs; 0 metadata/indexability errors or warnings; 14 runtime assets; operations gate passed. Later editorial changes require rerun.",
       "runtimeTraceGate": "Passed for all 14 explicit route assets.",
       "newIdentityTests": "Five synthetic boundary tests, including generation, flavor, kit and accessory exclusions; no live batch-three catalog claim."
     },
@@ -213,5 +214,12 @@
     "scope": "Remove affirmative pregnancy-safety claims and pregnancy/breastfeeding-based bakuchiol recommendations. This narrow correction does not mark the batch-three article fully refreshed.",
     "qaReport": "reports/creator-rollout/pregnancy-claim-correction-qa.json"
   },
-  "coordination": "Separate Deal Agent task owns its routes/components/tests and necessary layout fix. Fetch current main before any rollout release; do not overwrite or merge unrelated branches."
+  "coordination": "Separate Deal Agent task owns its routes/components/tests and necessary layout fix. Fetch current main before any rollout release; do not overwrite or merge unrelated branches.",
+  "operationsInventory": {
+    "document": "docs/BACKEND_AND_DEPLOYMENT_INVENTORY.md",
+    "register": "docs/operations/service-inventory.json",
+    "gate": "npm run validate:operations; included in build",
+    "verified": "8 services; Supabase BPZ tables/RLS/function/migration metadata, Vercel env names/scopes and production read-only backend health",
+    "unknown": "Sensitive production backend URL binding not decrypted; email inactive; ownership/backup and source-parity gaps explicit."
+  }
 }

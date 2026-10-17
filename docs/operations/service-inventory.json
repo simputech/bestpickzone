@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-17T01:46:41.212882+00:00",
+  "repository": "simputech/bestpickzone",
+  "productionBranch": "main",
+  "activeRolloutBranch": "content/creator-api-batch-03",
+  "documentation": "docs/BACKEND_AND_DEPLOYMENT_INVENTORY.md",
+  "services": [
+    {
+      "id": "github",
+      "provider": "GitHub",
+      "status": "live",
+      "account": "simputech",
+      "projectId": "simputech/bestpickzone",
+      "organizationId": null,
+      "ownershipEvidence": "Repository owner login returned by GitHub; individual/legal ownership not inferred."
+    },
+    {
+      "id": "vercel",
+      "provider": "Vercel",
+      "status": "live",
+      "projectId": "prj_nmIr0ohVP4y08vpuYRFDi6Lgnbao",
+      "projectName": "bestpickzone-fixed",
+      "organizationId": "team_wFkeAj93TVooMQ1IzpbkABSJ",
+      "account": "SimpuTech's projects / simputechs-projects",
+      "ownershipEvidence": "Project accountId matches returned team ID; deployment creator simputech is not evidence of sole ownership.",
+      "productionCommit": "b6f43f86eab87c85d2ac047a822dba3271e53ab0",
+      "productionDeployment": "dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg",
+      "domains": [
+        "bestpickzone.com",
+        "www.bestpickzone.com",
+        "bestpickzone-fixed.vercel.app"
+      ],
+      "protection": "all_except_custom_domains"
+    },
+    {
+      "id": "supabase-bpz",
+      "provider": "Supabase",
+      "status": "configured",
+      "projectId": "ewqmxrhsajdfgwnbqunw",
+      "projectName": "simputech",
+      "organizationId": "iuhwwftdvuypmbhfpllr",
+      "account": "simputech organization",
+      "ownershipEvidence": "Authorized project and organization listings; individual owners/roles not inspected.",
+      "region": "us-east-1",
+      "function": {
+        "slug": "bpz-deal-services",
+        "id": "d49af6e3-4424-4006-a84d-495685e43053",
+        "version": 2,
+        "status": "ACTIVE",
+        "verifyJwt": false,
+        "bundleSha256": "63a91701aff43f68a021b8094249b1d613085eb2128dcb9b273e89d882b97cf9"
+      },
+      "productionBinding": "unverified: BPZ_BACKEND_URL is masked Sensitive; no value was read or decrypted.",
+      "tables": [
+        "bpz_service_config",
+        "bpz_deal_subscriptions",
+        "bpz_deal_feedback",
+        "bpz_deal_rate",
+        "bpz_deal_deliveries"
+      ]
+    },
+    {
+      "id": "amazon-creators",
+      "provider": "Amazon Creators API",
+      "status": "live",
+      "projectId": null,
+      "organizationId": null,
+      "account": null,
+      "ownershipEvidence": "Production live cards verified; credential-owning Associates account not inspected.",
+      "partnerTags": [
+        "althcu-20",
+        "grandparentsgift-20"
+      ],
+      "receipt": "reports/creator-rollout/batch-02-production-final.json"
+    },
+    {
+      "id": "resend",
+      "provider": "Resend",
+      "status": "planned",
+      "projectId": null,
+      "organizationId": null,
+      "account": null,
+      "ownershipEvidence": "Integration code exists; BestPickZone account, domain verification and credentials not configured/verified."
+    },
+    {
+      "id": "google-analytics",
+      "provider": "Google Analytics",
+      "status": "configured",
+      "projectId": null,
+      "organizationId": null,
+      "account": null,
+      "ownershipEvidence": "Environment-variable metadata and consent-gated source verified; GA property/account and delivery not checked in this inventory."
+    },
+    {
+      "id": "indexnow",
+      "provider": "IndexNow",
+      "status": "configured",
+      "projectId": "bestpickzone.com",
+      "organizationId": null,
+      "account": null,
+      "ownershipEvidence": "Submission script and public verification-file design in source; current indexing not verified."
+    },
+    {
+      "id": "domain-dns",
+      "provider": "Domain registrar / authoritative DNS",
+      "status": "unknown",
+      "projectId": "bestpickzone.com",
+      "organizationId": null,
+      "account": null,
+      "ownershipEvidence": "Vercel domain association verified; registrar, DNS provider and registrant not inspected."
+    }
+  ],
+  "environments": {
+    "production": {
+      "hosting": "vercel",
+      "branch": "main",
+      "backend": "BPZ_BACKEND_URL and BPZ_BACKEND_SECRET configured; masked target binding unknown",
+      "creatorApi": "Production credentials configured; batch-two live QA passed",
+      "email": "Inactive: required settings absent",
+      "prices": "Unavailable"
+    },
+    "preview": {
+      "hosting": "Same Vercel project, branch deployments",
+      "branch": "content/creator-api-batch-03",
+      "backend": "No preview backend credentials returned",
+      "creatorApi": "No preview credentials returned; use honest fallback QA",
+      "email": "Not configured"
+    },
+    "development": {
+      "hosting": "Local Next.js",
+      "backend": "No development backend credentials returned; isolated service not provisioned",
+      "creatorApi": "No development API credentials returned",
+      "email": "Not configured",
+      "analytics": "Measurement-ID variable name configured; value not read"
+    }
+  },
+  "credentials": [
+    {
+      "name": "CRON_SECRET",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "sensitive",
+      "configured": true
+    },
+    {
+      "name": "BPZ_CRON_SECRET",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "sensitive",
+      "configured": true
+    },
+    {
+      "name": "BPZ_BACKEND_URL",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "sensitive",
+      "configured": true
+    },
+    {
+      "name": "BPZ_BACKEND_SECRET",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "sensitive",
+      "configured": true
+    },
+    {
+      "name": "AMAZON_ASSOCIATE_TAG",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "encrypted",
+      "configured": true
+    },
+    {
+      "name": "AMAZON_MARKETPLACE",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "encrypted",
+      "configured": true
+    },
+    {
+      "name": "AMAZON_CREATORS_API_CREDENTIAL_VERSION",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "encrypted",
+      "configured": true
+    },
+    {
+      "name": "AMAZON_CREATORS_API_CLIENT_SECRET",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "sensitive",
+      "configured": true
+    },
+    {
+      "name": "AMAZON_CREATORS_API_CLIENT_ID",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "sensitive",
+      "configured": true
+    },
+    {
+      "name": "NEXT_PUBLIC_GA_MEASUREMENT_ID",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "production"
+      ],
+      "type": "sensitive",
+      "configured": true
+    },
+    {
+      "name": "NEXT_PUBLIC_GA_MEASUREMENT_ID",
+      "storage": "Vercel project environment variables",
+      "targets": [
+        "development"
+      ],
+      "type": "encrypted",
+      "configured": true
+    },
+    {
+      "name": "RESEND_API_KEY",
+      "storage": "Vercel project environment variables when configured",
+      "targets": [],
+      "configured": false
+    },
+    {
+      "name": "BPZ_EMAIL_FROM",
+      "storage": "Vercel project environment variables when configured",
+      "targets": [],
+      "configured": false
+    },
+    {
+      "name": "BPZ_POSTAL_ADDRESS",
+      "storage": "Vercel project environment variables when configured",
+      "targets": [],
+      "configured": false
+    },
+    {
+      "name": "BPZ_ALERT_DISPATCH_ENABLED",
+      "storage": "Vercel project environment variables when configured",
+      "targets": [],
+      "configured": false
+    },
+    {
+      "name": "NEXT_PUBLIC_AMAZON_TRACKING_ID",
+      "storage": "Vercel project environment variables when configured",
+      "targets": [],
+      "configured": false
+    },
+    {
+      "name": "NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION",
+      "storage": "Vercel project environment variables when configured",
+      "targets": [],
+      "configured": false
+    },
+    {
+      "name": "SUPABASE_URL",
+      "storage": "Supabase Edge Function runtime; referenced by source, values not inspected",
+      "targets": [
+        "edge-runtime"
+      ],
+      "configured": null
+    },
+    {
+      "name": "SUPABASE_SERVICE_ROLE_KEY",
+      "storage": "Supabase Edge Function runtime; referenced by source, values not inspected",
+      "targets": [
+        "edge-runtime"
+      ],
+      "configured": null
+    },
+    {
+      "name": "VERCEL_TOKEN",
+      "storage": "GitHub Actions repository/organization secrets referenced by deploy.yml",
+      "targets": [
+        "github-actions"
+      ],
+      "configured": null
+    },
+    {
+      "name": "VERCEL_ORG_ID",
+      "storage": "GitHub Actions repository/organization secrets referenced by deploy.yml",
+      "targets": [
+        "github-actions"
+      ],
+      "configured": null
+    },
+    {
+      "name": "VERCEL_PROJECT_ID",
+      "storage": "GitHub Actions repository/organization secrets referenced by deploy.yml",
+      "targets": [
+        "github-actions"
+      ],
+      "configured": null
+    },
+    {
+      "name": "NODE_ENV",
+      "storage": "Framework/hosting runtime metadata",
+      "targets": [
+        "runtime"
+      ],
+      "configured": null
+    },
+    {
+      "name": "VERCEL_ENV",
+      "storage": "Framework/hosting runtime metadata",
+      "targets": [
+        "runtime"
+      ],
+      "configured": null
+    }
+  ],
+  "migrations": [
+    {
+      "name": "bpz_deal_services",
+      "version": "20261006234356",
+      "provider": "supabase-bpz",
+      "state": "execution-receipt-observed",
+      "sourceFile": "docs/deal-services-schema.sql",
+      "sourceSha256": "33eb0ef94cce4369dc939dfca42bc3edac65e48da03071e8082e3b8f7cabf1a4",
+      "receipt": "Supabase list_migrations on 2026-10-17 returned this version/name; exact applied SQL/source equivalence not reconstructed.",
+      "rollback": "No destructive down migration. Back up BPZ-only data, inspect dependencies and use an explicitly reviewed forward correction."
+    }
+  ],
+  "sourceFingerprints": [
+    {
+      "path": "supabase/functions/bpz-deal-services/index.ts",
+      "sha256": "c9e16c2bc9783a2dd76ce431ca95101ef6d99a0d2af417de94795869d9104438",
+      "deployedParity": "Not verified; local source hash is not the deployed bundle hash."
+    }
+  ],
+  "verification": {
+    "publicBackendStatus": {
+      "url": "https://bestpickzone.com/api/deal-alerts",
+      "httpStatus": 200,
+      "capture": true,
+      "email": false,
+      "prices": false,
+      "scope": "Read-only health call; no subscriptions or email created."
+    },
+    "databaseMetadata": {
+      "allFiveBpzTablesPresent": true,
+      "allFiveRlsEnabled": true,
+      "anonAndAuthenticatedTableGrants": [],
+      "scope": "Metadata only; no subscriber records, tokens, secret hashes or unrelated portfolio tables queried."
+    },
+    "articleProduction": "reports/creator-rollout/batch-02-production-final.json",
+    "pregnancyCorrection": "reports/creator-rollout/pregnancy-claim-correction-qa.json",
+    "batchThree": "Draft PR16; independent review, final checks, preview and production QA pending."
+  },
+  "unknowns": [
+    "Exact production BPZ_BACKEND_URL target cannot be read back without revealing a Sensitive variable; no decryption attempted.",
+    "Individual service owners and billing accounts not established.",
+    "Supabase backup/PITR configuration and restore test not verified.",
+    "Exact deployed Edge Function source parity and original migration execution SQL not reconstructed.",
+    "Email account, sending-domain DNS, postal address and delivery are not configured/verified.",
+    "GA4 account/property/measurement ID and current event delivery not verified.",
+    "GitHub Actions secret configuration/current workflow success not verified; do not infer from workflow file.",
+    "Registrar and authoritative DNS ownership unknown.",
+    "Separate dev/preview database not created; do not reuse production credentials."
+  ],
+  "releaseGate": {
+    "automated": "npm run validate:operations; included in npm run build",
+    "manual": [
+      "Check current remote main and exact READY production commit before releasing.",
+      "Reconcile service changes, environment targets, source fingerprints, migration receipts and ownership evidence.",
+      "Use current protected-preview access; never copy production secrets into preview.",
+      "Complete independent editorial review/re-review, focused tests, build, desktop/mobile QA and exact product/image/tag verification.",
+      "After publication update deployment receipt and rollout checkpoint; do not label untested services live."
+    ]
+  }
+}
