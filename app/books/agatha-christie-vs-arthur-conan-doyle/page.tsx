@@ -1,8 +1,11 @@
+import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
+
+export const dynamic = 'force-dynamic'
 
 const pageUrl = 'https://bestpickzone.com/books/agatha-christie-vs-arthur-conan-doyle'
 const publishedDate = '2026-06-14'
@@ -22,10 +25,5 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.me
 }), "/books/agatha-christie-vs-arthur-conan-doyle")
 
 export default function Page() {
-  return (
-    <>
-      <style dangerouslySetInnerHTML={{ __html: article.rawCss }} />
-      <div dangerouslySetInnerHTML={{ __html: article.rawHtml }} />
-    </>
-  )
+  return <RawHtmlCommerceArticle article={article} path="/books/agatha-christie-vs-arthur-conan-doyle" />
 }

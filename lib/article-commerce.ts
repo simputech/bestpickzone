@@ -7,6 +7,15 @@ export type ArticleCommerce = { batch: number; partnerTag?: string; products?: A
 // Explicit article opt-ins. Adding a card is not a substantive editorial refresh;
 // dates and sitemaps remain unchanged unless a separate reviewed edit warrants it.
 export const articleCommerce: Record<string, ArticleCommerce> = {
+  "/books/reader-picks/best-true-crime-books": {"batch": 3, "books": [{"title": "In Cold Blood", "author": "Truman Capote"}, {"title": "I'll Be Gone in the Dark", "author": "Michelle McNamara"}, {"title": "Killers of the Flower Moon", "author": "David Grann", "asin": "0307742482"}, {"title": "Say Nothing", "author": "Patrick Radden Keefe"}, {"title": "The Stranger Beside Me", "author": "Ann Rule"}, {"title": "Helter Skelter", "author": "Vincent Bugliosi"}, {"title": "The Devil in the White City", "author": "Erik Larson"}, {"title": "Lost Girls", "author": "Robert Kolker"}]},
+  "/books/genre-fiction/best-historical-fiction-series-2026": {"batch": 3, "books": [{"title": "The Pillars of the Earth", "author": "Ken Follett"}, {"title": "The Last Kingdom", "author": "Bernard Cornwell"}, {"title": "Wolf Hall", "author": "Hilary Mantel"}, {"title": "The Winter King", "author": "Bernard Cornwell"}, {"title": "Fall of Giants", "author": "Ken Follett"}, {"title": "Ross Poldark", "author": "Winston Graham"}, {"title": "A Morbid Taste for Bones", "author": "Ellis Peters"}]},
+  "/books/self-help/best-james-clear-books": {"batch": 3, "books": [{"title": "Atomic Habits", "author": "James Clear"}, {"title": "The Power of Habit", "author": "Charles Duhigg"}, {"title": "Tiny Habits", "author": "BJ Fogg"}, {"title": "Mindset", "author": "Carol S. Dweck"}, {"title": "Deep Work", "author": "Cal Newport"}, {"title": "Grit", "author": "Angela Duckworth"}, {"title": "Thinking, Fast and Slow", "author": "Daniel Kahneman"}, {"title": "The 7 Habits of Highly Effective People", "author": "Stephen R. Covey"}]},
+  "/books/genre-fiction/best-historical-fiction-books": {"batch": 3, "books": [{"title": "All the Light We Cannot See", "author": "Anthony Doerr"}, {"title": "The Book Thief", "author": "Markus Zusak"}, {"title": "Hamnet", "author": "Maggie O'Farrell"}, {"title": "The Underground Railroad", "author": "Colson Whitehead"}, {"title": "Cold Mountain", "author": "Charles Frazier"}, {"title": "Girl with a Pearl Earring", "author": "Tracy Chevalier"}, {"title": "The Other Boleyn Girl", "author": "Philippa Gregory"}, {"title": "Beloved", "author": "Toni Morrison"}]},
+  "/home-kitchen/best-air-fryers": {"batch": 3, "products": [{"query": "Cosori CP358-AF 5.8 quart air fryer", "label": "Cosori CP358-AF non-smart 5.8-quart air fryer", "brand": "Cosori", "expectedTitle": "Cosori CP358 AF air fryer", "requiredTitleTerms": ["CP358-AF"], "forbiddenTitleTerms": ["CP158", "CS158", "CP258", "CS358", "WiFi", "220V", "240V"], "note": "Exact non-smart CP358-AF only. The official store was sold out when researched; a search fallback does not verify current stock or seller."}, {"query": "Ninja AF101 4 quart air fryer", "label": "Ninja AF101 4-quart air fryer", "asin": "B07FDJMC9Q", "brand": "Ninja", "expectedTitle": "Ninja AF101 air fryer", "requiredTitleTerms": ["AF101", "4"], "forbiddenTitleTerms": ["AF100", "AF150", "AF161", "AF101C", "220V", "240V"], "note": "US AF101 only; check complete appliance, condition and seller. Other Ninja models are not substitutes."}]},
+  "/books/lord-of-the-rings-vs-harry-potter": {"batch": 3, "books": [{"title": "Harry Potter and the Sorcerer's Stone", "author": "J. K. Rowling"}, {"title": "The Fellowship of the Ring", "author": "J. R. R. Tolkien"}, {"title": "The Hobbit", "author": "J. R. R. Tolkien"}]},
+  "/books/hemingway-vs-fitzgerald": {"batch": 3, "books": [{"title": "The Great Gatsby", "author": "F. Scott Fitzgerald"}, {"title": "The Sun Also Rises", "author": "Ernest Hemingway"}, {"title": "Tender Is the Night", "author": "F. Scott Fitzgerald"}]},
+  "/books/stephen-king-vs-dean-koontz": {"batch": 3, "books": [{"title": "The Shining", "author": "Stephen King"}, {"title": "Carrie", "author": "Stephen King"}, {"title": "Watchers", "author": "Dean Koontz"}, {"title": "Intensity", "author": "Dean Koontz"}, {"title": "Odd Thomas", "author": "Dean Koontz"}]},
+  "/books/agatha-christie-vs-arthur-conan-doyle": {"batch": 3, "books": [{"title": "The Mysterious Affair at Styles", "author": "Agatha Christie"}, {"title": "The Adventures of Sherlock Holmes", "author": "Arthur Conan Doyle"}, {"title": "The Hound of the Baskervilles", "author": "Arthur Conan Doyle"}, {"title": "And Then There Were None", "author": "Agatha Christie"}, {"title": "The Murder of Roger Ackroyd", "author": "Agatha Christie"}]},
   '/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press': { batch: 1, products: [
     { query: 'KitchenAid KSMPRA pasta roller cutter set', label: 'KitchenAid KSMPRA roller and cutter set', asin: 'B01DBGQR1K', allowAccessory: true, requiredTitleTerms: ['KSMPRA', 'pasta'], brand: 'KitchenAid', expectedTitle: 'KitchenAid pasta', note: 'For pasta sheets, fettuccine and spaghetti. Confirm the set contents and mixer fit.' },
     { query: 'KitchenAid KSMPEXTA gourmet pasta press', label: 'KitchenAid KSMPEXTA pasta press', asin: 'B01ENK4UV2', allowAccessory: true, requiredTitleTerms: ['KSMPEXTA', 'pasta', 'press'], brand: 'KitchenAid', expectedTitle: 'KitchenAid pasta press', note: 'For extruded shapes. Use the press-specific dough recipe and allow time for cleaning.' },
@@ -838,4 +847,42 @@ export const articleCommerce: Record<string, ArticleCommerce> = {
     ]
   },
 
+  // Batch 3: mappings are added after primary-source identity review.
+  '/beauty/revlon-one-step-vs-loreal-steampod': { batch: 3, products: [
+    { query: 'Revlon One-Step Volumizer PLUS 2.4 inch US', label: 'Revlon One-Step Volumizer PLUS', brand: 'REVLON', expectedTitle: 'Revlon One Step Volumizer Plus', requiredTitleTerms: ['Volumizer', 'PLUS', '2.4'], forbiddenTitleTerms: ['Air Straight', '220V', '240V', 'head only', 'replacement head'], note: 'PLUS with the 2.4-inch oval head, not the original Volumizer or Air Straight. Confirm US electrical compatibility. SteamPod remains linked to its official US source in the article.' },
+  ] },
+  '/beauty/nuface-trinity-vs-solawave-wand': { batch: 3, products: [
+    { query: 'NuFACE TRINITY+ Starter Kit', label: 'NuFACE TRINITY+ Starter Kit', brand: 'NuFACE', expectedTitle: 'NuFACE Trinity+ Starter Kit', requiredTitleTerms: ['Trinity+', 'Starter Kit'], forbiddenTitleTerms: ['Complete', 'Mini', 'FIX', 'refill', 'attachment only'], note: 'TRINITY+ Starter Kit, not Classic Trinity or Complete. Check the included activator and read the exact device manual before buying.' },
+    { query: 'Solawave Radiant Renewal 4 in 1 Skincare Wand', label: 'Solawave Radiant Renewal 4-in-1 Wand', brand: 'Solawave', expectedTitle: 'Solawave Radiant Renewal Skincare Wand', requiredTitleTerms: ['Radiant Renewal', '4-in-1', 'Wand'], forbiddenTitleTerms: ['Advanced', 'mini', 'mask', 'serum only', 'charger only'], note: 'Radiant Renewal generation, not the earlier Advanced wand. Check the full 12-minute routine and contraindications; serum may be separate.' },
+  ] },
+  '/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide': { batch: 3, products: [
+    { query: 'LANEIGE Lip Sleeping Mask Berry 20g', label: 'Laneige Lip Sleeping Mask, Berry 20g', brand: 'LANEIGE', expectedTitle: 'LANEIGE Lip Sleeping Mask Berry', requiredTitleTerms: ['Berry', '20g'], forbiddenTitleTerms: ['Vanilla', 'Gummy', 'Candy', 'Grapefruit', 'mini', 'set', 'pack', 'duo', 'topper', 'holder', 'applicator'], note: 'Standard Berry 20g jar only. If the returned title does not establish the flavor and size, the card remains a search link. Rhode is official-store-first in the article.' },
+  ] },
+  '/books/genre-fiction/best-historical-epics-2026': { batch: 3, books: [
+    { title: 'The Pillars of the Earth', author: 'Ken Follett' },
+    { title: 'Shōgun', author: 'James Clavell', asin: '1982537523' },
+    { title: 'Lonesome Dove', author: 'Larry McMurtry' },
+    { title: 'The Covenant of Water', author: 'Abraham Verghese' },
+    { title: 'Wolf Hall', author: 'Hilary Mantel' },
+  ] },
+  '/books/genre-fiction/best-new-spy-thriller-books-2026': { batch: 3, books: [
+    { title: 'The Taper Man', author: 'Nick Harkaway' },
+    { title: 'Icarus 17', author: 'Charles Cumming' },
+    { title: 'Ransom', author: 'Daniel Silva' },
+  ] },
+  '/beauty/dyson-airstrait-vs-ghd-duet-style': { batch: 3, products: [
+    { query: 'Dyson Airstrait straightener US 120V', label: 'Dyson Airstrait', brand: 'Dyson', expectedTitle: 'Dyson Airstrait straightener', requiredTitleTerms: ['Airstrait', 'straightener'], forbiddenTitleTerms: ['Airwrap', 'Corrale', '220V', '240V', 'case', 'stand', 'holder', 'filter'], note: 'Airstrait, not Airwrap or Corrale. Confirm the selected US electrical version and seller support before buying.' },
+    { query: 'ghd Duet Style 2 in 1 hot air styler US', label: 'ghd Duet Style', brand: 'ghd', expectedTitle: 'ghd Duet Style styler', requiredTitleTerms: ['Duet Style', 'styler'], forbiddenTitleTerms: ['Blowdry', '220V', '240V', 'case', 'stand', 'holder'], note: 'Duet Style, not the Duet Blowdry brush. US version is not universal voltage; Shine Shot is for fully dry hair only.' },
+  ] },
+  '/beauty/dyson-airwrap-vs-shark-flexstyle': { batch: 3, products: [
+    { query: 'Dyson Airwrap i.d. Straight Wavy multi styler', label: 'Dyson Airwrap i.d. Straight+Wavy', brand: 'Dyson', expectedTitle: 'Dyson Airwrap i d multi styler dryer Straight+Wavy', requiredTitleTerms: ['i.d.', 'Straight', 'Wavy'], forbiddenTitleTerms: ['Co-anda2x', 'Origin', 'Curly', 'Coily'], note: 'The i.d. Straight+Wavy kit. Verify the selected color and included tools against the article; do not substitute Origin, Complete or Co-anda2x.' },
+    { query: 'Shark FlexStyle HD430 hair styling system', label: 'Shark FlexStyle HD430', brand: 'Shark', model: 'HD430', expectedTitle: 'Shark FlexStyle styling system', requiredTitleTerms: ['HD430'], forbiddenTitleTerms: ['IonCurl', 'Glam', 'HD435', 'HD440'], note: 'Original US HD430: two directional curlers, oval brush, paddle brush and concentrator. A diffuser is not included in this kit.' },
+  ] },
+  '/books/best-mark-manson-books': { batch: 3, books: [
+    { title: 'The Subtle Art of Not Giving a F*ck', author: 'Mark Manson' },
+    { title: 'Everything Is F*cked', author: 'Mark Manson' },
+    { title: 'Models', author: 'Mark Manson' },
+    { title: 'Will', author: 'Will Smith' },
+    { title: 'The Subtle Art of Not Giving a F*ck Journal', author: 'Mark Manson' },
+  ] },
 }

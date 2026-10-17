@@ -1,3 +1,7 @@
+# Project reports
+
+See the [backend and deployment inventory](../docs/BACKEND_AND_DEPLOYMENT_INVENTORY.md) and [Creator API rollout checkpoint](creator-rollout/checkpoint.json) for current service and release status. Run `npm run validate:operations` before release.
+
 `bestpickzone-monetization-tracker.xlsx` is generated from repo state.
 
 Key columns:

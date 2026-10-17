@@ -1,3 +1,5 @@
+> Current provider IDs, configuration evidence and unknowns: [Backend and deployment inventory](BACKEND_AND_DEPLOYMENT_INVENTORY.md). Preserve the dated operations history below.
+
 # Category recommendation refresh — October 13, 2026
 
 The ten former product-specific deal pages have been retired. `lib/legacy-redirects.json` maps each old URL directly to its category replacement with a permanent redirect. The sitemap and internal links use only the new category URLs. Existing comparisons retain their original editorial intent; the new pages are interactive product-selection tools with brief category introductions, a visible chat composer and CollectionPage/Breadcrumb markup. The October 13 content expansion adds server-rendered buying guidance below the conversation, with an unordered ItemList matching the visible shortlist.

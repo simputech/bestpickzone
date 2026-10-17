@@ -1,0 +1,661 @@
+{
+  "checkedAt": "2026-10-17T00:59:39.394Z",
+  "sourceCommit": "2da905de53a0ab813cf46bccd96d7c0bdaebbdfd",
+  "testedHead": "1ed2c1ecb84402a15513e9b70ff9303fc65a4d13",
+  "deploymentId": "dpl_GttZyTor6oXtfosafSm1FFhaG8wZ",
+  "productionAliases": [
+    "bestpickzone.com",
+    "www.bestpickzone.com"
+  ],
+  "pullRequest": 15,
+  "status": "verified-with-explicit-catalog-exceptions",
+  "liveCards": 31,
+  "fallbackCards": 7,
+  "liveRoutes": 19,
+  "all31LiveImagesLoaded": true,
+  "checks": {
+    "staticTestsPassed": 174,
+    "finalFocusedTestsPassed": 30,
+    "fullBuild": true,
+    "runtimeAssetTrace": true,
+    "metadataPages": 296,
+    "indexabilityPages": 335,
+    "previewRouteViewportChecks": 40,
+    "productionDesktopRoutes": 20,
+    "productionMobileRoutes": 20,
+    "desktopWidth": 1440,
+    "mobileWidth": 390,
+    "productionHttpMetadataErrors": 0,
+    "approvedSitemapDatesVerified": 11,
+    "productionRuntimeErrors": "No error logs found during final QA window",
+    "existingPilot": {
+      "path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+      "liveCards": 2,
+      "tag": "grandparentsgift-20"
+    }
+  },
+  "transientFallback": "Initial HTTP/browser pass found 30 live/8 fallback. Fellow Ode Gen 2 B0BLRMCM9Y on the brewed-coffee guide recovered on one bounded recheck; identity and image then passed. No matcher was loosened.",
+  "exceptions": [
+    {
+      "path": "/coffee/best-coffee-makers-for-low-cabinets",
+      "label": "Hamilton Beach FrontFill 46310J",
+      "reason": "Exact eligible catalog match unavailable at verification; explicitly labeled search fallback retained."
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "label": "Acaia Lunar 2021",
+      "reason": "Exact eligible catalog match unavailable at verification; explicitly labeled search fallback retained."
+    },
+    {
+      "path": "/mahjong/best-mahjong-mats-for-small-tables",
+      "label": "YMI 31.1-inch rubber-backed mat",
+      "reason": "Exact eligible catalog match unavailable at verification; explicitly labeled search fallback retained."
+    },
+    {
+      "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "label": "1Zpresso JX-Pro (original)",
+      "reason": "Exact eligible catalog match unavailable at verification; explicitly labeled search fallback retained."
+    },
+    {
+      "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "label": "Comandante C40 MK4 Nitro Blade",
+      "reason": "Exact eligible catalog match unavailable at verification; explicitly labeled search fallback retained."
+    },
+    {
+      "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "label": "Acaia Lunar 2021",
+      "reason": "Exact eligible catalog match unavailable at verification; explicitly labeled search fallback retained."
+    },
+    {
+      "path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "label": "Gaggia Classic Pro E24 (US brass-boiler model)",
+      "reason": "Exact eligible catalog match unavailable at verification; explicitly labeled search fallback retained."
+    }
+  ],
+  "officialStoreFirst": [
+    "Omnilux Contour Face",
+    "Elgato Air MK.2"
+  ],
+  "routes": [
+    {
+      "path": "/wfh/best-monitor-arms-for-shallow-desks",
+      "canonical": "https://bestpickzone.com/wfh/best-monitor-arms-for-shallow-desks",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "VIVO STAND-V001 single monitor arm",
+          "asin": "B00B21TLQU",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Ergotron LX Pro 45-682 single desk arm",
+          "asin": "B0DSJJMRFL",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/best-burr-grinders-french-press-cold-brew",
+      "canonical": "https://bestpickzone.com/coffee/best-burr-grinders-french-press-cold-brew",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Baratza Encore, standard model",
+          "asin": "B007F183LK",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Fellow Ode Gen 2",
+          "asin": "B0BLRMCM9Y",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/best-coffee-makers-for-low-cabinets",
+      "canonical": "https://bestpickzone.com/coffee/best-coffee-makers-for-low-cabinets",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Hamilton Beach FrontFill 46310J",
+          "asin": null,
+          "source": "fallback",
+          "titleIdentityReviewed": false,
+          "imageLoaded": false,
+          "imageLinked": false,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Zojirushi ZUTTO EC-DAC50, silver",
+          "asin": "B000EPLK6O",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "canonical": "https://bestpickzone.com/coffee/best-espresso-grinders-for-breville-bambino",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Baratza Encore ESP",
+          "asin": "B0BW272XCV",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Breville Smart Grinder Pro BCG820BSS",
+          "asin": "B00OXGXW8O",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "canonical": "https://bestpickzone.com/coffee/best-low-profile-espresso-scales",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Acaia Lunar 2021",
+          "asin": null,
+          "source": "fallback",
+          "titleIdentityReviewed": false,
+          "imageLoaded": false,
+          "imageLinked": false,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Wacaco Exagram Pro",
+          "asin": "B0D7378WJL",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+      "canonical": "https://bestpickzone.com/mahjong/best-carrying-bags-for-american-mahjong-sets",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "YMI Mojave case-only bag",
+          "asin": "B00SR63J2A",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "YMI Pepper case-only bag",
+          "asin": "B0777KBBLD",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/mahjong/best-mahjong-mats-for-small-tables",
+      "canonical": "https://bestpickzone.com/mahjong/best-mahjong-mats-for-small-tables",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "YMI 31.1-inch rubber-backed mat",
+          "asin": null,
+          "source": "fallback",
+          "titleIdentityReviewed": false,
+          "imageLoaded": false,
+          "imageLinked": false,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "YMI blue fitted cover YM-TR001-B87",
+          "asin": "B0753FHDC8",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "canonical": "https://bestpickzone.com/wfh/best-usb-c-docks-for-two-monitors",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "CalDigit TS4",
+          "asin": "B09GK8LBWS",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Plugable UD-6950PDH",
+          "asin": "B09TQY97MJ",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/wfh/best-video-call-lighting-for-glasses",
+      "canonical": "https://bestpickzone.com/wfh/best-video-call-lighting-for-glasses",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Elgato Key Light Neo with monitor mount, black",
+          "asin": "B0FDBL5MVM",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "canonical": "https://bestpickzone.com/coffee/1zpresso-jx-pro-vs-comandante-c40",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "1Zpresso JX-Pro (original)",
+          "asin": null,
+          "source": "fallback",
+          "titleIdentityReviewed": false,
+          "imageLoaded": false,
+          "imageLinked": false,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Comandante C40 MK4 Nitro Blade",
+          "asin": null,
+          "source": "fallback",
+          "titleIdentityReviewed": false,
+          "imageLoaded": false,
+          "imageLinked": false,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "canonical": "https://bestpickzone.com/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Acaia Lunar 2021",
+          "asin": null,
+          "source": "fallback",
+          "titleIdentityReviewed": false,
+          "imageLoaded": false,
+          "imageLinked": false,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Timemore Black Mirror Nano, white",
+          "asin": "B09KL96K8V",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/aeropress-original-vs-aeropress-premium",
+      "canonical": "https://bestpickzone.com/coffee/aeropress-original-vs-aeropress-premium",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "AeroPress Original",
+          "asin": "B0047BIWSK",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "AeroPress Premium, black",
+          "asin": "B0FRWSKCX6",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+      "canonical": "https://bestpickzone.com/coffee/baratza-encore-esp-vs-fellow-opus-2",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Baratza Encore ESP",
+          "asin": "B0BW272XCV",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Fellow Opus 2",
+          "asin": "B0FPCHNSX2",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "canonical": "https://bestpickzone.com/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Baratza Virtuoso+",
+          "asin": "B07QMY8GLX",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Fellow Ode Gen 2, standard burrs",
+          "asin": "B0BLRMCM9Y",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "canonical": "https://bestpickzone.com/coffee/breville-barista-express-vs-delonghi-la-specialista",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Breville Barista Express BES870XL",
+          "asin": "B00CH9QWOU",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "De'Longhi La Specialista EC9335M",
+          "asin": "B07QMWZ6PT",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "canonical": "https://bestpickzone.com/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Fellow Stagg EKG (original)",
+          "asin": "B077JBQZPX",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "COSORI CO108-NK",
+          "asin": "B07T1CH2HH",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/hario-v60-vs-chemex-classic",
+      "canonical": "https://bestpickzone.com/coffee/hario-v60-vs-chemex-classic",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Hario V60 02 clear plastic dripper",
+          "asin": "B001RBTSMM",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Chemex Six Cup Classic CM-6A",
+          "asin": "B0000YWF5E",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "canonical": "https://bestpickzone.com/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Timemore Chestnut C3 (standard)",
+          "asin": "B0GYW24XC1",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "KINGrinder K6, straight handle silver",
+          "asin": "B0GKFDZ725",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "canonical": "https://bestpickzone.com/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Breville Bambino Plus BES500",
+          "asin": "B07JVD78TT",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        },
+        {
+          "expectedLabel": "Gaggia Classic Pro E24 (US brass-boiler model)",
+          "asin": null,
+          "source": "fallback",
+          "titleIdentityReviewed": false,
+          "imageLoaded": false,
+          "imageLinked": false,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    },
+    {
+      "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "canonical": "https://bestpickzone.com/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "h1": 1,
+      "horizontalOverflow": false,
+      "cards": [
+        {
+          "expectedLabel": "Dr. Dennis Gross DRx SpectraLite FaceWare Pro",
+          "asin": "B08NCRHNW9",
+          "source": "creators-api",
+          "titleIdentityReviewed": true,
+          "imageLoaded": true,
+          "imageLinked": true,
+          "partnerTag": "althcu-20",
+          "sponsored": true
+        }
+      ],
+      "attribution": true,
+      "disclosure": true
+    }
+  ]
+}

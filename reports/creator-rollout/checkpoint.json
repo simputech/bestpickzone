@@ -1,12 +1,13 @@
 {
-  "updatedAt": "2026-10-17T00:48:37.337651+00:00",
+  "updatedAt": "2026-10-17T03:02:18.501538+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 2,
-  "status": "preview-packaging-correction",
+  "currentBatch": 3,
+  "status": "batch-three-research-and-drafting",
   "completedBatches": [
-    1
+    1,
+    2
   ],
   "batch01": {
     "reviewedPaths": [
@@ -51,7 +52,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Verify the corrected serverless package on a new preview, finish desktop/mobile deployed QA, publish PR #15, then verify exact production commit and live API identities/images before batch three.",
+  "nextAction": "Push completed twenty-article draft checkpoint; integrate latest main; parent-coordinated independent review/re-review and complete desktop/mobile local+preview QA; only then approve substantive dates, publish and verify live identities/images.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -111,9 +112,9 @@
       "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
       "/wfh/best-usb-c-docks-for-two-monitors"
     ],
-    "publicationCommit": null,
-    "deploymentId": null,
-    "runtimeVerified": false,
+    "publicationCommit": "2da905de53a0ab813cf46bccd96d7c0bdaebbdfd",
+    "deploymentId": "dpl_GttZyTor6oXtfosafSm1FFhaG8wZ",
+    "runtimeVerified": true,
     "minorEdits": [
       "/wfh/best-monitor-arms-for-shallow-desks",
       "/coffee/best-burr-grinders-french-press-cold-brew",
@@ -147,28 +148,109 @@
       "lint": "passed with existing warnings",
       "build": "passed; metadata 296; indexable sitemap URLs 335; zero errors/warnings",
       "httpQaReport": "reports/creator-rollout/batch-02-mac-http-qa.json",
-      "previewBrowserVerified": false,
-      "productionPublished": false,
+      "previewBrowserVerified": true,
+      "productionPublished": true,
       "localBrowserQaReport": "reports/creator-rollout/batch-02-mac-browser-qa.json",
       "localBrowserVerified": true,
-      "accessibilityCorrection": "LED mask comparison table now has a keyboard-focusable scroll region, visible focus outline and horizontal-scroll instructions; keyboard ArrowRight produced scrollLeft 40 at 390px with no page overflow."
+      "accessibilityCorrection": "LED mask comparison table now has a keyboard-focusable scroll region, visible focus outline and horizontal-scroll instructions; keyboard ArrowRight produced scrollLeft 40 at 390px with no page overflow.",
+      "productionVerified": true
     },
     "previewAccess": "Resolved through ordinary Continue with GitHub sign-in using the existing browser account. No new permissions screen, bypass token or share link was used. The former pending share-link question is obsolete.",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/15",
-    "sourceCommit": "ae528653ff70513098dbfa3e0eec5050fb6f8ca2",
+    "sourceCommit": "1ed2c1ecb84402a15513e9b70ff9303fc65a4d13",
     "previewDeployment": {
-      "id": "dpl_5wn8FTqzWmPavoHCa93DdWjksELd",
-      "url": "https://bestpickzone-fixed-1mf6sefe0-simputechs-projects.vercel.app",
-      "commit": "1f27aa5767cd925fba3c9f2c830d485b5144b6c8",
-      "stateAtLastCheck": "READY; QA failed LED route with missing runtime HTML"
+      "id": "dpl_BTbbeB2nfLqRTAeMm7CPGAR8taEz",
+      "url": "https://bestpickzone-fixed-8rurve9xl-simputechs-projects.vercel.app",
+      "commit": "1ed2c1ecb84402a15513e9b70ff9303fc65a4d13",
+      "stateAtLastCheck": "READY; desktop/mobile QA passed"
     },
-    "pendingBlocker": {
-      "action": "Verify packaging correction before publishing",
-      "target": "/beauty/dr-dennis-gross-vs-omnilux-contour on the next PR #15 preview",
-      "status": "implementation in progress; no approval blocker",
-      "reason": "Preview logs confirmed ENOENT for article-source.html; local generated function trace omitted the file.",
-      "completed": "Existing sign-in resolved access; other nineteen routes passed deployed desktop/mobile fallback layout checks.",
-      "requiresAfterAccess": "Rebuild with exact route-scoped include and validate generated trace; verify deployed route and remaining gates."
-    }
+    "pendingBlocker": null,
+    "pullRequestMerged": true,
+    "liveCards": 31,
+    "fallbackCards": 7,
+    "liveArticleRoutes": 19,
+    "productionReport": "reports/creator-rollout/batch-02-production-final.json"
+  },
+  "batch03": {
+    "status": "drafts-ready-for-independent-review",
+    "pullRequest": "https://github.com/simputech/bestpickzone/pull/16",
+    "triageReport": "reports/creator-rollout/batch-03-triage.json",
+    "articleCount": 20,
+    "independentReview": "Pending parent-coordinated independent read-only review and re-review; local reviewer authorization is no longer treated as a blocker.",
+    "previewQa": "pending",
+    "productionPublished": false,
+    "draftedSubstantivePaths": [
+      "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+      "/books/self-help/best-james-clear-books",
+      "/books/reader-picks/best-true-crime-books",
+      "/beauty/dyson-airwrap-vs-shark-flexstyle",
+      "/beauty/dyson-airstrait-vs-ghd-duet-style",
+      "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+      "/beauty/nuface-trinity-vs-solawave-wand",
+      "/beauty/revlon-one-step-vs-loreal-steampod",
+      "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+      "/beauty/vitamin-c-vs-niacinamide",
+      "/books/agatha-christie-vs-arthur-conan-doyle",
+      "/books/stephen-king-vs-dean-koontz",
+      "/books/hemingway-vs-fitzgerald",
+      "/books/lord-of-the-rings-vs-harry-potter",
+      "/home-kitchen/best-air-fryers",
+      "/books/genre-fiction/best-historical-fiction-books"
+    ],
+    "commerceWiring": "All 17 eligible routes mapped: eleven book guides and six product comparisons. Three ingredient-only guides have documented no-product exceptions. Thirteen raw routes use dynamic commerce rendering; four beauty comparisons use the existing dynamic renderer.",
+    "technicalChecks": {
+      "typecheck": "Passed October 17 after all twenty drafting passes.",
+      "tests": "192 passed across API, commerce, identity, Deal Agent, metadata, SEO, multilingual, attribution and analytics tests; synthetic fixtures are not live catalog verification.",
+      "lint": "Passed with existing warnings.",
+      "build": "Next production compilation and metadata passed: 279 statically rendered indexable pages, zero metadata errors/warnings. Initial local indexability process could not open a sandboxed port; reran with approved loopback server access and passed 335 sitemap URLs, zero errors/warnings.",
+      "runtimeTraceGate": "14 article assets included in function traces.",
+      "operations": "Both inventory gates passed; eight services and 23 runtime/CI variable names catalogued.",
+      "editorialDrafts": "16 substantive draft refreshes and four minor updates; all 20 have an author research/drafting pass, none independently approved yet."
+    },
+    "researchNotes": [
+      "reports/creator-rollout/batch-03-research/retinol-bakuchiol.md",
+      "reports/creator-rollout/batch-03-research/books-corrections.md",
+      "reports/creator-rollout/batch-03-research/hair-tools.md",
+      "reports/creator-rollout/batch-03-research/lip-treatments.md",
+      "reports/creator-rollout/batch-03-research/acne-ingredients.md",
+      "reports/creator-rollout/batch-03-research/vitamin-c-niacinamide.md",
+      "reports/creator-rollout/batch-03-research/author-comparisons.md",
+      "reports/creator-rollout/batch-03-research/air-fryers.md"
+    ],
+    "editorialPassCount": 20,
+    "independentlyApprovedCount": 0,
+    "localQa": {
+      "status": "started-not-complete",
+      "routesChecked": [
+        "/books/reader-picks/best-true-crime-books"
+      ],
+      "desktop": {
+        "width": 1440,
+        "documentWidth": 1440,
+        "h1Count": 1,
+        "canonical": "https://bestpickzone.com/books/reader-picks/best-true-crime-books"
+      },
+      "limitation": "One browser call returned after about 34 minutes; no permission denial, login or pending browser approval reported. No complete batch QA claimed."
+    },
+    "pendingApproval": null
+  },
+  "pregnancyClaimCorrection": {
+    "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",
+    "sourceCommit": "6f4dd151d2272cb9119825d0c076a53d26925f52",
+    "publicationCommit": "b6f43f86eab87c85d2ac047a822dba3271e53ab0",
+    "deploymentId": "dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg",
+    "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+    "previewVerified": true,
+    "productionVerified": true,
+    "scope": "Remove affirmative pregnancy-safety claims and pregnancy/breastfeeding-based bakuchiol recommendations. This narrow correction does not mark the batch-three article fully refreshed.",
+    "qaReport": "reports/creator-rollout/pregnancy-claim-correction-qa.json"
+  },
+  "coordination": "Integrated main b3bcdb2b966ac30551be148057b6f1df1529d683 (PR18 implementation and PR19 live verification receipt). Only conflict was documentation pre-release header; retained authoritative main release report. Both inventory gates and all Deal Agent code/tests preserved.",
+  "operationsInventory": {
+    "document": "docs/BACKEND_AND_DEPLOYMENT_INVENTORY.md",
+    "register": "docs/operations/service-inventory.json",
+    "gate": "npm run validate:operations; included in build",
+    "verified": "8 services; Supabase BPZ tables/RLS/function/migration metadata, Vercel env names/scopes and production read-only backend health",
+    "unknown": "Sensitive production backend URL binding not decrypted; email inactive; ownership/backup and source-parity gaps explicit."
   }
 }
