@@ -317,8 +317,8 @@ export default function DealAgent({
       {!!latest?.products.length && (
         <div className="shopping-feedback">
           <span>
-            Did this help? Share the topic, budget range and rating (not your
-            message).
+            Rate these results (optional). Shares the topic, budget range and rating,
+            not your message.
           </span>
           <button
             type="button"
