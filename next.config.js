@@ -6,6 +6,10 @@ const nextConfig = {
     // This dynamic route reads its editorial HTML at runtime. Keep the asset
     // in the serverless bundle as well as the local source checkout.
     outputFileTracingIncludes: {
+      '/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair': ['./app/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair/article-source.html'],
+      '/beauty/best-led-mask-for-melasma-and-hyperpigmentation': ['./app/beauty/best-led-mask-for-melasma-and-hyperpigmentation/article-source.html'],
+      '/beauty/is-omnilux-contour-worth-it': ['./app/beauty/is-omnilux-contour-worth-it/article-source.html'],
+
       '/wfh/purple-royal-seat-cushion-vs-cushion-lab': ['./app/wfh/purple-royal-seat-cushion-vs-cushion-lab/article-source.html'],
       '/wfh/secretlab-titan-evo-vs-ergotune-supreme': ['./app/wfh/secretlab-titan-evo-vs-ergotune-supreme/article-source.html'],
       '/wfh/fully-jarvis-vs-uplift-v2-standing-desk': ['./app/wfh/fully-jarvis-vs-uplift-v2-standing-desk/article-source.html'],

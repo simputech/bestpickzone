@@ -78,3 +78,23 @@ test('chairs: current Aeron size identity and Gesture chair pass; Classic and st
   assert.equal(match(candidate('Steelcase Gesture Office Chair Stool','Steelcase',''),gesture),null);
   assert.equal(match(candidate('Steelcase Gesture Office Chair Replacement Arm Pads','Steelcase',''),gesture),null);
 });
+test('input devices: exact generations pass and similar keyboards/mice fail', () => {
+ const [keys,apple]=articleCommerce['/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard'].products;
+ assert.ok(match(candidate('Logitech MX Keys S keyboard','Logitech',''),keys));
+ assert.equal(match(candidate('Logitech MX Keys Mini keyboard','Logitech',''),keys),null);
+ assert.ok(match(candidate('Apple Magic Keyboard USB C US English','Apple','MJLX4LL/A'),apple));
+ assert.equal(match(candidate('Apple Magic Keyboard USB C Touch ID','Apple','MJLX4LL/A'),apple),null);
+ assert.equal(match(candidate('Apple Magic Keyboard USB C US English','Apple','MXCL3LL/A'),apple),null);
+ const [mx,magic]=articleCommerce['/wfh/logitech-mx-master-3s-vs-apple-magic-mouse'].products;
+ assert.ok(match(candidate('Logitech MX Master 3S Bluetooth Mouse','Logitech',''),mx));
+ assert.equal(match(candidate('Logitech MX Master 3 Bluetooth Mouse','Logitech',''),mx),null);
+ assert.ok(match(candidate('Apple Magic Mouse USB C white','Apple','MXK53AM/A'),magic));
+ assert.equal(match(candidate('Apple Magic Mouse Lightning white','Apple','MXK53AM/A'),magic),null);
+});
+test('converters: manual widths/models pass; electric and adjacent VIVO models fail', () => {
+ const [vari,vivo]=articleCommerce['/wfh/vari-desk-converter-vs-vivo-desk-riser'].products;
+ assert.ok(match(candidate('VariDesk Pro Plus 36 desk converter','Vari',''),vari));
+ assert.equal(match(candidate('VariDesk Pro Plus 36 Electric desk converter','Vari',''),vari),null);
+ assert.ok(match(candidate('VIVO 42 inch desk converter','VIVO','DESK-V000VL'),vivo));
+ assert.equal(match(candidate('VIVO 42 inch desk converter','VIVO','DESK-V000V'),vivo),null);
+});

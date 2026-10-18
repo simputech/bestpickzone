@@ -23,3 +23,18 @@ Drafts are not independently reviewed or published. No sitemap dates advanced.
 - Initial sandbox build could not bind loopback; approved elevated build succeeded. Existing lint warnings remain; no claim of lint-warning-free output.
 - Eight focused synthetic commerce tests pass. No product image bytes fetched by tests.
 - All ten drafted articles pass conservative 1,000-word editorial depth count. Remaining ten articles still pending; full-batch unit suite, independent review/re-review, preview and production QA remain required.
+
+## Input devices and converters — October 18 draft checkpoint
+
+Primary pages opened and checked:
+- https://www.logitech.com/en-us/shop/p/mx-keys-s — full-size S, not Mini or Mechanical; OS/software boundaries.
+- https://www.apple.com/shop/product/mjlx4ll/a/magic-keyboard-usb-c-us-english — current standard compact USB-C US-English keyboard; exact model MJLX4LL/A, no Touch ID/numeric-pad substitution. Width 10.98in and depth 4.52in; macOS15.1 minimum on current listing.
+- https://www.logitech.com/en-us/shop/p/mx-master-3s — current Bluetooth Edition; package receivers must be checked, no blanket inclusion claim.
+- https://support.apple.com/en-us/121931 — USB-C Magic Mouse specifications.
+- https://www.apple.com/shop/product/mxk53am/a/magic-mouse-usb%E2%80%91c-white-multi-touch-surface — white US USB-C model MXK53AM/A.
+- https://support.apple.com/en-us/102292 — keyboard usable while charging; mouse cannot be used while charging.
+- https://www.vari.com/sit-stand-converter-varidesk-pro-plus-36/DC-PP36.html — manual Pro Plus36, not electric; 36x29.75 overall, recommended25.75 support depth,4.5–17.5height,35lb capacity,52.15lb converter.
+- https://vivo-us.com/products/desk-v000vl — exact42-inch manual DESK-V000VL,42x22upper/30x10.5tray/36.5x26base;33lbupper+4lbtray. Page conflicts between6 and6.5in minimumheight; draft explicitly asks buyer to confirm, does not silently pick one.
+- https://cdn.shopify.com/s/files/1/1190/2562/files/DESK-V000VL_SERIES_REV1.3_online.pdf?v=1787707587 — exact linked model-series manual.
+
+Three drafts remove unsupported typing/comfort/wobble hierarchies and add concrete layout, host, package and support-desk checks. Ten focused synthetic tests pass, including generation/model/accessory negative probes. Final full-batch build and runtime identity verification pending; no dates advanced.

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T22:11:36.579539+00:00",
+  "updatedAt": "2026-10-18T22:47:40.761880+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -355,7 +355,13 @@
       "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
       "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
       "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
-      "/wfh/herman-miller-aeron-vs-steelcase-gesture"
+      "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "/beauty/is-omnilux-contour-worth-it",
+      "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair"
     ],
     "independentReview": "pending exact full-batch checkpoint",
     "productionPublished": false,
@@ -365,16 +371,18 @@
       "reports/creator-rollout/batch-04-research/kitchen-models.md"
     ],
     "partialTypecheck": "passed as part of ten-draft production build",
-    "partialTests": "8 focused synthetic commerce tests passed",
+    "partialTests": "10 focused synthetic commerce tests passed",
     "depthReport": "reports/creator-rollout/batch-04-draft-depth.json",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/22",
     "officialStoreExceptions": [
       "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
       "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
-      "/wfh/secretlab-titan-evo-vs-ergotune-supreme"
+      "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "/beauty/is-omnilux-contour-worth-it"
     ],
     "productionVerified": false,
-    "partialBuild": "passed ten-draft integration: metadata/indexability, 23 runtime assets, operations and Deal Agent inventory",
+    "partialBuild": "passed ten-draft checkpoint 24451ac; three newer input/converter drafts await final build",
     "wfhResearch": "reports/creator-rollout/batch-04-research/wfh-models.md"
   }
 }
