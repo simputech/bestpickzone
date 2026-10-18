@@ -11,3 +11,7 @@ Tests reproduce both production titles with matching original-author metadata, c
 Evidence: `batch-03-production-http.json`, `batch-03-production-initial.json`, and `batch-03-release-preview-qa.json`. No denied or uncertain mutation; PR16 merge is confirmed, and the corrective publication has not been attempted.
 
 Independent corrective review found three additional ambiguous suffixes: Acting Edition, Stage Edition and Performance Edition. All now reject, including a punctuation-normalization probe, with coverage through direct matching, search and pinned-ASIN lookup. Ordinary novels and title words containing Play retain positive controls. No original-play schema support added. Re-review remains pending.
+
+Final independent re-review APPROVED exact head `269d9034dba3cb431208d82f420b3b3f1a36a9e9`; all 39 probes passed, covering both observed stage editions, acting/stage/performance punctuation variants, other script qualifiers and ordinary novel/unabridged/Play It As It Lays controls. PR20 merged at `809f41ee2262ba21604237ca176748c7dc69739a`; production verification remains pending.
+
+Corrected production verification PASSED: `809f41ee2262ba21604237ca176748c7dc69739a`, `dpl_EvYaka6C7jY54wtPp54Yb3KpxDyk`. All 20 routes and 40 desktop/mobile checks passed; 58 exact live cards/images, 12 honest fallbacks, 16 substantive dates aligned. Both stage ASINs absent; Hamnet novel 1984898876 live, And Then There Were None uses safe fallback. See `batch-03-production-final.json`. Cumulative verified rollout: 60/299.
