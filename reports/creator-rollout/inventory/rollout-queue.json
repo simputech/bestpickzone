@@ -688,7 +688,7 @@
     {
       "batch": 3,
       "reviewed_page_target": 20,
-      "status": "independently-approved-release-validation-pending",
+      "status": "live-corrective-identity-review-pending",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -981,12 +981,15 @@
       "minor_update_count": 4,
       "local_qa_report": "reports/creator-rollout/batch-03-resume-qa.json",
       "review_response": "reports/creator-rollout/batch-03-independent-review.md",
-      "production_published": false,
+      "production_published": true,
       "corrected_source_commit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
       "preview_report": "reports/creator-rollout/batch-03-corrected-preview-qa.json",
       "independent_review_head": "356cb4ebc49aa2c8997d75a0d95c51f1dbe77085",
       "substantive_refresh_count": 16,
-      "sitemap_update_count": 16
+      "sitemap_update_count": 16,
+      "runtime_verified": false,
+      "publication_commit": "6df351dabe38c156f23c5c93ab378806d7b816ae",
+      "deployment_id": "dpl_AwE5Zk9vhkbR1wWUoeC7ALe2SFo2"
     },
     {
       "batch": 4,

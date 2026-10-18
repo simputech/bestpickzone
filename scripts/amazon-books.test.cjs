@@ -96,3 +96,30 @@ test('missing, invalid or off-origin image data cannot be labeled API product co
     source => { source.images.primary.large.height = 0; },
   ]) { const source = item(); alter(source); assert.equal(match(source), null); }
 });
+
+// Production returned these stage editions for requests for the novels.
+// The remaining metadata here is synthetic so the title boundary is tested alone.
+test('stage and screen editions cannot satisfy a novel request even with matching original-author metadata', () => {
+  for (const [work, author, edition] of [
+    ['And Then There Were None', 'Agatha Christie', 'And Then There Were None (Play)'],
+    ['Hamnet', 'Maggie O Farrell', 'Hamnet (Modern Plays)'],
+    ['Example Book', 'Sample Author', 'Example Book: A Play'],
+    ['Example Book', 'Sample Author', 'Example Book (Screenplay)'],
+    ['Example Book', 'Sample Author', 'Example Book: Stage Script'],
+    ['Example Book', 'Sample Author', 'Example Book (Dramatisation)'],
+    ['Example Book', 'Sample Author', 'Example Book (Acting Edition)'],
+    ['Example Book', 'Sample Author', 'Example Book (Stage Edition)'],
+    ['Example Book', 'Sample Author', 'Example Book (Performance Edition)'],
+    ['Example Book', 'Sample Author', 'Example Book: Performance—Edition'],
+  ]) {
+    const source=item();source.itemInfo.title.displayValue=edition;source.itemInfo.byLineInfo.contributors[0].name=author;
+    const request={...expected,title:work,author};
+    assert.equal(matchAmazonBook(source,request,'althcu-20',fetchedAt),null,edition);
+    source.itemInfo.title.displayValue=work+': A Novel';
+    assert.ok(matchAmazonBook(source,request,'althcu-20',fetchedAt),work);
+  }
+});
+test('a requested title containing play remains eligible without a script edition qualifier', () => {
+  const source=item();source.itemInfo.title.displayValue='Play It As It Lays: A Novel';
+  assert.ok(matchAmazonBook(source,{...expected,title:'Play It As It Lays'},'althcu-20',fetchedAt));
+});

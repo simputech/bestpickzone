@@ -51,6 +51,10 @@ export function matchAmazonBook(item: AmazonBookResponseItem, expected: AmazonBo
   // Inspect the entire normalized title before discarding subtitle/edition text.
   // Hyphens, Unicode punctuation and parentheses must not hide an adaptation.
   const editionTitle = normalized(title)
+  // A novel's stage/screen script may credit the original novelist as author.
+  // Inspect edition qualifiers without rejecting a requested work whose own title contains 'play'.
+  const editionSuffix = editionTitle.slice(normalized(expected.title).length).trim()
+  if (/\b(plays?|screenplays?|acting edition|stage edition|performance edition|stage script|theatre script|theater script|dramatizations?|dramatisations?|dramatized|dramatised)\b/.test(editionSuffix)) return null
   if (/\b(bundle|boxed set|box set|collection set|study guide|summary|workbook|abridged|condensed|simplified|adapted|adaptation|retold|retelling|graphic novel|graphic edition|comic|comics|manga|young readers?|younger readers?|young adult edition|junior edition|easy reader)\b/.test(editionTitle)) return null
   if (info?.classifications?.productGroup?.displayValue !== 'Book' || !['Paperback', 'Hardcover'].includes(binding) || language !== 'English') return null
   if (!image.width || !image.height || image.width < 1 || image.height < 1) return null

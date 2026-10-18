@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T21:44:28.130616+00:00",
+  "updatedAt": "2026-10-18T21:55:31.366159+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 3,
-  "status": "batch-three-approved-release-validation",
+  "status": "batch-three-live-corrective-identity-review-pending",
   "completedBatches": [
     1,
     2
@@ -52,7 +52,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Finish date-aligned preview and CI/build checks, merge approved batch three, verify production and then start batch four.",
+  "nextAction": "Independently review the stage-edition matcher correction, publish it, and rerun production identity checks. Do not mark batch three complete or start batch four until corrected production verification passes.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -172,13 +172,13 @@
     "productionReport": "reports/creator-rollout/batch-02-production-final.json"
   },
   "batch03": {
-    "status": "independently-approved-release-validation-pending",
+    "status": "live-corrective-identity-review-pending",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/16",
     "triageReport": "reports/creator-rollout/batch-03-triage.json",
     "articleCount": 20,
     "independentReview": "PASSED at 356cb4ebc49aa2c8997d75a0d95c51f1dbe77085: explicit 20/20 editorial approval, no unresolved material blockers; independent eight commerce tests passed.",
     "previewQa": "Corrected source 8ca352fd50b17013d6e24cc7efa9e0c7647c4614 passed all 20 routes at 390x844 and 1440x1000; 40 checks, zero failures. See batch-03-corrected-preview-qa.json.",
-    "productionPublished": false,
+    "productionPublished": true,
     "draftedSubstantivePaths": [
       "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
       "/books/self-help/best-james-clear-books",
@@ -300,7 +300,14 @@
       "/books/stephen-king-vs-dean-koontz",
       "/home-kitchen/best-air-fryers"
     ],
-    "modifiedDate": "2026-10-18"
+    "modifiedDate": "2026-10-18",
+    "pullRequestMerged": true,
+    "sourceCommit": "9dd3c78aa5c7e6283507a781f67918122f20f2c5",
+    "publicationCommit": "6df351dabe38c156f23c5c93ab378806d7b816ae",
+    "deploymentId": "dpl_AwE5Zk9vhkbR1wWUoeC7ALe2SFo2",
+    "runtimeVerified": false,
+    "productionQaReport": "reports/creator-rollout/batch-03-production-initial.json",
+    "pendingBlocker": "Production returned two stage adaptations for novel recommendations: And Then There Were None (Play), ASIN 0573702314; Hamnet (Modern Plays), ASIN 1350455490. Matcher correction passes 201 tests/build; independent correction review and corrected production QA pending."
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",
