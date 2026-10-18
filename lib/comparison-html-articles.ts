@@ -768,6 +768,7 @@ export const beautyComparisonArticles: HtmlComparisonArticle[] = [
 export const wfhComparisonArticles: HtmlComparisonArticle[] = [
   {
     slug: 'herman-miller-aeron-vs-steelcase-gesture',
+    modifiedDate: '2026-10-18',
     silo: 'wfh',
     title: "Herman Miller Aeron vs Steelcase Gesture: Fit and Options",
     description: "Compare current Aeron and Gesture by seat construction, size, arm configuration and desk fit. Separate used-chair condition and warranty terms from new-chair specifications.",
@@ -827,6 +828,7 @@ export const wfhComparisonArticles: HtmlComparisonArticle[] = [
   },
   {
     slug: 'logitech-mx-master-3s-vs-apple-magic-mouse',
+    modifiedDate: '2026-10-18',
     silo: 'wfh',
     title: "MX Master 3S vs Magic Mouse: Controls, Fit and Editions",
     description: "Compare MX Master 3S with Magic Mouse USB-C: physical controls versus touch gestures, software limits, charging and exact edition checks. No universal comfort winner.",
@@ -949,6 +951,7 @@ export const wfhComparisonArticles: HtmlComparisonArticle[] = [
   },
   {
     slug: 'logitech-mx-keys-s-vs-apple-magic-keyboard',
+    modifiedDate: '2026-10-18',
     silo: 'wfh',
     title: "MX Keys S vs Apple Magic Keyboard: Layout and Compatibility",
     description: "Choose between MX Keys S and the standard compact USB-C Magic Keyboard by number pad, lighting, device switching and compatibility. Touch ID and iPad cases are separate products.",
@@ -1007,6 +1010,7 @@ export const wfhComparisonArticles: HtmlComparisonArticle[] = [
   },
   {
     slug: 'vari-desk-converter-vs-vivo-desk-riser',
+    modifiedDate: '2026-10-18',
     silo: 'wfh',
     title: "Vari Pro Plus 36 vs VIVO DESK-V000VL: Measure the Desk",
     description: "Compare the manual Vari Pro Plus 36 and VIVO DESK-V000VL 42-inch converter by footprint, keyboard position, load limits and lift clearance. No invented stability ranking.",

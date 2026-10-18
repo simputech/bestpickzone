@@ -22,3 +22,7 @@ The reviewer read all twenty articles and found their model-specific decisions u
 ## Re-review
 
 Pending new exact pushed correction SHA. No batch-four publication or final approval is claimed.
+
+## Independent correction re-review
+
+**APPROVED all20 editorial content and commerce identity configuration at4d92a18236a1a9d5460e183cfe6449aa7066dd8d.** Reviewer independently ran71 matcher probes, zero failures, plus13 repository focused tests. All nine original negatives, accessory-with-extra variants, contradictory sold-separately cases and complete-product positives passed. All20 remain above the editorial floor (minimum1,001). No remaining B1–B3 blockers. Exactly20 substantive date updates are authorized by the evidence; bounded final date/metadata re-review remains required.

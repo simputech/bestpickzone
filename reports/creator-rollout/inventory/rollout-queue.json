@@ -997,7 +997,7 @@
     {
       "batch": 4,
       "reviewed_page_target": 20,
-      "status": "full-draft-technical-validation",
+      "status": "content-approved-final-validation",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -1009,10 +1009,10 @@
           "data_source": "app/home-kitchen/best-coffee-makers-under-100/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/home-kitchen/best-robot-vacuums",
@@ -1023,10 +1023,10 @@
           "data_source": "app/home-kitchen/best-robot-vacuums/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
@@ -1037,10 +1037,10 @@
           "data_source": "app/home-kitchen/instant-pot-vs-ninja-foodi/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
@@ -1051,10 +1051,10 @@
           "data_source": "app/home-kitchen/oxo-vs-fullstar-avocado-slicer/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
@@ -1065,10 +1065,10 @@
           "data_source": "app/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
@@ -1079,10 +1079,10 @@
           "data_source": "app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
@@ -1093,10 +1093,10 @@
           "data_source": "app/wfh/fully-jarvis-vs-uplift-v2-standing-desk/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
@@ -1107,10 +1107,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
@@ -1121,10 +1121,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
@@ -1135,10 +1135,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
@@ -1149,10 +1149,10 @@
           "data_source": "app/wfh/purple-royal-seat-cushion-vs-cushion-lab/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
@@ -1163,10 +1163,10 @@
           "data_source": "app/wfh/secretlab-titan-evo-vs-ergotune-supreme/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
@@ -1177,10 +1177,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
@@ -1191,10 +1191,10 @@
           "data_source": "app/beauty/best-led-mask-for-melasma-and-hyperpigmentation/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
@@ -1205,10 +1205,10 @@
           "data_source": "app/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/beauty/is-omnilux-contour-worth-it",
@@ -1219,10 +1219,10 @@
           "data_source": "app/beauty/is-omnilux-contour-worth-it/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
@@ -1233,10 +1233,10 @@
           "data_source": "app/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/coffee/best-gaggia-classic-pro-upgrades",
@@ -1247,10 +1247,10 @@
           "data_source": "app/coffee/best-gaggia-classic-pro-upgrades/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
@@ -1261,10 +1261,10 @@
           "data_source": "app/coffee/complete-small-kitchen-home-coffee-bar-setup/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         },
         {
           "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
@@ -1275,10 +1275,10 @@
           "data_source": "app/coffee/what-to-buy-with-your-breville-bambino-plus/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive-draft",
-          "sitemap_update_required": false,
-          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
+          "review_status": "independently-approved-pending-publication",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
         }
       ]
     },
