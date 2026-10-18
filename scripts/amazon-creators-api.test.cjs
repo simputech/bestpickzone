@@ -322,3 +322,15 @@ test('budget checking does not fetch without US credentials and never guesses a 
   const state=harness(()=>response({searchResult:{items:[product()]}}));
   assert.equal(await state.api.lookupAmazonBudgetOffer({query:'Example Aero 2 coffee grinder'}),null);
 });
+
+test('search and pinned-ASIN paths reject play editions and preserve an ordinary novel candidate', async () => {
+  for (const suffix of ['(Play)', '(Modern Plays)', ': A Play', '(Screenplay)', ': Stage Script', '(Dramatisation)']) {
+    const stage=book('B000TEST01');stage.itemInfo.title.displayValue=`Example Book ${suffix}`;
+    const request={title:'Example Book',author:'Sample Author'};
+    const onlyStage=harness(call=>response(call.url.endsWith('/searchItems')?{searchResult:{items:[stage]}}:{itemsResult:{items:[stage]}}));
+    assert.equal(Object.keys(await onlyStage.api.getAmazonBooksByTitle([request])).length,0,suffix);
+    assert.equal(Object.keys(await onlyStage.api.getAmazonBooks([{...request,asin:stage.asin}])).length,0,suffix);
+    const mixed=harness(()=>response({searchResult:{items:[stage,book('B000TEST09')]}}));
+    assert.equal((await mixed.api.getAmazonBooksByTitle([request]))['Example Book'].asin,'B000TEST09');
+  }
+});

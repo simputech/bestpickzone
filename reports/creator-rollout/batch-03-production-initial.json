@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-18T21:55:31.366159+00:00",
+  "status": "two-edition-identity-failures-correction-pending",
+  "sourceCommit": "6df351dabe38c156f23c5c93ab378806d7b816ae",
+  "deploymentId": "dpl_AwE5Zk9vhkbR1wWUoeC7ALe2SFo2",
+  "aliases": [
+    "bestpickzone.com",
+    "www.bestpickzone.com"
+  ],
+  "httpReport": "reports/creator-rollout/batch-03-production-http.json",
+  "checks": {
+    "httpRoutes200": 20,
+    "canonicalH1AttributionErrors": 0,
+    "desktopRoutes": 20,
+    "mobileRoutes": 20,
+    "viewportWidths": [
+      1440,
+      390
+    ],
+    "layoutAndImageErrors": 0,
+    "liveImagesLoadedPerViewport": 59,
+    "sitemapSubstantiveDates": 16,
+    "minorDatesPreserved": 4
+  },
+  "liveCards": 59,
+  "fallbackCards": 11,
+  "identityFailures": [
+    {
+      "path": "/books/agatha-christie-vs-arthur-conan-doyle",
+      "asin": "0573702314",
+      "returnedTitle": "And Then There Were None (Play)",
+      "expectedWork": "Agatha Christie novel"
+    },
+    {
+      "path": "/books/genre-fiction/best-historical-fiction-books",
+      "asin": "1350455490",
+      "returnedTitle": "Hamnet (Modern Plays)",
+      "expectedWork": "Maggie O Farrell novel"
+    }
+  ],
+  "remainingLiveCards": "Other 57 returned cards reviewed against requested works/products; author, print binding and English language checked on book cards. Images loaded after scrolling lazy cards into view.",
+  "correction": "Reject play/screenplay/stage-script/dramatization qualifiers in title suffixes; retain ordinary novel candidates and requested titles containing the word play. Search and pinned-ASIN tests cover both paths.",
+  "correctionTests": {
+    "passed": 201,
+    "failed": 0,
+    "typecheck": "passed",
+    "build": "passed",
+    "indexableRoutes": 335,
+    "indexabilityErrors": 0,
+    "runtimeAssets": 14,
+    "inventoryGates": "both passed"
+  },
+  "completedRolloutCount": 40,
+  "batchFourStarted": false
+}
