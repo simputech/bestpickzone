@@ -14,3 +14,5 @@ Validation after corrections: 198 tests passed, zero failures; typecheck and pro
 Authenticated preview baseline `5c1bfdd` passed all 20 routes at both 390x844 and 1440x1000: one H1, canonical route, loaded images, no page-wide overflow, disclosure and preserved tags. Seventy fallback cards and zero live cards per viewport are expected without preview Creator API credentials. See `batch-03-preview-baseline-qa.json`. Corrected-head preview and production live checks remain pending.
 
 No new publication dates or sitemap lastmods have been applied. Sixteen drafted substantive refreshes and four minor updates retain their release gate. PR16 remains draft and unmerged.
+
+Corrected source `8ca352fd50b17013d6e24cc7efa9e0c7647c4614` subsequently passed the same full 40-check preview matrix on deployment `dpl_D95BM1fsJekVZmmvr4LsfQuXGStn`. The four editorial corrections were verified in deployed page text. See `batch-03-corrected-preview-qa.json`. Independent re-review remains pending.

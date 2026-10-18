@@ -981,7 +981,9 @@
       "minor_update_count": 4,
       "local_qa_report": "reports/creator-rollout/batch-03-resume-qa.json",
       "review_response": "reports/creator-rollout/batch-03-independent-review.md",
-      "production_published": false
+      "production_published": false,
+      "corrected_source_commit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
+      "preview_report": "reports/creator-rollout/batch-03-corrected-preview-qa.json"
     },
     {
       "batch": 4,

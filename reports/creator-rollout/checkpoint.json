@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T21:39:29.306682+00:00",
+  "updatedAt": "2026-10-18T21:41:36.018864+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -52,7 +52,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Parent-coordinated re-review of corrected head, fresh corrected-head preview QA, then justified substantive date updates and authorized publication. Verify live production identities/images before batch four.",
+  "nextAction": "Obtain parent-coordinated independent re-review of source commit 8ca352fd50b17013d6e24cc7efa9e0c7647c4614. Then apply only justified substantive dates, publish, verify exact production commit/API identities/images, and start batch four.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -177,7 +177,7 @@
     "triageReport": "reports/creator-rollout/batch-03-triage.json",
     "articleCount": 20,
     "independentReview": "Initial independent review completed all 20 routes; three material findings corrected. Re-review pending; not approved to publish.",
-    "previewQa": "All 20 routes passed at 390x844 and 1440x1000 on 5c1bfdd2d14850d74154eeea025f055d1130e6a0. Corrected source requires fresh preview QA.",
+    "previewQa": "Corrected source 8ca352fd50b17013d6e24cc7efa9e0c7647c4614 passed all 20 routes at 390x844 and 1440x1000; 40 checks, zero failures. See batch-03-corrected-preview-qa.json.",
     "productionPublished": false,
     "draftedSubstantivePaths": [
       "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
@@ -254,14 +254,16 @@
       "failures": 0
     },
     "previewDeployment": {
-      "sourceCommit": "5c1bfdd2d14850d74154eeea025f055d1130e6a0",
-      "deploymentId": "dpl_12hTj1yVGTRSFAfkuuQfc6Ec1BGx",
-      "url": "https://bestpickzone-fixed-d2v47y2fs-simputechs-projects.vercel.app",
+      "sourceCommit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
+      "deploymentId": "dpl_D95BM1fsJekVZmmvr4LsfQuXGStn",
+      "url": "https://bestpickzone-fixed-olm0peitm-simputechs-projects.vercel.app",
       "state": "READY",
-      "browserQa": "40 route/viewport checks passed; 70 fallback cards per viewport. Historical baseline for subsequent corrections."
+      "browserQa": "40 route/viewport checks passed; 70 fallback cards per viewport."
     },
     "reviewResponse": "reports/creator-rollout/batch-03-independent-review.md",
-    "previewAccess": "Resolved through normal GitHub/Vercel sign-in in isolated Codex browser; no bypass/share/access-setting changes or production secret copying."
+    "previewAccess": "Resolved through normal GitHub/Vercel sign-in in isolated Codex browser; no bypass/share/access-setting changes or production secret copying.",
+    "correctedSourceCommit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
+    "correctedPreviewReport": "reports/creator-rollout/batch-03-corrected-preview-qa.json"
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",
