@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-17T03:02:18.501538+00:00",
+  "updatedAt": "2026-10-18T21:27:32.422913+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 3,
-  "status": "batch-three-research-and-drafting",
+  "status": "batch-three-release-gates-pending",
   "completedBatches": [
     1,
     2
@@ -52,7 +52,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Push completed twenty-article draft checkpoint; integrate latest main; parent-coordinated independent review/re-review and complete desktop/mobile local+preview QA; only then approve substantive dates, publish and verify live identities/images.",
+  "nextAction": "Complete normal authenticated exact-head preview QA and parent-coordinated independent review/re-review. Only after approval advance justified substantive dates, publish, verify live identities/images and exact production commit, then start batch four.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -177,7 +177,7 @@
     "triageReport": "reports/creator-rollout/batch-03-triage.json",
     "articleCount": 20,
     "independentReview": "Pending parent-coordinated independent read-only review and re-review; local reviewer authorization is no longer treated as a blocker.",
-    "previewQa": "pending",
+    "previewQa": "Fresh exact-head check pending normal browser sign-in; previous 16-route preview evidence is historical only.",
     "productionPublished": false,
     "draftedSubstantivePaths": [
       "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
@@ -199,10 +199,10 @@
     ],
     "commerceWiring": "All 17 eligible routes mapped: eleven book guides and six product comparisons. Three ingredient-only guides have documented no-product exceptions. Thirteen raw routes use dynamic commerce rendering; four beauty comparisons use the existing dynamic renderer.",
     "technicalChecks": {
-      "typecheck": "Passed October 17 after all twenty drafting passes.",
-      "tests": "192 passed across API, commerce, identity, Deal Agent, metadata, SEO, multilingual, attribution and analytics tests; synthetic fixtures are not live catalog verification.",
+      "typecheck": "Passed in October 18 production build.",
+      "tests": "196 passed October 18; includes punctuation/abridged/graphic/young-reader edition regressions through both book lookup paths and undated comparison keyboard-table regression.",
       "lint": "Passed with existing warnings.",
-      "build": "Next production compilation and metadata passed: 279 statically rendered indexable pages, zero metadata errors/warnings. Initial local indexability process could not open a sandboxed port; reran with approved loopback server access and passed 335 sitemap URLs, zero errors/warnings.",
+      "build": "October 18 production build and all metadata/indexability/runtime/operations/inventory gates passed; 335 indexable sitemap routes, zero errors/warnings.",
       "runtimeTraceGate": "14 article assets included in function traces.",
       "operations": "Both inventory gates passed; eight services and 23 runtime/CI variable names catalogued.",
       "editorialDrafts": "16 substantive draft refreshes and four minor updates; all 20 have an author research/drafting pass, none independently approved yet."
@@ -220,19 +220,34 @@
     "editorialPassCount": 20,
     "independentlyApprovedCount": 0,
     "localQa": {
-      "status": "started-not-complete",
+      "status": "passed-measured-desktop-mobile",
       "routesChecked": [
-        "/books/reader-picks/best-true-crime-books"
+        "/beauty/dyson-airstrait-vs-ghd-duet-style",
+        "/beauty/dyson-airwrap-vs-shark-flexstyle",
+        "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+        "/beauty/nuface-trinity-vs-solawave-wand",
+        "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+        "/beauty/revlon-one-step-vs-loreal-steampod",
+        "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+        "/beauty/vitamin-c-vs-niacinamide",
+        "/books/agatha-christie-vs-arthur-conan-doyle",
+        "/books/best-mark-manson-books",
+        "/books/genre-fiction/best-historical-epics-2026",
+        "/books/genre-fiction/best-historical-fiction-books",
+        "/books/genre-fiction/best-historical-fiction-series-2026",
+        "/books/genre-fiction/best-new-spy-thriller-books-2026",
+        "/books/hemingway-vs-fitzgerald",
+        "/books/lord-of-the-rings-vs-harry-potter",
+        "/books/reader-picks/best-true-crime-books",
+        "/books/self-help/best-james-clear-books",
+        "/books/stephen-king-vs-dean-koontz",
+        "/home-kitchen/best-air-fryers"
       ],
-      "desktop": {
-        "width": 1440,
-        "documentWidth": 1440,
-        "h1Count": 1,
-        "canonical": "https://bestpickzone.com/books/reader-picks/best-true-crime-books"
-      },
-      "limitation": "One browser call returned after about 34 minutes; no permission denial, login or pending browser approval reported. No complete batch QA claimed."
+      "report": "reports/creator-rollout/batch-03-resume-qa.json"
     },
-    "pendingApproval": null
+    "pendingApproval": null,
+    "bookMatchingFix": "Normalize the full returned title before checking subtitle/parenthetical qualifiers; reject abridged, adapted, graphic novel, younger-reader and punctuation-obscured guide/bundle editions. Unit and catalog-path regressions cover search and pinned ASIN lookup. Standard novel and unabridged print editions remain eligible.",
+    "resumeReport": "reports/creator-rollout/batch-03-resume-qa.json"
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",

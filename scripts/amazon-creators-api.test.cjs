@@ -152,6 +152,21 @@ test('book discovery does not accept duplicated affiliate tags or malformed imag
   assert.equal(Object.keys(await state.api.getAmazonBooksByTitle([{ title: 'Example Book', author: 'Sample Author' }])).length, 0);
 });
 
+test('book search and exact-ASIN lookup reject altered works even with matching author and print metadata', async () => {
+  const rejected = ['Abridged', 'Graphic-Novel', 'Study—Guide', 'Young Readers’ Edition'].map((suffix, i) => {
+    const candidate = book(`B000TEST0${i}`);
+    candidate.itemInfo.title.displayValue = `Example Book: ${suffix}`;
+    return candidate;
+  });
+  const request = [{ title: 'Example Book', author: 'Sample Author' }];
+  const onlyAltered = harness(call => response(call.url.endsWith('/searchItems')
+    ? { searchResult: { items: rejected } } : { itemsResult: { items: rejected } }));
+  assert.equal(Object.keys(await onlyAltered.api.getAmazonBooksByTitle(request)).length, 0);
+  assert.equal(Object.keys(await onlyAltered.api.getAmazonBooks([{ ...request[0], asin: rejected[0].asin }])).length, 0);
+  const mixed = harness(() => response({ searchResult: { items: [...rejected, book('B000TEST09')] } }));
+  assert.equal((await mixed.api.getAmazonBooksByTitle(request))['Example Book'].asin, 'B000TEST09');
+});
+
 test('exact book editions batch ten IDs per request, preserve existing matching and cache per work', async () => {
   const requests = Array.from({ length: 12 }, (_, i) => ({ asin: `B000TEST${String(i).padStart(2, '0')}`, title: `Example Book ${i}`, author: 'Sample Author' }));
   const state = harness(call => response({ itemsResult: { items: call.body.itemIds.map(asin => {

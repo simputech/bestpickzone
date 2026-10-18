@@ -127,3 +127,19 @@ test('rebuilt LED source keeps one affiliate disclosure before its hero', () => 
   assert.equal((source.match(/class="disc"/g) || []).length, 1);
   assert.ok(source.indexOf('class="disc"') < source.indexOf('<div class="hero">'));
 });
+
+test('undated comparisons retain their editorial order and dates while exposing keyboard-scrollable tables', () => {
+  const Page = load(component('HtmlComparisonArticlePage'), {
+    'next/link': { __esModule: true, default: props => React.createElement('a', { href: props.href }, props.children) },
+    '@/components/seo/BreadcrumbJsonLd': empty,
+    '@/components/seo/FaqJsonLd': { ...empty, extractFaqPairs: () => [] },
+    './ArticleAmazonProducts': empty,
+  }).default;
+  const article = { silo: 'beauty', slug: 'fixture', title: 'Fixture title', heroImage: { src: '/fixture.svg', alt: 'Illustration', width: 800, height: 400 }, bodyHtml: '<p>Existing introduction.</p><table><thead><tr><th>Exact model name</th></tr></thead><tbody><tr><td>Compatibility details</td></tr></tbody></table>' };
+  const html = renderToStaticMarkup(React.createElement(Page, { article }));
+  assert.match(html, /role="region"[^>]*aria-label="Comparison table: scroll horizontally to see all columns"[^>]*tabindex="0"/);
+  assert.match(html, /overflow-x-auto/);
+  assert.match(html, /<th>Exact model name<\/th>/);
+  assert.ok(html.indexOf('<img') < html.indexOf('Existing introduction.'));
+  assert.doesNotMatch(html, /<time|Updated /);
+});

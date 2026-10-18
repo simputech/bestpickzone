@@ -51,6 +51,28 @@ test('author and published language must match; missing evidence does not become
   ]) { const source = item(); alter(source); assert.equal(match(source), null); }
 });
 
+test('subtitle and parenthetical edition qualifiers fail closed after punctuation normalization', () => {
+  for (const edition of [
+    'Study-Guide', 'Study—Guide', 'Boxed-Set', 'Collection/Set', 'Abridged',
+    'Graphic-Novel', 'Graphic—Novel', 'Graphic Edition', 'Graphic Adaptation',
+    'Adapted for Young Readers', 'Young Readers’ Edition', 'Young Reader’s Edition',
+    'Young Adult Edition', 'Junior Edition', 'Condensed Edition', 'Simplified Edition',
+    'Retold', 'Retelling', 'Comic', 'Manga', 'Easy Reader',
+  ]) {
+    for (const title of [`Example Book: ${edition}`, `Example Book (${edition})`]) {
+      const source = item(); source.itemInfo.title.displayValue = title;
+      assert.equal(match(source), null, title);
+    }
+  }
+});
+
+test('ordinary novel subtitles and explicitly unabridged print editions remain eligible', () => {
+  for (const title of ['Example Book', 'Example Book: A Novel', 'Example Book (Complete and Unabridged)', 'Example Book: Anniversary Edition']) {
+    const source = item(); source.itemInfo.title.displayValue = title;
+    assert.ok(match(source), title);
+  }
+});
+
 test('only verified print formats and exact returned ASIN are accepted', () => {
   for (const alter of [
     source => { source.asin = 'B000OTHER1'; },

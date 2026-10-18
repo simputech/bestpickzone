@@ -48,7 +48,10 @@ export function matchAmazonBook(item: AmazonBookResponseItem, expected: AmazonBo
 
   if (item.asin !== expected.asin || !/^[A-Z0-9]{10}$/.test(expected.asin) || !title || !author || !binding || !image?.url) return null
   if (normalized(title.split(/[:(]/)[0]) !== normalized(expected.title)) return null
-  if (/\b(bundle|boxed set|collection set|study guide|summary|workbook)\b/i.test(title)) return null
+  // Inspect the entire normalized title before discarding subtitle/edition text.
+  // Hyphens, Unicode punctuation and parentheses must not hide an adaptation.
+  const editionTitle = normalized(title)
+  if (/\b(bundle|boxed set|box set|collection set|study guide|summary|workbook|abridged|condensed|simplified|adapted|adaptation|retold|retelling|graphic novel|graphic edition|comic|comics|manga|young readers?|younger readers?|young adult edition|junior edition|easy reader)\b/.test(editionTitle)) return null
   if (info?.classifications?.productGroup?.displayValue !== 'Book' || !['Paperback', 'Hardcover'].includes(binding) || language !== 'English') return null
   if (!image.width || !image.height || image.width < 1 || image.height < 1) return null
 
