@@ -247,7 +247,19 @@
     },
     "pendingApproval": null,
     "bookMatchingFix": "Normalize the full returned title before checking subtitle/parenthetical qualifiers; reject abridged, adapted, graphic novel, younger-reader and punctuation-obscured guide/bundle editions. Unit and catalog-path regressions cover search and pinned ASIN lookup. Standard novel and unabridged print editions remain eligible.",
-    "resumeReport": "reports/creator-rollout/batch-03-resume-qa.json"
+    "resumeReport": "reports/creator-rollout/batch-03-resume-qa.json",
+    "internalLinks": {
+      "report": "reports/creator-rollout/batch-03-internal-links.json",
+      "uniqueTargets": 84,
+      "failures": 0
+    },
+    "previewDeployment": {
+      "sourceCommit": "dedc577645817398f78217a727f01e82e869c031",
+      "deploymentId": "dpl_28r1xmem2ane6LSseswgxHFgHL9U",
+      "url": "https://bestpickzone-fixed-hpl3pfkyy-simputechs-projects.vercel.app",
+      "state": "READY",
+      "browserQa": "pending normal sign-in; not a verified release"
+    }
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",
