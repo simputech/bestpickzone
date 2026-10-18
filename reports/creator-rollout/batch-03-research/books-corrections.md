@@ -100,3 +100,8 @@ Removed unsupported origin-of-genre, definitive, most-reliable, bestseller-ranki
 Final minor espionage correction: omitted the un-reverified twenty-sixth series number after the large official PDF could not be read. Retained verified author-page identity and reader guidance; no date bump.
 
 Adult-work identity: David Grann’s official page Amazon link resolves to https://amazon.com/dp/0307742482 (retailer fetch HTTP500). Curated that publisher/author-linked ASIN for the adult Killers of the Flower Moon work so a Young Readers Edition is not silently substituted. Runtime title/author/format/language/image checks remain mandatory; no availability inferred.
+
+
+## Independent-review correction, October 18
+
+The Lost Girls introduction and entry no longer describe all five subjects as established murder victims. Robert Kolker’s April 21, 2026 update distinguishes Shannan Gilbert’s unresolved case from the murders admitted by Rex Heuermann: https://robertkolker.com/news-and-events/2026/4/21/what-happened-to-shannan . The entry now centers the women and families and cites that distinction. Metadata does not repeat the removed assertion.

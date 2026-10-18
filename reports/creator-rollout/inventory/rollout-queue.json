@@ -688,7 +688,7 @@
     {
       "batch": 3,
       "reviewed_page_target": 20,
-      "status": "drafts-ready-for-independent-review",
+      "status": "review-findings-corrected-re-review-pending",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -979,7 +979,9 @@
       "independently_approved_count": 0,
       "substantive_draft_count": 16,
       "minor_update_count": 4,
-      "local_qa_report": "reports/creator-rollout/batch-03-resume-qa.json"
+      "local_qa_report": "reports/creator-rollout/batch-03-resume-qa.json",
+      "review_response": "reports/creator-rollout/batch-03-independent-review.md",
+      "production_published": false
     },
     {
       "batch": 4,

@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T21:27:32.422913+00:00",
+  "updatedAt": "2026-10-18T21:39:29.306682+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 3,
-  "status": "batch-three-release-gates-pending",
+  "status": "batch-three-corrections-ready-for-re-review",
   "completedBatches": [
     1,
     2
@@ -52,11 +52,11 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Complete normal authenticated exact-head preview QA and parent-coordinated independent review/re-review. Only after approval advance justified substantive dates, publish, verify live identities/images and exact production commit, then start batch four.",
+  "nextAction": "Parent-coordinated re-review of corrected head, fresh corrected-head preview QA, then justified substantive date updates and authorized publication. Verify live production identities/images before batch four.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
-    "Existing GitHub sign-in opened the protected preview in the task-owned Chrome tab. No new share link or bypass token was created. All browser testing remains tab-scoped."
+    "Batch-three preview QA uses the isolated Codex in-app browser and normal authenticated access."
   ],
   "existingPullRequest": {
     "number": 6,
@@ -172,12 +172,12 @@
     "productionReport": "reports/creator-rollout/batch-02-production-final.json"
   },
   "batch03": {
-    "status": "drafts-ready-for-independent-review",
+    "status": "review-findings-corrected-re-review-pending",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/16",
     "triageReport": "reports/creator-rollout/batch-03-triage.json",
     "articleCount": 20,
-    "independentReview": "Pending parent-coordinated independent read-only review and re-review; local reviewer authorization is no longer treated as a blocker.",
-    "previewQa": "Fresh exact-head check pending normal browser sign-in; previous 16-route preview evidence is historical only.",
+    "independentReview": "Initial independent review completed all 20 routes; three material findings corrected. Re-review pending; not approved to publish.",
+    "previewQa": "All 20 routes passed at 390x844 and 1440x1000 on 5c1bfdd2d14850d74154eeea025f055d1130e6a0. Corrected source requires fresh preview QA.",
     "productionPublished": false,
     "draftedSubstantivePaths": [
       "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
@@ -200,7 +200,7 @@
     "commerceWiring": "All 17 eligible routes mapped: eleven book guides and six product comparisons. Three ingredient-only guides have documented no-product exceptions. Thirteen raw routes use dynamic commerce rendering; four beauty comparisons use the existing dynamic renderer.",
     "technicalChecks": {
       "typecheck": "Passed in October 18 production build.",
-      "tests": "196 passed October 18; includes punctuation/abridged/graphic/young-reader edition regressions through both book lookup paths and undated comparison keyboard-table regression.",
+      "tests": "198 tests passed after accessory and voltage regression fixes; zero failures.",
       "lint": "Passed with existing warnings.",
       "build": "October 18 production build and all metadata/indexability/runtime/operations/inventory gates passed; 335 indexable sitemap routes, zero errors/warnings.",
       "runtimeTraceGate": "14 article assets included in function traces.",
@@ -254,12 +254,14 @@
       "failures": 0
     },
     "previewDeployment": {
-      "sourceCommit": "dedc577645817398f78217a727f01e82e869c031",
-      "deploymentId": "dpl_28r1xmem2ane6LSseswgxHFgHL9U",
-      "url": "https://bestpickzone-fixed-hpl3pfkyy-simputechs-projects.vercel.app",
+      "sourceCommit": "5c1bfdd2d14850d74154eeea025f055d1130e6a0",
+      "deploymentId": "dpl_12hTj1yVGTRSFAfkuuQfc6Ec1BGx",
+      "url": "https://bestpickzone-fixed-d2v47y2fs-simputechs-projects.vercel.app",
       "state": "READY",
-      "browserQa": "pending normal sign-in; not a verified release"
-    }
+      "browserQa": "40 route/viewport checks passed; 70 fallback cards per viewport. Historical baseline for subsequent corrections."
+    },
+    "reviewResponse": "reports/creator-rollout/batch-03-independent-review.md",
+    "previewAccess": "Resolved through normal GitHub/Vercel sign-in in isolated Codex browser; no bypass/share/access-setting changes or production secret copying."
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",

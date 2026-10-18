@@ -20,10 +20,38 @@ test('Airwrap mapping accepts i.d. Straight+Wavy and rejects other generations a
   'Dyson Airwrap Origin Multi-Styler and Dryer Straight+Wavy',
   'Dyson Airwrap Co-anda2x Multi-Styler and Dryer Straight+Wavy',
   'Dyson Airwrap i.d. Multi-Styler and Dryer Curly+Coily',
-  'Dyson Airwrap i.d. Straight+Wavy Storage Case',
+  'Dyson Airwrap i.d. Multi-Styler and Dryer Straight+Wavy Storage Case',
   'Dyson Airwrap i.d. Straight+Wavy Replacement Barrel',
   'Dyson Airwrap i.d. Multi-Styler and Dryer Straight+Wavy Renewed',
  ]) assert.equal(match(candidate(title, 'Dyson', 'SYNTHETIC'), picks[0]), null, title);
+});
+
+test('complete device names cannot disguise accessory-only listings; explicit included accessories remain eligible', () => {
+ const [nuface,sola] = articleCommerce['/beauty/nuface-trinity-vs-solawave-wand'].products;
+ const [revlon] = articleCommerce['/beauty/revlon-one-step-vs-loreal-steampod'].products;
+ const fixtures = [
+  [picks[0], goodDyson()], [picks[1], goodShark()],
+  [nuface, candidate('NuFACE TRINITY+ Starter Kit','NuFACE','TEST')],
+  [sola, candidate('Solawave Radiant Renewal 4-in-1 Skincare Wand','Solawave','TEST')],
+  [revlon, candidate('REVLON One-Step Volumizer PLUS 2.4 inch','REVLON','TEST')],
+ ];
+ for (const [pick,base] of fixtures) {
+  assert.ok(match(base,pick));
+  const fullTitle=base.itemInfo.title.displayValue;
+  for (const suffix of ['Storage Case','Travel Case','Stand','Charging Stand','Charger','USB Charging Cable','Holder','Protective Cover','Travel Pouch','Storage Bag','Charging Dock','Power Adapter','Travel Case with Strap']) {
+   const source=structuredClone(base);source.itemInfo.title.displayValue=`${fullTitle} ${suffix}`;
+   const reasons=[];
+   assert.equal(matchAmazonProduct(source,pick,'althcu-20','www.amazon.com','2026-10-18',r=>reasons.push(r)),null,source.itemInfo.title.displayValue);
+   assert.ok(reasons.includes('unrequested_accessory'),`${suffix} must fail at the accessory guard, not missing product identity`);
+  }
+  for (const title of [`Storage Case for ${fullTitle}`,`${fullTitle} with Travel Case Only`,`${fullTitle} with Case, Device Not Included`]) {
+   const source=structuredClone(base);source.itemInfo.title.displayValue=title;assert.equal(match(source,pick),null,title);
+  }
+  for (const suffix of ['with Travel Case','includes Charger and Cable','including Case and Charging Stand']) {
+   const source=structuredClone(base);source.itemInfo.title.displayValue=`${fullTitle} ${suffix}`;
+   assert.ok(match(source,pick),source.itemInfo.title.displayValue);
+  }
+ }
 });
 test('FlexStyle mapping requires original HD430 title and returned model', () => {
  assert.ok(match(goodShark(), picks[1]));
@@ -41,6 +69,18 @@ test('ambiguous air-styler discovery and wrong affiliate tags fail closed', () =
   assert.equal(selectAmazonProduct([a,b], picks[i], 'althcu-20', 'www.amazon.com', '2026-10-17'), null);
   a.detailPageURL = a.detailPageURL.replace('althcu-20','wrong-20');
   assert.equal(match(a, picks[i]), null);
+ }
+});
+
+test('US air-styler mappings reject overseas voltage even when every product identity term matches', () => {
+ for (const [pick,base] of [[picks[0],goodDyson()],[picks[1],goodShark()]]) {
+  for (const voltage of ['220V','240V','220 V','240 V','220-volt','240-volt']) {
+   const source=structuredClone(base);source.itemInfo.title.displayValue+=` ${voltage}`;
+   const reasons=[];
+   assert.equal(matchAmazonProduct(source,pick,'althcu-20','www.amazon.com','2026-10-18',r=>reasons.push(r)),null,source.itemInfo.title.displayValue);
+   assert.ok(reasons.includes('forbidden_title_term'));
+  }
+  const us=structuredClone(base);us.itemInfo.title.displayValue+=' 120V';assert.ok(match(us,pick));
  }
 });
 test('wet-to-dry mappings reject adjacent tools and accessory-only listings', () => {

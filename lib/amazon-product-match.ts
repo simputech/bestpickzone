@@ -10,6 +10,8 @@ export type AmazonProductRequest = {
   searchIndex?: string
   requiredTitleTerms?: string[]
   forbiddenTitleTerms?: string[]
+  /** Reject these accessory nouns unless an explicit "with/includes" clause follows a complete device identity. */
+  accessoryOnlyTitleTerms?: string[]
   /** Only honored with a curated ASIN, explicit brand and discriminating required title terms. */
   allowAccessory?: boolean
 }
@@ -171,6 +173,17 @@ export function matchAmazonProduct(
 
   const normalizedTitle = normalizeAmazonText(title)
   const normalizedExpected = normalizeAmazonText(expectedTitle)
+  const accessoryTerms = expected.accessoryOnlyTitleTerms ?? []
+  if (accessoryTerms.some(term => containsPhrase(normalizedTitle, term))) {
+    const inclusion = /\b(?:with|includes|including)\b/.exec(normalizedTitle)
+    const deviceTitle = inclusion ? normalizedTitle.slice(0, inclusion.index) : ''
+    // A case "with a strap" is still a case. The clause before inclusion must
+    // independently identify the complete device and contain no accessory noun.
+    if (!inclusion || !containsWords(deviceTitle, expectedTitle) ||
+      expected.requiredTitleTerms?.some(term => !containsPhrase(deviceTitle, term)) ||
+      accessoryTerms.some(term => containsPhrase(deviceTitle, term)) ||
+      /\b(only|without|not included|sold separately)\b/.test(normalizedTitle)) return reject('unrequested_accessory')
+  }
   // Avoid a compatible accessory, used listing, bundle or adjacent model variant.
   for (const condition of normalizedTitle.match(UNREQUESTED_CONDITIONS) ?? []) {
     if (!containsPhrase(normalizedExpected, condition)) return reject('unrequested_condition')
