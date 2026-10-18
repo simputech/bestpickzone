@@ -98,3 +98,22 @@ test('converters: manual widths/models pass; electric and adjacent VIVO models f
  assert.ok(match(candidate('VIVO 42 inch desk converter','VIVO','DESK-V000VL'),vivo));
  assert.equal(match(candidate('VIVO 42 inch desk converter','VIVO','DESK-V000V'),vivo),null);
 });
+test('microcurrent: intended Starter and standard facial BEAR pass; adjacent packages and body device fail', () => {
+ const [nu,foreo]=articleCommerce['/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt'].products;
+ assert.ok(match(candidate('NuFACE TRINITY+ Starter Kit','NuFACE',''),nu));
+ for(const title of ['NuFACE Trinity Starter Kit','NuFACE TRINITY+ Complete Kit','NuFACE TRINITY+ Starter Kit replacement charger']) assert.equal(match(candidate(title,'NuFACE',''),nu),null);
+ assert.ok(match(candidate('FOREO BEAR 2 Facial Toning Device','FOREO',''),foreo));
+ for(const title of ['FOREO BEAR 2 go Facial Toning Device','FOREO BEAR 2 body Device','FOREO BEAR 2 eyes & lips Device','FOREO BEAR 2 charger']) assert.equal(match(candidate(title,'FOREO',''),foreo),null);
+});
+test('coffee station: exact pinned candidates pass; adjacent variants, import voltage and accessories fail', () => {
+ const [machine,grinder,scale]=articleCommerce['/coffee/complete-small-kitchen-home-coffee-bar-setup'].products;
+ function pinned(title,brand,req) {const item=candidate(title,brand,'');item.asin=req.asin;item.detailPageURL=`https://www.amazon.com/dp/${req.asin}?tag=althcu-20`;return item;}
+ for(const [req,title,brand,bad] of [
+  [machine,'Breville Bambino Plus Espresso Machine','Breville',['Breville Bambino BES450 Espresso Machine','Breville Bambino Plus Espresso Machine 240 V','Breville Bambino Plus replacement water tank']],
+  [grinder,'Baratza Encore ESP Coffee Grinder','Baratza',['Baratza Encore ESP Pro Coffee Grinder','Baratza Encore ESP Coffee Grinder 220V','Baratza Encore ESP replacement burr']],
+  [scale,'TIMEMORE Black Mirror Nano Coffee Scale','TIMEMORE',['TIMEMORE Black Mirror Mini Coffee Scale','TIMEMORE Black Mirror Nano replacement cover']]
+ ]) {
+  assert.ok(match(pinned(title,brand,req),req),title);
+  for(const title of bad)assert.equal(match(pinned(title,brand,req),req),null,title);
+ }
+});

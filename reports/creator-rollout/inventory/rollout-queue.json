@@ -997,106 +997,106 @@
     {
       "batch": 4,
       "reviewed_page_target": 20,
-      "status": "research-and-drafting",
+      "status": "full-draft-technical-validation",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
           "path": "/home-kitchen/best-coffee-makers-under-100",
           "url": "https://bestpickzone.com/home-kitchen/best-coffee-makers-under-100",
           "title": "Best Coffee Makers Under $100 in 2026: Cuisinart vs. Hamilton Beach",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/home-kitchen/best-coffee-makers-under-100/page.tsx",
           "data_source": "app/home-kitchen/best-coffee-makers-under-100/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Substantive model-specific draft; Creator API wired with strict identity checks. Dates unchanged pending review."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/home-kitchen/best-robot-vacuums",
           "url": "https://bestpickzone.com/home-kitchen/best-robot-vacuums",
           "title": "Best Robot Vacuums in 2026: Roomba j7+ vs. Roborock Q5+",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/home-kitchen/best-robot-vacuums/page.tsx",
           "data_source": "app/home-kitchen/best-robot-vacuums/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Substantive model-specific draft; Creator API wired with strict identity checks. Dates unchanged pending review."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
           "url": "https://bestpickzone.com/home-kitchen/instant-pot-vs-ninja-foodi",
           "title": "Instant Pot Duo vs. Ninja Foodi: Which Multi-Cooker Actually Wins?",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/home-kitchen/instant-pot-vs-ninja-foodi/page.tsx",
           "data_source": "app/home-kitchen/instant-pot-vs-ninja-foodi/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Substantive model-specific draft; Creator API wired with strict identity checks. Dates unchanged pending review. Foodi OP300 purchase excluded."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
           "url": "https://bestpickzone.com/home-kitchen/oxo-vs-fullstar-avocado-slicer",
           "title": "OXO vs Fullstar Avocado Slicer",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/home-kitchen/oxo-vs-fullstar-avocado-slicer/page.tsx",
           "data_source": "app/home-kitchen/oxo-vs-fullstar-avocado-slicer/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "OXO documented; Fullstar exact avocado product unverified, so no recommendation or shopping link. Dates pending review."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
           "url": "https://bestpickzone.com/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
           "title": "Autonomous ErgoChair Pro vs. Hinomi H1 Pro: Which Ergonomic Chair Wins?",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro/page.tsx",
           "data_source": "app/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Primary-source draft; dates unchanged pending review. Official-store exception: exact Amazon configuration not verified; no forced substitute."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
           "url": "https://bestpickzone.com/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
           "title": "Ergotron LX vs Amazon Basics Monitor Arm: Which Model Fits Your Monitor?",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/page.tsx",
           "data_source": "app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Primary-source draft; dates unchanged pending review. Creator API identity constraints added; runtime verification pending."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
           "url": "https://bestpickzone.com/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
           "title": "Fully Jarvis vs. Uplift V2 Standing Desk: Which Is Worth It in 2026?",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/wfh/fully-jarvis-vs-uplift-v2-standing-desk/page.tsx",
           "data_source": "app/wfh/fully-jarvis-vs-uplift-v2-standing-desk/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Primary-source draft; dates unchanged pending review. Official-store exception: exact Amazon configuration not verified; no forced substitute."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
@@ -1108,9 +1108,9 @@
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Primary-source draft; dates unchanged pending review. Creator API identity constraints added; runtime verification pending."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
@@ -1122,9 +1122,9 @@
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
@@ -1136,37 +1136,37 @@
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
           "url": "https://bestpickzone.com/wfh/purple-royal-seat-cushion-vs-cushion-lab",
           "title": "Purple Royal vs. Cushion Lab Seat Cushion",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/wfh/purple-royal-seat-cushion-vs-cushion-lab/page.tsx",
           "data_source": "app/wfh/purple-royal-seat-cushion-vs-cushion-lab/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Primary-source draft; dates unchanged pending review. Creator API identity constraints added; runtime verification pending."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
           "url": "https://bestpickzone.com/wfh/secretlab-titan-evo-vs-ergotune-supreme",
           "title": "Secretlab Titan Evo vs. Ergotune Supreme: Gaming Chair or Ergonomic Office Chair?",
-          "renderer": "RawHtmlArticle",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/wfh/secretlab-titan-evo-vs-ergotune-supreme/page.tsx",
           "data_source": "app/wfh/secretlab-titan-evo-vs-ergotune-supreme/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Primary-source draft; dates unchanged pending review. Official-store exception: exact Amazon configuration not verified; no forced substitute."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
@@ -1178,107 +1178,107 @@
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
           "url": "https://bestpickzone.com/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
           "title": "Best LED Mask for Melasma & Hyperpigmentation (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/beauty/best-led-mask-for-melasma-and-hyperpigmentation/page.tsx",
-          "data_source": null,
+          "data_source": "app/beauty/best-led-mask-for-melasma-and-hyperpigmentation/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
           "url": "https://bestpickzone.com/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
           "title": "Dyson Airwrap vs Shark FlexStyle for Fine, Flat Hair (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair/page.tsx",
-          "data_source": null,
+          "data_source": "app/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/beauty/is-omnilux-contour-worth-it",
           "url": "https://bestpickzone.com/beauty/is-omnilux-contour-worth-it",
           "title": "Is the Omnilux Contour Worth It? (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/beauty/is-omnilux-contour-worth-it/page.tsx",
-          "data_source": null,
+          "data_source": "app/beauty/is-omnilux-contour-worth-it/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
           "review_status": "draft-awaiting-independent-review",
-          "refresh_scope": "substantive",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
           "url": "https://bestpickzone.com/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
           "title": "NuFACE Trinity+ vs Foreo Bear 2 vs MyoLift QT (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt/page.tsx",
-          "data_source": null,
+          "data_source": "app/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/coffee/best-gaggia-classic-pro-upgrades",
           "url": "https://bestpickzone.com/coffee/best-gaggia-classic-pro-upgrades",
           "title": "Best Gaggia Classic Pro Upgrades (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/coffee/best-gaggia-classic-pro-upgrades/page.tsx",
-          "data_source": null,
+          "data_source": "app/coffee/best-gaggia-classic-pro-upgrades/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
           "url": "https://bestpickzone.com/coffee/complete-small-kitchen-home-coffee-bar-setup",
           "title": "Complete Small-Kitchen Home Coffee Bar Setup (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/coffee/complete-small-kitchen-home-coffee-bar-setup/page.tsx",
-          "data_source": null,
+          "data_source": "app/coffee/complete-small-kitchen-home-coffee-bar-setup/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         },
         {
           "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
           "url": "https://bestpickzone.com/coffee/what-to-buy-with-your-breville-bambino-plus",
           "title": "What to Buy With the Breville Bambino Plus",
-          "renderer": "StandaloneJsxArticlePage",
+          "renderer": "RawHtmlCommerceArticle",
           "page_source": "app/coffee/what-to-buy-with-your-breville-bambino-plus/page.tsx",
-          "data_source": null,
+          "data_source": "app/coffee/what-to-buy-with-your-breville-bambino-plus/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive-draft",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Complete substantive draft. Exact-head independent approval and preview/production QA pending; dates not advanced."
         }
       ]
     },

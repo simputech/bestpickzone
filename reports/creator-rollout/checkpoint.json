@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T22:47:40.761880+00:00",
+  "updatedAt": "2026-10-18T23:02:17.081244+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 4,
-  "status": "batch-four-research-and-drafting",
+  "status": "batch-four-awaiting-review-and-preview",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Begin batch four from verified production: triage the next 20 queued routes, research and refresh as needed, map exact commerce or document exceptions, obtain independent review/re-review, then publish and verify before batch five.",
+  "nextAction": "Validate the complete batch-four draft, obtain independent exact-head review/re-review, preview-test all 20 routes, then publish and verify production before batch five.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -342,7 +342,7 @@
   },
   "verifiedArticles": 60,
   "batch04": {
-    "status": "research-and-drafting",
+    "status": "awaiting-independent-review-and-preview",
     "baseCommit": "34bb671d11d09f3d5f826811b64b4e80cb27d134",
     "articleCount": 20,
     "draftedPaths": [
@@ -361,14 +361,22 @@
       "/wfh/vari-desk-converter-vs-vivo-desk-riser",
       "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
       "/beauty/is-omnilux-contour-worth-it",
-      "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair"
+      "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "/coffee/best-gaggia-classic-pro-upgrades",
+      "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "/coffee/what-to-buy-with-your-breville-bambino-plus"
     ],
     "independentReview": "pending exact full-batch checkpoint",
     "productionPublished": false,
     "runtimeVerified": false,
     "sitemapDatesAdvanced": false,
     "researchNotes": [
-      "reports/creator-rollout/batch-04-research/kitchen-models.md"
+      "reports/creator-rollout/batch-04-research/kitchen-models.md",
+      "reports/creator-rollout/batch-04-research/wfh-models.md",
+      "reports/creator-rollout/batch-04-research/beauty-devices.md",
+      "reports/creator-rollout/batch-04-research/microcurrent.md",
+      "reports/creator-rollout/batch-04-research/coffee.md"
     ],
     "partialTypecheck": "passed as part of ten-draft production build",
     "partialTests": "10 focused synthetic commerce tests passed",
@@ -378,11 +386,25 @@
       "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
       "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
       "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
-      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
       "/beauty/is-omnilux-contour-worth-it"
     ],
     "productionVerified": false,
     "partialBuild": "passed ten-draft checkpoint 24451ac; three newer input/converter drafts await final build",
-    "wfhResearch": "reports/creator-rollout/batch-04-research/wfh-models.md"
+    "wfhResearch": "reports/creator-rollout/batch-04-research/wfh-models.md",
+    "noProductExceptions": [
+      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation"
+    ],
+    "partialProductExceptions": {
+      "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt": "MyoLift QT Plus official store only; no verified exact authorized Amazon package."
+    },
+    "pendingBlocker": null,
+    "technicalChecks": {
+      "tests": "213 unit/integration tests passed; includes 12 focused batch-four identity tests.",
+      "build": "Production build passed: metadata 259 rendered static pages, indexability 335/335, runtime traces 30 assets, operations and service inventory passed.",
+      "postBuildCorrections": "Corrected one internal link and five SVG aspect-ratio attributes; final build will be rerun before publication.",
+      "legacyBrowserScripts": "Two standalone scripts require absent Playwright; they did not execute. Isolated Codex in-app browser will perform desktop/mobile preview QA.",
+      "depth": "All 20 drafts exceed 1000 editorial words after excluded boilerplate, tables and headings.",
+      "sourceLinks": "33 unique internal/image targets checked; one outdated category path corrected; all now resolve in source."
+    }
   }
 }

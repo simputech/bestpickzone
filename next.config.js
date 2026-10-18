@@ -6,6 +6,10 @@ const nextConfig = {
     // This dynamic route reads its editorial HTML at runtime. Keep the asset
     // in the serverless bundle as well as the local source checkout.
     outputFileTracingIncludes: {
+      '/coffee/complete-small-kitchen-home-coffee-bar-setup': ['./app/coffee/complete-small-kitchen-home-coffee-bar-setup/article-source.html'],
+      '/coffee/what-to-buy-with-your-breville-bambino-plus': ['./app/coffee/what-to-buy-with-your-breville-bambino-plus/article-source.html'],
+      '/coffee/best-gaggia-classic-pro-upgrades': ['./app/coffee/best-gaggia-classic-pro-upgrades/article-source.html'],
+      '/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt': ['./app/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt/article-source.html'],
       '/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair': ['./app/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair/article-source.html'],
       '/beauty/best-led-mask-for-melasma-and-hyperpigmentation': ['./app/beauty/best-led-mask-for-melasma-and-hyperpigmentation/article-source.html'],
       '/beauty/is-omnilux-contour-worth-it': ['./app/beauty/is-omnilux-contour-worth-it/article-source.html'],

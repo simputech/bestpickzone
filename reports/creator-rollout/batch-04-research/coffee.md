@@ -1,0 +1,12 @@
+# Coffee accessories and small-station research
+
+Checked October 18, 2026. Three substantive drafts replace generic accessory bundles and universal fit promises with exact model, revision and working-clearance decisions. No hands-on trial claimed.
+
+Primary sources:
+
+- [Breville BES500 US](https://www.breville.com/en-us/product/bes500) and its [current US/Canada manual](https://assets.breville.com/BES500/BES500_USCM_IB_Y25_LR.pdf): distinguish Plus from base BES450. Basic accessories are supplied. Manual distinguishes single-/dual-wall basket use and specifies supplied stainless-steel jug for its documented milk workflow. Do not recommend a generic replacement pitcher. Product-page dimensions are ambiguous enough that drafts avoid a universal counter-width guarantee and require a drawing/physical measurements.
+- [Gaggia US Classic E24](https://www.gaggia-na.com/products/gaggia-classic-pro), [revision-specific manual index](https://www.gaggia-na.com/pages/gaggia-classic-pro-evo-e24-manuals) and [E24 US manual](https://cdn.shopify.com/s/files/1/0076/7649/3888/files/6420-010-18419-MANUAL-GAG.-CLASSIC-E24-USA-Rev-00.pdf): current US E24 has brass boiler, two-hole steam tip and 9-bar OPV. Do not apply older Classic modifications universally. Manual directs service beyond routine user cleaning to authorized service; draft prioritizes external workflow and maintenance, not internal modification instructions.
+- [Baratza original Encore ESP](https://www.baratza.com/en-us/product/zcg495): espresso-oriented adjustment and included dosing cup. No ESP Pro substitution; do not buy a replacement if existing grinder works.
+- [Timemore Nano White](https://www.timemore.com/collections/coffee-scale/products/timemore-black-mirror-nano-espresso-coffee-weighing-with-timer-white): exact Nano, not Mini/Basic. Current source supports scale/timer and checking its geometry; no guarantee of tray/cup/spout fit. The older localized black-page URL returned 404; use this current source in new drafts. No unrelated approved batch-two content edited.
+
+Commerce reuses existing source-grounded candidates: Encore ESP B0BW272XCV; Nano White B09KL96K8V; Bambino Plus B07JVD78TT. Returned API identity/images still require live verification. New electrical product entries explicitly reject 220/240-V title variants. Unverified aftermarket baskets, handles and tampers are discussed as compatibility decisions without invented exact product recommendations.
