@@ -1,3 +1,4 @@
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
@@ -10,7 +11,7 @@ const pageUrl = 'https://bestpickzone.com/books/reader-picks/best-true-crime-boo
 
 const article = loadRawHtmlArticle('app/books/reader-picks/best-true-crime-books/article-source.html', pageUrl)
 
-export const metadata: Metadata = withSeo(article.metadata, "/books/reader-picks/best-true-crime-books")
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, { modifiedTime: '2026-10-18', url: pageUrl }), "/books/reader-picks/best-true-crime-books")
 
 export default function Page() {
   return <RawHtmlCommerceArticle article={article} path="/books/reader-picks/best-true-crime-books" />

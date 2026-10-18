@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T21:41:36.018864+00:00",
+  "updatedAt": "2026-10-18T21:44:28.130616+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 3,
-  "status": "batch-three-corrections-ready-for-re-review",
+  "status": "batch-three-approved-release-validation",
   "completedBatches": [
     1,
     2
@@ -52,7 +52,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Obtain parent-coordinated independent re-review of source commit 8ca352fd50b17013d6e24cc7efa9e0c7647c4614. Then apply only justified substantive dates, publish, verify exact production commit/API identities/images, and start batch four.",
+  "nextAction": "Finish date-aligned preview and CI/build checks, merge approved batch three, verify production and then start batch four.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -172,11 +172,11 @@
     "productionReport": "reports/creator-rollout/batch-02-production-final.json"
   },
   "batch03": {
-    "status": "review-findings-corrected-re-review-pending",
+    "status": "independently-approved-release-validation-pending",
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/16",
     "triageReport": "reports/creator-rollout/batch-03-triage.json",
     "articleCount": 20,
-    "independentReview": "Initial independent review completed all 20 routes; three material findings corrected. Re-review pending; not approved to publish.",
+    "independentReview": "PASSED at 356cb4ebc49aa2c8997d75a0d95c51f1dbe77085: explicit 20/20 editorial approval, no unresolved material blockers; independent eight commerce tests passed.",
     "previewQa": "Corrected source 8ca352fd50b17013d6e24cc7efa9e0c7647c4614 passed all 20 routes at 390x844 and 1440x1000; 40 checks, zero failures. See batch-03-corrected-preview-qa.json.",
     "productionPublished": false,
     "draftedSubstantivePaths": [
@@ -218,7 +218,7 @@
       "reports/creator-rollout/batch-03-research/air-fryers.md"
     ],
     "editorialPassCount": 20,
-    "independentlyApprovedCount": 0,
+    "independentlyApprovedCount": 20,
     "localQa": {
       "status": "passed-measured-desktop-mobile",
       "routesChecked": [
@@ -263,7 +263,44 @@
     "reviewResponse": "reports/creator-rollout/batch-03-independent-review.md",
     "previewAccess": "Resolved through normal GitHub/Vercel sign-in in isolated Codex browser; no bypass/share/access-setting changes or production secret copying.",
     "correctedSourceCommit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
-    "correctedPreviewReport": "reports/creator-rollout/batch-03-corrected-preview-qa.json"
+    "correctedPreviewReport": "reports/creator-rollout/batch-03-corrected-preview-qa.json",
+    "substantialRefreshes": [
+      "/beauty/dyson-airstrait-vs-ghd-duet-style",
+      "/beauty/dyson-airwrap-vs-shark-flexstyle",
+      "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+      "/beauty/nuface-trinity-vs-solawave-wand",
+      "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+      "/beauty/revlon-one-step-vs-loreal-steampod",
+      "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+      "/beauty/vitamin-c-vs-niacinamide",
+      "/books/agatha-christie-vs-arthur-conan-doyle",
+      "/books/genre-fiction/best-historical-fiction-books",
+      "/books/hemingway-vs-fitzgerald",
+      "/books/lord-of-the-rings-vs-harry-potter",
+      "/books/reader-picks/best-true-crime-books",
+      "/books/self-help/best-james-clear-books",
+      "/books/stephen-king-vs-dean-koontz",
+      "/home-kitchen/best-air-fryers"
+    ],
+    "sitemapUpdates": [
+      "/beauty/dyson-airstrait-vs-ghd-duet-style",
+      "/beauty/dyson-airwrap-vs-shark-flexstyle",
+      "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+      "/beauty/nuface-trinity-vs-solawave-wand",
+      "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+      "/beauty/revlon-one-step-vs-loreal-steampod",
+      "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+      "/beauty/vitamin-c-vs-niacinamide",
+      "/books/agatha-christie-vs-arthur-conan-doyle",
+      "/books/genre-fiction/best-historical-fiction-books",
+      "/books/hemingway-vs-fitzgerald",
+      "/books/lord-of-the-rings-vs-harry-potter",
+      "/books/reader-picks/best-true-crime-books",
+      "/books/self-help/best-james-clear-books",
+      "/books/stephen-king-vs-dean-koontz",
+      "/home-kitchen/best-air-fryers"
+    ],
+    "modifiedDate": "2026-10-18"
   },
   "pregnancyClaimCorrection": {
     "pullRequest": "https://github.com/simputech/bestpickzone/pull/17",

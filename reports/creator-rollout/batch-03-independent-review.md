@@ -16,3 +16,7 @@ Authenticated preview baseline `5c1bfdd` passed all 20 routes at both 390x844 an
 No new publication dates or sitemap lastmods have been applied. Sixteen drafted substantive refreshes and four minor updates retain their release gate. PR16 remains draft and unmerged.
 
 Corrected source `8ca352fd50b17013d6e24cc7efa9e0c7647c4614` subsequently passed the same full 40-check preview matrix on deployment `dpl_D95BM1fsJekVZmmvr4LsfQuXGStn`. The four editorial corrections were verified in deployed page text. See `batch-03-corrected-preview-qa.json`. Independent re-review remains pending.
+
+## Final independent re-review
+
+Parent delivered explicit PASSED, 20/20 editorial approval at `356cb4ebc49aa2c8997d75a0d95c51f1dbe77085`, with no unresolved material editorial or product-matching blockers. Reviewer independently ran all eight batch-three commerce tests against the exact fetched modules (eight passed, zero failed), verified Lost Girls wording, accessory and voltage exclusions, accepted complete-device included-case listings, and confirmed the source-to-head diff was reports only. Subsequent release edits align October 18 dates only for the 16 approved substantive refreshes; four minor articles retain existing dates.

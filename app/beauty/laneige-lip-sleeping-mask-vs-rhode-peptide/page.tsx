@@ -1,3 +1,4 @@
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
@@ -13,7 +14,7 @@ const article = loadRawHtmlArticle(
   pageUrl
 )
 
-export const metadata: Metadata = withSeo(article.metadata, "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide")
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, { modifiedTime: '2026-10-18', url: pageUrl }), "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide")
 
 export default function Page() {
   return <RawHtmlCommerceArticle article={article} path="/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide" />

@@ -9,7 +9,7 @@ export const dynamic = 'force-dynamic'
 
 const pageUrl = 'https://bestpickzone.com/books/agatha-christie-vs-arthur-conan-doyle'
 const publishedDate = '2026-06-14'
-const updatedDate = '2026-06-26'
+const updatedDate = '2026-10-18'
 
 const article = loadRawHtmlArticle(
   'app/books/agatha-christie-vs-arthur-conan-doyle/article-source.html',

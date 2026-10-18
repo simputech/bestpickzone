@@ -9,7 +9,7 @@ export const dynamic = 'force-dynamic'
 
 const pageUrl = 'https://bestpickzone.com/books/lord-of-the-rings-vs-harry-potter'
 const publishedDate = '2026-06-14'
-const updatedDate = '2026-06-26'
+const updatedDate = '2026-10-18'
 
 const article = loadRawHtmlArticle('app/books/lord-of-the-rings-vs-harry-potter/article-source.html', pageUrl)
 

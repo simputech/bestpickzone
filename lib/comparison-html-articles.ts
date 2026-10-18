@@ -532,6 +532,7 @@ export const coffeeComparisonArticles: HtmlComparisonArticle[] = [
 export const beautyComparisonArticles: HtmlComparisonArticle[] = [
   {
     slug: 'dyson-airwrap-vs-shark-flexstyle',
+    modifiedDate: '2026-10-18',
     silo: 'beauty',
     title: 'Dyson Airwrap i.d. vs Shark FlexStyle HD430',
     description: 'Compare Airwrap i.d. Straight+Wavy with original FlexStyle HD430: timed curling, exact bundle contents, diffuser gaps, and routine fit.',
@@ -585,6 +586,7 @@ export const beautyComparisonArticles: HtmlComparisonArticle[] = [
   },
   {
     slug: 'nuface-trinity-vs-solawave-wand',
+    modifiedDate: '2026-10-18',
     silo: 'beauty',
     title: "NuFACE TRINITY+ vs Solawave Radiant Renewal Wand",
     description:
@@ -645,6 +647,7 @@ export const beautyComparisonArticles: HtmlComparisonArticle[] = [
   },
   {
     slug: 'dyson-airstrait-vs-ghd-duet-style',
+    modifiedDate: '2026-10-18',
     silo: 'beauty',
     title: 'Dyson Airstrait vs ghd Duet Style',
     description:
@@ -701,6 +704,7 @@ export const beautyComparisonArticles: HtmlComparisonArticle[] = [
   },
   {
     slug: 'revlon-one-step-vs-loreal-steampod',
+    modifiedDate: '2026-10-18',
     silo: 'beauty',
     title: "Revlon One-Step Volumizer PLUS vs L'Oréal SteamPod",
     description:
