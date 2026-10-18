@@ -1,0 +1,664 @@
+{
+  "sourceCommit": "f2aa46fed917348c2bd01ad96254cae5efd4a0c7",
+  "deploymentId": "dpl_BDaLjCR4ETQN4H68dk9A6PuK93pL",
+  "url": "https://bestpickzone-fixed-8srppx58l-simputechs-projects.vercel.app",
+  "access": "Existing authorized signed-in isolated Codex IAB. No new share/bypass grant or secret copying.",
+  "method": "Browser navigations, wait for load, read rendered DOM/images/layout; representative screenshots visually inspected. Amazon manual-CDN links excluded from affiliate tag test.",
+  "checks": [
+    {
+      "path": "/home-kitchen/best-coffee-makers-under-100",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/best-coffee-makers-under-100",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/home-kitchen/best-robot-vacuums",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/best-robot-vacuums",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/instant-pot-vs-ninja-foodi",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 1,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 1,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/is-omnilux-contour-worth-it",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/is-omnilux-contour-worth-it",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/coffee/best-gaggia-classic-pro-upgrades",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/coffee/best-gaggia-classic-pro-upgrades",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 3,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/home-kitchen/best-coffee-makers-under-100",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/best-coffee-makers-under-100",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/home-kitchen/best-robot-vacuums",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/best-robot-vacuums",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/instant-pot-vs-ninja-foodi",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 1,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 1,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/is-omnilux-contour-worth-it",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/is-omnilux-contour-worth-it",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/coffee/best-gaggia-classic-pro-upgrades",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/coffee/best-gaggia-classic-pro-upgrades",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 3,
+      "badAffiliateTags": []
+    },
+    {
+      "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "h1Count": 1,
+      "imageCount": 1,
+      "brokenImages": [],
+      "overflow": false,
+      "canonical": "https://bestpickzone.com/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "disclosure": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "badAffiliateTags": []
+    }
+  ],
+  "failures": [],
+  "keyboardTable": {
+    "path": "/home-kitchen/best-coffee-makers-under-100",
+    "viewportWidth": 390,
+    "key": "ArrowRight",
+    "beforeScrollLeft": 0,
+    "afterScrollLeft": 40,
+    "focusedRegion": "Coffee maker model comparison; scroll horizontally",
+    "pageOverflow": false
+  },
+  "limitations": [
+    "Preview has no production API configuration; fallback behavior only. Live identities/images require production verification.",
+    "Independent review identified editorial and accessory-identity blockers; this QA does not approve publication.",
+    "Final corrections and dates require another preview."
+  ]
+}

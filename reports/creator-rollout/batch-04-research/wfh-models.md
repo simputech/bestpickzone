@@ -38,3 +38,5 @@ Primary pages opened and checked:
 - https://cdn.shopify.com/s/files/1/1190/2562/files/DESK-V000VL_SERIES_REV1.3_online.pdf?v=1787707587 — exact linked model-series manual.
 
 Three drafts remove unsupported typing/comfort/wobble hierarchies and add concrete layout, host, package and support-desk checks. Ten focused synthetic tests pass, including generation/model/accessory negative probes. Final full-batch build and runtime identity verification pending; no dates advanced.
+
+Independent review clarification: Jarvis figures are expressly configurator ranges, with a finished-height confirmation for tight fits because detailed drawings differ slightly. Cushion Lab page simultaneously shows Cloud Cradle/CloudSupport Standard 18×16×4 and Large 21×18×5 inches above a Pressure Relief/Hyperfoam section giving 18×15.5×4 inches; the draft now exposes the inconsistency without treating all variants as equivalent.

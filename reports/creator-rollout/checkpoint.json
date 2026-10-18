@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T23:02:17.081244+00:00",
+  "updatedAt": "2026-10-18T23:12:00.596294+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
@@ -342,7 +342,7 @@
   },
   "verifiedArticles": 60,
   "batch04": {
-    "status": "awaiting-independent-review-and-preview",
+    "status": "corrections-awaiting-rereview",
     "baseCommit": "34bb671d11d09f3d5f826811b64b4e80cb27d134",
     "articleCount": 20,
     "draftedPaths": [
@@ -367,7 +367,7 @@
       "/coffee/complete-small-kitchen-home-coffee-bar-setup",
       "/coffee/what-to-buy-with-your-breville-bambino-plus"
     ],
-    "independentReview": "pending exact full-batch checkpoint",
+    "independentReview": "Initial exact-head f2aa46f BLOCKED on accessory-only matcher accepts, ten public editorial-process passages and P1/NAS citation mismatch. All20 substantive; corrections implemented, re-review pending.",
     "productionPublished": false,
     "runtimeVerified": false,
     "sitemapDatesAdvanced": false,
@@ -399,12 +399,15 @@
     },
     "pendingBlocker": null,
     "technicalChecks": {
-      "tests": "213 unit/integration tests passed; includes 12 focused batch-four identity tests.",
+      "tests": "214 unit/integration tests passed after review corrections, including13 focused batch-four tests.",
       "build": "Production build passed: metadata 259 rendered static pages, indexability 335/335, runtime traces 30 assets, operations and service inventory passed.",
       "postBuildCorrections": "Corrected one internal link and five SVG aspect-ratio attributes; final build will be rerun before publication.",
       "legacyBrowserScripts": "Two standalone scripts require absent Playwright; they did not execute. Isolated Codex in-app browser will perform desktop/mobile preview QA.",
       "depth": "All 20 drafts exceed 1000 editorial words after excluded boilerplate, tables and headings.",
       "sourceLinks": "33 unique internal/image targets checked; one outdated category path corrected; all now resolve in source."
-    }
+    },
+    "reviewReport": "reports/creator-rollout/batch-04-independent-review.md",
+    "previewQa": "Initial f2aa46f preview passed40 route/viewport checks;29fallbacks each viewport; keyboard table scroll verified. Corrected preview pending.",
+    "previewReport": "reports/creator-rollout/batch-04-preview-initial.json"
   }
 }

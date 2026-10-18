@@ -13,7 +13,7 @@ function request(route, index=0) { return articleCommerce[`/home-kitchen/${route
 function match(source, req) { return matchAmazonProduct(source, req, 'althcu-20', 'www.amazon.com', at); }
 // Synthetic response titles exercise actual catalog constraints. No remote image is loaded.
 test('coffee makers: complete exact models pass; replacement carafes and adjacent models fail', () => {
-  for (const [index,title,brand,model] of [[0,'Cuisinart 14 Cup Coffee Maker with Glass Carafe','Cuisinart','DCC-3200P1'],[1,'Hamilton Beach FlexBrew Trio Coffee Maker with Glass Carafe','Hamilton Beach','49902']]) {
+  for (const [index,title,brand,model] of [[0,'Cuisinart 14 Cup Coffee Maker with Glass Carafe','Cuisinart','DCC-3200NAS'],[1,'Hamilton Beach FlexBrew Trio Coffee Maker with Glass Carafe','Hamilton Beach','49902']]) {
     const req=request('best-coffee-makers-under-100',index);
     assert.ok(match(candidate(title,brand,model),req));
     assert.equal(match(candidate(title,brand,model+'X'),req),null);
@@ -116,4 +116,26 @@ test('coffee station: exact pinned candidates pass; adjacent variants, import vo
   assert.ok(match(pinned(title,brand,req),req),title);
   for(const title of bad)assert.equal(match(pinned(title,brand,req),req),null,title);
  }
+});
+test('independent review: bare accessory nouns cannot become complete products, including pinned ASINs', () => {
+ const cases=[
+ ['/wfh/purple-royal-seat-cushion-vs-cushion-lab',0,'Purple Royal Seat Cushion','cover'],
+ ['/wfh/purple-royal-seat-cushion-vs-cushion-lab',1,'Cushion Lab Pressure Relief Seat Cushion','cover'],
+ ['/wfh/herman-miller-aeron-vs-steelcase-gesture',1,'Steelcase Gesture Chair','headrest'],
+ ['/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt',1,'FOREO BEAR 2 Device','stand'],
+ ['/wfh/ergotron-lx-vs-amazon-basics-monitor-arm',0,'Ergotron LX Desk Monitor Arm','grommet mount'],
+ ['/home-kitchen/best-robot-vacuums',1,'roborock Q5 2700Pa Self Emptying Robot Vacuum','dock'],
+ ['/home-kitchen/best-robot-vacuums',0,'iRobot Roomba j7 Self Emptying Robot Vacuum','base'],
+ ['/coffee/complete-small-kitchen-home-coffee-bar-setup',0,'Breville Bambino Plus Espresso Machine','water tank'],
+ ['/coffee/complete-small-kitchen-home-coffee-bar-setup',2,'TIMEMORE Black Mirror Nano Scale','protective silicone pad'],
+ ];
+ for(const [route,index,title,part] of cases){
+  const req=articleCommerce[route].products[index];
+  function item(t){const i=candidate(t,req.brand,req.model||'');if(req.asin){i.asin=req.asin;i.detailPageURL=`https://www.amazon.com/dp/${req.asin}?tag=althcu-20`;}return i;}
+  assert.equal(match(item(`${title} ${part}`),req),null,`${title} ${part}`);
+  assert.equal(match(item(`${title} ${part} only`),req),null);
+  assert.ok(match(item(`${title} with ${part}`),req),`${title} with ${part}`);
+ }
+ for(const route of ['/coffee/best-gaggia-classic-pro-upgrades','/coffee/what-to-buy-with-your-breville-bambino-plus'])assert.deepEqual(articleCommerce[route].products[1].accessoryOnlyTitleTerms,articleCommerce['/coffee/complete-small-kitchen-home-coffee-bar-setup'].products[2].accessoryOnlyTitleTerms);
+ const req=request('best-coffee-makers-under-100');assert.equal(match(candidate('Cuisinart 14 Cup Coffee Maker','Cuisinart','DCC-3200P1'),req),null);
 });
