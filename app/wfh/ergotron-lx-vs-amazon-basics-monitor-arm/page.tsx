@@ -1,28 +1,9 @@
+import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
-
-import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
-
-const pageUrl = 'https://bestpickzone.com/wfh/ergotron-lx-vs-amazon-basics-monitor-arm'
-const publishedDate = '2026-06-18'
-const updatedDate = '2026-06-26'
-
-const article = loadRawHtmlArticle('app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html', pageUrl)
-
-export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, {
-  category: 'wfh',
-  publishedTime: publishedDate,
-  modifiedTime: updatedDate,
-  section: 'Work From Home',
-  url: pageUrl,
-}), "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm")
-
-export default function Page() {
-  return (
-    <>
-      <style dangerouslySetInnerHTML={{ __html: article.rawCss }} />
-      <div dangerouslySetInnerHTML={{ __html: article.rawHtml }} />
-    </>
-  )
-}
+export const dynamic = 'force-dynamic'
+const path = '/wfh/ergotron-lx-vs-amazon-basics-monitor-arm'
+const article = loadRawHtmlArticle('app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html', `https://bestpickzone.com${path}`)
+export const metadata: Metadata = withSeo(article.metadata, path)
+export default function Page() { return <RawHtmlCommerceArticle article={article} path={path} /> }

@@ -6,6 +6,11 @@ const nextConfig = {
     // This dynamic route reads its editorial HTML at runtime. Keep the asset
     // in the serverless bundle as well as the local source checkout.
     outputFileTracingIncludes: {
+      '/wfh/purple-royal-seat-cushion-vs-cushion-lab': ['./app/wfh/purple-royal-seat-cushion-vs-cushion-lab/article-source.html'],
+      '/wfh/secretlab-titan-evo-vs-ergotune-supreme': ['./app/wfh/secretlab-titan-evo-vs-ergotune-supreme/article-source.html'],
+      '/wfh/fully-jarvis-vs-uplift-v2-standing-desk': ['./app/wfh/fully-jarvis-vs-uplift-v2-standing-desk/article-source.html'],
+      '/wfh/ergotron-lx-vs-amazon-basics-monitor-arm': ['./app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html'],
+      '/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro': ['./app/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro/article-source.html'],
       '/home-kitchen/oxo-vs-fullstar-avocado-slicer': ['./app/home-kitchen/oxo-vs-fullstar-avocado-slicer/article-source.html'],
       '/home-kitchen/best-coffee-makers-under-100': ['./app/home-kitchen/best-coffee-makers-under-100/article-source.html'],
       '/home-kitchen/best-robot-vacuums': ['./app/home-kitchen/best-robot-vacuums/article-source.html'],

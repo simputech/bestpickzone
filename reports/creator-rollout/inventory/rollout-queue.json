@@ -1065,10 +1065,10 @@
           "data_source": "app/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Primary-source draft; dates unchanged pending review. Official-store exception: exact Amazon configuration not verified; no forced substitute."
         },
         {
           "path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
@@ -1079,10 +1079,10 @@
           "data_source": "app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Primary-source draft; dates unchanged pending review. Creator API identity constraints added; runtime verification pending."
         },
         {
           "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
@@ -1093,10 +1093,10 @@
           "data_source": "app/wfh/fully-jarvis-vs-uplift-v2-standing-desk/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Primary-source draft; dates unchanged pending review. Official-store exception: exact Amazon configuration not verified; no forced substitute."
         },
         {
           "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
@@ -1107,10 +1107,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Primary-source draft; dates unchanged pending review. Creator API identity constraints added; runtime verification pending."
         },
         {
           "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
@@ -1149,10 +1149,10 @@
           "data_source": "app/wfh/purple-royal-seat-cushion-vs-cushion-lab/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Primary-source draft; dates unchanged pending review. Creator API identity constraints added; runtime verification pending."
         },
         {
           "path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
@@ -1163,10 +1163,10 @@
           "data_source": "app/wfh/secretlab-titan-evo-vs-ergotune-supreme/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Primary-source draft; dates unchanged pending review. Official-store exception: exact Amazon configuration not verified; no forced substitute."
         },
         {
           "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",

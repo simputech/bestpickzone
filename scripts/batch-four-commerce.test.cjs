@@ -49,3 +49,32 @@ test('avocado: documented OXO tool passes; SoftWorks, generic brand and multipac
   for(const variant of [title+' SoftWorks',title+' 2 pack']) assert.equal(match(candidate(variant,'OXO','1252180'),req),null);
   assert.equal(articleCommerce['/home-kitchen/oxo-vs-fullstar-avocado-slicer'].products.length,1);
 });
+test('original monitor arms: exact LX kit and Basics identity pass; newer LX Pro and accessories fail', () => {
+  const [lx, basics]=articleCommerce['/wfh/ergotron-lx-vs-amazon-basics-monitor-arm'].products;
+  assert.ok(match(candidate('Ergotron LX Desk Monitor Arm','Ergotron','45-241-026'),lx));
+  assert.equal(match(candidate('Ergotron LX Pro Desk Monitor Arm','Ergotron','45-241-026'),lx),null);
+  assert.equal(match(candidate('Ergotron LX Desk Monitor Arm Extension Accessory','Ergotron','45-241-026'),lx),null);
+  assert.equal(match(candidate('Ergotron LX Desk Monitor Arm','Ergotron','45-682'),lx),null);
+  const full=candidate('Amazon Basics Single Monitor Stand Lift Engine Arm Mount','Amazon Basics','');
+  full.asin='B00MIBN16O'; full.detailPageURL='https://www.amazon.com/dp/B00MIBN16O?tag=althcu-20';
+  assert.ok(match(full,basics));
+  full.itemInfo.title.displayValue='Amazon Basics Single Monitor Stand Pole Mount';
+  assert.equal(match(full,basics),null);
+});
+test('seat cushions: complete named products pass; adjacent designs and covers fail', () => {
+  const [purple,lab]=articleCommerce['/wfh/purple-royal-seat-cushion-vs-cushion-lab'].products;
+  assert.ok(match(candidate('Purple Royal Seat Cushion','Purple',''),purple));
+  assert.equal(match(candidate('Purple Royal Seat Cushion Replacement Cover','Purple',''),purple),null);
+  assert.equal(match(candidate('Purple Double Seat Cushion','Purple',''),purple),null);
+  assert.ok(match(candidate('Cushion Lab Pressure Relief Seat Cushion','Cushion Lab',''),lab));
+  assert.equal(match(candidate('Cushion Lab Pressure Relief Seat Cushion Lumbar Bundle','Cushion Lab',''),lab),null);
+});
+test('chairs: current Aeron size identity and Gesture chair pass; Classic and stools fail', () => {
+  const [aeron,gesture]=articleCommerce['/wfh/herman-miller-aeron-vs-steelcase-gesture'].products;
+  assert.ok(match(candidate('Herman Miller Aeron Remastered Chair Size B','Herman Miller',''),aeron));
+  assert.equal(match(candidate('Herman Miller Aeron Classic Chair Size B','Herman Miller',''),aeron),null);
+  assert.equal(match(candidate('Herman Miller Aeron Remastered Chair Size C','Herman Miller',''),aeron),null);
+  assert.ok(match(candidate('Steelcase Gesture Office Chair','Steelcase',''),gesture));
+  assert.equal(match(candidate('Steelcase Gesture Office Chair Stool','Steelcase',''),gesture),null);
+  assert.equal(match(candidate('Steelcase Gesture Office Chair Replacement Arm Pads','Steelcase',''),gesture),null);
+});

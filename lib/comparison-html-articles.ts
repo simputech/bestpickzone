@@ -769,15 +769,12 @@ export const wfhComparisonArticles: HtmlComparisonArticle[] = [
   {
     slug: 'herman-miller-aeron-vs-steelcase-gesture',
     silo: 'wfh',
-    title: 'Herman Miller Aeron vs Steelcase Gesture',
-    description:
-      'Herman Miller Aeron vs Steelcase Gesture - breathable mesh in three sizes vs. cushioned foam with 360-degree arms. Fit, support, and which premium chair wins.',
-    ogTitle: 'Herman Miller Aeron vs Steelcase Gesture: Which Should You Buy?',
-    ogDescription:
-      'Mesh and three sizes versus cushioned foam and 360-degree arms - the two best-known premium office chairs, compared on fit, support, and value.',
-    twitterTitle: 'Aeron vs Gesture',
-    twitterDescription:
-      'Breathable mesh, three sizes vs. cushioned foam, 360-degree arms. The differences that decide it.',
+    title: "Herman Miller Aeron vs Steelcase Gesture: Fit and Options",
+    description: "Compare current Aeron and Gesture by seat construction, size, arm configuration and desk fit. Separate used-chair condition and warranty terms from new-chair specifications.",
+    ogTitle: "Herman Miller Aeron vs Steelcase Gesture: Fit and Options",
+    ogDescription: "Compare current Aeron and Gesture by seat construction, size, arm configuration and desk fit. Separate used-chair condition and warranty terms from new-chair specifications.",
+    twitterTitle: "Herman Miller Aeron vs Steelcase Gesture: Fit and Options",
+    twitterDescription: "Compare current Aeron and Gesture by seat construction, size, arm configuration and desk fit. Separate used-chair condition and warranty terms from new-chair specifications.",
     heroImage: {
       src: '/images/wfh/wfh-desk-setup.svg',
       alt: 'An illustrated work-from-home desk with an ergonomic chair, monitor, and desk accessories.',
@@ -785,51 +782,47 @@ export const wfhComparisonArticles: HtmlComparisonArticle[] = [
       height: 800,
     },
     bodyHtml: `
-<p><em>Affiliate disclosure: BestPickZone earns a commission on qualifying purchases made through links on this page, at no extra cost to you. Specs verified against manufacturer pages as of June 2026; confirm current pricing before buying.</em></p>
-<p>Buy the Herman Miller Aeron if you run warm and want a chair sized precisely to your body, and the Steelcase Gesture if you want a cushioned seat and the most adjustable arms on the market. The Aeron uses breathable mesh in three distinct sizes; the Gesture uses an upholstered foam seat with 360-degree arms in a single size that fits most. Both are premium chairs with long warranties, so this is about how you sit, not which is better in the abstract. Below: mesh versus foam, sizing versus arm range, and which premium chair fits your body and desk.</p>
-<table>
-<thead>
-<tr><th>Spec</th><th>Herman Miller Aeron</th><th>Steelcase Gesture</th></tr>
-</thead>
-<tbody>
-<tr><td>Seat material</td><td>Breathable mesh (firm, no cushion)</td><td>Upholstered foam (cushioned, retains more heat)</td></tr>
-<tr><td>Sizing</td><td>Three sizes tailored to body</td><td>One size designed to fit most</td></tr>
-<tr><td>Weight capacity</td><td>Up to 400 lb depending on size</td><td>400 lb</td></tr>
-<tr><td>Arms</td><td>Adjustable height, width, pivot</td><td>360-degree arms with exceptional range</td></tr>
-<tr><td>Seat depth</td><td>No sliding seat-depth adjustment</td><td>Sliding seat-depth adjustment</td></tr>
-<tr><td>Lumbar</td><td>PostureFit SL</td><td>Core Equalizer; optional adjustable lumbar</td></tr>
-<tr><td>Warranty</td><td>12 years</td><td>12 years or better depending on component</td></tr>
-<tr><td>Price band</td><td>Premium</td><td>Premium</td></tr>
-</tbody>
-</table>
-<h2>Is the Herman Miller Aeron worth it over the Steelcase Gesture?</h2>
-<p>For people who run warm or want a body-tailored fit, yes. The Aeron's mesh breathes in a way no foam seat can, and its three sizes fit a specific body rather than averaging across everyone. The trade-off is a firm seat and no sliding seat-depth adjustment.</p>
-<p>The <a href="https://www.amazon.com/s?k=Herman+Miller+Aeron+chair&tag=althcu-20" target="_blank" rel="sponsored noopener">Herman Miller Aeron</a> solves heat and fit better than almost any chair. The mesh seat and back let air and body heat pass straight through, which matters over an eight-hour day in a warm room, and the PostureFit system supports the base of the spine to hold an open, upright posture. Because it comes in three sizes, you choose the frame that matches your height and weight instead of compromising on a one-size chair. The costs: the mesh seat is firm and not for everyone, there is no sliding seat-depth adjustment, and it is rarely the cheaper chair at list price.</p>
-<ul>
-<li><strong>Pros:</strong> best-in-class breathability for warm sitters; three sizes for a tailored fit; strong lumbar support; long warranty.</li>
-<li><strong>Cons:</strong> firm mesh seat divides opinion; no sliding seat-depth adjustment; you must pick the correct size to fit; premium pricing.</li>
-</ul>
-<p><strong>Skip this if</strong> you want a soft, cushioned seat or you share the chair across people of very different sizes - a single fixed mesh size will not suit everyone, and there is no seat-depth slider to compensate.</p>
-<p><a href="https://www.amazon.com/s?k=Herman+Miller+Aeron+chair&tag=althcu-20" target="_blank" rel="sponsored noopener">Click Here to Buy on Amazon</a></p>
-<h2>Are the Steelcase Gesture's 360-degree arms worth it?</h2>
-<p>If you work across a keyboard, phone, and tablet all day, yes. The Gesture's 360-degree arms have an unusually wide range and swing in close to support your forearms in nearly any posture, which reduces shoulder and neck strain. It also adds a cushioned foam seat and a sliding seat-depth adjustment the Aeron lacks.</p>
-<p>The <a href="https://www.amazon.com/s?k=Steelcase+Gesture+office+chair&tag=althcu-20" target="_blank" rel="sponsored noopener">Steelcase Gesture</a> is built around movement and arm flexibility. Its back flexes with your spine as you shift, the Core Equalizer keeps lumbar contact through the recline, and the 360-degree arms adjust up, down, in, out, and pivot - uniquely useful if you constantly reposition between devices. The upholstered seat is more cushioned than the Aeron's mesh and the seat-depth slider tailors support to your leg length on a single chair. The trade-offs: foam retains more heat than mesh over a long day, and the backrest does not lock fully rigid upright.</p>
-<ul>
-<li><strong>Pros:</strong> 360-degree arms with exceptional range; cushioned foam seat; sliding seat-depth adjustment; one size fits a broad range.</li>
-<li><strong>Cons:</strong> foam seat runs warmer than mesh; backrest does not lock perfectly rigid upright; single size will not tailor to extremes as precisely as the Aeron's size system.</li>
-</ul>
-<p><strong>Skip this if</strong> you run hot and want maximum breathability, or you specifically want a backrest that locks dead-solid upright - the foam seat and slight always-on back movement will not suit you.</p>
+
+<p><em>Affiliate disclosure: As an Amazon Associate, BestPickZone earns from qualifying purchases. This is manufacturer-source research and editorial buying guidance, not a hands-on chair test.</em></p>
+<p><strong>Start with Aeron if you prefer a suspension seat and can choose the correct frame size. Start with Gesture if you prefer an upholstered foam seat and want to investigate its seat-depth and arm adjustments.</strong> Neither chair wins for every body or desk. The meaningful purchase is a particular configuration that you can try or return, not a brand name with an assumed set of features.</p>
+<p>This comparison covers the current Aeron design and the Gesture office chair. Older Aeron Classic units, stools and replacement parts are separate purchases. A used chair's condition and support route also deserve their own assessment; they should not inherit every promise made for a new chair sold through an authorized channel.</p>
+<table><thead><tr><th>Decision</th><th>Current Aeron</th><th>Gesture office chair</th></tr></thead><tbody>
+<tr><td>Seat approach</td><td>Suspension seat and back</td><td>Upholstered foam seat</td></tr>
+<tr><td>Fit strategy</td><td>Choose A, B or C frame size</td><td>Adjust the seat depth within the chair's range</td></tr>
+<tr><td>Arms</td><td>Configuration-dependent; verify the selected option</td><td>Articulating arms; test their useful range at your desk</td></tr>
+<tr><td>Back options</td><td>Support and tilt options vary</td><td>Optional added lumbar support and headrest variants</td></tr>
+<tr><td>Buying priority</td><td>Generation, size and configuration</td><td>Office chair versus stool, options and fit</td></tr>
+</tbody></table>
+<h2>Why would you choose Aeron?</h2>
+<p>Choose Aeron when you like its suspension surface and a specific size fits your seated working position. Its three-size approach is useful because it gives you different chair dimensions to try. It does not mean a height-and-weight chart can guarantee comfort without checking the seat edge, backrest and desk relationship.</p>
+<p>The <a href="https://www.amazon.com/s?k=Herman+Miller+Aeron+Remastered+Size+B+office+chair&tag=althcu-20" target="_blank" rel="sponsored noopener">current Aeron office chair</a> is documented through <a href="https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/specs/" target="_blank" rel="noopener">Herman Miller's specifications</a>. The brand identifies sizes A, B and C, a suspension seat and back, several arm options, and different back-support and tilt choices. PostureFit SL and fully adjustable arms should not be assumed present on every listing.</p>
+<p>During a trial, sit back into the chair and check the usable seat depth. Then move into your normal keyboard position without perching forward just to reach the desk. Notice how the front and side edges contact you. Choosing a larger frame to gain width also changes other dimensions; it is not simply an upgrade from the smaller size.</p>
+<p>Aeron deserves particular care when buying secondhand because “fully loaded” is a seller's shorthand, not a complete configuration record. Ask for the generation, size label, adjustment photographs and the actual support mechanism. A familiar silhouette does not confirm that an older chair has current controls, replacement parts or the same warranty eligibility.</p>
+<ul><li><strong>Pros:</strong> several frame sizes and defined support options; a suspension surface for buyers who prefer it.</li><li><strong>Cons:</strong> size and options need careful matching; the seat-edge feel may not suit you; used listings can obscure generation and configuration.</li></ul>
+<p><strong>Skip this if</strong> you want a padded foam seat, cannot find a size that works at your desk, or need one chair to suit users whose fit requirements differ substantially. Trying a nearby size is sensible; assuming all three will feel equivalent is not.</p>
+<p><a href="https://www.amazon.com/s?k=Herman+Miller+Aeron+Remastered+office+chair&tag=althcu-20" target="_blank" rel="sponsored noopener">Click Here to Buy on Amazon</a></p>
+<h2>Why would you choose Gesture?</h2>
+<p>Choose Gesture when an upholstered seat and adjustable depth suit your preferences, and its arm movement helps with the tasks you actually perform. Try those controls with your desk, keyboard and mouse. A broad range of motion is useful only if you can reach a comfortable setting and keep the chair close enough.</p>
+<p>The <a href="https://www.amazon.com/s?k=Steelcase+Gesture+office+chair&tag=althcu-20" target="_blank" rel="sponsored noopener">Steelcase Gesture</a> has manufacturer-documented seat-height and depth controls, back-tension and stop settings, and articulating arms. <a href="https://www.steelcase.com/products/office-chairs/gesture/" target="_blank" rel="noopener">Steelcase's current product page</a> lists an upright back lock and optional headrest and additional lumbar support. This corrects the earlier blanket claim that Gesture cannot lock upright.</p>
+<p>For a mixed-device desk, test the arms while using the keyboard, then a tablet or controller if those are part of your routine. Avoid judging the range only by moving an empty chair's controls through their extremes. What matters is whether the pads remain useful when you are seated and whether they interfere with the desk apron.</p>
+<p>Seat-depth adjustment can help you find a position within the chair's design range, but it does not make the chair fit every person. Check the front edge with your back supported, and try the back-tension setting rather than assuming the showroom position is correct. If you are considering a headrest, evaluate that exact version instead of treating an aftermarket attachment as equivalent.</p>
+<ul><li><strong>Pros:</strong> an upholstered seat, adjustable seat depth and articulating arms to evaluate for varied tasks.</li><li><strong>Cons:</strong> the adjustments still have finite ranges; optional features change the order; a showroom configuration may differ from the listing.</li></ul>
+<p><strong>Skip this if</strong> you dislike the seat or cannot make the arm position work at your desk. Do not keep it solely because someone called its arms the most adjustable on the market; we have not tested that ranking.</p>
 <p><a href="https://www.amazon.com/s?k=Steelcase+Gesture+office+chair&tag=althcu-20" target="_blank" rel="sponsored noopener">Click Here to Buy on Amazon</a></p>
-<h2>Which premium office chair should you buy?</h2>
-<p>Start here: the Aeron if breathability and a body-tailored fit matter most, and the Gesture if you want a cushioned seat and the most flexible arms for multi-device work. At roughly the same premium tier and with comparable warranties, the deciding factors are temperature, seat feel, and how much your arms move during the day.</p>
-<p>Skip this first: if you sit in a warm room, skip the foam-seated Gesture. If you want a soft seat and constantly reposition your arms, skip the firm, simpler Aeron. And before buying either new, check the manufacturer-certified refurbished programs.</p>
-<h3>Frequently asked questions</h3>
-<p><strong>Is the Aeron's mesh seat uncomfortable?</strong> It is firm rather than cushy. If you prefer a padded seat, the Gesture's upholstered foam will suit you better.</p>
-<p><strong>Does the Gesture come in different sizes like the Aeron?</strong> No. The Gesture is one size designed to fit most users, relying on its seat-depth slider and 360-degree arms to adapt. The Aeron instead offers three fixed sizes for a more tailored fit.</p>
-<p><strong>Which chair is better for hot rooms?</strong> The Aeron. Its mesh seat and back let body heat pass through, while the Gesture's foam seat retains more heat over a long day.</p>
-<p><strong>Can you buy these refurbished with a warranty?</strong> Yes. Both brands and reputable remanufacturers offer warrantied refurbished units that are structurally similar to new at a lower cost.</p>
-<p><strong>Related:</strong> See our <a href="/wfh">work-from-home hub</a>, the <a href="/wfh/logitech-mx-master-3s-vs-apple-magic-mouse">MX Master 3S vs Magic Mouse</a> guide, and the <a href="/">BestPickZone homepage</a>.</p>
-<p><em>Last verified: June 2026. Specs confirmed against Herman Miller and Steelcase product pages and editorial measurements; prices change frequently, so confirm current Amazon pricing before purchasing.</em></p>
+<h2>How do you run a useful chair trial?</h2>
+<p>Use a repeatable task and a realistic desk height. Adjust the chair according to its instructions, then type, use the mouse and read the screen in your usual way. Compare the resulting position and ease of adjustment, rather than assigning a numerical comfort score after a brief sit.</p>
+<p>Bring measurements from your own desk: underside clearance, keyboard height and the space available for the chair base. A chair can feel excellent in an open showroom while being blocked by a drawer pedestal at home. Include the route for moving away from the desk, especially if a large base would obstruct a narrow room.</p>
+<p>If two people share the chair, have each person try it separately and practice changing settings. Aeron's size selection and Gesture's adjustable depth are different approaches, but neither automatically solves a shared-desk problem. Record which settings need changing so that the second person is not judging the chair in the first person's position.</p>
+<h2>What should you check before buying refurbished or used?</h2>
+<p>Identify who refurbished the chair, what work was done and who provides the warranty. A reseller's warranty is not automatically the manufacturer's warranty. Ask about replacement components, adjustment operation and return transport, and inspect photographs of the actual unit rather than a stock image.</p>
+<p>For Aeron, confirm Classic versus the current design and the frame size. For Gesture, confirm the chair rather than stool form and any advertised headrest or lumbar option. Request a written description of cosmetic wear and functional defects. An unexplained missing lever, damaged suspension surface or unstable component should be resolved before payment.</p>
+<p>For a new chair, verify the seller and the policy applicable to your region and use. Warranty length alone does not explain coverage, exclusions, transferability or how a claim is handled. Save the configured order and proof of purchase. Compare that support route separately from the possibility of returning a chair whose fit you simply dislike.</p>
+<h2>Which should you start with?</h2>
+<p><strong>Start here:</strong> try Aeron when its suspension surface and one of its frame sizes appeal to you; try Gesture when you prefer foam and want to evaluate seat-depth and arm adjustment. Use the exact configuration in the comparison. A product card or search result is a shopping lead, not a substitute for that fit check.</p>
+<p><strong>Skip this first:</strong> claims that one chair cures discomfort, always runs cooler or guarantees all-day productivity. We have not established those outcomes. A chair you can configure and try is a stronger purchase than a familiar premium name bought with unresolved size or condition questions.</p>
+<p>For a different price and design shortlist, read <a href="/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro">ErgoChair Pro vs an identified H1 Pro</a>. The <a href="/wfh">WFH hub</a> connects the chair decision with desk and input-device choices.</p>
+<p><em>Research checked October 18, 2026 against the linked manufacturer specifications. No hands-on comfort, temperature, durability or medical-outcome measurements are claimed.</em></p>
+
 `,
   },
   {

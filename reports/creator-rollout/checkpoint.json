@@ -349,17 +349,32 @@
       "/home-kitchen/best-coffee-makers-under-100",
       "/home-kitchen/best-robot-vacuums",
       "/home-kitchen/instant-pot-vs-ninja-foodi",
-      "/home-kitchen/oxo-vs-fullstar-avocado-slicer"
+      "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "/wfh/herman-miller-aeron-vs-steelcase-gesture"
     ],
-    "independentReview": "pending",
+    "independentReview": "pending exact full-batch checkpoint",
     "productionPublished": false,
     "runtimeVerified": false,
     "sitemapDatesAdvanced": false,
     "researchNotes": [
       "reports/creator-rollout/batch-04-research/kitchen-models.md"
     ],
-    "partialTypecheck": "Passed for four kitchen page integrations.",
-    "partialTests": "5 kitchen identity regression tests passed; full batch suite pending.",
-    "depthReport": "reports/creator-rollout/batch-04-draft-depth.json"
+    "partialTypecheck": "passed as part of ten-draft production build",
+    "partialTests": "8 focused synthetic commerce tests passed",
+    "depthReport": "reports/creator-rollout/batch-04-draft-depth.json",
+    "pullRequest": "https://github.com/simputech/bestpickzone/pull/22",
+    "officialStoreExceptions": [
+      "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "/wfh/secretlab-titan-evo-vs-ergotune-supreme"
+    ],
+    "productionVerified": false,
+    "partialBuild": "passed ten-draft integration: metadata/indexability, 23 runtime assets, operations and Deal Agent inventory",
+    "wfhResearch": "reports/creator-rollout/batch-04-research/wfh-models.md"
   }
 }
