@@ -997,7 +997,7 @@
     {
       "batch": 4,
       "reviewed_page_target": 20,
-      "status": "pending",
+      "status": "research-and-drafting",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -1009,10 +1009,10 @@
           "data_source": "app/home-kitchen/best-coffee-makers-under-100/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Substantive model-specific draft; Creator API wired with strict identity checks. Dates unchanged pending review."
         },
         {
           "path": "/home-kitchen/best-robot-vacuums",
@@ -1023,10 +1023,10 @@
           "data_source": "app/home-kitchen/best-robot-vacuums/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Substantive model-specific draft; Creator API wired with strict identity checks. Dates unchanged pending review."
         },
         {
           "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
@@ -1037,24 +1037,24 @@
           "data_source": "app/home-kitchen/instant-pot-vs-ninja-foodi/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Substantive model-specific draft; Creator API wired with strict identity checks. Dates unchanged pending review. Foodi OP300 purchase excluded."
         },
         {
           "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
           "url": "https://bestpickzone.com/home-kitchen/oxo-vs-fullstar-avocado-slicer",
           "title": "OXO vs Fullstar Avocado Slicer",
-          "renderer": "CommerceShowdownArticlePage",
+          "renderer": "RawHtmlArticle",
           "page_source": "app/home-kitchen/oxo-vs-fullstar-avocado-slicer/page.tsx",
-          "data_source": "lib/home-kitchen-showdowns.ts",
+          "data_source": "app/home-kitchen/oxo-vs-fullstar-avocado-slicer/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "draft-awaiting-independent-review",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "OXO documented; Fullstar exact avocado product unverified, so no recommendation or shopping link. Dates pending review."
         },
         {
           "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",

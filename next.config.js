@@ -6,6 +6,11 @@ const nextConfig = {
     // This dynamic route reads its editorial HTML at runtime. Keep the asset
     // in the serverless bundle as well as the local source checkout.
     outputFileTracingIncludes: {
+      '/home-kitchen/oxo-vs-fullstar-avocado-slicer': ['./app/home-kitchen/oxo-vs-fullstar-avocado-slicer/article-source.html'],
+      '/home-kitchen/best-coffee-makers-under-100': ['./app/home-kitchen/best-coffee-makers-under-100/article-source.html'],
+      '/home-kitchen/best-robot-vacuums': ['./app/home-kitchen/best-robot-vacuums/article-source.html'],
+      '/home-kitchen/instant-pot-vs-ninja-foodi': ['./app/home-kitchen/instant-pot-vs-ninja-foodi/article-source.html'],
+
       '/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide': ['./app/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide/article-source.html'],
       '/books/agatha-christie-vs-arthur-conan-doyle': ['./app/books/agatha-christie-vs-arthur-conan-doyle/article-source.html'],
       '/books/best-mark-manson-books': ['./app/books/best-mark-manson-books/article-source.html'],

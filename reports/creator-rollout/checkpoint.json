@@ -4,7 +4,7 @@
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 4,
-  "status": "batch-three-verified-batch-four-queued",
+  "status": "batch-four-research-and-drafting",
   "completedBatches": [
     1,
     2,
@@ -340,5 +340,26 @@
     "verified": "8 services; Supabase BPZ tables/RLS/function/migration metadata, Vercel env names/scopes and production read-only backend health",
     "unknown": "Sensitive production backend URL binding not decrypted; email inactive; ownership/backup and source-parity gaps explicit."
   },
-  "verifiedArticles": 60
+  "verifiedArticles": 60,
+  "batch04": {
+    "status": "research-and-drafting",
+    "baseCommit": "34bb671d11d09f3d5f826811b64b4e80cb27d134",
+    "articleCount": 20,
+    "draftedPaths": [
+      "/home-kitchen/best-coffee-makers-under-100",
+      "/home-kitchen/best-robot-vacuums",
+      "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "/home-kitchen/oxo-vs-fullstar-avocado-slicer"
+    ],
+    "independentReview": "pending",
+    "productionPublished": false,
+    "runtimeVerified": false,
+    "sitemapDatesAdvanced": false,
+    "researchNotes": [
+      "reports/creator-rollout/batch-04-research/kitchen-models.md"
+    ],
+    "partialTypecheck": "Passed for four kitchen page integrations.",
+    "partialTests": "5 kitchen identity regression tests passed; full batch suite pending.",
+    "depthReport": "reports/creator-rollout/batch-04-draft-depth.json"
+  }
 }

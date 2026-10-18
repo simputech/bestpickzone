@@ -1,0 +1,51 @@
+const assert = require('node:assert/strict');
+const test = require('node:test');
+const path = require('node:path');
+const { loadSeoModule } = require('./lib/load-seo-module.cjs');
+const { articleCommerce } = loadSeoModule(path.join(__dirname, '../lib/article-commerce.ts'));
+const { matchAmazonProduct } = loadSeoModule(path.join(__dirname, '../lib/amazon-product-match.ts'));
+const at = '2026-10-18T22:30:00Z';
+const asin = 'B000000001';
+function candidate(title, brand, model) {
+  return { asin, detailPageURL: `https://www.amazon.com/dp/${asin}?tag=althcu-20`, images: { primary: { large: { url: 'https://m.media-amazon.com/images/I/SYNTHETIC-NOT-A-PRODUCT.jpg', width: 400, height: 300 } } }, itemInfo: { title: { displayValue: title }, byLineInfo: { brand: { displayValue: brand } }, manufactureInfo: { model: { displayValue: model } } } };
+}
+function request(route, index=0) { return articleCommerce[`/home-kitchen/${route}`].products[index]; }
+function match(source, req) { return matchAmazonProduct(source, req, 'althcu-20', 'www.amazon.com', at); }
+// Synthetic response titles exercise actual catalog constraints. No remote image is loaded.
+test('coffee makers: complete exact models pass; replacement carafes and adjacent models fail', () => {
+  for (const [index,title,brand,model] of [[0,'Cuisinart 14 Cup Coffee Maker with Glass Carafe','Cuisinart','DCC-3200P1'],[1,'Hamilton Beach FlexBrew Trio Coffee Maker with Glass Carafe','Hamilton Beach','49902']]) {
+    const req=request('best-coffee-makers-under-100',index);
+    assert.ok(match(candidate(title,brand,model),req));
+    assert.equal(match(candidate(title,brand,model+'X'),req),null);
+    assert.equal(match(candidate(title.replace('with Glass Carafe','Replacement Carafe'),brand,model),req),null);
+    assert.equal(match(candidate(title+' 240 V',brand,model),req),null);
+  }
+});
+test('Roomba: original complete j7+ passes; Combo and bags fail even with matching model metadata', () => {
+  const req=request('best-robot-vacuums');
+  const title='iRobot Roomba j7+ Self-Emptying Robot Vacuum';
+  assert.ok(match(candidate(title,'iRobot','j755020'),req));
+  for(const variant of [title.replace('Roomba','Roomba Combo'),title+' bags',title+' replacement filter']) assert.equal(match(candidate(variant,'iRobot','j755020'),req),null);
+  assert.equal(match(candidate(title,'iRobot','j715020'),req),null);
+});
+test('Q5: original 2700Pa package passes; Pro, Max and emptying-dock accessories fail', () => {
+  const req=request('best-robot-vacuums',1);
+  const title='roborock Q5+ 2700Pa Self-Emptying Robot Vacuum';
+  assert.ok(match(candidate(title,'roborock','Q5'),req));
+  for(const variant of [title.replace('Q5+','Q5 Pro+'),title.replace('Q5+','Q5 Max+'),title+' replacement bags',title+' filter']) assert.equal(match(candidate(variant,'roborock','Q5'),req),null);
+});
+test('Duo: standard 6QT identity passes; Crisp, Plus, overseas variant and lid-only do not', () => {
+  const req=request('instant-pot-vs-ninja-foodi');
+  const title='Instant Pot Duo 6 Qt Pressure Cooker';
+  assert.ok(match(candidate(title,'Instant Pot','112-0170-01'),req));
+  for(const variant of [title.replace('Duo','Duo Crisp'),title.replace('Duo','Duo Plus'),title+' 220 V',title+' lid']) assert.equal(match(candidate(variant,'Instant Pot','112-0170-01'),req),null);
+  assert.equal(articleCommerce['/home-kitchen/instant-pot-vs-ninja-foodi'].products.length,1);
+});
+test('avocado: documented OXO tool passes; SoftWorks, generic brand and multipack fail', () => {
+  const req=request('oxo-vs-fullstar-avocado-slicer');
+  const title='OXO Good Grips 3-in-1 Avocado Slicer';
+  assert.ok(match(candidate(title,'OXO','1252180'),req));
+  assert.equal(match(candidate(title,'Generic','1252180'),req),null);
+  for(const variant of [title+' SoftWorks',title+' 2 pack']) assert.equal(match(candidate(variant,'OXO','1252180'),req),null);
+  assert.equal(articleCommerce['/home-kitchen/oxo-vs-fullstar-avocado-slicer'].products.length,1);
+});

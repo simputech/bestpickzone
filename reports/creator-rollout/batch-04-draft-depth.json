@@ -1,0 +1,26 @@
+{
+  "method": "Exclude navigation, metadata/disclosure, figures, comparison tables, headings, source notes and standalone Amazon CTAs; count remaining visible editorial prose and lists.",
+  "status": "partial-drafts-not-review-approval",
+  "pages": [
+    {
+      "path": "/home-kitchen/best-coffee-makers-under-100",
+      "conservativeEditorialWords": 1067,
+      "passes1000": true
+    },
+    {
+      "path": "/home-kitchen/best-robot-vacuums",
+      "conservativeEditorialWords": 1077,
+      "passes1000": true
+    },
+    {
+      "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "conservativeEditorialWords": 1023,
+      "passes1000": true
+    },
+    {
+      "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "conservativeEditorialWords": 1076,
+      "passes1000": true
+    }
+  ]
+}
