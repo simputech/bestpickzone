@@ -688,7 +688,7 @@
     {
       "batch": 3,
       "reviewed_page_target": 20,
-      "status": "live-corrective-identity-review-pending",
+      "status": "published-verified-with-catalog-exceptions",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -700,7 +700,7 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -714,7 +714,7 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -728,7 +728,7 @@
           "data_source": "app/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -742,7 +742,7 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -756,7 +756,7 @@
           "data_source": "app/beauty/retinol-vs-bakuchiol-for-sensitive-skin/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication.",
@@ -771,7 +771,7 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -785,7 +785,7 @@
           "data_source": "app/beauty/salicylic-acid-vs-benzoyl-peroxide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication.",
@@ -800,7 +800,7 @@
           "data_source": "app/beauty/vitamin-c-vs-niacinamide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication.",
@@ -815,7 +815,7 @@
           "data_source": "app/books/agatha-christie-vs-arthur-conan-doyle/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -829,7 +829,7 @@
           "data_source": "app/books/best-mark-manson-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "minor",
           "sitemap_update_required": false,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -843,7 +843,7 @@
           "data_source": "app/books/genre-fiction/best-historical-epics-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "minor",
           "sitemap_update_required": false,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -857,7 +857,7 @@
           "data_source": "app/books/genre-fiction/best-historical-fiction-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -871,7 +871,7 @@
           "data_source": "app/books/genre-fiction/best-historical-fiction-series-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "minor",
           "sitemap_update_required": false,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -885,7 +885,7 @@
           "data_source": "app/books/genre-fiction/best-new-spy-thriller-books-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "minor",
           "sitemap_update_required": false,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -899,7 +899,7 @@
           "data_source": "app/books/hemingway-vs-fitzgerald/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -913,7 +913,7 @@
           "data_source": "app/books/lord-of-the-rings-vs-harry-potter/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -927,7 +927,7 @@
           "data_source": "app/books/reader-picks/best-true-crime-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -941,7 +941,7 @@
           "data_source": "app/books/self-help/best-james-clear-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -955,7 +955,7 @@
           "data_source": "app/books/stephen-king-vs-dean-koontz/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -969,7 +969,7 @@
           "data_source": "app/home-kitchen/best-air-fryers/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-release-validation-pending",
+          "review_status": "reviewed-published-runtime-verified",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
           "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
@@ -987,9 +987,12 @@
       "independent_review_head": "356cb4ebc49aa2c8997d75a0d95c51f1dbe77085",
       "substantive_refresh_count": 16,
       "sitemap_update_count": 16,
-      "runtime_verified": false,
-      "publication_commit": "6df351dabe38c156f23c5c93ab378806d7b816ae",
-      "deployment_id": "dpl_AwE5Zk9vhkbR1wWUoeC7ALe2SFo2"
+      "runtime_verified": true,
+      "publication_commit": "809f41ee2262ba21604237ca176748c7dc69739a",
+      "deployment_id": "dpl_EvYaka6C7jY54wtPp54Yb3KpxDyk",
+      "production_report": "reports/creator-rollout/batch-03-production-final.json",
+      "live_cards": 58,
+      "fallback_cards": 12
     },
     {
       "batch": 4,
