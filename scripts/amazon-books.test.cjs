@@ -107,6 +107,10 @@ test('stage and screen editions cannot satisfy a novel request even with matchin
     ['Example Book', 'Sample Author', 'Example Book (Screenplay)'],
     ['Example Book', 'Sample Author', 'Example Book: Stage Script'],
     ['Example Book', 'Sample Author', 'Example Book (Dramatisation)'],
+    ['Example Book', 'Sample Author', 'Example Book (Acting Edition)'],
+    ['Example Book', 'Sample Author', 'Example Book (Stage Edition)'],
+    ['Example Book', 'Sample Author', 'Example Book (Performance Edition)'],
+    ['Example Book', 'Sample Author', 'Example Book: Performance—Edition'],
   ]) {
     const source=item();source.itemInfo.title.displayValue=edition;source.itemInfo.byLineInfo.contributors[0].name=author;
     const request={...expected,title:work,author};

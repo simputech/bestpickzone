@@ -324,7 +324,7 @@ test('budget checking does not fetch without US credentials and never guesses a 
 });
 
 test('search and pinned-ASIN paths reject play editions and preserve an ordinary novel candidate', async () => {
-  for (const suffix of ['(Play)', '(Modern Plays)', ': A Play', '(Screenplay)', ': Stage Script', '(Dramatisation)']) {
+  for (const suffix of ['(Play)', '(Modern Plays)', ': A Play', '(Screenplay)', ': Stage Script', '(Dramatisation)', '(Acting Edition)', '(Stage Edition)', '(Performance Edition)', ': Performance—Edition']) {
     const stage=book('B000TEST01');stage.itemInfo.title.displayValue=`Example Book ${suffix}`;
     const request={title:'Example Book',author:'Sample Author'};
     const onlyStage=harness(call=>response(call.url.endsWith('/searchItems')?{searchResult:{items:[stage]}}:{itemsResult:{items:[stage]}}));

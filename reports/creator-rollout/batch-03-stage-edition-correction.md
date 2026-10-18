@@ -9,3 +9,5 @@ The correction rejects play, screenplay, stage/theatre/theater-script and dramat
 Tests reproduce both production titles with matching original-author metadata, confirm ordinary novel controls and a title containing Play, and exercise search and pinned-ASIN paths plus selection of a valid novel after a rejected play. All 201 tests, typecheck and production build pass; 335 indexable URLs, zero errors/warnings, 14 runtime assets and both inventory gates pass. Independent review and corrected preview/production verification remain pending.
 
 Evidence: `batch-03-production-http.json`, `batch-03-production-initial.json`, and `batch-03-release-preview-qa.json`. No denied or uncertain mutation; PR16 merge is confirmed, and the corrective publication has not been attempted.
+
+Independent corrective review found three additional ambiguous suffixes: Acting Edition, Stage Edition and Performance Edition. All now reject, including a punctuation-normalization probe, with coverage through direct matching, search and pinned-ASIN lookup. Ordinary novels and title words containing Play retain positive controls. No original-play schema support added. Re-review remains pending.
