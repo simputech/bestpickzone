@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-10-17T01:13:31.263Z",
+  "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+  "status": 200,
+  "unsupportedClaimFound": false,
+  "newGuidance": true,
+  "sources": true,
+  "canonical": true,
+  "sitemapEntry": "<url><loc>https://bestpickzone.com/beauty/retinol-vs-bakuchiol-for-sensitive-skin</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>",
+  "previewDeployment": "dpl_Hk4LbiKB4hxMJT6hLctq9W2FBj7h",
+  "productionDeployment": "dpl_FPxjnquLGdoovSCaLzHxUVyDtmmg",
+  "productionCommit": "b6f43f86eab87c85d2ac047a822dba3271e53ab0",
+  "browserQa": {
+    "desktop": {
+      "width": 1440,
+      "pageWidth": 1440,
+      "unsupportedClaims": 0
+    },
+    "mobile": {
+      "width": 390,
+      "pageWidth": 390,
+      "unsupportedClaims": 0
+    }
+  },
+  "scope": "Requested claim removal only; not a complete batch-three refresh."
+}

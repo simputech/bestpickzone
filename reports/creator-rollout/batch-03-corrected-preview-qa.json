@@ -1,0 +1,234 @@
+{
+  "checkedAt": "2026-10-18T21:41:36.018864+00:00",
+  "sourceCommit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
+  "deployment": {
+    "sourceCommit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
+    "deploymentId": "dpl_D95BM1fsJekVZmmvr4LsfQuXGStn",
+    "url": "https://bestpickzone-fixed-olm0peitm-simputechs-projects.vercel.app",
+    "state": "READY",
+    "browserQa": "40 route/viewport checks passed; 70 fallback cards per viewport."
+  },
+  "browser": "Codex isolated in-app browser; normal authorized login",
+  "method": "Rendered DOM checks on all 20 routes at 390x844 and 1440x1000 after load. Representative screenshots inspected; not full-page visual inspection of every route.",
+  "checks": [
+    "one H1",
+    "canonical route",
+    "no page-wide horizontal overflow",
+    "all rendered images loaded",
+    "affiliate tags preserved",
+    "Amazon disclosure present"
+  ],
+  "routes": [
+    {
+      "path": "/beauty/dyson-airstrait-vs-ghd-duet-style",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    },
+    {
+      "path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    },
+    {
+      "path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 1
+    },
+    {
+      "path": "/beauty/nuface-trinity-vs-solawave-wand",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    },
+    {
+      "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 0
+    },
+    {
+      "path": "/beauty/revlon-one-step-vs-loreal-steampod",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 1
+    },
+    {
+      "path": "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 0
+    },
+    {
+      "path": "/beauty/vitamin-c-vs-niacinamide",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 0
+    },
+    {
+      "path": "/books/agatha-christie-vs-arthur-conan-doyle",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/books/best-mark-manson-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/books/genre-fiction/best-historical-epics-2026",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/books/genre-fiction/best-historical-fiction-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 8
+    },
+    {
+      "path": "/books/genre-fiction/best-historical-fiction-series-2026",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 7
+    },
+    {
+      "path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 3
+    },
+    {
+      "path": "/books/hemingway-vs-fitzgerald",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 3
+    },
+    {
+      "path": "/books/lord-of-the-rings-vs-harry-potter",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 3
+    },
+    {
+      "path": "/books/reader-picks/best-true-crime-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 8
+    },
+    {
+      "path": "/books/self-help/best-james-clear-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 8
+    },
+    {
+      "path": "/books/stephen-king-vs-dean-koontz",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/home-kitchen/best-air-fryers",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    }
+  ],
+  "checksPassed": 40,
+  "checksFailed": 0,
+  "fallbackCardsPerViewport": 70,
+  "liveCardsPerViewport": 0,
+  "limitation": "Preview has no Creator API configuration. Independent re-review and production live API identity/image QA remain required.",
+  "editorialCorrections": {
+    "lostGirlsShannanDistinctionPresent": true,
+    "oldFiveKilledAssertionAbsent": true,
+    "hemingwayAndKingRevisionChatterAbsent": true,
+    "historicalSeriesResearchDateOctober17Consistent": true
+  }
+}

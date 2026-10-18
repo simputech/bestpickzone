@@ -38,9 +38,10 @@ export default function HtmlComparisonArticlePage({ article }: { article: HtmlCo
   const firstSection = article.modifiedDate ? remainingBody.indexOf('<h2') : -1
   const opening = firstSection > 0 ? remainingBody.slice(0, firstSection) : ''
   const body = opening ? remainingBody.slice(firstSection) : remainingBody
-  const responsiveTables = (html: string) => article.modifiedDate ? html
+  // Keyboard and mobile access must not depend on an editorial date being advanced.
+  const responsiveTables = (html: string) => html
     .replace(/<table>/g, '<p class="text-sm text-gray-600 sm:hidden">Swipe or scroll the table to see all columns.</p><div role="region" aria-label="Comparison table: scroll horizontally to see all columns" tabindex="0" class="mb-8 max-w-full overflow-x-auto rounded-2xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-700"><table class="min-w-[36rem]">')
-    .replace(/<\/table>/g, '</table></div>') : html
+    .replace(/<\/table>/g, '</table></div>')
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <BreadcrumbJsonLd

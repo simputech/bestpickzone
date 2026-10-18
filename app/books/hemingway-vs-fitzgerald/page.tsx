@@ -1,19 +1,18 @@
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
+import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
 
+export const dynamic = 'force-dynamic'
+
 const pageUrl = 'https://bestpickzone.com/books/hemingway-vs-fitzgerald'
 
 const article = loadRawHtmlArticle('app/books/hemingway-vs-fitzgerald/article-source.html', pageUrl)
 
-export const metadata: Metadata = withSeo(article.metadata, "/books/hemingway-vs-fitzgerald")
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, { modifiedTime: '2026-10-18', url: pageUrl }), "/books/hemingway-vs-fitzgerald")
 
 export default function Page() {
-  return (
-    <>
-      <style dangerouslySetInnerHTML={{ __html: article.rawCss }} />
-      <div dangerouslySetInnerHTML={{ __html: article.rawHtml }} />
-    </>
-  )
+  return <RawHtmlCommerceArticle article={article} path="/books/hemingway-vs-fitzgerald" />
 }

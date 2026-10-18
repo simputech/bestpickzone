@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-10-17T00:52:53.351367+00:00",
+  "deployment": {
+    "id": "dpl_BTbbeB2nfLqRTAeMm7CPGAR8taEz",
+    "url": "https://bestpickzone-fixed-8rurve9xl-simputechs-projects.vercel.app",
+    "commit": "1ed2c1ecb84402a15513e9b70ff9303fc65a4d13",
+    "stateAtLastCheck": "READY; desktop/mobile QA passed"
+  },
+  "access": "Existing GitHub account sign-in; no new access grant or bypass token",
+  "status": "passed",
+  "routes": [
+    "/wfh/best-monitor-arms-for-shallow-desks",
+    "/coffee/best-burr-grinders-french-press-cold-brew",
+    "/coffee/best-coffee-makers-for-low-cabinets",
+    "/coffee/best-espresso-grinders-for-breville-bambino",
+    "/coffee/best-low-profile-espresso-scales",
+    "/mahjong/best-carrying-bags-for-american-mahjong-sets",
+    "/mahjong/best-mahjong-mats-for-small-tables",
+    "/wfh/best-usb-c-docks-for-two-monitors",
+    "/wfh/best-video-call-lighting-for-glasses",
+    "/coffee/1zpresso-jx-pro-vs-comandante-c40",
+    "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+    "/coffee/aeropress-original-vs-aeropress-premium",
+    "/coffee/baratza-encore-esp-vs-fellow-opus-2",
+    "/coffee/baratza-virtuoso-plus-vs-fellow-ode-gen-2",
+    "/coffee/breville-barista-express-vs-delonghi-la-specialista",
+    "/coffee/fellow-stagg-ekg-vs-cosori-gooseneck",
+    "/coffee/hario-v60-vs-chemex-classic",
+    "/coffee/timemore-chestnut-c3-vs-kingrinder-k6",
+    "/coffee/breville-bambino-plus-vs-gaggia-classic-pro",
+    "/beauty/dr-dennis-gross-vs-omnilux-contour"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "routeViewportChecks": 40,
+  "fallbackCardsPerViewport": 38,
+  "liveCardsPerViewport": 0,
+  "editorialImageChecks": 20,
+  "brokenImages": 0,
+  "horizontalPageOverflow": 0,
+  "singleH1": true,
+  "bodyRetained": true,
+  "disclosurePresent": true,
+  "tableKeyboardCheck": {
+    "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+    "key": "ArrowRight",
+    "scrollLeft": 40,
+    "headingLeft": 20,
+    "viewportWidth": 390,
+    "pageWidth": 390
+  },
+  "runtimeErrors": "No error logs found for corrected preview during QA window",
+  "ci": "Vercel success; main unchanged at 9e0f095 before merge",
+  "limitations": [
+    "Preview fallback only; live product identities/images require production verification."
+  ]
+}

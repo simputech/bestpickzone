@@ -1,0 +1,250 @@
+{
+  "checkedAt": "2026-10-18T21:27:32.422913+00:00",
+  "status": "local-browser-checks-passed-preview-and-independent-review-pending",
+  "baseCommit": "9d01860d7132de7b535db4dfec4df21f72fd27a9",
+  "sourceChanges": [
+    "components/article/HtmlComparisonArticlePage.tsx",
+    "lib/amazon-book-match.ts"
+  ],
+  "browser": "Codex isolated in-app browser",
+  "server": "http://127.0.0.1:3123",
+  "method": "DOM measurements on all 20 actual rendered routes at 390x844 and 1440x1000; representative screenshots inspected, not a claim of full-page visual inspection for every route. No local Creator API credentials.",
+  "checks": [
+    "one H1",
+    "canonical equals https://bestpickzone.com plus route",
+    "document width equals viewport",
+    "all rendered images loaded",
+    "Amazon links retain althcu-20 or grandparentsgift-20; storefront links excluded"
+  ],
+  "routes": [
+    {
+      "path": "/beauty/dyson-airstrait-vs-ghd-duet-style",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    },
+    {
+      "path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    },
+    {
+      "path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 1
+    },
+    {
+      "path": "/beauty/nuface-trinity-vs-solawave-wand",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    },
+    {
+      "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 0
+    },
+    {
+      "path": "/beauty/revlon-one-step-vs-loreal-steampod",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 1
+    },
+    {
+      "path": "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 0
+    },
+    {
+      "path": "/beauty/vitamin-c-vs-niacinamide",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 0
+    },
+    {
+      "path": "/books/agatha-christie-vs-arthur-conan-doyle",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/books/best-mark-manson-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/books/genre-fiction/best-historical-epics-2026",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/books/genre-fiction/best-historical-fiction-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 8
+    },
+    {
+      "path": "/books/genre-fiction/best-historical-fiction-series-2026",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 7
+    },
+    {
+      "path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 3
+    },
+    {
+      "path": "/books/hemingway-vs-fitzgerald",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 3
+    },
+    {
+      "path": "/books/lord-of-the-rings-vs-harry-potter",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 3
+    },
+    {
+      "path": "/books/reader-picks/best-true-crime-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 8
+    },
+    {
+      "path": "/books/self-help/best-james-clear-books",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 8
+    },
+    {
+      "path": "/books/stephen-king-vs-dean-koontz",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 5
+    },
+    {
+      "path": "/home-kitchen/best-air-fryers",
+      "viewports": [
+        390,
+        1440
+      ],
+      "checksPassed": true,
+      "liveCards": 0,
+      "fallbackCards": 2
+    }
+  ],
+  "fallbackCardsPerViewport": 70,
+  "keyboardRegression": {
+    "path": "/beauty/nuface-trinity-vs-solawave-wand",
+    "viewport": 390,
+    "documentWidth": 390,
+    "tableWidth": 576,
+    "containerWidth": 308,
+    "role": "region",
+    "tabindex": 0,
+    "focused": true,
+    "scrollLeftAfterArrowRight": 40
+  },
+  "tests": {
+    "passed": 196,
+    "failed": 0,
+    "scope": "API, identity, commerce, Deal Agent, metadata, SEO, multilingual, attribution and analytics; synthetic fixtures do not prove live catalog identity"
+  },
+  "build": {
+    "exitCode": 0,
+    "indexableRoutes": 335,
+    "indexabilityErrors": 0,
+    "indexabilityWarnings": 0,
+    "runtimeAssets": 14,
+    "inventoryGates": "both passed"
+  },
+  "bookIdentityFix": "Normalize the full returned title before checking subtitle/parenthetical qualifiers; reject abridged, adapted, graphic novel, younger-reader and punctuation-obscured guide/bundle editions. Unit and catalog-path regressions cover search and pinned ASIN lookup. Standard novel and unabridged print editions remain eligible.",
+  "previewAccess": "Isolated browser reaches Vercel login, then GitHub sign-in. No existing browser login in that isolated surface. CLI identity is simputech, but vercel curl advertises automatic protection bypass and was not used under the no-bypass instruction. No protection/share/secret changes made.",
+  "independentReview": "Parent-coordinated review and re-review still pending; no review report received or available in PR16 reviews.",
+  "productionPublished": false
+}

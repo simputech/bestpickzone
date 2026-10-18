@@ -1,0 +1,8 @@
+{
+  "checkedAt": "2026-10-18T21:29:25.654Z",
+  "sourceCommit": "dedc577645817398f78217a727f01e82e869c031",
+  "scope": "Batch-three rendered internal href targets, shared navigation included; local redirects followed, external redirects not followed. Fragment IDs and external destinations not covered.",
+  "articleCount": 20,
+  "uniqueInternalTargets": 84,
+  "failures": []
+}

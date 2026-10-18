@@ -370,7 +370,7 @@
     {
       "batch": 2,
       "reviewed_page_target": 20,
-      "status": "preview-packaging-correction",
+      "status": "published-verified",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -674,16 +674,21 @@
           "creator_product_requests": 1
         }
       ],
-      "last_verified_at": "2026-10-17T00:48:37.337651+00:00",
+      "last_verified_at": "2026-10-17T00:59:39.394Z",
       "recovery_evidence": "reports/creator-rollout/batch-02-mac-recovery.md",
       "pull_request": "https://github.com/simputech/bestpickzone/pull/15",
-      "source_commit": "ae528653ff70513098dbfa3e0eec5050fb6f8ca2",
-      "local_browser_qa": "reports/creator-rollout/batch-02-mac-browser-qa.json"
+      "source_commit": "1ed2c1ecb84402a15513e9b70ff9303fc65a4d13",
+      "local_browser_qa": "reports/creator-rollout/batch-02-mac-browser-qa.json",
+      "publication_commit": "2da905de53a0ab813cf46bccd96d7c0bdaebbdfd",
+      "deployment_id": "dpl_GttZyTor6oXtfosafSm1FFhaG8wZ",
+      "live_cards": 31,
+      "fallback_cards": 7,
+      "production_report": "reports/creator-rollout/batch-02-production-final.json"
     },
     {
       "batch": 3,
       "reviewed_page_target": 20,
-      "status": "pending",
+      "status": "independently-approved-release-validation-pending",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -695,10 +700,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
@@ -709,10 +714,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide",
@@ -723,10 +728,10 @@
           "data_source": "app/beauty/laneige-lip-sleeping-mask-vs-rhode-peptide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/nuface-trinity-vs-solawave-wand",
@@ -737,10 +742,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
@@ -751,10 +756,11 @@
           "data_source": "app/beauty/retinol-vs-bakuchiol-for-sensitive-skin/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication.",
+          "creator_exception": "Ingredient information without a verified exact retail formula; no forced product recommendation."
         },
         {
           "path": "/beauty/revlon-one-step-vs-loreal-steampod",
@@ -765,10 +771,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/beauty/salicylic-acid-vs-benzoyl-peroxide",
@@ -779,10 +785,11 @@
           "data_source": "app/beauty/salicylic-acid-vs-benzoyl-peroxide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication.",
+          "creator_exception": "Ingredient information without a verified exact retail formula; no forced product recommendation."
         },
         {
           "path": "/beauty/vitamin-c-vs-niacinamide",
@@ -793,10 +800,11 @@
           "data_source": "app/beauty/vitamin-c-vs-niacinamide/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication.",
+          "creator_exception": "Ingredient information without a verified exact retail formula; no forced product recommendation."
         },
         {
           "path": "/books/agatha-christie-vs-arthur-conan-doyle",
@@ -807,10 +815,10 @@
           "data_source": "app/books/agatha-christie-vs-arthur-conan-doyle/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/best-mark-manson-books",
@@ -821,10 +829,10 @@
           "data_source": "app/books/best-mark-manson-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-historical-epics-2026",
@@ -835,10 +843,10 @@
           "data_source": "app/books/genre-fiction/best-historical-epics-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-historical-fiction-books",
@@ -849,10 +857,10 @@
           "data_source": "app/books/genre-fiction/best-historical-fiction-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-historical-fiction-series-2026",
@@ -863,10 +871,10 @@
           "data_source": "app/books/genre-fiction/best-historical-fiction-series-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/genre-fiction/best-new-spy-thriller-books-2026",
@@ -877,10 +885,10 @@
           "data_source": "app/books/genre-fiction/best-new-spy-thriller-books-2026/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "minor",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/hemingway-vs-fitzgerald",
@@ -891,10 +899,10 @@
           "data_source": "app/books/hemingway-vs-fitzgerald/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/lord-of-the-rings-vs-harry-potter",
@@ -905,10 +913,10 @@
           "data_source": "app/books/lord-of-the-rings-vs-harry-potter/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/reader-picks/best-true-crime-books",
@@ -919,10 +927,10 @@
           "data_source": "app/books/reader-picks/best-true-crime-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/self-help/best-james-clear-books",
@@ -933,10 +941,10 @@
           "data_source": "app/books/self-help/best-james-clear-books/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/books/stephen-king-vs-dean-koontz",
@@ -947,10 +955,10 @@
           "data_source": "app/books/stephen-king-vs-dean-koontz/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         },
         {
           "path": "/home-kitchen/best-air-fryers",
@@ -961,12 +969,24 @@
           "data_source": "app/home-kitchen/best-air-fryers/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
-          "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "review_status": "independently-approved-release-validation-pending",
+          "refresh_scope": "substantive",
+          "sitemap_update_required": true,
+          "notes": "Author research/drafting pass complete. Local 390px/1440px DOM checks passed October 18. Independent review/re-review and fresh preview/production QA pending. Dates unchanged until approved substantive publication."
         }
-      ]
+      ],
+      "editorial_pass_count": 20,
+      "independently_approved_count": 0,
+      "substantive_draft_count": 16,
+      "minor_update_count": 4,
+      "local_qa_report": "reports/creator-rollout/batch-03-resume-qa.json",
+      "review_response": "reports/creator-rollout/batch-03-independent-review.md",
+      "production_published": false,
+      "corrected_source_commit": "8ca352fd50b17013d6e24cc7efa9e0c7647c4614",
+      "preview_report": "reports/creator-rollout/batch-03-corrected-preview-qa.json",
+      "independent_review_head": "356cb4ebc49aa2c8997d75a0d95c51f1dbe77085",
+      "substantive_refresh_count": 16,
+      "sitemap_update_count": 16
     },
     {
       "batch": 4,

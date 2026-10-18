@@ -1,3 +1,4 @@
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 
@@ -10,7 +11,7 @@ const article = loadRawHtmlArticle(
   pageUrl
 )
 
-export const metadata: Metadata = withSeo(article.metadata, "/beauty/salicylic-acid-vs-benzoyl-peroxide")
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, { modifiedTime: '2026-10-18', url: pageUrl }), "/beauty/salicylic-acid-vs-benzoyl-peroxide")
 
 export default function Page() {
   return (

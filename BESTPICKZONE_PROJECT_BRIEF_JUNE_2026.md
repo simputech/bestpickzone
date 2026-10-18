@@ -1,5 +1,7 @@
 # BestPickZone Project Brief
 
+> Current operations: [Backend and deployment inventory](docs/BACKEND_AND_DEPLOYMENT_INVENTORY.md) records provider IDs, environment mapping, migration receipts, credential locations, verification and recovery. The June brief below remains historical context.
+
 Updated: June 13, 2026
 Site: https://bestpickzone.com
 Repo: `/Users/derekconicello/Library/Mobile Documents/com~apple~CloudDocs/SimpuTechBuild/bestpickzone-fixed`
