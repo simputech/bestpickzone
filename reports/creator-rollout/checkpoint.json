@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T22:11:36.579539+00:00",
+  "updatedAt": "2026-10-18T23:14:28.737328+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 4,
-  "status": "batch-three-verified-batch-four-queued",
+  "status": "batch-four-awaiting-review-and-preview",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Begin batch four from verified production: triage the next 20 queued routes, research and refresh as needed, map exact commerce or document exceptions, obtain independent review/re-review, then publish and verify before batch five.",
+  "nextAction": "Validate the complete batch-four draft, obtain independent exact-head review/re-review, preview-test all 20 routes, then publish and verify production before batch five.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -340,5 +340,120 @@
     "verified": "8 services; Supabase BPZ tables/RLS/function/migration metadata, Vercel env names/scopes and production read-only backend health",
     "unknown": "Sensitive production backend URL binding not decrypted; email inactive; ownership/backup and source-parity gaps explicit."
   },
-  "verifiedArticles": 60
+  "verifiedArticles": 60,
+  "batch04": {
+    "status": "approved-content-final-date-validation",
+    "baseCommit": "34bb671d11d09f3d5f826811b64b4e80cb27d134",
+    "articleCount": 20,
+    "draftedPaths": [
+      "/home-kitchen/best-coffee-makers-under-100",
+      "/home-kitchen/best-robot-vacuums",
+      "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "/beauty/is-omnilux-contour-worth-it",
+      "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "/coffee/best-gaggia-classic-pro-upgrades",
+      "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "/coffee/what-to-buy-with-your-breville-bambino-plus"
+    ],
+    "independentReview": "APPROVED all20 editorial/commerce at4d92a18236a1a9d5460e183cfe6449aa7066dd8d. Independent71 matcher probes and13focused repository tests passed. Final date/metadata re-review pending.",
+    "productionPublished": false,
+    "runtimeVerified": false,
+    "sitemapDatesAdvanced": true,
+    "researchNotes": [
+      "reports/creator-rollout/batch-04-research/kitchen-models.md",
+      "reports/creator-rollout/batch-04-research/wfh-models.md",
+      "reports/creator-rollout/batch-04-research/beauty-devices.md",
+      "reports/creator-rollout/batch-04-research/microcurrent.md",
+      "reports/creator-rollout/batch-04-research/coffee.md"
+    ],
+    "partialTypecheck": "passed as part of ten-draft production build",
+    "partialTests": "10 focused synthetic commerce tests passed",
+    "depthReport": "reports/creator-rollout/batch-04-draft-depth.json",
+    "pullRequest": "https://github.com/simputech/bestpickzone/pull/22",
+    "officialStoreExceptions": [
+      "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "/beauty/is-omnilux-contour-worth-it"
+    ],
+    "productionVerified": false,
+    "partialBuild": "passed ten-draft checkpoint 24451ac; three newer input/converter drafts await final build",
+    "wfhResearch": "reports/creator-rollout/batch-04-research/wfh-models.md",
+    "noProductExceptions": [
+      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation"
+    ],
+    "partialProductExceptions": {
+      "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt": "MyoLift QT Plus official store only; no verified exact authorized Amazon package."
+    },
+    "pendingBlocker": null,
+    "technicalChecks": {
+      "tests": "214/214 unit/integration tests passed after dates, including13 focused batch-four tests.",
+      "build": "Final corrected/date-synchronized production build passed: 259 metadata static pages,335/335 indexable sitemap URLs,30 runtime assets,operations and service inventory passed. Existing lint warnings only.",
+      "postBuildCorrections": "None; final source awaiting bounded date review and corrected preview.",
+      "legacyBrowserScripts": "Two standalone scripts require absent Playwright; they did not execute. Isolated Codex in-app browser will perform desktop/mobile preview QA.",
+      "depth": "All 20 drafts exceed 1000 editorial words after excluded boilerplate, tables and headings.",
+      "sourceLinks": "33 unique internal/image targets checked; one outdated category path corrected; all now resolve in source."
+    },
+    "reviewReport": "reports/creator-rollout/batch-04-independent-review.md",
+    "previewQa": "Initial f2aa46f preview passed40 route/viewport checks;29fallbacks each viewport; keyboard table scroll verified. Corrected preview pending.",
+    "previewReport": "reports/creator-rollout/batch-04-preview-initial.json",
+    "substantialRefreshes": [
+      "/home-kitchen/best-coffee-makers-under-100",
+      "/home-kitchen/best-robot-vacuums",
+      "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "/beauty/is-omnilux-contour-worth-it",
+      "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "/coffee/best-gaggia-classic-pro-upgrades",
+      "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "/coffee/what-to-buy-with-your-breville-bambino-plus"
+    ],
+    "sitemapUpdates": [
+      "/home-kitchen/best-coffee-makers-under-100",
+      "/home-kitchen/best-robot-vacuums",
+      "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "/beauty/is-omnilux-contour-worth-it",
+      "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "/coffee/best-gaggia-classic-pro-upgrades",
+      "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "/coffee/what-to-buy-with-your-breville-bambino-plus"
+    ],
+    "modifiedDate": "2026-10-18",
+    "editorialApprovedCount": 20
+  }
 }

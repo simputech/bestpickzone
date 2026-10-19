@@ -1,22 +1,10 @@
+import RawHtmlCommerceArticle from '@/components/article/RawHtmlCommerceArticle'
+import { withArticleMetadataDefaults } from '@/lib/article-metadata'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
-
 import { loadRawHtmlArticle } from '@/lib/raw-html-article'
-
-const pageUrl = 'https://bestpickzone.com/home-kitchen/best-coffee-makers-under-100'
-
-const article = loadRawHtmlArticle(
-  'app/home-kitchen/best-coffee-makers-under-100/article-source.html',
-  pageUrl
-)
-
-export const metadata: Metadata = withSeo(article.metadata, "/home-kitchen/best-coffee-makers-under-100")
-
-export default function Page() {
-  return (
-    <>
-      <style dangerouslySetInnerHTML={{ __html: article.rawCss }} />
-      <div dangerouslySetInnerHTML={{ __html: article.rawHtml }} />
-    </>
-  )
-}
+export const dynamic = 'force-dynamic'
+const path = '/home-kitchen/best-coffee-makers-under-100'
+const article = loadRawHtmlArticle('app/home-kitchen/best-coffee-makers-under-100/article-source.html', `https://bestpickzone.com${path}`)
+export const metadata: Metadata = withSeo(withArticleMetadataDefaults(article.metadata, { category: 'home-kitchen', url: `https://bestpickzone.com${path}`, modifiedTime: '2026-10-18' }), path)
+export default function Page() { return <RawHtmlCommerceArticle article={article} path={path} /> }
