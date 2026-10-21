@@ -1,0 +1,326 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "reviewId",
+    "headSha",
+    "baseSha",
+    "policySha",
+    "corpusSha",
+    "generatedAt",
+    "verdict",
+    "pages",
+    "limitations"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "reviewId": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+    },
+    "headSha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "baseSha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "policySha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "corpusSha": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "verdict": {
+      "enum": [
+        "pass",
+        "revise",
+        "block"
+      ]
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "route",
+          "checks",
+          "sources",
+          "comparisons",
+          "editorialWords",
+          "pageType",
+          "findings"
+        ],
+        "properties": {
+          "route": {
+            "type": "string"
+          },
+          "checks": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "readerIntent",
+              "specificUsefulness",
+              "primarySourceSupport",
+              "originalValue",
+              "honestCommerce",
+              "structureAndDepth",
+              "metadataAndLinks"
+            ],
+            "properties": {
+              "readerIntent": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "pass",
+                      "revise",
+                      "block"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                }
+              },
+              "specificUsefulness": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "pass",
+                      "revise",
+                      "block"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                }
+              },
+              "primarySourceSupport": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "pass",
+                      "revise",
+                      "block"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                }
+              },
+              "originalValue": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "pass",
+                      "revise",
+                      "block"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                }
+              },
+              "honestCommerce": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "pass",
+                      "revise",
+                      "block"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                }
+              },
+              "structureAndDepth": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "pass",
+                      "revise",
+                      "block"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                }
+              },
+              "metadataAndLinks": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "pass",
+                      "revise",
+                      "block"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "string",
+                    "minLength": 20,
+                    "maxLength": 12000
+                  }
+                }
+              }
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "claim",
+                "url",
+                "kind",
+                "checkedAt",
+                "support"
+              ],
+              "properties": {
+                "claim": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 12000
+                },
+                "url": {
+                  "type": "string"
+                },
+                "kind": {
+                  "enum": [
+                    "primary",
+                    "manufacturer",
+                    "retailer-price-availability",
+                    "attributed-review-lab"
+                  ]
+                },
+                "checkedAt": {
+                  "type": "string"
+                },
+                "support": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 12000
+                }
+              }
+            }
+          },
+          "comparisons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "route",
+                "difference"
+              ],
+              "properties": {
+                "route": {
+                  "type": "string"
+                },
+                "difference": {
+                  "type": "string",
+                  "minLength": 20,
+                  "maxLength": 12000
+                }
+              }
+            }
+          },
+          "editorialWords": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "pageType": {
+            "enum": [
+              "article",
+              "hub",
+              "service"
+            ]
+          },
+          "findings": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 20,
+              "maxLength": 12000
+            }
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 12000
+    }
+  }
+}
