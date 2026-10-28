@@ -1,3 +1,5 @@
+import editorialLinkTitles from './article-link-titles.json'
+import { SEO_TITLES } from './seo-titles'
 import {
   baseUrl,
   beautyPages,
@@ -85,6 +87,8 @@ function toPath(entry: SitemapEntry) {
 }
 
 function titleFromPath(pathname: string) {
+  const editorialTitle = SEO_TITLES[pathname] || (editorialLinkTitles as Record<string, string>)[pathname]
+  if (editorialTitle) return editorialTitle
   return pathname
     .split('/')
     .filter(Boolean)

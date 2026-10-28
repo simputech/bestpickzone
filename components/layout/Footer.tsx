@@ -1,5 +1,8 @@
+'use client'
+
 import Link from 'next/link'
-import { siteSections } from '@/lib/site-sections'
+import { usePathname } from 'next/navigation'
+import { getSectionArticleLinks, getSectionFromPathname, siteSections } from '@/lib/site-sections'
 
 const authorLinks = [
   { href: '/books/best-stephen-king-books', label: 'Stephen King' },
@@ -27,6 +30,20 @@ const popularLinks = [
 
 export default function Footer() {
   const year = new Date().getFullYear()
+  const pathname = usePathname() || '/'
+  const reading = pathname === '/books' || pathname.startsWith('/books/')
+  const sectionKey = getSectionFromPathname(pathname)
+  const section = siteSections.find(item => item.key === sectionKey)
+  const contextualLinks = sectionKey ? getSectionArticleLinks(sectionKey).filter(item => item.href !== pathname).slice(0, 5).map(item => ({ href: item.href, label: item.title })) : []
+  const firstLinks = reading ? authorLinks : contextualLinks.length ? contextualLinks : siteSections.slice(0, 5).map(item => ({ href: item.href, label: item.title }))
+  const secondLinks = reading ? genreLinks : siteSections.filter(item => item.key !== sectionKey).slice(0, 5).map(item => ({ href: item.href, label: item.title }))
+  const thirdLinks = reading ? popularLinks : [
+    { href: '/deals', label: 'Find a product' },
+    { href: '/deal-agent', label: 'Ask the Deal Agent' },
+    { href: '/deal-alerts', label: 'Watchlist and alerts' },
+    { href: '/disclosure', label: 'How affiliate links work' },
+    { href: '/privacy', label: 'Privacy and cookies' },
+  ]
 
   return (
     <footer className="bg-gray-900 text-gray-400 mt-16">
@@ -60,22 +77,22 @@ export default function Footer() {
               Best<span className="text-yellow-400">Pick</span>Zone
             </Link>
             <p className="text-sm leading-relaxed mb-4">
-              Honest book recommendations for every reader type — from debut novels to
-              all-time classics.
+              Practical buying guides and reading recommendations. Compare fit,
+              limitations and tradeoffs before you choose.
             </p>
             <Link
-              href="/books"
+              href={reading ? '/books' : section?.href || '/'}
               className="inline-block text-sm font-semibold bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg hover:bg-yellow-300 transition-colors"
             >
-              Browse All Books →
+              {reading ? 'Browse All Books' : section ? `Explore ${section.title}` : 'Explore BestPickZone'} →
             </Link>
           </div>
 
           {/* By Author */}
           <div>
-            <p className="text-white text-sm font-bold mb-4 uppercase tracking-wider">By Author</p>
+            <p className="text-white text-sm font-bold mb-4 uppercase tracking-wider">{reading ? 'By Author' : section ? `More in ${section.title}` : 'Buying guides'}</p>
             <ul className="space-y-2 text-sm">
-              {authorLinks.map((link) => (
+              {firstLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="hover:text-yellow-400 transition-colors">
                     {link.label}
@@ -83,8 +100,8 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <Link href="/books/authors" className="text-yellow-500 hover:text-yellow-400 transition-colors font-medium">
-                  See all authors →
+                <Link href={reading ? '/books/authors' : section?.href || '/'} className="text-yellow-500 hover:text-yellow-400 transition-colors font-medium">
+                  {reading ? 'See all authors' : 'Explore the full collection'} →
                 </Link>
               </li>
             </ul>
@@ -92,9 +109,9 @@ export default function Footer() {
 
           {/* By Genre */}
           <div>
-            <p className="text-white text-sm font-bold mb-4 uppercase tracking-wider">By Genre</p>
+            <p className="text-white text-sm font-bold mb-4 uppercase tracking-wider">{reading ? 'By Genre' : 'Other interests'}</p>
             <ul className="space-y-2 text-sm">
-              {genreLinks.map((link) => (
+              {secondLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="hover:text-yellow-400 transition-colors">
                     {link.label}
@@ -103,7 +120,7 @@ export default function Footer() {
               ))}
               <li>
                 <Link href="/books/genre-fiction" className="text-yellow-500 hover:text-yellow-400 transition-colors font-medium">
-                  See all genres →
+                  {reading ? 'See all genres' : 'Explore books'} →
                 </Link>
               </li>
             </ul>
@@ -111,9 +128,9 @@ export default function Footer() {
 
           {/* Popular Lists */}
           <div>
-            <p className="text-white text-sm font-bold mb-4 uppercase tracking-wider">Popular Lists</p>
+            <p className="text-white text-sm font-bold mb-4 uppercase tracking-wider">{reading ? 'Popular Lists' : 'Shopping tools and policies'}</p>
             <ul className="space-y-2 text-sm">
-              {popularLinks.map((link) => (
+              {thirdLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="hover:text-yellow-400 transition-colors">
                     {link.label}
@@ -121,8 +138,8 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <Link href="/books/reader-picks" className="text-yellow-500 hover:text-yellow-400 transition-colors font-medium">
-                  See all lists →
+                <Link href={reading ? '/books/reader-picks' : '/deals'} className="text-yellow-500 hover:text-yellow-400 transition-colors font-medium">
+                  {reading ? 'See all lists' : 'Explore product categories'} →
                 </Link>
               </li>
             </ul>
