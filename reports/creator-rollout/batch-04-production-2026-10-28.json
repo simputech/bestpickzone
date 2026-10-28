@@ -1,0 +1,644 @@
+{
+  "date": "2026-10-28",
+  "commit": "98208c063b7863c96e807883823f5971b41b5290",
+  "deployment": "dpl_CUCA4mzMYkhmmBjXMnLJJ7HwL9Jb",
+  "pages": [
+    {
+      "path": "/home-kitchen/best-coffee-makers-under-100",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Cuisinart%20DCC-3200NAS%20coffee%20maker&tag=althcu-20",
+        "https://www.amazon.com/s?k=Cuisinart+DCC-3200NAS+coffee+maker&tag=althcu-20",
+        "https://www.amazon.com/s?k=Hamilton%20Beach%20FlexBrew%20Trio%2049902%20coffee%20maker&tag=althcu-20",
+        "https://www.amazon.com/s?k=Hamilton+Beach+FlexBrew+Trio+49902&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-robot-vacuums",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Roborock%20Q5%2B%202700Pa%20self%20emptying%20robot%20vacuum&tag=althcu-20",
+        "https://www.amazon.com/s?k=Roborock+Q5%2B+2700Pa+robot+vacuum&tag=althcu-20",
+        "https://www.amazon.com/s?k=iRobot%20Roomba%20j7%2B%20j755020%20self%20emptying%20robot%20vacuum&tag=althcu-20",
+        "https://www.amazon.com/s?k=iRobot+Roomba+j7%2B+self+emptying+robot+vacuum&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 1,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Instant%20Pot%20Duo%206QT%20112-0170-01%20pressure%20cooker&tag=althcu-20",
+        "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7+in+1&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 1,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=OXO%20Good%20Grips%203%20in%201%20avocado%20slicer&tag=althcu-20",
+        "https://www.amazon.com/s?k=OXO+Good+Grips+3+in+1+avocado+slicer&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://m.media-amazon.com/images/I/C1z1gZzmkDL.pdf",
+        "https://www.amazon.com/dp/B00MIBN16O?tag=althcu-20",
+        "https://www.amazon.com/s?k=Amazon%20Basics%20B00MIBN16O%20Single%20Monitor%20Stand%20Lift%20Engine%20Arm%20Mount&tag=althcu-20",
+        "https://www.amazon.com/s?k=Ergotron%20LX%2045-241-026%20single%20desk%20monitor%20arm&tag=althcu-20",
+        "https://www.amazon.com/s?k=Ergotron+LX+45-241-026+single+desk+monitor+arm&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Herman%20Miller%20Aeron%20Remastered%20Size%20B%20chair&tag=althcu-20",
+        "https://www.amazon.com/s?k=Herman+Miller+Aeron+Remastered+Size+B+office+chair&tag=althcu-20",
+        "https://www.amazon.com/s?k=Herman+Miller+Aeron+Remastered+office+chair&tag=althcu-20",
+        "https://www.amazon.com/s?k=Steelcase%20Gesture%20office%20chair&tag=althcu-20",
+        "https://www.amazon.com/s?k=Steelcase+Gesture+office+chair&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Apple%20Magic%20Keyboard%20USB%20C%20MJLX4LL%20A%20US%20English&tag=althcu-20",
+        "https://www.amazon.com/s?k=Apple+Magic+Keyboard+USB+C+US+English+standard&tag=althcu-20",
+        "https://www.amazon.com/s?k=Logitech%20MX%20Keys%20S%20full%20size%20keyboard&tag=althcu-20",
+        "https://www.amazon.com/s?k=Logitech+MX+Keys+S+keyboard+US+English&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Apple%20Magic%20Mouse%20USB%20C%20white%20MXK53AM%20A&tag=althcu-20",
+        "https://www.amazon.com/s?k=Apple+Magic+Mouse+USB+C&tag=althcu-20",
+        "https://www.amazon.com/s?k=Logitech%20MX%20Master%203S%20Bluetooth%20mouse&tag=althcu-20",
+        "https://www.amazon.com/s?k=Logitech+MX+Master+3S+mouse&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Cushion%20Lab%20Pressure%20Relief%20Seat%20Cushion&tag=althcu-20",
+        "https://www.amazon.com/s?k=Cushion+Lab+Pressure+Relief+Seat+Cushion&tag=althcu-20",
+        "https://www.amazon.com/s?k=Purple%20Royal%20Seat%20Cushion&tag=althcu-20",
+        "https://www.amazon.com/s?k=Purple+Royal+Seat+Cushion&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=VIVO%20DESK-V000VL%2042%20inch%20desk%20converter&tag=althcu-20",
+        "https://www.amazon.com/s?k=VIVO+DESK-V000VL+42+desk+converter&tag=althcu-20",
+        "https://www.amazon.com/s?k=Vari%20Varidesk%20Pro%20Plus%2036%20manual%20desk%20converter&tag=althcu-20",
+        "https://www.amazon.com/s?k=VariDesk+Pro+Plus+36+manual+desk+converter&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Dyson%20Airwrap%20i.d.%20Straight%20Wavy%20multi%20styler&tag=althcu-20",
+        "https://www.amazon.com/s?k=Dyson+Airwrap+i.d.+Straight+Wavy&tag=althcu-20",
+        "https://www.amazon.com/s?k=Shark%20FlexStyle%20HD430%20hair%20styling%20system&tag=althcu-20",
+        "https://www.amazon.com/s?k=Shark+FlexStyle+HD430&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/beauty/is-omnilux-contour-worth-it",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=FOREO%20BEAR%202%20facial%20toning%20device&tag=althcu-20",
+        "https://www.amazon.com/s?k=FOREO+BEAR+2+facial+device&tag=althcu-20",
+        "https://www.amazon.com/s?k=NuFACE%20TRINITY%2B%20Starter%20Kit&tag=althcu-20",
+        "https://www.amazon.com/s?k=NuFACE+TRINITY%2B+Starter+Kit&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/coffee/best-gaggia-classic-pro-upgrades",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Baratza%20Encore%20ESP%20coffee%20grinder&tag=althcu-20",
+        "https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20",
+        "https://www.amazon.com/s?k=TIMEMORE%20Black%20Mirror%20Nano%20coffee%20scale&tag=althcu-20",
+        "https://www.amazon.com/s?k=TIMEMORE+Black+Mirror+Nano+white+scale&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 3,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Baratza%20Encore%20ESP%20coffee%20grinder&tag=althcu-20",
+        "https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20",
+        "https://www.amazon.com/s?k=Breville%20Bambino%20Plus%20Espresso%20Machine%20BES500BSS&tag=althcu-20",
+        "https://www.amazon.com/s?k=Breville+Bambino+Plus+BES500&tag=althcu-20",
+        "https://www.amazon.com/s?k=TIMEMORE%20Black%20Mirror%20Nano%20coffee%20scale&tag=althcu-20",
+        "https://www.amazon.com/s?k=TIMEMORE+Black+Mirror+Nano+white+scale&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "status": 200,
+      "sitemap": true,
+      "liveCards": 0,
+      "fallbackCards": 2,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Baratza%20Encore%20ESP%20coffee%20grinder&tag=althcu-20",
+        "https://www.amazon.com/s?k=Baratza+Encore+ESP+coffee+grinder&tag=althcu-20",
+        "https://www.amazon.com/s?k=TIMEMORE%20Black%20Mirror%20Nano%20coffee%20scale&tag=althcu-20",
+        "https://www.amazon.com/s?k=TIMEMORE+Black+Mirror+Nano+white+scale&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    }
+  ],
+  "internalLinksAndImages": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/amazon-offers",
+      "status": 200
+    },
+    {
+      "path": "/beauty",
+      "status": 200
+    },
+    {
+      "path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
+      "status": 200
+    },
+    {
+      "path": "/beauty/dr-dennis-gross-vs-omnilux-contour",
+      "status": 200
+    },
+    {
+      "path": "/beauty/dyson-airwrap-vs-shark-flexstyle",
+      "status": 200
+    },
+    {
+      "path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
+      "status": 200
+    },
+    {
+      "path": "/beauty/is-omnilux-contour-worth-it",
+      "status": 200
+    },
+    {
+      "path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
+      "status": 200
+    },
+    {
+      "path": "/beauty/nuface-trinity-vs-solawave-wand",
+      "status": 200
+    },
+    {
+      "path": "/beauty/retinol-vs-bakuchiol-for-sensitive-skin",
+      "status": 200
+    },
+    {
+      "path": "/beauty/salicylic-acid-vs-benzoyl-peroxide",
+      "status": 200
+    },
+    {
+      "path": "/beauty/vitamin-c-vs-niacinamide",
+      "status": 200
+    },
+    {
+      "path": "/books",
+      "status": 200
+    },
+    {
+      "path": "/books/authors",
+      "status": 200
+    },
+    {
+      "path": "/books/best-audiobooks-on-audible",
+      "status": 200
+    },
+    {
+      "path": "/books/best-book-club-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-books-of-all-time",
+      "status": 200
+    },
+    {
+      "path": "/books/best-books-to-read-on-the-beach",
+      "status": 200
+    },
+    {
+      "path": "/books/best-colleen-hoover-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-fantasy-series-for-adults",
+      "status": 200
+    },
+    {
+      "path": "/books/best-feel-good-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-haruki-murakami-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-historical-fiction",
+      "status": 200
+    },
+    {
+      "path": "/books/best-horror-novels",
+      "status": 200
+    },
+    {
+      "path": "/books/best-malcolm-gladwell-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-neil-gaiman-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-psychological-thrillers",
+      "status": 200
+    },
+    {
+      "path": "/books/best-romantasy-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-stephen-king-books",
+      "status": 200
+    },
+    {
+      "path": "/books/genre-fiction",
+      "status": 200
+    },
+    {
+      "path": "/books/kids-and-ya",
+      "status": 200
+    },
+    {
+      "path": "/books/reader-picks",
+      "status": 200
+    },
+    {
+      "path": "/books/self-help",
+      "status": 200
+    },
+    {
+      "path": "/coffee",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-coffee-makers-for-low-cabinets",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-gaggia-classic-pro",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-gaggia-classic-pro-upgrades",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-used-breville-espresso-machines-ebay",
+      "status": 200
+    },
+    {
+      "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "status": 200
+    },
+    {
+      "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "status": 200
+    },
+    {
+      "path": "/deal-agent",
+      "status": 200
+    },
+    {
+      "path": "/deal-alerts",
+      "status": 200
+    },
+    {
+      "path": "/deals",
+      "status": 200
+    },
+    {
+      "path": "/deals/espresso-machines",
+      "status": 200
+    },
+    {
+      "path": "/deals/hair-stylers",
+      "status": 200
+    },
+    {
+      "path": "/disclosure",
+      "status": 200
+    },
+    {
+      "path": "/es",
+      "status": 200
+    },
+    {
+      "path": "/finance-software",
+      "status": 200
+    },
+    {
+      "path": "/health-fitness",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-air-fryer-accessories",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-air-fryers",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-car-cleaning-products",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-pet-travel-products",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "status": 200
+    },
+    {
+      "path": "/images/beauty/beauty-styler-comparison.svg",
+      "status": 200
+    },
+    {
+      "path": "/images/beauty/led-purchase-checks.svg",
+      "status": 200
+    },
+    {
+      "path": "/images/coffee/espresso-upgrade-order.svg",
+      "status": 200
+    },
+    {
+      "path": "/images/home-kitchen/best-coffee-makers-under-100-decision.svg",
+      "status": 200
+    },
+    {
+      "path": "/images/home-kitchen/best-robot-vacuums-decision.svg",
+      "status": 200
+    },
+    {
+      "path": "/images/home-kitchen/instant-pot-vs-ninja-foodi-decision.svg",
+      "status": 200
+    },
+    {
+      "path": "/images/home-kitchen/oxo-vs-fullstar-avocado-slicer-decision.svg",
+      "status": 200
+    },
+    {
+      "path": "/images/wfh/wfh-desk-setup.svg",
+      "status": 200
+    },
+    {
+      "path": "/mahjong",
+      "status": 200
+    },
+    {
+      "path": "/privacy",
+      "status": 200
+    },
+    {
+      "path": "/tech",
+      "status": 200
+    },
+    {
+      "path": "/wfh",
+      "status": 200
+    },
+    {
+      "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
+      "status": 200
+    },
+    {
+      "path": "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+      "status": 200
+    },
+    {
+      "path": "/wfh/best-monitor-arms-for-shallow-desks",
+      "status": 200
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "status": 200
+    },
+    {
+      "path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+      "status": 200
+    },
+    {
+      "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
+      "status": 200
+    },
+    {
+      "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
+      "status": 200
+    },
+    {
+      "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
+      "status": 200
+    },
+    {
+      "path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
+      "status": 200
+    },
+    {
+      "path": "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+      "status": 200
+    },
+    {
+      "path": "/wfh/ultimate-kitchen-table-home-office-setup",
+      "status": 200
+    },
+    {
+      "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
+      "status": 200
+    }
+  ],
+  "browserAcceptance": {
+    "viewports": [
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 1440,
+        "height": 1000
+      }
+    ],
+    "pagesCheckedPerViewport": 20,
+    "h1CountEach": 1,
+    "loadedImagesEach": 1,
+    "brokenImages": 0,
+    "documentOverflow": 0,
+    "placeholderLinks": 0,
+    "unlabeledSearchLinks": 0,
+    "disclosures": "present all",
+    "canonicals": "correct all",
+    "method": "CUA navigation, load, scroll images into view, DOM dimensions and image status; representative visual screenshots inspected. Initial lazy-image observations were discarded after loading."
+  },
+  "creatorApiAcceptance": "BLOCKED: production HTTP 403 AssociateNotEligible; no live cards accepted",
+  "sitemapCheck": {
+    "method": "Parsed sitemap index then all six child sitemaps",
+    "childSitemaps": [
+      "https://bestpickzone.com/sitemap-main.xml",
+      "https://bestpickzone.com/sitemap-books.xml",
+      "https://bestpickzone.com/sitemap-beauty.xml",
+      "https://bestpickzone.com/sitemap-coffee.xml",
+      "https://bestpickzone.com/sitemap-wfh.xml",
+      "https://bestpickzone.com/sitemap-es.xml"
+    ],
+    "totalUrls": 335
+  }
+}

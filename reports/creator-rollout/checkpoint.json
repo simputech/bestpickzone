@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T23:14:28.737328+00:00",
+  "updatedAt": "2026-10-28T23:30:00Z",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 4,
-  "status": "batch-four-awaiting-review-and-preview",
+  "currentBatch": 5,
+  "status": "batch-four-content-accepted-api-blocked-batch-five-in-progress",
   "completedBatches": [
     1,
     2,
@@ -342,7 +342,7 @@
   },
   "verifiedArticles": 60,
   "batch04": {
-    "status": "approved-content-final-date-validation",
+    "status": "production-content-accepted-api-eligibility-blocked",
     "baseCommit": "34bb671d11d09f3d5f826811b64b4e80cb27d134",
     "articleCount": 20,
     "draftedPaths": [
@@ -368,7 +368,7 @@
       "/coffee/what-to-buy-with-your-breville-bambino-plus"
     ],
     "independentReview": "APPROVED all20 editorial/commerce at4d92a18236a1a9d5460e183cfe6449aa7066dd8d. Independent71 matcher probes and13focused repository tests passed. Final date/metadata re-review pending.",
-    "productionPublished": false,
+    "productionPublished": true,
     "runtimeVerified": false,
     "sitemapDatesAdvanced": true,
     "researchNotes": [
@@ -388,7 +388,7 @@
       "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
       "/beauty/is-omnilux-contour-worth-it"
     ],
-    "productionVerified": false,
+    "productionVerified": true,
     "partialBuild": "passed ten-draft checkpoint 24451ac; three newer input/converter drafts await final build",
     "wfhResearch": "reports/creator-rollout/batch-04-research/wfh-models.md",
     "noProductExceptions": [
@@ -397,7 +397,7 @@
     "partialProductExceptions": {
       "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt": "MyoLift QT Plus official store only; no verified exact authorized Amazon package."
     },
-    "pendingBlocker": null,
+    "pendingBlocker": "Amazon Creator API HTTP 403 AssociateNotEligible; account eligibility must be restored by Amazon. Honest fallback accepted.",
     "technicalChecks": {
       "tests": "214/214 unit/integration tests passed after dates, including13 focused batch-four tests.",
       "build": "Final corrected/date-synchronized production build passed: 259 metadata static pages,335/335 indexable sitemap URLs,30 runtime assets,operations and service inventory passed. Existing lint warnings only.",
@@ -454,6 +454,31 @@
       "/coffee/what-to-buy-with-your-breville-bambino-plus"
     ],
     "modifiedDate": "2026-10-18",
-    "editorialApprovedCount": 20
+    "editorialApprovedCount": 20,
+    "publicationCommit": "be083a389d77e7a825afd1051c57d2960afe2ea5",
+    "verificationCommit": "98208c063b7863c96e807883823f5971b41b5290",
+    "verificationDeploymentId": "dpl_CUCA4mzMYkhmmBjXMnLJJ7HwL9Jb",
+    "productionReport": "reports/creator-rollout/batch-04-production-2026-10-28.json",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 29
+  },
+  "deployedArticles": 81,
+  "contentAcceptedArticles": 81,
+  "remainingArticles": 218,
+  "countDefinitions": {
+    "deployedArticles": "80 in batches 1-4 plus corn correction in batch 5",
+    "contentAcceptedArticles": "60 historically accepted plus 20 batch-four content/fallback checks and one corn correction",
+    "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
+    "remainingArticles": "299 minus 81 unique pages; batch five has 19 still to refresh"
+  },
+  "batch05": {
+    "status": "in-progress",
+    "completedPaths": [
+      "/home-kitchen/oxo-vs-chefn-corn-stripper"
+    ],
+    "remainingInBatch": 19,
+    "publicationCommit": "98208c063b7863c96e807883823f5971b41b5290"
   }
 }

@@ -1,0 +1,998 @@
+{
+  "testedAt": "2026-10-28",
+  "property": "471286075",
+  "queries": {
+    "gaDaily": {
+      "rows": [
+        {
+          "date": "20261001",
+          "sessions": "45",
+          "total_users": "45",
+          "screen_page_views": "49"
+        },
+        {
+          "date": "20261002",
+          "sessions": "34",
+          "total_users": "33",
+          "screen_page_views": "43"
+        },
+        {
+          "date": "20260929",
+          "sessions": "33",
+          "total_users": "33",
+          "screen_page_views": "34"
+        },
+        {
+          "date": "20260927",
+          "sessions": "32",
+          "total_users": "31",
+          "screen_page_views": "32"
+        },
+        {
+          "date": "20260928",
+          "sessions": "31",
+          "total_users": "29",
+          "screen_page_views": "32"
+        },
+        {
+          "date": "20260930",
+          "sessions": "25",
+          "total_users": "22",
+          "screen_page_views": "32"
+        },
+        {
+          "date": "20260926",
+          "sessions": "16",
+          "total_users": "16",
+          "screen_page_views": "17"
+        },
+        {
+          "date": "20261003",
+          "sessions": "13",
+          "total_users": "13",
+          "screen_page_views": "14"
+        },
+        {
+          "date": "20261016",
+          "sessions": "4",
+          "total_users": "2",
+          "screen_page_views": "51"
+        },
+        {
+          "date": "20261008",
+          "sessions": "3",
+          "total_users": "2",
+          "screen_page_views": "2"
+        },
+        {
+          "date": "20261014",
+          "sessions": "3",
+          "total_users": "2",
+          "screen_page_views": "2"
+        },
+        {
+          "date": "20261004",
+          "sessions": "2",
+          "total_users": "2",
+          "screen_page_views": "2"
+        },
+        {
+          "date": "20261007",
+          "sessions": "2",
+          "total_users": "2",
+          "screen_page_views": "13"
+        },
+        {
+          "date": "20261017",
+          "sessions": "2",
+          "total_users": "2",
+          "screen_page_views": "2"
+        },
+        {
+          "date": "20261020",
+          "sessions": "2",
+          "total_users": "2",
+          "screen_page_views": "3"
+        },
+        {
+          "date": "20261026",
+          "sessions": "2",
+          "total_users": "1",
+          "screen_page_views": "2"
+        },
+        {
+          "date": "20261027",
+          "sessions": "2",
+          "total_users": "2",
+          "screen_page_views": "2"
+        },
+        {
+          "date": "20261005",
+          "sessions": "1",
+          "total_users": "1",
+          "screen_page_views": "1"
+        },
+        {
+          "date": "20261006",
+          "sessions": "1",
+          "total_users": "1",
+          "screen_page_views": "1"
+        },
+        {
+          "date": "20261010",
+          "sessions": "1",
+          "total_users": "1",
+          "screen_page_views": "1"
+        },
+        {
+          "date": "20261011",
+          "sessions": "1",
+          "total_users": "1",
+          "screen_page_views": "1"
+        },
+        {
+          "date": "20261012",
+          "sessions": "1",
+          "total_users": "1",
+          "screen_page_views": "2"
+        },
+        {
+          "date": "20261019",
+          "sessions": "1",
+          "total_users": "1",
+          "screen_page_views": "1"
+        },
+        {
+          "date": "20261023",
+          "sessions": "1",
+          "total_users": "1",
+          "screen_page_views": "0"
+        }
+      ],
+      "connector": "google-analytics",
+      "account": "471286075",
+      "date_range": {
+        "start": "2026-09-26",
+        "end": "2026-10-27"
+      }
+    },
+    "gaSources": {
+      "rows": [
+        {
+          "date": "20261001",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "40"
+        },
+        {
+          "date": "20261002",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "30"
+        },
+        {
+          "date": "20260927",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "29"
+        },
+        {
+          "date": "20260929",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "27"
+        },
+        {
+          "date": "20260930",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "23"
+        },
+        {
+          "date": "20260928",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "22"
+        },
+        {
+          "date": "20260926",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "13"
+        },
+        {
+          "date": "20261003",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "8"
+        },
+        {
+          "date": "20260929",
+          "session_source_medium": "bing / organic",
+          "sessions": "4"
+        },
+        {
+          "date": "20260928",
+          "session_source_medium": "bing / organic",
+          "sessions": "3"
+        },
+        {
+          "date": "20260926",
+          "session_source_medium": "bing / organic",
+          "sessions": "2"
+        },
+        {
+          "date": "20260927",
+          "session_source_medium": "bing / organic",
+          "sessions": "2"
+        },
+        {
+          "date": "20260928",
+          "session_source_medium": "duckduckgo / organic",
+          "sessions": "2"
+        },
+        {
+          "date": "20260928",
+          "session_source_medium": "google / organic",
+          "sessions": "2"
+        },
+        {
+          "date": "20261001",
+          "session_source_medium": "bing / organic",
+          "sessions": "2"
+        },
+        {
+          "date": "20261001",
+          "session_source_medium": "chatgpt.com / ai-assistant",
+          "sessions": "2"
+        },
+        {
+          "date": "20261002",
+          "session_source_medium": "chatgpt.com / ai-assistant",
+          "sessions": "2"
+        },
+        {
+          "date": "20261008",
+          "session_source_medium": "bing / organic",
+          "sessions": "2"
+        },
+        {
+          "date": "20260926",
+          "session_source_medium": "google / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20260927",
+          "session_source_medium": "ecosia.org / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20260928",
+          "session_source_medium": "(not set)",
+          "sessions": "1"
+        },
+        {
+          "date": "20260928",
+          "session_source_medium": "chatgpt.com / ai-assistant",
+          "sessions": "1"
+        },
+        {
+          "date": "20260929",
+          "session_source_medium": "duckduckgo / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20260929",
+          "session_source_medium": "google / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20260930",
+          "session_source_medium": "duckduckgo / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20260930",
+          "session_source_medium": "qwant.com / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261001",
+          "session_source_medium": "yahoo / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261002",
+          "session_source_medium": "bing / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261002",
+          "session_source_medium": "duckduckgo / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261003",
+          "session_source_medium": "bing / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261003",
+          "session_source_medium": "chatgpt.com / ai-assistant",
+          "sessions": "1"
+        },
+        {
+          "date": "20261003",
+          "session_source_medium": "duckduckgo / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261003",
+          "session_source_medium": "search.google.com / referral",
+          "sessions": "1"
+        },
+        {
+          "date": "20261003",
+          "session_source_medium": "yahoo / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261004",
+          "session_source_medium": "chatgpt.com / ai-assistant",
+          "sessions": "1"
+        },
+        {
+          "date": "20261004",
+          "session_source_medium": "ecosia.org / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261005",
+          "session_source_medium": "chatgpt.com / ai-assistant",
+          "sessions": "1"
+        },
+        {
+          "date": "20261006",
+          "session_source_medium": "duckduckgo / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261007",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "1"
+        },
+        {
+          "date": "20261007",
+          "session_source_medium": "google / organic",
+          "sessions": "1"
+        },
+        {
+          "date": "20261008",
+          "session_source_medium": "chatgpt.com / ai-assistant",
+          "sessions": "1"
+        },
+        {
+          "date": "20261010",
+          "session_source_medium": "(direct) / (none)",
+          "sessions": "1"
+        }
+      ],
+      "connector": "google-analytics",
+      "account": "471286075",
+      "date_range": {
+        "start": "2026-09-26",
+        "end": "2026-10-10"
+      }
+    },
+    "gaEvents": {
+      "rows": [
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "page_view",
+          "event_count": "339"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "session_start",
+          "event_count": "257"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "first_visit",
+          "event_count": "227"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "user_engagement",
+          "event_count": "67"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "scroll",
+          "event_count": "27"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "affiliate_click",
+          "event_count": "8"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "click",
+          "event_count": "8"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "amazon_click",
+          "event_count": "5"
+        },
+        {
+          "host_name": "bestpickzone.com",
+          "stream_id": "15303189917",
+          "stream_name": "BestPickZone Web",
+          "event_name": "form_start",
+          "event_count": "2"
+        }
+      ],
+      "connector": "google-analytics",
+      "account": "471286075",
+      "date_range": {
+        "start": "2026-09-26",
+        "end": "2026-10-27"
+      }
+    },
+    "gaEventDays": {
+      "rows": [
+        {
+          "date": "20261016",
+          "event_name": "page_view",
+          "event_count": "51"
+        },
+        {
+          "date": "20261001",
+          "event_name": "page_view",
+          "event_count": "49"
+        },
+        {
+          "date": "20261001",
+          "event_name": "session_start",
+          "event_count": "45"
+        },
+        {
+          "date": "20261001",
+          "event_name": "first_visit",
+          "event_count": "43"
+        },
+        {
+          "date": "20261002",
+          "event_name": "page_view",
+          "event_count": "43"
+        },
+        {
+          "date": "20260929",
+          "event_name": "page_view",
+          "event_count": "34"
+        },
+        {
+          "date": "20261002",
+          "event_name": "session_start",
+          "event_count": "34"
+        },
+        {
+          "date": "20260929",
+          "event_name": "session_start",
+          "event_count": "33"
+        },
+        {
+          "date": "20260927",
+          "event_name": "page_view",
+          "event_count": "32"
+        },
+        {
+          "date": "20260927",
+          "event_name": "session_start",
+          "event_count": "32"
+        },
+        {
+          "date": "20260928",
+          "event_name": "page_view",
+          "event_count": "32"
+        },
+        {
+          "date": "20260930",
+          "event_name": "page_view",
+          "event_count": "32"
+        },
+        {
+          "date": "20260927",
+          "event_name": "first_visit",
+          "event_count": "31"
+        },
+        {
+          "date": "20260929",
+          "event_name": "first_visit",
+          "event_count": "31"
+        },
+        {
+          "date": "20261002",
+          "event_name": "first_visit",
+          "event_count": "31"
+        },
+        {
+          "date": "20260928",
+          "event_name": "session_start",
+          "event_count": "30"
+        },
+        {
+          "date": "20260928",
+          "event_name": "first_visit",
+          "event_count": "28"
+        },
+        {
+          "date": "20260930",
+          "event_name": "session_start",
+          "event_count": "25"
+        },
+        {
+          "date": "20260930",
+          "event_name": "first_visit",
+          "event_count": "20"
+        },
+        {
+          "date": "20261016",
+          "event_name": "user_engagement",
+          "event_count": "18"
+        },
+        {
+          "date": "20260926",
+          "event_name": "page_view",
+          "event_count": "17"
+        },
+        {
+          "date": "20260926",
+          "event_name": "first_visit",
+          "event_count": "16"
+        },
+        {
+          "date": "20260926",
+          "event_name": "session_start",
+          "event_count": "16"
+        },
+        {
+          "date": "20261003",
+          "event_name": "page_view",
+          "event_count": "14"
+        },
+        {
+          "date": "20261003",
+          "event_name": "session_start",
+          "event_count": "13"
+        },
+        {
+          "date": "20261007",
+          "event_name": "page_view",
+          "event_count": "13"
+        },
+        {
+          "date": "20261003",
+          "event_name": "first_visit",
+          "event_count": "11"
+        },
+        {
+          "date": "20261007",
+          "event_name": "user_engagement",
+          "event_count": "9"
+        },
+        {
+          "date": "20260928",
+          "event_name": "user_engagement",
+          "event_count": "8"
+        },
+        {
+          "date": "20260928",
+          "event_name": "scroll",
+          "event_count": "6"
+        },
+        {
+          "date": "20260929",
+          "event_name": "affiliate_click",
+          "event_count": "5"
+        },
+        {
+          "date": "20260929",
+          "event_name": "amazon_click",
+          "event_count": "5"
+        },
+        {
+          "date": "20260929",
+          "event_name": "click",
+          "event_count": "5"
+        },
+        {
+          "date": "20260926",
+          "event_name": "user_engagement",
+          "event_count": "4"
+        },
+        {
+          "date": "20260930",
+          "event_name": "user_engagement",
+          "event_count": "4"
+        },
+        {
+          "date": "20261001",
+          "event_name": "user_engagement",
+          "event_count": "4"
+        },
+        {
+          "date": "20261016",
+          "event_name": "session_start",
+          "event_count": "4"
+        },
+        {
+          "date": "20260929",
+          "event_name": "scroll",
+          "event_count": "3"
+        },
+        {
+          "date": "20260929",
+          "event_name": "user_engagement",
+          "event_count": "3"
+        },
+        {
+          "date": "20260930",
+          "event_name": "scroll",
+          "event_count": "3"
+        },
+        {
+          "date": "20261002",
+          "event_name": "scroll",
+          "event_count": "3"
+        },
+        {
+          "date": "20261003",
+          "event_name": "user_engagement",
+          "event_count": "3"
+        },
+        {
+          "date": "20261008",
+          "event_name": "session_start",
+          "event_count": "3"
+        },
+        {
+          "date": "20261014",
+          "event_name": "session_start",
+          "event_count": "3"
+        },
+        {
+          "date": "20261020",
+          "event_name": "page_view",
+          "event_count": "3"
+        },
+        {
+          "date": "20260927",
+          "event_name": "user_engagement",
+          "event_count": "2"
+        },
+        {
+          "date": "20261002",
+          "event_name": "user_engagement",
+          "event_count": "2"
+        },
+        {
+          "date": "20261003",
+          "event_name": "scroll",
+          "event_count": "2"
+        },
+        {
+          "date": "20261004",
+          "event_name": "first_visit",
+          "event_count": "2"
+        },
+        {
+          "date": "20261004",
+          "event_name": "page_view",
+          "event_count": "2"
+        },
+        {
+          "date": "20261004",
+          "event_name": "session_start",
+          "event_count": "2"
+        },
+        {
+          "date": "20261006",
+          "event_name": "affiliate_click",
+          "event_count": "2"
+        },
+        {
+          "date": "20261006",
+          "event_name": "click",
+          "event_count": "2"
+        },
+        {
+          "date": "20261007",
+          "event_name": "first_visit",
+          "event_count": "2"
+        },
+        {
+          "date": "20261007",
+          "event_name": "scroll",
+          "event_count": "2"
+        },
+        {
+          "date": "20261007",
+          "event_name": "session_start",
+          "event_count": "2"
+        },
+        {
+          "date": "20261008",
+          "event_name": "first_visit",
+          "event_count": "2"
+        },
+        {
+          "date": "20261008",
+          "event_name": "page_view",
+          "event_count": "2"
+        },
+        {
+          "date": "20261008",
+          "event_name": "user_engagement",
+          "event_count": "2"
+        },
+        {
+          "date": "20261012",
+          "event_name": "page_view",
+          "event_count": "2"
+        },
+        {
+          "date": "20261014",
+          "event_name": "page_view",
+          "event_count": "2"
+        },
+        {
+          "date": "20261016",
+          "event_name": "form_start",
+          "event_count": "2"
+        },
+        {
+          "date": "20261016",
+          "event_name": "scroll",
+          "event_count": "2"
+        },
+        {
+          "date": "20261017",
+          "event_name": "first_visit",
+          "event_count": "2"
+        },
+        {
+          "date": "20261017",
+          "event_name": "page_view",
+          "event_count": "2"
+        },
+        {
+          "date": "20261017",
+          "event_name": "session_start",
+          "event_count": "2"
+        },
+        {
+          "date": "20261020",
+          "event_name": "session_start",
+          "event_count": "2"
+        },
+        {
+          "date": "20261026",
+          "event_name": "page_view",
+          "event_count": "2"
+        },
+        {
+          "date": "20261026",
+          "event_name": "session_start",
+          "event_count": "2"
+        },
+        {
+          "date": "20261027",
+          "event_name": "first_visit",
+          "event_count": "2"
+        },
+        {
+          "date": "20261027",
+          "event_name": "page_view",
+          "event_count": "2"
+        },
+        {
+          "date": "20261027",
+          "event_name": "session_start",
+          "event_count": "2"
+        },
+        {
+          "date": "20260926",
+          "event_name": "scroll",
+          "event_count": "1"
+        },
+        {
+          "date": "20260927",
+          "event_name": "scroll",
+          "event_count": "1"
+        },
+        {
+          "date": "20261001",
+          "event_name": "scroll",
+          "event_count": "1"
+        },
+        {
+          "date": "20261002",
+          "event_name": "affiliate_click",
+          "event_count": "1"
+        },
+        {
+          "date": "20261002",
+          "event_name": "click",
+          "event_count": "1"
+        },
+        {
+          "date": "20261004",
+          "event_name": "scroll",
+          "event_count": "1"
+        },
+        {
+          "date": "20261004",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        },
+        {
+          "date": "20261005",
+          "event_name": "first_visit",
+          "event_count": "1"
+        },
+        {
+          "date": "20261005",
+          "event_name": "page_view",
+          "event_count": "1"
+        },
+        {
+          "date": "20261005",
+          "event_name": "session_start",
+          "event_count": "1"
+        },
+        {
+          "date": "20261006",
+          "event_name": "page_view",
+          "event_count": "1"
+        },
+        {
+          "date": "20261006",
+          "event_name": "session_start",
+          "event_count": "1"
+        },
+        {
+          "date": "20261010",
+          "event_name": "page_view",
+          "event_count": "1"
+        },
+        {
+          "date": "20261010",
+          "event_name": "session_start",
+          "event_count": "1"
+        },
+        {
+          "date": "20261010",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        },
+        {
+          "date": "20261011",
+          "event_name": "page_view",
+          "event_count": "1"
+        },
+        {
+          "date": "20261011",
+          "event_name": "session_start",
+          "event_count": "1"
+        },
+        {
+          "date": "20261012",
+          "event_name": "first_visit",
+          "event_count": "1"
+        },
+        {
+          "date": "20261012",
+          "event_name": "session_start",
+          "event_count": "1"
+        },
+        {
+          "date": "20261014",
+          "event_name": "scroll",
+          "event_count": "1"
+        },
+        {
+          "date": "20261014",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        },
+        {
+          "date": "20261016",
+          "event_name": "first_visit",
+          "event_count": "1"
+        },
+        {
+          "date": "20261017",
+          "event_name": "scroll",
+          "event_count": "1"
+        },
+        {
+          "date": "20261017",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        },
+        {
+          "date": "20261019",
+          "event_name": "first_visit",
+          "event_count": "1"
+        },
+        {
+          "date": "20261019",
+          "event_name": "page_view",
+          "event_count": "1"
+        },
+        {
+          "date": "20261019",
+          "event_name": "session_start",
+          "event_count": "1"
+        },
+        {
+          "date": "20261019",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        },
+        {
+          "date": "20261020",
+          "event_name": "first_visit",
+          "event_count": "1"
+        },
+        {
+          "date": "20261023",
+          "event_name": "session_start",
+          "event_count": "1"
+        },
+        {
+          "date": "20261023",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        },
+        {
+          "date": "20261026",
+          "event_name": "first_visit",
+          "event_count": "1"
+        },
+        {
+          "date": "20261026",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        },
+        {
+          "date": "20261027",
+          "event_name": "user_engagement",
+          "event_count": "1"
+        }
+      ],
+      "connector": "google-analytics",
+      "account": "471286075",
+      "date_range": {
+        "start": "2026-09-26",
+        "end": "2026-10-27"
+      }
+    }
+  },
+  "limitations": [
+    "Consent gate changed October 3; no causal attribution established.",
+    "Admin settings and change history require signed-in access.",
+    "No test events transmitted; production QA used a local gtag recorder and blocked Google collection."
+  ]
+}

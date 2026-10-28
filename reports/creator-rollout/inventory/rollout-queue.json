@@ -997,7 +997,7 @@
     {
       "batch": 4,
       "reviewed_page_target": 20,
-      "status": "content-approved-final-validation",
+      "status": "production-content-accepted-api-eligibility-blocked",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -1285,7 +1285,7 @@
     {
       "batch": 5,
       "reviewed_page_target": 20,
-      "status": "pending",
+      "status": "in-progress",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -1563,10 +1563,10 @@
           "data_source": null,
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-accepted",
+          "refresh_scope": "Complete sourced rewrite; no fabricated experience/yield/injury claims; URL preserved",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Published 98208c0; desktop/mobile/full rendered reread; existing direct listing identities checked October 28; exclude from duplicate refresh work."
         }
       ]
     },
