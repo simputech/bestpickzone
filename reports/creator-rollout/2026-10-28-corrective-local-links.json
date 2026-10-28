@@ -1,0 +1,295 @@
+{
+  "environment": "local production build; no Amazon production credentials",
+  "pages": [
+    {
+      "path": "/home-kitchen/oxo-vs-chefn-corn-stripper",
+      "status": 200,
+      "placeholderLinks": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/Chefn-Cob-Corn-Stripper-Yellow/dp/B01B5SOUF6?tag=althcu-20",
+        "https://www.amazon.com/OXO-Good-Grips-Corn-Stripper/dp/B000V78JGO?tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/wfh/best-usb-c-docks-for-two-monitors",
+      "status": 200,
+      "placeholderLinks": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=CalDigit%20TS4%20Thunderbolt%204%20dock%2098W&tag=althcu-20",
+        "https://www.amazon.com/s?k=CalDigit+TS4+Thunderbolt+4+dock&tag=althcu-20",
+        "https://www.amazon.com/s?k=Plugable%20UD-6950PDH%20dual%20monitor%20docking%20station&tag=althcu-20",
+        "https://www.amazon.com/s?k=Plugable+UD-6950PDH+docking+station&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/coffee/best-low-profile-espresso-scales",
+      "status": 200,
+      "placeholderLinks": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/s?k=Acaia%20Lunar%202021%20espresso%20scale&tag=althcu-20",
+        "https://www.amazon.com/s?k=Acaia+Lunar+2021+espresso+scale&tag=althcu-20",
+        "https://www.amazon.com/s?k=WACACO%20Exagram%20Pro%20coffee%20scale&tag=althcu-20",
+        "https://www.amazon.com/s?k=Wacaco+Exagram+Pro+coffee+scale&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    },
+    {
+      "path": "/home-kitchen/ninja-creami-containers-compatibility",
+      "status": 200,
+      "placeholderLinks": 0,
+      "amazonDestinations": [
+        "https://www.amazon.com/dp/B0B7CBNNXC?tag=althcu-20",
+        "https://www.amazon.com/dp/B0B9CJLVY5?tag=althcu-20",
+        "https://www.amazon.com/dp/B0DTJR3HTL?tag=althcu-20",
+        "https://www.amazon.com/s?k=Ninja%20CREAMi%20Deluxe%20XSKPNTLD2%20replacement%20pints&tag=althcu-20",
+        "https://www.amazon.com/s?k=Ninja%20CREAMi%20Swirl%20XSK7PNTLD2%20replacement%20pints&tag=althcu-20",
+        "https://www.amazon.com/s?k=Ninja%20CREAMi%20XSKPLID2CD%20replacement%20pints&tag=althcu-20",
+        "https://www.amazon.com/shop/althcu"
+      ]
+    }
+  ],
+  "internalLinks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/amazon-offers",
+      "status": 200
+    },
+    {
+      "path": "/beauty",
+      "status": 200
+    },
+    {
+      "path": "/books",
+      "status": 200
+    },
+    {
+      "path": "/books/authors",
+      "status": 200
+    },
+    {
+      "path": "/books/best-audiobooks-on-audible",
+      "status": 200
+    },
+    {
+      "path": "/books/best-book-club-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-books-of-all-time",
+      "status": 200
+    },
+    {
+      "path": "/books/best-books-to-read-on-the-beach",
+      "status": 200
+    },
+    {
+      "path": "/books/best-colleen-hoover-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-fantasy-series-for-adults",
+      "status": 200
+    },
+    {
+      "path": "/books/best-feel-good-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-haruki-murakami-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-historical-fiction",
+      "status": 200
+    },
+    {
+      "path": "/books/best-horror-novels",
+      "status": 200
+    },
+    {
+      "path": "/books/best-malcolm-gladwell-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-neil-gaiman-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-psychological-thrillers",
+      "status": 200
+    },
+    {
+      "path": "/books/best-romantasy-books",
+      "status": 200
+    },
+    {
+      "path": "/books/best-stephen-king-books",
+      "status": 200
+    },
+    {
+      "path": "/books/genre-fiction",
+      "status": 200
+    },
+    {
+      "path": "/books/kids-and-ya",
+      "status": 200
+    },
+    {
+      "path": "/books/reader-picks",
+      "status": 200
+    },
+    {
+      "path": "/books/self-help",
+      "status": 200
+    },
+    {
+      "path": "/coffee",
+      "status": 200
+    },
+    {
+      "path": "/coffee/acaia-lunar-vs-timemore-black-mirror-nano",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-bottomless-portafilters-gaggia-classic-pro",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-for-breville-bambino",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-espresso-grinders-gaggia-classic-pro",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-gaggia-classic-pro-upgrades",
+      "status": 200
+    },
+    {
+      "path": "/coffee/best-used-breville-espresso-machines-ebay",
+      "status": 200
+    },
+    {
+      "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
+      "status": 200
+    },
+    {
+      "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
+      "status": 200
+    },
+    {
+      "path": "/deal-agent",
+      "status": 200
+    },
+    {
+      "path": "/deal-alerts",
+      "status": 200
+    },
+    {
+      "path": "/deals",
+      "status": 200
+    },
+    {
+      "path": "/deals/ice-cream-makers",
+      "status": 200
+    },
+    {
+      "path": "/disclosure",
+      "status": 200
+    },
+    {
+      "path": "/es",
+      "status": 200
+    },
+    {
+      "path": "/finance-software",
+      "status": 200
+    },
+    {
+      "path": "/health-fitness",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-air-fryer-accessories",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-car-cleaning-products",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/best-pet-travel-products",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "status": 200
+    },
+    {
+      "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "status": 200
+    },
+    {
+      "path": "/mahjong",
+      "status": 200
+    },
+    {
+      "path": "/privacy",
+      "status": 200
+    },
+    {
+      "path": "/tech",
+      "status": 200
+    },
+    {
+      "path": "/wfh",
+      "status": 200
+    },
+    {
+      "path": "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+      "status": 200
+    },
+    {
+      "path": "/wfh/best-monitor-arms-for-shallow-desks",
+      "status": 200
+    },
+    {
+      "path": "/wfh/best-video-call-lighting-for-glasses",
+      "status": 200
+    },
+    {
+      "path": "/wfh/elgato-stream-deck-mk2-vs-logitech-mx-creative-console",
+      "status": 200
+    },
+    {
+      "path": "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+      "status": 200
+    },
+    {
+      "path": "/wfh/ultimate-kitchen-table-home-office-setup",
+      "status": 200
+    }
+  ]
+}

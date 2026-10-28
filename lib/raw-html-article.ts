@@ -1,3 +1,4 @@
+import { labelAmazonSearchLinks } from './amazon-link-labels'
 import fs from 'node:fs'
 import path from 'node:path'
 
@@ -94,7 +95,7 @@ export function loadRawHtmlArticle(relativeSourcePath: string, pageUrl: string):
     }, { url: pageUrl, category, section: category }),
     rawCss,
     rawHtml:
-      rawHtml +
+      labelAmazonSearchLinks(rawHtml) +
       buildBreadcrumbScript(pageUrl, title.replace(/\s*[|—-]\s*BestPickZone\s*$/i, '')) +
       buildFaqScript(rawHtml),
   }

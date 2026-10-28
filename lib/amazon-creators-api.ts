@@ -111,6 +111,16 @@ async function getAccessToken(config: CreatorsApiConfig): Promise<string> {
   try { return await request } finally { if (pendingToken?.request === request) pendingToken = null }
 }
 
+/** Only documented enum values may enter logs; never echo messages or raw bodies. */
+export function safeCatalogErrorReason(payload: unknown): string {
+  const allowed = new Set(['AssociateNotEligible', 'AuthorizationFailed', 'InvalidAssociate', 'InvalidPartnerTag',
+    'TokenExpired', 'InvalidToken', 'InvalidIssuer', 'MissingClaim', 'MissingKeyId', 'UnsupportedClient',
+    'InvalidClient', 'MissingCredential', 'UnknownOperation', 'CannotParse', 'FieldValidationFailed', 'Other'])
+  if (!payload || typeof payload !== 'object') return 'Unclassified'
+  const reason = (payload as { reason?: unknown }).reason
+  return typeof reason === 'string' && allowed.has(reason) ? reason : 'Unclassified'
+}
+
 async function requestCatalog(config: CreatorsApiConfig, operation: 'searchItems' | 'getItems', parameters: Record<string, unknown>): Promise<CatalogResponse | null> {
   try {
     const accessToken = await getAccessToken(config)
@@ -124,12 +134,15 @@ async function requestCatalog(config: CreatorsApiConfig, operation: 'searchItems
       signal: AbortSignal.timeout(8000),
     })
     if (!response.ok) {
+      const errorPayload: unknown = await response.json().catch(() => null)
+      const errorReason = safeCatalogErrorReason(errorPayload)
       if (response.status === 429) requestGate.pause(amazonRetryDelay(response.headers.get('Retry-After')))
       else if (response.status === 401 || response.status === 403) {
-        tokenCache = null
-        requestGate.pause(60_000)
+        // A catalog access denial does not invalidate an otherwise valid OAuth token.
+        if (response.status === 401) tokenCache = null
+        requestGate.pause(errorReason === 'AssociateNotEligible' ? 15 * 60_000 : 60_000)
       } else if (response.status >= 500) requestGate.pause(30_000)
-      console.warn(`Amazon Creators API ${operation} failed (HTTP ${response.status}); using unverified search links.`)
+      console.warn(`Amazon Creators API ${operation} failed (HTTP ${response.status}, reason=${errorReason}); using search fallback.`)
       return null
     }
     return await response.json() as CatalogResponse

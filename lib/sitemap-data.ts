@@ -128,7 +128,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen/best-tech-for-college-students`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-back-to-school-gadgets`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-dorm-organization-products`, lastModified: '2026-07-07', changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/home-kitchen/oxo-vs-chefn-corn-stripper`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/oxo-vs-chefn-corn-stripper`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/oxo-vs-fullstar-avocado-slicer`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-solar-powered-attic-fans`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-kids-fort-for-girls-2026`, lastModified: contentRefreshDate, changeFrequency: 'monthly', priority: 0.8 },

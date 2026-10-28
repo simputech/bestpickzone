@@ -16,6 +16,7 @@ function load(relative, mocks) {
   const module = { exports: {} };
   const localRequire = name => {
     if (name === 'react/jsx-runtime') return require(name);
+    if (name === '@/lib/amazon-link-labels') return load('lib/amazon-link-labels.ts', {});
     if (Object.hasOwn(mocks, name)) return mocks[name];
     throw Error(`Unexpected dependency: ${name}`);
   };

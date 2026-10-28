@@ -1,3 +1,4 @@
+import { labelAmazonSearchLinks } from '@/lib/amazon-link-labels'
 import Link from 'next/link'
 import BreadcrumbJsonLd from '@/components/seo/BreadcrumbJsonLd'
 import FaqJsonLd, { extractFaqPairs } from '@/components/seo/FaqJsonLd'
@@ -39,7 +40,7 @@ export default function HtmlComparisonArticlePage({ article }: { article: HtmlCo
   const opening = firstSection > 0 ? remainingBody.slice(0, firstSection) : ''
   const body = opening ? remainingBody.slice(firstSection) : remainingBody
   // Keyboard and mobile access must not depend on an editorial date being advanced.
-  const responsiveTables = (html: string) => html
+  const responsiveTables = (html: string) => labelAmazonSearchLinks(html)
     .replace(/<table>/g, '<p class="text-sm text-gray-600 sm:hidden">Swipe or scroll the table to see all columns.</p><div role="region" aria-label="Comparison table: scroll horizontally to see all columns" tabindex="0" class="mb-8 max-w-full overflow-x-auto rounded-2xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-700"><table class="min-w-[36rem]">')
     .replace(/<\/table>/g, '</table></div>')
   return (

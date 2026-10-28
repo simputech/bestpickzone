@@ -334,3 +334,16 @@ test('search and pinned-ASIN paths reject play editions and preserve an ordinary
     assert.equal((await mixed.api.getAmazonBooksByTitle([request]))['Example Book'].asin,'B000TEST09');
   }
 });
+
+
+test('catalog denial logs only allowed reason codes and preserves a valid token', async () => {
+  const h = harness(() => response({ reason: 'AssociateNotEligible', message: 'PRIVATE-RESPONSE', token: 'PRIVATE-TOKEN' }, 403));
+  assert.equal(await h.api.searchAmazonProduct('Example Aero 2', { brand: 'Example' }), null);
+  assert.match(h.warnings.join(' '), /reason=AssociateNotEligible/);
+  assert.doesNotMatch(h.warnings.join(' '), /PRIVATE-RESPONSE|PRIVATE-TOKEN|test-secret|test-token/);
+  h.advance(16 * 60_000);
+  await h.api.searchAmazonProduct('Example Aero 2', { brand: 'Example' });
+  assert.equal(h.calls.filter(c => c.url.includes('/auth/o2/token')).length, 1);
+  assert.equal(h.api.safeCatalogErrorReason({reason:'secret-value'}), 'Unclassified');
+  assert.equal(h.api.safeCatalogErrorReason(null), 'Unclassified');
+});

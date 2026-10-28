@@ -15,7 +15,7 @@ export default async function ArticleAmazonProducts({ path }: { path: string }) 
   const bookProducts = { ...(exactBooks.length ? await getAmazonBooks(exactBooks, { partnerTag }) : {}), ...(searchedBooks.length ? await getAmazonBooksByTitle(searchedBooks, { partnerTag }) : {}) }
   return <section className="my-8 rounded-[2rem] border border-amber-200 bg-white p-5 md:p-7" aria-label="Amazon options for this guide" data-creator-rollout-batch={config.batch} data-creator-article-path={path} data-organic-pilot={config.partnerTag === 'grandparentsgift-20' ? config.partnerTag : undefined}>
     <h2 className="text-2xl font-bold text-gray-900">Check the options discussed in this guide</h2>
-    <p className="mb-5 mt-3 leading-relaxed text-gray-700">These affiliate links are for the named products, not a separate ranking. Match the variant and compatibility advice above before buying. When Amazon cannot verify a matching listing, we show a clearly labeled search link instead.</p>
+    <p className="mb-5 mt-3 leading-relaxed text-gray-700">These affiliate links are for the named products, not a separate ranking. Match the variant and compatibility advice above before buying. When live Amazon data is unavailable or does not pass our product checks, we show a clearly labeled search link instead. A search result is not a verified match.</p>
     <div className="grid gap-4">
       {picks.map((pick, index) => <AmazonProductCard key={pick.label} item={products[index]} label={pick.label} query={pick.query} partnerTag={partnerTag} placement={`${path.split('/').pop()}-product-${index + 1}`} note={pick.note} />)}
       {(config.books || []).map((book, index) => bookProducts[book.title]

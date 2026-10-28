@@ -57,7 +57,7 @@ test('product cards preserve returned links and dimensions, while fallbacks are 
   assert.doesNotMatch(html, /\$\s*\d/);
   const fallback = renderToStaticMarkup(React.createElement(Card, { ...props, item: null }));
   assert.match(fallback, /data-amazon-source="fallback"/);
-  assert.match(fallback, /A matching listing could not be verified/);
+  assert.match(fallback, /Live product data is unavailable/);
   assert.match(fallback, /\/s\?k=Exact%20model&amp;tag=grandparentsgift-20/);
   assert.doesNotMatch(fallback, /<img /);
 });

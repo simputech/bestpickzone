@@ -13,7 +13,7 @@ export default function AmazonProductCard({ item, label, query, partnerTag, plac
         {note && <p className="mt-2 text-sm leading-relaxed text-gray-700">{note}</p>}
         <p className="mt-3 text-sm text-gray-700">Check Amazon for the current price, exact variant, seller and availability.</p>
         <a {...linkProps} className="mt-4 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-400 px-5 py-3 text-center font-bold text-gray-900 hover:bg-amber-300">{item ? 'View this item on Amazon' : 'Search Amazon for this item'}</a>
-        <p className="mt-2 text-xs text-gray-600">{item ? 'Product details and image supplied by Amazon.' : 'A matching listing could not be verified. This link opens search results, not a confirmed product.'}</p>
+        <p className="mt-2 text-xs text-gray-600">{item ? 'Product details and image supplied by Amazon.' : 'Live product data is unavailable or did not pass our match checks. This card opens Amazon search results; any dated listing check in the article is separate.'}</p>
       </div>
     </div>
   </div>

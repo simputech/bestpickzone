@@ -1,3 +1,4 @@
+import { labelAmazonSearchLinks } from './amazon-link-labels'
 import fs from 'node:fs'
 import path from 'node:path'
 import type { Metadata } from 'next'
@@ -8,7 +9,7 @@ export { buyingGuides, guideDate } from './buying-guide-data'
 export function getBuyingGuide(slug: string) {
   const guide = buyingGuides.find(g => g.slug === slug)
   if (!guide) throw new Error(`Unknown buying guide: ${slug}`)
-  return { ...guide, bodyHtml: fs.readFileSync(path.join(process.cwd(), 'content/buying-guides', `${slug}.html`), 'utf8') }
+  return { ...guide, bodyHtml: labelAmazonSearchLinks(fs.readFileSync(path.join(process.cwd(), 'content/buying-guides', `${slug}.html`), 'utf8')) }
 }
 export function buyingGuideMetadata(slug: string): Metadata {
   const g = getBuyingGuide(slug)
