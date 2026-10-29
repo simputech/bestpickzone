@@ -530,5 +530,85 @@
   "/books/best-cozy-mystery-books": {
     "title": "Cozy Mystery Books: Five Community-Centered Starting Points",
     "description": "Compare amateur mysteries, a Miss Marple classic and police-led alternatives, with clear tone distinctions and first-volume checks."
+  },
+  "/books/best-crime-fiction": {
+    "title": "Crime Fiction: Four Novels and a True-Crime Alternative",
+    "description": "Choose crime fiction by detective work, pursuit, community or forensics, with a separate nonfiction option and practical edition checks."
+  },
+  "/books/best-crime-thrillers-for-women": {
+    "title": "Crime Thrillers for Women: Six Different Reading Moods",
+    "description": "Compare six crime thrillers by perspective, setting and sensitive themes, with no gender-based assumptions or promises about twists."
+  },
+  "/books/best-dan-brown-books": {
+    "title": "Dan Brown Books: Where to Start and Langdon Reading Order",
+    "description": "Compare all six published Robert Langdon novels, from Angels & Demons to The Secret of Secrets, by setting, premise and reading order."
+  },
+  "/books/best-dark-romance-novels": {
+    "title": "Dark Romance Novels: Five Adult Choices and Content Notes",
+    "description": "Compare five adult romances by premise, relationship structure, series commitment and official content notes, without an intensity ladder."
+  },
+  "/books/best-debut-novels": {
+    "title": "Debut Novels: Five First Novels to Compare",
+    "description": "Compare verified first novels by Donna Tartt, Khaled Hosseini, Sally Rooney, Hanya Yanagihara and Delia Owens, with clear genre and content distinctions."
+  },
+  "/books/best-dystopian-novels": {
+    "title": "Dystopian Novels: Four Societies and a Post-Apocalyptic Choice",
+    "description": "Compare Orwell, Huxley, Atwood and Collins, plus Station Eleven, by social premise, narrative perspective and practical edition checks."
+  },
+  "/books/best-early-reader-books": {
+    "title": "Early Reader Books: Five Series to Sample Together",
+    "description": "Compare five illustrated reading choices by humor, story structure and format, with clear distinctions between early readers and phonics practice."
+  },
+  "/books/best-fantasy-books-for-teens": {
+    "title": "Fantasy Books for Teens: Three Starting Points to Compare",
+    "description": "Compare Eragon, A Wizard of Earthsea and Sabriel by story and format, with separate context for adult fantasy titles often recommended alongside them."
+  },
+  "/books/best-fantasy-series-for-adults": {
+    "title": "Fantasy Series for Adults: Five Starting Points and Commitments",
+    "description": "Compare five adult fantasy series by premise, first book and published-story commitment, including the distinction between a finished arc and a finished series."
+  },
+  "/books/best-feel-good-books": {
+    "title": "Feel-Good Books: Five Hopeful Stories with Clear Content Notes",
+    "description": "Compare five novels associated with hope and connection while checking grief, suicide, trauma and fantasy themes before choosing."
+  },
+  "/books/best-george-orwell-books": {
+    "title": "George Orwell Books: Fiction, Memoir and Essays to Start With",
+    "description": "Choose an Orwell starting point by form and subject, with clear distinctions between political fiction, personal accounts and essays."
+  },
+  "/books/best-gothic-novels": {
+    "title": "Gothic Novels: Five Ways into Secrets, Houses and Unease",
+    "description": "Compare Rebecca, Jane Eyre, Wuthering Heights, Dracula and Mexican Gothic by setting, narrative form and the kind of unease you want."
+  },
+  "/books/best-haruki-murakami-books": {
+    "title": "Haruki Murakami Books: Choose a First Novel by Mood and Form",
+    "description": "Compare five Murakami novels by realism, surreal elements, narrative scale and difficult themes, with edition and translation checks."
+  },
+  "/books/best-historical-fiction": {
+    "title": "Historical Fiction: Five Novels for Different Reading Interests",
+    "description": "Choose historical fiction by period, narrative focus and genre, comparing Wolf Hall, Pachinko, The Pillars of the Earth, The Alice Network and Outlander."
+  },
+  "/books/best-history-books": {
+    "title": "History Books: Choose a Starting Point by Scope and Evidence",
+    "description": "Compare broad human history, the First World War, the Great Migration, Lincoln’s cabinet and the Wright brothers, with practical source and edition checks."
+  },
+  "/books/best-horror-novels": {
+    "title": "Horror Novels: Five Different Kinds of Fear to Choose From",
+    "description": "Compare haunted houses, isolation, experimental storytelling and unseen threats, with format checks and practical content considerations."
+  },
+  "/books/best-inspirational-books": {
+    "title": "Inspirational Books: Compare Memoir, Fiction and Practical Advice",
+    "description": "Choose among five different kinds of inspirational reading without confusing personal testimony, fictional allegory or motivational advice with guaranteed results."
+  },
+  "/books/best-james-clear-books": {
+    "title": "James Clear Books: Atomic Habits or the Official Workbook?",
+    "description": "Compare Atomic Habits with its official workbook, identify authentic editions and choose between explanation, guided prompts and free articles."
+  },
+  "/books/best-james-patterson-books": {
+    "title": "James Patterson Books: Choose a Series or Standalone Starting Point",
+    "description": "Compare Alex Cross, Women’s Murder Club, Maximum Ride and a political thriller, with clear series order, coauthor and format checks."
+  },
+  "/books/best-jk-rowling-books": {
+    "title": "J.K. Rowling Books: Harry Potter, Standalones and Adult Fiction",
+    "description": "Choose a Rowling reading route by series order and audience, with clear distinctions between Harry Potter, The Ickabog, The Casual Vacancy and Robert Galbraith."
   }
 }

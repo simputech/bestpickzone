@@ -1,0 +1,2127 @@
+{
+  "base": "http://127.0.0.1:3118",
+  "pages": [
+    {
+      "path": "/books/best-crime-fiction",
+      "status": 200,
+      "mainWords": 1400,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Big+Sleep+Raymond+Chandler&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=No+Country+for+Old+Men+Cormac+McCarthy&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Big%20Sleep%20Raymond%20Chandler&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=No%20Country%20for%20Old%20Men%20Cormac%20McCarthy&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-crime-thrillers-for-women",
+      "status": 200,
+      "mainWords": 1420,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Gone+Girl+Gillian+Flynn&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Big+Little+Lies+Liane+Moriarty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Gone%20Girl%20Gillian%20Flynn&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Big%20Little%20Lies%20Liane%20Moriarty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-dan-brown-books",
+      "status": 200,
+      "mainWords": 1422,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Angels+and+Demons+Dan+Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Da+Vinci+Code+Dan+Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Angels%20and%20Demons%20Dan%20Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Da%20Vinci%20Code%20Dan%20Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-dark-romance-novels",
+      "status": 200,
+      "mainWords": 1412,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Twisted+Love+Ana+Huang&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A+Touch+of+Darkness+Scarlett+St+Clair&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Twisted%20Love%20Ana%20Huang&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Haunting%20Adeline%20H%20D%20Carlton&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-debut-novels",
+      "status": 200,
+      "mainWords": 1457,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Secret+History+Donna+Tartt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Conversations+with+Friends+Sally+Rooney&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Secret%20History%20Donna%20Tartt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Conversations%20with%20Friends%20Sally%20Rooney&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-dystopian-novels",
+      "status": 200,
+      "mainWords": 1404,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=1984+George+Orwell+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Hunger+Games+Suzanne+Collins+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Nineteen%20Eighty-Four%20George%20Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Handmaids%20Tale%20Margaret%20Atwood&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-early-reader-books",
+      "status": 200,
+      "mainWords": 1469,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=I+Will+Take+a+Nap+Mo+Willems&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Frog+and+Toad+Are+Friends+Arnold+Lobel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=I%20Will%20Take%20a%20Nap%20Mo%20Willems&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Frog%20and%20Toad%20Are%20Friends%20Arnold%20Lobel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-fantasy-books-for-teens",
+      "status": 200,
+      "mainWords": 1395,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Eragon+Christopher+Paolini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A+Wizard+of+Earthsea+Ursula+Le+Guin+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Eragon%20Christopher%20Paolini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A%20Wizard%20of%20Earthsea%20Ursula%20K%20Le%20Guin&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-fantasy-series-for-adults",
+      "status": 200,
+      "mainWords": 1466,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Mistborn+The+Final+Empire+Brandon+Sanderson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Lies+of+Locke+Lamora+Scott+Lynch&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Mistborn%20The%20Final%20Empire%20Brandon%20Sanderson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A%20Game%20of%20Thrones%20George%20R%20R%20Martin&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-feel-good-books",
+      "status": 200,
+      "mainWords": 1429,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Remarkably+Bright+Creatures+Shelby+Van+Pelt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+House+in+the+Cerulean+Sea+TJ+Klune&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Remarkably%20Bright%20Creatures%20Shelby%20Van%20Pelt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20House%20in%20the%20Cerulean%20Sea%20TJ%20Klune&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-george-orwell-books",
+      "status": 200,
+      "mainWords": 1388,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Animal+Farm+George+Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Homage+to+Catalonia+George+Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Animal%20Farm%20George%20Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Homage%20to%20Catalonia%20George%20Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-gothic-novels",
+      "status": 200,
+      "mainWords": 1405,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Rebecca+Daphne+du+Maurier&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Mexican+Gothic+Silvia+Moreno+Garcia&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Rebecca%20Daphne%20du%20Maurier&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Mexican%20Gothic%20Silvia%20Moreno%20Garcia&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-haruki-murakami-books",
+      "status": 200,
+      "mainWords": 1426,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Norwegian+Wood+Haruki+Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Kafka+on+the+Shore+Haruki+Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Norwegian%20Wood%20Haruki%20Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Kafka%20on%20the%20Shore%20Haruki%20Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-historical-fiction",
+      "status": 200,
+      "mainWords": 1421,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Wolf+Hall+Hilary+Mantel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Pachinko+Min+Jin+Lee&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Wolf%20Hall%20Hilary%20Mantel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Pachinko%20Min%20Jin%20Lee&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-history-books",
+      "status": 200,
+      "mainWords": 1426,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Warmth+of+Other+Suns+Isabel+Wilkerson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Guns+of+August+Barbara+Tuchman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Warmth%20of%20Other%20Suns%20Isabel%20Wilkerson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Guns%20of%20August%20Barbara%20W%20Tuchman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-horror-novels",
+      "status": 200,
+      "mainWords": 1455,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Haunting+of+Hill+House+Shirley+Jackson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Bird+Box+Josh+Malerman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Bird%20Box%20Josh%20Malerman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-inspirational-books",
+      "status": 200,
+      "mainWords": 1446,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Mans+Search+for+Meaning+Viktor+Frankl&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Maybe+You+Should+Talk+to+Someone+Lori+Gottlieb&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Mans%20Search%20for%20Meaning%20Viktor%20E%20Frankl&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Maybe%20You%20Should%20Talk%20to%20Someone%20Lori%20Gottlieb&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-james-clear-books",
+      "status": 200,
+      "mainWords": 1417,
+      "links": 67,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Atomic+Habits+Workbook+James+Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Atomic%20Habits%20Workbook%20James%20Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-james-patterson-books",
+      "status": 200,
+      "mainWords": 1363,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Along+Came+a+Spider+James+Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=1st+to+Die+James+Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Along%20Came%20a%20Spider%20James%20Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=1st%20to%20Die%20James%20Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-jk-rowling-books",
+      "status": 200,
+      "mainWords": 1371,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Harry+Potter+Sorcerers+Stone+JK+Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Ickabog+JK+Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerers%20Stone%20J%20K%20Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Ickabog%20J%20K%20Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "url": "http://127.0.0.1:3118/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deal-agent",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deal-agent",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/authors",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/authors",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/genre-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/genre-fiction",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/self-help",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/self-help",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/kids-and-ya",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/kids-and-ya",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/reader-picks",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/reader-picks",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/coffee",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/coffee",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/beauty",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/beauty",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/wfh",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/wfh",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/home-kitchen",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/home-kitchen",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/mahjong",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/mahjong",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deals",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deals",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deal-alerts",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deal-alerts",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/amazon-offers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/amazon-offers",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/tech",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/tech",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/finance-software",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/finance-software",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/health-fitness",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/health-fitness",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/disclosure",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/disclosure",
+      "error": null
+    },
+    {
+      "url": "https://penguinrandomhouselibrary.com/book/?isbn=9780593311899",
+      "status": 200,
+      "finalUrl": "https://penguinrandomhouselibrary.com/book/?isbn=9780593311899",
+      "error": null
+    },
+    {
+      "url": "https://www.loa.org/books/25-stories-and-early-novels/",
+      "status": 200,
+      "finalUrl": "https://www.loa.org/books/25-stories-and-early-novels/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/110480/no-country-for-old-men-by-cormac-mccarthy/9780375706677/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/110480/no-country-for-old-men-by-cormac-mccarthy/9780375706677/",
+      "error": null
+    },
+    {
+      "url": "https://dennislehane.com/books/mystic/",
+      "status": 200,
+      "finalUrl": "https://dennislehane.com/books/mystic/",
+      "error": null
+    },
+    {
+      "url": "https://www.patriciacornwell.com/the-scarpetta-series/postmortem",
+      "status": 200,
+      "finalUrl": "https://www.patriciacornwell.com/the-scarpetta-series/postmortem",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/23728/in-cold-blood-by-truman-capote/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/23728/in-cold-blood-by-truman-capote/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-cozy-mystery-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-cozy-mystery-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Big+Sleep+Raymond+Chandler&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Big+Sleep+Raymond+Chandler&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=No+Country+for+Old+Men+Cormac+McCarthy&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=No+Country+for+Old+Men+Cormac+McCarthy&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Big%20Sleep%20Raymond%20Chandler&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Big%20Sleep%20Raymond%20Chandler&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=No%20Country%20for%20Old%20Men%20Cormac%20McCarthy&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=No%20Country%20for%20Old%20Men%20Cormac%20McCarthy&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-stephen-king-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-stephen-king-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-colleen-hoover-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-colleen-hoover-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-malcolm-gladwell-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-malcolm-gladwell-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-neil-gaiman-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-neil-gaiman-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-haruki-murakami-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-haruki-murakami-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-psychological-thrillers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-psychological-thrillers",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-fantasy-series-for-adults",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-fantasy-series-for-adults",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-horror-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-horror-novels",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-romantasy-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-romantasy-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-historical-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-historical-fiction",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-to-read-on-the-beach",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-to-read-on-the-beach",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-book-club-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-book-club-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-audiobooks-on-audible",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-audiobooks-on-audible",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-feel-good-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-feel-good-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-of-all-time",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-of-all-time",
+      "error": null
+    },
+    {
+      "url": "https://winblackfriday.com/deal-checker",
+      "status": 200,
+      "finalUrl": "https://winblackfriday.com/deal-checker",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/privacy",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/privacy",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/shop/althcu",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/shop/althcu",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/196906/gone-girl-special-edition-by-gillian-flynn/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/196906/gone-girl-special-edition-by-gillian-flynn/",
+      "error": null
+    },
+    {
+      "url": "https://lianemoriarty.com.au/Book/big-little-lies-us/",
+      "status": 200,
+      "finalUrl": "https://lianemoriarty.com.au/Book/big-little-lies-us/",
+      "error": null
+    },
+    {
+      "url": "https://lianemoriarty.com.au/Book/",
+      "status": 200,
+      "finalUrl": "https://lianemoriarty.com.au/Book/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250301697/thesilentpatient/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250301697/thesilentpatient/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/317557/the-girl-on-the-train-by-paula-hawkins/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/317557/the-girl-on-the-train-by-paula-hawkins/",
+      "error": null
+    },
+    {
+      "url": "https://dhjhkxawhe8q4.cloudfront.net/harperbookclub-wp/wp-content/uploads/2019/08/20154525/HarperLibraryBookClubCatalog.pdf",
+      "status": 200,
+      "finalUrl": "https://dhjhkxawhe8q4.cloudfront.net/harperbookclub-wp/wp-content/uploads/2019/08/20154525/HarperLibraryBookClubCatalog.pdf",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/300448/in-the-woods-by-tana-french/paperback/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/300448/in-the-woods-by-tana-french/paperback/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-crime-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-crime-fiction",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Gone+Girl+Gillian+Flynn&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Gone+Girl+Gillian+Flynn&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Big+Little+Lies+Liane+Moriarty&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Big+Little+Lies+Liane+Moriarty&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Gone%20Girl%20Gillian%20Flynn&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Gone%20Girl%20Gillian%20Flynn&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Big%20Little%20Lies%20Liane%20Moriarty&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Big%20Little%20Lies%20Liane%20Moriarty&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/angels-and-demons/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/angels-and-demons/",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/the-da-vinci-code/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/the-da-vinci-code/",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/the-lost-symbol/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/the-lost-symbol/",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/inferno/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/inferno/",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/origin/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/origin/",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/the-secret-of-secrets/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/the-secret-of-secrets/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/reader-picks/best-books-like-da-vinci-code",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/reader-picks/best-books-like-da-vinci-code",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Angels+and+Demons+Dan+Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Angels+and+Demons+Dan+Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Da+Vinci+Code+Dan+Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Da+Vinci+Code+Dan+Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Angels%20and%20Demons%20Dan%20Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Angels%20and%20Demons%20Dan%20Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Da%20Vinci%20Code%20Dan%20Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Da%20Vinci%20Code%20Dan%20Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://anahuang.com/books/twisted-love-special-edition/",
+      "status": 200,
+      "finalUrl": "https://anahuang.com/books/twisted-love-special-edition/",
+      "error": null
+    },
+    {
+      "url": "https://anahuang.com/content-warnings/",
+      "status": 200,
+      "finalUrl": "https://anahuang.com/content-warnings/",
+      "error": null
+    },
+    {
+      "url": "https://hdcarlton.com/product/haunting-adeline-hardback-signed/",
+      "status": 200,
+      "finalUrl": "https://hdcarlton.com/product/haunting-adeline-hardback-signed/",
+      "error": null
+    },
+    {
+      "url": "https://hdcarlton.com/cat-mouse-series/",
+      "status": 200,
+      "finalUrl": "https://hdcarlton.com/cat-mouse-series/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/G8F/devils-night/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/G8F/devils-night/",
+      "error": null
+    },
+    {
+      "url": "https://www.sourcebooks.com/a-touch-of-darkness.html",
+      "status": 200,
+      "finalUrl": "https://www.sourcebooks.com/a-touch-of-darkness.html",
+      "error": null
+    },
+    {
+      "url": "https://scarlettstclair.com/wp-content/uploads/2024/01/SSC-Reading-Guide.pdf",
+      "status": 404,
+      "finalUrl": "https://www.scarlettstclair.com/wp-content/uploads/2024/01/SSC-Reading-Guide.pdf",
+      "error": null
+    },
+    {
+      "url": "https://podiumentertainment.com/titles/2013/den-of-vipers",
+      "status": 200,
+      "finalUrl": "https://podiumentertainment.com/titles/2013/den-of-vipers",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Twisted+Love+Ana+Huang&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Twisted+Love+Ana+Huang&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Touch+of+Darkness+Scarlett+St+Clair&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A+Touch+of+Darkness+Scarlett+St+Clair&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Twisted%20Love%20Ana%20Huang&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Twisted%20Love%20Ana%20Huang&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Haunting%20Adeline%20H%20D%20Carlton&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Haunting%20Adeline%20H%20D%20Carlton&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/176619/the-secret-history-by-donna-tartt/9780307765697/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/176619/the-secret-history-by-donna-tartt/9780307765697/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/83013/the-kite-runner-by-khaled-hosseini/readers-guide/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/83013/the-kite-runner-by-khaled-hosseini/readers-guide/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/550263/conversations-with-friends-by-sally-rooney/9780451499073/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/550263/conversations-with-friends-by-sally-rooney/9780451499073/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/221628/the-people-in-the-trees-by-hanya-yanagihara/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/221628/the-people-in-the-trees-by-hanya-yanagihara/",
+      "error": null
+    },
+    {
+      "url": "https://www.deliaowens.com/",
+      "status": 200,
+      "finalUrl": "https://www.deliaowens.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Secret+History+Donna+Tartt&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Secret+History+Donna+Tartt&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Conversations+with+Friends+Sally+Rooney&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Conversations+with+Friends+Sally+Rooney&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Secret%20History%20Donna%20Tartt&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Secret%20History%20Donna%20Tartt&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Conversations%20with%20Friends%20Sally%20Rooney&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Conversations%20with%20Friends%20Sally%20Rooney&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/",
+      "status": 200,
+      "finalUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/",
+      "error": null
+    },
+    {
+      "url": "https://shop.penguin.co.uk/products/brave-new-world",
+      "status": 200,
+      "finalUrl": "https://shop.penguin.co.uk/products/brave-new-world",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/557793/the-handmaids-tale-by-margaret-atwood/9780385490818/readers-guide/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/557793/the-handmaids-tale-by-margaret-atwood/9780385490818/readers-guide/",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/newsroom/all-news/press-release/the-hunger-games-by-suzanne-collins.html",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/newsroom/all-news/press-release/the-hunger-games-by-suzanne-collins.html",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/newsroom/online-press-kits/hunger-games-series.html",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/newsroom/online-press-kits/hunger-games-series.html",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/239452/station-eleven-by-emily-st-john-mandel/9780804172448/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/239452/station-eleven-by-emily-st-john-mandel/9780804172448/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-classic-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-classic-novels",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=1984+George+Orwell+novel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=1984+George+Orwell+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Hunger+Games+Suzanne+Collins+novel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Hunger+Games+Suzanne+Collins+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Nineteen%20Eighty-Four%20George%20Orwell&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Nineteen%20Eighty-Four%20George%20Orwell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Handmaids%20Tale%20Margaret%20Atwood&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Handmaids%20Tale%20Margaret%20Atwood&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://books.disney.com/book/i-will-take-a-nap/",
+      "status": 200,
+      "finalUrl": "https://books.disney.com/book/i-will-take-a-nap/",
+      "error": null
+    },
+    {
+      "url": "https://harpercollinschildrensbooks.co.uk/products/frog-and-toad-are-friends-frog-and-toad-arnold-lobel-9780007464388/",
+      "status": 200,
+      "finalUrl": "https://harpercollinschildrensbooks.co.uk/products/frog-and-toad-are-friends-frog-and-toad-arnold-lobel-9780007464388/",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/content/dam/teachers/lesson-plans/migrated-featured-files/hi-fly-guy-storia-tg.pdf",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/content/dam/teachers/lesson-plans/migrated-featured-files/hi-fly-guy-storia-tg.pdf",
+      "error": null
+    },
+    {
+      "url": "https://penguinrandomhouseelementaryeducation.com/book/?isbn=9780440461265",
+      "status": 200,
+      "finalUrl": "https://penguinrandomhouseelementaryeducation.com/book/?isbn=9780440461265",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/series/Henry-Mudge",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/series/Henry-Mudge",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Henry-and-Mudge-and-the-Careful-Cousin/Cynthia-Rylant/Henry-Mudge/9780689810077",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Henry-and-Mudge-and-the-Careful-Cousin/Cynthia-Rylant/Henry-Mudge/9780689810077",
+      "error": null
+    },
+    {
+      "url": "https://www.readingrockets.org/classroom/choosing-and-using-classroom-texts/using-decodable-books",
+      "status": 403,
+      "finalUrl": "https://www.readingrockets.org/classroom/choosing-and-using-classroom-texts/using-decodable-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-classic-childrens-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-classic-childrens-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=I+Will+Take+a+Nap+Mo+Willems&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=I+Will+Take+a+Nap+Mo+Willems&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Frog+and+Toad+Are+Friends+Arnold+Lobel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Frog+and+Toad+Are+Friends+Arnold+Lobel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=I%20Will%20Take%20a%20Nap%20Mo%20Willems&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=I%20Will%20Take%20a%20Nap%20Mo%20Willems&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Frog%20and%20Toad%20Are%20Friends%20Arnold%20Lobel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Frog%20and%20Toad%20Are%20Friends%20Arnold%20Lobel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.paolini.net/works/eragon/",
+      "status": 200,
+      "finalUrl": "https://www.paolini.net/works/eragon/",
+      "error": null
+    },
+    {
+      "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea",
+      "status": 200,
+      "finalUrl": "https://www.ursulakleguin.com/a-wizard-of-earthsea",
+      "error": null
+    },
+    {
+      "url": "https://www.garthnix.com/books/the-old-kingdom/sabriel/",
+      "status": 200,
+      "finalUrl": "https://www.garthnix.com/books/the-old-kingdom/sabriel/",
+      "error": null
+    },
+    {
+      "url": "https://www.patrickrothfuss.com/content/books.html",
+      "status": 403,
+      "finalUrl": "https://www.patrickrothfuss.com/content/books.html",
+      "error": null
+    },
+    {
+      "url": "https://levgrossman.com/book/the-magicians/",
+      "status": 200,
+      "finalUrl": "https://levgrossman.com/book/the-magicians/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-if-you-loved-harry-potter",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-if-you-loved-harry-potter",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Eragon+Christopher+Paolini&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Eragon+Christopher+Paolini&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Wizard+of+Earthsea+Ursula+Le+Guin+novel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A+Wizard+of+Earthsea+Ursula+Le+Guin+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Eragon%20Christopher%20Paolini&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Eragon%20Christopher%20Paolini&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A%20Wizard%20of%20Earthsea%20Ursula%20K%20Le%20Guin&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A%20Wizard%20of%20Earthsea%20Ursula%20K%20Le%20Guin&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
+      "status": 200,
+      "finalUrl": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
+      "error": null
+    },
+    {
+      "url": "https://georgerrmartin.com/grrm_book/a-game-of-thrones-a-song-of-ice-and-fire-book-one/",
+      "status": 200,
+      "finalUrl": "https://georgerrmartin.com/grrm_book/a-game-of-thrones-a-song-of-ice-and-fire-book-one/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/SOO/a-song-of-ice-and-fire/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/SOO/a-song-of-ice-and-fire/",
+      "error": null
+    },
+    {
+      "url": "https://www.brandonsanderson.com/pages/the-stormlight-archive-series",
+      "status": 200,
+      "finalUrl": "https://www.brandonsanderson.com/pages/the-stormlight-archive-series",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/104782/the-lies-of-locke-lamora-by-scott-lynch/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/104782/the-lies-of-locke-lamora-by-scott-lynch/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/GBT/the-gentleman-bastard-sequence/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/GBT/the-gentleman-bastard-sequence/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-fantasy-books-for-teens",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-fantasy-books-for-teens",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Mistborn+The+Final+Empire+Brandon+Sanderson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Mistborn+The+Final+Empire+Brandon+Sanderson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Lies+of+Locke+Lamora+Scott+Lynch&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Lies+of+Locke+Lamora+Scott+Lynch&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Mistborn%20The%20Final%20Empire%20Brandon%20Sanderson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Mistborn%20The%20Final%20Empire%20Brandon%20Sanderson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A%20Game%20of%20Thrones%20George%20R%20R%20Martin&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A%20Game%20of%20Thrones%20George%20R%20R%20Martin&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://shelbyvanpelt.com/books/remarkably-bright-creatures/",
+      "status": 200,
+      "finalUrl": "https://shelbyvanpelt.com/books/remarkably-bright-creatures/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250217288/thehouseintheceruleansea/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250217288/thehouseintheceruleansea/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250881212/somewherebeyondthesea/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250881212/somewherebeyondthesea/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/A-Man-Called-Ove/Fredrik-Backman/9781476738017",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/A-Man-Called-Ove/Fredrik-Backman/9781476738017",
+      "error": null
+    },
+    {
+      "url": "https://www.kirkusreviews.com/audiobook-reviews/fredrik-backman/a-man-called-ove/",
+      "status": 200,
+      "finalUrl": "https://www.kirkusreviews.com/audiobook-reviews/fredrik-backman/a-man-called-ove/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/540586/eleanor-oliphant-is-completely-fine-reeses-book-club-by-gail-honeyman/9780735220690/readers-guide/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/540586/eleanor-oliphant-is-completely-fine-reeses-book-club-by-gail-honeyman/9780735220690/readers-guide/",
+      "error": null
+    },
+    {
+      "url": "https://www.matthaig.com/books/midnight-library/",
+      "status": 200,
+      "finalUrl": "https://www.matthaig.com/books/midnight-library/",
+      "error": null
+    },
+    {
+      "url": "https://www.matthaig.com/the-midnight-library-graphic-novel-is-out-october-8th-in-the-uk/",
+      "status": 200,
+      "finalUrl": "https://www.matthaig.com/the-midnight-library-graphic-novel-is-out-october-8th-in-the-uk/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Remarkably+Bright+Creatures+Shelby+Van+Pelt&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Remarkably+Bright+Creatures+Shelby+Van+Pelt&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+House+in+the+Cerulean+Sea+TJ+Klune&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+House+in+the+Cerulean+Sea+TJ+Klune&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Remarkably%20Bright%20Creatures%20Shelby%20Van%20Pelt&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Remarkably%20Bright%20Creatures%20Shelby%20Van%20Pelt&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20House%20in%20the%20Cerulean%20Sea%20TJ%20Klune&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20House%20in%20the%20Cerulean%20Sea%20TJ%20Klune&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/animal-farm/",
+      "status": 200,
+      "finalUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/animal-farm/",
+      "error": null
+    },
+    {
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/homage-to-catalonia/",
+      "status": 200,
+      "finalUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/homage-to-catalonia/",
+      "error": null
+    },
+    {
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/down-and-out-in-paris-and-london/",
+      "status": 200,
+      "finalUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/down-and-out-in-paris-and-london/",
+      "error": null
+    },
+    {
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+      "status": 200,
+      "finalUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+      "error": null
+    },
+    {
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+      "status": 200,
+      "finalUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-dystopian-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-dystopian-novels",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Animal+Farm+George+Orwell&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Animal+Farm+George+Orwell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Homage+to+Catalonia+George+Orwell&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Homage+to+Catalonia+George+Orwell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Animal%20Farm%20George%20Orwell&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Animal%20Farm%20George%20Orwell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Homage%20to%20Catalonia%20George%20Orwell&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Homage%20to%20Catalonia%20George%20Orwell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/titles/daphne-du-maurier/rebecca/9780316323703/",
+      "status": 200,
+      "finalUrl": "https://www.hachettebookgroup.com/titles/daphne-du-maurier/rebecca/9780316323703/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/286570/jane-eyre-by-charlotte-bronte/9780141441146/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/286570/jane-eyre-by-charlotte-bronte/9780141441146/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/837890/wuthering-heights-by-emily-bronte-illustrated-by-anna-bond/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/837890/wuthering-heights-by-emily-bronte-illustrated-by-anna-bond/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/299706/dracula-by-bram-stoker/9781101076156/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/299706/dracula-by-bram-stoker/9781101076156/",
+      "error": null
+    },
+    {
+      "url": "https://silviamoreno-garcia.com/writing/mexican-gothic/",
+      "status": 200,
+      "finalUrl": "https://silviamoreno-garcia.com/writing/mexican-gothic/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Rebecca+Daphne+du+Maurier&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Rebecca+Daphne+du+Maurier&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Mexican+Gothic+Silvia+Moreno+Garcia&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Mexican+Gothic+Silvia+Moreno+Garcia&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Rebecca%20Daphne%20du%20Maurier&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Rebecca%20Daphne%20du%20Maurier&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Mexican%20Gothic%20Silvia%20Moreno%20Garcia&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Mexican%20Gothic%20Silvia%20Moreno%20Garcia&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/118720/norwegian-wood-by-haruki-murakami/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/118720/norwegian-wood-by-haruki-murakami/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/118720/norwegian-wood-by-haruki-murakami/9780375704024/readers-guide/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/118720/norwegian-wood-by-haruki-murakami/9780375704024/readers-guide/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/118718/kafka-on-the-shore-by-haruki-murakami/9781400079278/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/118718/kafka-on-the-shore-by-haruki-murakami/9781400079278/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/118727/the-wind-up-bird-chronicle-by-haruki-murakami/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/118727/the-wind-up-bird-chronicle-by-haruki-murakami/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/118711/1q84-by-haruki-murakami/9780307476463/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/118711/1q84-by-haruki-murakami/9780307476463/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/235276/colorless-tsukuru-tazaki-and-his-years-of-pilgrimage-by-haruki-murakami/9780385352116/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/235276/colorless-tsukuru-tazaki-and-his-years-of-pilgrimage-by-haruki-murakami/9780385352116/",
+      "error": null
+    },
+    {
+      "url": "https://harukimurakami.com/books/",
+      "status": 200,
+      "finalUrl": "https://harukimurakami.com/books/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Norwegian+Wood+Haruki+Murakami&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Norwegian+Wood+Haruki+Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Kafka+on+the+Shore+Haruki+Murakami&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Kafka+on+the+Shore+Haruki+Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Norwegian%20Wood%20Haruki%20Murakami&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Norwegian%20Wood%20Haruki%20Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Kafka%20on%20the%20Shore%20Haruki%20Murakami&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Kafka%20on%20the%20Shore%20Haruki%20Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-history-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-history-books",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9780805080681/wolfhall/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9780805080681/wolfhall/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/series/wolfhalltrilogy",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/series/wolfhalltrilogy",
+      "error": null
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/titles/min-jin-lee/pachinko/9781455563913/",
+      "status": 200,
+      "finalUrl": "https://www.hachettebookgroup.com/titles/min-jin-lee/pachinko/9781455563913/",
+      "error": null
+    },
+    {
+      "url": "https://ken-follett.com/books/the-pillars-of-the-earth/",
+      "status": 200,
+      "finalUrl": "https://ken-follett.com/books/the-pillars-of-the-earth/",
+      "error": null
+    },
+    {
+      "url": "https://www.katequinnauthor.com/",
+      "status": 200,
+      "finalUrl": "https://www.katequinnauthor.com/",
+      "error": null
+    },
+    {
+      "url": "https://dianagabaldon.com/books/outlander-series/outlander/",
+      "status": 200,
+      "finalUrl": "https://dianagabaldon.com/books/outlander-series/outlander/",
+      "error": null
+    },
+    {
+      "url": "https://dianagabaldon.com/resources/faq/faq-about-the-books/",
+      "status": 200,
+      "finalUrl": "https://dianagabaldon.com/resources/faq/faq-about-the-books/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wolf+Hall+Hilary+Mantel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Wolf+Hall+Hilary+Mantel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Pachinko+Min+Jin+Lee&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Pachinko+Min+Jin+Lee&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wolf%20Hall%20Hilary%20Mantel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Wolf%20Hall%20Hilary%20Mantel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Pachinko%20Min%20Jin%20Lee&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Pachinko%20Min%20Jin%20Lee&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.ynharari.com/book/sapiens/",
+      "status": 200,
+      "finalUrl": "https://www.ynharari.com/book/sapiens/",
+      "error": null
+    },
+    {
+      "url": "https://www.ynharari.com/book/graphicnovelsapiens/",
+      "status": 200,
+      "finalUrl": "https://www.ynharari.com/book/graphicnovelsapiens/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/180851/the-guns-of-august-by-barbara-w-tuchman/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/180851/the-guns-of-august-by-barbara-w-tuchman/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/readers-guide/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/readers-guide/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Team-of-Rivals/Doris-Kearns-Goodwin/9780743270755",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Team-of-Rivals/Doris-Kearns-Goodwin/9780743270755",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Wright-Brothers/David-McCullough/9781476728759",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Wright-Brothers/David-McCullough/9781476728759",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Warmth+of+Other+Suns+Isabel+Wilkerson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Warmth+of+Other+Suns+Isabel+Wilkerson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Guns+of+August+Barbara+Tuchman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Guns+of+August+Barbara+Tuchman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Warmth%20of%20Other%20Suns%20Isabel%20Wilkerson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Warmth%20of%20Other%20Suns%20Isabel%20Wilkerson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Guns%20of%20August%20Barbara%20W%20Tuchman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Guns%20of%20August%20Barbara%20W%20Tuchman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/321924/the-haunting-of-hill-house-by-shirley-jackson-introduction-by-laura-miller/9781101530641/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/321924/the-haunting-of-hill-house-by-shirley-jackson-introduction-by-laura-miller/9781101530641/",
+      "error": null
+    },
+    {
+      "url": "https://stephenking.com/works/novel/shining.html",
+      "status": 200,
+      "finalUrl": "https://stephenking.com/works/novel/shining.html",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/36526/house-of-leaves-by-mark-z-danielewski/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/36526/house-of-leaves-by-mark-z-danielewski/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-gothic-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-gothic-novels",
+      "error": null
+    },
+    {
+      "url": "https://joshmalerman.com/books/bird-box/",
+      "status": 200,
+      "finalUrl": "https://joshmalerman.com/books/bird-box/",
+      "error": null
+    },
+    {
+      "url": "https://joshmalerman.com/books/malorie/",
+      "status": 200,
+      "finalUrl": "https://joshmalerman.com/books/malorie/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Haunting+of+Hill+House+Shirley+Jackson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Haunting+of+Hill+House+Shirley+Jackson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Bird+Box+Josh+Malerman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Bird+Box+Josh+Malerman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Bird%20Box%20Josh%20Malerman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Bird%20Box%20Josh%20Malerman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.beacon.org/Mans-Search-for-Meaning-P2354.aspx",
+      "status": 200,
+      "finalUrl": "https://www.beacon.org/Mans-Search-for-Meaning-P2354.aspx",
+      "error": null
+    },
+    {
+      "url": "https://viktorfrankl.org/logotherapy.html",
+      "status": 200,
+      "finalUrl": "https://viktorfrankl.org/logotherapy.html",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/articles/untamed-excerpt/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/articles/untamed-excerpt/",
+      "error": null
+    },
+    {
+      "url": "https://paulocoelhoblog.com/2020/05/15/118745/",
+      "status": 200,
+      "finalUrl": "https://paulocoelhoblog.com/2020/05/15/118745/",
+      "error": null
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/titles/jen-sincero/you-are-a-badass%C2%AE/9780762448319/?lens=running-press",
+      "status": 200,
+      "finalUrl": "https://www.hachettebookgroup.com/titles/jen-sincero/you-are-a-badass%C2%AE/9780762448319/?lens=running-press",
+      "error": null
+    },
+    {
+      "url": "https://lorigottlieb.com/books/maybe-you-should-talk-to-someone/",
+      "status": 200,
+      "finalUrl": "https://lorigottlieb.com/books/maybe-you-should-talk-to-someone/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Mans+Search+for+Meaning+Viktor+Frankl&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Mans+Search+for+Meaning+Viktor+Frankl&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Maybe+You+Should+Talk+to+Someone+Lori+Gottlieb&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Maybe+You+Should+Talk+to+Someone+Lori+Gottlieb&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Mans%20Search%20for%20Meaning%20Viktor%20E%20Frankl&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Mans%20Search%20for%20Meaning%20Viktor%20E%20Frankl&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Maybe%20You%20Should%20Talk%20to%20Someone%20Lori%20Gottlieb&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Maybe%20You%20Should%20Talk%20to%20Someone%20Lori%20Gottlieb&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/808824/the-atomic-habits-workbook-by-james-clear/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/808824/the-atomic-habits-workbook-by-james-clear/",
+      "error": null
+    },
+    {
+      "url": "https://jamesclear.com/atomic-habits",
+      "status": 200,
+      "finalUrl": "https://jamesclear.com/atomic-habits",
+      "error": null
+    },
+    {
+      "url": "https://jamesclear.com/atomic-habits-workbook",
+      "status": 200,
+      "finalUrl": "https://jamesclear.com/atomic-habits-workbook",
+      "error": null
+    },
+    {
+      "url": "https://jamesclear.com/books",
+      "status": 200,
+      "finalUrl": "https://jamesclear.com/books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Atomic+Habits+Workbook+James+Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Atomic+Habits+Workbook+James+Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Atomic%20Habits%20Workbook%20James%20Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Atomic%20Habits%20Workbook%20James%20Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.jamespatterson.com/landing-page/james-patterson-checklist/",
+      "status": 200,
+      "finalUrl": "https://www.jamespatterson.com/landing-page/james-patterson-checklist/",
+      "error": null
+    },
+    {
+      "url": "https://www.jamespatterson.com/titles/james-patterson/along-came-a-spider/9780759520301/",
+      "status": 200,
+      "finalUrl": "https://www.jamespatterson.com/titles/james-patterson/along-came-a-spider/9780759520301/",
+      "error": null
+    },
+    {
+      "url": "https://www.jamespatterson.com/titles/james-patterson/kiss-the-girls/9780316072977/",
+      "status": 200,
+      "finalUrl": "https://www.jamespatterson.com/titles/james-patterson/kiss-the-girls/9780316072977/",
+      "error": null
+    },
+    {
+      "url": "https://www.jamespatterson.com/titles/james-patterson/1st-to-die/9780446696616/",
+      "status": 200,
+      "finalUrl": "https://www.jamespatterson.com/titles/james-patterson/1st-to-die/9780446696616/",
+      "error": null
+    },
+    {
+      "url": "https://www.jamespatterson.com/titles/james-patterson/the-president-is-missing/9781538713839/",
+      "status": 200,
+      "finalUrl": "https://www.jamespatterson.com/titles/james-patterson/the-president-is-missing/9781538713839/",
+      "error": null
+    },
+    {
+      "url": "https://www.jamespatterson.com/titles/james-patterson/maximum-ride/9780316615914/",
+      "status": 200,
+      "finalUrl": "https://www.jamespatterson.com/titles/james-patterson/maximum-ride/9780316615914/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Along+Came+a+Spider+James+Patterson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Along+Came+a+Spider+James+Patterson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=1st+to+Die+James+Patterson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=1st+to+Die+James+Patterson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Along%20Came%20a%20Spider%20James%20Patterson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Along%20Came%20a%20Spider%20James%20Patterson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=1st%20to%20Die%20James%20Patterson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=1st%20to%20Die%20James%20Patterson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://stories.jkrowling.com/faqs/",
+      "status": 0,
+      "finalUrl": "https://stories.jkrowling.com/faqs/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://stories.jkrowling.com/harrypotter/the-harry-potter-stories/",
+      "status": 0,
+      "finalUrl": "https://stories.jkrowling.com/harrypotter/the-harry-potter-stories/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.jkrowling.com/book/the-ickabog/",
+      "status": 0,
+      "finalUrl": "https://www.jkrowling.com/book/the-ickabog/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.jkrowling.com/book/the-casual-vacancy/",
+      "status": 0,
+      "finalUrl": "https://www.jkrowling.com/book/the-casual-vacancy/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.jkrowling.com/about/",
+      "status": 0,
+      "finalUrl": "https://www.jkrowling.com/about/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://robert-galbraith.com/strike-books/the-cuckoos-calling/",
+      "status": 0,
+      "finalUrl": "https://robert-galbraith.com/strike-books/the-cuckoos-calling/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Harry+Potter+Sorcerers+Stone+JK+Rowling&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Harry+Potter+Sorcerers+Stone+JK+Rowling&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Ickabog+JK+Rowling&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Ickabog+JK+Rowling&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerers%20Stone%20J%20K%20Rowling&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerers%20Stone%20J%20K%20Rowling&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Ickabog%20J%20K%20Rowling&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Ickabog%20J%20K%20Rowling&tag=althcu-20",
+      "error": null
+    }
+  ],
+  "note": "HTTP link checks are not proof of product identity or stock; blocked automated destinations require browser/source review.",
+  "finalChangedDestinations": [
+    {
+      "url": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerer%E2%80%99s%20Stone%20J.%20K.%20Rowling&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerer%E2%80%99s%20Stone%20J.%20K.%20Rowling&tag=althcu-20"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Man%E2%80%99s%20Search%20for%20Meaning%20Viktor%20E.%20Frankl&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Man%E2%80%99s%20Search%20for%20Meaning%20Viktor%20E.%20Frankl&tag=althcu-20"
+    },
+    {
+      "url": "https://www.scarlettstclair.com/faq",
+      "status": 200,
+      "finalUrl": "https://www.scarlettstclair.com/faq"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=I%20Will%20Take%20a%20Nap!%20Mo%20Willems&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=I%20Will%20Take%20a%20Nap!%20Mo%20Willems&tag=althcu-20"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Handmaid%E2%80%99s%20Tale%20Margaret%20Atwood&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Handmaid%E2%80%99s%20Tale%20Margaret%20Atwood&tag=althcu-20"
+    }
+  ]
+}
