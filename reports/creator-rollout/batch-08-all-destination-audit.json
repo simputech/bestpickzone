@@ -1,0 +1,1097 @@
+{
+  "pages": 20,
+  "targets": 377,
+  "failures": [
+    {
+      "url": "https://pulitzerontheroad.pulitzer.org/events/war-not-war-and-peace-all-light-we-cannot-see-anthony-doerr",
+      "status": 403,
+      "finalUrl": "https://pulitzerontheroad.pulitzer.org/events/war-not-war-and-peace-all-light-we-cannot-see-anthony-doerr",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Band-of-Brothers/Stephen-E-Ambrose/9780743216388",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Band-of-Brothers/Stephen-E-Ambrose/9780743216388",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9780374534752/night/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9780374534752/night/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Night+Elie+Wiesel+Marion+Wiesel+translation&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Night+Elie+Wiesel+Marion+Wiesel+translation&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand+book&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand+book&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Book+Thief+Markus+Zusak+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Book+Thief+Markus+Zusak+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=All%20the%20Light%20We%20Cannot%20See%20Anthony%20Doerr&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=All%20the%20Light%20We%20Cannot%20See%20Anthony%20Doerr&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Band%20of%20Brothers%20Stephen%20E.%20Ambrose&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Band%20of%20Brothers%20Stephen%20E.%20Ambrose&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250080400/thenightingale/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250080400/thenightingale/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Nightingale+Kristin+Hannah+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Nightingale+Kristin+Hannah+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Guernsey+Literary+Potato+Peel+Pie+Society+Shaffer+Barrows&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Guernsey+Literary+Potato+Peel+Pie+Society+Shaffer+Barrows&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Code+Name+Verity+Elizabeth+Wein+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Code+Name+Verity+Elizabeth+Wein+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Tattooist+of+Auschwitz+Heather+Morris+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Tattooist+of+Auschwitz+Heather+Morris+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Alice+Network+Kate+Quinn+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Alice+Network+Kate+Quinn+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Nightingale%20Kristin%20Hannah&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Nightingale%20Kristin%20Hannah&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Guernsey%20Literary%20and%20Potato%20Peel%20Pie%20Society%20Mary%20Ann%20Shaffer%20and%20Annie%20Barrows&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Guernsey%20Literary%20and%20Potato%20Peel%20Pie%20Society%20Mary%20Ann%20Shaffer%20and%20Annie%20Barrows&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.cheminsdememoire.gouv.fr/fr/la-bataille-de-dien-bien-phu",
+      "status": 0,
+      "finalUrl": "https://www.cheminsdememoire.gouv.fr/fr/la-bataille-de-dien-bien-phu",
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Devils+Guard+George+R+Elford+9780440120148&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Devils+Guard+George+R+Elford+9780440120148&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Devil's%20Guard%20George%20R.%20Elford&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Devil's%20Guard%20George%20R.%20Elford&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Kafka+on+the+Shore+Haruki+Murakami+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Kafka+on+the+Shore+Haruki+Murakami+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Wind+Up+Bird+Chronicle+Haruki+Murakami&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Wind+Up+Bird+Chronicle+Haruki+Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Wild+Sheep+Chase+Haruki+Murakami&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=A+Wild+Sheep+Chase+Haruki+Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=1Q84+Haruki+Murakami+complete+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=1Q84+Haruki+Murakami+complete+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Norwegian%20Wood%20Haruki%20Murakami&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Norwegian%20Wood%20Haruki%20Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Kafka%20on%20the%20Shore%20Haruki%20Murakami&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Kafka%20on%20the%20Shore%20Haruki%20Murakami&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Are+You+There+God+Its+Me+Margaret+Judy+Blume+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Are+You+There+God+Its+Me+Margaret+Judy+Blume+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9780374386139/awrinkleintime/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9780374386139/awrinkleintime/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Wrinkle+in+Time+Madeleine+LEngle+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=A+Wrinkle+in+Time+Madeleine+LEngle+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Anne+of+Green+Gables+LM+Montgomery+unabridged+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Anne+of+Green+Gables+LM+Montgomery+unabridged+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wonder+RJ+Palacio+original+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Wonder+RJ+Palacio+original+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Front+Desk+Kelly+Yang+original+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Front+Desk+Kelly+Yang+original+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.bloomsbury.com/uk/coraline-9781408841754/",
+      "status": 403,
+      "finalUrl": "https://www.bloomsbury.com/uk/coraline-9781408841754/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Coraline+Neil+Gaiman+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Coraline+Neil+Gaiman+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Are%20You%20There%20God%3F%20It%E2%80%99s%20Me%2C%20Margaret.%20Judy%20Blume&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Are%20You%20There%20God%3F%20It%E2%80%99s%20Me%2C%20Margaret.%20Judy%20Blume&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A%20Wrinkle%20in%20Time%20Madeleine%20L%E2%80%99Engle&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=A%20Wrinkle%20in%20Time%20Madeleine%20L%E2%80%99Engle&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Outsiders+SE+Hinton+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Outsiders+SE+Hinton+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Fahrenheit-451/Ray-Bradbury/9781451673319",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Fahrenheit-451/Ray-Bradbury/9781451673319",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fahrenheit+451+Ray+Bradbury+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Fahrenheit+451+Ray+Bradbury+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Hate+U+Give+Angie+Thomas+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Hate+U+Give+Angie+Thomas+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Poet+X+Elizabeth+Acevedo+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Poet+X+Elizabeth+Acevedo+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Educated+Tara+Westover+memoir&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Educated+Tara+Westover+memoir&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Never+Let+Me+Go+Kazuo+Ishiguro+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Never+Let+Me+Go+Kazuo+Ishiguro+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Outsiders%20S.%20E.%20Hinton&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Outsiders%20S.%20E.%20Hinton&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fahrenheit%20451%20Ray%20Bradbury&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Fahrenheit%20451%20Ray%20Bradbury&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Holes+Louis+Sachar+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Holes+Louis+Sachar+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Hatchet/Gary-Paulsen/9781416936473",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Hatchet/Gary-Paulsen/9781416936473",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Hatchet+Gary+Paulsen+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Hatchet+Gary+Paulsen+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Lightning+Thief+Rick+Riordan+original+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Lightning+Thief+Rick+Riordan+original+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Crossover+Kwame+Alexander+novel+in+verse&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Crossover+Kwame+Alexander+novel+in+verse&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Wild+Robot+Peter+Brown+original+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Wild+Robot+Peter+Brown+original+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Holes%20Louis%20Sachar&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Holes%20Louis%20Sachar&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Hatchet%20Gary%20Paulsen&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Hatchet%20Gary%20Paulsen&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Killing+Floor+Lee+Child+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Killing+Floor+Lee+Child+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.audible.com/pd/The-Martian-Audiobook/B082BHJMFF",
+      "status": 503,
+      "finalUrl": "https://www.audible.com/pd/The-Martian-Audiobook/B082BHJMFF",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Martian+Andy+Weir+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Martian+Andy+Weir+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/American-Assassin/Vince-Flynn/A-Mitch-Rapp-Novel/9781439100516",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/American-Assassin/Vince-Flynn/A-Mitch-Rapp-Novel/9781439100516",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=American+Assassin+Vince+Flynn+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=American+Assassin+Vince+Flynn+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=No+Country+for+Old+Men+Cormac+McCarthy+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=No+Country+for+Old+Men+Cormac+McCarthy+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Into+Thin+Air+Jon+Krakauer+book&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Into+Thin+Air+Jon+Krakauer+book&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand+biography&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand+biography&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Martian%20Andy%20Weir&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Martian%20Andy%20Weir&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Killing%20Floor%20Lee%20Child&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Killing%20Floor%20Lee%20Child&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Old-Man-and-the-Sea/Ernest-Hemingway/9781668242803",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Old-Man-and-the-Sea/Ernest-Hemingway/9781668242803",
+      "error": null
+    },
+    {
+      "url": "https://nobelprize.museum.link/s/collection/item/40753",
+      "status": 403,
+      "finalUrl": "https://nobelprize.museum.link/s/collection/item/40753",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Old+Man+and+the+Sea+Ernest+Hemingway+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Old+Man+and+the+Sea+Ernest+Hemingway+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.audible.com/pd/Born-a-Crime-Audiobook/B01M6W3BEW",
+      "status": 503,
+      "finalUrl": "https://www.audible.com/pd/Born-a-Crime-Audiobook/B01M6W3BEW",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Born+a+Crime+Trevor+Noah+memoir&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Born+a+Crime+Trevor+Noah+memoir&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Gone+Girl+Gillian+Flynn+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Gone+Girl+Gillian+Flynn+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Big+Little+Lies+Liane+Moriarty+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Big+Little+Lies+Liane+Moriarty+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Hitchhikers+Guide+to+the+Galaxy+Douglas+Adams+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Hitchhikers+Guide+to+the+Galaxy+Douglas+Adams+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Old%20Man%20and%20the%20Sea%20Ernest%20Hemingway&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Old%20Man%20and%20the%20Sea%20Ernest%20Hemingway&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Born%20a%20Crime%20Trevor%20Noah&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Born%20a%20Crime%20Trevor%20Noah&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Templar+Legacy+Steve+Berry+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Templar+Legacy+Steve+Berry+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Name+of+the+Rose+Umberto+Eco+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Name+of+the+Rose+Umberto+Eco+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Labyrinth+Kate+Mosse+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Labyrinth+Kate+Mosse+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Historian+Elizabeth+Kostova+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Historian+Elizabeth+Kostova+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Rule+of+Four+Ian+Caldwell+Dustin+Thomason&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Rule+of+Four+Ian+Caldwell+Dustin+Thomason&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Amber+Room+Steve+Berry+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Amber+Room+Steve+Berry+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://danbrown.com/books/novels/",
+      "status": 403,
+      "finalUrl": "https://danbrown.com/books/novels/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Templar%20Legacy%20Steve%20Berry&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Templar%20Legacy%20Steve%20Berry&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Name%20of%20the%20Rose%20Umberto%20Eco&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Name%20of%20the%20Rose%20Umberto%20Eco&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Secret+History+Donna+Tartt+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Secret+History+Donna+Tartt+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+September+House+Carissa+Orlando&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+September+House+Carissa+Orlando&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Night+Circus+Erin+Morgenstern&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Night+Circus+Erin+Morgenstern&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Mexican+Gothic+Silvia+Moreno+Garcia&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Mexican+Gothic+Silvia+Moreno+Garcia&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Once+and+Future+Witches+Alix+E+Harrow&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Once+and+Future+Witches+Alix+E+Harrow&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Something+Wicked+This+Way+Comes+Ray+Bradbury&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Something+Wicked+This+Way+Comes+Ray+Bradbury&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Secret%20History%20Donna%20Tartt&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Secret%20History%20Donna%20Tartt&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20September%20House%20Carissa%20Orlando&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20September%20House%20Carissa%20Orlando&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=London+Falling+Patrick+Radden+Keefe&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=London+Falling+Patrick+Radden+Keefe&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Last+Woman+of+Warsaw+Judy+Batalion&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Last+Woman+of+Warsaw+Judy+Batalion&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Ending+Writes+Itself+Evelyn+Clarke&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Ending+Writes+Itself+Evelyn+Clarke&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Keeper+Tana+French+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Keeper+Tana+French+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=James+Percival+Everett+paperback&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=James+Percival+Everett+paperback&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Antidote+Karen+Russell&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Antidote+Karen+Russell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Last%20Woman%20of%20Warsaw%20Judy%20Batalion&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Last%20Woman%20of%20Warsaw%20Judy%20Batalion&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=London%20Falling%20Patrick%20Radden%20Keefe&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=London%20Falling%20Patrick%20Radden%20Keefe&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Shampoo+Effect+Jenny+Jackson&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Shampoo+Effect+Jenny+Jackson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Little+Wonder+Sophie+Chen+Keller&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Little+Wonder+Sophie+Chen+Keller&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Pair+of+Aces+Marie+Benedict+Victoria+Christopher+Murray&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=A+Pair+of+Aces+Marie+Benedict+Victoria+Christopher+Murray&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Housewives+Underground+Kaitlyn+Tiffany&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Housewives+Underground+Kaitlyn+Tiffany&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250372888/roadtrip/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250372888/roadtrip/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Road+Trip+Mary+Kay+Andrews&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Road+Trip+Mary+Kay+Andrews&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Slasher+Summer+E+L+Chen&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Slasher+Summer+E+L+Chen&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Shampoo%20Effect%20Jenny%20Jackson&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Shampoo%20Effect%20Jenny%20Jackson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Little%20Wonder%20Sophie%20Chen%20Keller&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Little%20Wonder%20Sophie%20Chen%20Keller&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Essential+Scrum+Kenneth+Rubin+9780137043293&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Essential+Scrum+Kenneth+Rubin+9780137043293&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.scrum.org/resources/scrum-mastery",
+      "status": 202,
+      "finalUrl": "https://www.scrum.org/resources/scrum-mastery",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Scrum+Mastery+Geoff+Watts+second+edition&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Scrum+Mastery+Geoff+Watts+second+edition&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fixing+Your+Scrum+Ryan+Ripley+Todd+Miller&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Fixing+Your+Scrum+Ryan+Ripley+Todd+Miller&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Scrum+Jeff+Sutherland+J+J+Sutherland&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Scrum+Jeff+Sutherland+J+J+Sutherland&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Essential%20Scrum%20Kenneth%20S.%20Rubin&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Essential%20Scrum%20Kenneth%20S.%20Rubin&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CompTIA+Security+Study+Guide+Chapple+Seidl+9th+SY0-701&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=CompTIA+Security+Study+Guide+Chapple+Seidl+9th+SY0-701&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CompTIA+Security+Practice+Tests+David+Seidl+3rd+SY0-701&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=CompTIA+Security+Practice+Tests+David+Seidl+3rd+SY0-701&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CompTIA+Security+Certification+Kit+SY0-701+7th+9781394211449&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=CompTIA+Security+Certification+Kit+SY0-701+7th+9781394211449&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/comptia-r-security-r-sy0-701/9781835461532/",
+      "status": 403,
+      "finalUrl": "https://www.oreilly.com/library/view/comptia-r-security-r-sy0-701/9781835461532/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Ian+Neil+Security+SY0-701+Certification+Guide+third+9781835461532&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Ian+Neil+Security+SY0-701+Certification+Guide+third+9781835461532&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=CompTIA%20Security%2B%20Study%20Guide%20SY0-701%209th%20Edition%20Mike%20Chapple%20and%20David%20Seidl&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=CompTIA%20Security%2B%20Study%20Guide%20SY0-701%209th%20Edition%20Mike%20Chapple%20and%20David%20Seidl&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Psychology+of+Money+Morgan+Housel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Psychology+of+Money+Morgan+Housel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=I+Will+Teach+You+to+Be+Rich+Ramit+Sethi+second+edition&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=I+Will+Teach+You+to+Be+Rich+Ramit+Sethi+second+edition&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.consumerfinance.gov/documents/5782/cfpb_ymyg-toolkit_reducing-debt-worksheet.pdf",
+      "status": 403,
+      "finalUrl": "https://www.consumerfinance.gov/documents/5782/cfpb_ymyg-toolkit_reducing-debt-worksheet.pdf",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Total+Money+Makeover+Dave+Ramsey+updated+expanded&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Total+Money+Makeover+Dave+Ramsey+updated+expanded&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Simple+Path+to+Wealth+JL+Collins+revised+expanded&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Simple+Path+to+Wealth+JL+Collins+revised+expanded&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Rich+Dad+Poor+Dad+Robert+Kiyosaki+25th+anniversary&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Rich+Dad+Poor+Dad+Robert+Kiyosaki+25th+anniversary&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Psychology%20of%20Money%20Morgan%20Housel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Psychology%20of%20Money%20Morgan%20Housel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=I%20Will%20Teach%20You%20to%20Be%20Rich%20Second%20Edition%20Ramit%20Sethi&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=I%20Will%20Teach%20You%20to%20Be%20Rich%20Second%20Edition%20Ramit%20Sethi&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Let+Them+Theory+Mel+Robbins+Sawyer+Robbins&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Let+Them+Theory+Mel+Robbins+Sawyer+Robbins&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Slow+Productivity+Cal+Newport&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Slow+Productivity+Cal+Newport&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear+original+book&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear+original+book&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Atomic+Habits+Workbook+James+Clear+9798217180509&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Atomic+Habits+Workbook+James+Clear+9798217180509&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Let%20Them%20Theory%20Mel%20Robbins%20and%20Sawyer%20Robbins&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Let%20Them%20Theory%20Mel%20Robbins%20and%20Sawyer%20Robbins&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Slow%20Productivity%20Cal%20Newport&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Slow%20Productivity%20Cal%20Newport&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Forever-Interrupted/Taylor-Jenkins-Reid/9781476712826",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Forever-Interrupted/Taylor-Jenkins-Reid/9781476712826",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Forever+Interrupted+Taylor+Jenkins+Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Forever+Interrupted+Taylor+Jenkins+Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/After-I-Do/Taylor-Jenkins-Reid/9781476712840",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/After-I-Do/Taylor-Jenkins-Reid/9781476712840",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=After+I+Do+Taylor+Jenkins+Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=After+I+Do+Taylor+Jenkins+Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Maybe-in-Another-Life/Taylor-Jenkins-Reid/9781476776880",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Maybe-in-Another-Life/Taylor-Jenkins-Reid/9781476776880",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Maybe+in+Another+Life+Taylor+Jenkins+Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Maybe+in+Another+Life+Taylor+Jenkins+Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=One+True+Loves+Taylor+Jenkins+Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=One+True+Loves+Taylor+Jenkins+Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Seven-Husbands-of-Evelyn-Hugo/Taylor-Jenkins-Reid/9781501139239",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Seven-Husbands-of-Evelyn-Hugo/Taylor-Jenkins-Reid/9781501139239",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Seven+Husbands+of+Evelyn+Hugo+Taylor+Jenkins+Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Seven+Husbands+of+Evelyn+Hugo+Taylor+Jenkins+Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Daisy+Jones+and+The+Six+Taylor+Jenkins+Reid+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Daisy+Jones+and+The+Six+Taylor+Jenkins+Reid+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Malibu+Rising+Taylor+Jenkins+Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Malibu+Rising+Taylor+Jenkins+Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Carrie+Soto+Is+Back+Taylor+Jenkins+Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Carrie+Soto+Is+Back+Taylor+Jenkins+Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atmosphere+Taylor+Jenkins+Reid+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Atmosphere+Taylor+Jenkins+Reid+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Last-Days-of-Vic-Coco/Taylor-Jenkins-Reid/9781668088395",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Last-Days-of-Vic-Coco/Taylor-Jenkins-Reid/9781668088395",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Seven%20Husbands%20of%20Evelyn%20Hugo%20Taylor%20Jenkins%20Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Seven%20Husbands%20of%20Evelyn%20Hugo%20Taylor%20Jenkins%20Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atmosphere%20Taylor%20Jenkins%20Reid&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Atmosphere%20Taylor%20Jenkins%20Reid&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.bloomsbury.com/us/court-of-thorns-and-roses-9781635575569/",
+      "status": 403,
+      "finalUrl": "https://www.bloomsbury.com/us/court-of-thorns-and-roses-9781635575569/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Court+of+Thorns+and+Roses+Sarah+J.+Maas&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=A+Court+of+Thorns+and+Roses+Sarah+J.+Maas&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fourth+Wing+Rebecca+Yarros&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Fourth+Wing+Rebecca+Yarros&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Serpent+and+the+Wings+of+Night+Carissa+Broadbent&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Serpent+and+the+Wings+of+Night+Carissa+Broadbent&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=From+Blood+and+Ash+Jennifer+L.+Armentrout&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=From+Blood+and+Ash+Jennifer+L.+Armentrout&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Radiance+Grace+Draven&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Radiance+Grace+Draven&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Bridge+Kingdom+Danielle+L.+Jensen&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Bridge+Kingdom+Danielle+L.+Jensen&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250268396/onceuponabrokenheart/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250268396/onceuponabrokenheart/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Once+Upon+a+Broken+Heart+Stephanie+Garber&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Once+Upon+a+Broken+Heart+Stephanie+Garber&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Kingdom+of+the+Wicked+Kerri+Maniscalco&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Kingdom+of+the+Wicked+Kerri+Maniscalco&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Song+of+Achilles+Madeline+Miller&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Song+of+Achilles+Madeline+Miller&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=These+Hollow+Vows+Lexi+Ryan&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=These+Hollow+Vows+Lexi+Ryan&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=One+Dark+Window+Rachel+Gillig&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=One+Dark+Window+Rachel+Gillig&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250857446/divinerivals/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250857446/divinerivals/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Divine+Rivals+Rebecca+Ross&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Divine+Rivals+Rebecca+Ross&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=When+the+Moon+Hatched+Sarah+A.+Parker&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=When+the+Moon+Hatched+Sarah+A.+Parker&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Rites+of+the+Starling+Devney+Perry&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Rites+of+the+Starling+Devney+Perry&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250462039/themirrorofinfiniteendings/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250462039/themirrorofinfiniteendings/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250469014/ruthlessvows/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250469014/ruthlessvows/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A%20Court%20of%20Thorns%20and%20Roses%20Sarah%20J.%20Maas&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=A%20Court%20of%20Thorns%20and%20Roses%20Sarah%20J.%20Maas&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Fourth%20Wing%20Rebecca%20Yarros&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Fourth%20Wing%20Rebecca%20Yarros&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Hunt+for+Red+October+Tom+Clancy&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Hunt+for+Red+October+Tom+Clancy&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Into+Thin+Air+Jon+Krakauer&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Into+Thin+Air+Jon+Krakauer&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Lonesome-Dove/Larry-McMurtry/9780684871226",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Lonesome-Dove/Larry-McMurtry/9780684871226",
+      "error": null
+    },
+    {
+      "url": "https://www.pulitzer.org/winners/larry-mcmurtry",
+      "status": 403,
+      "finalUrl": "https://www.pulitzer.org/winners/larry-mcmurtry",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250101198/therevenant/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250101198/therevenant/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Revenant+Michael+Punke+novel&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The+Revenant+Michael+Punke+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/genre-fiction/best-war-novels",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3118/books/genre-fiction/best-war-novels",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Jurassic%20Park%20Michael%20Crichton&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Jurassic%20Park%20Michael%20Crichton&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Hunt%20for%20Red%20October%20Tom%20Clancy&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Hunt%20for%20Red%20October%20Tom%20Clancy&tag=althcu-20",
+      "error": null
+    }
+  ],
+  "wordCounts": {
+    "/books/genre-fiction/best-world-war-ii-books": 1560,
+    "/books/genre-fiction/best-wwii-novels-2026": 1732,
+    "/books/genre-fiction/devils-guard-review": 1410,
+    "/books/haruki-murakami-reading-order": 1576,
+    "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls": 1681,
+    "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students": 1822,
+    "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026": 1718,
+    "/books/reader-picks/best-action-adventure-books-for-men": 1651,
+    "/books/reader-picks/best-books-for-people-who-dont-like-reading": 1704,
+    "/books/reader-picks/best-books-like-da-vinci-code": 1688,
+    "/books/reader-picks/best-fall-reads-2026": 1661,
+    "/books/reader-picks/best-new-books-april-2026": 1538,
+    "/books/reader-picks/best-new-books-june-2026": 1572,
+    "/books/self-help/best-book-to-learn-scrum": 1552,
+    "/books/self-help/best-comptia-security-plus-books-2026": 1459,
+    "/books/self-help/best-personal-finance-books-young-adults": 1589,
+    "/books/self-help/best-self-help-books-2026": 1558,
+    "/books/taylor-jenkins-reid-books-in-order": 1611,
+    "/books/top-fantasy-romance-novels": 2448,
+    "/books/best-action-adventure-books": 1506
+  },
+  "note": "Full377-destination automated audit before final war-novels internal-link correction. Final first-party check recorded separately. HTTP denials do not establish a wrong identity or unavailable retail listing."
+}

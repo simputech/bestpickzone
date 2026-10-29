@@ -15,10 +15,12 @@
     "title": "Daring Greatly vs. The Gifts of Imperfection"
   },
   "/books/self-help/best-personal-finance-books-young-adults": {
-    "title": "Best Personal Finance Books for Young Adults"
+    "title": "Personal Finance Books for Young Adults: Compare Five Approaches",
+    "description": "Compare five personal-finance books by learning need, practical limits and edition, without promises of investment returns or debt outcomes."
   },
   "/books/self-help/best-self-help-books-2026": {
-    "title": "Best Self-Help Books to Read in 2026"
+    "title": "Best Self-Help Books for 2026: Choose by Your Goal",
+    "description": "Compare self-help books for relationships, work, money and habits, with accurate publication dates and clear limits on effectiveness claims."
   },
   "/coffee/best-bottomless-portafilters-gaggia-classic-pro": {
     "title": "Best Bottomless Portafilters for the Gaggia Classic Pro"
@@ -296,5 +298,77 @@
   "/books/genre-fiction/best-spy-thriller-books": {
     "title": "Best Spy Thrillers: Six Routes into Espionage Fiction",
     "description": "Compare Cold War agents, mole investigations, submarine suspense and retired spies, with verified book identities, series and edition checks."
+  },
+  "/books/genre-fiction/best-world-war-ii-books": {
+    "title": "World War II Books: Fiction, Memoir and History Compared",
+    "description": "Choose WWII books by reading purpose: novels, survivor testimony, biography or unit history, with verified edition and age-guidance distinctions."
+  },
+  "/books/genre-fiction/best-wwii-novels-2026": {
+    "title": "WWII Novels to Read in 2026: Setting and Story Choices",
+    "description": "Compare seven historical novels by perspective, period and structure, with edition guidance and a clear Tattooist of Auschwitz historical caveat."
+  },
+  "/books/genre-fiction/devils-guard-review": {
+    "title": "Devil's Guard Review: Edition, Context and Historical Limits",
+    "description": "Decide whether George R. Elford's Devil's Guard suits your reading goal, with verified edition details and clear limits on historical claims."
+  },
+  "/books/haruki-murakami-reading-order": {
+    "title": "Haruki Murakami Reading Order: Three Ways to Start",
+    "description": "Choose a Murakami starting point, follow the Rat sequence, and compare verified editions without treating a suggested reading route as mandatory."
+  },
+  "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls": {
+    "title": "Summer Reading for 12-Year-Old Girls: Six Choices for 2026",
+    "description": "Compare six summer reading choices by story, content and format, with publisher age guidance and room for each twelve-year-old reader’s preferences."
+  },
+  "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students": {
+    "title": "High-School Summer Reading 2026: Seven Books Compared",
+    "description": "Choose among seven high-school reading options by assignment, narrative form and content, with primary sources and practical discussion ideas."
+  },
+  "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026": {
+    "title": "Summer Books for 12-Year-Old Boys: Five Choices for 2026",
+    "description": "Compare Holes, Hatchet, Percy Jackson, The Crossover and The Wild Robot by interest, content and format, with verified primary sources."
+  },
+  "/books/reader-picks/best-action-adventure-books-for-men": {
+    "title": "Action-Adventure Books for Men: Six Different Starting Points",
+    "description": "Compare six action and adventure choices by tension, fiction or nonfiction, series order and format, with verified sources and edition cautions."
+  },
+  "/books/reader-picks/best-books-for-people-who-dont-like-reading": {
+    "title": "Books for People Who Don’t Like Reading: Nine Starting Points",
+    "description": "Find a book to sample by premise and format, from The Martian to Born a Crime, without promises about reading speed, attention or guaranteed enjoyment."
+  },
+  "/books/reader-picks/best-books-like-da-vinci-code": {
+    "title": "Books Like The Da Vinci Code: Six Puzzle and History Picks",
+    "description": "Match your next historical thriller to puzzles, pursuit or atmosphere, with the correct Cotton Malone opener and clear fiction-versus-history boundaries."
+  },
+  "/books/reader-picks/best-fall-reads-2026": {
+    "title": "Best Fall Reads 2026: Six Books by Mood",
+    "description": "Compare six fall reading choices, from campus crime and haunted houses to magical romance, witchcraft and a Halloween carnival."
+  },
+  "/books/reader-picks/best-new-books-april-2026": {
+    "title": "Best New Books of April 2026: Releases and Editions",
+    "description": "Compare April 2026 books with verified regional release dates, fiction versus nonfiction distinctions, and paperback edition details."
+  },
+  "/books/reader-picks/best-new-books-june-2026": {
+    "title": "Best New Books of June 2026: Six Reading Choices",
+    "description": "Compare six June 2026 releases by premise, genre, verified US edition and practical reading fit, from social fiction to history and horror."
+  },
+  "/books/self-help/best-book-to-learn-scrum": {
+    "title": "Best Books to Learn Scrum: Start with the Official Guide",
+    "description": "Choose a Scrum learning book for framework basics, coaching, implementation problems or leadership, with edition and official-guide caveats."
+  },
+  "/books/self-help/best-comptia-security-plus-books-2026": {
+    "title": "Best Security+ Books 2026: Match Your Exam Code",
+    "description": "Compare SY0-701 study guides, practice tests and bundles, with verified SY0-801 transition dates and edition checks before buying."
+  },
+  "/books/taylor-jenkins-reid-books-in-order": {
+    "title": "Taylor Jenkins Reid Books in Order: Through Atmosphere",
+    "description": "Follow Taylor Jenkins Reid’s nine published novels in order, choose a starting point by premise, and distinguish the announced 2027 release."
+  },
+  "/books/top-fantasy-romance-novels": {
+    "title": "15 Fantasy Romance Books: Premises, Series Order and Tradeoffs",
+    "description": "Compare 15 fantasy romance books by premise, reading order and content. Find dragon stories, fae courts, magical letters and useful edition checks."
+  },
+  "/books/best-action-adventure-books": {
+    "title": "Best Action-Adventure Books: Five Different Starting Points",
+    "description": "Compare Jurassic Park, Red October, Into Thin Air, Lonesome Dove and The Revenant by premise, fiction or nonfiction, length and edition."
   }
 }

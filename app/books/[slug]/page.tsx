@@ -1,6 +1,7 @@
 import { withSeo } from '@/lib/seo-metadata'
 import { isAmazonSearchUrl } from '@/lib/amazon-link-labels'
 import { getBookPath } from '@/lib/books-data'
+import { buyingGuides } from '@/lib/buying-guide-data'
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -98,6 +99,7 @@ export async function generateStaticParams() {
   // Dedicated guides must not also be generated here: build order can swap their content.
   return getAllSlugs()
     .filter((slug) => !['best-mark-manson-books', 'best-stephen-king-books', 'best-books-for-people-who-dont-like-reading'].includes(slug))
+    .filter((slug) => !buyingGuides.some(guide => (guide.path ?? `/${guide.silo}/${guide.slug}`) === `/books/${slug}`))
     .map((slug) => ({ slug }));
 }
 

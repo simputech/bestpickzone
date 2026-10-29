@@ -13,12 +13,17 @@ export default function ResearchedBuyingGuide({ slug }: { slug: string }) {
   const articlePath = g.path ?? `/${g.silo}/${g.slug}`
   const authorPage = articlePath.startsWith('/books/authors/')
   const genrePage = articlePath.startsWith('/books/genre-fiction/')
+  const bookSection = authorPage ? { name: 'Authors', path: '/books/authors' } : genrePage ? { name: 'Genre Fiction', path: '/books/genre-fiction' } : [
+    { name: 'Kids & Young Adult', path: '/books/kids-and-ya' },
+    { name: 'Reader Picks', path: '/books/reader-picks' },
+    { name: 'Self-Help', path: '/books/self-help' },
+  ].find(section => articlePath.startsWith(`${section.path}/`))
   const url = `https://bestpickzone.com${articlePath}`
   const schema = { '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description, datePublished: g.publishedDate ?? g.date ?? guideDate, dateModified: g.date ?? guideDate, mainEntityOfPage: url, author: { '@type': 'Organization', name: 'BestPickZone', url: 'https://bestpickzone.com' }, publisher: { '@type': 'Organization', name: 'BestPickZone', url: 'https://bestpickzone.com' } }
   return <main className="mx-auto max-w-5xl px-4 py-10">
-    <BreadcrumbJsonLd trail={[{ name: 'Home', path: '/' }, { name: label, path: `/${g.silo}` }, ...(authorPage ? [{ name: 'Authors', path: '/books/authors' }] : genrePage ? [{ name: 'Genre Fiction', path: '/books/genre-fiction' }] : []), { name: g.title }]} />
+    <BreadcrumbJsonLd trail={[{ name: 'Home', path: '/' }, { name: label, path: `/${g.silo}` }, ...(bookSection ? [bookSection] : []), { name: g.title }]} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
-    <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-600"><Link href="/">Home</Link> / <Link href={`/${g.silo}`}>{label}</Link>{authorPage && <> / <Link href="/books/authors">Authors</Link></>}{genrePage && <> / <Link href="/books/genre-fiction">Genre Fiction</Link></>}</nav>
+    <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-600"><Link href="/">Home</Link> / <Link href={`/${g.silo}`}>{label}</Link>{bookSection && <> / <Link href={bookSection.path}>{bookSection.name}</Link></>}</nav>
     <article>
       <header className="rounded-[2rem] bg-gradient-to-br from-slate-950 via-teal-950 to-teal-800 p-6 text-white md:p-9">
         <p className="text-sm font-bold uppercase tracking-widest text-amber-200">BestPickZone buying guide</p>

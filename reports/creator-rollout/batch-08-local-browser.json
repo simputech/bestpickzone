@@ -1,0 +1,434 @@
+{
+  "checkedAt": "2026-10-29T08:27:12.197477+00:00",
+  "base": "http://127.0.0.1:3118",
+  "method": "Codex browser rendered DOM review; full article text read for all20; desktop/mobile layout checks; representative screenshots",
+  "checks": [
+    {
+      "path": "/books/genre-fiction/best-world-war-ii-books",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/genre-fiction/best-wwii-novels-2026",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/genre-fiction/devils-guard-review",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/haruki-murakami-reading-order",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-action-adventure-books-for-men",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-books-like-da-vinci-code",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-fall-reads-2026",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-new-books-april-2026",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-new-books-june-2026",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-book-to-learn-scrum",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-comptia-security-plus-books-2026",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-personal-finance-books-young-adults",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-self-help-books-2026",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/taylor-jenkins-reid-books-in-order",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/top-fantasy-romance-novels",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/best-action-adventure-books",
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/genre-fiction/best-world-war-ii-books",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/genre-fiction/best-wwii-novels-2026",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/genre-fiction/devils-guard-review",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/haruki-murakami-reading-order",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-action-adventure-books-for-men",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-books-like-da-vinci-code",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-fall-reads-2026",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-new-books-april-2026",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/reader-picks/best-new-books-june-2026",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-book-to-learn-scrum",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-comptia-security-plus-books-2026",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-personal-finance-books-young-adults",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/self-help/best-self-help-books-2026",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/taylor-jenkins-reid-books-in-order",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/top-fantasy-romance-novels",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    },
+    {
+      "path": "/books/best-action-adventure-books",
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabels": 0,
+      "disclosure": true,
+      "tableScrollRegionsKeyboardAccessible": true
+    }
+  ],
+  "limitations": [
+    "No local live API data; search fallback only.",
+    "Automated external requests can be denied; HTTP failures preserved separately."
+  ],
+  "corrections": [
+    "Three invalid internal paths corrected.",
+    "Dedicated guide excluded from legacy dynamic static params; final adventure rendered content reviewed.",
+    "Unavailable Sarah Parker store replaced with verified HarperReach publisher record."
+  ],
+  "externalBrowserEvidence": [
+    {
+      "url": "https://www.audible.com/pd/The-Martian-Audiobook/B082BHJMFF",
+      "result": "The Martian / Andy Weir / Wil Wheaton visible"
+    },
+    {
+      "url": "https://www.audible.com/pd/Born-a-Crime-Audiobook/B01M6W3BEW",
+      "result": "Born a Crime / Trevor Noah author and narrator visible"
+    },
+    {
+      "url": "https://www.harperreach.com/products/when-the-moon-hatched-bn-deluxe-collectors-edition-the-moonfall-series-book-1-sarah-a-parker-9780008710262/",
+      "result": "Correct title and Sarah A. Parker visible"
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Last+Woman+of+Warsaw+Judy+Batalion&tag=althcu-20",
+      "result": "Search results visible; specific matching novel visible among results, no exact edition selected"
+    }
+  ]
+}
