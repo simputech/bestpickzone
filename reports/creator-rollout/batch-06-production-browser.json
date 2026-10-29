@@ -1,0 +1,330 @@
+{
+  "environment": "https://bestpickzone.com",
+  "method": "Codex in-app browser; all complete rendered articles read; 1440x1000 and 390x844 viewport checks",
+  "pages": [
+    {
+      "path": "/mahjong/best-american-mahjong-sets-on-amazon",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/mahjong/best-book-to-learn-mahjong",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/mahjong/best-mahjong-accessories",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/mahjong/best-mahjong-sets-for-beginners",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/mahjong/best-travel-mahjong-sets",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/tech/airpods-pro-vs-sony-wf-1000xm5",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/tech/best-budget-monitors",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/tech/best-laptops-for-college-students",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/tech/best-mechanical-keyboards",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/tech/best-wireless-earbuds",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/wfh/best-products-for-your-home-office",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/wfh/ultimate-kitchen-table-home-office-setup",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 0,
+      "liveCards": 0
+    },
+    {
+      "path": "/books/agatha-christie-hercule-poirot-in-order",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/books/authors/authors-like-colleen-hoover",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/books/authors/best-lee-child-books",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/books/authors/best-patrick-radden-keefe-books",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/books/best-brandon-sanderson-cosmere-order",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/books/best-cozy-mystery-series-to-read",
+      "widths": [
+        1440,
+        390
+      ],
+      "oneH1": true,
+      "canonicalPreserved": true,
+      "horizontalPageOverflow": false,
+      "brokenImages": 0,
+      "badAmazonSearchLabelsOrSponsoredRel": 0,
+      "placeholderMainLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0
+    }
+  ],
+  "tableCheck": "All 13 comparison regions focusable and horizontally scrollable on mobile. Monitor table clicked/focused then ArrowRight advanced scrollLeft to40.",
+  "limits": "37 current fallback cards; zero live Creator API cards. Public logs confirm AssociateNotEligible; current API acceptance blocked.",
+  "deploymentId": "dpl_3ShJ6d5BBqUi7KmJv3rZxUtff4W9",
+  "commit": "6e969e00bdae57d7bfea39b682465d187b357328"
+}

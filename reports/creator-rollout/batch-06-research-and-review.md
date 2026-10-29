@@ -40,6 +40,6 @@ Initial external HTTP audit tested 283 destinations and exposed timeouts/403s at
 
 Final review corrections: exact Dell9340 Best Buy search, current curated document titles, nested Authors breadcrumb, and suppression of empty named-product sections. All approved Amazon tags retained; no fabricated ASIN, price, stock, rating, image or personal experience added. Paid Lsaec direct listing/disclosure retained; usable rack-channel dimensions remain unresolved and no fit claim is published.
 
-## Pending production
+## Production acceptance
 
-Commit/push, verify READY and public-domain deployment, repeat desktop/mobile/link/sitemap checks, and submit changed URLs through existing IndexNow. Counts remain100 deployed/199 remaining until public acceptance. Creator API account eligibility remains independently blocked by Amazon AssociateNotEligible.
+All20 public pages accepted; see [production receipt](batch-06-production-receipt.md). Counts120 deployed/179remaining. Creator API eligibility remains independently blocked.

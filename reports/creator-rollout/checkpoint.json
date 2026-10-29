@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T00:40:37.862996+00:00",
+  "updatedAt": "2026-10-29T02:29:53.683658+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 6,
-  "status": "batch-five-content-accepted-api-eligibility-blocked",
+  "currentBatch": 7,
+  "status": "batch-six-content-accepted-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Complete batch-six full-article source review, desktop/mobile and destination checks, then publish all 20 and verify production. Creator API account eligibility remains independently blocked.",
+  "nextAction": "Continue existing batch seven: complete source-based article review, desktop/mobile checks, then publish all20 and verify production. Amazon eligibility and GA4 Admin/GSC access remain independent external dependencies.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 100,
-  "contentAcceptedArticles": 100,
-  "remainingArticles": 199,
+  "deployedArticles": 120,
+  "contentAcceptedArticles": 120,
+  "remainingArticles": 179,
   "countDefinitions": {
-    "deployedArticles": "100 unique pages in batches 1-5; corn is counted once",
-    "contentAcceptedArticles": "60 historically accepted plus 40 current batch-four/five content and fallback acceptances",
+    "deployedArticles": "120 unique refreshed pages in batches1-6",
+    "contentAcceptedArticles": "60 historical plus60 current batch4-6 content/fallback acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus 100 unique refreshed pages; batch six is next"
+    "remainingArticles": "299 minus120; batch7 is next"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -513,6 +513,41 @@
     2,
     3,
     4,
-    5
-  ]
+    5,
+    6
+  ],
+  "batch06": {
+    "status": "production-content-accepted-api-eligibility-blocked",
+    "completedPaths": [
+      "/mahjong/best-american-mahjong-sets-on-amazon",
+      "/mahjong/best-book-to-learn-mahjong",
+      "/mahjong/best-mahjong-accessories",
+      "/mahjong/best-mahjong-sets-for-beginners",
+      "/mahjong/best-travel-mahjong-sets",
+      "/tech/airpods-pro-vs-sony-wf-1000xm5",
+      "/tech/best-budget-monitors",
+      "/tech/best-laptops-for-college-students",
+      "/tech/best-mechanical-keyboards",
+      "/tech/best-wireless-earbuds",
+      "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain",
+      "/wfh/best-products-for-your-home-office",
+      "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow",
+      "/wfh/ultimate-kitchen-table-home-office-setup",
+      "/books/agatha-christie-hercule-poirot-in-order",
+      "/books/authors/authors-like-colleen-hoover",
+      "/books/authors/best-lee-child-books",
+      "/books/authors/best-patrick-radden-keefe-books",
+      "/books/best-brandon-sanderson-cosmere-order",
+      "/books/best-cozy-mystery-series-to-read"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "6e969e00bdae57d7bfea39b682465d187b357328",
+    "deploymentId": "dpl_3ShJ6d5BBqUi7KmJv3rZxUtff4W9",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 37,
+    "productionReport": "reports/creator-rollout/batch-06-production-receipt.md",
+    "indexNow": "20 URLs accepted; no indexing confirmation"
+  }
 }
