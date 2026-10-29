@@ -1,0 +1,844 @@
+{
+  "base": "https://bestpickzone.com",
+  "pages": [
+    {
+      "path": "/home-kitchen/best-air-fryer-accessories",
+      "status": 200,
+      "mainWords": 1793,
+      "links": 76,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=TempPro+ThermoPro+TP19H+instant+read+food+thermometer&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=OXO+Good+Grips+9+inch+tongs+silicone+heads&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=TempPro%20TP19H%20food%20thermometer&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=OXO%209%20inch%20silicone%20head%20tongs&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-back-to-school-gadgets",
+      "status": 200,
+      "mainWords": 1712,
+      "links": 75,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Texas+Instruments+TI-84+Plus+CE+graphing+calculator&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Logitech+R400+wireless+presenter+USB+receiver&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Texas%20Instruments%20TI%2084%20Plus%20CE%20graphing%20calculator&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Logitech%20R400%20wireless%20presenter&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-car-cleaning-products",
+      "status": 200,
+      "mainWords": 1736,
+      "links": 75,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=BLACK+DECKER+CHV1410L+handheld+vacuum&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Meguiars+G13616+Quik+Interior+Detailer+Cleaner&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Invisible+Glass+92164+22+oz+spray&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=BLACK%20DECKER%20CHV1410L%20handheld%20vacuum&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Invisible%20Glass%2092164%2022%20oz%20auto%20glass%20cleaner&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-dorm-organization-products",
+      "status": 200,
+      "mainWords": 1674,
+      "links": 74,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Sterilite+2260+41+quart+storage+box&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Command+17003+large+utility+hook&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Sterilite%202260%2041%20quart%20storage%20box&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-dorm-room-essentials",
+      "status": 200,
+      "mainWords": 1650,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Linenspa+cotton+blend+sheet+set+Twin+XL&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Linenspa%20cotton%20blend%20sheet%20set%20Twin%20XL&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-fall-clothes-for-couples",
+      "status": 200,
+      "mainWords": 1845,
+      "links": 77,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=brushed%20flannel%20shirts%20fall&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=cotton%20crewneck%20sweaters&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=lightweight%20packable%20puffer%20jackets%20vests%20men%20women%20fall&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=brushed%20flannel%20shirts%20fall&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=cotton%20crewneck%20sweaters&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=lightweight%20packable%20puffer%20jackets%20vests%20men%20women%20fall&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=fall%20clothes%20rust%20olive%20cream%20shirts%20sweaters%20men%20women&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=brushed%20flannel%20shirts%20fall&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-halloween-candy-deals-on-amazon",
+      "status": 200,
+      "mainWords": 1599,
+      "links": 73,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Hershey+Halloween+Chocolate+Miniatures+Assortment+115+165+pieces&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Hershey%20Halloween%20chocolate%20miniatures%20165%20pieces%2051.03%20oz%20assortment&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-kids-fort-for-girls-2026",
+      "status": 200,
+      "mainWords": 1623,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/dp/B0FJF95P9J?tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=besrey%20large%20kids%20play%20tent%20star%20lights%20pink&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "status": 200,
+      "mainWords": 1691,
+      "links": 81,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=KitchenAid+KSMPRA+pasta+roller+cutter+set&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=KitchenAid+KSMPEXTA+Gourmet+Pasta+Press&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=KitchenAid+KSMMGA+metal+food+grinder&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=KitchenAid%20KSMPRA%20pasta%20roller%20cutter%20set&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=KitchenAid%20KSMPEXTA%20gourmet%20pasta%20press&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-pet-travel-products",
+      "status": 200,
+      "mainWords": 1699,
+      "links": 77,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Sleepypod+Clickit+Sport+dog+car+harness&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Sherpa+Original+Deluxe+pet+carrier&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=PetSafe+Happy+Ride+62+inch+folding+dog+ramp&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Sleepypod%20Clickit%20Sport%20dog%20harness&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Sherpa%20Original%20Deluxe%20pet%20carrier&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-picnic-essentials",
+      "status": 200,
+      "mainWords": 1612,
+      "links": 77,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Lifewit+30+48+can+insulated+cooler+bag&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Rubbermaid+Brilliance+plastic+food+storage+containers&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=YETI+Rambler+20+oz+tumbler+MagSlider&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=YETI%20Rambler%2020%20oz%20tumbler%20MagSlider&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-productivity-products-for-students",
+      "status": 200,
+      "mainWords": 1628,
+      "links": 78,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Time+Timer+MOD+60+minute+Education+Edition&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Rocketbook+Core+Next+Gen+reusable+notebook&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Pilot+FriXion+Clicker+erasable+pens&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Soundcore+Q30+noise+cancelling+headphones&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Time%20Timer%20MOD%2060%20minute%20visual%20timer&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Rocketbook%20Core%20Next%20Gen%20reusable%20notebook&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-products-for-your-backyard",
+      "status": 200,
+      "mainWords": 1602,
+      "links": 77,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Keter+Westwood+150+gallon+231666+deck+box&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=MacSports+Tailgate+Wagon+cargo+trailer&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Keter%20Westwood%20150%20gallon%20brown%20deck%20box%20231666&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-products-for-your-dorm-room",
+      "status": 200,
+      "mainWords": 1762,
+      "links": 76,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Linenspa+3+inch+gel+memory+foam+topper+Twin+XL&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Vornado+Pivot+Clip+personal+air+circulator&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Vornado%20PIVOT%20CLIP%20fan&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-solar-powered-attic-fans",
+      "status": 200,
+      "mainWords": 1445,
+      "links": 73,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=iLiving+ILG8SF301A+solar+attic+fan&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Natural+Light+SAF48+roof+mount+solar+attic+fan&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=iLiving%20ILG8SF301A%20solar%20attic%20fan&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-study-desk-essentials",
+      "status": 200,
+      "mainWords": 1543,
+      "links": 76,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Logitech+MK270+wireless+keyboard+mouse+combo&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Quntis+ScreenLinear+Basic+Focus+40cm+monitor+light+bar&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Zebra+Mildliner+double+ended+highlighters&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Logitech%20MK270%20wireless%20keyboard%20mouse%20combo&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/best-tech-for-college-students",
+      "status": 200,
+      "mainWords": 1581,
+      "links": 78,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Apple+MacBook+Air+13+inch+M4+2025&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Apple+iPad+A16&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Samsung+T7+1TB+MU-PC1T0T&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Samsung%20T7%201TB%20MU%20PC1T0T%20AM%20portable%20SSD%20gray&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "status": 200,
+      "mainWords": 1550,
+      "links": 73,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=GE+Profile+Opal+2.0+XPIO13SCSS+side+tank&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=GE%20Profile%20Opal%20XPIO13SCSS%20nugget%20ice%20maker%20side%20tank&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "status": 200,
+      "mainWords": 1646,
+      "links": 76,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Ooni+Koda+2+14+inch+gas+pizza+oven&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Gozney+Arc+14+inch+propane+pizza+oven&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Ooni%20Koda%202%2014%20inch%20gas%20pizza%20oven&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Gozney%20Arc%2014%20inch%20gas%20pizza%20oven&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/home-kitchen/oxo-vs-chefn-corn-stripper",
+      "status": 200,
+      "mainWords": 0,
+      "links": 79,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/OXO-Good-Grips-Corn-Stripper/dp/B000V78JGO?tag=althcu-20",
+          "rel": "noopener sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/Chefn-Cob-Corn-Stripper-Yellow/dp/B01B5SOUF6?tag=althcu-20",
+          "rel": "noopener sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "url": "https://bestpickzone.com/",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deal-agent",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deal-agent",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/authors",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/authors",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/genre-fiction",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/genre-fiction",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/self-help",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/self-help",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/kids-and-ya",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/kids-and-ya",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/reader-picks",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/reader-picks",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/coffee",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/coffee",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/beauty",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/beauty",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/wfh",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/wfh",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/mahjong",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/mahjong",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deals",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deals",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deal-alerts",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deal-alerts",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/amazon-offers",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/amazon-offers",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/tech",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/tech",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/finance-software",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/finance-software",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/health-fitness",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/health-fitness",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/disclosure",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/disclosure",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-air-fryers",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-air-fryers",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-pet-travel-products",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-pet-travel-products",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-car-cleaning-products",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-car-cleaning-products",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-products-for-your-backyard",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-products-for-your-backyard",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/privacy",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/privacy",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/es",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/es",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-tech-for-college-students",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-tech-for-college-students",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-dorm-room-essentials",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-dorm-room-essentials",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-air-fryer-accessories",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-air-fryer-accessories",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-picnic-essentials",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-picnic-essentials",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-products-for-your-dorm-room",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-products-for-your-dorm-room",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-dorm-organization-products",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-dorm-organization-products",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-fall-clothes-for-couples",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-fall-clothes-for-couples",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/ninja-creami-containers-compatibility",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deals/stand-mixers",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deals/stand-mixers",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-study-desk-essentials",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-study-desk-essentials",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-back-to-school-gadgets",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-back-to-school-gadgets",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-productivity-products-for-students",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-productivity-products-for-students",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/wfh/best-usb-c-docks-for-two-monitors",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/wfh/best-usb-c-docks-for-two-monitors",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-pizza-peels-ooni-koda-12",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deals/pizza-ovens",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deals/pizza-ovens",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/oxo-vs-fullstar-avocado-slicer",
+      "error": null
+    }
+  ],
+  "note": "HTTP link checks are not proof of product identity or stock; blocked automated destinations require browser/source review."
+}

@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-28T23:30:00Z",
+  "updatedAt": "2026-10-29T00:40:37.862996+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 5,
-  "status": "batch-four-content-accepted-api-blocked-batch-five-in-progress",
+  "currentBatch": 6,
+  "status": "batch-five-content-accepted-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -462,23 +462,57 @@
     "contentAcceptance": true,
     "creatorApiAcceptance": false,
     "liveCards": 0,
-    "fallbackCards": 29
+    "fallbackCards": 29,
+    "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 81,
-  "contentAcceptedArticles": 81,
-  "remainingArticles": 218,
+  "deployedArticles": 100,
+  "contentAcceptedArticles": 100,
+  "remainingArticles": 199,
   "countDefinitions": {
-    "deployedArticles": "80 in batches 1-4 plus corn correction in batch 5",
-    "contentAcceptedArticles": "60 historically accepted plus 20 batch-four content/fallback checks and one corn correction",
+    "deployedArticles": "100 unique pages in batches 1-5; corn is counted once",
+    "contentAcceptedArticles": "60 historically accepted plus 40 current batch-four/five content and fallback acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus 81 unique pages; batch five has 19 still to refresh"
+    "remainingArticles": "299 minus 100 unique refreshed pages; batch six is next"
   },
   "batch05": {
-    "status": "in-progress",
+    "status": "production-content-accepted-api-eligibility-blocked",
     "completedPaths": [
+      "/home-kitchen/best-air-fryer-accessories",
+      "/home-kitchen/best-back-to-school-gadgets",
+      "/home-kitchen/best-car-cleaning-products",
+      "/home-kitchen/best-dorm-organization-products",
+      "/home-kitchen/best-dorm-room-essentials",
+      "/home-kitchen/best-fall-clothes-for-couples",
+      "/home-kitchen/best-halloween-candy-deals-on-amazon",
+      "/home-kitchen/best-kids-fort-for-girls-2026",
+      "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "/home-kitchen/best-pet-travel-products",
+      "/home-kitchen/best-picnic-essentials",
+      "/home-kitchen/best-productivity-products-for-students",
+      "/home-kitchen/best-products-for-your-backyard",
+      "/home-kitchen/best-products-for-your-dorm-room",
+      "/home-kitchen/best-solar-powered-attic-fans",
+      "/home-kitchen/best-study-desk-essentials",
+      "/home-kitchen/best-tech-for-college-students",
+      "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
       "/home-kitchen/oxo-vs-chefn-corn-stripper"
     ],
-    "remainingInBatch": 19,
-    "publicationCommit": "98208c063b7863c96e807883823f5971b41b5290"
-  }
+    "remainingInBatch": 0,
+    "publicationCommit": "6bccc878dfbedcda25fdb4f9b552e873a1294d36",
+    "deploymentId": "dpl_HeRuH2rxBQDR7MPyRaGNA6sutBnf",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 25,
+    "productionReport": "reports/creator-rollout/batch-05-production-receipt.md",
+    "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
+  },
+  "contentCompletedBatches": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
 }

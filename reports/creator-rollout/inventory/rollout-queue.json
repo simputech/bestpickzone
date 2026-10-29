@@ -322,7 +322,7 @@
         {
           "path": "/books/daring-greatly-vs-the-gifts-of-imperfection",
           "url": "https://bestpickzone.com/books/daring-greatly-vs-the-gifts-of-imperfection",
-          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Bren\u00e9 Brown Book First?",
+          "title": "Daring Greatly vs. The Gifts of Imperfection: Which Brené Brown Book First?",
           "renderer": "ResearchedBuyingGuide",
           "page_source": "app/books/daring-greatly-vs-the-gifts-of-imperfection/page.tsx",
           "data_source": "content/buying-guides/daring-greatly-vs-the-gifts-of-imperfection.html",
@@ -1009,10 +1009,10 @@
           "data_source": "app/home-kitchen/best-coffee-makers-under-100/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-robot-vacuums",
@@ -1023,10 +1023,10 @@
           "data_source": "app/home-kitchen/best-robot-vacuums/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/instant-pot-vs-ninja-foodi",
@@ -1037,10 +1037,10 @@
           "data_source": "app/home-kitchen/instant-pot-vs-ninja-foodi/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/oxo-vs-fullstar-avocado-slicer",
@@ -1051,10 +1051,10 @@
           "data_source": "app/home-kitchen/oxo-vs-fullstar-avocado-slicer/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro",
@@ -1065,10 +1065,10 @@
           "data_source": "app/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/ergotron-lx-vs-amazon-basics-monitor-arm",
@@ -1079,10 +1079,10 @@
           "data_source": "app/wfh/ergotron-lx-vs-amazon-basics-monitor-arm/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/fully-jarvis-vs-uplift-v2-standing-desk",
@@ -1093,10 +1093,10 @@
           "data_source": "app/wfh/fully-jarvis-vs-uplift-v2-standing-desk/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/herman-miller-aeron-vs-steelcase-gesture",
@@ -1107,10 +1107,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/logitech-mx-keys-s-vs-apple-magic-keyboard",
@@ -1121,10 +1121,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/logitech-mx-master-3s-vs-apple-magic-mouse",
@@ -1135,10 +1135,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/purple-royal-seat-cushion-vs-cushion-lab",
@@ -1149,10 +1149,10 @@
           "data_source": "app/wfh/purple-royal-seat-cushion-vs-cushion-lab/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/secretlab-titan-evo-vs-ergotune-supreme",
@@ -1163,10 +1163,10 @@
           "data_source": "app/wfh/secretlab-titan-evo-vs-ergotune-supreme/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/wfh/vari-desk-converter-vs-vivo-desk-riser",
@@ -1177,10 +1177,10 @@
           "data_source": "lib/comparison-html-articles.ts",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/beauty/best-led-mask-for-melasma-and-hyperpigmentation",
@@ -1191,10 +1191,10 @@
           "data_source": "app/beauty/best-led-mask-for-melasma-and-hyperpigmentation/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair",
@@ -1205,10 +1205,10 @@
           "data_source": "app/beauty/dyson-airwrap-vs-shark-flexstyle-for-fine-flat-hair/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/beauty/is-omnilux-contour-worth-it",
@@ -1219,10 +1219,10 @@
           "data_source": "app/beauty/is-omnilux-contour-worth-it/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt",
@@ -1233,10 +1233,10 @@
           "data_source": "app/beauty/nuface-trinity-plus-vs-foreo-bear-2-vs-myolift-qt/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/coffee/best-gaggia-classic-pro-upgrades",
@@ -1247,10 +1247,10 @@
           "data_source": "app/coffee/best-gaggia-classic-pro-upgrades/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/coffee/complete-small-kitchen-home-coffee-bar-setup",
@@ -1261,10 +1261,10 @@
           "data_source": "app/coffee/complete-small-kitchen-home-coffee-bar-setup/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/coffee/what-to-buy-with-your-breville-bambino-plus",
@@ -1275,298 +1275,298 @@
           "data_source": "app/coffee/what-to-buy-with-your-breville-bambino-plus/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "independently-approved-pending-publication",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
           "refresh_scope": "substantive",
           "sitemap_update_required": true,
-          "notes": "Independent editorial/identity approval at4d92a18. Final date review, corrected preview and production QA pending."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-04 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         }
       ]
     },
     {
       "batch": 5,
       "reviewed_page_target": 20,
-      "status": "in-progress",
+      "status": "production-content-accepted-api-eligibility-blocked",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
           "path": "/home-kitchen/best-air-fryer-accessories",
           "url": "https://bestpickzone.com/home-kitchen/best-air-fryer-accessories",
-          "title": "Best Air Fryer Accessories (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Air Fryer Accessories: Useful Tools and Fit Checks",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-air-fryer-accessories/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-air-fryer-accessories.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-back-to-school-gadgets",
           "url": "https://bestpickzone.com/home-kitchen/best-back-to-school-gadgets",
-          "title": "Best Back-to-School Gadgets (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Back-to-School Gadgets: Course and Connection Fit",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-back-to-school-gadgets/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-back-to-school-gadgets.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-car-cleaning-products",
           "url": "https://bestpickzone.com/home-kitchen/best-car-cleaning-products",
-          "title": "Best Car Cleaning Products (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Car Cleaning Products: Match the Kit to the Surface",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-car-cleaning-products/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-car-cleaning-products.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-dorm-organization-products",
           "url": "https://bestpickzone.com/home-kitchen/best-dorm-organization-products",
-          "title": "Best Dorm Organization Products (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Dorm Organization Products: Measure Before You Buy",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-dorm-organization-products/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-dorm-organization-products.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-dorm-room-essentials",
           "url": "https://bestpickzone.com/home-kitchen/best-dorm-room-essentials",
-          "title": "Best Dorm Room Essentials for College (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Dorm Room Essentials: What to Pack Before Move-In",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-dorm-room-essentials/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-dorm-room-essentials.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-fall-clothes-for-couples",
           "url": "https://bestpickzone.com/home-kitchen/best-fall-clothes-for-couples",
-          "title": "Best Fall Clothes for Couples (2026)",
+          "title": "Fall Clothes for Couples: Outfits, Fit and Care",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/home-kitchen/best-fall-clothes-for-couples/page.tsx",
           "data_source": null,
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-halloween-candy-deals-on-amazon",
           "url": "https://bestpickzone.com/home-kitchen/best-halloween-candy-deals-on-amazon",
-          "title": "Best Halloween Candy Deals on Amazon (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Amazon Halloween Candy Deals: Count, Cost and Labels",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-halloween-candy-deals-on-amazon/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-halloween-candy-deals-on-amazon.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-kids-fort-for-girls-2026",
           "url": "https://bestpickzone.com/home-kitchen/best-kids-fort-for-girls-2026",
-          "title": "Best Kids Fort for Girls in 2026",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "besrey Kids Play Tent: Fit, Setup and Limitations",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-kids-fort-for-girls-2026/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-kids-fort-for-girls-2026.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
           "url": "https://bestpickzone.com/home-kitchen/best-kitchenaid-attachments-worth-buying",
-          "title": "Best KitchenAid Attachments Worth Buying (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "KitchenAid Attachments: Match the Tool to the Task",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-kitchenaid-attachments-worth-buying/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-kitchenaid-attachments-worth-buying.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-pet-travel-products",
           "url": "https://bestpickzone.com/home-kitchen/best-pet-travel-products",
-          "title": "Best Pet Travel Products (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Pet Travel Products: Restraint, Carrier Fit and Care",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-pet-travel-products/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-pet-travel-products.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-picnic-essentials",
           "url": "https://bestpickzone.com/home-kitchen/best-picnic-essentials",
-          "title": "Best Picnic Essentials (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Picnic Essentials: Cold Storage, Seating and Packing",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-picnic-essentials/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-picnic-essentials.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-productivity-products-for-students",
           "url": "https://bestpickzone.com/home-kitchen/best-productivity-products-for-students",
-          "title": "Best Productivity Products for Students (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Student Productivity Tools: What Solves Your Problem?",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-productivity-products-for-students/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-productivity-products-for-students.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-products-for-your-backyard",
           "url": "https://bestpickzone.com/home-kitchen/best-products-for-your-backyard",
-          "title": "Best Products for Your Backyard (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Backyard Products: Useful Upgrades and Fit Checks",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-products-for-your-backyard/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-products-for-your-backyard.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-products-for-your-dorm-room",
           "url": "https://bestpickzone.com/home-kitchen/best-products-for-your-dorm-room",
-          "title": "Best Products for Your Dorm Room (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Dorm Room Upgrades: What to Buy After Move-In",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-products-for-your-dorm-room/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-products-for-your-dorm-room.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-solar-powered-attic-fans",
           "url": "https://bestpickzone.com/home-kitchen/best-solar-powered-attic-fans",
-          "title": "Best Solar-Powered Attic Fans",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Solar Attic Fans: Suitability and Model Comparison",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-solar-powered-attic-fans/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-solar-powered-attic-fans.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-study-desk-essentials",
           "url": "https://bestpickzone.com/home-kitchen/best-study-desk-essentials",
-          "title": "Best Study Desk Essentials for Students (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Study Desk Essentials: Lighting, Layout and Fit",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-study-desk-essentials/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-study-desk-essentials.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/best-tech-for-college-students",
           "url": "https://bestpickzone.com/home-kitchen/best-tech-for-college-students",
-          "title": "Best Tech for College Students (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "College Tech: Course Fit, Backups and Compatibility",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-tech-for-college-students/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-tech-for-college-students.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
           "url": "https://bestpickzone.com/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
-          "title": "Is the GE Opal 2.0 Nugget Ice Maker Worth It? (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "GE Opal 2.0: Space, Maintenance and Model Checks",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/is-ge-opal-2-0-nugget-ice-maker-worth-it.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
           "url": "https://bestpickzone.com/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
-          "title": "Ooni vs Gozney: Best Outdoor Pizza Oven for Your Setup (2026)",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Ooni Koda 2 vs. Gozney Arc: Outdoor Pizza Ovens",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/ooni-vs-gozney-best-outdoor-pizza-oven.html",
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Use the existing editorial recommendations, verify exact product/edition fit, and retain safe non-price fallback if API data is unavailable."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         },
         {
           "path": "/home-kitchen/oxo-vs-chefn-corn-stripper",
           "url": "https://bestpickzone.com/home-kitchen/oxo-vs-chefn-corn-stripper",
-          "title": "OXO vs. Chef'n Corn Stripper: The Summer Kitchen Gadget Nobody Talks About",
+          "title": "OXO vs. Chef'n Corn Stripper: Collection or Twist?",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/home-kitchen/oxo-vs-chefn-corn-stripper/page.tsx",
           "data_source": null,
           "baseline_creator_coverage": "none",
           "disposition": "eligible-product-review",
-          "review_status": "production-content-accepted",
-          "refresh_scope": "Complete sourced rewrite; no fabricated experience/yield/injury claims; URL preserved",
+          "review_status": "production-content-and-fallback-accepted-api-blocked",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Published 98208c0; desktop/mobile/full rendered reread; existing direct listing identities checked October 28; exclude from duplicate refresh work."
+          "notes": "Production content/mobile/desktop/sitemap/link acceptance saved in batch-05 receipt. Creator API blocked by AssociateNotEligible; not a live API acceptance."
         }
       ]
     },
@@ -1803,7 +1803,7 @@
         {
           "path": "/books/authors/best-lee-child-books",
           "url": "https://bestpickzone.com/books/authors/best-lee-child-books",
-          "title": "Best Lee Child Books in Order \u2014 Jack Reacher Reading Guide (2026)",
+          "title": "Best Lee Child Books in Order — Jack Reacher Reading Guide (2026)",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/authors/best-lee-child-books/page.tsx",
           "data_source": null,
@@ -2077,7 +2077,7 @@
         {
           "path": "/books/genre-fiction/best-cold-war-thriller-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-cold-war-thriller-books",
-          "title": "Best Cold War Thriller Books \u2014 Ranked with Winner Logic",
+          "title": "Best Cold War Thriller Books — Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-cold-war-thriller-books/page.tsx",
           "data_source": null,
@@ -2091,7 +2091,7 @@
         {
           "path": "/books/genre-fiction/best-history-books-for-beginners",
           "url": "https://bestpickzone.com/books/genre-fiction/best-history-books-for-beginners",
-          "title": "Best History Books for Beginners \u2014 Ranked with Winner Logic",
+          "title": "Best History Books for Beginners — Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-history-books-for-beginners/page.tsx",
           "data_source": null,
@@ -2119,7 +2119,7 @@
         {
           "path": "/books/genre-fiction/best-military-fiction-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-military-fiction-books",
-          "title": "Best Military Fiction Books \u2014 Ranked with Winner Logic",
+          "title": "Best Military Fiction Books — Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-military-fiction-books/page.tsx",
           "data_source": null,
@@ -2133,7 +2133,7 @@
         {
           "path": "/books/genre-fiction/best-spy-thriller-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-spy-thriller-books",
-          "title": "Best Spy Thriller Books of All Time \u2014 Ranked with Winner Logic",
+          "title": "Best Spy Thriller Books of All Time — Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-spy-thriller-books/page.tsx",
           "data_source": null,
@@ -2155,7 +2155,7 @@
         {
           "path": "/books/genre-fiction/best-world-war-ii-books",
           "url": "https://bestpickzone.com/books/genre-fiction/best-world-war-ii-books",
-          "title": "Best Books About World War II \u2014 Ranked with Winner Logic",
+          "title": "Best Books About World War II — Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/genre-fiction/best-world-war-ii-books/page.tsx",
           "data_source": null,
@@ -2253,7 +2253,7 @@
         {
           "path": "/books/reader-picks/best-action-adventure-books-for-men",
           "url": "https://bestpickzone.com/books/reader-picks/best-action-adventure-books-for-men",
-          "title": "Best Action Adventure Books for Men \u2014 Ranked with Winner Logic",
+          "title": "Best Action Adventure Books for Men — Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-action-adventure-books-for-men/page.tsx",
           "data_source": null,
@@ -2267,7 +2267,7 @@
         {
           "path": "/books/reader-picks/best-books-for-people-who-dont-like-reading",
           "url": "https://bestpickzone.com/books/reader-picks/best-books-for-people-who-dont-like-reading",
-          "title": "Best Books for People Who Don't Like Reading \u2014 Ranked by Why They Work",
+          "title": "Best Books for People Who Don't Like Reading — Ranked by Why They Work",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-books-for-people-who-dont-like-reading/page.tsx",
           "data_source": null,
@@ -2281,7 +2281,7 @@
         {
           "path": "/books/reader-picks/best-books-like-da-vinci-code",
           "url": "https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code",
-          "title": "Best Books Like The Da Vinci Code \u2014 Ranked with Winner Logic",
+          "title": "Best Books Like The Da Vinci Code — Ranked with Winner Logic",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-books-like-da-vinci-code/page.tsx",
           "data_source": null,
@@ -2309,7 +2309,7 @@
         {
           "path": "/books/reader-picks/best-new-books-april-2026",
           "url": "https://bestpickzone.com/books/reader-picks/best-new-books-april-2026",
-          "title": "Best New Books in April 2026 \u2014 This Month's Standout Releases",
+          "title": "Best New Books in April 2026 — This Month's Standout Releases",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-new-books-april-2026/page.tsx",
           "data_source": null,
@@ -2323,7 +2323,7 @@
         {
           "path": "/books/reader-picks/best-new-books-june-2026",
           "url": "https://bestpickzone.com/books/reader-picks/best-new-books-june-2026",
-          "title": "Best New Books in June 2026 \u2014 This Month's Standout Releases",
+          "title": "Best New Books in June 2026 — This Month's Standout Releases",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/reader-picks/best-new-books-june-2026/page.tsx",
           "data_source": null,
@@ -2365,7 +2365,7 @@
         {
           "path": "/books/self-help/best-personal-finance-books-young-adults",
           "url": "https://bestpickzone.com/books/self-help/best-personal-finance-books-young-adults",
-          "title": "Best Personal Finance Books for Young Adults \u2014 Matched to Your Situation",
+          "title": "Best Personal Finance Books for Young Adults — Matched to Your Situation",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/self-help/best-personal-finance-books-young-adults/page.tsx",
           "data_source": null,
@@ -2379,7 +2379,7 @@
         {
           "path": "/books/self-help/best-self-help-books-2026",
           "url": "https://bestpickzone.com/books/self-help/best-self-help-books-2026",
-          "title": "Best Self-Help Books to Read in 2026 \u2014 Honest Picks with Skip-This-If Guidance",
+          "title": "Best Self-Help Books to Read in 2026 — Honest Picks with Skip-This-If Guidance",
           "renderer": "StandaloneJsxArticlePage",
           "page_source": "app/books/self-help/best-self-help-books-2026/page.tsx",
           "data_source": null,
@@ -2913,7 +2913,7 @@
         {
           "path": "/books/best-brene-brown-books",
           "url": "https://bestpickzone.com/books/best-brene-brown-books",
-          "title": "Best Bren\u00e9 Brown Books",
+          "title": "Best Brené Brown Books",
           "renderer": "DynamicBookArticlePage",
           "page_source": "app/books/[slug]/page.tsx",
           "data_source": "lib/books-data-part1.ts",
