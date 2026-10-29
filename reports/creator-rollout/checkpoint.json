@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T13:24:21.898426+00:00",
+  "updatedAt": "2026-10-29T14:26:41.653868+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 11,
-  "status": "batch-ten-content-accepted-api-eligibility-blocked",
+  "currentBatch": 12,
+  "status": "batch-eleven-content-accepted-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Continue existing batch11: review full originals and primary sources, complete20, test desktop/mobile, publish and accept before batch12. Amazon eligibility and GA4 Admin/GSC access remain independent dependencies.",
+  "nextAction": "Continue existing batch 12: review full originals and primary sources, complete 20, test desktop/mobile, publish and accept before batch 13. Amazon eligibility and GA4 Admin/GSC access remain independent dependencies.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 200,
-  "contentAcceptedArticles": 200,
-  "remainingArticles": 99,
+  "deployedArticles": 220,
+  "contentAcceptedArticles": 220,
+  "remainingArticles": 79,
   "countDefinitions": {
-    "deployedArticles": "200 unique refreshed pages in batches1-10",
-    "contentAcceptedArticles": "60 historical plus140 current batch4-10 content/fallback acceptances",
+    "deployedArticles": "220 unique refreshed pages in batches 1-11",
+    "contentAcceptedArticles": "60 historical plus 160 current batch 4-11 content/fallback acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus200; batch11 is next"
+    "remainingArticles": "299 minus 220; batch 12 is next"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -518,7 +518,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "batch06": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -688,6 +689,40 @@
     "liveCards": 0,
     "fallbackCards": 40,
     "productionReport": "reports/creator-rollout/batch-10-production-receipt.md",
+    "indexNow": "20 URLs accepted; no indexing confirmation"
+  },
+  "batch11": {
+    "status": "production-content-accepted-api-eligibility-blocked",
+    "completedPaths": [
+      "/books/best-crime-fiction",
+      "/books/best-crime-thrillers-for-women",
+      "/books/best-dan-brown-books",
+      "/books/best-dark-romance-novels",
+      "/books/best-debut-novels",
+      "/books/best-dystopian-novels",
+      "/books/best-early-reader-books",
+      "/books/best-fantasy-books-for-teens",
+      "/books/best-fantasy-series-for-adults",
+      "/books/best-feel-good-books",
+      "/books/best-george-orwell-books",
+      "/books/best-gothic-novels",
+      "/books/best-haruki-murakami-books",
+      "/books/best-historical-fiction",
+      "/books/best-history-books",
+      "/books/best-horror-novels",
+      "/books/best-inspirational-books",
+      "/books/best-james-clear-books",
+      "/books/best-james-patterson-books",
+      "/books/best-jk-rowling-books"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "491c4e05d294ad75772b1fdb7258bdf68b2b6cb4",
+    "deploymentId": "dpl_FRVDpqwjcD5JadkGh4dCjQs6Rm94",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 40,
+    "productionReport": "reports/creator-rollout/batch-11-production-receipt.md",
     "indexNow": "20 URLs accepted; no indexing confirmation"
   }
 }

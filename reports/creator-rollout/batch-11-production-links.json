@@ -1,0 +1,870 @@
+{
+  "base": "https://bestpickzone.com",
+  "pages": [
+    {
+      "path": "/books/best-crime-fiction",
+      "status": 200,
+      "mainWords": 1400,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Big+Sleep+Raymond+Chandler&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=No+Country+for+Old+Men+Cormac+McCarthy&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Big%20Sleep%20Raymond%20Chandler&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=No%20Country%20for%20Old%20Men%20Cormac%20McCarthy&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-crime-thrillers-for-women",
+      "status": 200,
+      "mainWords": 1420,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Gone+Girl+Gillian+Flynn&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Big+Little+Lies+Liane+Moriarty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Gone%20Girl%20Gillian%20Flynn&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Big%20Little%20Lies%20Liane%20Moriarty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-dan-brown-books",
+      "status": 200,
+      "mainWords": 1422,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Angels+and+Demons+Dan+Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Da+Vinci+Code+Dan+Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Angels%20and%20Demons%20Dan%20Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Da%20Vinci%20Code%20Dan%20Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-dark-romance-novels",
+      "status": 200,
+      "mainWords": 1417,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Twisted+Love+Ana+Huang&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A+Touch+of+Darkness+Scarlett+St+Clair&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Twisted%20Love%20Ana%20Huang&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Haunting%20Adeline%20H%20D%20Carlton&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-debut-novels",
+      "status": 200,
+      "mainWords": 1457,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Secret+History+Donna+Tartt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Conversations+with+Friends+Sally+Rooney&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Secret%20History%20Donna%20Tartt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Conversations%20with%20Friends%20Sally%20Rooney&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-dystopian-novels",
+      "status": 200,
+      "mainWords": 1404,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=1984+George+Orwell+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Hunger+Games+Suzanne+Collins+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Nineteen%20Eighty-Four%20George%20Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Handmaid%E2%80%99s%20Tale%20Margaret%20Atwood&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-early-reader-books",
+      "status": 200,
+      "mainWords": 1469,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=I+Will+Take+a+Nap+Mo+Willems&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Frog+and+Toad+Are+Friends+Arnold+Lobel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=I%20Will%20Take%20a%20Nap!%20Mo%20Willems&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Frog%20and%20Toad%20Are%20Friends%20Arnold%20Lobel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-fantasy-books-for-teens",
+      "status": 200,
+      "mainWords": 1395,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Eragon+Christopher+Paolini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A+Wizard+of+Earthsea+Ursula+Le+Guin+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Eragon%20Christopher%20Paolini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A%20Wizard%20of%20Earthsea%20Ursula%20K%20Le%20Guin&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-fantasy-series-for-adults",
+      "status": 200,
+      "mainWords": 1466,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Mistborn+The+Final+Empire+Brandon+Sanderson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Lies+of+Locke+Lamora+Scott+Lynch&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Mistborn%20The%20Final%20Empire%20Brandon%20Sanderson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A%20Game%20of%20Thrones%20George%20R%20R%20Martin&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-feel-good-books",
+      "status": 200,
+      "mainWords": 1429,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Remarkably+Bright+Creatures+Shelby+Van+Pelt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+House+in+the+Cerulean+Sea+TJ+Klune&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Remarkably%20Bright%20Creatures%20Shelby%20Van%20Pelt&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20House%20in%20the%20Cerulean%20Sea%20TJ%20Klune&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-george-orwell-books",
+      "status": 200,
+      "mainWords": 1388,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Animal+Farm+George+Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Homage+to+Catalonia+George+Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Animal%20Farm%20George%20Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Homage%20to%20Catalonia%20George%20Orwell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-gothic-novels",
+      "status": 200,
+      "mainWords": 1405,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Rebecca+Daphne+du+Maurier&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Mexican+Gothic+Silvia+Moreno+Garcia&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Rebecca%20Daphne%20du%20Maurier&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Mexican%20Gothic%20Silvia%20Moreno%20Garcia&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-haruki-murakami-books",
+      "status": 200,
+      "mainWords": 1426,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Norwegian+Wood+Haruki+Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Kafka+on+the+Shore+Haruki+Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Norwegian%20Wood%20Haruki%20Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Kafka%20on%20the%20Shore%20Haruki%20Murakami&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-historical-fiction",
+      "status": 200,
+      "mainWords": 1421,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Wolf+Hall+Hilary+Mantel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Pachinko+Min+Jin+Lee&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Wolf%20Hall%20Hilary%20Mantel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Pachinko%20Min%20Jin%20Lee&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-history-books",
+      "status": 200,
+      "mainWords": 1426,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Warmth+of+Other+Suns+Isabel+Wilkerson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Guns+of+August+Barbara+Tuchman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Warmth%20of%20Other%20Suns%20Isabel%20Wilkerson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Guns%20of%20August%20Barbara%20W%20Tuchman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-horror-novels",
+      "status": 200,
+      "mainWords": 1455,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Haunting+of+Hill+House+Shirley+Jackson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Bird+Box+Josh+Malerman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Haunting%20of%20Hill%20House%20Shirley%20Jackson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Bird%20Box%20Josh%20Malerman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-inspirational-books",
+      "status": 200,
+      "mainWords": 1446,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Mans+Search+for+Meaning+Viktor+Frankl&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Maybe+You+Should+Talk+to+Someone+Lori+Gottlieb&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Man%E2%80%99s%20Search%20for%20Meaning%20Viktor%20E.%20Frankl&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Maybe%20You%20Should%20Talk%20to%20Someone%20Lori%20Gottlieb&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-james-clear-books",
+      "status": 200,
+      "mainWords": 1417,
+      "links": 67,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Atomic+Habits+Workbook+James+Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Atomic%20Habits%20Workbook%20James%20Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-james-patterson-books",
+      "status": 200,
+      "mainWords": 1363,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Along+Came+a+Spider+James+Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=1st+to+Die+James+Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Along%20Came%20a%20Spider%20James%20Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=1st%20to%20Die%20James%20Patterson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-jk-rowling-books",
+      "status": 200,
+      "mainWords": 1371,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Harry+Potter+Sorcerers+Stone+JK+Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Ickabog+JK+Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerer%E2%80%99s%20Stone%20J.%20K.%20Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Ickabog%20J%20K%20Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "url": "https://bestpickzone.com/",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deal-agent",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deal-agent",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/authors",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/authors",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/genre-fiction",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/genre-fiction",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/self-help",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/self-help",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/kids-and-ya",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/kids-and-ya",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/reader-picks",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/reader-picks",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/coffee",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/coffee",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/beauty",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/beauty",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/wfh",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/wfh",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/mahjong",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/mahjong",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deals",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deals",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/deal-alerts",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/deal-alerts",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/amazon-offers",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/amazon-offers",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/tech",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/tech",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/finance-software",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/finance-software",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/health-fitness",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/health-fitness",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/disclosure",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/disclosure",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-cozy-mystery-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-cozy-mystery-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-stephen-king-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-stephen-king-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-colleen-hoover-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-colleen-hoover-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-malcolm-gladwell-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-malcolm-gladwell-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-neil-gaiman-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-neil-gaiman-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-haruki-murakami-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-haruki-murakami-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-psychological-thrillers",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-psychological-thrillers",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-fantasy-series-for-adults",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-fantasy-series-for-adults",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-horror-novels",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-horror-novels",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-romantasy-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-romantasy-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-historical-fiction",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-historical-fiction",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-books-to-read-on-the-beach",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-books-to-read-on-the-beach",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-book-club-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-book-club-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-audiobooks-on-audible",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-audiobooks-on-audible",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-feel-good-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-feel-good-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-books-of-all-time",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-books-of-all-time",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/privacy",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/privacy",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/es",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/es",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-crime-fiction",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-crime-fiction",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/reader-picks/best-books-like-da-vinci-code",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-classic-novels",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-classic-novels",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-classic-childrens-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-classic-childrens-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-books-if-you-loved-harry-potter",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-books-if-you-loved-harry-potter",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-fantasy-books-for-teens",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-fantasy-books-for-teens",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-dystopian-novels",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-dystopian-novels",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-history-books",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-history-books",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/books/best-gothic-novels",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/books/best-gothic-novels",
+      "error": null
+    }
+  ],
+  "note": "HTTP link checks are not proof of product identity or stock; blocked automated destinations require browser/source review."
+}

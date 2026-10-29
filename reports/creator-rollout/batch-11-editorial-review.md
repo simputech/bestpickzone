@@ -1,6 +1,6 @@
 # Batch 11 editorial review — October 29, 2026
 
-Status: all 20 original public articles and 20 completed local articles read in full. Final changed-copy recheck complete; production acceptance pending.
+Status: all 20 original public articles and 20 completed local articles read in full. Final changed-copy recheck complete; production content/fallback acceptance complete; live API eligibility blocked.
 
 The existing queue is authoritative. Original URLs and March 2026 publication dates are preserved. Each new article contains over 1,000 editorial words, excluding navigation, disclosures and product modules. Sources and edition details are recorded per URL in batch-11-primary-sources.json. No invented personal reading/testing results, price, stock, ratings or product images are published. All Amazon buttons clearly identify searches and retain althcu-20 and sponsored attributes.
 
@@ -32,3 +32,7 @@ Initial full destination audit: 252 unique links/assets; 226 HTTP 200, 19 HTTP 4
 ## Local acceptance
 
 40 desktop/mobile checks passed: no overflow, broken images, placeholders or mislabeled Amazon links; one H1, correct canonical, disclosure and keyboard-focusable comparison region on each page. Mobile table scrolled 40px via keyboard, observed in DOM. Five changed articles rechecked after final build; four corrected punctuation search queries and replacement author FAQ all HTTP 200. All 47 first-party links/assets HTTP 200. 195 tests passed; final production build passed with 335 indexable URLs, 122 rendered metadata pages, 30 runtime assets, operations and inventory validation. No unresolved factual claim from this batch was carried into the replacement content.
+
+## Production acceptance
+
+All 20 full public article texts match reviewed final local versions. 40 desktop/mobile checks pass; 47 first-party destinations HTTP 200; 20 sitemap entries dated October 29; 40 fallback cards, 0 live. IndexNow accepted 20 URLs, not indexing proof. 220 deployed/content accepted, 79 remain. See batch-11-production-receipt.md.
