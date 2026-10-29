@@ -44,3 +44,7 @@ No new ASINs, credential changes, purchases or paid access. Live API acceptance 
 ## Finished local acceptance
 
 All20 complete rendered articles reviewed; 40 desktop/mobile checks passed at1440x1000 and390x844. Three internal links corrected; dead Parker store replaced with publisher. Legacy generateStaticParams collision fixed after rendered review exposed old action-adventure content. All195 targeted tests passed; final production build after link correction passed;335 indexable routes and runtime asset gates passed. Automated377 destination results retained, with external access denials reported rather than treated as listing proof. Audible narrator pages and replacement publisher verified in browser. Counts remain140/159 until production acceptance.
+
+## Production acceptance
+
+All20 public full articles match reviewed final drafts. All40 viewport checks and51 first-party destinations pass;20 dated sitemap entries verified.39 fallback cards,0 live. Logs08:29-08:30UTC show403 AssociateNotEligible. IndexNow accepted20 URLs, not indexing proof. See batch-08-production-receipt.md.160 accepted/139 remaining;batch9 next.

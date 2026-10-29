@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T04:11:44.271098+00:00",
+  "updatedAt": "2026-10-29T08:35:41.687527+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 8,
-  "status": "batch-seven-content-accepted-api-eligibility-blocked",
+  "currentBatch": 9,
+  "status": "batch-eight-content-accepted-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Continue existing batch eight: review originals and primary sources, complete20 articles, verify desktop/mobile, publish and accept production before batch nine. Amazon eligibility and GA4 Admin/GSC access remain independent external dependencies.",
+  "nextAction": "Continue existing batch nine; review full originals and primary sources, complete20, test desktop/mobile, publish and accept before batch10. Amazon eligibility and GA4 Admin/GSC access remain independent dependencies.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 140,
-  "contentAcceptedArticles": 140,
-  "remainingArticles": 159,
+  "deployedArticles": 160,
+  "contentAcceptedArticles": 160,
+  "remainingArticles": 139,
   "countDefinitions": {
-    "deployedArticles": "140 unique refreshed pages in batches1-7",
-    "contentAcceptedArticles": "60 historical plus80 current batch4-7 content/fallback acceptances",
+    "deployedArticles": "160 unique refreshed pages in batches1-8",
+    "contentAcceptedArticles": "60 historical plus100 current batch4-8 content/fallback acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus140; batch8 is next"
+    "remainingArticles": "299 minus160; batch9 next"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -515,7 +515,8 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "batch06": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -584,5 +585,39 @@
     "fallbackCards": 40,
     "productionReport": "reports/creator-rollout/batch-07-production-receipt.md",
     "indexNow": "20 URLs accepted; no indexing confirmation"
+  },
+  "batch08": {
+    "status": "production-content-accepted-api-eligibility-blocked",
+    "completedPaths": [
+      "/books/genre-fiction/best-world-war-ii-books",
+      "/books/genre-fiction/best-wwii-novels-2026",
+      "/books/genre-fiction/devils-guard-review",
+      "/books/haruki-murakami-reading-order",
+      "/books/kids-and-ya/best-2026-summer-reading-for-12-year-old-girls",
+      "/books/kids-and-ya/best-2026-summer-reading-for-high-school-students",
+      "/books/kids-and-ya/best-books-for-12-year-old-boys-summer-2026",
+      "/books/reader-picks/best-action-adventure-books-for-men",
+      "/books/reader-picks/best-books-for-people-who-dont-like-reading",
+      "/books/reader-picks/best-books-like-da-vinci-code",
+      "/books/reader-picks/best-fall-reads-2026",
+      "/books/reader-picks/best-new-books-april-2026",
+      "/books/reader-picks/best-new-books-june-2026",
+      "/books/self-help/best-book-to-learn-scrum",
+      "/books/self-help/best-comptia-security-plus-books-2026",
+      "/books/self-help/best-personal-finance-books-young-adults",
+      "/books/self-help/best-self-help-books-2026",
+      "/books/taylor-jenkins-reid-books-in-order",
+      "/books/top-fantasy-romance-novels",
+      "/books/best-action-adventure-books"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "0def90f46bf64ff11775fea271d449b4ef4e5d2e",
+    "deploymentId": "dpl_8SytCpc7w1uBKgTzX1fGNaV6vzQG",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 39,
+    "productionReport": "reports/creator-rollout/batch-08-production-receipt.md",
+    "indexNow": "20 URLs accepted; not indexing confirmation"
   }
 }
