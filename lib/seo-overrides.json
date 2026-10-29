@@ -216,5 +216,85 @@
   "/books/best-cozy-mystery-series-to-read": {
     "title": "Cozy Mystery Series: Five Starting Books and Their Differences",
     "description": "Compare five mystery series by investigator, setting and tone, with verified starting books and practical edition checks."
+  },
+  "/books/best-cyberpunk-novels-all-time": {
+    "title": "Cyberpunk Novels: Five Starting Points and Their Differences",
+    "description": "Choose between Gibson, Stephenson, Morgan, Dick and Cadigan by premise, format and reading interests, with publisher-backed book identities."
+  },
+  "/books/best-historical-fiction-books-2026": {
+    "title": "Historical Fiction to Read in 2026: Five Different Starting Points",
+    "description": "Compare five established historical novels by setting, story structure, series commitment and edition, using author and publisher sources."
+  },
+  "/books/best-psychological-thrillers-with-mind-bending-twists": {
+    "title": "Psychological Thrillers With Twists: Five Starting Points",
+    "description": "Compare five psychological thrillers by premise, setting and edition, with spoiler-light publisher sources and clear Amazon search links."
+  },
+  "/books/best-sci-fi-doorstoppers-epic-space-opera": {
+    "title": "Long Science Fiction and Space Opera: Five Starting Books",
+    "description": "Choose a substantial science-fiction novel by premise and series commitment, from Dune and Leviathan Wakes to Hamilton and Vinge."
+  },
+  "/books/best-short-classic-books-for-a-flight": {
+    "title": "Short Classics for a Flight: Books and Edition Checks",
+    "description": "Compare five classics for travel, with publisher-verified edition lengths, translation checks and practical advice without finish-time promises."
+  },
+  "/books/best-spy-thrillers-realistic": {
+    "title": "Realistic-Feeling Spy Thrillers: Premises and Limits",
+    "description": "Compare five espionage novels by institutional pressure, historical scope and series order, with clear limits on claims of realism."
+  },
+  "/books/best-stephen-king-books": {
+    "title": "Best Stephen King Books to Start With: Five Different Premises",
+    "description": "Choose a first Stephen King novel by premise, subject matter and format, with official publication sources and clear edition checks."
+  },
+  "/books/best-urban-fantasy-series-completed": {
+    "title": "Completed Urban Fantasy: Finished Series and Arc Checks",
+    "description": "Find a finished urban-fantasy sequence and distinguish complete arcs from ongoing series, with current author-source checks and reading order."
+  },
+  "/books/books-like-dune-hard-sci-fi": {
+    "title": "Books Like Dune: Choose by Politics, Worlds or Big Ideas",
+    "description": "Five books to consider after Dune, matched by imperial politics, culture, environments and speculative ideas, with primary sources and edition checks."
+  },
+  "/books/books-like-fourth-wing-fantasy-romance": {
+    "title": "Books Like Fourth Wing: Match the Part You Loved",
+    "description": "Compare five fantasy-romance follow-ups by competition, opposing loyalties, magical danger and series scope, using author and publisher sources."
+  },
+  "/books/books-like-it-ends-with-us": {
+    "title": "Books Like It Ends with Us: Choose by Theme",
+    "description": "Compare five relationship novels by family, grief, marriage and timeline, with primary-source premises and edition checks."
+  },
+  "/books/books-like-verity-psychological-thrillers": {
+    "title": "Books Like Verity: Five Suspense Paths to Compare",
+    "description": "Choose a Verity read-alike by household secrets, relationship assumptions or investigation, with spoiler-light primary sources."
+  },
+  "/books/cormac-mccarthy-where-to-start": {
+    "title": "Where to Start with Cormac McCarthy: Four Reading Routes",
+    "description": "Choose a first McCarthy novel by crime, survival, the Border Trilogy or historical violence, with verified editions and sources."
+  },
+  "/books/fredrik-backman-books-ranked": {
+    "title": "Fredrik Backman Books Ranked: Four Starting Points",
+    "description": "Compare Ove, Beartown, Anxious People and My Grandmother by premise and reading fit. A transparent shortlist with primary sources."
+  },
+  "/books/genre-fiction/best-civil-war-soldier-memoirs": {
+    "title": "Civil War Soldier Memoirs: Five Accounts and How to Read Them",
+    "description": "Compare Civil War memoirs, diary collections and free texts by perspective, edition and source limits before buying."
+  },
+  "/books/genre-fiction/best-cold-war-thriller-books": {
+    "title": "Cold War Thriller Books: Compare Setting and Story Style",
+    "description": "Choose among le Carré, Deighton, Clancy and McCarry, with Red Sparrow clearly separated as a post-Soviet alternative."
+  },
+  "/books/genre-fiction/best-history-books-for-beginners": {
+    "title": "History Books for Beginners: Choose a Question First",
+    "description": "Compare broad history, Rome, Chicago, science and World War I by scope, sources and edition. Corrected SPQR and Bryson guidance."
+  },
+  "/books/genre-fiction/best-legal-thriller-books": {
+    "title": "Best Legal Thrillers: Five Different Reading Routes",
+    "description": "Compare five legal thrillers by workplace danger, courtroom conflict, defense work and family stakes, with edition checks and primary sources."
+  },
+  "/books/genre-fiction/best-military-fiction-books": {
+    "title": "Best Military Fiction: Novels and Nonfiction Alternatives",
+    "description": "Compare three war-fiction choices and two clearly labeled nonfiction alternatives, with verified translation, author and award details."
+  },
+  "/books/genre-fiction/best-spy-thriller-books": {
+    "title": "Best Spy Thrillers: Six Routes into Espionage Fiction",
+    "description": "Compare Cold War agents, mole investigations, submarine suspense and retired spies, with verified book identities, series and edition checks."
   }
 }

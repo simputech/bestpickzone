@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-29",
+  "environment": "http://127.0.0.1:3118",
+  "method": "Codex in-app browser, complete rendered article reading plus desktop/mobile DOM and visual inspection",
+  "viewportChecks": 40,
+  "pages": [
+    {
+      "path": "/books/best-cyberpunk-novels-all-time",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/best-historical-fiction-books-2026",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/best-psychological-thrillers-with-mind-bending-twists",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/best-sci-fi-doorstoppers-epic-space-opera",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/best-short-classic-books-for-a-flight",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/best-spy-thrillers-realistic",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/best-stephen-king-books",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/best-urban-fantasy-series-completed",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/books-like-dune-hard-sci-fi",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/books-like-fourth-wing-fantasy-romance",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/books-like-it-ends-with-us",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/books-like-verity-psychological-thrillers",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/cormac-mccarthy-where-to-start",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/fredrik-backman-books-ranked",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/genre-fiction/best-civil-war-soldier-memoirs",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/genre-fiction/best-cold-war-thriller-books",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/genre-fiction/best-history-books-for-beginners",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/genre-fiction/best-legal-thriller-books",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/genre-fiction/best-military-fiction-books",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    },
+    {
+      "path": "/books/genre-fiction/best-spy-thriller-books",
+      "widths": [
+        1440,
+        390
+      ],
+      "h1Count": 1,
+      "canonicalPreserved": true,
+      "horizontalOverflow": false,
+      "brokenImages": 0,
+      "badSearchLabelsOrRel": 0,
+      "placeholderLinks": 0,
+      "affiliateDisclosure": true,
+      "fallbackCards": 2,
+      "liveCards": 0,
+      "comparisonRegionFocusable": true,
+      "mobileTableScrollable": true
+    }
+  ],
+  "keyboardTable": "Spy comparison region focused; ArrowRight advanced scrollLeft.",
+  "pending": "Public deployment verification only; final build dates/schema/tags/titles rechecked."
+}
