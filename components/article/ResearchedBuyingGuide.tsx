@@ -9,13 +9,15 @@ export default function ResearchedBuyingGuide({ slug }: { slug: string }) {
   const intro = g.bodyHtml.slice(0, introEnd)
   // Keep wide comparison columns inside a labeled, keyboard-scrollable region.
   const body = g.bodyHtml.slice(introEnd).replace(/<table>/g, '<p class="text-sm text-gray-600 sm:hidden">Swipe or scroll the table to see all columns.</p><div role="region" aria-label="Comparison table: scroll horizontally to see all columns" tabindex="0" class="mb-8 max-w-full overflow-x-auto rounded-2xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-teal-700"><table class="min-w-[36rem]">').replace(/<\/table>/g, '</table></div>')
-  const label = { mahjong: 'Mahjong', coffee: 'Coffee', wfh: 'Work From Home', books: 'Books', 'home-kitchen': 'Home & Kitchen' }[g.silo]
-  const url = `https://bestpickzone.com/${g.silo}/${g.slug}`
+  const label = { mahjong: 'Mahjong', coffee: 'Coffee', wfh: 'Work From Home', books: 'Books', 'home-kitchen': 'Home & Kitchen', tech: 'Tech & Electronics' }[g.silo]
+  const articlePath = g.path ?? `/${g.silo}/${g.slug}`
+  const authorPage = articlePath.startsWith('/books/authors/')
+  const url = `https://bestpickzone.com${articlePath}`
   const schema = { '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description, datePublished: g.publishedDate ?? g.date ?? guideDate, dateModified: g.date ?? guideDate, mainEntityOfPage: url, author: { '@type': 'Organization', name: 'BestPickZone', url: 'https://bestpickzone.com' }, publisher: { '@type': 'Organization', name: 'BestPickZone', url: 'https://bestpickzone.com' } }
   return <main className="mx-auto max-w-5xl px-4 py-10">
-    <BreadcrumbJsonLd trail={[{ name: 'Home', path: '/' }, { name: label, path: `/${g.silo}` }, { name: g.title }]} />
+    <BreadcrumbJsonLd trail={[{ name: 'Home', path: '/' }, { name: label, path: `/${g.silo}` }, ...(authorPage ? [{ name: 'Authors', path: '/books/authors' }] : []), { name: g.title }]} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
-    <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-600"><Link href="/">Home</Link> / <Link href={`/${g.silo}`}>{label}</Link></nav>
+    <nav aria-label="Breadcrumb" className="mb-6 text-sm text-gray-600"><Link href="/">Home</Link> / <Link href={`/${g.silo}`}>{label}</Link>{authorPage && <> / <Link href="/books/authors">Authors</Link></>}</nav>
     <article>
       <header className="rounded-[2rem] bg-gradient-to-br from-slate-950 via-teal-950 to-teal-800 p-6 text-white md:p-9">
         <p className="text-sm font-bold uppercase tracking-widest text-amber-200">BestPickZone buying guide</p>
@@ -26,7 +28,7 @@ export default function ResearchedBuyingGuide({ slug }: { slug: string }) {
       <div className="comparison-html mt-7 rounded-2xl border border-teal-100 bg-teal-50 p-6 text-lg" dangerouslySetInnerHTML={{ __html: intro }} />
       <figure aria-label="Buying decision sequence" className="my-7 grid gap-3 sm:grid-cols-3">{g.visual.map((text, i) => <div key={text} className="rounded-2xl border border-amber-200 bg-amber-50 p-5"><span className="text-2xl font-black text-amber-700">0{i + 1}</span><p className="mt-2 font-semibold text-slate-900">{text}</p></div>)}</figure>
       <div className="comparison-html rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-8" dangerouslySetInnerHTML={{ __html: body }} />
-      <ArticleAmazonProducts path={`/${g.silo}/${g.slug}`} />
+      <ArticleAmazonProducts path={articlePath} />
     </article>
   </main>
 }

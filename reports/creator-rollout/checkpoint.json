@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Validate the complete batch-four draft, obtain independent exact-head review/re-review, preview-test all 20 routes, then publish and verify production before batch five.",
+  "nextAction": "Complete batch-six full-article source review, desktop/mobile and destination checks, then publish all 20 and verify production. Creator API account eligibility remains independently blocked.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",

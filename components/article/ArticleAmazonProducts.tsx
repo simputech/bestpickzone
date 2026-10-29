@@ -6,7 +6,7 @@ import AmazonContentDisclaimer from './AmazonContentDisclaimer'
 
 export default async function ArticleAmazonProducts({ path }: { path: string }) {
   const config = articleCommerce[path]
-  if (!config) return null
+  if (!config || !(config.products?.length || config.books?.length)) return null
   const partnerTag = config.partnerTag || process.env.AMAZON_ASSOCIATE_TAG?.trim() || process.env.NEXT_PUBLIC_AMAZON_TRACKING_ID?.trim() || 'althcu-20'
   const picks = config.products || []
   const products = await Promise.all(picks.map(({ query, ...expected }) => searchAmazonProduct(query, { ...expected, partnerTag })))

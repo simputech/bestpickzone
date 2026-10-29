@@ -374,7 +374,7 @@ export function getShopperHubDirectory(key: keyof typeof shopperHubDirectory) {
   const comparisons = key === 'coffee' ? coffeeComparisonArticles : key === 'wfh' ? wfhComparisonArticles : []
   const candidates = [...buyingGuides.filter(guide => guide.silo === key), ...comparisons]
   const items = candidates.flatMap(guide => {
-    const href = `/${key}/${guide.slug}`
+    const href = 'path' in guide && guide.path ? guide.path : `/${key}/${guide.slug}`
     if (linked.has(href)) return []
     linked.add(href)
     return [{ href, title: guide.title }]

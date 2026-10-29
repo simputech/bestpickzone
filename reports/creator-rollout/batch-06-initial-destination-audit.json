@@ -1,0 +1,214 @@
+{
+  "pages": 20,
+  "targets": 283,
+  "failures": [
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=AirPods+Pro+2",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=AirPods+Pro+2",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Sony+WF-1000XM5",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sony+WF-1000XM5",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wf-1000xm5/specifications",
+      "status": 403,
+      "finalUrl": "https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wf-1000xm5/specifications",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=LG+27GP850-B+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=LG+27GP850-B+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Dell+S2722DGM+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Dell+S2722DGM+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=ASUS+TUF+VG249Q3A+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=ASUS+TUF+VG249Q3A+monitor&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.lg.com/uk/monitors/gaming/27gp850-b/",
+      "status": 403,
+      "finalUrl": "https://www.lg.com/uk/monitors/gaming/27gp850-b/",
+      "error": null
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=MacBook+Air+M3+13+inch",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=MacBook+Air+M3+13+inch",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Lenovo+IdeaPad+Flex+5i",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Lenovo+IdeaPad+Flex+5i",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Dell+XPS+13+2026",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Dell+XPS+13+2026",
+      "error": "TimeoutError"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Acer+Chromebook+Spin+714",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Acer+Chromebook+Spin+714",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.dell.com/support/manuals/en-us/xps-13-9340-laptop/xps-13-9340_owners_manual/display?guid=guid-5579fc11-9b22-44fa-ba0d-ae67ba34e9f8&lang=en-us",
+      "status": 403,
+      "finalUrl": "https://www.dell.com/support/manuals/en-us/xps-13-9340-laptop/xps-13-9340_owners_manual/display?guid=guid-5579fc11-9b22-44fa-ba0d-ae67ba34e9f8&lang=en-us",
+      "error": null
+    },
+    {
+      "url": "https://www.acer.com/br-pt/chromebooks/acer-chromebook-spin-714-cp714-1wn/pdp/NX.K3YAA.001",
+      "status": 0,
+      "finalUrl": "https://www.acer.com/br-pt/chromebooks/acer-chromebook-spin-714-cp714-1wn/pdp/NX.K3YAA.001",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.mathworks.com/hardware-support/system-requirements.html",
+      "status": 403,
+      "finalUrl": "https://www.mathworks.com/hardware-support/system-requirements.html",
+      "error": null
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Keychron+Q5+Max",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Keychron+Q5+Max",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech+MX+Keys+S",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech+MX+Keys+S",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+BlackWidow+V4+75",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+BlackWidow+V4+75",
+      "error": "TimeoutError"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Redragon+K552",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Redragon+K552",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Jabra+Evolve2+Buds",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Jabra+Evolve2+Buds",
+      "error": "TimeoutError"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Soundcore+Liberty+4+NC",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Soundcore+Liberty+4+NC",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.bestbuy.com/site/searchpage.jsp?st=Bose+QuietComfort+Earbuds+II",
+      "status": 0,
+      "finalUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bose+QuietComfort+Earbuds+II",
+      "error": "TimeoutError"
+    },
+    {
+      "url": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/bose-quietcomfort-earbuds-ii/manuals/875097_og_bose-quietcomfort-earbuds-ii_en.pdf",
+      "status": 0,
+      "finalUrl": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/bose-quietcomfort-earbuds-ii/manuals/875097_og_bose-quietcomfort-earbuds-ii_en.pdf",
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.ergotron.com/en-us/products/product-details/45-241",
+      "status": 403,
+      "finalUrl": "https://www.ergotron.com/en-us/products/product-details/45-241",
+      "error": null
+    },
+    {
+      "url": "https://www.esfi.org/extension-cord-safety-tips",
+      "status": 403,
+      "finalUrl": "https://www.esfi.org/extension-cord-safety-tips",
+      "error": null
+    },
+    {
+      "url": "https://www.ergotron.com/en-us/products/product-details/45-475",
+      "status": 403,
+      "finalUrl": "https://www.ergotron.com/en-us/products/product-details/45-475",
+      "error": null
+    },
+    {
+      "url": "https://ehs.princeton.edu/workplace-and-construction-safety/physical-safety/workplace-safety/computer-workstations/setting",
+      "status": 403,
+      "finalUrl": "https://ehs.princeton.edu/workplace-and-construction-safety/physical-safety/workplace-safety/computer-workstations/setting",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Seven-Husbands-of-Evelyn-Hugo/Taylor-Jenkins-Reid/9781501139239",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Seven-Husbands-of-Evelyn-Hugo/Taylor-Jenkins-Reid/9781501139239",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Unhoneymooners/Christina-Lauren/9781501128042",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Unhoneymooners/Christina-Lauren/9781501128042",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-history-books-for-beginners",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3118/books/best-history-books-for-beginners",
+      "error": null
+    },
+    {
+      "url": "https://www.kensingtonbooks.com/shop/chocolate-chip-cookie-murder-9781496724724/",
+      "status": 0,
+      "finalUrl": "https://www.kensingtonbooks.com/shop/chocolate-chip-cookie-murder-9781496724724/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781429967235/stilllife/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781429967235/stilllife/",
+      "error": null
+    }
+  ],
+  "wordCounts": {
+    "/mahjong/best-american-mahjong-sets-on-amazon": 1557,
+    "/mahjong/best-book-to-learn-mahjong": 1748,
+    "/mahjong/best-mahjong-accessories": 2382,
+    "/mahjong/best-mahjong-sets-for-beginners": 1654,
+    "/mahjong/best-travel-mahjong-sets": 1774,
+    "/tech/airpods-pro-vs-sony-wf-1000xm5": 1430,
+    "/tech/best-budget-monitors": 1535,
+    "/tech/best-laptops-for-college-students": 1648,
+    "/tech/best-mechanical-keyboards": 1586,
+    "/tech/best-wireless-earbuds": 1561,
+    "/wfh/best-ergonomic-chairs-for-sciatica-and-lower-back-pain": 1453,
+    "/wfh/best-products-for-your-home-office": 1769,
+    "/wfh/standing-desk-setup-for-dual-monitor-ultrawide-workflow": 1524,
+    "/wfh/ultimate-kitchen-table-home-office-setup": 1521,
+    "/books/agatha-christie-hercule-poirot-in-order": 1461,
+    "/books/authors/authors-like-colleen-hoover": 1489,
+    "/books/authors/best-lee-child-books": 1414,
+    "/books/authors/best-patrick-radden-keefe-books": 1483,
+    "/books/best-brandon-sanderson-cosmere-order": 1464,
+    "/books/best-cozy-mystery-series-to-read": 1627
+  }
+}
