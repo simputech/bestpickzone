@@ -1,0 +1,2094 @@
+{
+  "base": "http://127.0.0.1:3118",
+  "pages": [
+    {
+      "path": "/books/best-books-for-introverts",
+      "status": 200,
+      "mainWords": 1421,
+      "links": 68,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Quiet+Susan+Cain&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Introvert+Power+Laurie+Helgoe&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Quiet%20Susan%20Cain&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Introvert%20Power%20Laurie%20Helgoe&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-for-new-moms",
+      "status": 200,
+      "mainWords": 1529,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Cribsheet+Emily+Oster&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=What+to+Expect+When+Youre+Expecting+Heidi+Murkoff&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Cribsheet%20Emily%20Oster&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=What%20to%20Expect%20When%20You%E2%80%99re%20Expecting%20Heidi%20Murkoff&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-for-reluctant-readers",
+      "status": 200,
+      "mainWords": 1577,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Dog+Man+Dav+Pilkey+book+1&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Diary+of+a+Wimpy+Kid+Jeff+Kinney+book+1&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Dog%20Man%20Dav%20Pilkey&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Diary%20of%20a%20Wimpy%20Kid%20Jeff%20Kinney&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-if-you-loved-harry-potter",
+      "status": 200,
+      "mainWords": 1655,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Lightning+Thief+Rick+Riordan+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Eragon+Christopher+Paolini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Lightning%20Thief%20Rick%20Riordan&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Eragon%20Christopher%20Paolini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-of-all-time",
+      "status": 200,
+      "mainWords": 1774,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=To+Kill+a+Mockingbird+Harper+Lee+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=One+Hundred+Years+of+Solitude+Gregory+Rabassa&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=To%20Kill%20a%20Mockingbird%20Harper%20Lee&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=One%20Hundred%20Years%20of%20Solitude%20Gregory%20Rabassa%20translation%20Gabriel%20Garc%C3%ADa%20M%C3%A1rquez&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-on-creativity",
+      "status": 200,
+      "mainWords": 1561,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=On+Writing+Stephen+King+Memoir+Craft&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Steal+Like+an+Artist+Austin+Kleon&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=On%20Writing%20Stephen%20King&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Steal%20Like%20an%20Artist%20Austin%20Kleon&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-on-habits-and-productivity",
+      "status": 200,
+      "mainWords": 1508,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Deep+Work+Cal+Newport&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Deep%20Work%20Cal%20Newport&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-on-parenting",
+      "status": 200,
+      "mainWords": 1599,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=How+to+Talk+So+Kids+Will+Listen+Adele+Faber+Elaine+Mazlish&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Whole+Brain+Child+Daniel+Siegel+Tina+Payne+Bryson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=How%20to%20Talk%20So%20Kids%20Will%20Listen%20and%20Listen%20So%20Kids%20Will%20Talk%20Adele%20Faber%20and%20Elaine%20Mazlish&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Whole-Brain%20Child%20Daniel%20J.%20Siegel%20and%20Tina%20Payne%20Bryson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-on-psychology",
+      "status": 200,
+      "mainWords": 1470,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Thinking+Fast+and+Slow+Daniel+Kahneman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Influence+New+Expanded+Robert+Cialdini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Thinking%20Fast%20and%20Slow%20Daniel%20Kahneman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Influence%20New%20and%20Expanded%20Robert%20B.%20Cialdini&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-on-relationships",
+      "status": 200,
+      "mainWords": 1628,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Attached+Amir+Levine+Rachel+Heller&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+5+Love+Languages+Gary+Chapman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Attached%20Amir%20Levine%20and%20Rachel%20S.%20F.%20Heller&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%205%20Love%20Languages%20Gary%20Chapman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-on-stoicism",
+      "status": 200,
+      "mainWords": 1457,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Meditations+Marcus+Aurelius+Gregory+Hays&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Letters+from+a+Stoic+Seneca+Robin+Campbell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Meditations%20Gregory%20Hays%20translation%20Marcus%20Aurelius&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Letters%20from%20a%20Stoic%20Robin%20Campbell%20translation%20Seneca&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-set-in-paris",
+      "status": 200,
+      "mainWords": 1492,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=A+Moveable+Feast+Ernest+Hemingway&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Paris+Wife+Paula+McLain&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A%20Moveable%20Feast%20Ernest%20Hemingway&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Paris%20Wife%20Paula%20McLain&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-books-to-read-on-the-beach",
+      "status": 200,
+      "mainWords": 1660,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Beach+Read+Emily+Henry&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Summer+I+Turned+Pretty+Jenny+Han&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Beach%20Read%20Emily%20Henry&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Summer%20I%20Turned%20Pretty%20Jenny%20Han&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-brene-brown-books",
+      "status": 200,
+      "mainWords": 1475,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Daring+Greatly+Brene+Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Gifts+of+Imperfection+Brene+Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Daring%20Greatly%20Bren%C3%A9%20Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Gifts%20of%20Imperfection%20Bren%C3%A9%20Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-business-books",
+      "status": 200,
+      "mainWords": 1569,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Zero+to+One+Peter+Thiel+Blake+Masters&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Lean+Startup+Eric+Ries&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Zero%20to%20One%20Peter%20Thiel%20and%20Blake%20Masters&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Lean%20Startup%20Eric%20Ries&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-christmas-and-holiday-books",
+      "status": 200,
+      "mainWords": 1554,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=A+Christmas+Carol+Charles+Dickens+unabridged&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Christmas+Pig+J+K+Rowling+Jim+Field&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A%20Christmas%20Carol%20Charles%20Dickens&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Christmas%20Pig%20J.%20K.%20Rowling%20and%20Jim%20Field&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-classic-childrens-books",
+      "status": 200,
+      "mainWords": 1497,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Charlottes+Web+E+B+White+Garth+Williams&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Alices+Adventures+in+Wonderland+Lewis+Carroll+John+Tenniel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Charlotte%E2%80%99s%20Web%20E.%20B.%20White%20and%20Garth%20Williams&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Alice%E2%80%99s%20Adventures%20in%20Wonderland%20Lewis%20Carroll%20and%20John%20Tenniel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-classic-novels",
+      "status": 200,
+      "mainWords": 1507,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=To+Kill+a+Mockingbird+Harper+Lee+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Great+Gatsby+F+Scott+Fitzgerald+novel&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=To%20Kill%20a%20Mockingbird%20Harper%20Lee&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Great%20Gatsby%20F.%20Scott%20Fitzgerald&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-colleen-hoover-books",
+      "status": 200,
+      "mainWords": 1561,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=It+Ends+with+Us+Colleen+Hoover&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Verity+Colleen+Hoover&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=It%20Ends%20with%20Us%20Colleen%20Hoover&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Verity%20Colleen%20Hoover&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-cozy-mystery-books",
+      "status": 200,
+      "mainWords": 1579,
+      "links": 70,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Still+Life+Louise+Penny+book+1&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Thursday+Murder+Club+Richard+Osman+book+1&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Still%20Life%20Louise%20Penny&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Thursday%20Murder%20Club%20Richard%20Osman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "url": "http://127.0.0.1:3118/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deal-agent",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deal-agent",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/authors",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/authors",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/genre-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/genre-fiction",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/self-help",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/self-help",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/kids-and-ya",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/kids-and-ya",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/reader-picks",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/reader-picks",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/coffee",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/coffee",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/beauty",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/beauty",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/wfh",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/wfh",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/home-kitchen",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/home-kitchen",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/mahjong",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/mahjong",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deals",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deals",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deal-alerts",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deal-alerts",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/amazon-offers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/amazon-offers",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/tech",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/tech",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/finance-software",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/finance-software",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/health-fitness",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/health-fitness",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/disclosure",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/disclosure",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/22821/quiet-by-susan-cain/9780307352149/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/22821/quiet-by-susan-cain/9780307352149/",
+      "error": null
+    },
+    {
+      "url": "https://www.sourcebooks.com/9781402280887-introvert-power-tp.html",
+      "status": 200,
+      "finalUrl": "https://www.sourcebooks.com/9781402280887-introvert-power-tp.html",
+      "error": null
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/titles/anneli-rufus/party-of-one/9781549173127/",
+      "status": 200,
+      "finalUrl": "https://www.hachettebookgroup.com/titles/anneli-rufus/party-of-one/9781549173127/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Solitude/Anthony-Storr/9780743280747",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Solitude/Anthony-Storr/9780743280747",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Quiet+Susan+Cain&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Quiet+Susan+Cain&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Introvert+Power+Laurie+Helgoe&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Introvert+Power+Laurie+Helgoe&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-on-psychology",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-on-psychology",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Quiet%20Susan%20Cain&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Quiet%20Susan%20Cain&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Introvert%20Power%20Laurie%20Helgoe&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Introvert%20Power%20Laurie%20Helgoe&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-stephen-king-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-stephen-king-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-colleen-hoover-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-colleen-hoover-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-malcolm-gladwell-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-malcolm-gladwell-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-neil-gaiman-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-neil-gaiman-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-haruki-murakami-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-haruki-murakami-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-psychological-thrillers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-psychological-thrillers",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-fantasy-series-for-adults",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-fantasy-series-for-adults",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-horror-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-horror-novels",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-romantasy-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-romantasy-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-historical-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-historical-fiction",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-to-read-on-the-beach",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-to-read-on-the-beach",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-book-club-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-book-club-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-audiobooks-on-audible",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-audiobooks-on-audible",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-feel-good-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-feel-good-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-of-all-time",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-of-all-time",
+      "error": null
+    },
+    {
+      "url": "https://winblackfriday.com/deal-checker",
+      "status": 200,
+      "finalUrl": "https://winblackfriday.com/deal-checker",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/privacy",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/privacy",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/shop/althcu",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/shop/althcu",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.co.uk/books/What-to-Expect-When-Youre-Expecting-6th-Edition/Heidi-Murkoff/9781398537897",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.co.uk/books/What-to-Expect-When-Youre-Expecting-6th-Edition/Heidi-Murkoff/9781398537897",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/310896/expecting-better-by-emily-oster/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/310896/expecting-better-by-emily-oster/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/572658/cribsheet-by-emily-oster/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/572658/cribsheet-by-emily-oster/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/246670/the-happiest-baby-on-the-block-fully-revised-and-updated-second-edition-by-harvey-karp-md/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/246670/the-happiest-baby-on-the-block-fully-revised-and-updated-second-edition-by-harvey-karp-md/",
+      "error": null
+    },
+    {
+      "url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/pages/a-parents-guide-to-safe-sleep.aspx",
+      "status": 200,
+      "finalUrl": "https://www.healthychildren.org/English/ages-stages/baby/sleep/pages/a-parents-guide-to-safe-sleep.aspx",
+      "error": null
+    },
+    {
+      "url": "https://brainrules.net/book/brain-rules-for-baby/",
+      "status": 200,
+      "finalUrl": "https://brainrules.net/book/brain-rules-for-baby/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-on-parenting",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-on-parenting",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-bedtime-books-for-toddlers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-bedtime-books-for-toddlers",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Cribsheet+Emily+Oster&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Cribsheet+Emily+Oster&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=What+to+Expect+When+Youre+Expecting+Heidi+Murkoff&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=What+to+Expect+When+Youre+Expecting+Heidi+Murkoff&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Cribsheet%20Emily%20Oster&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Cribsheet%20Emily%20Oster&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=What%20to%20Expect%20When%20You%E2%80%99re%20Expecting%20Heidi%20Murkoff&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=What%20to%20Expect%20When%20You%E2%80%99re%20Expecting%20Heidi%20Murkoff&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/site/dav-pilkey-books/dog-man-books/dog-man.html",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/site/dav-pilkey-books/dog-man-books/dog-man.html",
+      "error": null
+    },
+    {
+      "url": "https://wimpykid.com/books/diary-of-a-wimpy-kid/",
+      "status": 403,
+      "finalUrl": "https://wimpykid.com/books/diary-of-a-wimpy-kid/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/719942/unico-en-su-clase--big-nate-in-a-class-by-himself-by-lincoln-peirce/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/719942/unico-en-su-clase--big-nate-in-a-class-by-himself-by-lincoln-peirce/",
+      "error": null
+    },
+    {
+      "url": "https://publishing.andrewsmcmeel.com/book/big-nate/",
+      "status": 200,
+      "finalUrl": "https://publishing.andrewsmcmeel.com/book/big-nate/",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/site/dav-pilkey-books/captain-underpants-books/book-1-adventures-of-captain-underpants.html",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/site/dav-pilkey-books/captain-underpants-books/book-1-adventures-of-captain-underpants.html",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/site/dav-pilkey-books/dav-pilkey-captain-underpants-manga-books/captain-underpants-the-first-epic-manga.html",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/site/dav-pilkey-books/dav-pilkey-captain-underpants-manga-books/captain-underpants-the-first-epic-manga.html",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/parents/books-and-reading/book-lists-and-recommendations/series-characters-authors/books-in-the-bad-guys-series.html",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/parents/books-and-reading/book-lists-and-recommendations/series-characters-authors/books-in-the-bad-guys-series.html",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/kids-ya",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3118/books/kids-ya",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-classic-childrens-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-classic-childrens-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Dog+Man+Dav+Pilkey+book+1&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Dog+Man+Dav+Pilkey+book+1&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Diary+of+a+Wimpy+Kid+Jeff+Kinney+book+1&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Diary+of+a+Wimpy+Kid+Jeff+Kinney+book+1&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Dog%20Man%20Dav%20Pilkey&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Dog%20Man%20Dav%20Pilkey&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Diary%20of%20a%20Wimpy%20Kid%20Jeff%20Kinney&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Diary%20of%20a%20Wimpy%20Kid%20Jeff%20Kinney&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://rickriordan.com/book/the-lightning-thief/",
+      "status": 200,
+      "finalUrl": "https://rickriordan.com/book/the-lightning-thief/",
+      "error": null
+    },
+    {
+      "url": "https://www.cslewis.com/the-narnian-order-of-things/",
+      "status": 200,
+      "finalUrl": "https://www.cslewis.com/the-narnian-order-of-things/",
+      "error": null
+    },
+    {
+      "url": "https://www.paolini.net/works/eragon/",
+      "status": 200,
+      "finalUrl": "https://www.paolini.net/works/eragon/",
+      "error": null
+    },
+    {
+      "url": "https://www.patrickrothfuss.com/content/books.html",
+      "status": 403,
+      "finalUrl": "https://www.patrickrothfuss.com/content/books.html",
+      "error": null
+    },
+    {
+      "url": "https://levgrossman.com/book/the-magicians/",
+      "status": 200,
+      "finalUrl": "https://levgrossman.com/book/the-magicians/",
+      "error": null
+    },
+    {
+      "url": "https://levgrossman.com/about/",
+      "status": 200,
+      "finalUrl": "https://levgrossman.com/about/",
+      "error": null
+    },
+    {
+      "url": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
+      "status": 200,
+      "finalUrl": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Lightning+Thief+Rick+Riordan+novel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Lightning+Thief+Rick+Riordan+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Eragon+Christopher+Paolini&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Eragon+Christopher+Paolini&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Lightning%20Thief%20Rick%20Riordan&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Lightning%20Thief%20Rick%20Riordan&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Eragon%20Christopher%20Paolini&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Eragon%20Christopher%20Paolini&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.tokillamockingbird.com/the-book",
+      "status": 200,
+      "finalUrl": "https://www.tokillamockingbird.com/the-book",
+      "error": null
+    },
+    {
+      "url": "https://www.penguin.co.uk/books/57241/one-hundred-years-of-solitude-by-gabriel-garcia-marquez-trans-gregory-rabassa/9780141184999",
+      "status": 200,
+      "finalUrl": "https://www.penguin.co.uk/books/57241/one-hundred-years-of-solitude-by-gabriel-garcia-marquez-trans-gregory-rabassa/9780141184999",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780241347683/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/286337/crime-and-punishment-by-fyodor-dostoyevsky-translated-with-an-introduction-and-notes-by-david-mcduff-cover-illustrated-by-coralie-bickford-smith/9780241347683/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/117647/beloved-pulitzer-prize-winner-by-toni-morrison/9780307264886/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/117647/beloved-pulitzer-prize-winner-by-toni-morrison/9780307264886/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/124996/1984-by-george-orwell-introduction-by-julian-symons/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/124996/1984-by-george-orwell-introduction-by-julian-symons/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Great-Gatsby/F-Scott-Fitzgerald/9781982149482",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Great-Gatsby/F-Scott-Fitzgerald/9781982149482",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/authors/45037/edith-grossman/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/authors/45037/edith-grossman/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-classic-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-classic-novels",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=To+Kill+a+Mockingbird+Harper+Lee+novel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=To+Kill+a+Mockingbird+Harper+Lee+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=One+Hundred+Years+of+Solitude+Gregory+Rabassa&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=One+Hundred+Years+of+Solitude+Gregory+Rabassa&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=To%20Kill%20a%20Mockingbird%20Harper%20Lee&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=To%20Kill%20a%20Mockingbird%20Harper%20Lee&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=One%20Hundred%20Years%20of%20Solitude%20Gregory%20Rabassa%20translation%20Gabriel%20Garc%C3%ADa%20M%C3%A1rquez&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=One%20Hundred%20Years%20of%20Solitude%20Gregory%20Rabassa%20translation%20Gabriel%20Garc%C3%ADa%20M%C3%A1rquez&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/On-Writing/Stephen-King/9781982159375",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/On-Writing/Stephen-King/9781982159375",
+      "error": null
+    },
+    {
+      "url": "https://austinkleon.com/steal/",
+      "status": 200,
+      "finalUrl": "https://austinkleon.com/steal/",
+      "error": null
+    },
+    {
+      "url": "https://austinkleon.com/books/",
+      "status": 200,
+      "finalUrl": "https://austinkleon.com/books/",
+      "error": null
+    },
+    {
+      "url": "https://stevenpressfield.com/tag/the-war-of-art/",
+      "status": 200,
+      "finalUrl": "https://stevenpressfield.com/tag/the-war-of-art/",
+      "error": null
+    },
+    {
+      "url": "https://www.elizabethgilbert.com/books/big-magic/",
+      "status": 200,
+      "finalUrl": "https://www.elizabethgilbert.com/books/big-magic/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/the-read-down/the-best-books-on-writing",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/the-read-down/the-best-books-on-writing",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-on-habits-and-productivity",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-on-habits-and-productivity",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=On+Writing+Stephen+King+Memoir+Craft&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=On+Writing+Stephen+King+Memoir+Craft&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Steal+Like+an+Artist+Austin+Kleon&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Steal+Like+an+Artist+Austin+Kleon&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=On%20Writing%20Stephen%20King&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=On%20Writing%20Stephen%20King&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Steal%20Like%20an%20Artist%20Austin%20Kleon&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Steal%20Like%20an%20Artist%20Austin%20Kleon&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://jamesclear.com/atomic-habits",
+      "status": 200,
+      "finalUrl": "https://jamesclear.com/atomic-habits",
+      "error": null
+    },
+    {
+      "url": "https://calnewport.com/writing/",
+      "status": 200,
+      "finalUrl": "https://calnewport.com/writing/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/316489/getting-things-done-by-david-allen/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/316489/getting-things-done-by-david-allen/",
+      "error": null
+    },
+    {
+      "url": "https://gettingthingsdone.com/what-is-gtd/",
+      "status": 200,
+      "finalUrl": "https://gettingthingsdone.com/what-is-gtd/",
+      "error": null
+    },
+    {
+      "url": "https://gregmckeown.com/books/essentialism/",
+      "status": 200,
+      "finalUrl": "https://gregmckeown.com/books/essentialism/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9780374715243/fourthousandweeks/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9780374715243/fourthousandweeks/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-on-creativity",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-on-creativity",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Deep+Work+Cal+Newport&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Deep+Work+Cal+Newport&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Deep%20Work%20Cal%20Newport&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Deep%20Work%20Cal%20Newport&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-for-new-moms",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-for-new-moms",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/How-to-Talk-So-Kids-Will-Listen-Listen-So-Kids-Will-Talk/Adele-Faber/The-How-To-Talk-Series/9781451663877",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/How-to-Talk-So-Kids-Will-Listen-Listen-So-Kids-Will-Talk/Adele-Faber/The-How-To-Talk-Series/9781451663877",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/200276/the-whole-brain-child-by-daniel-j-siegel-md-and-tina-payne-bryson-phd/9780553907254/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/200276/the-whole-brain-child-by-daniel-j-siegel-md-and-tina-payne-bryson-phd/9780553907254/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/228322/no-drama-discipline-by-daniel-j-siegel-md-and-tina-payne-bryson-phd/9780345548061/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/228322/no-drama-discipline-by-daniel-j-siegel-md-and-tina-payne-bryson-phd/9780345548061/",
+      "error": null
+    },
+    {
+      "url": "https://drlisadamour.com/resource/untangled-revised-new-edition-of-an-enduring-bestseller/",
+      "status": 200,
+      "finalUrl": "https://drlisadamour.com/resource/untangled-revised-new-edition-of-an-enduring-bestseller/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Hunt-Gather-Parent/Michaeleen-Doucleff/9781982149673",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Hunt-Gather-Parent/Michaeleen-Doucleff/9781982149673",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=How+to+Talk+So+Kids+Will+Listen+Adele+Faber+Elaine+Mazlish&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=How+to+Talk+So+Kids+Will+Listen+Adele+Faber+Elaine+Mazlish&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Whole+Brain+Child+Daniel+Siegel+Tina+Payne+Bryson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Whole+Brain+Child+Daniel+Siegel+Tina+Payne+Bryson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=How%20to%20Talk%20So%20Kids%20Will%20Listen%20and%20Listen%20So%20Kids%20Will%20Talk%20Adele%20Faber%20and%20Elaine%20Mazlish&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=How%20to%20Talk%20So%20Kids%20Will%20Listen%20and%20Listen%20So%20Kids%20Will%20Talk%20Adele%20Faber%20and%20Elaine%20Mazlish&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Whole-Brain%20Child%20Daniel%20J.%20Siegel%20and%20Tina%20Payne%20Bryson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Whole-Brain%20Child%20Daniel%20J.%20Siegel%20and%20Tina%20Payne%20Bryson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+      "error": null
+    },
+    {
+      "url": "https://www.influenceatwork.com/announcement/the-new-revision-of-influence/",
+      "status": 200,
+      "finalUrl": "https://www.influenceatwork.com/announcement/the-new-revision-of-influence/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-for-introverts",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-for-introverts",
+      "error": null
+    },
+    {
+      "url": "https://danariely.com/books/predictably-irrational/",
+      "status": 200,
+      "finalUrl": "https://danariely.com/books/predictably-irrational/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/9780143127741/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/313183/the-body-keeps-the-score-by-bessel-van-der-kolk-md/9780143127741/",
+      "error": null
+    },
+    {
+      "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+      "status": 200,
+      "finalUrl": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-on-relationships",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-on-relationships",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Thinking+Fast+and+Slow+Daniel+Kahneman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Thinking+Fast+and+Slow+Daniel+Kahneman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Influence+New+Expanded+Robert+Cialdini&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Influence+New+Expanded+Robert+Cialdini&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Thinking%20Fast%20and%20Slow%20Daniel%20Kahneman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Thinking%20Fast%20and%20Slow%20Daniel%20Kahneman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Influence%20New%20and%20Expanded%20Robert%20B.%20Cialdini&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Influence%20New%20and%20Expanded%20Robert%20B.%20Cialdini&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/303069/attached-by-amir-levine-md-and-rachel-sf-heller-ma/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/303069/attached-by-amir-levine-md-and-rachel-sf-heller-ma/",
+      "error": null
+    },
+    {
+      "url": "https://www.moodypublishers.com/the-5-love-languagesreg?variationCode=978-0-8024-3846-1",
+      "status": 200,
+      "finalUrl": "https://www.moodypublishers.com/the-5-love-languagesreg?variationCode=978-0-8024-3846-1",
+      "error": null
+    },
+    {
+      "url": "https://www.psychologicalscience.org/journals/current-directions/09637214231217663/",
+      "status": 200,
+      "finalUrl": "https://www.psychologicalscience.org/journals/current-directions/09637214231217663/",
+      "error": null
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/titles/sue-johnson/hold-me-tight/9780316113007/",
+      "status": 200,
+      "finalUrl": "https://www.hachettebookgroup.com/titles/sue-johnson/hold-me-tight/9780316113007/",
+      "error": null
+    },
+    {
+      "url": "https://www.hachettebookgroup.com/series/dr-sue-johnson/the-dr-sue-johnson-collection/",
+      "status": 200,
+      "finalUrl": "https://www.hachettebookgroup.com/series/dr-sue-johnson/the-dr-sue-johnson-collection/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/248395/the-seven-principles-for-making-marriage-work-by-john-gottman-phd-and-nan-silver/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/248395/the-seven-principles-for-making-marriage-work-by-john-gottman-phd-and-nan-silver/",
+      "error": null
+    },
+    {
+      "url": "https://www.estherperel.com/mating-in-captivity",
+      "status": 200,
+      "finalUrl": "https://www.estherperel.com/mating-in-captivity",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-for-couples",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-for-couples",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Attached+Amir+Levine+Rachel+Heller&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Attached+Amir+Levine+Rachel+Heller&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+5+Love+Languages+Gary+Chapman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+5+Love+Languages+Gary+Chapman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Attached%20Amir%20Levine%20and%20Rachel%20S.%20F.%20Heller&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Attached%20Amir%20Levine%20and%20Rachel%20S.%20F.%20Heller&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%205%20Love%20Languages%20Gary%20Chapman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%205%20Love%20Languages%20Gary%20Chapman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/6367/meditations-by-marcus-aurelius/9781588361738/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/6367/meditations-by-marcus-aurelius/9781588361738/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/317438/letters-from-a-stoic-by-seneca-translated-with-an-introduction-by-robin-campbell-cover-illustrated-by-coralie-bickford-smith/9780140442106/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/317438/letters-from-a-stoic-by-seneca-translated-with-an-introduction-by-robin-campbell-cover-illustrated-by-coralie-bickford-smith/9780140442106/",
+      "error": null
+    },
+    {
+      "url": "https://hackettpublishing.com/classics?p=8",
+      "status": 200,
+      "finalUrl": "https://hackettpublishing.com/classics?p=8",
+      "error": null
+    },
+    {
+      "url": "https://academic.oup.com/book/50088",
+      "status": 403,
+      "finalUrl": "https://academic.oup.com/book/50088",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/314003/the-obstacle-is-the-way-expanded-10th-anniversary-edition-by-ryan-holiday/9780593719923/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/314003/the-obstacle-is-the-way-expanded-10th-anniversary-edition-by-ryan-holiday/9780593719923/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Meditations+Marcus+Aurelius+Gregory+Hays&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Meditations+Marcus+Aurelius+Gregory+Hays&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Letters+from+a+Stoic+Seneca+Robin+Campbell&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Letters+from+a+Stoic+Seneca+Robin+Campbell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Meditations%20Gregory%20Hays%20translation%20Marcus%20Aurelius&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Meditations%20Gregory%20Hays%20translation%20Marcus%20Aurelius&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Letters%20from%20a%20Stoic%20Robin%20Campbell%20translation%20Seneca&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Letters%20from%20a%20Stoic%20Robin%20Campbell%20translation%20Seneca&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/A-Moveable-Feast/Ernest-Hemingway/9780684833637",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/A-Moveable-Feast/Ernest-Hemingway/9780684833637",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/A-Moveable-Feast-The-Restored-Edition/Ernest-Hemingway/9781439182710",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/A-Moveable-Feast-The-Restored-Edition/Ernest-Hemingway/9781439182710",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/201138/the-paris-wife-by-paula-mclain/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/201138/the-paris-wife-by-paula-mclain/",
+      "error": null
+    },
+    {
+      "url": "https://www.sourcebooks.com/9781402294150-the-paris-architect-tp.html",
+      "status": 200,
+      "finalUrl": "https://www.sourcebooks.com/9781402294150-the-paris-architect-tp.html",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/120697/suite-francaise-by-irene-nemirovsky/readers-guide/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/120697/suite-francaise-by-irene-nemirovsky/readers-guide/",
+      "error": null
+    },
+    {
+      "url": "https://www.anthonydoerr.com/books/all-the-light-we-cannot-see/",
+      "status": 200,
+      "finalUrl": "https://www.anthonydoerr.com/books/all-the-light-we-cannot-see/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Moveable+Feast+Ernest+Hemingway&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A+Moveable+Feast+Ernest+Hemingway&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Paris+Wife+Paula+McLain&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Paris+Wife+Paula+McLain&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A%20Moveable%20Feast%20Ernest%20Hemingway&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A%20Moveable%20Feast%20Ernest%20Hemingway&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Paris%20Wife%20Paula%20McLain&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Paris%20Wife%20Paula%20McLain&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/608898/beach-read-by-emily-henry/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/608898/beach-read-by-emily-henry/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Summer-I-Turned-Pretty/Jenny-Han/The-Summer-I-Turned-Pretty/9781416968238",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Summer-I-Turned-Pretty/Jenny-Han/The-Summer-I-Turned-Pretty/9781416968238",
+      "error": null
+    },
+    {
+      "url": "https://taylorjenkinsreid.com/books/malibu-rising/",
+      "status": 200,
+      "finalUrl": "https://taylorjenkinsreid.com/books/malibu-rising/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/313796/the-vacationers-by-emma-straub/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/313796/the-vacationers-by-emma-straub/",
+      "error": null
+    },
+    {
+      "url": "https://taylorjenkinsreid.com/books/daisy-jones-and-the-six/",
+      "status": 200,
+      "finalUrl": "https://taylorjenkinsreid.com/books/daisy-jones-and-the-six/",
+      "error": null
+    },
+    {
+      "url": "https://assets.penguinrandomhouse.com/book-resumes/OwensDelia_WhereTheCrawdadsSing_20240719.pdf",
+      "status": 200,
+      "finalUrl": "https://assets.penguinrandomhouse.com/book-resumes/OwensDelia_WhereTheCrawdadsSing_20240719.pdf",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-beach-reads",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-beach-reads",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Beach+Read+Emily+Henry&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Beach+Read+Emily+Henry&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Summer+I+Turned+Pretty+Jenny+Han&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Summer+I+Turned+Pretty+Jenny+Han&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Beach%20Read%20Emily%20Henry&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Beach%20Read%20Emily%20Henry&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Summer%20I%20Turned%20Pretty%20Jenny%20Han&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Summer%20I%20Turned%20Pretty%20Jenny%20Han&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deals/e-readers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deals/e-readers",
+      "error": null
+    },
+    {
+      "url": "https://brenebrown.com/book/the-gifts-of-imperfection/",
+      "status": 403,
+      "finalUrl": "https://brenebrown.com/book/the-gifts-of-imperfection/",
+      "error": null
+    },
+    {
+      "url": "https://brenebrown.com/book/daring-greatly/",
+      "status": 403,
+      "finalUrl": "https://brenebrown.com/book/daring-greatly/",
+      "error": null
+    },
+    {
+      "url": "https://brenebrown.com/book/dare-to-lead/",
+      "status": 403,
+      "finalUrl": "https://brenebrown.com/book/dare-to-lead/",
+      "error": null
+    },
+    {
+      "url": "https://brenebrown.com/resources/",
+      "status": 403,
+      "finalUrl": "https://brenebrown.com/resources/",
+      "error": null
+    },
+    {
+      "url": "https://brenebrown.com/book/braving-the-wilderness/",
+      "status": 403,
+      "finalUrl": "https://brenebrown.com/book/braving-the-wilderness/",
+      "error": null
+    },
+    {
+      "url": "https://brenebrown.com/book/atlas-of-the-heart/",
+      "status": 403,
+      "finalUrl": "https://brenebrown.com/book/atlas-of-the-heart/",
+      "error": null
+    },
+    {
+      "url": "https://brenebrown.com/book/",
+      "status": 403,
+      "finalUrl": "https://brenebrown.com/book/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Daring+Greatly+Brene+Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Daring+Greatly+Brene+Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Gifts+of+Imperfection+Brene+Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Gifts+of+Imperfection+Brene+Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Daring%20Greatly%20Bren%C3%A9%20Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Daring%20Greatly%20Bren%C3%A9%20Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Gifts%20of%20Imperfection%20Bren%C3%A9%20Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Gifts%20of%20Imperfection%20Bren%C3%A9%20Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/234730/zero-to-one-by-peter-thiel-with-blake-masters/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/210088/the-lean-startup-by-eric-ries/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/210088/the-lean-startup-by-eric-ries/",
+      "error": null
+    },
+    {
+      "url": "https://theleanstartup.com/book",
+      "status": 200,
+      "finalUrl": "https://theleanstartup.com/book",
+      "error": null
+    },
+    {
+      "url": "https://www.michaelegerbercompanies.com/product/the-e-myth-revisited/",
+      "status": 200,
+      "finalUrl": "https://michaelegerbercompanies.com/product/the-e-myth-revisited/",
+      "error": null
+    },
+    {
+      "url": "https://www.jimcollins.com/article_topics/articles/good-to-great.html",
+      "status": 200,
+      "finalUrl": "https://www.jimcollins.com/article_topics/articles/good-to-great.html",
+      "error": null
+    },
+    {
+      "url": "https://www.jimcollins.com/books.html",
+      "status": 200,
+      "finalUrl": "https://www.jimcollins.com/books.html",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.net/books/Shoe-Dog/Phil-Knight/9781501135927",
+      "status": 200,
+      "finalUrl": "https://www.simonandschuster.net/books/Shoe-Dog/Phil-Knight/9781501135927",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Shoe-Dog/Phil-Knight/9781534401181",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Shoe-Dog/Phil-Knight/9781534401181",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-for-entrepreneurs",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-for-entrepreneurs",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Zero+to+One+Peter+Thiel+Blake+Masters&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Zero+to+One+Peter+Thiel+Blake+Masters&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Lean+Startup+Eric+Ries&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Lean+Startup+Eric+Ries&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Zero%20to%20One%20Peter%20Thiel%20and%20Blake%20Masters&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Zero%20to%20One%20Peter%20Thiel%20and%20Blake%20Masters&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Lean%20Startup%20Eric%20Ries&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Lean%20Startup%20Eric%20Ries&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/292399/a-christmas-carol-and-other-christmas-writings-by-charles-dickens/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/292399/a-christmas-carol-and-other-christmas-writings-by-charles-dickens/",
+      "error": null
+    },
+    {
+      "url": "https://www.scholastic.com/site/thechristmaspig.html",
+      "status": 200,
+      "finalUrl": "https://www.scholastic.com/site/thechristmaspig.html",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/In-a-Holidaze/Christina-Lauren/9781982123949",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/In-a-Holidaze/Christina-Lauren/9781982123949",
+      "error": null
+    },
+    {
+      "url": "https://jgrisham.com/skipping-christmas",
+      "status": 200,
+      "finalUrl": "https://jgrisham.com/skipping-christmas",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/572903/one-day-in-december-reeses-book-club-by-josie-silver/9780525574682/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/572903/one-day-in-december-reeses-book-club-by-josie-silver/9780525574682/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Christmas+Carol+Charles+Dickens+unabridged&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A+Christmas+Carol+Charles+Dickens+unabridged&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Christmas+Pig+J+K+Rowling+Jim+Field&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Christmas+Pig+J+K+Rowling+Jim+Field&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A%20Christmas%20Carol%20Charles%20Dickens&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A%20Christmas%20Carol%20Charles%20Dickens&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Christmas%20Pig%20J.%20K.%20Rowling%20and%20Jim%20Field&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Christmas%20Pig%20J.%20K.%20Rowling%20and%20Jim%20Field&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://harpercollinschildrensbooks.co.uk/products/charlottes-web-e-b-white-9780008139414/",
+      "status": 200,
+      "finalUrl": "https://harpercollinschildrensbooks.co.uk/products/charlottes-web-e-b-white-9780008139414/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/24500/alices-adventures-in-wonderland-and-through-the-looking-glass-by-lewis-carroll/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/24500/alices-adventures-in-wonderland-and-through-the-looking-glass-by-lewis-carroll/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguin.co.uk/books/395987/little-women-and-good-wives-by-alcott-louisa-may/9780099511496",
+      "status": 200,
+      "finalUrl": "https://www.penguin.co.uk/books/395987/little-women-and-good-wives-by-alcott-louisa-may/9780099511496",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/643591/treasure-island-by-robert-louis-stevenson-illustrated-by-john-lawrence/",
+      "status": 404,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/643591/treasure-island-by-robert-louis-stevenson-illustrated-by-john-lawrence/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/642972/the-wind-in-the-willows-by-kenneth-grahame-illustrated-by-grahame-baker-smith/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/642972/the-wind-in-the-willows-by-kenneth-grahame-illustrated-by-grahame-baker-smith/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-for-reluctant-readers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-for-reluctant-readers",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Charlottes+Web+E+B+White+Garth+Williams&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Charlottes+Web+E+B+White+Garth+Williams&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Alices+Adventures+in+Wonderland+Lewis+Carroll+John+Tenniel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Alices+Adventures+in+Wonderland+Lewis+Carroll+John+Tenniel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Charlotte%E2%80%99s%20Web%20E.%20B.%20White%20and%20Garth%20Williams&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Charlotte%E2%80%99s%20Web%20E.%20B.%20White%20and%20Garth%20Williams&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Alice%E2%80%99s%20Adventures%20in%20Wonderland%20Lewis%20Carroll%20and%20John%20Tenniel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Alice%E2%80%99s%20Adventures%20in%20Wonderland%20Lewis%20Carroll%20and%20John%20Tenniel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/286387/pride-and-prejudice-by-jane-austen-edited-with-an-introduction-and-notes-by-vivien-jones-original-penguin-classics-introduction-by-tony-tanner-cover-by-coralie-bickford-smith/9780141439518/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/286387/pride-and-prejudice-by-jane-austen-edited-with-an-introduction-and-notes-by-vivien-jones-original-penguin-classics-introduction-by-tony-tanner-cover-by-coralie-bickford-smith/9780141439518/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/354251/of-mice-and-men-by-john-steinbeck/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/354251/of-mice-and-men-by-john-steinbeck/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Great+Gatsby+F+Scott+Fitzgerald+novel&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Great+Gatsby+F+Scott+Fitzgerald+novel&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Great%20Gatsby%20F.%20Scott%20Fitzgerald&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Great%20Gatsby%20F.%20Scott%20Fitzgerald&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/p/colleenhoover",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/p/colleenhoover",
+      "error": null
+    },
+    {
+      "url": "https://www.colleenhoover.com/pages/books",
+      "status": 200,
+      "finalUrl": "https://www.colleenhoover.com/pages/books",
+      "error": null
+    },
+    {
+      "url": "https://www.hachette.co.uk/titles/colleen-hoover/verity/9781408727034/",
+      "status": 200,
+      "finalUrl": "https://www.hachette.co.uk/titles/colleen-hoover/verity/9781408727034/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Ugly-Love/Colleen-Hoover/9781476753188",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Ugly-Love/Colleen-Hoover/9781476753188",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/November-9/Colleen-Hoover/9781501110344",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/November-9/Colleen-Hoover/9781501110344",
+      "error": null
+    },
+    {
+      "url": "https://www.colleenhoover.com/products/reminder-of-him",
+      "status": 200,
+      "finalUrl": "https://www.colleenhoover.com/products/reminder-of-him",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Confess/Colleen-Hoover/9781476791456",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Confess/Colleen-Hoover/9781476791456",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-for-book-clubs",
+      "status": 404,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-for-book-clubs",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=It+Ends+with+Us+Colleen+Hoover&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=It+Ends+with+Us+Colleen+Hoover&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Verity+Colleen+Hoover&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Verity+Colleen+Hoover&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=It%20Ends%20with%20Us%20Colleen%20Hoover&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=It%20Ends%20with%20Us%20Colleen%20Hoover&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Verity%20Colleen%20Hoover&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Verity%20Colleen%20Hoover&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/665404/arsenic-and-adobo-by-mia-p-manansala/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/665404/arsenic-and-adobo-by-mia-p-manansala/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/RKM/a-tita-rosies-kitchen-mystery/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/RKM/a-tita-rosies-kitchen-mystery/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/TM9/a-thursday-murder-club-mystery/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/TM9/a-thursday-murder-club-mystery/",
+      "error": null
+    },
+    {
+      "url": "https://www.agathachristie.com/stories/the-murder-at-the-vicarage",
+      "status": 200,
+      "finalUrl": "https://www.agathachristie.com/stories/the-murder-at-the-vicarage",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9780312541538/stilllife/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9780312541538/stilllife/",
+      "error": null
+    },
+    {
+      "url": "https://groveatlantic.com/book/death-at-la-fenice/",
+      "status": 200,
+      "finalUrl": "https://groveatlantic.com/book/death-at-la-fenice/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Still+Life+Louise+Penny+book+1&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Still+Life+Louise+Penny+book+1&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Thursday+Murder+Club+Richard+Osman+book+1&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Thursday+Murder+Club+Richard+Osman+book+1&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Still%20Life%20Louise%20Penny&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Still%20Life%20Louise%20Penny&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Thursday%20Murder%20Club%20Richard%20Osman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Thursday%20Murder%20Club%20Richard%20Osman&tag=althcu-20",
+      "error": null
+    }
+  ],
+  "note": "HTTP link checks are not proof of product identity or stock; blocked automated destinations require browser/source review."
+}

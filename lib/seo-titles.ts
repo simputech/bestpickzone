@@ -11,7 +11,7 @@ export const SEO_TITLES: Record<string, string> = {
   '/books/authors': 'Best Books by Author: Reading Guides',
   '/books/authors/authors-like-colleen-hoover': '7 Authors Like Colleen Hoover: Choose by Story',
   '/books/authors/best-lee-child-books': 'Lee Child Books: Where to Start With Jack Reacher',
-  '/books/best-colleen-hoover-books': 'Best Colleen Hoover Books: Where to Start (2026)',
+  '/books/best-colleen-hoover-books': "Colleen Hoover Books: Six Picks and Reading Order",
   '/books/best-stephen-king-books': "Best Stephen King Books: Five Starting Points",
   '/books/daring-greatly-vs-the-gifts-of-imperfection': 'Daring Greatly vs. The Gifts of Imperfection',
   '/books/genre-fiction': 'Best Genre Fiction: Thrillers, Fantasy & Romance',

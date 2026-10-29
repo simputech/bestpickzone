@@ -450,5 +450,85 @@
   "/books/best-books-for-high-school-students": {
     "title": "Books for High School Students: Five Novels Compared",
     "description": "Compare five novels by narrative focus, content considerations and discussion questions, with edition checks for school assignments."
+  },
+  "/books/best-books-for-introverts": {
+    "title": "Books for Introverts: Four Different Starting Points",
+    "description": "Compare Quiet, Introvert Power, Party of One and Solitude by purpose, tone, format and edition before choosing your next read."
+  },
+  "/books/best-books-for-new-moms": {
+    "title": "Books for Expecting and New Parents: Five Clear Choices",
+    "description": "Compare pregnancy references, infant-care approaches and development books, with edition checks and current safe-sleep context."
+  },
+  "/books/best-books-for-reluctant-readers": {
+    "title": "Books for Reluctant Readers: Five Illustrated Series",
+    "description": "Compare Dog Man, Wimpy Kid, Big Nate, Captain Underpants and The Bad Guys by format, first volume and the reader’s interests."
+  },
+  "/books/best-books-if-you-loved-harry-potter": {
+    "title": "Books After Harry Potter: Six Worlds to Explore",
+    "description": "Choose a next fantasy by friendship, magical school, dragons or rebellion, with audience guidance and clear series starting points."
+  },
+  "/books/best-books-of-all-time": {
+    "title": "Best Books of All Time: Seven Novels to Consider",
+    "description": "Compare seven enduring novels by theme, narrative style and reading commitment, with translation and edition checks for a useful first choice."
+  },
+  "/books/best-books-on-creativity": {
+    "title": "Books on Creativity: Five Approaches to Making Work",
+    "description": "Compare King, Kleon, Pressfield, Gilbert and Lamott by craft, motivation, format and practical fit for your next creative project."
+  },
+  "/books/best-books-on-habits-and-productivity": {
+    "title": "Habit and Productivity Books: Choose the Right Approach",
+    "description": "Compare Atomic Habits, Deep Work, Getting Things Done, Essentialism and Four Thousand Weeks by the problem you want to address."
+  },
+  "/books/best-books-on-parenting": {
+    "title": "Parenting Books: Five Approaches and Their Limits",
+    "description": "Compare communication, discipline, adolescence and reported parenting perspectives, with edition checks and clear limits on outcome claims."
+  },
+  "/books/best-books-on-psychology": {
+    "title": "Psychology Books: Five Subjects and How to Choose",
+    "description": "Compare books on judgment, persuasion, introversion, decision-making and trauma without confusing popular frameworks with diagnosis."
+  },
+  "/books/best-books-on-relationships": {
+    "title": "Relationship Books: Five Frameworks Compared",
+    "description": "Compare attachment, love languages, emotional connection, relationship exercises and desire, with author and edition checks."
+  },
+  "/books/best-books-on-stoicism": {
+    "title": "Stoicism Books: Ancient Texts and Modern Guides",
+    "description": "Compare Marcus Aurelius, Seneca, Epictetus, Irvine and Holiday by purpose, translation, selected contents and edition."
+  },
+  "/books/best-books-set-in-paris": {
+    "title": "Books Set in Paris: Five Reads and Their Real Settings",
+    "description": "Compare Paris memoir and historical fiction, with clear limits for Suite Francaise and All the Light We Cannot See and an edition guide."
+  },
+  "/books/best-books-to-read-on-the-beach": {
+    "title": "Books to Read on the Beach: Six Choices by Mood",
+    "description": "Choose among romance, family drama, a fictional band history and mystery, with format advice and honest notes on heavier themes."
+  },
+  "/books/best-brene-brown-books": {
+    "title": "Brené Brown Books: Five Useful Starting Points",
+    "description": "Choose a Brene Brown book by vulnerability, belonging, leadership or emotional vocabulary, with edition and format distinctions."
+  },
+  "/books/best-business-books": {
+    "title": "Business Books: Five Different Questions to Explore",
+    "description": "Compare Zero to One, The Lean Startup, The E-Myth Revisited, Good to Great and Shoe Dog by business purpose and limits."
+  },
+  "/books/best-christmas-and-holiday-books": {
+    "title": "Christmas and Holiday Books: Five Different Reading Moods",
+    "description": "Compare Christmas classics, family fantasy and adult holiday novels, with edition checks and clear distinctions between seasonal atmosphere and story tone."
+  },
+  "/books/best-classic-childrens-books": {
+    "title": "Classic Children’s Books: Five Stories to Share",
+    "description": "Choose classic children’s books by story, illustration, complete text and reading preferences, with practical notes on difficult themes and editions."
+  },
+  "/books/best-classic-novels": {
+    "title": "Classic Novels: Five Starting Points by Reading Experience",
+    "description": "Compare Austen, Fitzgerald, Lee, Orwell and Steinbeck by narrative style, subject matter and edition, without a one-size-fits-all reading list."
+  },
+  "/books/best-colleen-hoover-books": {
+    "title": "Colleen Hoover Books: Six Starting Points and Reading Order",
+    "description": "Compare six Colleen Hoover novels by story, mature themes, reading order and edition, including the difference between Verity extras and a sequel."
+  },
+  "/books/best-cozy-mystery-books": {
+    "title": "Cozy Mystery Books: Five Community-Centered Starting Points",
+    "description": "Compare amateur mysteries, a Miss Marple classic and police-led alternatives, with clear tone distinctions and first-volume checks."
   }
 }
