@@ -1,0 +1,157 @@
+{
+  "environment": "local production build",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 1440,
+      "height": 1000
+    }
+  ],
+  "checks": 40,
+  "failures": [],
+  "perPath": [
+    {
+      "path": "/home-kitchen/best-air-fryer-accessories",
+      "checksPassed": 2,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-back-to-school-gadgets",
+      "checksPassed": 2,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-car-cleaning-products",
+      "checksPassed": 2,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-dorm-organization-products",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-dorm-room-essentials",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-fall-clothes-for-couples",
+      "checksPassed": 2,
+      "fallbackCards": 0,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-halloween-candy-deals-on-amazon",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-kids-fort-for-girls-2026",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-kitchenaid-attachments-worth-buying",
+      "checksPassed": 2,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-pet-travel-products",
+      "checksPassed": 2,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-picnic-essentials",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-productivity-products-for-students",
+      "checksPassed": 2,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-products-for-your-backyard",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-products-for-your-dorm-room",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-solar-powered-attic-fans",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-study-desk-essentials",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/best-tech-for-college-students",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/is-ge-opal-2-0-nugget-ice-maker-worth-it",
+      "checksPassed": 2,
+      "fallbackCards": 1,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven",
+      "checksPassed": 2,
+      "fallbackCards": 2,
+      "liveCards": 0
+    },
+    {
+      "path": "/home-kitchen/oxo-vs-chefn-corn-stripper",
+      "checksPassed": 2,
+      "fallbackCards": 0,
+      "liveCards": 0
+    }
+  ],
+  "checksApplied": [
+    "document overflow",
+    "exactly one H1",
+    "title <=70 characters",
+    "canonical",
+    "affiliate disclosure",
+    "no placeholder links",
+    "all search anchors labeled",
+    "sponsored attributes",
+    "althcu-20 preserved",
+    "image load and alt where present"
+  ],
+  "fullArticleReadCount": 19,
+  "corn": "Already fully reviewed corrective release; responsive regression checked again.",
+  "keyboardTableScroll": {
+    "clientWidth": 316,
+    "scrollWidth": 576,
+    "scrollLeftAfterArrowRight": 45
+  },
+  "images": "No unverified product images are substituted for API fallbacks; these pages render no article img elements."
+}

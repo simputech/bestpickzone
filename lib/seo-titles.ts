@@ -42,7 +42,7 @@ export const SEO_TITLES: Record<string, string> = {
   '/home-kitchen/instant-pot-vs-ninja-foodi': 'Instant Pot Duo vs. Foodi: Models and Recall Check',
   '/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press': 'KitchenAid Pasta Roller vs. Pasta Press: Which Fits?',
   '/home-kitchen/ninja-creami-containers-compatibility': 'Ninja CREAMi Container Compatibility by Model',
-  '/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven': 'Ooni vs Gozney: Best Outdoor Pizza Oven (2026)',
+  '/home-kitchen/ooni-vs-gozney-best-outdoor-pizza-oven': 'Ooni Koda 2 vs. Gozney Arc: Outdoor Pizza Ovens',
   '/home-kitchen/oxo-vs-chefn-corn-stripper': "OXO vs. Chef'n Corn Stripper: Collection or Twist?",
   '/mahjong/best-folding-tables-for-mahjong': 'Best Folding Tables for Mahjong: Size & Comfort',
   '/tech/airpods-pro-vs-sony-wf-1000xm5': 'AirPods Pro 2 vs Sony WF-1000XM5: 2026 Comparison',

@@ -9,7 +9,7 @@ export default function AmazonProductCard({ item, label, query, partnerTag, plac
     <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-start">
       {item?.imageUrl && <a {...linkProps} className="shrink-0 rounded-lg bg-white p-3" aria-label={`View ${label} on Amazon`}><AmazonProductImage src={item.imageUrl} alt={item.title || label} width={item.imageWidth} height={item.imageHeight} /></a>}
       <div className="min-w-0 w-full flex-1">
-        <h3 className="break-words text-lg font-bold text-gray-900"><a {...linkProps} className="underline decoration-amber-400 underline-offset-4">{item?.title || label}</a></h3>
+        <h3 className="break-words text-lg font-bold text-gray-900">{item ? <a {...linkProps} className="underline decoration-amber-400 underline-offset-4">{item.title || label}</a> : label}</h3>
         {note && <p className="mt-2 text-sm leading-relaxed text-gray-700">{note}</p>}
         <p className="mt-3 text-sm text-gray-700">Check Amazon for the current price, exact variant, seller and availability.</p>
         <a {...linkProps} className="mt-4 inline-flex min-h-[44px] items-center justify-center rounded-xl bg-amber-400 px-5 py-3 text-center font-bold text-gray-900 hover:bg-amber-300">{item ? 'View this item on Amazon' : 'Search Amazon for this item'}</a>
