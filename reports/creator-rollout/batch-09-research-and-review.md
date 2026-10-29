@@ -1,4 +1,4 @@
-# Batch nine — in progress
+# Batch nine — source review and acceptance
 
 October29,2026. All20 original production articles were read in full in the browser before editing. Twenty local drafts and static wrappers exist; all await rendered acceptance. No batch9 publication or acceptance yet. Latest production receipt commit acfd4ef0affe7c4a4c8cff3af1003efaba80ad21, deployment dpl_DWBb1kfr9eWW72DhPg9m4uMQ3LKd READY with apex/www aliases. Counts remain160 deployed/content-accepted,139 remaining.
 
@@ -50,3 +50,7 @@ Additional corrections: Big Nate first novel verified on hydrated HarperCollins 
 ## Local acceptance
 
 All20 finished rendered articles read in full and40 desktop/mobile browser checks passed.195tests and production build/335indexability/162metadata/30runtime-assets/operations/inventory gates pass. All40 intended book cards show honest fallbacks locally. No production credentials copied. Keyboard table scroll40px verified. Initial317-destination audit:159HTTP200,130Amazon503 rate/access denials,21HTTP403,5connection errors,1publisherCMS401 and1incorrect PRH404. Corrected Zero to One record234730; replaced Guilford CMS link with public catalog and sample chapter. Do not misreport access denial as a confirmed wrong ASIN or verified listing. Full public acceptance remains pending.
+
+## Production acceptance
+
+Content commit965b085b7468c474b2526c1f230de45f43454f6d; deploymentdpl_4QnwsQx2M9xvPcXci7brh2iyNJPE READY apex/www. All20 public full texts match final local drafts,40viewport checks pass,51first-party destinations200,20sitemap entries datedOctober29,40fallback0live. IndexNow20accepted,notindexingproof. Production12:18UTC403AssociateNotEligible. No unresolved factual or safety claim knowingly published; specific edition/source limits remain explicit.180deployed/content-accepted119remaining;proceedbatch10.
