@@ -1,6 +1,6 @@
 # Batch 10 editorial review — 2026-10-29
 
-Status: 20 original public and20 completed local articles read in full; production acceptance pending. Batch 9 is accepted; this is the existing queue's next batch, not a parallel rollout. No traffic-based ranking is asserted.
+Status: 20 original public and20 completed local articles read in full; production content/fallback acceptance complete;live API eligibility blocked. Batch 9 is accepted; this is the existing queue's next batch, not a parallel rollout. No traffic-based ranking is asserted.
 
 ## Issues to resolve before release
 
@@ -30,3 +30,7 @@ All product links must remain clearly labeled Amazon searches when live identity
 ## Local acceptance
 
 All20 substantive drafts completed and fully reread;40desktop/mobile DOM checks pass with2honest fallback cards per page. Original publication dates retained; modifiedOctober29.195tests pass and final build validates335indexable URLs,142rendered metadata pages,30runtime assets,operations and inventory. Initial251-destination audit:220HTTP200,28HTTP403,3HTTP404. Fixed two internal routes (kids-ya and best-books-for-book-clubs); replaced unavailable Treasure Island Candlewick/PRH record with current Penguin John Seelye edition after browser verification. Updated corresponding edition copy. New illustrator-card query probes received503; searches remain labeled, with no listing/stock verification claimed. Three illustrator credits clarified; Hoover document title shortened to pass70-character limit. Clinical/safety claims removed or qualified as recorded above; AAP back-sleep guidance supported by current primary source. Production verification remains pending.
+
+## Production acceptance
+
+All20 full public article texts match reviewed final local versions.40desktop/mobile checks pass;52first-party destinationsHTTP200;20sitemap entries datedOctober29;40fallback cards,0live. IndexNow accepted20URLs,notindexingproof.200deployed/contentaccepted,99remain. See batch-10-production-receipt.md.

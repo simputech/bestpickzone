@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T12:20:01.757399+00:00",
+  "updatedAt": "2026-10-29T13:24:21.898426+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 10,
-  "status": "batch-nine-content-accepted-api-eligibility-blocked",
+  "currentBatch": 11,
+  "status": "batch-ten-content-accepted-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Continue existing batch ten; review full originals and primary sources, complete20, test desktop/mobile, publish and accept before batch11. Amazon eligibility and GA4 Admin/GSC access remain independent dependencies.",
+  "nextAction": "Continue existing batch11: review full originals and primary sources, complete20, test desktop/mobile, publish and accept before batch12. Amazon eligibility and GA4 Admin/GSC access remain independent dependencies.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 180,
-  "contentAcceptedArticles": 180,
-  "remainingArticles": 119,
+  "deployedArticles": 200,
+  "contentAcceptedArticles": 200,
+  "remainingArticles": 99,
   "countDefinitions": {
-    "deployedArticles": "180 unique refreshed pages in batches1-9",
-    "contentAcceptedArticles": "60 historical plus120 current batch4-9 content/fallback acceptances",
+    "deployedArticles": "200 unique refreshed pages in batches1-10",
+    "contentAcceptedArticles": "60 historical plus140 current batch4-10 content/fallback acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus180; batch10 is next"
+    "remainingArticles": "299 minus200; batch11 is next"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -517,7 +517,8 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ],
   "batch06": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -653,6 +654,40 @@
     "liveCards": 0,
     "fallbackCards": 40,
     "productionReport": "reports/creator-rollout/batch-09-production-receipt.md",
+    "indexNow": "20 URLs accepted; no indexing confirmation"
+  },
+  "batch10": {
+    "status": "production-content-accepted-api-eligibility-blocked",
+    "completedPaths": [
+      "/books/best-books-for-introverts",
+      "/books/best-books-for-new-moms",
+      "/books/best-books-for-reluctant-readers",
+      "/books/best-books-if-you-loved-harry-potter",
+      "/books/best-books-of-all-time",
+      "/books/best-books-on-creativity",
+      "/books/best-books-on-habits-and-productivity",
+      "/books/best-books-on-parenting",
+      "/books/best-books-on-psychology",
+      "/books/best-books-on-relationships",
+      "/books/best-books-on-stoicism",
+      "/books/best-books-set-in-paris",
+      "/books/best-books-to-read-on-the-beach",
+      "/books/best-brene-brown-books",
+      "/books/best-business-books",
+      "/books/best-christmas-and-holiday-books",
+      "/books/best-classic-childrens-books",
+      "/books/best-classic-novels",
+      "/books/best-colleen-hoover-books",
+      "/books/best-cozy-mystery-books"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "e94a1a5f62b63090c59876696b416ae13f0f6d2a",
+    "deploymentId": "dpl_8JzLGBnMmScgmNqgjqYE5pA6ymiR",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 40,
+    "productionReport": "reports/creator-rollout/batch-10-production-receipt.md",
     "indexNow": "20 URLs accepted; no indexing confirmation"
   }
 }
