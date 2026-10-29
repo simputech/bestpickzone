@@ -17,6 +17,8 @@ function loader(react = React) {
     const localRequire = specifier => {
       if (specifier === 'react') return react;
       if (specifier === 'react/jsx-runtime') return require(specifier);
+      if (specifier === 'next/link') return { default: ({ children, ...props }) => React.createElement('a', props, children) };
+      if (['@/lib/affiliate-links', '@/lib/amazon-link-labels'].includes(specifier)) return load(path.join(__dirname, '../', specifier.slice(2) + '.ts'));
       if (!specifier.startsWith('.')) throw Error(`Unexpected import: ${specifier}`);
       return load(path.resolve(path.dirname(filename), specifier + '.tsx'));
     };
@@ -70,4 +72,17 @@ test('runtime verifier rejects recovered image failures, missing images and wron
   assert.match(source, /url\.pathname\.split\('\/'\)\.filter\(Boolean\)\.at\(-1\) !== asin/);
   assert.match(source, /pilotTag && u\.searchParams\.get\('tag'\) !== pilotTag/);
   assert.doesNotMatch(source, /closest\('a\[href\*="amazon\.com\/dp\/"\]'/);
+});
+
+test('book CTA search labels override purchase wording without rewriting destinations', () => {
+ const CTA=loader()(component('BookCTA')).default;
+ const props={title:'Example Book',author:'Author',trackingId:'test'};
+ const search=renderToStaticMarkup(React.createElement(CTA,{...props,ctaLabel:'Buy now'}));
+ assert.match(search,/Search Amazon for Example Book editions/);
+ assert.match(search,/tag=althcu-20/);
+ assert.doesNotMatch(search,/Buy now/);
+ for(const [url,platform,label] of [['https://www.amazon.com/dp/B000TEST01?tag=grandparentsgift-20','amazon','View this edition'],['https://www.ebay.com/itm/123','ebay','See current eBay listings']]) {
+  const html=renderToStaticMarkup(React.createElement(CTA,{...props,affiliateUrl:url,affiliatePlatform:platform,ctaLabel:label}));
+  assert.ok(html.includes(label)); assert.doesNotMatch(html,/Search Amazon/);
+ }
 });

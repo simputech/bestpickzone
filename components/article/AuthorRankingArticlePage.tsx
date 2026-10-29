@@ -48,7 +48,7 @@ export default function AuthorRankingArticlePage({ article, bookProducts }: { ar
     const trackingId = `${article.path.split('/').pop()}-${placement}`
     const product = bookProducts?.[title]
     if (product) return <AmazonBookCard item={product} trackingId={trackingId} />
-    const fallback = <BookCTA title={title} author={article.author} trackingId={trackingId} ctaLabel={`Find ${title} editions on Amazon`} />
+    const fallback = <BookCTA title={title} author={article.author} trackingId={trackingId} ctaLabel={`Search Amazon for ${title} editions`} />
     return bookProducts ? <div data-amazon-source="fallback">{fallback}</div> : fallback
   }
   const related = article.relatedPaths.map(path => authorRankingGuides.find(guide => guide.path === path)).filter(guide => guide !== undefined)

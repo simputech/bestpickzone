@@ -17,3 +17,8 @@ test('search CTAs and contextual links are honest without changing tags or desti
   assert.equal(label(direct),direct);
  }
 });
+
+test('search detection distinguishes search results from listings and other platforms', () => {
+ assert.equal(moduleExports.isAmazonSearchUrl('https://www.amazon.com/s?k=Book&tag=althcu-20'),true);
+ for(const url of ['https://www.amazon.com/dp/B000TEST01?tag=althcu-20','https://www.ebay.com/s?k=Book','https://notamazon.com/s?k=Book','/books']) assert.equal(moduleExports.isAmazonSearchUrl(url),false);
+});

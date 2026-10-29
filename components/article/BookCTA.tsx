@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { isAmazonSearchUrl } from '@/lib/amazon-link-labels'
 import { getAffiliateUrlWithTracking } from '@/lib/affiliate-links'
 
 interface BookCTAProps {
@@ -25,12 +26,13 @@ export default function BookCTA({
   const url = trackingId
     ? getAffiliateUrlWithTracking(baseUrl, affiliatePlatform, trackingId)
     : baseUrl
-  const label =
+  const requestedLabel =
     ctaLabel ??
     affiliateLabel ??
     (affiliatePlatform === 'ebay'
       ? `Check current eBay listings for ${title}`
       : `See formats and current price for ${title} on Amazon`)
+  const label = isAmazonSearchUrl(url) ? `Search Amazon for ${title} editions` : requestedLabel
   const className =
     affiliatePlatform === 'ebay'
       ? 'inline-flex items-center justify-center gap-2 rounded-xl bg-sky-600 px-6 py-3 text-base font-bold text-white transition-colors min-h-[44px] w-full hover:bg-sky-500 sm:w-auto'

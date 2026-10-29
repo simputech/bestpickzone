@@ -1,4 +1,5 @@
 import { withSeo } from '@/lib/seo-metadata'
+import { isAmazonSearchUrl } from '@/lib/amazon-link-labels'
 import { getBookPath } from '@/lib/books-data'
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
@@ -191,7 +192,9 @@ export default function ArticlePage({ params }: Props) {
     book: (typeof article.books)[number],
     placement: string,
     className: string
-  ) => (
+  ) => isAmazonSearchUrl(getTrackedBookUrl(book, placement)) ? (
+    <span className={className}>{book.title}</span>
+  ) : (
     <a
       href={getTrackedBookUrl(book, placement)}
       target="_blank"
@@ -398,13 +401,14 @@ export default function ArticlePage({ params }: Props) {
         {/* Quick Comparison Table */}
         <section className="mb-10 overflow-x-auto">
           <h2 className="mb-4 text-2xl font-bold text-gray-900">Quick comparison</h2>
-          <table className="comparison-table w-full text-sm border-collapse">
+          <div className="max-w-full overflow-x-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-600" role="region" aria-label="Book comparison: scroll horizontally to see all columns" tabIndex={0}>
+          <table className="comparison-table min-w-[36rem] w-full text-sm border-collapse">
             <thead>
               <tr className="bg-gray-800 text-white">
                 <th className="p-3 text-left">#</th>
                 <th className="p-3 text-left">Book</th>
                 <th className="p-3 text-left">Best For</th>
-                <th className="p-3 text-left">Buy</th>
+                <th className="p-3 text-left">Find an edition</th>
               </tr>
             </thead>
             <tbody>
@@ -431,13 +435,14 @@ export default function ArticlePage({ params }: Props) {
                     >
                       {(book.affiliatePlatform ?? defaultAffiliatePlatform) === 'ebay'
                         ? 'See current eBay listings'
-                        : 'See current availability'}
+                        : isAmazonSearchUrl(getTrackedBookUrl(book, 'comparison-table')) ? 'Search Amazon' : 'View this edition'}
                     </a>
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
+          </div>
         </section>
 
         {/* Individual Book Reviews */}
@@ -448,7 +453,7 @@ export default function ArticlePage({ params }: Props) {
               key={i}
               className="card-hover bg-white rounded-xl border border-gray-200 p-6 mb-6 shadow-sm"
             >
-              <div className="flex items-start justify-between gap-4 mb-3">
+              <div className="flex flex-col items-start justify-between gap-4 mb-3 sm:flex-row">
                 <div>
                   <h3 className="article-h3 text-xl font-bold text-gray-900">
                     <span className="mr-1">{i + 1}.</span>
@@ -456,7 +461,7 @@ export default function ArticlePage({ params }: Props) {
                   </h3>
                   <p className="text-gray-500 text-sm">by {book.author}</p>
                 </div>
-                <span className="reader-badge shrink-0">{book.bestFor}</span>
+                <span className="reader-badge max-w-full !whitespace-normal shrink-0">{book.bestFor}</span>
               </div>
               <p className="text-gray-700 leading-relaxed mb-3">{book.description}</p>
               <p className="skip-if text-sm text-gray-500 mb-4">
