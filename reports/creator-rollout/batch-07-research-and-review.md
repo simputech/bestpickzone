@@ -1,4 +1,4 @@
-# Batch seven — in progress
+# Batch seven — source review and production acceptance
 
 Queue batch 7; source checkpoint 99690145f22c8f7a9f2a50146c4c472d1efa43d3. Counts remain 120 deployed / 179 remaining until all 20 pass production acceptance. API eligibility blocker is independent.
 
@@ -37,3 +37,7 @@ All20 completed rendered pages read in full. All40 viewport checks pass at1440x1
 Initial test run194/195; overlong curated title fixed and all5 focused title tests pass. Final full tests/build and production checks pending.
 
 Final195/195 tests pass. Production build and metadata/indexability/runtime-assets/operations/inventory gates pass;335 indexable sitemap URLs. All20 local books-sitemap entries have October29 lastmod. Final build dates, schema publication dates, canonical paths and approved tags rechecked in the browser. Ready for commit and production acceptance.
+
+## Production acceptance
+
+All20 public articles match reviewed final drafts. All40 viewport checks and55 first-party destinations pass;20 dated public sitemap entries verified. Forty fallback cards, zero live cards. Production API logs04:10UTC show403 AssociateNotEligible. IndexNow accepted20 URLs; not indexing proof. See batch-07-production-receipt.md. Counts now140 content-accepted/159 remaining; proceed batch8.
