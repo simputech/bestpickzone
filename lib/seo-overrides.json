@@ -370,5 +370,85 @@
   "/books/best-action-adventure-books": {
     "title": "Best Action-Adventure Books: Five Different Starting Points",
     "description": "Compare Jurassic Park, Red October, Into Thin Air, Lonesome Dove and The Revenant by premise, fiction or nonfiction, length and edition."
+  },
+  "/books/best-audiobooks-on-audible": {
+    "title": "Best Audiobooks on Audible: Narrators and Edition Choices",
+    "description": "Compare six audiobook choices by narrator, listening style and edition, including Harry Potter single-voice and full-cast recordings."
+  },
+  "/books/best-beach-reads": {
+    "title": "Best Beach Reads: Romance, Suspense and Family Drama",
+    "description": "Compare five beach reads by premise, emotional intensity and edition, from Emily Henry romance to Lucy Foley suspense and YA summer stories."
+  },
+  "/books/best-bedtime-books-for-toddlers": {
+    "title": "Bedtime Books for Toddlers: Five Stories and Formats",
+    "description": "Compare five toddler bedtime books by story, read-aloud style and edition. Find the right format without promises of sleep or anxiety treatment."
+  },
+  "/books/best-biographies-and-memoirs": {
+    "title": "Biographies and Memoirs: Six Lives, Different Perspectives",
+    "description": "Compare five memoirs and Walter Isaacson’s Steve Jobs biography by subject, narrative viewpoint, emotional demands and edition."
+  },
+  "/books/best-book-club-books": {
+    "title": "Best Book Club Books: Six Choices and Discussion Prompts",
+    "description": "Compare six book-club choices by premise, discussion questions, difficult themes and edition differences, with publisher and author sources."
+  },
+  "/books/best-books-about-addiction-and-recovery": {
+    "title": "Addiction and Recovery Books: Five Different Perspectives",
+    "description": "Compare reporting, family memoir and alcohol-focused books by scope and limits. Includes edition checks and clear separation from treatment guidance."
+  },
+  "/books/best-books-about-anxiety-and-mental-health": {
+    "title": "Mental Health Books: Trauma, Mood and Personal Perspectives",
+    "description": "Compare five mental-health books by scope, format and limits. Distinguish memoir, journalistic arguments and self-help from individual treatment advice."
+  },
+  "/books/best-books-about-food-and-cooking": {
+    "title": "Best Books About Food and Cooking: Five Different Uses",
+    "description": "Choose a food memoir, cooking reference, food-system investigation or cookbook. Compare Bourdain, Nosrat, Pollan, Powell and Lebovitz."
+  },
+  "/books/best-books-about-friendship": {
+    "title": "Best Books About Friendship: Five Different Relationships",
+    "description": "Compare five friendship novels by relationship dynamics, narrative form and difficult themes, from creative partnerships to destructive loyalties."
+  },
+  "/books/best-books-about-grief": {
+    "title": "Best Books About Grief: Five Forms of Personal Writing",
+    "description": "Compare grief memoirs, reflections on faith and advice columns by Didion, Kalanithi, Lewis, Strayed and Macdonald without promises of healing."
+  },
+  "/books/best-books-about-money-and-wealth": {
+    "title": "Best Books About Money and Wealth: Five Reading Goals",
+    "description": "Compare money books by scope, authors, edition changes and limitations, from financial behavior to spending priorities and investing frameworks."
+  },
+  "/books/best-books-about-nature-and-environment": {
+    "title": "Best Nature and Environment Books: Five Ways to Read",
+    "description": "Compare nature essays, travel writing, fiction and memoir, with clear boundaries between narrative, practical guidance and scientific claims."
+  },
+  "/books/best-books-about-race-and-identity": {
+    "title": "Best Books About Race and Identity: Five Starting Points",
+    "description": "Compare memoir, legal advocacy, systemic argument and question-led discussion, with author perspectives and edition limitations made clear."
+  },
+  "/books/best-books-about-space-and-astronomy": {
+    "title": "Best Space and Astronomy Books: Science, History and Fiction",
+    "description": "Choose among five space books by reading goal, edition and scientific scope, from Tyson and Hawking to Sagan, Weir and Wolfe."
+  },
+  "/books/best-books-for-anxiety": {
+    "title": "Books for Anxiety: Workbooks, Self-Help and Memoir",
+    "description": "Compare five anxiety-related books by format, authors and edition. Find a reading resource without confusing book recommendations with treatment advice."
+  },
+  "/books/best-books-for-boys-ages-8-12": {
+    "title": "Books for Boys Ages 8–12: Five Different Starting Points",
+    "description": "Compare Percy Jackson, Wimpy Kid, Hatchet, Big Nate and My Side of the Mountain by format, story and publisher age guidance."
+  },
+  "/books/best-books-for-couples": {
+    "title": "Best Books for Couples: Compare Five Relationship Topics",
+    "description": "Compare relationship books by focus, authors, exercises and format, with clear limits on attachment labels and promises of relationship repair."
+  },
+  "/books/best-books-for-entrepreneurs": {
+    "title": "Best Books for Entrepreneurs: Five Business Questions",
+    "description": "Compare entrepreneurship books by business stage, authors and practical limits, including strategy, management, memoir and small-business ideas."
+  },
+  "/books/best-books-for-girls-ages-8-12": {
+    "title": "Books for Girls Ages 8–12: Five Classics Compared",
+    "description": "Choose among five classic novels by story, format and reading readiness, with historical context and original-versus-adapted edition checks."
+  },
+  "/books/best-books-for-high-school-students": {
+    "title": "Books for High School Students: Five Novels Compared",
+    "description": "Compare five novels by narrative focus, content considerations and discussion questions, with edition checks for school assignments."
   }
 }
