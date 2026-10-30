@@ -1,0 +1,236 @@
+{
+  "status": "20-complete-reviewed-drafts-production-acceptance-pending",
+  "reviewDate": "2026-10-29",
+  "pages": [
+    {
+      "path": "/books/best-john-grisham-books",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/72168/the-rainmaker-by-john-grisham/",
+        "https://www.penguinrandomhouse.com/series/G8L/the-firm-series/",
+        "https://www.penguinrandomhouse.com/the-read-down/john-grisham-books/"
+      ],
+      "draftWords": 1074
+    },
+    {
+      "path": "/books/best-kids-book-series",
+      "sources": [
+        "https://kids.scholastic.com/kid/books/wings-of-fire/",
+        "https://rickriordan.com/book/the-lightning-thief/",
+        "https://shop.scholastic.com/teachers-ecommerce/teacher/books/wings-of-fire-graphic-novel-the-dragonet-prophecy-1-9780545942157.html",
+        "https://stories.jkrowling.com/faqs/",
+        "https://wimpykid.com/books/diary-of-a-wimpy-kid/",
+        "https://www.lemonysnicket.com/9780061146305/a-series-of-unfortunate-events-1-the-bad-beginning/",
+        "https://www.readriordan.com/books/"
+      ],
+      "draftWords": 1042
+    },
+    {
+      "path": "/books/best-leadership-books",
+      "sources": [
+        "https://fivedysfunctions.tablegroup.com/the-story",
+        "https://simonsinek.com/books/leaders-eat-last",
+        "https://us.macmillan.com/books/9781250184726/extremeownership/",
+        "https://www.jimcollins.com/books.html",
+        "https://www.penguinrandomhouse.com/books/314163/turn-the-ship-around-by-l-david-marquet/"
+      ],
+      "draftWords": 1124
+    },
+    {
+      "path": "/books/best-literary-fiction",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/111380/atonement-by-ian-mcewan/9780385721790/readers-guide/",
+        "https://www.penguinrandomhouse.com/books/85609/never-let-me-go-by-kazuo-ishiguro-with-a-new-introduction/9798217008018/",
+        "https://www.penguinrandomhouse.com/books/85611/the-remains-of-the-day-by-kazuo-ishiguro-introduction-by-salman-rushdie/",
+        "https://www.penguinrandomhouse.com/the-read-down/books-to-read-if-you-love-sally-rooney/",
+        "https://www.penguinrandomhouse.com/the-read-down/kazuo-ishiguro-books/"
+      ],
+      "draftWords": 1061
+    },
+    {
+      "path": "/books/best-magical-realism-books",
+      "sources": [
+        "https://hispanismo.cervantes.es/publicaciones/house-spirits",
+        "https://www.loc.gov/item/hlas-bi94013769/",
+        "https://www.penguin.co.uk/books/57241/one-hundred-years-of-solitude-by-gabriel-garcia-marquez-trans-gregory-rabassa/9780141184999",
+        "https://www.penguinrandomhouse.com/books/117647/beloved-pulitzer-prize-winner-by-toni-morrison/9780307264886/",
+        "https://www.penguinrandomhouse.com/books/47042/like-water-for-chocolate-by-laura-esquivel/9780385420174/",
+        "https://www.simonandschuster.com/books/The-House-of-the-Spirits/Isabel-Allende/9781501117015"
+      ],
+      "draftWords": 1096
+    },
+    {
+      "path": "/books/best-malcolm-gladwell-books",
+      "sources": [
+        "https://www.gladwell.com/books",
+        "https://www.hachette.co.uk/titles/malcolm-gladwell/revenge-of-the-tipping-point/9780349147185/",
+        "https://www.hachettebookgroup.com/titles/malcolm-gladwell/talking-to-strangers/9780316478526/",
+        "https://www.hachettebookgroup.com/titles/malcolm-gladwell/the-american-way-of-killing/9780316612661/"
+      ],
+      "draftWords": 1136
+    },
+    {
+      "path": "/books/best-middle-grade-books",
+      "sources": [
+        "https://katherinepaterson.com/about/faqs/",
+        "https://katherinepaterson.com/books/bridge-to-terabithia/",
+        "https://loislowry.com/books/",
+        "https://www.louissachar.com/holes.html",
+        "https://www.penguinrandomhouse.com/books/104094/the-giver-by-lois-lowry/",
+        "https://www.penguinrandomhouse.com/books/208913/wonder-by-r-j-palacio/9780375869020/",
+        "https://www.simonandschuster.com/books/Hatchet/Gary-Paulsen/9781416936466"
+      ],
+      "draftWords": 1050
+    },
+    {
+      "path": "/books/best-mindfulness-books",
+      "sources": [
+        "https://newworldlibrary.com/product/the-power-of-now",
+        "https://wisdomexperience.org/product/mindfulness-plain-english/",
+        "https://www.danharris.com/books",
+        "https://www.hachettebookgroup.com/titles/jon-kabat-zinn-phd/wherever-you-go-there-you-are/9780306832017/",
+        "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+        "https://www.shambhala.com/zen-mind-beginner-s-mind-9781611808414.html",
+        "https://www.yellowkitebooks.co.uk/titles/dan-harris/10-happier-10th-anniversary/9781444799057/"
+      ],
+      "draftWords": 1100
+    },
+    {
+      "path": "/books/best-mystery-series",
+      "sources": [
+        "https://alexandermccallsmith.com/series/no-1-detective-agency",
+        "https://us.macmillan.com/books/9781429967235/stilllife/",
+        "https://www.penguinrandomhouse.com/books/300448/in-the-woods-by-tana-french/paperback/",
+        "https://www.penguinrandomhouse.com/series/1LA/no-1-ladies-detective-agency-series/",
+        "https://www.penguinrandomhouse.com/series/MLN/the-girl-with-the-dragon-tattoo-series/",
+        "https://www.penguinrandomhouse.com/series/TM9/a-thursday-murder-club-mystery/"
+      ],
+      "draftWords": 1079
+    },
+    {
+      "path": "/books/best-neil-gaiman-books",
+      "sources": [
+        "https://neilgaiman.com/About_Neil/Biography",
+        "https://neilgaiman.com/works/Books/American%2BGods/",
+        "https://neilgaiman.com/works/Books/Coraline/",
+        "https://neilgaiman.com/works/Books/Good%2BOmens/",
+        "https://neilgaiman.com/works/Books/Neverwhere/",
+        "https://neilgaiman.com/works/Books/Norse%2BMythology/",
+        "https://neilgaiman.com/works/Books/The%2BOcean%2Bat%2Bthe%2BEnd%2Bof%2Bthe%2BLane/"
+      ],
+      "draftWords": 1089
+    },
+    {
+      "path": "/books/best-nora-roberts-books",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/300636/naked-in-death-by-j-d-robb/",
+        "https://www.penguinrandomhouse.com/books/303469/vision-in-white-by-nora-roberts/9780425227510/",
+        "https://www.penguinrandomhouse.com/books/308624/the-witness-by-nora-roberts/9780593637838/",
+        "https://www.penguinrandomhouse.com/books/312007/dark-witch-by-nora-roberts/"
+      ],
+      "draftWords": 1088
+    },
+    {
+      "path": "/books/best-one-sitting-reads",
+      "sources": [
+        "https://bookouture.com/books/2616/",
+        "https://josiesilver.com/",
+        "https://us.macmillan.com/books/9781250301697/thesilentpatient/",
+        "https://www.ajfinn.com/",
+        "https://www.penguinrandomhouse.com/books/196906/gone-girl-special-edition-by-gillian-flynn/",
+        "https://www.penguinrandomhouse.com/series/MOQ/molly-the-maid/"
+      ],
+      "draftWords": 1132
+    },
+    {
+      "path": "/books/best-personal-finance-books",
+      "sources": [
+        "https://harriman.house/books/the-psychology-of-money/",
+        "https://richdad.com/products/books/rich-dad-poor-dad/",
+        "https://store.ramseysolutions.com/money/books/the-total-money-makeover-by-dave-ramsey/",
+        "https://www.consumerfinance.gov/documents/5782/cfpb_ymyg-toolkit_reducing-debt-worksheet.pdf",
+        "https://www.hachettebookgroup.com/titles/ramit-sethi/9781523505746/9781523505746/",
+        "https://www.simonandschuster.com/books/The-Millionaire-Next-Door/Thomas-J-Stanley/9781589795471"
+      ],
+      "draftWords": 1127
+    },
+    {
+      "path": "/books/best-philosophy-books",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/302379/the-republic-by-plato/",
+        "https://www.penguinrandomhouse.com/books/322953/thus-spoke-zarathustra-by-friedrich-nietzsche-translated-with-an-introduction-and-notes-by-r-j-hollingdale/",
+        "https://www.penguinrandomhouse.com/books/6367/meditations-by-marcus-aurelius/",
+        "https://www.simonandschuster.com/books/Story-of-Philosophy/Will-Durant/9780671201593"
+      ],
+      "draftWords": 1094
+    },
+    {
+      "path": "/books/best-picture-books-for-toddlers",
+      "sources": [
+        "https://books.disney.com/book/dont-let-the-pigeon-drive-the-bus/",
+        "https://www.panmacmillan.com/authors/margaret-wise-brown/goodnight-moon/9781529090789",
+        "https://www.penguin.co.uk/books/322742/where-the-wild-things-are-by-sendak-maurice/9780099408390",
+        "https://www.penguinrandomhouse.com/books/301943/the-very-hungry-caterpillar-by-eric-carle/",
+        "https://www.penguinrandomhouse.com/books/309024/dragons-love-tacos-by-adam-rubin-illustrated-by-daniel-salmieri/9780803736801/",
+        "https://www.sendakfoundation.org/works/books"
+      ],
+      "draftWords": 1100
+    },
+    {
+      "path": "/books/best-political-books",
+      "sources": [
+        "https://www.penguin.co.uk/books/60451/the-prince-by-machiavelli-niccolo/9780141442259",
+        "https://www.penguinrandomhouse.com/books/286325/democracy-in-america-and-two-essays-on-america-by-alexis-de-tocqueville-translated-by-gerald-bevan-introduction-and-notes-by-isaac-kramnick/",
+        "https://www.penguinrandomhouse.com/books/562246/how-democracies-die-by-steven-levitsky-and-daniel-ziblatt/",
+        "https://www.wallstein-verlag.de/9783835359109-the-origins-of-totalitarianism-elemente-und-urspruenge-totaler-herrschaft.html"
+      ],
+      "draftWords": 1069
+    },
+    {
+      "path": "/books/best-psychological-thrillers",
+      "sources": [
+        "https://us.macmillan.com/books/9781250122155/behindcloseddoors/",
+        "https://us.macmillan.com/books/9781250301697/thesilentpatient/",
+        "https://www.ajfinn.com/woman-window",
+        "https://www.hachette.co.uk/titles/colleen-hoover/verity/9781408727034/",
+        "https://www.harpercollins.com/products/the-guest-list-lucy-foley",
+        "https://www.penguinrandomhouse.com/books/196906/gone-girl-special-edition-by-gillian-flynn/"
+      ],
+      "draftWords": 1085
+    },
+    {
+      "path": "/books/best-romantasy-books",
+      "sources": [
+        "https://blackholly.com/books/the-cruel-prince/",
+        "https://jenniferlarmentrout.com/books/from-blood-and-ash/",
+        "https://rebeccayarros.com/coming-soon",
+        "https://rebeccayarros.com/fourthwing",
+        "https://sarahjmaas.com/",
+        "https://sarahjmaas.com/books/a-court-of-thorns-and-roses/"
+      ],
+      "draftWords": 1125
+    },
+    {
+      "path": "/books/best-romantic-comedy-books",
+      "sources": [
+        "https://www.emilyhenrybooks.com/books/people-we-meet-on-vacation",
+        "https://www.hachette.co.uk/titles/talia-hibbert/get-a-life-chloe-brown/9780349425207/",
+        "https://www.penguinrandomhouse.com/books/566902/the-kiss-quotient-by-helen-hoang/",
+        "https://www.simonandschuster.com/books/In-a-Holidaze/Christina-Lauren/9781982123949",
+        "https://www.simonandschuster.com/books/The-Unhoneymooners/Christina-Lauren/9781501128042"
+      ],
+      "draftWords": 1186
+    },
+    {
+      "path": "/books/best-science-books-for-non-scientists",
+      "sources": [
+        "https://neildegrassetyson.com/books/2017-05-astrophysics-for-people-in-a-hurry/",
+        "https://www.nhlbi.nih.gov/health/sleep",
+        "https://www.penguinrandomhouse.com/books/77010/a-brief-history-of-time-by-stephen-hawking/",
+        "https://www.simonandschuster.com/books/The-Gene/Siddhartha-Mukherjee/9781476733524",
+        "https://www.simonandschuster.com/books/Why-We-Sleep/Matthew-Walker/9781501144325",
+        "https://www.ynharari.com/book/sapiens/"
+      ],
+      "draftWords": 1167
+    }
+  ]
+}

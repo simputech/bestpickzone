@@ -610,5 +610,85 @@
   "/books/best-jk-rowling-books": {
     "title": "J.K. Rowling Books: Harry Potter, Standalones and Adult Fiction",
     "description": "Choose a Rowling reading route by series order and audience, with clear distinctions between Harry Potter, The Ickabog, The Casual Vacancy and Robert Galbraith."
+  },
+  "/books/best-john-grisham-books": {
+    "title": "Best John Grisham Books: Five Places to Start",
+    "description": "Compare five John Grisham novels by courtroom focus, conspiracy, subject matter and series position, with practical edition checks."
+  },
+  "/books/best-kids-book-series": {
+    "title": "Best Kids’ Book Series: Five First Volumes",
+    "description": "Compare first books in Percy Jackson, Harry Potter, Wimpy Kid, Wings of Fire and A Series of Unfortunate Events by format, tone and reading fit."
+  },
+  "/books/best-leadership-books": {
+    "title": "Best Leadership Books: Five Approaches Compared",
+    "description": "Compare Sinek, Willink and Babin, Lencioni, Collins and Marquet by leadership problem, evidence type and practical limits."
+  },
+  "/books/best-literary-fiction": {
+    "title": "Best Literary Fiction: Five Distinct Reading Choices",
+    "description": "Compare Normal People, The Remains of the Day, Never Let Me Go, Atonement and A Little Life by narration, structure, subject and reading fit."
+  },
+  "/books/best-magical-realism-books": {
+    "title": "Best Magical Realism Books: Five Reading Routes",
+    "description": "Compare magical realism through family histories, food, memory and political change, with translation checks and clear genre distinctions."
+  },
+  "/books/best-malcolm-gladwell-books": {
+    "title": "Best Malcolm Gladwell Books: Where to Start",
+    "description": "Choose a Malcolm Gladwell book by question, format and subject, including the difference between The Tipping Point and its later follow-up."
+  },
+  "/books/best-middle-grade-books": {
+    "title": "Best Middle-Grade Books: Five Different Reading Fits",
+    "description": "Compare Holes, Hatchet, Bridge to Terabithia, The Giver and Wonder by premise, content, format and shared-reading possibilities."
+  },
+  "/books/best-mindfulness-books": {
+    "title": "Best Mindfulness Books: Memoir, Practice and Spirituality",
+    "description": "Compare five mindfulness-related books by approach, spiritual context, practical content and edition, without promises of health outcomes."
+  },
+  "/books/best-mystery-series": {
+    "title": "Best Mystery Series: Five First Books Compared",
+    "description": "Choose a mystery series by investigator, setting, tone and continuity, from Three Pines to Millennium and the Thursday Murder Club."
+  },
+  "/books/best-neil-gaiman-books": {
+    "title": "Best Neil Gaiman Books: Six Starting Points",
+    "description": "Compare Neverwhere, American Gods, Good Omens, Coraline, The Ocean at the End of the Lane and Norse Mythology by audience and format."
+  },
+  "/books/best-nora-roberts-books": {
+    "title": "Best Nora Roberts Books: Four Reading Routes",
+    "description": "Compare romantic suspense, contemporary romance, paranormal romance and the J. D. Robb crime series, with clear starting volumes."
+  },
+  "/books/best-one-sitting-reads": {
+    "title": "Best One-Sitting Reads: Six Absorbing Options",
+    "description": "Choose an absorbing novel for uninterrupted reading, with honest limits on reading time and clear distinctions between suspense, mystery and romance."
+  },
+  "/books/best-personal-finance-books": {
+    "title": "Best Personal Finance Books: Five Approaches Compared",
+    "description": "Compare personal finance books by behavior, practical organization, debt focus and research context, with edition and jurisdiction checks."
+  },
+  "/books/best-philosophy-books": {
+    "title": "Best Philosophy Books: Four Ways to Begin",
+    "description": "Compare Meditations, The Story of Philosophy, The Republic and Thus Spoke Zarathustra by form, scope and translation."
+  },
+  "/books/best-picture-books-for-toddlers": {
+    "title": "Best Picture Books for Toddlers: Five Read-Aloud Choices",
+    "description": "Compare five picture books by interaction, rhythm, illustration and format, with accurate author and illustrator credits."
+  },
+  "/books/best-political-books": {
+    "title": "Best Political Books: Four Questions About Power",
+    "description": "Compare How Democracies Die, The Origins of Totalitarianism, The Prince and Democracy in America by historical context, scope and edition."
+  },
+  "/books/best-psychological-thrillers": {
+    "title": "Best Psychological Thrillers: Six Different Kinds of Suspense",
+    "description": "Compare six psychological thrillers by viewpoint, setting, domestic tension and content concerns, without revealing their endings."
+  },
+  "/books/best-romantasy-books": {
+    "title": "Best Romantasy Books: Four Series Starting Points",
+    "description": "Compare ACOTAR, Fourth Wing, The Cruel Prince and From Blood and Ash by fantasy setting, relationship focus, audience and series commitment."
+  },
+  "/books/best-romantic-comedy-books": {
+    "title": "Best Romantic Comedy Books: Five Premises Compared",
+    "description": "Choose a romantic comedy by friendship, forced proximity, a negotiated arrangement, a personal list or a holiday time loop."
+  },
+  "/books/best-science-books-for-non-scientists": {
+    "title": "Best Science Books for Non-Scientists: Five Starting Points",
+    "description": "Compare books on genetics, astrophysics, sleep, cosmology and human history by scope, format and the limits of each kind of explanation."
   }
 }

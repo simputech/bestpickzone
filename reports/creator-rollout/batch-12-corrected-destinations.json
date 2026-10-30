@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://www.hachette.co.uk/titles/malcolm-gladwell/revenge-of-the-tipping-point/9780349147185/",
+    "status": 200,
+    "finalUrl": "https://www.hachette.co.uk/titles/malcolm-gladwell/revenge-of-the-tipping-point/9780349147185/"
+  },
+  {
+    "url": "https://www.hachettebookgroup.com/titles/malcolm-gladwell/talking-to-strangers/9780316478526/",
+    "status": 200,
+    "finalUrl": "https://www.hachettebookgroup.com/titles/malcolm-gladwell/talking-to-strangers/9780316478526/"
+  },
+  {
+    "url": "https://books.disney.com/book/dont-let-the-pigeon-drive-the-bus/",
+    "status": 200,
+    "finalUrl": "https://books.disney.com/book/dont-let-the-pigeon-drive-the-bus/"
+  },
+  {
+    "url": "https://www.amazon.com/s?k=10%25+Happier+Dan+Harris&tag=althcu-20",
+    "status": 503
+  },
+  {
+    "url": "https://www.amazon.com/s?k=Turn+the+Ship+Around%21+L+David+Marquet&tag=althcu-20",
+    "status": 503
+  }
+]
