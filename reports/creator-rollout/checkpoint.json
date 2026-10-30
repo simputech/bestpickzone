@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T14:26:41.653868+00:00",
+  "updatedAt": "2026-10-30T22:30:23.890732+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 12,
-  "status": "batch-eleven-content-accepted-api-eligibility-blocked",
+  "currentBatch": 13,
+  "status": "batch-twelve-content-accepted-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Continue existing batch 12: review full originals and primary sources, complete 20, test desktop/mobile, publish and accept before batch 13. Amazon eligibility and GA4 Admin/GSC access remain independent dependencies.",
+  "nextAction": "Continue existing batch 13: review full originals and primary sources, complete 20, test desktop/mobile, publish and accept before batch 14. Amazon eligibility remains an independent dependency. GA4 Admin is now readable; review is continuing without settings changes.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 220,
-  "contentAcceptedArticles": 220,
-  "remainingArticles": 79,
+  "deployedArticles": 240,
+  "contentAcceptedArticles": 240,
+  "remainingArticles": 59,
   "countDefinitions": {
-    "deployedArticles": "220 unique refreshed pages in batches 1-11",
-    "contentAcceptedArticles": "60 historical plus 160 current batch 4-11 content/fallback acceptances",
+    "deployedArticles": "240 unique refreshed pages in batches 1-12",
+    "contentAcceptedArticles": "60 historical plus 180 current batch 4-12 content/fallback acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus 220; batch 12 is next"
+    "remainingArticles": "299 minus 240; batch 13 is next"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -519,7 +519,8 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
   "batch06": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -723,6 +724,40 @@
     "liveCards": 0,
     "fallbackCards": 40,
     "productionReport": "reports/creator-rollout/batch-11-production-receipt.md",
+    "indexNow": "20 URLs accepted; no indexing confirmation"
+  },
+  "batch12": {
+    "status": "production-content-accepted-api-eligibility-blocked",
+    "completedPaths": [
+      "/books/best-john-grisham-books",
+      "/books/best-kids-book-series",
+      "/books/best-leadership-books",
+      "/books/best-literary-fiction",
+      "/books/best-magical-realism-books",
+      "/books/best-malcolm-gladwell-books",
+      "/books/best-middle-grade-books",
+      "/books/best-mindfulness-books",
+      "/books/best-mystery-series",
+      "/books/best-neil-gaiman-books",
+      "/books/best-nora-roberts-books",
+      "/books/best-one-sitting-reads",
+      "/books/best-personal-finance-books",
+      "/books/best-philosophy-books",
+      "/books/best-picture-books-for-toddlers",
+      "/books/best-political-books",
+      "/books/best-psychological-thrillers",
+      "/books/best-romantasy-books",
+      "/books/best-romantic-comedy-books",
+      "/books/best-science-books-for-non-scientists"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "3b31c78ff21fe5f3613bcad814d8c8c3734a73c3",
+    "deploymentId": "dpl_A691xQViLHGYeteaA8ijWazfpV8J",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 40,
+    "productionReport": "reports/creator-rollout/batch-12-production-receipt.md",
     "indexNow": "20 URLs accepted; no indexing confirmation"
   }
 }

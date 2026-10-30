@@ -1,6 +1,6 @@
 # Batch 12 editorial review
 
-All 20 original and completed rendered articles read in full; production acceptance pending. Preserved working routes and original publication dates. Each draft exceeds 1,000 editorial words, excluding navigation/disclosures/cards. Added premise comparisons, audience/format distinctions, concrete reading questions and current primary-source support without invented experience or performance outcomes.
+All 20 original and completed rendered articles read in full; production content/fallback acceptance complete; live API eligibility blocked. Preserved working routes and original publication dates. Each draft exceeds 1,000 editorial words, excluding navigation/disclosures/cards. Added premise comparisons, audience/format distinctions, concrete reading questions and current primary-source support without invented experience or performance outcomes.
 
 ## Corrections and qualifications
 
@@ -30,3 +30,7 @@ Initial 240 destinations: 212 HTTP 200, 18 HTTP 403, five HTTP 404, four connect
 195 targeted tests and final production build pass. All 20 full rendered pages checked at desktop and mobile widths: disclosures, canonical, one H1, no missing images, overflow or placeholder links; honest sponsored searches with althcu-20. No price, stock or rating fabricated. Live API acceptance remains separate from editorial acceptance.
 
 Final source-attribution text checked October 30. All 51 first-party destinations return 200. Corrected Gladwell and Disney publisher URLs return 200. Two punctuation-corrected Amazon queries returned automated HTTP 503; the 10% Happier search rendered normally in browser. This is search behavior, not verified listing status. Mobile table keyboard scroll observed 40px of 260px in DOM.
+
+## Production acceptance
+
+All 20 full public article texts match reviewed final local versions. 40 desktop/mobile checks pass; 51 first-party destinations HTTP 200; 20 sitemap entries dated October 29; 40 fallback cards, 0 live. IndexNow accepted 20 URLs, not indexing proof. 240 deployed/content accepted, 59 remain. See batch-12-production-receipt.md.
