@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-31T14:45:42.179391+00:00",
+  "updatedAt": "2026-10-31T15:22:32.649387+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 14,
-  "status": "batch-thirteen-content-accepted-api-eligibility-blocked",
+  "currentBatch": 15,
+  "status": "batch-fourteen-content-accepted",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Continue existing batch 14: 20 Spanish guides, then batch 15 final 19. Publish and accept each batch before starting the next. Amazon eligibility remains independent and does not block rollout.",
+  "nextAction": "Continue final batch 15: 19 existing offers, used-product and Mahjong guides. Publish and accept the complete batch. Amazon eligibility remains independent and does not block rollout.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 260,
-  "contentAcceptedArticles": 260,
-  "remainingArticles": 39,
+  "deployedArticles": 280,
+  "contentAcceptedArticles": 280,
+  "remainingArticles": 19,
   "countDefinitions": {
-    "deployedArticles": "260 unique refreshed pages in batches 1-13",
-    "contentAcceptedArticles": "60 historical plus 200 current batch 4-13 content/fallback acceptances",
+    "deployedArticles": "280 unique refreshed pages in batches 1-14",
+    "contentAcceptedArticles": "60 historical plus 220 current batch 4-14 content/search acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus 260; batch 14 is next"
+    "remainingArticles": "299 minus 280; final batch 15 is next"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -521,7 +521,8 @@
     10,
     11,
     12,
-    13
+    13,
+    14
   ],
   "batch06": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -794,6 +795,40 @@
     "fallbackCards": 30,
     "staticSearchCards": 10,
     "productionReport": "reports/creator-rollout/batch-13-production-receipt.md",
+    "indexNow": "20 URLs accepted; no indexing confirmation"
+  },
+  "batch14": {
+    "status": "production-content-accepted-static-search",
+    "completedPaths": [
+      "/es/libros/libros-como-el-codigo-da-vinci",
+      "/es/libros/mejores-libros-de-autoayuda-2026",
+      "/es/libros/mejores-libros-de-aventura-para-hombres",
+      "/es/libros/mejores-libros-de-colleen-hoover",
+      "/es/libros/mejores-libros-de-historia-para-principiantes",
+      "/es/libros/mejores-libros-de-la-segunda-guerra-mundial",
+      "/es/libros/mejores-libros-de-stephen-king",
+      "/es/libros/mejores-libros-de-true-crime",
+      "/es/libros/mejores-libros-para-quien-no-le-gusta-leer",
+      "/es/oficina-en-casa/mejores-brazos-para-monitor",
+      "/es/oficina-en-casa/mejores-escritorios-de-pie",
+      "/es/oficina-en-casa/mejores-monitores-portatiles-economicos",
+      "/es/oficina-en-casa/mejores-productos-para-tu-oficina-en-casa",
+      "/es/oficina-en-casa/mejores-sillas-ergonomicas-para-home-office",
+      "/es/oficina-en-casa/oficina-en-casa-en-mesa-de-cocina",
+      "/es/tecnologia/airpods-pro-vs-sony-wf-1000xm5",
+      "/es/tecnologia/mejores-audifonos-inalambricos",
+      "/es/tecnologia/mejores-laptops-para-estudiantes",
+      "/es/tecnologia/mejores-monitores-economicos",
+      "/es/tecnologia/mejores-teclados-mecanicos"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "ec227d0bcf0f376ec023304c1caee51adb7f0cf3",
+    "deploymentId": "dpl_26wtfQTikxhv1onZLhgTS47bGw37",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": "not-applicable-static-search-pages",
+    "staticAmazonSearchCards": 74,
+    "staticEbaySearchCards": 4,
+    "productionReport": "reports/creator-rollout/batch-14-production-receipt.md",
     "indexNow": "20 URLs accepted; no indexing confirmation"
   }
 }

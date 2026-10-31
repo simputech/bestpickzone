@@ -8,4 +8,4 @@ Unverified Acer SB220Q regional specifications were removed from the shortlist. 
 
 Spanish overview/category sitemap dates now derive from the underlying updated articles. Original publication dates and working URLs are preserved. The existing accessible table treatment and reviewed-HTML renderer are reused.
 
-Full rendered review and 40 desktop/mobile checks pass. Production acceptance pending. API eligibility is an independent existing blocker, not a reason to halt the rollout.
+Full rendered review and 40 desktop/mobile checks pass. Production content and static-search acceptance complete. API eligibility is an independent existing blocker, not a reason to halt the rollout.
