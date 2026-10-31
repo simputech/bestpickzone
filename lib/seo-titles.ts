@@ -35,7 +35,7 @@ export const SEO_TITLES: Record<string, string> = {
   '/coffee/best-burr-grinders-french-press-cold-brew': 'Best Burr Grinders for French Press & Cold Brew',
   '/coffee/best-espresso-grinders-for-breville-bambino': 'Best Grinders for Breville Bambino & Bambino Plus',
   '/coffee/best-espresso-grinders-gaggia-classic-pro': 'Best Espresso Grinders for the Gaggia Classic Pro',
-  '/es/oficina-en-casa/oficina-en-casa-en-mesa-de-cocina': 'Cómo montar una oficina en la mesa de la cocina',
+  '/es/oficina-en-casa/oficina-en-casa-en-mesa-de-cocina': "Oficina en la mesa de cocina: monta, trabaja y guarda",
   '/home-kitchen/best-coffee-makers-under-100': 'Coffee Makers Around $100: Cuisinart vs. FlexBrew',
   '/home-kitchen/best-pizza-peels-ooni-koda-12': 'Best Ooni Koda 12 Pizza Peels: Launching & Turning',
   '/home-kitchen/best-vintage-countertop-milkshake-machines-ebay': 'Best Vintage Milkshake Machines on eBay (2026)',

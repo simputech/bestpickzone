@@ -770,5 +770,85 @@
   "/es/hogar-cocina/mejores-freidoras-de-aire": {
     "title": "Freidoras de aire: capacidad, limpieza y modelo exacto",
     "description": "Compara Ninja AF101 y COSORI Pro II CP358-AF por formato y mantenimiento, con identificación de modelos y comprobación de retiradas."
+  },
+  "/es/libros/libros-como-el-codigo-da-vinci": {
+    "title": "Libros como El código Da Vinci: elige el tipo de misterio",
+    "description": "Compara cuatro novelas por investigación, persecución, historia y elementos sobrenaturales. Comprueba autor, traducción y edición antes de comprar."
+  },
+  "/es/libros/mejores-libros-de-autoayuda-2026": {
+    "title": "Libros de autoayuda para leer en 2026: cuatro enfoques",
+    "description": "Elige entre hábitos, prioridades laborales, relaciones y comportamiento financiero. Distingue marcos de reflexión de promesas de resultados."
+  },
+  "/es/libros/mejores-libros-de-aventura-para-hombres": {
+    "title": "Libros de aventura: acción, supervivencia y biografía",
+    "description": "Compara Killing Floor, The Martian, American Assassin y Unbroken por tipo de tensión, relación con los hechos y orden de lectura."
+  },
+  "/es/libros/mejores-libros-de-colleen-hoover": {
+    "title": "Colleen Hoover: por dónde empezar según el tono",
+    "description": "Compara cinco novelas de Hoover por relaciones, suspense, duelo y lectura independiente. Evita confundir romance con contenido ligero."
+  },
+  "/es/libros/mejores-libros-de-historia-para-principiantes": {
+    "title": "Libros de historia para empezar: cuatro alcances distintos",
+    "description": "Compara una síntesis sobre la humanidad, Roma antigua, Chicago y la historia de la ciencia. Elige por pregunta, alcance y edición."
+  },
+  "/es/libros/mejores-libros-de-la-segunda-guerra-mundial": {
+    "title": "Segunda Guerra Mundial: novelas, testimonio e historia",
+    "description": "Distingue All the Light We Cannot See, Band of Brothers, Night y The Book Thief por género, perspectiva y límites de su relato."
+  },
+  "/es/libros/mejores-libros-de-stephen-king": {
+    "title": "Stephen King: cinco maneras de empezar",
+    "description": "Elige entre hotel encantado, cautiverio, viaje temporal, amistad y duelo. Compara las novelas por premisa, intensidad y compromiso de lectura."
+  },
+  "/es/libros/mejores-libros-de-true-crime": {
+    "title": "True crime: cuatro libros según perspectiva y contexto",
+    "description": "Compara Capote, McNamara, Grann y Keefe por enfoque narrativo, investigación y alcance. Revisa ediciones sin confundir el libro con un expediente actual."
+  },
+  "/es/libros/mejores-libros-para-quien-no-le-gusta-leer": {
+    "title": "Libros para volver a leer: cuatro formas de empezar",
+    "description": "Prueba una novela técnica, un relato breve o dos memorias distintas. Elige por curiosidad, voz y formato, sin promesas de cambiar tus hábitos."
+  },
+  "/es/oficina-en-casa/mejores-brazos-para-monitor": {
+    "title": "Brazos para monitor: comprueba pantalla, mesa y modelo",
+    "description": "Evalúa el Ergotron LX original y las búsquedas de Amazon Basics por carga, montaje, alcance y piezas. Sin promesas de comodidad ni equivalencia entre marcas."
+  },
+  "/es/oficina-en-casa/mejores-escritorios-de-pie": {
+    "title": "Escritorios elevables: configura Jarvis, UPLIFT y E7",
+    "description": "Compara altura mínima, tablero, controles y montaje. Distingue UPLIFT V2 usado del V3 actual y las variantes de Jarvis y FlexiSpot E7."
+  },
+  "/es/oficina-en-casa/mejores-monitores-portatiles-economicos": {
+    "title": "Monitores portátiles económicos: conexión y estado primero",
+    "description": "Compara ThinkVision M14, ZenScreen MB16ACV y búsquedas de segunda mano. Verifica vídeo USB-C, controladores, accesorios y costo total."
+  },
+  "/es/oficina-en-casa/mejores-productos-para-tu-oficina-en-casa": {
+    "title": "Oficina en casa: qué comprar para resolver una necesidad",
+    "description": "Prioriza muebles, pantalla y conexiones. Compara ejemplos de FlexiSpot, SIHOO, Ergotron y Logitech sin convertir cada categoría en una compra obligatoria."
+  },
+  "/es/oficina-en-casa/mejores-sillas-ergonomicas-para-home-office": {
+    "title": "Sillas para oficina en casa: Aeron frente a Gesture",
+    "description": "Compara asiento, tallas, profundidad y opciones de ajuste. Evalúa la silla junto a tu mesa y distingue garantía del vendedor y del fabricante."
+  },
+  "/es/oficina-en-casa/oficina-en-casa-en-mesa-de-cocina": {
+    "title": "Oficina en la mesa de cocina: monta, trabaja y guarda",
+    "description": "Planifica una zona temporal según espacio, conexiones y convivencia. Soporte, periféricos y almacenamiento sin promesas de montaje en cinco minutos."
+  },
+  "/es/tecnologia/airpods-pro-vs-sony-wf-1000xm5": {
+    "title": "AirPods Pro 2 vs Sony WF-1000XM5: qué conexión te conviene",
+    "description": "Compara AirPods Pro 2 USB-C y Sony WF-1000XM5 por dispositivos, ajustes, autonomía y límites. Sin pruebas de sonido ni ofertas inventadas."
+  },
+  "/es/tecnologia/mejores-audifonos-inalambricos": {
+    "title": "Audífonos inalámbricos: elige por conexión, ajuste y llamadas",
+    "description": "Compara Sony, AirPods Pro 2, Jabra y Soundcore según tus dispositivos y llamadas. Revisa variantes, ajustes y búsquedas sin precios inventados."
+  },
+  "/es/tecnologia/mejores-laptops-para-estudiantes": {
+    "title": "Laptops para estudiantes: comprueba software y configuración",
+    "description": "Elige un portátil para estudiar según aplicaciones, exámenes y configuración. Compara MacBook Air M3, Flex 5i, XPS 13 y Spin 714 con límites claros."
+  },
+  "/es/tecnologia/mejores-monitores-economicos": {
+    "title": "Monitores económicos: resolución, puertos y coste completo",
+    "description": "Compara LG 27GP850-B, Dell S2722DGM y ASUS VG249Q3A por pantalla, conexión y soporte. El presupuesto no equivale a un precio verificado."
+  },
+  "/es/tecnologia/mejores-teclados-mecanicos": {
+    "title": "Teclados mecánicos: distribución, conexión y variantes",
+    "description": "Compara Keychron Q5 Max, Razer V4 75% y Redragon K552. Distingue versiones y considera MX Keys S como alternativa no mecánica."
   }
 }

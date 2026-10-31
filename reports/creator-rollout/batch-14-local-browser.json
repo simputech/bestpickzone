@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-31T15:20:28.957359+00:00",
+  "base": "http://127.0.0.1:3118",
+  "method": "CUA: all 20 complete rendered main texts read, final text checked after navigation-label correction; desktop and mobile DOM checks, representative screenshots and keyboard table scroll (40px).",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checkCount": 40,
+  "failures": [],
+  "checks": [
+    "one H1",
+    "correct canonical",
+    "no page overflow",
+    "no broken main images",
+    "no placeholder links",
+    "conspicuous disclosure",
+    "Amazon tag althcu-20 and sponsored/search labels",
+    "focusable table regions",
+    "complete reviewed content matches"
+  ],
+  "staticAmazonSearchCards": 74,
+  "staticEbaySearchCards": 4,
+  "ebayCampaign": "5339164184",
+  "liveApiCards": 0,
+  "pages": [
+    "/es/libros/libros-como-el-codigo-da-vinci",
+    "/es/libros/mejores-libros-de-autoayuda-2026",
+    "/es/libros/mejores-libros-de-aventura-para-hombres",
+    "/es/libros/mejores-libros-de-colleen-hoover",
+    "/es/libros/mejores-libros-de-historia-para-principiantes",
+    "/es/libros/mejores-libros-de-la-segunda-guerra-mundial",
+    "/es/libros/mejores-libros-de-stephen-king",
+    "/es/libros/mejores-libros-de-true-crime",
+    "/es/libros/mejores-libros-para-quien-no-le-gusta-leer",
+    "/es/oficina-en-casa/mejores-brazos-para-monitor",
+    "/es/oficina-en-casa/mejores-escritorios-de-pie",
+    "/es/oficina-en-casa/mejores-monitores-portatiles-economicos",
+    "/es/oficina-en-casa/mejores-productos-para-tu-oficina-en-casa",
+    "/es/oficina-en-casa/mejores-sillas-ergonomicas-para-home-office",
+    "/es/oficina-en-casa/oficina-en-casa-en-mesa-de-cocina",
+    "/es/tecnologia/airpods-pro-vs-sony-wf-1000xm5",
+    "/es/tecnologia/mejores-audifonos-inalambricos",
+    "/es/tecnologia/mejores-laptops-para-estudiantes",
+    "/es/tecnologia/mejores-monitores-economicos",
+    "/es/tecnologia/mejores-teclados-mecanicos"
+  ],
+  "destinationLimits": "220 unique destinations tested: 130 HTTP200, 71 HTTP503, 18 HTTP403, one timeout, zero404. Amazon Keychron Q5 Max and eBay generic portable-monitor search opened actual search results in CUA. Acer regional source also retrieved through web. No stock or offer identity inferred from searches."
+}

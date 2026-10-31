@@ -77,13 +77,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'oficina-en-casa',
     slug: 'mejores-productos-para-tu-oficina-en-casa',
-    title: 'Los Mejores Productos Para Tu Oficina En Casa',
+    title: "Oficina en casa: qué comprar para resolver una necesidad",
     metaDescription:
-      'Una guia en espanol con los mejores productos para oficina en casa: escritorio, silla, brazo para monitor, iluminacion, camara web y accesorios que hacen el trabajo remoto mas comodo.',
+      "Prioriza muebles, pantalla y conexiones. Compara ejemplos de FlexiSpot, SIHOO, Ergotron y Logitech sin convertir cada categoría en una compra obligatoria.",
     englishPath: '/wfh/best-products-for-your-home-office',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Si quieres que tu escritorio se sienta mas ordenado y menos improvisado, estos son los productos que suelen cambiar mas la experiencia diaria.',
+    updatedDate: '2026-10-31',
+    dek: "Prioriza muebles, pantalla y conexiones. Compara ejemplos de FlexiSpot, SIHOO, Ergotron y Logitech sin convertir cada categoría en una compra obligatoria.",
     intro:
       'La mayoria de las oficinas en casa no necesitan veinte gadgets. Necesitan unas pocas piezas que mejoren la postura, el enfoque y la sensacion general del espacio. Un buen escritorio, una silla que no te castigue al mediodia y un par de accesorios bien elegidos suelen aportar mucho mas que una mesa llena de objetos de moda.',
     perspective:
@@ -102,13 +102,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'oficina-en-casa',
     slug: 'oficina-en-casa-en-mesa-de-cocina',
-    title: 'Como Armar Una Oficina En Casa Sobre La Mesa De La Cocina',
+    title: "Oficina en la mesa de cocina: monta, trabaja y guarda",
     metaDescription:
-      'Ideas practicas para convertir una mesa de cocina en oficina en casa con mejor ergonomia, menos cables y una rutina facil de montar y guardar.',
+      "Planifica una zona temporal según espacio, conexiones y convivencia. Soporte, periféricos y almacenamiento sin promesas de montaje en cinco minutos.",
     englishPath: '/wfh/ultimate-kitchen-table-home-office-setup',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Una buena oficina temporal no tiene que sentirse precaria. Con pocas piezas, una mesa de cocina puede trabajar mucho mejor.',
+    updatedDate: '2026-10-31',
+    dek: "Planifica una zona temporal según espacio, conexiones y convivencia. Soporte, periféricos y almacenamiento sin promesas de montaje en cinco minutos.",
     intro:
       'Trabajar desde la mesa de la cocina no es ideal, pero para muchisima gente es la realidad diaria. El truco no es fingir que ya tienes una oficina dedicada, sino construir una configuracion ligera que se arme rapido, funcione de verdad y desaparezca sin convertir la cocina en un caos permanente.',
     perspective:
@@ -127,13 +127,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'oficina-en-casa',
     slug: 'mejores-escritorios-de-pie',
-    title: 'Los Mejores Escritorios De Pie Para Trabajar Desde Casa',
+    title: "Escritorios elevables: configura Jarvis, UPLIFT y E7",
     metaDescription:
-      'Que buscar en un escritorio de pie para home office: estabilidad, profundidad, medidas y por que algunos modelos economicos funcionan mejor que otros.',
+      "Compara altura mínima, tablero, controles y montaje. Distingue UPLIFT V2 usado del V3 actual y las variantes de Jarvis y FlexiSpot E7.",
     englishPath: '/wfh/fully-jarvis-vs-uplift-v2-standing-desk',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Un escritorio de pie bueno no solo sube y baja. Tambien sostiene mejor tu flujo de trabajo y limpia visualmente la oficina.',
+    updatedDate: '2026-10-31',
+    dek: "Compara altura mínima, tablero, controles y montaje. Distingue UPLIFT V2 usado del V3 actual y las variantes de Jarvis y FlexiSpot E7.",
     intro:
       'Los escritorios de pie dejaron de ser un lujo raro y se volvieron una de las mejoras mas claras para oficina en casa. Te permiten cambiar de posicion, ajustar mejor la altura de la pantalla y evitar que el dia se sienta inmovil. Pero la diferencia entre uno bueno y uno mediocre sigue siendo enorme.',
     perspective:
@@ -152,13 +152,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'oficina-en-casa',
     slug: 'mejores-brazos-para-monitor',
-    title: 'Los Mejores Brazos Para Monitor En Una Oficina En Casa',
+    title: "Brazos para monitor: comprueba pantalla, mesa y modelo",
     metaDescription:
-      'Por que un brazo para monitor puede mejorar la postura y despejar el escritorio mas rapido que otros accesorios de oficina en casa.',
+      "Evalúa el Ergotron LX original y las búsquedas de Amazon Basics por carga, montaje, alcance y piezas. Sin promesas de comodidad ni equivalencia entre marcas.",
     englishPath: '/wfh/ergotron-lx-vs-amazon-basics-monitor-arm',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Pocas compras liberan tanto espacio visual como un buen brazo para monitor.',
+    updatedDate: '2026-10-31',
+    dek: "Evalúa el Ergotron LX original y las búsquedas de Amazon Basics por carga, montaje, alcance y piezas. Sin promesas de comodidad ni equivalencia entre marcas.",
     intro:
       'Un brazo para monitor parece un detalle pequeno hasta que lo usas una semana. De pronto, la pantalla queda donde debe, el escritorio gana profundidad y el espacio deja de verse apretado. Para gente que trabaja muchas horas frente al monitor, eso no es un lujo. Es ergonomia y claridad.',
     perspective:
@@ -177,13 +177,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'oficina-en-casa',
     slug: 'mejores-sillas-ergonomicas-para-home-office',
-    title: 'Las Mejores Sillas Ergonomicas Para Home Office',
+    title: "Sillas para oficina en casa: Aeron frente a Gesture",
     metaDescription:
-      'Como elegir una silla ergonomica para trabajar desde casa y que elementos importan de verdad: soporte lumbar, brazos, profundidad y ajuste.',
+      "Compara asiento, tallas, profundidad y opciones de ajuste. Evalúa la silla junto a tu mesa y distingue garantía del vendedor y del fabricante.",
     englishPath: '/wfh/herman-miller-aeron-vs-steelcase-gesture',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'La silla correcta no se nota tanto como la equivocada, pero cambia todo el dia.',
+    updatedDate: '2026-10-31',
+    dek: "Compara asiento, tallas, profundidad y opciones de ajuste. Evalúa la silla junto a tu mesa y distingue garantía del vendedor y del fabricante.",
     intro:
       'La silla sigue siendo la compra mas importante para muchas oficinas en casa. Una mala te obliga a recolocarte cada veinte minutos. Una buena te deja trabajar sin pensar todo el tiempo en la espalda, las caderas o los hombros.',
     perspective:
@@ -202,13 +202,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'oficina-en-casa',
     slug: 'mejores-monitores-portatiles-economicos',
-    title: 'Los Mejores Monitores Portatiles Economicos',
+    title: "Monitores portátiles económicos: conexión y estado primero",
     metaDescription:
-      'Que buscar en un monitor portatil economico para trabajo remoto, viajes o segunda pantalla flexible sin gastar de mas.',
+      "Compara ThinkVision M14, ZenScreen MB16ACV y búsquedas de segunda mano. Verifica vídeo USB-C, controladores, accesorios y costo total.",
     englishPath: '/wfh/best-portable-monitors-under-100-ebay',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Una segunda pantalla ligera puede hacer que un escritorio temporal se sienta mucho mas serio.',
+    updatedDate: '2026-10-31',
+    dek: "Compara ThinkVision M14, ZenScreen MB16ACV y búsquedas de segunda mano. Verifica vídeo USB-C, controladores, accesorios y costo total.",
     intro:
       'Los monitores portatiles baratos son una de esas categorias donde una mejora modesta cambia mucho el dia. Con una pantalla extra, el correo, las videollamadas y los documentos dejan de competir por el mismo espacio, y hasta una mesa pequeña empieza a sentirse mas capaz.',
     perspective:
@@ -227,13 +227,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'tecnologia',
     slug: 'mejores-monitores-economicos',
-    title: 'Los Mejores Monitores Economicos Por Menos De $300',
+    title: "Monitores económicos: resolución, puertos y coste completo",
     metaDescription:
-      'Monitores economicos recomendados para trabajo, juegos y uso general, con explicacion clara de resolucion, panel, tasa de refresco y donde conviene comprar.',
+      "Compara LG 27GP850-B, Dell S2722DGM y ASUS VG249Q3A por pantalla, conexión y soporte. El presupuesto no equivale a un precio verificado.",
     englishPath: '/tech/best-budget-monitors',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Hoy se puede comprar una pantalla mucho mejor que hace dos años por el mismo dinero, pero aun conviene separar bien uso de oficina y uso gamer.',
+    updatedDate: '2026-10-31',
+    dek: "Compara LG 27GP850-B, Dell S2722DGM y ASUS VG249Q3A por pantalla, conexión y soporte. El presupuesto no equivale a un precio verificado.",
     intro:
       'El mercado de monitores economicos mejoro bastante. Ya no hace falta gastar una fortuna para conseguir 1440p, mejor color o una frecuencia alta suficiente para jugar. El desafio ahora no es encontrar opciones; es filtrar cuales de verdad valen el espacio en tu escritorio.',
     perspective:
@@ -252,13 +252,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'tecnologia',
     slug: 'mejores-laptops-para-estudiantes',
-    title: 'Las Mejores Laptops Para Estudiantes',
+    title: "Laptops para estudiantes: comprueba software y configuración",
     metaDescription:
-      'Que portatiles valen mas la pena para estudiantes: bateria, peso, rendimiento y que compromisos si convienen y cuales no.',
+      "Elige un portátil para estudiar según aplicaciones, exámenes y configuración. Compara MacBook Air M3, Flex 5i, XPS 13 y Spin 714 con límites claros.",
     englishPath: '/tech/best-laptops-for-college-students',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Una laptop para estudiar tiene que sobrevivir clases, biblioteca, mochila y multitarea sin volverse una carga.',
+    updatedDate: '2026-10-31',
+    dek: "Elige un portátil para estudiar según aplicaciones, exámenes y configuración. Compara MacBook Air M3, Flex 5i, XPS 13 y Spin 714 con límites claros.",
     intro:
       'La mejor laptop para un estudiante rara vez es la mas potente. Casi siempre es la que aguanta bateria real, pesa poco, abre todo sin frustracion y no te obliga a cargar con un ladrillo por todo el campus. El equilibrio importa mas que la hoja de especificaciones perfecta.',
     perspective:
@@ -277,13 +277,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'tecnologia',
     slug: 'mejores-teclados-mecanicos',
-    title: 'Los Mejores Teclados Mecanicos',
+    title: "Teclados mecánicos: distribución, conexión y variantes",
     metaDescription:
-      'Guia en espanol para elegir teclado mecanico segun escritura, juegos, ruido, tamaño y presupuesto.',
+      "Compara Keychron Q5 Max, Razer V4 75% y Redragon K552. Distingue versiones y considera MX Keys S como alternativa no mecánica.",
     englishPath: '/tech/best-mechanical-keyboards',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'No hace falta ser gamer para disfrutar un teclado mecanico; hace falta pasar muchas horas escribiendo o usar uno malo actualmente.',
+    updatedDate: '2026-10-31',
+    dek: "Compara Keychron Q5 Max, Razer V4 75% y Redragon K552. Distingue versiones y considera MX Keys S como alternativa no mecánica.",
     intro:
       'Los teclados mecanicos ya no son solo para setups gamer ruidosos. Tambien son una gran mejora para gente que escribe mucho, quiere mejor tacto o busca un escritorio con mas personalidad sin sacrificar funcion. La clave es elegir bien el formato y el tipo de switch.',
     perspective:
@@ -302,13 +302,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'tecnologia',
     slug: 'mejores-audifonos-inalambricos',
-    title: 'Los Mejores Audifonos Inalambricos',
+    title: "Audífonos inalámbricos: elige por conexión, ajuste y llamadas",
     metaDescription:
-      'Audifonos inalambricos recomendados para musica, llamadas, gimnasio y uso diario con enfoque practico en bateria, sonido y comodidad.',
+      "Compara Sony, AirPods Pro 2, Jabra y Soundcore según tus dispositivos y llamadas. Revisa variantes, ajustes y búsquedas sin precios inventados.",
     englishPath: '/tech/best-wireless-earbuds',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Un buen par de audifonos inalambricos mejora trayectos, gimnasio y llamadas, pero conviene comprar segun uso real y no por moda.',
+    updatedDate: '2026-10-31',
+    dek: "Compara Sony, AirPods Pro 2, Jabra y Soundcore según tus dispositivos y llamadas. Revisa variantes, ajustes y búsquedas sin precios inventados.",
     intro:
       'El mercado de audifonos inalambricos esta saturado, y no todos los modelos fallan en lo mismo. Algunos suenan bien pero se sienten inseguros al caminar. Otros son comodos pero flojos en llamadas. Por eso conviene decidir primero si buscas musica, trabajo, ejercicio o una mezcla.',
     perspective:
@@ -327,13 +327,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'tecnologia',
     slug: 'airpods-pro-vs-sony-wf-1000xm5',
-    title: 'AirPods Pro Vs Sony WF-1000XM5',
+    title: "AirPods Pro 2 vs Sony WF-1000XM5: qué conexión te conviene",
     metaDescription:
-      'Comparativa en espanol entre AirPods Pro y Sony WF-1000XM5 para decidir por sonido, llamadas, cancelacion de ruido y comodidad.',
+      "Compara AirPods Pro 2 USB-C y Sony WF-1000XM5 por dispositivos, ajustes, autonomía y límites. Sin pruebas de sonido ni ofertas inventadas.",
     englishPath: '/tech/airpods-pro-vs-sony-wf-1000xm5',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Dos de los auriculares mas populares del mercado, pero no necesariamente para el mismo comprador.',
+    updatedDate: '2026-10-31',
+    dek: "Compara AirPods Pro 2 USB-C y Sony WF-1000XM5 por dispositivos, ajustes, autonomía y límites. Sin pruebas de sonido ni ofertas inventadas.",
     intro:
       'AirPods Pro y Sony WF-1000XM5 aparecen siempre en la misma conversacion, pero su atractivo no es identico. Apple gana mucho por integracion, simplicidad y llamadas. Sony suele empujar mas fuerte en sonido, personalizacion y control del perfil de escucha.',
     perspective:
@@ -477,13 +477,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-de-stephen-king',
-    title: 'Los Mejores Libros De Stephen King',
+    title: "Stephen King: cinco maneras de empezar",
     metaDescription:
-      'Por donde empezar con Stephen King y cuales son sus libros mas recomendables segun terror, suspense, personajes y accesibilidad para lectores nuevos.',
+      "Elige entre hotel encantado, cautiverio, viaje temporal, amistad y duelo. Compara las novelas por premisa, intensidad y compromiso de lectura.",
     englishPath: '/books/best-stephen-king-books',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Stephen King tiene una biblioteca enorme, pero unos pocos titulos siguen funcionando mejor que otros como puerta de entrada.',
+    updatedDate: '2026-10-31',
+    dek: "Elige entre hotel encantado, cautiverio, viaje temporal, amistad y duelo. Compara las novelas por premisa, intensidad y compromiso de lectura.",
     intro:
       'Empezar con Stephen King puede ser intimidante porque su catalogo es inmenso y muy desigual en tono. Hay terror puro, historias de duelo, thrillers psicologicos y novelas largas que casi no se parecen entre si. Por eso conviene elegir una entrada que encaje con tu tolerancia al miedo y tu paciencia como lector.',
     perspective:
@@ -500,7 +500,7 @@ export const spanishArticles: SpanishArticle[] = [
     ],
     bookHighlights: [
       {
-        title: 'The Shining',
+        title: "Stephen King: cinco maneras de empezar",
         badge: 'Mejor Punto De Entrada',
         summary:
           'Sigue siendo el libro mas facil de recomendar porque concentra casi todas las virtudes de King sin exigir una novela gigantesca. El hotel Overlook, el deterioro de Jack Torrance y la sensibilidad de Danny crean un terror que mezcla casa rota, adiccion y presencia sobrenatural con un equilibrio muy raro.',
@@ -509,7 +509,7 @@ export const spanishArticles: SpanishArticle[] = [
         bestFor: 'Lectores nuevos que quieren terror psicologico con tension constante y una puerta de entrada representativa.',
       },
       {
-        title: 'Misery',
+        title: "Stephen King: cinco maneras de empezar",
         badge: 'Mejor Si Prefieres Thriller',
         summary:
           'Misery demuestra que King no necesita monstruos ni mitologia para ser brutalmente eficaz. Con Paul Sheldon atrapado por Annie Wilkes, la novela reduce el escenario al minimo y saca provecho de cada gesto, cada escalera y cada cambio de humor para mantener la presion.',
@@ -518,7 +518,7 @@ export const spanishArticles: SpanishArticle[] = [
         bestFor: 'Quien quiere suspense humano, ritmo mas tenso y una experiencia mas corta que sus epicas.',
       },
       {
-        title: '11/22/63',
+        title: "Stephen King: cinco maneras de empezar",
         badge: 'Mejor Para Quien Cree Que No Le Gusta King',
         summary:
           'Aqui King se mueve mas hacia la historia alternativa, el viaje en el tiempo y una historia romantica con mucho peso emocional. La mision de impedir el asesinato de Kennedy da direccion, pero el encanto real esta en como recrea la vida cotidiana de finales de los cincuenta y principios de los sesenta.',
@@ -527,7 +527,7 @@ export const spanishArticles: SpanishArticle[] = [
         bestFor: 'Lectores que prefieren ficcion historica, viaje temporal y una historia con mas corazon que horror puro.',
       },
       {
-        title: 'It',
+        title: "Stephen King: cinco maneras de empezar",
         badge: 'Mejor Gran Apuesta',
         summary:
           'It es la recomendacion para quien ya sabe que quiere sumergirse de lleno en el King mas ambicioso. Pennywise es el gancho obvio, pero la fuerza del libro esta en Derry, en la amistad del Club de los Perdedores y en esa mezcla de infancia, trauma y memoria que atraviesa toda la novela.',
@@ -536,7 +536,7 @@ export const spanishArticles: SpanishArticle[] = [
         bestFor: 'Lectores pacientes que quieren una novela enorme, coral y emocionalmente mas expansiva.',
       },
       {
-        title: 'Pet Sematary',
+        title: "Stephen King: cinco maneras de empezar",
         badge: 'La Opcion Mas Dura',
         summary:
           'Pet Sematary es probablemente la mejor eleccion si buscas el King mas oscuro y menos complaciente. La historia del cementerio y lo que ocurre despues importa, pero el verdadero centro es el duelo y la tentacion de deshacer una perdida que no admite arreglo.',
@@ -549,13 +549,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-de-colleen-hoover',
-    title: 'Los Mejores Libros De Colleen Hoover',
+    title: "Colleen Hoover: por dónde empezar según el tono",
     metaDescription:
-      'Guia en espanol para decidir con que libro empezar de Colleen Hoover y cual encaja mejor si buscas romance, intensidad emocional o thriller.',
+      "Compara cinco novelas de Hoover por relaciones, suspense, duelo y lectura independiente. Evita confundir romance con contenido ligero.",
     englishPath: '/books/best-colleen-hoover-books',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Colleen Hoover no siempre es “romance ligero”, y elegir mal el primer libro puede cambiar por completo tu opinion sobre ella.',
+    updatedDate: '2026-10-31',
+    dek: "Compara cinco novelas de Hoover por relaciones, suspense, duelo y lectura independiente. Evita confundir romance con contenido ligero.",
     intro:
       'Colleen Hoover se vende muchas veces como una autora de romance accesible, pero esa etiqueta se queda corta. Sus libros mezclan intensidad emocional, giros grandes y temas bastante mas oscuros de lo que su fama viral a veces sugiere. Por eso no todos sus titulos sirven igual para empezar.',
     perspective:
@@ -574,13 +574,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-de-autoayuda-2026',
-    title: 'Los Mejores Libros De Autoayuda De 2026',
+    title: "Libros de autoayuda para leer en 2026: cuatro enfoques",
     metaDescription:
-      'Libros de autoayuda recomendados para habitos, enfoque, dinero, carrera y crecimiento personal sin caer en promesas vacias.',
+      "Elige entre hábitos, prioridades laborales, relaciones y comportamiento financiero. Distingue marcos de reflexión de promesas de resultados.",
     englishPath: '/books/self-help/best-self-help-books-2026',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'La autoayuda util suele sentirse mas como una herramienta concreta que como una charla motivacional eterna.',
+    updatedDate: '2026-10-31',
+    dek: "Elige entre hábitos, prioridades laborales, relaciones y comportamiento financiero. Distingue marcos de reflexión de promesas de resultados.",
     intro:
       'El problema con muchos libros de autoayuda no es que quieran ayudarte. Es que prometen demasiado y te dejan con frases inspiradoras pero poca estructura. Los mejores del genero suelen ser los que organizan bien una idea, la hacen aplicable y respetan el tiempo del lector.',
     perspective:
@@ -599,13 +599,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-de-true-crime',
-    title: 'Los Mejores Libros De True Crime',
+    title: "True crime: cuatro libros según perspectiva y contexto",
     metaDescription:
-      'Recomendaciones de true crime para lectores que quieren reporteo serio, casos complejos y narrativas que vayan mas alla del morbo.',
+      "Compara Capote, McNamara, Grann y Keefe por enfoque narrativo, investigación y alcance. Revisa ediciones sin confundir el libro con un expediente actual.",
     englishPath: '/books/reader-picks/best-true-crime-books',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'El true crime funciona mejor cuando entiende que el caso importa, pero tambien importa como esta contado y con que responsabilidad.',
+    updatedDate: '2026-10-31',
+    dek: "Compara Capote, McNamara, Grann y Keefe por enfoque narrativo, investigación y alcance. Revisa ediciones sin confundir el libro con un expediente actual.",
     intro:
       'Los mejores libros de true crime no son solo catalogos de horror. Son trabajos de investigacion que convierten un caso en una historia legible sin perder contexto humano, institucional o historico. Cuando estan bien hechos, dicen tanto sobre el sistema como sobre el crimen.',
     perspective:
@@ -624,13 +624,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-para-quien-no-le-gusta-leer',
-    title: 'Los Mejores Libros Para Gente A La Que No Le Gusta Leer',
+    title: "Libros para volver a leer: cuatro formas de empezar",
     metaDescription:
-      'Una lista en espanol para lectores reacios: libros cortos o muy adictivos que ayudan a recuperar el habito sin sentirse como tarea.',
+      "Prueba una novela técnica, un relato breve o dos memorias distintas. Elige por curiosidad, voz y formato, sin promesas de cambiar tus hábitos.",
     englishPath: '/books/reader-picks/best-books-for-people-who-dont-like-reading',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'A veces el problema no es que no te guste leer; es que sigues eligiendo libros equivocados para este momento.',
+    updatedDate: '2026-10-31',
+    dek: "Prueba una novela técnica, un relato breve o dos memorias distintas. Elige por curiosidad, voz y formato, sin promesas de cambiar tus hábitos.",
     intro:
       'Mucha gente dice que no le gusta leer cuando en realidad no le gusta aburrirse, sentirse obligada o quedarse atrapada en un libro que avanza lento. Por eso los mejores libros para lectores reacios no suelen ser “importantes”. Suelen ser libros con impulso, claridad y una recompensa relativamente rapida.',
     perspective:
@@ -649,13 +649,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'libros-como-el-codigo-da-vinci',
-    title: 'Libros Como El Codigo Da Vinci',
+    title: "Libros como El código Da Vinci: elige el tipo de misterio",
     metaDescription:
-      'Recomendaciones para lectores que quieren mas thrillers de conspiracion, secretos historicos y enigmas al estilo El Codigo Da Vinci.',
+      "Compara cuatro novelas por investigación, persecución, historia y elementos sobrenaturales. Comprueba autor, traducción y edición antes de comprar.",
     englishPath: '/books/reader-picks/best-books-like-da-vinci-code',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Si lo que te gustaba era la mezcla de conspiracion, ritmo y simbolos, hay varios caminos muy buenos para seguir.',
+    updatedDate: '2026-10-31',
+    dek: "Compara cuatro novelas por investigación, persecución, historia y elementos sobrenaturales. Comprueba autor, traducción y edición antes de comprar.",
     intro:
       'Buscar libros como El Codigo Da Vinci casi siempre significa buscar una mezcla concreta: conspiracion, secretos historicos, pistas encadenadas y una historia que se mueve deprisa. No hace falta que todos imiten a Dan Brown exactamente, pero si conviene que mantengan esa energia de “una cosa lleva a la otra”.',
     perspective:
@@ -674,13 +674,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-de-aventura-para-hombres',
-    title: 'Los Mejores Libros De Aventura Para Hombres',
+    title: "Libros de aventura: acción, supervivencia y biografía",
     metaDescription:
-      'Novelas de aventura y accion para lectores que buscan ritmo, viajes, peligro, supervivencia o historias con impulso constante.',
+      "Compara Killing Floor, The Martian, American Assassin y Unbroken por tipo de tensión, relación con los hechos y orden de lectura.",
     englishPath: '/books/reader-picks/best-action-adventure-books-for-men',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'La aventura buena no depende solo de explosiones o testosterona. Depende de movimiento, riesgo y claridad narrativa.',
+    updatedDate: '2026-10-31',
+    dek: "Compara Killing Floor, The Martian, American Assassin y Unbroken por tipo de tensión, relación con los hechos y orden de lectura.",
     intro:
       'Los mejores libros de aventura hacen que quieras pasar una pagina mas incluso cuando ya deberias dormir. Tienen movimiento, presion, decisiones rapidas y una sensacion real de que los personajes se juegan algo. Eso puede pasar en guerra, exploracion, espionaje o supervivencia.',
     perspective:
@@ -699,13 +699,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-de-historia-para-principiantes',
-    title: 'Los Mejores Libros De Historia Para Principiantes',
+    title: "Libros de historia para empezar: cuatro alcances distintos",
     metaDescription:
-      'Libros de historia recomendados para empezar sin sentirse perdido: claros, bien estructurados y lo bastante interesantes para seguir leyendo.',
+      "Compara una síntesis sobre la humanidad, Roma antigua, Chicago y la historia de la ciencia. Elige por pregunta, alcance y edición.",
     englishPath: '/books/genre-fiction/best-history-books-for-beginners',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Empezar con historia no significa empezar con el libro mas largo del estante.',
+    updatedDate: '2026-10-31',
+    dek: "Compara una síntesis sobre la humanidad, Roma antigua, Chicago y la historia de la ciencia. Elige por pregunta, alcance y edición.",
     intro:
       'Los mejores libros de historia para principiantes son los que explican con claridad sin hablarle al lector como si fuera alumno castigado. Necesitas contexto, si, pero tambien ritmo, ejemplos y una estructura que no te haga sentir perdido a las veinte paginas.',
     perspective:
@@ -724,13 +724,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'libros',
     slug: 'mejores-libros-de-la-segunda-guerra-mundial',
-    title: 'Los Mejores Libros De La Segunda Guerra Mundial',
+    title: "Segunda Guerra Mundial: novelas, testimonio e historia",
     metaDescription:
-      'Recomendaciones sobre la Segunda Guerra Mundial para lectores que buscan historia militar, contexto politico, memorias y narrativas accesibles.',
+      "Distingue All the Light We Cannot See, Band of Brothers, Night y The Book Thief por género, perspectiva y límites de su relato.",
     englishPath: '/books/genre-fiction/best-world-war-ii-books',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'La Segunda Guerra Mundial tiene cientos de libros excelentes, pero no todos sirven igual para empezar ni para el mismo tipo de lector.',
+    updatedDate: '2026-10-31',
+    dek: "Distingue All the Light We Cannot See, Band of Brothers, Night y The Book Thief por género, perspectiva y límites de su relato.",
     intro:
       'Leer sobre la Segunda Guerra Mundial puede significar cosas muy distintas: estrategia militar, biografias, memorias, operaciones especiales, politica o experiencia civil. Por eso la mejor recomendacion no sale de una sola lista universal. Sale de entender que parte del conflicto te interesa mas.',
     perspective:
@@ -777,125 +777,26 @@ function spanishBookQuery(title: string, author: string) {
 }
 
 const spanishArticleRecommendations: Record<string, SpanishRecommendation[]> = {
-  'libros/mejores-libros-de-stephen-king': [
-    { title: 'The Shining', description: 'La opcion mas segura para empezar con King en una edicion en espanol.', query: spanishBookQuery('The Shining', 'Stephen King'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'It', description: 'La recomendacion para lectores que quieren la version mas ambiciosa y larga de King.', query: spanishBookQuery('It', 'Stephen King'), affiliateLabel: 'Ver opciones en espanol en Amazon' },
-    { title: 'Misery', description: 'La mejor compra si prefieres thriller psicologico sin elemento sobrenatural pesado.', query: spanishBookQuery('Misery', 'Stephen King'), affiliateLabel: 'Buscar Misery en espanol' },
-    { title: 'Pet Sematary', description: 'La eleccion para lectores que quieren el King mas duro y perturbador.', query: spanishBookQuery('Pet Sematary', 'Stephen King'), affiliateLabel: 'Buscar Pet Sematary en espanol' },
-    { title: '11/22/63', description: 'La apuesta para quienes quieren historia alternativa y menos terror puro.', query: spanishBookQuery('11/22/63', 'Stephen King'), affiliateLabel: 'Buscar 11/22/63 en espanol' },
-  ],
-  'libros/mejores-libros-de-colleen-hoover': [
-    { title: 'It Ends With Us', description: 'El punto de entrada mas claro al estilo emocionalmente intenso de Hoover.', query: spanishBookQuery('It Ends With Us', 'Colleen Hoover'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'Verity', description: 'La mejor compra si llegas a Hoover desde thriller y suspense.', query: spanishBookQuery('Verity', 'Colleen Hoover'), affiliateLabel: 'Ver Verity en espanol' },
-    { title: 'Ugly Love', description: 'La opcion para quien quiere una lectura mas romantica y emocionalmente fuerte.', query: spanishBookQuery('Ugly Love', 'Colleen Hoover'), affiliateLabel: 'Buscar Ugly Love en espanol' },
-    { title: 'November 9', description: 'La recomendacion mas ligera y romantica dentro de esta lista.', query: spanishBookQuery('November 9', 'Colleen Hoover'), affiliateLabel: 'Buscar November 9 en espanol' },
-    { title: 'Reminders of Him', description: 'La mejor compra si prefieres culpa, redencion y un tono algo mas maduro.', query: spanishBookQuery('Reminders of Him', 'Colleen Hoover'), affiliateLabel: 'Buscar Reminders of Him en espanol' },
-  ],
-  'libros/mejores-libros-de-autoayuda-2026': [
-    { title: 'The Let Them Theory', description: 'La apuesta mas actual si quieres motivacion clara y accion inmediata.', query: spanishBookQuery('The Let Them Theory', 'Mel Robbins'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'Slow Productivity', description: 'Ideal si quieres trabajar mejor con menos saturacion y mas enfoque.', query: spanishBookQuery('Slow Productivity', 'Cal Newport'), affiliateLabel: 'Ver Slow Productivity en espanol' },
-    { title: 'The Psychology of Money', description: 'La mejor compra si tu prioridad es mentalidad financiera y decisiones practicas.', query: spanishBookQuery('The Psychology of Money', 'Morgan Housel'), affiliateLabel: 'Buscar este libro en espanol' },
-    { title: 'Atomic Habits', description: 'Sigue siendo el libro mas consistente para cambiar sistemas y rutinas.', query: spanishBookQuery('Atomic Habits', 'James Clear'), affiliateLabel: 'Buscar Atomic Habits en espanol' },
-  ],
-  'libros/mejores-libros-de-true-crime': [
-    { title: 'In Cold Blood', description: 'El clasico fundacional del true crime para lectores que quieren contexto y escritura fuerte.', query: spanishBookQuery('In Cold Blood', 'Truman Capote'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: "I'll Be Gone in the Dark", description: 'La recomendacion para lectores que quieren investigacion moderna y obsesiva.', query: spanishBookQuery("I'll Be Gone in the Dark", 'Michelle McNamara'), affiliateLabel: 'Ver opciones en espanol' },
-    { title: 'Killers of the Flower Moon', description: 'La mejor compra si te interesa crimen real con peso historico y politico.', query: spanishBookQuery('Killers of the Flower Moon', 'David Grann'), affiliateLabel: 'Buscar este libro en espanol' },
-    { title: 'Say Nothing', description: 'Una opcion mas politica y periodistica para quien quiere algo mas amplio que un caso.', query: spanishBookQuery('Say Nothing', 'Patrick Radden Keefe'), affiliateLabel: 'Buscar Say Nothing en espanol' },
-  ],
-  'libros/mejores-libros-para-quien-no-le-gusta-leer': [
-    { title: 'The Martian', description: 'La mejor compra si quieres ritmo, humor y una estructura que nunca se atasca.', query: spanishBookQuery('The Martian', 'Andy Weir'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'The Old Man and the Sea', description: 'La opcion corta para volver a leer sin sentir que tomas una tarea enorme.', query: spanishBookQuery('The Old Man and the Sea', 'Ernest Hemingway'), affiliateLabel: 'Ver en espanol' },
-    { title: 'Born a Crime', description: 'La recomendacion si prefieres memorias con voz muy fuerte y lectura agil.', query: spanishBookQuery('Born a Crime', 'Trevor Noah'), affiliateLabel: 'Buscar este libro en espanol' },
-    { title: 'Educated', description: 'La compra indicada si quieres historia real intensa y muy legible.', query: spanishBookQuery('Educated', 'Tara Westover'), affiliateLabel: 'Buscar Educated en espanol' },
-  ],
-  'libros/libros-como-el-codigo-da-vinci': [
-    { title: 'The Name of the Rose', description: 'La recomendacion mas seria para quien quiere misterio historico con mas profundidad.', query: spanishBookQuery('The Name of the Rose', 'Umberto Eco'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'The Amber Room', description: 'La compra mas cercana al ritmo rapido tipo Dan Brown.', query: spanishBookQuery('The Amber Room', 'Steve Berry'), affiliateLabel: 'Ver en espanol' },
-    { title: 'Labyrinth', description: 'La opcion para quien quiere conspiracion, historia y atmosfera.', query: spanishBookQuery('Labyrinth', 'Kate Mosse'), affiliateLabel: 'Buscar Labyrinth en espanol' },
-    { title: 'The Historian', description: 'La apuesta para lectores que quieren mas investigacion y tono oscuro.', query: spanishBookQuery('The Historian', 'Elizabeth Kostova'), affiliateLabel: 'Buscar este libro en espanol' },
-  ],
-  'libros/mejores-libros-de-aventura-para-hombres': [
-    { title: 'Killing Floor', description: 'La compra mas segura si quieres accion inmediata y lectura muy adictiva.', query: spanishBookQuery('Killing Floor', 'Lee Child'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'The Martian', description: 'La mejor opcion si prefieres supervivencia, ingenio y ciencia accesible.', query: spanishBookQuery('The Martian', 'Andy Weir'), affiliateLabel: 'Ver en espanol' },
-    { title: 'American Assassin', description: 'La recomendacion para quien quiere espionaje y violencia mas directa.', query: spanishBookQuery('American Assassin', 'Vince Flynn'), affiliateLabel: 'Buscar este libro en espanol' },
-    { title: 'Unbroken', description: 'La compra para lectores que quieren aventura real y resistencia humana.', query: spanishBookQuery('Unbroken', 'Laura Hillenbrand'), affiliateLabel: 'Buscar Unbroken en espanol' },
-  ],
-  'libros/mejores-libros-de-historia-para-principiantes': [
-    { title: 'Sapiens', description: 'La compra mas facil para un lector nuevo que quiere una gran vista general.', query: spanishBookQuery('Sapiens', 'Yuval Noah Harari'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'The Devil in the White City', description: 'La recomendacion si prefieres historia contada como thriller.', query: spanishBookQuery('The Devil in the White City', 'Erik Larson'), affiliateLabel: 'Ver en espanol' },
-    { title: 'SPQR', description: 'La mejor apuesta si te interesa Roma y una explicacion clara.', query: spanishBookQuery('SPQR', 'Mary Beard'), affiliateLabel: 'Buscar SPQR en espanol' },
-    { title: 'A Short History of Nearly Everything', description: 'Ideal si quieres una entrada muy accesible a grandes ideas historicas y cientificas.', query: spanishBookQuery('A Short History of Nearly Everything', 'Bill Bryson'), affiliateLabel: 'Buscar este libro en espanol' },
-  ],
-  'libros/mejores-libros-de-la-segunda-guerra-mundial': [
-    { title: 'All the Light We Cannot See', description: 'La mejor novela para entrar al tema desde personajes y atmosfera.', query: spanishBookQuery('All the Light We Cannot See', 'Anthony Doerr'), affiliateLabel: 'Buscar edicion en espanol en Amazon' },
-    { title: 'Band of Brothers', description: 'La compra principal si quieres no ficcion militar y relato de unidad.', query: spanishBookQuery('Band of Brothers', 'Stephen Ambrose'), affiliateLabel: 'Ver en espanol' },
-    { title: 'Night', description: 'La lectura mas corta y directa si quieres memoria y testimonio.', query: spanishBookQuery('Night', 'Elie Wiesel'), affiliateLabel: 'Buscar este libro en espanol' },
-    { title: 'The Book Thief', description: 'La recomendacion para quien quiere una novela emotiva y mas accesible.', query: spanishBookQuery('The Book Thief', 'Markus Zusak'), affiliateLabel: 'Buscar The Book Thief en espanol' },
-  ],
-  'oficina-en-casa/mejores-productos-para-tu-oficina-en-casa': [
-    { title: 'FlexiSpot E7 standing desk', description: 'El escritorio de pie recomendado en la version en ingles para una base mas seria.', query: 'FlexiSpot E7 standing desk', affiliateLabel: 'Ver en Amazon' },
-    { title: 'SIHOO Doro C300 ergonomic chair', description: 'La silla ergonomica recomendada para pasar muchas horas sin sentir el set improvisado.', query: 'SIHOO Doro C300 ergonomic office chair', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Ergotron LX single monitor arm', description: 'El brazo para monitor que mejor libera espacio y mejora la altura de pantalla.', query: 'Ergotron LX monitor arm', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Logitech MX Keys S', description: 'El teclado externo recomendado para mejorar postura y mantener el escritorio limpio.', query: 'Logitech MX Keys S keyboard', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Logitech MX Master 3S', description: 'El mouse mas facil de recomendar para trabajo largo y productividad diaria.', query: 'Logitech MX Master 3S mouse', affiliateLabel: 'Ver en Amazon' },
-    { title: 'ARZOPA 15.6-inch portable monitor', description: 'La segunda pantalla ligera recomendada si necesitas mas espacio sin una oficina fija.', query: 'ARZOPA 15.6 portable monitor', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'oficina-en-casa/oficina-en-casa-en-mesa-de-cocina': [
-    { title: 'Foldable laptop riser', description: 'La primera compra para subir la pantalla y dejar de encorvarte en la mesa.', query: 'foldable laptop riser portable', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Wireless keyboard and mouse', description: 'El combo que convierte la laptop en pantalla y hace viable una postura mejor.', query: 'wireless keyboard and mouse combo', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Portable external monitor', description: 'La pantalla extra que hace que una mesa temporal se sienta mucho mas capaz.', query: 'portable external monitor usb c', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Noise-cancelling headphones', description: 'La pieza que ayuda a crear foco cuando la cocina sigue siendo un espacio compartido.', query: 'noise cancelling headphones work from home', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Cable and power kit', description: 'Lo necesario para montar y desmontar rapido sin llenar la mesa de cables.', query: 'cable management kit desk power strip', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Adjustable portable lighting', description: 'La luz compacta recomendada si tu lugar cambia durante el dia.', query: 'adjustable portable desk lighting', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'oficina-en-casa/mejores-escritorios-de-pie': [
-    { title: 'Fully Jarvis standing desk', description: 'Una de las referencias de la comparativa en ingles para estabilidad y ajuste.', query: 'Fully Jarvis standing desk', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Uplift V2 standing desk', description: 'La otra mesa clave de la comparativa, muy fuerte en opciones y robustez.', query: 'Uplift V2 standing desk', affiliateLabel: 'Ver en Amazon' },
-    { title: 'FlexiSpot E7 standing desk', description: 'Una alternativa fuerte si quieres algo mas facil de encontrar en Amazon.', query: 'FlexiSpot E7 standing desk', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'oficina-en-casa/mejores-brazos-para-monitor': [
-    { title: 'Ergotron LX single monitor arm', description: 'La referencia premium de la comparativa original para movimiento suave y durabilidad.', query: 'Ergotron LX monitor arm', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Amazon Basics monitor arm', description: 'La opcion mas sencilla si quieres ahorrar sin perder la mejora principal.', query: 'Amazon Basics monitor arm', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'oficina-en-casa/mejores-sillas-ergonomicas-para-home-office': [
-    { title: 'Herman Miller Aeron chair', description: 'La silla para quien valora ventilacion, mesh y tallas mas precisas.', query: 'Herman Miller Aeron chair', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Steelcase Gesture office chair', description: 'La mejor compra si prefieres asiento acolchado y brazos mas flexibles.', query: 'Steelcase Gesture office chair', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'oficina-en-casa/mejores-monitores-portatiles-economicos': [
-    { title: 'New 15.6-inch generic USB-C portable monitors', description: 'La opcion nueva mas comun cuando quieres quedarte por debajo de 100 dolares.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=portable+monitor+15.6+usb+c+1080p+new&LH_BIN=1&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Ver en eBay' },
-    { title: 'Lenovo ThinkVision M14 refurbished', description: 'La recomendacion reacondicionada mas fuerte si priorizas marca y portabilidad.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=Lenovo+ThinkVision+M14+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Buscar en eBay' },
-    { title: 'Asus ZenScreen refurbished', description: 'Una busqueda util si quieres un nombre conocido sin irte por encima del presupuesto.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=Asus+ZenScreen+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Buscar en eBay' },
-    { title: 'Arzopa / InnoView / KYY open-box', description: 'La zona de valor si quieres una pantalla ligera con menos gasto inicial.', affiliateUrl: 'https://www.ebay.com/sch/i.html?_nkw=Arzopa+InnoView+KYY+portable+monitor+open+box&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1', affiliatePlatform: 'ebay', affiliateLabel: 'Buscar en eBay' },
-  ],
-  'tecnologia/mejores-monitores-economicos': [
-    { title: 'LG 27GP850-B', description: 'La mejor compra global de la guia inglesa si quieres 1440p y gran valor.', affiliateUrl: 'https://www.amazon.com/s?k=LG+27GP850-B&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Dell S2722DGM', description: 'La opcion curva para quien quiere contraste fuerte y buen precio.', affiliateUrl: 'https://www.amazon.com/s?k=Dell+S2722DGM&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'ASUS TUF VG249Q3A', description: 'La compra para priorizar gaming economico con panel IPS rapido.', affiliateUrl: 'https://www.amazon.com/s?k=ASUS+TUF+VG249Q3A&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Acer SB220Q bi', description: 'La opcion mas barata si solo quieres una mejora clara frente a una pantalla mediocre.', affiliateUrl: 'https://www.amazon.com/s?k=Acer+SB220Q+bi&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'tecnologia/mejores-laptops-para-estudiantes': [
-    { title: 'MacBook Air M3 13-inch', description: 'La recomendacion premium para estudiantes que priorizan bateria, peso y silencio.', affiliateUrl: 'https://www.amazon.com/s?k=MacBook+Air+M3+13+inch&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Lenovo IdeaPad Flex 5i 14-inch', description: 'La opcion equilibrada para quien quiere valor y versatilidad.', affiliateUrl: 'https://www.amazon.com/s?k=Lenovo+IdeaPad+Flex+5i+14+inch&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Dell XPS 13', description: 'La compra para quien quiere un equipo mas pulido y compacto.', affiliateUrl: 'https://www.amazon.com/s?k=Dell+XPS+13+2026&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Acer Chromebook Spin 714', description: 'La recomendacion para presupuestos mas controlados y tareas generales.', affiliateUrl: 'https://www.amazon.com/s?k=Acer+Chromebook+Spin+714&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'tecnologia/mejores-teclados-mecanicos': [
-    { title: 'Keychron Q5 Max', description: 'La opcion mas completa para quien quiere una experiencia premium de escritura.', affiliateUrl: 'https://www.amazon.com/s?k=Keychron+Q5+Max&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Logitech MX Keys S', description: 'La compra mas facil si prefieres algo mas silencioso y de oficina.', affiliateUrl: 'https://www.amazon.com/s?k=Logitech+MX+Keys+S&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Razer BlackWidow V4 75', description: 'La recomendacion fuerte para gaming y personalizacion.', affiliateUrl: 'https://www.amazon.com/s?k=Razer+BlackWidow+V4+75&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Redragon K552 Kumara', description: 'La opcion economica para entrar a esta categoria sin gastar de mas.', affiliateUrl: 'https://www.amazon.com/s?k=Redragon+K552+Kumara&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'tecnologia/mejores-audifonos-inalambricos': [
-    { title: 'Sony WF-1000XM5', description: 'La mejor compra general si priorizas ANC y sonido por encima de todo.', affiliateUrl: 'https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'AirPods Pro 2nd Generation', description: 'La opcion mas sensata si usas iPhone y quieres integracion con Apple.', affiliateUrl: 'https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Jabra Evolve2 Buds', description: 'La compra para quien vive en llamadas y trabajo remoto.', affiliateUrl: 'https://www.amazon.com/s?k=Jabra+Evolve2+Buds&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Soundcore Liberty 4 NC', description: 'La opcion con mejor equilibrio entre precio y cancelacion activa.', affiliateUrl: 'https://www.amazon.com/s?k=Soundcore+Liberty+4+NC&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'tecnologia/airpods-pro-vs-sony-wf-1000xm5': [
-    { title: 'AirPods Pro 2nd Generation', description: 'La compra recomendada para usuarios de iPhone y ecosistema Apple.', affiliateUrl: 'https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Sony WF-1000XM5', description: 'La compra ganadora para Android y para quien quiere mejor audio puro.', affiliateUrl: 'https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
+  'libros/mejores-libros-de-stephen-king': [{"title": "The Shining — Stephen King", "description": "Hotel, aislamiento y familia; contenido adulto.", "query": "The Shining Stephen King libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "It — Stephen King", "description": "Relato coral entre infancia y adultez; no es una lectura infantil.", "query": "It Stephen King libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Misery — Stephen King", "description": "Cautiverio y amenaza humana; violencia explícita.", "query": "Misery Stephen King libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Pet Sematary — Stephen King", "description": "Duelo y horror; incluye muerte de niños y animales.", "query": "Pet Sematary Stephen King libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "11/22/63 — Stephen King", "description": "Viaje temporal y consecuencias; ficción, no historia documental.", "query": "11/22/63 Stephen King libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/mejores-libros-de-colleen-hoover': [{"title": "It Ends with Us — Colleen Hoover", "description": "Relación y abuso; leer antes de It Starts with Us.", "query": "It Ends with Us Colleen Hoover libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Verity — Colleen Hoover", "description": "Suspense oscuro adulto; revisa contenido de ediciones especiales.", "query": "Verity Colleen Hoover libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Ugly Love — Colleen Hoover", "description": "Novela independiente con relaciones y pérdida.", "query": "Ugly Love Colleen Hoover libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "November 9 — Colleen Hoover", "description": "Encuentros anuales y secretos; no se promete un tono ligero.", "query": "November 9 Colleen Hoover libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Reminders of Him — Colleen Hoover", "description": "Regreso tras prisión y vínculos familiares; novela independiente.", "query": "Reminders of Him Colleen Hoover libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/mejores-libros-de-autoayuda-2026': [{"title": "The Let Them Theory — Mel Robbins Sawyer Robbins", "description": "Marco sobre decisiones ajenas y respuesta propia; no promete resolver relaciones.", "query": "The Let Them Theory Mel Robbins Sawyer Robbins libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Slow Productivity — Cal Newport", "description": "Organización del trabajo; considera tu margen real de decisión.", "query": "Slow Productivity Cal Newport libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "The Psychology of Money — Morgan Housel", "description": "Reflexión sobre conducta, no asesoramiento financiero individual.", "query": "The Psychology of Money Morgan Housel libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Atomic Habits — James Clear", "description": "Libro original sobre rutinas; distingue el cuaderno complementario.", "query": "Atomic Habits James Clear libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/mejores-libros-de-true-crime': [{"title": "In Cold Blood — Truman Capote", "description": "Narrativa de un caso; no expediente documental actualizado.", "query": "In Cold Blood Truman Capote libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "I’ll Be Gone in the Dark — Michelle McNamara", "description": "La autora participa en la búsqueda; comprueba cobertura de la edición.", "query": "I’ll Be Gone in the Dark Michelle McNamara libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Killers of the Flower Moon — David Grann", "description": "Contexto histórico e institucional de los asesinatos de osage.", "query": "Killers of the Flower Moon David Grann libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Say Nothing — Patrick Radden Keefe", "description": "Investigación narrativa con contexto político de Irlanda del Norte.", "query": "Say Nothing Patrick Radden Keefe libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/mejores-libros-para-quien-no-le-gusta-leer': [{"title": "The Martian — Andy Weir", "description": "Prueba si disfrutas las explicaciones; distingue edición estándar y de aula.", "query": "The Martian Andy Weir libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "The Old Man and the Sea — Ernest Hemingway", "description": "Relato concentrado y reflexivo; no se promete lectura rápida.", "query": "The Old Man and the Sea Ernest Hemingway libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Born a Crime — Trevor Noah", "description": "Memorias con humor y material difícil; revisa idioma y adaptación.", "query": "Born a Crime Trevor Noah libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Educated — Tara Westover", "description": "Memorias sobre familia y educación; incluye abuso y conflicto.", "query": "Educated Tara Westover libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/libros-como-el-codigo-da-vinci': [{"title": "The Name of the Rose — Umberto Eco", "description": "Investigación medieval; confirma idioma y traductor.", "query": "The Name of the Rose Umberto Eco libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "The Amber Room — Steve Berry", "description": "Búsqueda de arte; no es una entrega de Cotton Malone.", "query": "The Amber Room Steve Berry libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Labyrinth — Kate Mosse", "description": "Dos épocas y protagonistas; comprueba la edición.", "query": "Labyrinth Kate Mosse libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "The Historian — Elizabeth Kostova", "description": "Misterio documental con una premisa sobrenatural.", "query": "The Historian Elizabeth Kostova libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/mejores-libros-de-aventura-para-hombres': [{"title": "Killing Floor — Lee Child", "description": "Primer Reacher por publicación; thriller criminal violento.", "query": "Killing Floor Lee Child libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "The Martian — Andy Weir", "description": "Supervivencia ficticia con explicaciones técnicas; revisa edición.", "query": "The Martian Andy Weir libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "American Assassin — Vince Flynn", "description": "Inicio cronológico de Mitch Rapp, no primer libro publicado.", "query": "American Assassin Vince Flynn libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Unbroken — Laura Hillenbrand", "description": "Biografía; distingue original y adaptación juvenil.", "query": "Unbroken Laura Hillenbrand libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/mejores-libros-de-historia-para-principiantes': [{"title": "Sapiens — Yuval Noah Harari", "description": "Síntesis interpretativa amplia; verifica texto y formato.", "query": "Sapiens Yuval Noah Harari libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "The Devil in the White City — Erik Larson", "description": "Chicago, exposición y crimen; no solo investigación policial.", "query": "The Devil in the White City Erik Larson libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "SPQR — Mary Beard", "description": "Historia de Roma; comprueba edición y traducción.", "query": "SPQR Mary Beard libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "A Short History of Nearly Everything — Bill Bryson", "description": "Divulgación científica; distingue original, 2.0 y audio abreviado.", "query": "A Short History of Nearly Everything Bill Bryson libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'libros/mejores-libros-de-la-segunda-guerra-mundial': [{"title": "All the Light We Cannot See — Anthony Doerr", "description": "Novela con perspectivas alternas; no testimonio documental.", "query": "All the Light We Cannot See Anthony Doerr libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Band of Brothers — Stephen E. Ambrose", "description": "Historia de Easy Company; no confundir con la serie audiovisual.", "query": "Band of Brothers Stephen E. Ambrose libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "Night — Elie Wiesel", "description": "Testimonio de un superviviente; revisa traducción y contenido.", "query": "Night Elie Wiesel libro español", "affiliateLabel": "Buscar en Amazon"}, {"title": "The Book Thief — Markus Zusak", "description": "Novela narrada por la Muerte; incluye persecución y pérdida.", "query": "The Book Thief Markus Zusak libro español", "affiliateLabel": "Buscar en Amazon"}],
+  'oficina-en-casa/mejores-productos-para-tu-oficina-en-casa': [{"title": "FlexiSpot E7", "description": "Verifica bastidor, tablero y variante; no se ha probado estabilidad.", "query": "FlexiSpot E7 standing desk", "affiliateLabel": "Buscar en Amazon"}, {"title": "SIHOO Doro C300", "description": "Comprueba la versión y si incluye reposapiés; ajuste individual no garantizado.", "query": "SIHOO Doro C300 office chair", "affiliateLabel": "Buscar en Amazon"}, {"title": "Ergotron LX original", "description": "Identifica kit, carga, VESA y mesa compatible.", "query": "Ergotron LX 45-241 monitor arm", "affiliateLabel": "Buscar en Amazon"}, {"title": "Logitech MX Keys S", "description": "Teclado de tijera; confirma distribución y conexiones.", "query": "Logitech MX Keys S keyboard", "affiliateLabel": "Buscar en Amazon"}, {"title": "Logitech MX Master 3S", "description": "Comprueba forma, receptor y software compatible.", "query": "Logitech MX Master 3S mouse", "affiliateLabel": "Buscar en Amazon"}, {"title": "Monitor portátil ARZOPA de 15,6 pulgadas", "description": "Categoría sin referencia única verificada; exige modelo, puertos y accesorios.", "query": "ARZOPA 15.6 portable monitor", "affiliateLabel": "Buscar en Amazon"}],
+  'oficina-en-casa/oficina-en-casa-en-mesa-de-cocina': [{"title": "Soporte plegable para portátil", "description": "Categoría; verifica carga, estabilidad, ventilación y espacio.", "query": "foldable laptop riser portable", "affiliateLabel": "Buscar en Amazon"}, {"title": "Teclado y ratón separados", "description": "Verifica distribución y conexión; inalámbrico no siempre significa Bluetooth.", "query": "wireless keyboard and mouse combo", "affiliateLabel": "Buscar en Amazon"}, {"title": "Monitor portátil", "description": "Categoría; comprueba vídeo, alimentación, soporte y guardado.", "query": "portable external monitor usb c", "affiliateLabel": "Buscar en Amazon"}, {"title": "Auriculares para llamadas", "description": "Comprueba micrófono y aplicación; ANC no garantiza privacidad.", "query": "headphones work from home calls", "affiliateLabel": "Buscar en Amazon"}, {"title": "Organización de cables", "description": "Categoría; respeta instrucciones eléctricas y deja libre el paso.", "query": "desk cable management kit", "affiliateLabel": "Buscar en Amazon"}, {"title": "Lámpara orientable portátil", "description": "Verifica base, alcance y ubicación en la mesa compartida.", "query": "adjustable portable desk lighting", "affiliateLabel": "Buscar en Amazon"}],
+  'oficina-en-casa/mejores-escritorios-de-pie': [{"title": "Jarvis Bamboo Rectangle", "description": "Comprueba etapas, tamaño de tablero y mando; búsqueda sin oferta verificada.", "query": "Jarvis Bamboo Rectangle standing desk", "affiliateLabel": "Buscar en Amazon"}, {"title": "UPLIFT V2, unidad identificada", "description": "Modelo anterior: no aplicar especificaciones de V3; verifica componentes y estado.", "query": "UPLIFT V2 standing desk", "affiliateLabel": "Buscar en Amazon"}, {"title": "FlexiSpot E7", "description": "Verifica variante, bastidor y paquete completo antes de comparar precio.", "query": "FlexiSpot E7 standing desk", "affiliateLabel": "Buscar en Amazon"}],
+  'oficina-en-casa/mejores-brazos-para-monitor': [{"title": "Ergotron LX original 45-241", "description": "Busca el kit exacto; verifica carga, VESA, montaje y piezas.", "query": "Ergotron LX 45-241 monitor arm", "affiliateLabel": "Buscar en Amazon"}, {"title": "Amazon Basics Lift Engine B00MIBN16O", "description": "Búsqueda del modelo histórico, sin confirmar existencias ni equivalencia con LX.", "query": "Amazon Basics B00MIBN16O Lift Engine monitor arm", "affiliateLabel": "Buscar en Amazon"}],
+  'oficina-en-casa/mejores-sillas-ergonomicas-para-home-office': [{"title": "Herman Miller Aeron", "description": "Verifica talla A/B/C, generación y opciones; no todas incluyen el mismo apoyo.", "query": "Herman Miller Aeron Remastered office chair", "affiliateLabel": "Buscar en Amazon"}, {"title": "Steelcase Gesture", "description": "Confirma silla o taburete, profundidad y opciones; prueba el ajuste.", "query": "Steelcase Gesture office chair", "affiliateLabel": "Buscar en Amazon"}],
+  'oficina-en-casa/mejores-monitores-portatiles-economicos': [{"title": "Monitores portátiles genéricos de 15,6 pulgadas", "description": "Categoría sin modelo verificado; exige referencia, puertos y accesorios.", "affiliateUrl": "https://www.ebay.com/sch/i.html?_nkw=portable+monitor+15.6+usb+c+1080p+new&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1", "affiliatePlatform": "ebay", "affiliateLabel": "Buscar en eBay"}, {"title": "Lenovo ThinkVision M14 original reacondicionado", "description": "Comprueba USB-C con vídeo, cable y estado de la unidad.", "affiliateUrl": "https://www.ebay.com/sch/i.html?_nkw=Lenovo+ThinkVision+M14+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1", "affiliatePlatform": "ebay", "affiliateLabel": "Buscar en eBay"}, {"title": "ASUS ZenScreen MB16ACV reacondicionado", "description": "Modelo específico; USB-A requiere controlador compatible.", "affiliateUrl": "https://www.ebay.com/sch/i.html?_nkw=Asus+ZenScreen+MB16ACV+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1", "affiliatePlatform": "ebay", "affiliateLabel": "Buscar en eBay"}, {"title": "ARZOPA, InnoView o KYY de caja abierta", "description": "Búsqueda de familias; no transfiere especificaciones entre modelos.", "affiliateUrl": "https://www.ebay.com/sch/i.html?_nkw=Arzopa+InnoView+KYY+portable+monitor+open+box&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=&toolid=10001&mkevt=1", "affiliatePlatform": "ebay", "affiliateLabel": "Buscar en eBay"}],
+  'tecnologia/mejores-monitores-economicos': [{"title": "LG 27GP850-B", "description": "27 pulgadas 1440p plano; sin entrada ni carga USB-C.", "query": "LG 27GP850-B", "affiliateLabel": "Buscar en Amazon"}, {"title": "Dell S2722DGM", "description": "27 pulgadas 1440p curvo; revisar límites de cada entrada.", "query": "Dell S2722DGM", "affiliateLabel": "Buscar en Amazon"}, {"title": "ASUS VG249Q3A", "description": "23,8 pulgadas Full HD; soporte con inclinación, sin ajuste de altura.", "query": "ASUS VG249Q3A", "affiliateLabel": "Buscar en Amazon"}],
+  'tecnologia/mejores-laptops-para-estudiantes': [{"title": "MacBook Air M3 de 13 pulgadas", "description": "Modelo de 2024; verificar memoria y requisitos macOS del curso.", "query": "Apple MacBook Air M3 13 inch", "affiliateLabel": "Buscar en Amazon"}, {"title": "Lenovo IdeaPad Flex 5i 14IRU8", "description": "Comprobar número completo de máquina, pantalla y paquete de lápiz.", "query": "Lenovo IdeaPad Flex 5i 14IRU8", "affiliateLabel": "Buscar en Amazon"}, {"title": "Dell XPS 13 9340", "description": "Referencia concreta; pantalla y configuración varían.", "query": "Dell XPS 13 9340", "affiliateLabel": "Buscar en Amazon"}, {"title": "Acer Chromebook Spin 714 CP714-1WN", "description": "Confirmar configuración regional, aplicaciones y actualizaciones.", "query": "Acer Chromebook Spin 714 CP714-1WN", "affiliateLabel": "Buscar en Amazon"}],
+  'tecnologia/mejores-teclados-mecanicos': [{"title": "Keychron Q5 Max", "description": "Distribución 96%; distinguir versión montada de barebone.", "query": "Keychron Q5 Max", "affiliateLabel": "Buscar en Amazon"}, {"title": "Razer BlackWidow V4 75% original", "description": "Referencia con cable; no trasladar características del Pro.", "query": "Razer BlackWidow V4 75 keyboard", "affiliateLabel": "Buscar en Amazon"}, {"title": "Redragon K552", "description": "Comprobar variante exacta, interruptores, iluminación y cable.", "query": "Redragon K552", "affiliateLabel": "Buscar en Amazon"}, {"title": "Logitech MX Keys S — alternativa no mecánica", "description": "Mecanismo de tijera; comprobar formato completo y conexión.", "query": "Logitech MX Keys S", "affiliateLabel": "Buscar en Amazon"}],
+  'tecnologia/mejores-audifonos-inalambricos': [{"title": "Sony WF-1000XM5", "description": "Comparar multipunto y fuentes compatibles; sin ranking de sonido.", "query": "Sony WF-1000XM5", "affiliateLabel": "Buscar en Amazon"}, {"title": "AirPods Pro 2 USB-C", "description": "Comprobar el paquete USB-C y los requisitos de funciones Apple.", "query": "Apple AirPods Pro 2 USB C", "affiliateLabel": "Buscar en Amazon"}, {"title": "Jabra Evolve2 Buds", "description": "Elegir variante Teams o UC y adaptador USB del paquete.", "query": "Jabra Evolve2 Buds Teams UC USB", "affiliateLabel": "Buscar en Amazon"}, {"title": "Soundcore Liberty 4 NC", "description": "LDAC requiere fuente compatible y desactiva multipunto.", "query": "Soundcore Liberty 4 NC", "affiliateLabel": "Buscar en Amazon"}],
+  'tecnologia/airpods-pro-vs-sony-wf-1000xm5': [{"title": "AirPods Pro 2 con estuche USB-C", "description": "Referencia concreta de segunda generación; comprobar paquete y requisitos Apple.", "query": "Apple AirPods Pro 2 USB C", "affiliateLabel": "Buscar en Amazon"}, {"title": "Sony WF-1000XM5", "description": "Multipunto y LDAC sujetos a equipos y ajustes compatibles; no prueba de calidad sonora.", "query": "Sony WF-1000XM5", "affiliateLabel": "Buscar en Amazon"}],
   'hogar-cocina/mejores-freidoras-de-aire': [{"title": "Ninja AF101, 4 cuartos", "description": "Búsqueda del modelo AF101. Verifica piezas incluidas y manual; no es una oferta comprobada.", "query": "Ninja AF101 4 quart air fryer", "affiliateLabel": "Buscar en Amazon"}, {"title": "COSORI Pro II CP358-AF, 5,8 cuartos", "description": "Búsqueda de referencia exacta. No confundir con CP158-AF; revisa etiqueta y avisos de retirada antes de elegir una unidad.", "query": "COSORI Pro II CP358-AF air fryer", "affiliateLabel": "Buscar en Amazon"}],
   'hogar-cocina/mejores-aspiradoras-robot': [{"title": "iRobot Roomba j7+ original", "description": "Búsqueda del aspirador con Clean Base; no confundir con j7 sin base ni con Combo j7+.", "query": "iRobot Roomba j7+ self emptying robot vacuum", "affiliateLabel": "Buscar en Amazon"}, {"title": "Roborock Q5+ original", "description": "Búsqueda de Q5 con Auto-Empty Dock Pure; comprobar que no sea una variante Pro o Max.", "query": "Roborock Q5+ original Auto Empty Dock Pure", "affiliateLabel": "Buscar en Amazon"}],
   'hogar-cocina/mejores-cafeteras-por-menos-de-100': [{"title": "Cuisinart DCC-3200", "description": "Referencia descontinuada según el fabricante. Búsqueda para comparar ofertas y piezas; precio inferior a US$100 no verificado.", "query": "Cuisinart DCC-3200 14 cup coffee maker", "affiliateLabel": "Buscar en Amazon"}, {"title": "Hamilton Beach FlexBrew Trio 49902", "description": "Jarra y preparación individual. Verifica modelo, contenido y precio total; no se confirma que cueste menos de US$100.", "query": "Hamilton Beach FlexBrew Trio 49902", "affiliateLabel": "Buscar en Amazon"}],
@@ -919,10 +820,10 @@ export function getSpanishSitemapEntries() {
   const root = 'https://bestpickzone.com/es'
 
   return [
-    { url: root, lastModified: SPANISH_SITE_DATE, changeFrequency: 'weekly' as const, priority: 0.95 },
+    { url: root, lastModified: spanishArticles.reduce((latest, article) => article.updatedDate > latest ? article.updatedDate : latest, SPANISH_SITE_DATE), changeFrequency: 'weekly' as const, priority: 0.95 },
     ...spanishSections.map((section) => ({
       url: `${root}/${section.slug}`,
-      lastModified: SPANISH_SITE_DATE,
+      lastModified: spanishArticles.filter((article) => article.section === section.slug).reduce((latest, article) => article.updatedDate > latest ? article.updatedDate : latest, SPANISH_SITE_DATE),
       changeFrequency: 'weekly' as const,
       priority: 0.9,
     })),

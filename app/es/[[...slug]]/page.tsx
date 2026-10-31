@@ -149,9 +149,9 @@ function resolvePageMetadata({ params }: Props): Metadata {
   if (!path) {
     return withArticleMetadataDefaults(
       {
-        title: 'BestPickZone En Espanol',
+        title: 'BestPickZone en español',
         description:
-          'La version en espanol de BestPickZone con guias de compra, oficinas en casa, tecnologia, hogar y recomendaciones de lectura.',
+          'Guías en español de tecnología, hogar, oficina en casa y lectura, con diferencias de producto y criterios para elegir.',
         alternates: {
           canonical: homeUrl,
         },
@@ -232,14 +232,13 @@ function SpanishHomePage() {
   return (
     <main lang="es" className="mx-auto max-w-6xl px-4 py-10">
       <section className="rounded-[2rem] border border-amber-200 bg-[linear-gradient(135deg,#fff7ed_0%,#ffffff_48%,#eff6ff_100%)] px-6 py-10 shadow-[0_20px_60px_rgba(15,23,42,0.05)]">
-        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-700">BestPickZone En Espanol</p>
+        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-amber-700">BestPickZone en español</p>
         <h1 className="mt-3 max-w-4xl text-4xl font-black leading-tight text-slate-900 md:text-5xl">
-          Guias de compra y lectura en espanol, organizadas para decidir mas rapido.
+          Guías de compra y lectura en español para elegir con criterio.
         </h1>
         <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-700">
-          Esta seccion reune nuestras traducciones prioritarias para oficina en casa, tecnologia, hogar y libros.
-          La idea no es traducir por traducir, sino publicar las paginas que tienen mas potencial real para
-          buscarse, compartirse y convertir bien.
+          Compara opciones para tu oficina en casa, tecnología, hogar y lecturas.
+          Cada guía explica diferencias, compatibilidad y límites para ayudarte a elegir según tus necesidades.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           {spanishSections.map((section) => (
@@ -289,14 +288,14 @@ function SpanishSectionPage({ sectionSlug }: { sectionSlug: keyof typeof spanish
     <main lang="es" className="mx-auto max-w-5xl px-4 py-10">
       <Breadcrumb items={[{ label: 'Inicio', href: '/es' }, { label: section.title }]} />
       <section className="rounded-[2rem] border border-slate-200 bg-white px-6 py-8 shadow-sm">
-        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-amber-700">Seccion En Espanol</p>
+        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-amber-700">Sección en español</p>
         <h1 className="mt-3 text-4xl font-black text-slate-900">{section.title}</h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-700">{section.description}</p>
         <a
           href={`https://bestpickzone.com${section.englishPath}`}
           className="mt-5 inline-flex rounded-full bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-amber-700"
         >
-          Ver la seccion en ingles
+          Ver la sección en inglés
         </a>
       </section>
 
@@ -355,7 +354,7 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
             href={`https://bestpickzone.com${article.englishPath}`}
             className="rounded-full bg-amber-50 px-4 py-2 font-semibold text-amber-800 ring-1 ring-amber-200 transition hover:bg-amber-100"
           >
-            Ver version en ingles
+            Ver versión en inglés
           </a>
         </div>
 
@@ -503,14 +502,14 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
               href={`https://bestpickzone.com${article.englishPath}`}
               className="underline underline-offset-4 transition hover:text-amber-700"
             >
-              Ver la lista completa en ingles
+              Ver la guía completa en inglés
             </a>
           </p>
         </section>
       ) : null}
 
       <section className="mt-8 rounded-[2rem] border border-slate-200 bg-slate-900 p-6 text-slate-100">
-        <h2 className="text-2xl font-black">Tambien te puede interesar</h2>
+        <h2 className="text-2xl font-black">También te puede interesar</h2>
         <div className="mt-5 grid gap-4 md:grid-cols-3">
           {related.map((item) => (
             <Link

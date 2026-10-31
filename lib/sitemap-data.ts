@@ -1,3 +1,4 @@
+import { getSpanishSitemapEntries } from './spanish-site-data'
 import { authorRankingGuides } from './author-ranking-guides'
 import { categories } from './deals/recommend'
 import { bountyArticles, bountyDate, bountyVideoSlug } from './bounty-data'
@@ -245,7 +246,7 @@ export function buildSitemapIndexXml() {
     { url: `${baseUrl}/sitemap-beauty.xml`, lastModified: beautyPages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
     { url: `${baseUrl}/sitemap-coffee.xml`, lastModified: coffeePages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
     { url: `${baseUrl}/sitemap-wfh.xml`, lastModified: wfhPages.reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
-    { url: `${baseUrl}/sitemap-es.xml`, lastModified: '2026-07-07' },
+    { url: `${baseUrl}/sitemap-es.xml`, lastModified: getSpanishSitemapEntries().reduce((latest, entry) => latestDate(latest, entry.lastModified), contentRefreshDate) },
   ]
     .map(
       (sitemap) =>
