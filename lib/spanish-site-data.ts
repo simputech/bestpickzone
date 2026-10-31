@@ -352,13 +352,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'hogar-cocina',
     slug: 'mejores-freidoras-de-aire',
-    title: 'Las Mejores Freidoras De Aire',
+    title: "Freidoras de aire: capacidad, limpieza y modelo exacto",
     metaDescription:
-      'Que freidora de aire conviene comprar segun tamaño, facilidad de limpieza, potencia y uso real en cocina diaria.',
+      "Compara Ninja AF101 y COSORI Pro II CP358-AF por formato y mantenimiento, con identificación de modelos y comprobación de retiradas.",
     englishPath: '/home-kitchen/best-air-fryers',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'La mejor freidora de aire no es la mas grande ni la mas famosa; es la que realmente encaja con tu cocina y tu rutina.',
+    updatedDate: '2026-10-31',
+    dek: "Compara Ninja AF101 y COSORI Pro II CP358-AF por formato y mantenimiento, con identificación de modelos y comprobación de retiradas.",
     intro:
       'La categoria de freidoras de aire ya no gira solo alrededor de “cocinar mas sano”. Ahora compite por velocidad, facilidad de limpieza y capacidad real para comidas del dia a dia. Por eso las mejores opciones no siempre son las de mas funciones; a veces son las que menos complican la cena.',
     perspective:
@@ -377,13 +377,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'hogar-cocina',
     slug: 'mejores-aspiradoras-robot',
-    title: 'Las Mejores Aspiradoras Robot',
+    title: "Aspiradoras robot: Roomba j7+ frente a Roborock Q5+",
     metaDescription:
-      'Guia en espanol para elegir aspiradora robot segun pisos, mascotas, mapeo y si realmente quieres ahorrar tiempo o solo sumar otro aparato.',
+      "Compara navegación, base de vaciado y mantenimiento de los modelos j7+ y Q5+ originales. Sin prometer limpieza perfecta ni precios actuales.",
     englishPath: '/home-kitchen/best-robot-vacuums',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Una aspiradora robot buena no te cambia la vida por magia, pero si te quita una capa muy real de mantenimiento diario.',
+    updatedDate: '2026-10-31',
+    dek: "Compara navegación, base de vaciado y mantenimiento de los modelos j7+ y Q5+ originales. Sin prometer limpieza perfecta ni precios actuales.",
     intro:
       'Las aspiradoras robot funcionan mejor cuando las ves como herramientas de mantenimiento y no como reemplazo absoluto de limpieza profunda. Las mejores recogen pelo, polvo y migas con una consistencia que hace que el piso se vea aceptable mas a menudo y con menos esfuerzo humano.',
     perspective:
@@ -402,13 +402,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'hogar-cocina',
     slug: 'mejores-cafeteras-por-menos-de-100',
-    title: 'Las Mejores Cafeteras Por Menos De 100 Dolares',
+    title: "Cafeteras con presupuesto de US$100: qué comprobar",
     metaDescription:
-      'Cafeteras economicas recomendadas para quien quiere una taza mejor sin pagar una maquina premium ni complicarse todas las mañanas.',
+      "Compara jarra y taza individual, identifica DCC-3200 y FlexBrew 49902, y verifica el total real antes de asumir que una oferta cuesta menos de US$100.",
     englishPath: '/home-kitchen/best-coffee-makers-under-100',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Con menos de cien dolares aun se puede preparar cafe muy decente, pero conviene elegir segun rutina y no solo segun precio.',
+    updatedDate: '2026-10-31',
+    dek: "Compara jarra y taza individual, identifica DCC-3200 y FlexBrew 49902, y verifica el total real antes de asumir que una oferta cuesta menos de US$100.",
     intro:
       'Una cafetera barata puede ser una compra excelente o una decepcion diaria. Todo depende de si coincide con la forma en que realmente tomas cafe. Hay quien necesita una jarra rapida y grande. Hay quien solo quiere una taza mejor por la mañana sin convertir la cocina en hobby.',
     perspective:
@@ -427,13 +427,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'hogar-cocina',
     slug: 'mejores-articulos-para-dormitorio-universitario',
-    title: 'Los Mejores Articulos Para Dormitorio Universitario',
+    title: "Dormitorio universitario: qué comprar y qué esperar",
     metaDescription:
-      'Que productos valen de verdad para un dormitorio universitario: organizacion, comodidad, estudio y pequeñas mejoras que si se usan todos los dias.',
+      "Prioriza medidas, reglas de la residencia y compras compartidas antes de elegir ropa de cama, iluminación, almacenamiento o electrodomésticos.",
     englishPath: '/home-kitchen/best-dorm-room-essentials',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Los mejores productos de dormitorio no son los mas virales, sino los que hacen mas llevadero un espacio pequeño y compartido.',
+    updatedDate: '2026-10-31',
+    dek: "Prioriza medidas, reglas de la residencia y compras compartidas antes de elegir ropa de cama, iluminación, almacenamiento o electrodomésticos.",
     intro:
       'Comprar para un dormitorio universitario es facil de exagerar. La lista de “imprescindibles” se puede volver absurda muy rapido. La forma mas inteligente de comprar es pensar en sueño, estudio, almacenamiento y convivencia, no en llenar la habitación de cosas “cute” que luego estorban.',
     perspective:
@@ -452,13 +452,13 @@ export const spanishArticles: SpanishArticle[] = [
   {
     section: 'hogar-cocina',
     slug: 'mejores-accesorios-de-escritorio-para-estudiar',
-    title: 'Los Mejores Accesorios De Escritorio Para Estudiar',
+    title: "Accesorios para estudiar: luz, espacio y conexiones",
     metaDescription:
-      'Accesorios y productos de escritorio que ayudan a estudiar mejor: orden, iluminacion, postura y pequeñas mejoras que reducen fatiga.',
+      "Elige lámpara, soporte, teclado y organización según tu mesa y equipo. Compatibilidad y límites, sin promesas sobre notas o salud.",
     englishPath: '/home-kitchen/best-study-desk-essentials',
     publishedDate: SPANISH_SITE_DATE,
-    updatedDate: SPANISH_SITE_DATE,
-    dek: 'Un buen escritorio para estudiar no necesita verse perfecto; necesita ser facil de usar durante horas sin sentirse caotico.',
+    updatedDate: '2026-10-31',
+    dek: "Elige lámpara, soporte, teclado y organización según tu mesa y equipo. Compatibilidad y límites, sin promesas sobre notas o salud.",
     intro:
       'Los mejores accesorios de escritorio para estudiar no siempre son los mas llamativos. Suelen ser los que quitan friccion: una lampara que ilumina bien, un soporte para laptop, una forma simple de guardar cables o papeles, y una silla que no te haga huir despues de una hora.',
     perspective:
@@ -896,34 +896,11 @@ const spanishArticleRecommendations: Record<string, SpanishRecommendation[]> = {
     { title: 'AirPods Pro 2nd Generation', description: 'La compra recomendada para usuarios de iPhone y ecosistema Apple.', affiliateUrl: 'https://www.amazon.com/s?k=AirPods+Pro+2nd+Generation&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
     { title: 'Sony WF-1000XM5', description: 'La compra ganadora para Android y para quien quiere mejor audio puro.', affiliateUrl: 'https://www.amazon.com/s?k=Sony+WF-1000XM5&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
   ],
-  'hogar-cocina/mejores-freidoras-de-aire': [
-    { title: 'Cosori Pro II Air Fryer 5.8 Qt', description: 'La ganadora principal de la comparativa inglesa por equilibrio general.', affiliateUrl: 'https://www.amazon.com/s?k=cosori+pro+ii+air+fryer+5.8+qt&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Ninja AF101 Air Fryer 4 Qt', description: 'La alternativa compacta y sencilla si no necesitas tanta capacidad.', affiliateUrl: 'https://www.amazon.com/s?k=Ninja+AF101+Air+Fryer+4+Qt&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'hogar-cocina/mejores-aspiradoras-robot': [
-    { title: 'iRobot Roomba j7+ Self-Emptying', description: 'La recomendacion principal si quieres una experiencia mas pulida y fiable.', affiliateUrl: 'https://www.amazon.com/s?k=iRobot+Roomba+j7%2B+self+emptying&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Roborock Q5+ Self-Emptying', description: 'La alternativa fuerte si quieres mejor valor y navegacion muy competente.', affiliateUrl: 'https://www.amazon.com/s?k=roborock+Q5+plus+self+emptying&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'hogar-cocina/mejores-cafeteras-por-menos-de-100': [
-    { title: 'Cuisinart DCC-3200 Perfectemp 14-Cup', description: 'La mejor compra si quieres una cafetera clasica y consistente.', affiliateUrl: 'https://www.amazon.com/s?k=Cuisinart+DCC-3200+Perfectemp+14-Cup&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Hamilton Beach FlexBrew Trio 2-Way', description: 'La recomendacion si quieres flexibilidad entre jarra y taza individual.', affiliateUrl: 'https://www.amazon.com/s?k=hamilton+beach+flexbrew+trio+2+way+coffee+maker&tag=althcu-20', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'hogar-cocina/mejores-articulos-para-dormitorio-universitario': [
-    { title: 'Bedsure Twin XL Sheet Set', description: 'Una compra base para empezar bien la cama del dormitorio.', query: 'twin xl sheet set dorm', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Linenspa 3-Inch Gel Memory Foam Topper', description: 'La mejora de comodidad con mas impacto para una cama universitaria regular.', query: 'twin xl mattress topper gel memory foam', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Frigidaire Retro 3.2 Cu Ft Compact Fridge', description: 'La mini nevera recomendada si quieres algo util y con un poco mas de estilo.', query: 'mini fridge dorm 3.2 cu ft', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Surge Protector Tower with USB Ports', description: 'La pieza practica que suele hacer mas facil conectar todo sin caos.', query: 'surge protector power strip tower usb dorm', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Magicteam White Noise Machine', description: 'Una compra inteligente si el piso o la residencia son ruidosos.', query: 'white noise machine dorm sleep', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Addtam LED Desk Lamp with Power Strip Base', description: 'Una buena combinacion de luz y carga para cuartos pequenos.', query: 'desk lamp usb charging port outlet dorm', affiliateLabel: 'Ver en Amazon' },
-  ],
-  'hogar-cocina/mejores-accesorios-de-escritorio-para-estudiar': [
-    { title: 'Voncerus LED Desk Lamp with Clamp', description: 'La luz de trabajo principal recomendada para escritorios pequeños.', query: 'led desk lamp clamp students', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Quntis Monitor Light Bar', description: 'La opcion para iluminar mejor sin comerte espacio frontal del escritorio.', query: 'monitor light bar usb', affiliateLabel: 'Ver en Amazon' },
-    { title: 'RIWUCT Foldable Aluminum Laptop Stand', description: 'La compra de postura mas clara para estudiantes con laptop.', query: 'laptop stand adjustable aluminum', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Logitech MK270 Wireless Combo', description: 'El combo facil para separar teclado y mejorar comodidad.', query: 'wireless keyboard and mouse combo', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Zebra Mildliner Double-Ended Highlighters', description: 'La recomendacion para tomar apuntes y marcar sin saturar la pagina.', query: 'zebra mildliner highlighters set', affiliateLabel: 'Ver en Amazon' },
-    { title: 'Marbrasse 3-Tier Mesh Desk Organizer', description: 'La pieza para mantener papeles, cables y utiles en un mismo sitio.', query: 'mesh desk organizer with drawer', affiliateLabel: 'Ver en Amazon' },
-  ],
+  'hogar-cocina/mejores-freidoras-de-aire': [{"title": "Ninja AF101, 4 cuartos", "description": "Búsqueda del modelo AF101. Verifica piezas incluidas y manual; no es una oferta comprobada.", "query": "Ninja AF101 4 quart air fryer", "affiliateLabel": "Buscar en Amazon"}, {"title": "COSORI Pro II CP358-AF, 5,8 cuartos", "description": "Búsqueda de referencia exacta. No confundir con CP158-AF; revisa etiqueta y avisos de retirada antes de elegir una unidad.", "query": "COSORI Pro II CP358-AF air fryer", "affiliateLabel": "Buscar en Amazon"}],
+  'hogar-cocina/mejores-aspiradoras-robot': [{"title": "iRobot Roomba j7+ original", "description": "Búsqueda del aspirador con Clean Base; no confundir con j7 sin base ni con Combo j7+.", "query": "iRobot Roomba j7+ self emptying robot vacuum", "affiliateLabel": "Buscar en Amazon"}, {"title": "Roborock Q5+ original", "description": "Búsqueda de Q5 con Auto-Empty Dock Pure; comprobar que no sea una variante Pro o Max.", "query": "Roborock Q5+ original Auto Empty Dock Pure", "affiliateLabel": "Buscar en Amazon"}],
+  'hogar-cocina/mejores-cafeteras-por-menos-de-100': [{"title": "Cuisinart DCC-3200", "description": "Referencia descontinuada según el fabricante. Búsqueda para comparar ofertas y piezas; precio inferior a US$100 no verificado.", "query": "Cuisinart DCC-3200 14 cup coffee maker", "affiliateLabel": "Buscar en Amazon"}, {"title": "Hamilton Beach FlexBrew Trio 49902", "description": "Jarra y preparación individual. Verifica modelo, contenido y precio total; no se confirma que cueste menos de US$100.", "query": "Hamilton Beach FlexBrew Trio 49902", "affiliateLabel": "Buscar en Amazon"}],
+  'hogar-cocina/mejores-articulos-para-dormitorio-universitario': [{"title": "Ropa de cama Twin XL, si es la medida de tu residencia", "description": "Búsqueda de categoría; confirma tamaño, grosor del colchón y contenido del juego.", "query": "twin xl sheet set dorm", "affiliateLabel": "Buscar en Amazon"}, {"title": "Organizadores para debajo de la cama", "description": "Búsqueda de categoría; mide altura libre y espacio para abrir y retirar el contenedor.", "query": "under bed storage dorm dimensions", "affiliateLabel": "Buscar en Amazon"}],
+  'hogar-cocina/mejores-accesorios-de-escritorio-para-estudiar': [{"title": "Logitech MK270", "description": "Búsqueda del conjunto con receptor USB. Comprueba variante, distribución de teclas y compatibilidad del equipo.", "query": "Logitech MK270 keyboard mouse USB receiver", "affiliateLabel": "Buscar en Amazon"}, {"title": "Zebra Mildliner de doble punta", "description": "Búsqueda del resaltador con punta biselada y fina; verifica colores y cantidad del paquete.", "query": "Zebra Mildliner dual tip chisel bullet highlighter", "affiliateLabel": "Buscar en Amazon"}],
 }
 
 export function getSpanishArticleRecommendations(article: SpanishArticle) {

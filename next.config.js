@@ -6,6 +6,7 @@ const nextConfig = {
     // This dynamic route reads its editorial HTML at runtime. Keep the asset
     // in the serverless bundle as well as the local source checkout.
     outputFileTracingIncludes: {
+      '/es/[[...slug]]': require('node:fs').readdirSync('./content/spanish-guides').filter(file => file.endsWith('.html')).map(file => `./content/spanish-guides/${file}`),
       '/coffee/complete-small-kitchen-home-coffee-bar-setup': ['./app/coffee/complete-small-kitchen-home-coffee-bar-setup/article-source.html'],
       '/coffee/what-to-buy-with-your-breville-bambino-plus': ['./app/coffee/what-to-buy-with-your-breville-bambino-plus/article-source.html'],
       '/coffee/best-gaggia-classic-pro-upgrades': ['./app/coffee/best-gaggia-classic-pro-upgrades/article-source.html'],

@@ -690,5 +690,85 @@
   "/books/best-science-books-for-non-scientists": {
     "title": "Best Science Books for Non-Scientists: Five Starting Points",
     "description": "Compare books on genetics, astrophysics, sleep, cosmology and human history by scope, format and the limits of each kind of explanation."
+  },
+  "/books/best-science-fiction-books": {
+    "title": "Science Fiction Books: Five Different Starting Points",
+    "description": "Compare Dune, Project Hail Mary, The Martian, Ender’s Game and Hitchhiker’s Guide by complexity, tone and edition."
+  },
+  "/books/best-self-help-books": {
+    "title": "Self-Help Books: Habits, Purpose and Perspective",
+    "description": "Choose self-help books by their actual scope: routines, values, decision-making or spiritual reflection, with limitations and edition checks."
+  },
+  "/books/best-short-story-collections": {
+    "title": "Short Story Collections: Five Ways Into the Form",
+    "description": "Compare Lahiri, Carver, Saunders, Strout and Machado by structure, realism, intensity and the edition you are buying."
+  },
+  "/books/best-sports-books": {
+    "title": "Sports Books: Teamwork, Analytics and Athlete Memoirs",
+    "description": "Choose among The Boys in the Boat, Moneyball, Open, Born to Run and Friday Night Lights, with adaptation and edition differences."
+  },
+  "/books/best-spy-thrillers": {
+    "title": "Spy Thrillers: Five Picks by Pace and Complexity",
+    "description": "Compare le Carré, Ludlum, Matthews and Hayes by tone, series commitment, violence and the difference between novels and adaptations."
+  },
+  "/books/best-stem-books-for-kids": {
+    "title": "STEM Books for Kids: Stories, Biography and Browsing",
+    "description": "Choose STEM books by reading format: Ada Twist, Rosie Revere, Hidden Figures, Marie Curie and a specific National Geographic title."
+  },
+  "/books/best-toni-morrison-books": {
+    "title": "Toni Morrison Books: Four Starting Points and Their Tradeoffs",
+    "description": "Choose The Bluest Eye, Beloved, Song of Solomon or Sula by subject, narrative structure and content considerations."
+  },
+  "/books/best-travel-books": {
+    "title": "Travel Books: Five Journeys, Five Different Perspectives",
+    "description": "Compare travel memoir, reported narrative and literary travel writing in Wild, Into the Wild, In Patagonia, A Year in Provence and Eat Pray Love."
+  },
+  "/books/best-war-novels": {
+    "title": "War Novels: Five Choices Across Conflict and Form",
+    "description": "Compare All Quiet on the Western Front, The Things They Carried, Catch-22, A Farewell to Arms and Matterhorn as fiction, not combat testimony."
+  },
+  "/books/best-ww2-books": {
+    "title": "WW2 Books: Fiction, Biography and a Combat Memoir",
+    "description": "Choose among six World War II books by fictional or nonfiction form, European or Pacific setting, perspective and content intensity."
+  },
+  "/books/best-ww2-books-for-beginners": {
+    "title": "WW2 Books for Beginners: Choose a First Reading Path",
+    "description": "Start World War II reading with a diary, biography, military history or novel. Compare five accessible entry points and edition differences."
+  },
+  "/books/best-ya-coming-of-age-books": {
+    "title": "YA Coming-of-Age Books: Four Stories and Their Limits",
+    "description": "Compare The Outsiders, Perks, Speak and Looking for Alaska by narrative voice, relationships and sensitive content, without blanket age promises."
+  },
+  "/books/best-ya-fantasy-series": {
+    "title": "YA Fantasy and Dystopian Series: Where to Start",
+    "description": "Compare five series by opening volume, original sequence, prequels, companion books and content intensity before buying a box set."
+  },
+  "/books/best-ya-romance-books": {
+    "title": "YA Romance Books: Five Choices by Tone and Stakes",
+    "description": "Compare teen romance by family dynamics, setting, illness, difficult home life and immigration stakes, with series and edition checks."
+  },
+  "/books/best-ya-thrillers": {
+    "title": "YA Thrillers: Five Mysteries, Different Commitments",
+    "description": "Compare investigation-driven, multiple-viewpoint and unreliable-narrator YA thrillers, including series order and sensitive content."
+  },
+  "/es/hogar-cocina/mejores-accesorios-de-escritorio-para-estudiar": {
+    "title": "Accesorios para estudiar: luz, espacio y conexiones",
+    "description": "Elige lámpara, soporte, teclado y organización según tu mesa y equipo. Compatibilidad y límites, sin promesas sobre notas o salud."
+  },
+  "/es/hogar-cocina/mejores-articulos-para-dormitorio-universitario": {
+    "title": "Dormitorio universitario: qué comprar y qué esperar",
+    "description": "Prioriza medidas, reglas de la residencia y compras compartidas antes de elegir ropa de cama, iluminación, almacenamiento o electrodomésticos."
+  },
+  "/es/hogar-cocina/mejores-aspiradoras-robot": {
+    "title": "Aspiradoras robot: Roomba j7+ frente a Roborock Q5+",
+    "description": "Compara navegación, base de vaciado y mantenimiento de los modelos j7+ y Q5+ originales. Sin prometer limpieza perfecta ni precios actuales."
+  },
+  "/es/hogar-cocina/mejores-cafeteras-por-menos-de-100": {
+    "title": "Cafeteras con presupuesto de US$100: qué comprobar",
+    "description": "Compara jarra y taza individual, identifica DCC-3200 y FlexBrew 49902, y verifica el total real antes de asumir que una oferta cuesta menos de US$100."
+  },
+  "/es/hogar-cocina/mejores-freidoras-de-aire": {
+    "title": "Freidoras de aire: capacidad, limpieza y modelo exacto",
+    "description": "Compara Ninja AF101 y COSORI Pro II CP358-AF por formato y mantenimiento, con identificación de modelos y comprobación de retiradas."
   }
 }

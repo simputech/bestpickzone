@@ -1,0 +1,2351 @@
+{
+  "base": "http://127.0.0.1:3118",
+  "pages": [
+    {
+      "path": "/books/best-science-fiction-books",
+      "status": 200,
+      "mainWords": 1513,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Dune+Frank+Herbert&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Project+Hail+Mary+Andy+Weir&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Martian+Andy+Weir&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Ender%E2%80%99s+Game+Orson+Scott+Card&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Hitchhiker%E2%80%99s+Guide+to+the+Galaxy+Douglas+Adams&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Dune%20Frank%20Herbert&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Project%20Hail%20Mary%20Andy%20Weir&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-self-help-books",
+      "status": 200,
+      "mainWords": 1617,
+      "links": 74,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Man%E2%80%99s+Search+for+Meaning+Viktor+E.+Frankl&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+Daniel+Kahneman&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+7+Habits+of+Highly+Effective+People+Stephen+R.+Covey&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Power+of+Now+Eckhart+Tolle&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Ikigai+H%C3%A9ctor+Garc%C3%ADa+and+Francesc+Miralles&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Man%E2%80%99s%20Search%20for%20Meaning%20Viktor%20E.%20Frankl&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-short-story-collections",
+      "status": 200,
+      "mainWords": 1656,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Interpreter+of+Maladies+Jhumpa+Lahiri&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=What+We+Talk+About+When+We+Talk+About+Love+Raymond+Carver&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Tenth+of+December+George+Saunders&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Olive+Kitteridge+Elizabeth+Strout&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Her+Body+and+Other+Parties+Carmen+Maria+Machado&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Interpreter%20of%20Maladies%20Jhumpa%20Lahiri&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=What%20We%20Talk%20About%20When%20We%20Talk%20About%20Love%20Raymond%20Carver&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-sports-books",
+      "status": 200,
+      "mainWords": 1578,
+      "links": 73,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Boys+in+the+Boat+Daniel+James+Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Moneyball+Michael+Lewis&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Open+Andre+Agassi&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Born+to+Run+Christopher+McDougall&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Friday+Night+Lights+H.+G.+Bissinger&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Boys%20in%20the%20Boat%20Daniel%20James%20Brown&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Moneyball%20Michael%20Lewis&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-spy-thrillers",
+      "status": 200,
+      "mainWords": 1589,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Spy+Who+Came+in+from+the+Cold+John+le+Carr%C3%A9&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Tinker+Tailor+Soldier+Spy+John+le+Carr%C3%A9&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Bourne+Identity+Robert+Ludlum&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Red+Sparrow+Jason+Matthews&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=I+Am+Pilgrim+Terry+Hayes&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Tinker%20Tailor%20Soldier%20Spy%20John%20le%20Carr%C3%A9&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-stem-books-for-kids",
+      "status": 200,
+      "mainWords": 1626,
+      "links": 73,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Ada+Twist%2C+Scientist+Andrea+Beaty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Rosie+Revere%2C+Engineer+Andrea+Beaty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Hidden+Figures+Young+Readers%E2%80%99+Edition+Margot+Lee+Shetterly&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=National+Geographic+Little+Kids+First+Big+Book+of+Why+Amy+Shields&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Who+Was+Marie+Curie%3F+Megan+Stine&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Ada%20Twist%2C%20Scientist%20Andrea%20Beaty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Rosie%20Revere%2C%20Engineer%20Andrea%20Beaty&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-toni-morrison-books",
+      "status": 200,
+      "mainWords": 1613,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Bluest+Eye+Toni+Morrison&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Beloved+Toni+Morrison&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Song+of+Solomon+Toni+Morrison&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Sula+Toni+Morrison&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Bluest%20Eye%20Toni%20Morrison&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Beloved%20Toni%20Morrison&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-travel-books",
+      "status": 200,
+      "mainWords": 1630,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Wild+Cheryl+Strayed&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Into+the+Wild+Jon+Krakauer&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=In+Patagonia+Bruce+Chatwin&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A+Year+in+Provence+Peter+Mayle&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Eat+Pray+Love+Elizabeth+Gilbert&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Wild%20Cheryl%20Strayed&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Into%20the%20Wild%20Jon%20Krakauer&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-war-novels",
+      "status": 200,
+      "mainWords": 1636,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=All+Quiet+on+the+Western+Front+Erich+Maria+Remarque&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Things+They+Carried+Tim+O%E2%80%99Brien&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Catch-22+Joseph+Heller&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A+Farewell+to+Arms+Ernest+Hemingway&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Matterhorn+Karl+Marlantes&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=All%20Quiet%20on%20the%20Western%20Front%20Erich%20Maria%20Remarque&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Things%20They%20Carried%20Tim%20O%E2%80%99Brien&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-ww2-books",
+      "status": 200,
+      "mainWords": 1644,
+      "links": 75,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=All+the+Light+We+Cannot+See+Anthony+Doerr&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Nightingale+Kristin+Hannah&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Catch-22+Joseph+Heller&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Book+Thief+Markus+Zusak&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=With+the+Old+Breed+E.+B.+Sledge&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=All%20the%20Light%20We%20Cannot%20See%20Anthony%20Doerr&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Nightingale%20Kristin%20Hannah&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-ww2-books-for-beginners",
+      "status": 200,
+      "mainWords": 1695,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Diary+of+a+Young+Girl+Anne+Frank&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Number+the+Stars+Lois+Lowry&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Band+of+Brothers+Stephen+E.+Ambrose&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Nightingale+Kristin+Hannah&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Diary%20of%20a%20Young%20Girl%20Anne%20Frank&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Unbroken%20Laura%20Hillenbrand&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-ya-coming-of-age-books",
+      "status": 200,
+      "mainWords": 1659,
+      "links": 71,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Outsiders+S.+E.+Hinton&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Perks+of+Being+a+Wallflower+Stephen+Chbosky&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Speak+Laurie+Halse+Anderson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Looking+for+Alaska+John+Green&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Outsiders%20S.%20E.%20Hinton&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Perks%20of%20Being%20a%20Wallflower%20Stephen%20Chbosky&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-ya-fantasy-series",
+      "status": 200,
+      "mainWords": 1677,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=The+Hunger+Games+Suzanne+Collins&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Harry+Potter+and+the+Sorcerer%E2%80%99s+Stone+J.+K.+Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=An+Ember+in+the+Ashes+Sabaa+Tahir&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Throne+of+Glass+Sarah+J.+Maas&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Shadow+and+Bone+Leigh+Bardugo&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Hunger%20Games%20Suzanne%20Collins&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerer%E2%80%99s%20Stone%20J.%20K.%20Rowling&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-ya-romance-books",
+      "status": 200,
+      "mainWords": 1725,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=To+All+the+Boys+I%E2%80%99ve+Loved+Before+Jenny+Han&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Fault+in+Our+Stars+John+Green&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Eleanor+%26+Park+Rainbow+Rowell&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Anna+and+the+French+Kiss+Stephanie+Perkins&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Sun+Is+Also+a+Star+Nicola+Yoon&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=To%20All%20the%20Boys%20I%E2%80%99ve%20Loved%20Before%20Jenny%20Han&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The%20Fault%20in%20Our%20Stars%20John%20Green&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/books/best-ya-thrillers",
+      "status": 200,
+      "mainWords": 1724,
+      "links": 72,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=A+Good+Girl%E2%80%99s+Guide+to+Murder+Holly+Jackson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=One+of+Us+Is+Lying+Karen+M.+McManus&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=We+Were+Liars+E.+Lockhart&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=The+Female+of+the+Species+Mindy+McGinnis&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Truly+Devious+Maureen+Johnson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=A%20Good%20Girl%E2%80%99s%20Guide%20to%20Murder%20Holly%20Jackson&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=One%20of%20Us%20Is%20Lying%20Karen%20M.%20McManus&tag=althcu-20",
+          "rel": "sponsored nofollow noopener noreferrer"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-accesorios-de-escritorio-para-estudiar",
+      "status": 200,
+      "mainWords": 1361,
+      "links": 68,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Logitech+MK270+keyboard+mouse+USB+receiver&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-accesorios-de-escritorio-para-estudiar-lista-logitech-mk270",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Zebra+Mildliner+dual+tip+chisel+bullet+highlighter&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-accesorios-de-escritorio-para-estudiar-lista-zebra-mildliner-de-doble-punta",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-articulos-para-dormitorio-universitario",
+      "status": 200,
+      "mainWords": 1427,
+      "links": 66,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=twin+xl+sheet+set+dorm&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-articulos-para-dormitorio-universitario-lista-ropa-de-cama-twin-xl-si-es-la-",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=under+bed+storage+dorm+dimensions&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-articulos-para-dormitorio-universitario-lista-organizadores-para-debajo-de-l",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-aspiradoras-robot",
+      "status": 200,
+      "mainWords": 1383,
+      "links": 67,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=iRobot+Roomba+j7%2B+self+emptying+robot+vacuum&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-aspiradoras-robot-lista-irobot-roomba-j7-original",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Roborock+Q5%2B+original+Auto+Empty+Dock+Pure&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-aspiradoras-robot-lista-roborock-q5-original",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-cafeteras-por-menos-de-100",
+      "status": 200,
+      "mainWords": 1408,
+      "links": 67,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://www.amazon.com/s?k=Cuisinart+DCC-3200+14+cup+coffee+maker&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-cafeteras-por-menos-de-100-lista-cuisinart-dcc-3200",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Hamilton+Beach+FlexBrew+Trio+49902&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-cafeteras-por-menos-de-100-lista-hamilton-beach-flexbrew-trio-49902",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-freidoras-de-aire",
+      "status": 200,
+      "mainWords": 1409,
+      "links": 69,
+      "images": 0,
+      "amazonLinks": [
+        {
+          "href": "https://m.media-amazon.com/images/I/91V-ZOZpzcL.pdf"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=Ninja+AF101+4+quart+air+fryer&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-freidoras-de-aire-lista-ninja-af101-4-cuartos",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/s?k=COSORI+Pro+II+CP358-AF+air+fryer&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-freidoras-de-aire-lista-cosori-pro-ii-cp358-af-5-8-cuartos",
+          "rel": "noopener nofollow sponsored"
+        },
+        {
+          "href": "https://www.amazon.com/shop/althcu",
+          "rel": "sponsored noopener"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "url": "http://127.0.0.1:3118/",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deal-agent",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deal-agent",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/authors",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/authors",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/genre-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/genre-fiction",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/self-help",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/self-help",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/kids-and-ya",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/kids-and-ya",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/reader-picks",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/reader-picks",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/coffee",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/coffee",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/beauty",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/beauty",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/wfh",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/wfh",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/home-kitchen",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/home-kitchen",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/mahjong",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/mahjong",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deals",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deals",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/deal-alerts",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/deal-alerts",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/amazon-offers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/amazon-offers",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/tech",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/tech",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/finance-software",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/finance-software",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/health-fitness",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/health-fitness",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/disclosure",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/disclosure",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Dune+Frank+Herbert&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Dune+Frank+Herbert&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Project+Hail+Mary+Andy+Weir&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Project+Hail+Mary+Andy+Weir&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Martian+Andy+Weir&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Martian+Andy+Weir&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Ender%E2%80%99s+Game+Orson+Scott+Card&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Ender%E2%80%99s+Game+Orson+Scott+Card&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Hitchhiker%E2%80%99s+Guide+to+the+Galaxy+Douglas+Adams&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Hitchhiker%E2%80%99s+Guide+to+the+Galaxy+Douglas+Adams&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/AU8/dune/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/AU8/dune/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/611060/project-hail-mary-movie-tie-in-by-andy-weir/hardcover/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/611060/project-hail-mary-movie-tie-in-by-andy-weir/hardcover/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/234102/the-martian-by-andy-weir/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/234102/the-martian-by-andy-weir/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/series/theendersaga",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/series/theendersaga",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/HGG/hitchhikers-guide-to-the-galaxy/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/HGG/hitchhikers-guide-to-the-galaxy/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-dystopian-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-dystopian-novels",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-about-space-and-astronomy",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-about-space-and-astronomy",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Dune%20Frank%20Herbert&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Dune%20Frank%20Herbert&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Project%20Hail%20Mary%20Andy%20Weir&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Project%20Hail%20Mary%20Andy%20Weir&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-stephen-king-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-stephen-king-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-colleen-hoover-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-colleen-hoover-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-malcolm-gladwell-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-malcolm-gladwell-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-neil-gaiman-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-neil-gaiman-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-haruki-murakami-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-haruki-murakami-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-psychological-thrillers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-psychological-thrillers",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-fantasy-series-for-adults",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-fantasy-series-for-adults",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-horror-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-horror-novels",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-romantasy-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-romantasy-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-historical-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-historical-fiction",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-to-read-on-the-beach",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-to-read-on-the-beach",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-book-club-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-book-club-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-audiobooks-on-audible",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-audiobooks-on-audible",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-feel-good-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-feel-good-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-of-all-time",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-of-all-time",
+      "error": null
+    },
+    {
+      "url": "https://winblackfriday.com/deal-checker",
+      "status": 200,
+      "finalUrl": "https://winblackfriday.com/deal-checker",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/privacy",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/privacy",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/shop/althcu",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/shop/althcu",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Atomic+Habits+James+Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Man%E2%80%99s+Search+for+Meaning+Viktor+E.+Frankl&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Man%E2%80%99s+Search+for+Meaning+Viktor+E.+Frankl&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+Daniel+Kahneman&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+Daniel+Kahneman&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+7+Habits+of+Highly+Effective+People+Stephen+R.+Covey&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+7+Habits+of+Highly+Effective+People+Stephen+R.+Covey&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Power+of+Now+Eckhart+Tolle&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Power+of+Now+Eckhart+Tolle&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Ikigai+H%C3%A9ctor+Garc%C3%ADa+and+Francesc+Miralles&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Ikigai+H%C3%A9ctor+Garc%C3%ADa+and+Francesc+Miralles&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://jamesclear.com/atomic-habits-summary",
+      "status": 200,
+      "finalUrl": "https://jamesclear.com/atomic-habits-summary",
+      "error": null
+    },
+    {
+      "url": "https://www.beacon.org/Assets/ClientPages/MansSearchForMeaningtg.aspx",
+      "status": 200,
+      "finalUrl": "https://www.beacon.org/Assets/ClientPages/MansSearchForMeaningtg.aspx",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781429969352/thinkingfastandslow/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781429969352/thinkingfastandslow/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-7-Habits-of-Highly-Effective-People/Stephen-R-Covey/The-Covey-Habits-Series/9781982137137",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-7-Habits-of-Highly-Effective-People/Stephen-R-Covey/The-Covey-Habits-Series/9781982137137",
+      "error": null
+    },
+    {
+      "url": "https://newworldlibrary.com/wp-content/uploads/2025/12/WINSPR_2026_catalog.pdf",
+      "status": 200,
+      "finalUrl": "https://newworldlibrary.com/wp-content/uploads/2025/12/WINSPR_2026_catalog.pdf",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/549469/ikigai-by-hector-garcia-and-francesc-miralles/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/549469/ikigai-by-hector-garcia-and-francesc-miralles/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-on-habits-and-productivity",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-on-habits-and-productivity",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-on-psychology",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-on-psychology",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Atomic%20Habits%20James%20Clear&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Man%E2%80%99s%20Search%20for%20Meaning%20Viktor%20E.%20Frankl&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Man%E2%80%99s%20Search%20for%20Meaning%20Viktor%20E.%20Frankl&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Interpreter+of+Maladies+Jhumpa+Lahiri&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Interpreter+of+Maladies+Jhumpa+Lahiri&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=What+We+Talk+About+When+We+Talk+About+Love+Raymond+Carver&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=What+We+Talk+About+When+We+Talk+About+Love+Raymond+Carver&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Tenth+of+December+George+Saunders&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Tenth+of+December+George+Saunders&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Olive+Kitteridge+Elizabeth+Strout&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Olive+Kitteridge+Elizabeth+Strout&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Her+Body+and+Other+Parties+Carmen+Maria+Machado&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Her+Body+and+Other+Parties+Carmen+Maria+Machado&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.foliosociety.com/row/interpreter-of-maladies",
+      "status": 200,
+      "finalUrl": "https://www.foliosociety.com/row/interpreter-of-maladies",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/531338/what-we-talk-about-when-we-talk-about-love--beginners-by-raymond-carver/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/531338/what-we-talk-about-when-we-talk-about-love--beginners-by-raymond-carver/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/221295/tenth-of-december-by-george-saunders/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/221295/tenth-of-december-by-george-saunders/",
+      "error": null
+    },
+    {
+      "url": "https://www.elizabethstrout.com/books/olive-kitteridge",
+      "status": 200,
+      "finalUrl": "https://www.elizabethstrout.com/books/olive-kitteridge",
+      "error": null
+    },
+    {
+      "url": "https://www.graywolfpress.org/books/her-body-and-other-parties",
+      "status": 200,
+      "finalUrl": "https://graywolfpress.org/wp-content/uploads/2026/09/Her-Body-and-Other-Parties-scaled.jpg",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-literary-fiction",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-literary-fiction",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-classic-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-classic-novels",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Interpreter%20of%20Maladies%20Jhumpa%20Lahiri&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Interpreter%20of%20Maladies%20Jhumpa%20Lahiri&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=What%20We%20Talk%20About%20When%20We%20Talk%20About%20Love%20Raymond%20Carver&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=What%20We%20Talk%20About%20When%20We%20Talk%20About%20Love%20Raymond%20Carver&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Boys+in+the+Boat+Daniel+James+Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Boys+in+the+Boat+Daniel+James+Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Moneyball+Michael+Lewis&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Moneyball+Michael+Lewis&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Open+Andre+Agassi&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Open+Andre+Agassi&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Born+to+Run+Christopher+McDougall&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Born+to+Run+Christopher+McDougall&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Friday+Night+Lights+H.+G.+Bissinger&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Friday+Night+Lights+H.+G.+Bissinger&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.danieljamesbrown.com/books/the-boys-in-the-boat/",
+      "status": 200,
+      "finalUrl": "https://www.danieljamesbrown.com/books/the-boys-in-the-boat/",
+      "error": null
+    },
+    {
+      "url": "https://www.michaellewiswrites.com/",
+      "status": 200,
+      "finalUrl": "https://www.michaellewiswrites.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.mlb.com/news/rockies-paul-depodesta-head-of-baseball-operations",
+      "status": 200,
+      "finalUrl": "https://www.mlb.com/news/rockies-paul-depodesta-head-of-baseball-operations",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/1051/open-by-andre-agassi/9780307388407/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/1051/open-by-andre-agassi/9780307388407/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/authors/74437/christopher-mcdougall/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/authors/74437/christopher-mcdougall/",
+      "error": null
+    },
+    {
+      "url": "https://shop.hachettebookgroup.com/products/friday-night-lights-25th-anniversary-edition-1",
+      "status": 200,
+      "finalUrl": "https://shop.hachettebookgroup.com/products/friday-night-lights-25th-anniversary-edition-1",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-biographies-and-memoirs",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-biographies-and-memoirs",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-history-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-history-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Boys%20in%20the%20Boat%20Daniel%20James%20Brown&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Boys%20in%20the%20Boat%20Daniel%20James%20Brown&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Moneyball%20Michael%20Lewis&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Moneyball%20Michael%20Lewis&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Spy+Who+Came+in+from+the+Cold+John+le+Carr%C3%A9&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Spy+Who+Came+in+from+the+Cold+John+le+Carr%C3%A9&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Tinker+Tailor+Soldier+Spy+John+le+Carr%C3%A9&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Tinker+Tailor+Soldier+Spy+John+le+Carr%C3%A9&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Bourne+Identity+Robert+Ludlum&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Bourne+Identity+Robert+Ludlum&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Red+Sparrow+Jason+Matthews&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Red+Sparrow+Jason+Matthews&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=I+Am+Pilgrim+Terry+Hayes&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=I+Am+Pilgrim+Terry+Hayes&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/311060/the-spy-who-came-in-from-the-cold-by-john-le-carre-cover-art-by-coralie-bickford-smith/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/311060/the-spy-who-came-in-from-the-cold-by-john-le-carre-cover-art-by-coralie-bickford-smith/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/309826/tinker-tailor-soldier-spy-by-john-le-carre-cover-art-by-coralie-bickford-smith/9781101528785/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/309826/tinker-tailor-soldier-spy-by-john-le-carre-cover-art-by-coralie-bickford-smith/9781101528785/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/JAB/jason-bourne/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/JAB/jason-bourne/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/authors/Jason-Matthews/406807038",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/authors/Jason-Matthews/406807038",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/authors/Terry-Hayes/15705144",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/authors/Terry-Hayes/15705144",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-action-adventure-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-action-adventure-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-political-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-political-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Spy%20Who%20Came%20in%20from%20the%20Cold%20John%20le%20Carr%C3%A9&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Tinker%20Tailor%20Soldier%20Spy%20John%20le%20Carr%C3%A9&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Tinker%20Tailor%20Soldier%20Spy%20John%20le%20Carr%C3%A9&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Ada+Twist%2C+Scientist+Andrea+Beaty&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Ada+Twist%2C+Scientist+Andrea+Beaty&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Rosie+Revere%2C+Engineer+Andrea+Beaty&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Rosie+Revere%2C+Engineer+Andrea+Beaty&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Hidden+Figures+Young+Readers%E2%80%99+Edition+Margot+Lee+Shetterly&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Hidden+Figures+Young+Readers%E2%80%99+Edition+Margot+Lee+Shetterly&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=National+Geographic+Little+Kids+First+Big+Book+of+Why+Amy+Shields&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=National+Geographic+Little+Kids+First+Big+Book+of+Why+Amy+Shields&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Who+Was+Marie+Curie%3F+Megan+Stine&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Who+Was+Marie+Curie%3F+Megan+Stine&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.abramsbooks.com/product/ada-twist-scientist_9781419721373/",
+      "status": 200,
+      "finalUrl": "https://www.abramsbooks.com/product/ada-twist-scientist_9781419721373/",
+      "error": null
+    },
+    {
+      "url": "https://www.abramsbooks.com/product/rosie-revere-engineer_9781419708459/",
+      "status": 200,
+      "finalUrl": "https://www.abramsbooks.com/product/rosie-revere-engineer_9781419708459/",
+      "error": null
+    },
+    {
+      "url": "https://margotleeshetterly.com/hidden-figures-nasas-african-american-computers",
+      "status": 0,
+      "finalUrl": "https://margotleeshetterly.com/hidden-figures-nasas-african-american-computers",
+      "error": "URLError"
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/205653/national-geographic-little-kids-first-big-book-of-why-by-amy-shields-and-national-geographic-kids/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/205653/national-geographic-little-kids-first-big-book-of-why-by-amy-shields-and-national-geographic-kids/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/824362/national-geographic-little-kids-first-big-book-of-why-2nd-edition-by-amy-shields-and-national-geographic-kids/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/824362/national-geographic-little-kids-first-big-book-of-why-2nd-edition-by-amy-shields-and-national-geographic-kids/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/314462/who-was-marie-curie-by-megan-stine-illustrated-by-ted-hammond/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/314462/who-was-marie-curie-by-megan-stine-illustrated-by-ted-hammond/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-middle-grade-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-middle-grade-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Ada%20Twist%2C%20Scientist%20Andrea%20Beaty&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Ada%20Twist%2C%20Scientist%20Andrea%20Beaty&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Rosie%20Revere%2C%20Engineer%20Andrea%20Beaty&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Rosie%20Revere%2C%20Engineer%20Andrea%20Beaty&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Bluest+Eye+Toni+Morrison&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Bluest+Eye+Toni+Morrison&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Beloved+Toni+Morrison&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Beloved+Toni+Morrison&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Song+of+Solomon+Toni+Morrison&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Song+of+Solomon+Toni+Morrison&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Sula+Toni+Morrison&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Sula+Toni+Morrison&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://global.penguinrandomhouse.com/announcements/toni-morrison-dies-at-88/",
+      "status": 200,
+      "finalUrl": "https://global.penguinrandomhouse.com/announcements/toni-morrison-dies-at-88/",
+      "error": null
+    },
+    {
+      "url": "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_BluestEye.pdf",
+      "status": 200,
+      "finalUrl": "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_BluestEye.pdf",
+      "error": null
+    },
+    {
+      "url": "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_Beloved.pdf",
+      "status": 200,
+      "finalUrl": "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_Beloved.pdf",
+      "error": null
+    },
+    {
+      "url": "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_SongOfSolomon_20240722.pdf",
+      "status": 200,
+      "finalUrl": "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_SongOfSolomon_20240722.pdf",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/the-read-down/books-about-female-rage/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/the-read-down/books-about-female-rage/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-magical-realism-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-magical-realism-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Bluest%20Eye%20Toni%20Morrison&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Bluest%20Eye%20Toni%20Morrison&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Beloved%20Toni%20Morrison&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Beloved%20Toni%20Morrison&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wild+Cheryl+Strayed&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Wild+Cheryl+Strayed&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Into+the+Wild+Jon+Krakauer&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Into+the+Wild+Jon+Krakauer&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=In+Patagonia+Bruce+Chatwin&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=In+Patagonia+Bruce+Chatwin&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Year+in+Provence+Peter+Mayle&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A+Year+in+Provence+Peter+Mayle&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Eat+Pray+Love+Elizabeth+Gilbert&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Eat+Pray+Love+Elizabeth+Gilbert&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.cherylstrayed.com/wild_108676.htm",
+      "status": 200,
+      "finalUrl": "https://www.cherylstrayed.com/wild_108676.htm",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/95440/into-the-wild-by-jon-krakauer/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/95440/into-the-wild-by-jon-krakauer/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/286569/in-patagonia-by-bruce-chatwin-introduction-by-nicholas-shakespeare/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/286569/in-patagonia-by-bruce-chatwin-introduction-by-nicholas-shakespeare/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/109800/a-year-in-provence-by-peter-mayle/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/109800/a-year-in-provence-by-peter-mayle/",
+      "error": null
+    },
+    {
+      "url": "https://www.elizabethgilbert.com/books/eat-pray-love/",
+      "status": 200,
+      "finalUrl": "https://www.elizabethgilbert.com/books/eat-pray-love/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-books-about-nature-and-environment",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-books-about-nature-and-environment",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Wild%20Cheryl%20Strayed&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Wild%20Cheryl%20Strayed&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Into%20the%20Wild%20Jon%20Krakauer&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Into%20the%20Wild%20Jon%20Krakauer&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=All+Quiet+on+the+Western+Front+Erich+Maria+Remarque&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=All+Quiet+on+the+Western+Front+Erich+Maria+Remarque&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Things+They+Carried+Tim+O%E2%80%99Brien&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Things+They+Carried+Tim+O%E2%80%99Brien&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Catch-22+Joseph+Heller&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Catch-22+Joseph+Heller&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Farewell+to+Arms+Ernest+Hemingway&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A+Farewell+to+Arms+Ernest+Hemingway&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Matterhorn+Karl+Marlantes&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Matterhorn+Karl+Marlantes&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/775540/all-quiet-on-the-western-front-by-erich-maria-remarque-translated-by-maria-tatar-foreword-by-samantha-power/9780143138761/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/775540/all-quiet-on-the-western-front-by-erich-maria-remarque-translated-by-maria-tatar-foreword-by-samantha-power/9780143138761/",
+      "error": null
+    },
+    {
+      "url": "https://www.arts.gov/initiatives/nea-big-read/things-they-carried",
+      "status": 403,
+      "finalUrl": "https://www.arts.gov/initiatives/nea-big-read/things-they-carried",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Catch-22/Joseph-Heller/9781451626650",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Catch-22/Joseph-Heller/9781451626650",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/A-Farewell-to-Arms/Ernest-Hemingway/9798880925421",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/A-Farewell-to-Arms/Ernest-Hemingway/9798880925421",
+      "error": null
+    },
+    {
+      "url": "https://groveatlantic.com/book/matterhorn/",
+      "status": 200,
+      "finalUrl": "https://groveatlantic.com/book/matterhorn/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-ww2-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-ww2-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=All%20Quiet%20on%20the%20Western%20Front%20Erich%20Maria%20Remarque&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=All%20Quiet%20on%20the%20Western%20Front%20Erich%20Maria%20Remarque&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Things%20They%20Carried%20Tim%20O%E2%80%99Brien&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Things%20They%20Carried%20Tim%20O%E2%80%99Brien&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=All+the+Light+We+Cannot+See+Anthony+Doerr&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=All+the+Light+We+Cannot+See+Anthony+Doerr&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Nightingale+Kristin+Hannah&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Nightingale+Kristin+Hannah&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Book+Thief+Markus+Zusak&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Book+Thief+Markus+Zusak&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Unbroken+Laura+Hillenbrand&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=With+the+Old+Breed+E.+B.+Sledge&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=With+the+Old+Breed+E.+B.+Sledge&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/All-the-Light-We-Cannot-See/Anthony-Doerr/9781476746586",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/All-the-Light-We-Cannot-See/Anthony-Doerr/9781476746586",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781250080400/thenightingale/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781250080400/thenightingale/",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/196153/the-book-thief-anniversary-edition-by-markus-zusak/9780375842207/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/196153/the-book-thief-anniversary-edition-by-markus-zusak/9780375842207/",
+      "error": null
+    },
+    {
+      "url": "https://images.penguinrandomhouse.com/teachers_guides/9780812987119.pdf",
+      "status": 200,
+      "finalUrl": "https://images.penguinrandomhouse.com/teachers_guides/9780812987119.pdf",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/books/168399/with-the-old-breed-by-e-b-sledge/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/books/168399/with-the-old-breed-by-e-b-sledge/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-ww2-books-for-beginners",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-ww2-books-for-beginners",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-war-novels",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-war-novels",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=All%20the%20Light%20We%20Cannot%20See%20Anthony%20Doerr&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=All%20the%20Light%20We%20Cannot%20See%20Anthony%20Doerr&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Nightingale%20Kristin%20Hannah&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Nightingale%20Kristin%20Hannah&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Diary+of+a+Young+Girl+Anne+Frank&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Diary+of+a+Young+Girl+Anne+Frank&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Number+the+Stars+Lois+Lowry&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Number+the+Stars+Lois+Lowry&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Band+of+Brothers+Stephen+E.+Ambrose&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Band+of+Brothers+Stephen+E.+Ambrose&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.annefrank.org/en/anne-frank/diary/",
+      "status": 200,
+      "finalUrl": "https://www.annefrank.org/en/anne-frank/diary/",
+      "error": null
+    },
+    {
+      "url": "https://loislowry.com/books-standalone/",
+      "status": 200,
+      "finalUrl": "https://loislowry.com/books-standalone/",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/Band-of-Brothers/Stephen-E-Ambrose/9780743216388",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/Band-of-Brothers/Stephen-E-Ambrose/9780743216388",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Diary%20of%20a%20Young%20Girl%20Anne%20Frank&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Diary%20of%20a%20Young%20Girl%20Anne%20Frank&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Unbroken%20Laura%20Hillenbrand&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Unbroken%20Laura%20Hillenbrand&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Outsiders+S.+E.+Hinton&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Outsiders+S.+E.+Hinton&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Perks+of+Being+a+Wallflower+Stephen+Chbosky&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Perks+of+Being+a+Wallflower+Stephen+Chbosky&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Speak+Laurie+Halse+Anderson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Speak+Laurie+Halse+Anderson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Looking+for+Alaska+John+Green&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Looking+for+Alaska+John+Green&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.sehinton.com/books/the_outsiders",
+      "status": 200,
+      "finalUrl": "https://www.sehinton.com/books/the_outsiders",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/The-Perks-of-Being-a-Wallflower/Stephen-Chbosky/9781982110994",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/The-Perks-of-Being-a-Wallflower/Stephen-Chbosky/9781982110994",
+      "error": null
+    },
+    {
+      "url": "https://madwomanintheforest.com/book/speak/",
+      "status": 200,
+      "finalUrl": "https://madwomanintheforest.com/book/speak/",
+      "error": null
+    },
+    {
+      "url": "https://us.macmillan.com/books/9781466897885/speakthegraphicnovel/",
+      "status": 403,
+      "finalUrl": "https://us.macmillan.com/books/9781466897885/speakthegraphicnovel/",
+      "error": null
+    },
+    {
+      "url": "https://www.johngreenbooks.com/looking-for-alaska",
+      "status": 200,
+      "finalUrl": "https://www.johngreenbooks.com/looking-for-alaska",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-ya-romance-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-ya-romance-books",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-ya-thrillers",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-ya-thrillers",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Outsiders%20S.%20E.%20Hinton&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Outsiders%20S.%20E.%20Hinton&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Perks%20of%20Being%20a%20Wallflower%20Stephen%20Chbosky&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Perks%20of%20Being%20a%20Wallflower%20Stephen%20Chbosky&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Hunger+Games+Suzanne+Collins&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Hunger+Games+Suzanne+Collins&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Harry+Potter+and+the+Sorcerer%E2%80%99s+Stone+J.+K.+Rowling&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Harry+Potter+and+the+Sorcerer%E2%80%99s+Stone+J.+K.+Rowling&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=An+Ember+in+the+Ashes+Sabaa+Tahir&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=An+Ember+in+the+Ashes+Sabaa+Tahir&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Throne+of+Glass+Sarah+J.+Maas&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Throne+of+Glass+Sarah+J.+Maas&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Shadow+and+Bone+Leigh+Bardugo&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Shadow+and+Bone+Leigh+Bardugo&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.suzannecollinsbooks.com/hunger_games_10th_anniversary_scholastic_interview.htm",
+      "status": 200,
+      "finalUrl": "https://www.suzannecollinsbooks.com/hunger_games_10th_anniversary_scholastic_interview.htm",
+      "error": null
+    },
+    {
+      "url": "https://stories.jkrowling.com/faqs/",
+      "status": 0,
+      "finalUrl": "https://stories.jkrowling.com/faqs/",
+      "error": "URLError"
+    },
+    {
+      "url": "https://sabaatahir.com/about/",
+      "status": 200,
+      "finalUrl": "https://sabaatahir.com/about/",
+      "error": null
+    },
+    {
+      "url": "https://sarahjmaas.com/reading-guide/",
+      "status": 200,
+      "finalUrl": "https://sarahjmaas.com/reading-guide/",
+      "error": null
+    },
+    {
+      "url": "https://www.leighbardugo.com/reading-order/",
+      "status": 200,
+      "finalUrl": "https://www.leighbardugo.com/reading-order/",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-kids-book-series",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-kids-book-series",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-ya-coming-of-age-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-ya-coming-of-age-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Hunger%20Games%20Suzanne%20Collins&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Hunger%20Games%20Suzanne%20Collins&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerer%E2%80%99s%20Stone%20J.%20K.%20Rowling&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Harry%20Potter%20and%20the%20Sorcerer%E2%80%99s%20Stone%20J.%20K.%20Rowling&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=To+All+the+Boys+I%E2%80%99ve+Loved+Before+Jenny+Han&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=To+All+the+Boys+I%E2%80%99ve+Loved+Before+Jenny+Han&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Fault+in+Our+Stars+John+Green&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Fault+in+Our+Stars+John+Green&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Eleanor+%26+Park+Rainbow+Rowell&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Eleanor+%26+Park+Rainbow+Rowell&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Anna+and+the+French+Kiss+Stephanie+Perkins&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Anna+and+the+French+Kiss+Stephanie+Perkins&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Sun+Is+Also+a+Star+Nicola+Yoon&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Sun+Is+Also+a+Star+Nicola+Yoon&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.simonandschuster.com/books/To-All-the-Boys-Ive-Loved-Before/Jenny-Han/To-All-the-Boys-Ive-Loved-Before/9781442426702",
+      "status": 403,
+      "finalUrl": "https://www.simonandschuster.com/books/To-All-the-Boys-Ive-Loved-Before/Jenny-Han/To-All-the-Boys-Ive-Loved-Before/9781442426702",
+      "error": null
+    },
+    {
+      "url": "https://www.johngreenbooks.com/the-fault-in-our-stars",
+      "status": 200,
+      "finalUrl": "https://www.johngreenbooks.com/the-fault-in-our-stars",
+      "error": null
+    },
+    {
+      "url": "https://www.rainbowrowell.com/eleanor-park",
+      "status": 200,
+      "finalUrl": "https://www.rainbowrowell.com/eleanor-park",
+      "error": null
+    },
+    {
+      "url": "https://stephanieperkins.com/faq",
+      "status": 200,
+      "finalUrl": "https://stephanieperkins.com/faq",
+      "error": null
+    },
+    {
+      "url": "https://www.nicolayoon.com/the-sun-is-also-a-star-book-detail-page",
+      "status": 200,
+      "finalUrl": "https://www.nicolayoon.com/the-sun-is-also-a-star-book-detail-page",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/books/best-romantic-comedy-books",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/books/best-romantic-comedy-books",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=To%20All%20the%20Boys%20I%E2%80%99ve%20Loved%20Before%20Jenny%20Han&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=To%20All%20the%20Boys%20I%E2%80%99ve%20Loved%20Before%20Jenny%20Han&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The%20Fault%20in%20Our%20Stars%20John%20Green&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The%20Fault%20in%20Our%20Stars%20John%20Green&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A+Good+Girl%E2%80%99s+Guide+to+Murder+Holly+Jackson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A+Good+Girl%E2%80%99s+Guide+to+Murder+Holly+Jackson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=One+of+Us+Is+Lying+Karen+M.+McManus&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=One+of+Us+Is+Lying+Karen+M.+McManus&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=We+Were+Liars+E.+Lockhart&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=We+Were+Liars+E.+Lockhart&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=The+Female+of+the+Species+Mindy+McGinnis&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=The+Female+of+the+Species+Mindy+McGinnis&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Truly+Devious+Maureen+Johnson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Truly+Devious+Maureen+Johnson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.penguinrandomhouse.com/series/G3M/a-good-girls-guide-to-murder/",
+      "status": 200,
+      "finalUrl": "https://www.penguinrandomhouse.com/series/G3M/a-good-girls-guide-to-murder/",
+      "error": null
+    },
+    {
+      "url": "https://www.karenmcmanus.com/faqs",
+      "status": 200,
+      "finalUrl": "https://www.karenmcmanus.com/faqs",
+      "error": null
+    },
+    {
+      "url": "https://www.emilylockhart.com/teachers",
+      "status": 200,
+      "finalUrl": "https://www.emilylockhart.com/teachers",
+      "error": null
+    },
+    {
+      "url": "https://www.mindymcginnis.com/the-female-of-the-species",
+      "status": 200,
+      "finalUrl": "https://www.mindymcginnis.com/the-female-of-the-species",
+      "error": null
+    },
+    {
+      "url": "https://maureenjohnsonbooks.com/book/truly-devious/",
+      "status": 200,
+      "finalUrl": "https://maureenjohnsonbooks.com/book/truly-devious/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=A%20Good%20Girl%E2%80%99s%20Guide%20to%20Murder%20Holly%20Jackson&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=A%20Good%20Girl%E2%80%99s%20Guide%20to%20Murder%20Holly%20Jackson&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=One%20of%20Us%20Is%20Lying%20Karen%20M.%20McManus&tag=althcu-20",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=One%20of%20Us%20Is%20Lying%20Karen%20M.%20McManus&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es/hogar-cocina",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es/hogar-cocina",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-study-desk-essentials",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-study-desk-essentials",
+      "error": null
+    },
+    {
+      "url": "https://www.osha.gov/etools/computer-workstations",
+      "status": 200,
+      "finalUrl": "https://www.osha.gov/etools/computer-workstations",
+      "error": null
+    },
+    {
+      "url": "https://hub.sync.logitech.com/mk270/post/specifications---mk270-Yo8yxS7lcfQBIWP",
+      "status": 200,
+      "finalUrl": "https://hub.sync.logitech.com/mk270/post/specifications---mk270-Yo8yxS7lcfQBIWP",
+      "error": null
+    },
+    {
+      "url": "https://www.zebrapen.com/pages/mildliner-dual-ended-highlighter",
+      "status": 200,
+      "finalUrl": "https://www.zebrapen.com/pages/mildliner-dual-ended-highlighter",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Logitech+MK270+keyboard+mouse+USB+receiver&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-accesorios-de-escritorio-para-estudiar-lista-logitech-mk270",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Logitech+MK270+keyboard+mouse+USB+receiver&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-accesorios-de-escritorio-para-estudiar-lista-logitech-mk270",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Zebra+Mildliner+dual+tip+chisel+bullet+highlighter&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-accesorios-de-escritorio-para-estudiar-lista-zebra-mildliner-de-doble-punta",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Zebra+Mildliner+dual+tip+chisel+bullet+highlighter&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-accesorios-de-escritorio-para-estudiar-lista-zebra-mildliner-de-doble-punta",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es/hogar-cocina/mejores-freidoras-de-aire",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es/hogar-cocina/mejores-freidoras-de-aire",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es/hogar-cocina/mejores-aspiradoras-robot",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es/hogar-cocina/mejores-aspiradoras-robot",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es/hogar-cocina/mejores-cafeteras-por-menos-de-100",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es/hogar-cocina/mejores-cafeteras-por-menos-de-100",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-dorm-room-essentials",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-dorm-room-essentials",
+      "error": null
+    },
+    {
+      "url": "https://www.usfa.fema.gov/prevention/home-fires/at-risk-audiences/college-students/",
+      "status": 200,
+      "finalUrl": "https://www.usfa.fema.gov/prevention/home-fires/at-risk-audiences/college-students/",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=twin+xl+sheet+set+dorm&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-articulos-para-dormitorio-universitario-lista-ropa-de-cama-twin-xl-si-es-la-",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=twin+xl+sheet+set+dorm&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-articulos-para-dormitorio-universitario-lista-ropa-de-cama-twin-xl-si-es-la-",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=under+bed+storage+dorm+dimensions&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-articulos-para-dormitorio-universitario-lista-organizadores-para-debajo-de-l",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=under+bed+storage+dorm+dimensions&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-articulos-para-dormitorio-universitario-lista-organizadores-para-debajo-de-l",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-robot-vacuums",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-robot-vacuums",
+      "error": null
+    },
+    {
+      "url": "https://www.irobot.com/en_US/irobot-roomba-j7-series/j7-Series-Robot-Vacuums.html",
+      "status": 200,
+      "finalUrl": "https://www.irobot.com/en_US/irobot-roomba-j7-series/j7-Series-Robot-Vacuums.html",
+      "error": null
+    },
+    {
+      "url": "https://us.roborock.com/pages/roborock-q5",
+      "status": 200,
+      "finalUrl": "https://us.roborock.com/pages/roborock-q5",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=iRobot+Roomba+j7%2B+self+emptying+robot+vacuum&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-aspiradoras-robot-lista-irobot-roomba-j7-original",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=iRobot+Roomba+j7%2B+self+emptying+robot+vacuum&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-aspiradoras-robot-lista-irobot-roomba-j7-original",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Roborock+Q5%2B+original+Auto+Empty+Dock+Pure&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-aspiradoras-robot-lista-roborock-q5-original",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Roborock+Q5%2B+original+Auto+Empty+Dock+Pure&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-aspiradoras-robot-lista-roborock-q5-original",
+      "error": null
+    },
+    {
+      "url": "http://127.0.0.1:3118/es/hogar-cocina/mejores-articulos-para-dormitorio-universitario",
+      "status": 200,
+      "finalUrl": "http://127.0.0.1:3118/es/hogar-cocina/mejores-articulos-para-dormitorio-universitario",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-coffee-makers-under-100",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-coffee-makers-under-100",
+      "error": null
+    },
+    {
+      "url": "https://www.cuisinart.com/discontinued-14-cup-programmable-coffee-maker/DCC-3200.html?cgid=discontinued_coffee_makers",
+      "status": 200,
+      "finalUrl": "https://www.cuisinart.com/discontinued-14-cup-programmable-coffee-maker/DCC-3200.html?cgid=discontinued_coffee_makers",
+      "error": null
+    },
+    {
+      "url": "https://hamiltonbeach.com/flexbrew-trio-coffee-maker-49902",
+      "status": 200,
+      "finalUrl": "https://hamiltonbeach.com/flexbrew-trio-coffee-maker-49902",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Cuisinart+DCC-3200+14+cup+coffee+maker&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-cafeteras-por-menos-de-100-lista-cuisinart-dcc-3200",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Cuisinart+DCC-3200+14+cup+coffee+maker&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-cafeteras-por-menos-de-100-lista-cuisinart-dcc-3200",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Hamilton+Beach+FlexBrew+Trio+49902&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-cafeteras-por-menos-de-100-lista-hamilton-beach-flexbrew-trio-49902",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Hamilton+Beach+FlexBrew+Trio+49902&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-cafeteras-por-menos-de-100-lista-hamilton-beach-flexbrew-trio-49902",
+      "error": null
+    },
+    {
+      "url": "https://bestpickzone.com/home-kitchen/best-air-fryers",
+      "status": 200,
+      "finalUrl": "https://bestpickzone.com/home-kitchen/best-air-fryers",
+      "error": null
+    },
+    {
+      "url": "https://support.ninjakitchen.com/hc/article_attachments/4998281447836",
+      "status": 403,
+      "finalUrl": "https://support.sharkninja.com/",
+      "error": null
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/91V-ZOZpzcL.pdf",
+      "status": 200,
+      "finalUrl": "https://m.media-amazon.com/images/I/91V-ZOZpzcL.pdf",
+      "error": null
+    },
+    {
+      "url": "https://www.cpsc.gov/Recalls/2023/Two-Million-COSORI-Air-Fryers-Recalled-by-Atekcity-Due-to-Fire-and-Burn-Hazards",
+      "status": 403,
+      "finalUrl": "https://www.cpsc.gov/Recalls/2023/Two-Million-COSORI-Air-Fryers-Recalled-by-Atekcity-Due-to-Fire-and-Burn-Hazards",
+      "error": null
+    },
+    {
+      "url": "https://cosori.com/pages/cosori-product-recall",
+      "status": 200,
+      "finalUrl": "https://cosori.com/pages/cosori-product-recall",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Ninja+AF101+4+quart+air+fryer&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-freidoras-de-aire-lista-ninja-af101-4-cuartos",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=Ninja+AF101+4+quart+air+fryer&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-freidoras-de-aire-lista-ninja-af101-4-cuartos",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=COSORI+Pro+II+CP358-AF+air+fryer&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-freidoras-de-aire-lista-cosori-pro-ii-cp358-af-5-8-cuartos",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/s?k=COSORI+Pro+II+CP358-AF+air+fryer&tag=althcu-20&ascsubtag=es-hogar-cocina-mejores-freidoras-de-aire-lista-cosori-pro-ii-cp358-af-5-8-cuartos",
+      "error": null
+    }
+  ],
+  "note": "HTTP link checks are not proof of product identity or stock; blocked automated destinations require browser/source review."
+}

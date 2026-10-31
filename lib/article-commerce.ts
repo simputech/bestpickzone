@@ -7,6 +7,21 @@ export type ArticleCommerce = { batch: number; partnerTag?: string; products?: A
 // Explicit article opt-ins. Adding a card is not a substantive editorial refresh;
 // dates and sitemaps remain unchanged unless a separate reviewed edit warrants it.
 export const articleCommerce: Record<string, ArticleCommerce> = {
+  "/books/best-ya-thrillers": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "A Good Girl’s Guide to Murder", "author": "Holly Jackson"}, {"title": "One of Us Is Lying", "author": "Karen M. McManus"}]},
+  "/books/best-ya-romance-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "To All the Boys I’ve Loved Before", "author": "Jenny Han"}, {"title": "The Fault in Our Stars", "author": "John Green"}]},
+  "/books/best-ya-fantasy-series": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "The Hunger Games", "author": "Suzanne Collins"}, {"title": "Harry Potter and the Sorcerer’s Stone", "author": "J. K. Rowling"}]},
+  "/books/best-ya-coming-of-age-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "The Outsiders", "author": "S. E. Hinton"}, {"title": "The Perks of Being a Wallflower", "author": "Stephen Chbosky"}]},
+  "/books/best-ww2-books-for-beginners": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "The Diary of a Young Girl", "author": "Anne Frank"}, {"title": "Unbroken", "author": "Laura Hillenbrand"}]},
+  "/books/best-ww2-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "All the Light We Cannot See", "author": "Anthony Doerr"}, {"title": "The Nightingale", "author": "Kristin Hannah"}]},
+  "/books/best-war-novels": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "All Quiet on the Western Front", "author": "Erich Maria Remarque"}, {"title": "The Things They Carried", "author": "Tim O’Brien"}]},
+  "/books/best-travel-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "Wild", "author": "Cheryl Strayed"}, {"title": "Into the Wild", "author": "Jon Krakauer"}]},
+  "/books/best-toni-morrison-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "The Bluest Eye", "author": "Toni Morrison"}, {"title": "Beloved", "author": "Toni Morrison"}]},
+  "/books/best-stem-books-for-kids": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "Ada Twist, Scientist", "author": "Andrea Beaty"}, {"title": "Rosie Revere, Engineer", "author": "Andrea Beaty"}]},
+  "/books/best-spy-thrillers": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "The Spy Who Came in from the Cold", "author": "John le Carré"}, {"title": "Tinker Tailor Soldier Spy", "author": "John le Carré"}]},
+  "/books/best-sports-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "The Boys in the Boat", "author": "Daniel James Brown"}, {"title": "Moneyball", "author": "Michael Lewis"}]},
+  "/books/best-short-story-collections": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "Interpreter of Maladies", "author": "Jhumpa Lahiri"}, {"title": "What We Talk About When We Talk About Love", "author": "Raymond Carver"}]},
+  "/books/best-self-help-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "Atomic Habits", "author": "James Clear"}, {"title": "Man’s Search for Meaning", "author": "Viktor E. Frankl"}]},
+  "/books/best-science-fiction-books": {"batch": 13, "partnerTag": "althcu-20", "books": [{"title": "Dune", "author": "Frank Herbert"}, {"title": "Project Hail Mary", "author": "Andy Weir"}]},
   "/books/best-science-books-for-non-scientists": {"batch": 12, "partnerTag": "althcu-20", "books": [{"title": "The Gene", "author": "Siddhartha Mukherjee"}, {"title": "Astrophysics for People in a Hurry", "author": "Neil deGrasse Tyson"}]},
   "/books/best-romantic-comedy-books": {"batch": 12, "partnerTag": "althcu-20", "books": [{"title": "People We Meet on Vacation", "author": "Emily Henry"}, {"title": "The Unhoneymooners", "author": "Christina Lauren"}]},
   "/books/best-romantasy-books": {"batch": 12, "partnerTag": "althcu-20", "books": [{"title": "A Court of Thorns and Roses", "author": "Sarah J Maas"}, {"title": "Fourth Wing", "author": "Rebecca Yarros"}]},

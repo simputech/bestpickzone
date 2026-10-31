@@ -1,0 +1,218 @@
+{
+  "status": "local-content-and-fallback-accepted-production-pending",
+  "reviewDate": "2026-10-31",
+  "pages": [
+    {
+      "path": "/books/best-science-fiction-books",
+      "sources": [
+        "https://us.macmillan.com/series/theendersaga",
+        "https://www.penguinrandomhouse.com/books/234102/the-martian-by-andy-weir/",
+        "https://www.penguinrandomhouse.com/books/611060/project-hail-mary-movie-tie-in-by-andy-weir/hardcover/",
+        "https://www.penguinrandomhouse.com/series/AU8/dune/",
+        "https://www.penguinrandomhouse.com/series/HGG/hitchhikers-guide-to-the-galaxy/"
+      ],
+      "draftWords": 1244
+    },
+    {
+      "path": "/books/best-self-help-books",
+      "sources": [
+        "https://jamesclear.com/atomic-habits-summary",
+        "https://newworldlibrary.com/wp-content/uploads/2025/12/WINSPR_2026_catalog.pdf",
+        "https://us.macmillan.com/books/9781429969352/thinkingfastandslow/",
+        "https://www.beacon.org/Assets/ClientPages/MansSearchForMeaningtg.aspx",
+        "https://www.penguinrandomhouse.com/books/549469/ikigai-by-hector-garcia-and-francesc-miralles/",
+        "https://www.simonandschuster.com/books/The-7-Habits-of-Highly-Effective-People/Stephen-R-Covey/The-Covey-Habits-Series/9781982137137"
+      ],
+      "draftWords": 1342
+    },
+    {
+      "path": "/books/best-short-story-collections",
+      "sources": [
+        "https://www.elizabethstrout.com/books/olive-kitteridge",
+        "https://www.foliosociety.com/row/interpreter-of-maladies",
+        "https://www.graywolfpress.org/books/her-body-and-other-parties",
+        "https://www.penguinrandomhouse.com/books/221295/tenth-of-december-by-george-saunders/",
+        "https://www.penguinrandomhouse.com/books/531338/what-we-talk-about-when-we-talk-about-love--beginners-by-raymond-carver/"
+      ],
+      "draftWords": 1376
+    },
+    {
+      "path": "/books/best-sports-books",
+      "sources": [
+        "https://shop.hachettebookgroup.com/products/friday-night-lights-25th-anniversary-edition-1",
+        "https://www.danieljamesbrown.com/books/the-boys-in-the-boat/",
+        "https://www.michaellewiswrites.com/",
+        "https://www.mlb.com/news/rockies-paul-depodesta-head-of-baseball-operations",
+        "https://www.penguinrandomhouse.com/authors/74437/christopher-mcdougall/",
+        "https://www.penguinrandomhouse.com/books/1051/open-by-andre-agassi/9780307388407/"
+      ],
+      "draftWords": 1302
+    },
+    {
+      "path": "/books/best-spy-thrillers",
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/309826/tinker-tailor-soldier-spy-by-john-le-carre-cover-art-by-coralie-bickford-smith/9781101528785/",
+        "https://www.penguinrandomhouse.com/books/311060/the-spy-who-came-in-from-the-cold-by-john-le-carre-cover-art-by-coralie-bickford-smith/",
+        "https://www.penguinrandomhouse.com/series/JAB/jason-bourne/",
+        "https://www.simonandschuster.com/authors/Jason-Matthews/406807038",
+        "https://www.simonandschuster.com/authors/Terry-Hayes/15705144"
+      ],
+      "draftWords": 1307
+    },
+    {
+      "path": "/books/best-stem-books-for-kids",
+      "sources": [
+        "https://www.abramsbooks.com/product/ada-twist-scientist_9781419721373/",
+        "https://www.abramsbooks.com/product/rosie-revere-engineer_9781419708459/",
+        "https://www.hiddenfigures.com/young-readers/",
+        "https://www.penguinrandomhouse.com/books/205653/national-geographic-little-kids-first-big-book-of-why-by-amy-shields-and-national-geographic-kids/",
+        "https://www.penguinrandomhouse.com/books/314462/who-was-marie-curie-by-megan-stine-illustrated-by-ted-hammond/",
+        "https://www.penguinrandomhouse.com/books/824362/national-geographic-little-kids-first-big-book-of-why-2nd-edition-by-amy-shields-and-national-geographic-kids/"
+      ],
+      "draftWords": 1353
+    },
+    {
+      "path": "/books/best-toni-morrison-books",
+      "sources": [
+        "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_Beloved.pdf",
+        "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_BluestEye.pdf",
+        "https://assets.penguinrandomhouse.com/book-resumes/MorrisonToni_SongOfSolomon_20240722.pdf",
+        "https://global.penguinrandomhouse.com/announcements/toni-morrison-dies-at-88/",
+        "https://www.penguinrandomhouse.com/the-read-down/books-about-female-rage/"
+      ],
+      "draftWords": 1338
+    },
+    {
+      "path": "/books/best-travel-books",
+      "sources": [
+        "https://www.cherylstrayed.com/wild_108676.htm",
+        "https://www.elizabethgilbert.com/books/eat-pray-love/",
+        "https://www.penguinrandomhouse.com/books/109800/a-year-in-provence-by-peter-mayle/",
+        "https://www.penguinrandomhouse.com/books/286569/in-patagonia-by-bruce-chatwin-introduction-by-nicholas-shakespeare/",
+        "https://www.penguinrandomhouse.com/books/95440/into-the-wild-by-jon-krakauer/"
+      ],
+      "draftWords": 1359
+    },
+    {
+      "path": "/books/best-war-novels",
+      "sources": [
+        "https://groveatlantic.com/book/matterhorn/",
+        "https://www.arts.gov/initiatives/nea-big-read/things-they-carried",
+        "https://www.penguinrandomhouse.com/books/775540/all-quiet-on-the-western-front-by-erich-maria-remarque-translated-by-maria-tatar-foreword-by-samantha-power/9780143138761/",
+        "https://www.simonandschuster.com/books/A-Farewell-to-Arms/Ernest-Hemingway/9798880925421",
+        "https://www.simonandschuster.com/books/Catch-22/Joseph-Heller/9781451626650"
+      ],
+      "draftWords": 1361
+    },
+    {
+      "path": "/books/best-ww2-books",
+      "sources": [
+        "https://images.penguinrandomhouse.com/teachers_guides/9780812987119.pdf",
+        "https://us.macmillan.com/books/9781250080400/thenightingale/",
+        "https://www.penguinrandomhouse.com/books/168399/with-the-old-breed-by-e-b-sledge/",
+        "https://www.penguinrandomhouse.com/books/196153/the-book-thief-anniversary-edition-by-markus-zusak/9780375842207/",
+        "https://www.simonandschuster.com/books/All-the-Light-We-Cannot-See/Anthony-Doerr/9781476746586",
+        "https://www.simonandschuster.com/books/Catch-22/Joseph-Heller/9781451626650"
+      ],
+      "draftWords": 1363
+    },
+    {
+      "path": "/books/best-ww2-books-for-beginners",
+      "sources": [
+        "https://images.penguinrandomhouse.com/teachers_guides/9780812987119.pdf",
+        "https://loislowry.com/books-standalone/",
+        "https://us.macmillan.com/books/9781250080400/thenightingale/",
+        "https://www.annefrank.org/en/anne-frank/diary/",
+        "https://www.simonandschuster.com/books/Band-of-Brothers/Stephen-E-Ambrose/9780743216388"
+      ],
+      "draftWords": 1417
+    },
+    {
+      "path": "/books/best-ya-coming-of-age-books",
+      "sources": [
+        "https://madwomanintheforest.com/book/speak/",
+        "https://us.macmillan.com/books/9781466897885/speakthegraphicnovel/",
+        "https://www.johngreenbooks.com/looking-for-alaska",
+        "https://www.sehinton.com/books/the_outsiders",
+        "https://www.simonandschuster.com/books/The-Perks-of-Being-a-Wallflower/Stephen-Chbosky/9781982110994"
+      ],
+      "draftWords": 1372
+    },
+    {
+      "path": "/books/best-ya-fantasy-series",
+      "sources": [
+        "https://sabaatahir.com/about/",
+        "https://sarahjmaas.com/reading-guide/",
+        "https://stories.jkrowling.com/faqs/",
+        "https://www.leighbardugo.com/reading-order/",
+        "https://www.suzannecollinsbooks.com/hunger_games_10th_anniversary_scholastic_interview.htm"
+      ],
+      "draftWords": 1399
+    },
+    {
+      "path": "/books/best-ya-romance-books",
+      "sources": [
+        "https://stephanieperkins.com/faq",
+        "https://www.johngreenbooks.com/the-fault-in-our-stars",
+        "https://www.nicolayoon.com/the-sun-is-also-a-star-book-detail-page",
+        "https://www.rainbowrowell.com/eleanor-park",
+        "https://www.simonandschuster.com/books/To-All-the-Boys-Ive-Loved-Before/Jenny-Han/To-All-the-Boys-Ive-Loved-Before/9781442426702"
+      ],
+      "draftWords": 1445
+    },
+    {
+      "path": "/books/best-ya-thrillers",
+      "sources": [
+        "https://maureenjohnsonbooks.com/book/truly-devious/",
+        "https://www.emilylockhart.com/teachers",
+        "https://www.karenmcmanus.com/faqs",
+        "https://www.mindymcginnis.com/the-female-of-the-species",
+        "https://www.penguinrandomhouse.com/series/G3M/a-good-girls-guide-to-murder/"
+      ],
+      "draftWords": 1445
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-accesorios-de-escritorio-para-estudiar",
+      "sources": [
+        "https://hub.sync.logitech.com/mk270/post/specifications---mk270-Yo8yxS7lcfQBIWP",
+        "https://www.osha.gov/etools/computer-workstations",
+        "https://www.zebrapen.com/pages/mildliner-dual-ended-highlighter"
+      ],
+      "draftWords": 1110
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-articulos-para-dormitorio-universitario",
+      "sources": [
+        "https://www.usfa.fema.gov/prevention/home-fires/at-risk-audiences/college-students/"
+      ],
+      "draftWords": 1169
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-aspiradoras-robot",
+      "sources": [
+        "https://us.roborock.com/pages/roborock-q5",
+        "https://www.irobot.com/en_US/irobot-roomba-j7-series/j7-Series-Robot-Vacuums.html"
+      ],
+      "draftWords": 1129
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-cafeteras-por-menos-de-100",
+      "sources": [
+        "https://hamiltonbeach.com/flexbrew-trio-coffee-maker-49902",
+        "https://www.cuisinart.com/discontinued-14-cup-programmable-coffee-maker/DCC-3200.html?cgid=discontinued_coffee_makers"
+      ],
+      "draftWords": 1143
+    },
+    {
+      "path": "/es/hogar-cocina/mejores-freidoras-de-aire",
+      "sources": [
+        "https://cosori.com/pages/cosori-product-recall",
+        "https://m.media-amazon.com/images/I/91V-ZOZpzcL.pdf",
+        "https://support.ninjakitchen.com/hc/article_attachments/4998281447836",
+        "https://www.cpsc.gov/Recalls/2023/Two-Million-COSORI-Air-Fryers-Recalled-by-Atekcity-Due-to-Fire-and-Burn-Hazards",
+        "https://www.sharkninja.com/ninja-air-fryer-basket/102KY100.html"
+      ],
+      "draftWords": 1159
+    }
+  ]
+}

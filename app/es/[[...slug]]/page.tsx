@@ -1,3 +1,6 @@
+import fs from 'node:fs'
+import path from 'node:path'
+import { isAmazonSearchUrl } from '@/lib/amazon-link-labels'
 import { withSeo } from '@/lib/seo-metadata'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -30,6 +33,7 @@ function titleCaseDate(dateString: string) {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    timeZone: 'UTC',
   }).format(new Date(`${dateString}T00:00:00Z`))
 }
 
@@ -82,6 +86,8 @@ function buildRecommendationLink(
 }
 
 function defaultAffiliateLabel(recommendation: SpanishRecommendationItem) {
+  if (!recommendation.affiliateUrl || isAmazonSearchUrl(recommendation.affiliateUrl)) return 'Buscar en Amazon'
+  if (recommendation.affiliatePlatform === 'ebay' && recommendation.affiliateUrl.includes('/sch/')) return 'Buscar en eBay'
   return (
     recommendation.affiliateLabel ??
     (recommendation.affiliatePlatform === 'ebay' ? 'Ver opciones en eBay' : 'Ver en Amazon')
@@ -317,6 +323,8 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
   const related = getSpanishRelatedArticles(article)
   const section = spanishSectionMap[article.section]
   const recommendations = getSpanishArticleRecommendations(article)
+  const editorialFile = path.join(process.cwd(), 'content/spanish-guides', `${article.slug}.html`)
+  const reviewedHtml = fs.existsSync(editorialFile) ? fs.readFileSync(editorialFile, 'utf8').replace(/<table>/g, '<div role="region" aria-label="Tabla comparativa; desliza para ver todas las columnas" tabindex="0" class="overflow-x-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-teal-700"><table class="min-w-[36rem]">').replace(/<\/table>/g, '</table></div>') : null
   const topPick = recommendations[0]
   const topPickLink = topPick ? buildRecommendationLink(article, topPick, 'top-pick') : null
 
@@ -351,7 +359,9 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           </a>
         </div>
 
-        <div className="mt-8 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
+        <p className="mt-5 rounded-xl bg-amber-50 p-4 text-sm leading-6 text-slate-800">Divulgación de afiliados: como afiliado de Amazon, BestPickZone obtiene ingresos por compras que cumplen los requisitos. Algunos enlaces de Amazon y eBay pueden generar una comisión sin costo adicional para ti. Los botones de búsqueda no confirman un producto, precio ni disponibilidad.</p>
+        {reviewedHtml && <div className="comparison-html mt-8" dangerouslySetInnerHTML={{ __html: reviewedHtml }} />}
+        {!reviewedHtml && <div className="mt-8 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
           <div className="space-y-5 text-lg leading-8 text-slate-700">
             <p>{article.intro}</p>
             <p>{article.perspective}</p>
@@ -377,10 +387,10 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
               </div>
             ) : null}
           </div>
-        </div>
+        </div>}
       </article>
 
-      <section className="mt-8 grid gap-6 lg:grid-cols-2">
+      {!reviewedHtml && <section className="mt-8 grid gap-6 lg:grid-cols-2">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
           <h2 className="text-2xl font-black text-slate-900">Puntos clave</h2>
           <ul className="mt-5 space-y-4">
@@ -404,9 +414,9 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
             ))}
           </ul>
         </div>
-      </section>
+      </section>}
 
-      {article.bookHighlights?.length ? (
+      {!reviewedHtml && article.bookHighlights?.length ? (
         <section className="mt-8 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Resumen Libro Por Libro</p>
@@ -461,7 +471,7 @@ function SpanishArticlePage({ article }: { article: NonNullable<ReturnType<typeo
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">Recomendaciones</p>
             <h2 className="mt-2 text-2xl font-black text-slate-900">
-              Productos y libros para comprar desde esta guia
+              Búsquedas de productos y libros de esta guía
             </h2>
           </div>
 
