@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-31T15:22:32.649387+00:00",
+  "updatedAt": "2026-10-31T15:49:49.636316+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
   "currentBatch": 15,
-  "status": "batch-fourteen-content-accepted",
+  "status": "content-rollout-complete-creator-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Continue final batch 15: 19 existing offers, used-product and Mahjong guides. Publish and accept the complete batch. Amazon eligibility remains independent and does not block rollout.",
+  "nextAction": "No content refresh pages remain in the 299-page ledger. Live Creator API acceptance remains blocked by Amazon account eligibility (403 AssociateNotEligible); retain honest fallbacks until account eligibility changes. Do not create credentials or purchase access. Analytics causality/indexing remain separate evidence questions.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 280,
-  "contentAcceptedArticles": 280,
-  "remainingArticles": 19,
+  "deployedArticles": 299,
+  "contentAcceptedArticles": 299,
+  "remainingArticles": 0,
   "countDefinitions": {
-    "deployedArticles": "280 unique refreshed pages in batches 1-14",
-    "contentAcceptedArticles": "60 historical plus 220 current batch 4-14 content/search acceptances",
+    "deployedArticles": "299 unique refreshed pages in batches 1-15",
+    "contentAcceptedArticles": "60 historical plus 239 current batch 4-15 content/search acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus 280; final batch 15 is next"
+    "remainingArticles": "299 minus 299; all planned content batches accepted"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -522,7 +522,8 @@
     11,
     12,
     13,
-    14
+    14,
+    15
   ],
   "batch06": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -830,5 +831,39 @@
     "staticEbaySearchCards": 4,
     "productionReport": "reports/creator-rollout/batch-14-production-receipt.md",
     "indexNow": "20 URLs accepted; no indexing confirmation"
+  },
+  "batch15": {
+    "status": "production-content-accepted-offers-and-static-search",
+    "completedPaths": [
+      "/amazon-offers/amazon-business-account-for-small-business",
+      "/amazon-offers/audible-12-month-gift-membership",
+      "/amazon-offers/audible-premium-plus-annual-membership",
+      "/amazon-offers/audible-standard-free-trial",
+      "/amazon-offers/is-amazon-prime-paid-membership-worth-it",
+      "/amazon-offers/kindle-unlimited-24-month-gift",
+      "/amazon-offers/kindle-unlimited-free-trial-reading-test",
+      "/amazon-offers/prime-access-eligibility-value",
+      "/amazon-offers/prime-day-trial-video",
+      "/amazon-offers/prime-for-young-adults-trial",
+      "/amazon-offers/prime-free-trial-before-prime-day",
+      "/coffee/best-used-breville-espresso-machines-ebay",
+      "/coffee/best-vintage-coffee-grinders-ebay",
+      "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay",
+      "/mahjong/best-mahjong-cards",
+      "/mahjong/how-to-choose-a-mahjong-set",
+      "/mahjong/mahjong-set-vs-mahjong-card",
+      "/wfh/best-portable-monitors-under-100-ebay",
+      "/wfh/best-used-herman-miller-aeron-chairs-ebay"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "e3319a23eac2f53f42f9f8f61f2c03fa0cd3cc4e",
+    "deploymentId": "dpl_7WQYNzgpezMHJqGRi9R4LPN7UhMs",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": "not-applicable-service-and-static-resale-pages",
+    "staticAmazonSearchLinks": 4,
+    "amazonMembershipLinks": 22,
+    "staticEbaySearchLinks": 22,
+    "productionReport": "reports/creator-rollout/batch-15-production-receipt.md",
+    "indexNow": "19 URLs accepted; no indexing confirmation"
   }
 }

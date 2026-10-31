@@ -4165,7 +4165,7 @@
     {
       "batch": 15,
       "reviewed_page_target": 19,
-      "status": "pending",
+      "status": "production-content-accepted-offers-and-static-search",
       "publish_gate": "Publish after editorial, identity, technical and runtime checks; verify production before the next batch.",
       "pages": [
         {
@@ -4177,10 +4177,10 @@
           "data_source": "content/bounties/amazon-business-account-for-small-business.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/audible-12-month-gift-membership",
@@ -4191,10 +4191,10 @@
           "data_source": "content/bounties/audible-12-month-gift-membership.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/audible-premium-plus-annual-membership",
@@ -4205,10 +4205,10 @@
           "data_source": "content/bounties/audible-premium-plus-annual-membership.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/audible-standard-free-trial",
@@ -4219,10 +4219,10 @@
           "data_source": "content/bounties/audible-standard-free-trial.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/is-amazon-prime-paid-membership-worth-it",
@@ -4233,38 +4233,38 @@
           "data_source": "content/bounties/is-amazon-prime-paid-membership-worth-it.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/kindle-unlimited-24-month-gift",
           "url": "https://bestpickzone.com/amazon-offers/kindle-unlimited-24-month-gift",
-          "title": "Kindle Unlimited 24-Month Gift: Worth Two Years?",
+          "title": "Kindle Unlimited / Kindle+ Gift: Worth Two Years?",
           "renderer": "AmazonServiceArticlePage",
           "page_source": "app/amazon-offers/[slug]/page.tsx",
           "data_source": "content/bounties/kindle-unlimited-24-month-gift.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/kindle-unlimited-free-trial-reading-test",
           "url": "https://bestpickzone.com/amazon-offers/kindle-unlimited-free-trial-reading-test",
-          "title": "Kindle Unlimited Trial: Test the Catalog First",
+          "title": "Kindle Unlimited / Kindle+ Trial: Test the Catalog",
           "renderer": "AmazonServiceArticlePage",
           "page_source": "app/amazon-offers/[slug]/page.tsx",
           "data_source": "content/bounties/kindle-unlimited-free-trial-reading-test.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/prime-access-eligibility-value",
@@ -4275,10 +4275,10 @@
           "data_source": "content/bounties/prime-access-eligibility-value.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/prime-day-trial-video",
@@ -4289,10 +4289,10 @@
           "data_source": "lib/bounty-video.ts",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/prime-for-young-adults-trial",
@@ -4303,10 +4303,10 @@
           "data_source": "content/bounties/prime-for-young-adults-trial.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/amazon-offers/prime-free-trial-before-prime-day",
@@ -4317,10 +4317,10 @@
           "data_source": "content/bounties/prime-free-trial-before-prime-day.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-amazon-service",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "reviewed-existing-and-targeted-corrections",
           "sitemap_update_required": false,
-          "notes": "Membership, trial, business-account, or gift-program intent; keep the existing bounty CTA and do not substitute unrelated retail product cards."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/coffee/best-used-breville-espresso-machines-ebay",
@@ -4331,38 +4331,38 @@
           "data_source": "app/coffee/best-used-breville-espresso-machines-ebay/article-source.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-ebay",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Used, vintage, refurbished or eBay-specific intent. Preserve eBay listings and tracking; add Amazon only if editorially relevant, not to meet API coverage."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/coffee/best-vintage-coffee-grinders-ebay",
           "url": "https://bestpickzone.com/coffee/best-vintage-coffee-grinders-ebay",
-          "title": "Best Vintage Coffee Grinders on eBay in 2026",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Vintage Coffee Grinders on eBay: Identity and Condition",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/coffee/best-vintage-coffee-grinders-ebay/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-vintage-coffee-grinders-ebay.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-ebay",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Used, vintage, refurbished or eBay-specific intent. Preserve eBay listings and tracking; add Amazon only if editorially relevant, not to meet API coverage."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay",
           "url": "https://bestpickzone.com/home-kitchen/best-vintage-countertop-milkshake-machines-ebay",
-          "title": "Best Vintage Countertop Milkshake Machines on eBay in 2026",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Vintage Milkshake Machines on eBay: What to Check",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/home-kitchen/best-vintage-countertop-milkshake-machines-ebay/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-vintage-countertop-milkshake-machines-ebay.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-ebay",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Used, vintage, refurbished or eBay-specific intent. Preserve eBay listings and tracking; add Amazon only if editorially relevant, not to meet API coverage."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/mahjong/best-mahjong-cards",
@@ -4373,10 +4373,10 @@
           "data_source": null,
           "baseline_creator_coverage": "none",
           "disposition": "exception-official-source",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Primary recommendations are official current-year NMJL standard/large-print cards bought directly from the League. Preserve those official links; Creator API may support only the optional accompanying set, not replace the official card."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/mahjong/how-to-choose-a-mahjong-set",
@@ -4387,10 +4387,10 @@
           "data_source": null,
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/mahjong/mahjong-set-vs-mahjong-card",
@@ -4401,41 +4401,51 @@
           "data_source": null,
           "baseline_creator_coverage": "none",
           "disposition": "review-informational-intent",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Educational/rules-selection or skincare-ingredient intent. Product API cards are optional only where a concrete recommended product improves the decision; no monetization requirement."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/wfh/best-portable-monitors-under-100-ebay",
           "url": "https://bestpickzone.com/wfh/best-portable-monitors-under-100-ebay",
-          "title": "Best Portable Monitors Under $100 on eBay in 2026",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Portable Monitors Under $100 on eBay: Compatibility First",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/wfh/best-portable-monitors-under-100-ebay/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-portable-monitors-under-100-ebay.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-ebay",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Used, vintage, refurbished or eBay-specific intent. Preserve eBay listings and tracking; add Amazon only if editorially relevant, not to meet API coverage."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         },
         {
           "path": "/wfh/best-used-herman-miller-aeron-chairs-ebay",
           "url": "https://bestpickzone.com/wfh/best-used-herman-miller-aeron-chairs-ebay",
-          "title": "Best Used Herman Miller Aeron Chairs on eBay in 2026",
-          "renderer": "StandaloneJsxArticlePage",
+          "title": "Used Aeron Chairs on eBay: Size, Condition and Warranty",
+          "renderer": "ResearchedBuyingGuide",
           "page_source": "app/wfh/best-used-herman-miller-aeron-chairs-ebay/page.tsx",
-          "data_source": null,
+          "data_source": "content/buying-guides/best-used-herman-miller-aeron-chairs-ebay.html",
           "baseline_creator_coverage": "none",
           "disposition": "exception-ebay",
-          "review_status": "pending",
-          "refresh_scope": null,
+          "review_status": "production-content-and-destinations-accepted-with-documented-limits",
+          "refresh_scope": "substantive",
           "sitemap_update_required": false,
-          "notes": "Used, vintage, refurbished or eBay-specific intent. Preserve eBay listings and tracking; add Amazon only if editorially relevant, not to meet API coverage."
+          "notes": "Final full rendered review, desktop/mobile, links/images, metadata and sitemap accepted. Annual Audible redirect labeled as general offers; individual resale condition not asserted. See batch-15-production-receipt.md."
         }
       ]
     }
   ],
-  "batch_one_lock_note": "Ten author-ranking JSON routes plus the first nine researched buying guides through best-folding-tables-for-mahjong, plus Alex Michaelides to reconcile PR 6 exact-ASIN pilot matching. Shallow-desk monitor arms starts batch 2."
+  "batch_one_lock_note": "Ten author-ranking JSON routes plus the first nine researched buying guides through best-folding-tables-for-mahjong, plus Alex Michaelides to reconcile PR 6 exact-ASIN pilot matching. Shallow-desk monitor arms starts batch 2.",
+  "rollout_progress": {
+    "as_of": "2026-10-31",
+    "deployed": 299,
+    "content_accepted": 299,
+    "remaining": 0,
+    "live_creator_api": "blocked independently: 403 AssociateNotEligible",
+    "historical_content_acceptance": 60,
+    "current_batch_4_through_15_acceptance": 239,
+    "receipt": "../remaining-59-production-receipt.md"
+  }
 }

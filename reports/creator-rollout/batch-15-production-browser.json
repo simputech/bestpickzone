@@ -1,0 +1,62 @@
+{
+  "base": "https://bestpickzone.com",
+  "checkedAt": "2026-10-31T15:49:49.638339+00:00",
+  "method": "38 actual public desktop/mobile CUA checks; all 19 full public main texts match final fully reviewed local articles after whitespace/table-hint normalization. Public mobile offer-warning screenshot inspected. Keyboard scroll verified locally.",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "paths": [
+    "/amazon-offers/amazon-business-account-for-small-business",
+    "/amazon-offers/audible-12-month-gift-membership",
+    "/amazon-offers/audible-premium-plus-annual-membership",
+    "/amazon-offers/audible-standard-free-trial",
+    "/amazon-offers/is-amazon-prime-paid-membership-worth-it",
+    "/amazon-offers/kindle-unlimited-24-month-gift",
+    "/amazon-offers/kindle-unlimited-free-trial-reading-test",
+    "/amazon-offers/prime-access-eligibility-value",
+    "/amazon-offers/prime-day-trial-video",
+    "/amazon-offers/prime-for-young-adults-trial",
+    "/amazon-offers/prime-free-trial-before-prime-day",
+    "/coffee/best-used-breville-espresso-machines-ebay",
+    "/coffee/best-vintage-coffee-grinders-ebay",
+    "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay",
+    "/mahjong/best-mahjong-cards",
+    "/mahjong/how-to-choose-a-mahjong-set",
+    "/mahjong/mahjong-set-vs-mahjong-card",
+    "/wfh/best-portable-monitors-under-100-ebay",
+    "/wfh/best-used-herman-miller-aeron-chairs-ebay"
+  ],
+  "checks": 38,
+  "issues": [],
+  "commercePerViewport": {
+    "amazonSearch": 4,
+    "amazonOffer": 22,
+    "ebaySearch": 22
+  },
+  "disclosureException": "Set-vs-card article has no affiliate destination; sitewide disclosure still present.",
+  "video": {
+    "durationSeconds": 86.906531,
+    "readyState": 2,
+    "error": null,
+    "captions": "/media/bounties/prime-day-trial.vtt",
+    "poster": "/media/bounties/prime-day-trial-poster.png",
+    "language": "en",
+    "note": "Public metadata/current video data loaded without error; original video unchanged, no claim of full playback test."
+  },
+  "images": "Ten original membership graphics load with natural dimensions and meaningful alt text. Four resale guides use text decision sequences, not invented product photos.",
+  "keyboardTableScroll": {
+    "focusedRole": "region",
+    "scrollLeftAfterArrowRight": 40,
+    "clientWidth": 316,
+    "scrollWidth": 576
+  },
+  "commit": "e3319a23eac2f53f42f9f8f61f2c03fa0cd3cc4e",
+  "deploymentId": "dpl_7WQYNzgpezMHJqGRi9R4LPN7UhMs"
+}
