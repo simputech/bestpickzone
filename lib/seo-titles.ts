@@ -38,7 +38,7 @@ export const SEO_TITLES: Record<string, string> = {
   '/es/oficina-en-casa/oficina-en-casa-en-mesa-de-cocina': "Oficina en la mesa de cocina: monta, trabaja y guarda",
   '/home-kitchen/best-coffee-makers-under-100': 'Coffee Makers Around $100: Cuisinart vs. FlexBrew',
   '/home-kitchen/best-pizza-peels-ooni-koda-12': 'Best Ooni Koda 12 Pizza Peels: Launching & Turning',
-  '/home-kitchen/best-vintage-countertop-milkshake-machines-ebay': 'Best Vintage Milkshake Machines on eBay (2026)',
+  '/home-kitchen/best-vintage-countertop-milkshake-machines-ebay': "Vintage Milkshake Machines on eBay: What to Check",
   '/home-kitchen/instant-pot-vs-ninja-foodi': 'Instant Pot Duo vs. Foodi: Models and Recall Check',
   '/home-kitchen/kitchenaid-pasta-roller-vs-pasta-press': 'KitchenAid Pasta Roller vs. Pasta Press: Which Fits?',
   '/home-kitchen/ninja-creami-containers-compatibility': 'Ninja CREAMi Container Compatibility by Model',

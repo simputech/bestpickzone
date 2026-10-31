@@ -28,13 +28,13 @@ export default function ResearchedBuyingGuide({ slug }: { slug: string }) {
       <header className="rounded-[2rem] bg-gradient-to-br from-slate-950 via-teal-950 to-teal-800 p-6 text-white md:p-9">
         <p className="text-sm font-bold uppercase tracking-widest text-amber-200">BestPickZone buying guide</p>
         <h1 className="mt-4 text-3xl font-extrabold leading-tight md:text-5xl">{g.title}</h1>
-        <p className="mt-5 text-sm leading-6 text-teal-50">Affiliate disclosure: As an Amazon Associate, BestPickZone earns from qualifying purchases. Amazon links may earn us a commission at no extra cost to you.</p>
+        <p className="mt-5 text-sm leading-6 text-teal-50">{g.affiliate === 'ebay' ? 'Affiliate disclosure: BestPickZone may earn a commission from qualifying purchases through eBay partner links, at no extra cost to you.' : 'Affiliate disclosure: As an Amazon Associate, BestPickZone earns from qualifying purchases. Amazon links may earn us a commission at no extra cost to you.'}</p>
         <p className="mt-3 text-sm text-teal-100">By BestPickZone • {g.publishedDate ? 'Updated' : 'Published'} {new Date(`${g.date ?? guideDate}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })} • {g.silo === 'books' ? 'Editorial reading comparison' : 'Researched comparison; not a hands-on test'}</p>
       </header>
       <div className="comparison-html mt-7 rounded-2xl border border-teal-100 bg-teal-50 p-6 text-lg" dangerouslySetInnerHTML={{ __html: intro }} />
       <figure aria-label="Buying decision sequence" className="my-7 grid gap-3 sm:grid-cols-3">{g.visual.map((text, i) => <div key={text} className="rounded-2xl border border-amber-200 bg-amber-50 p-5"><span className="text-2xl font-black text-amber-700">0{i + 1}</span><p className="mt-2 font-semibold text-slate-900">{text}</p></div>)}</figure>
       <div className="comparison-html rounded-[2rem] border border-gray-200 bg-white p-5 shadow-sm md:p-8" dangerouslySetInnerHTML={{ __html: body }} />
-      <ArticleAmazonProducts path={articlePath} />
+      {g.affiliate !== 'ebay' && <ArticleAmazonProducts path={articlePath} />}
     </article>
   </main>
 }

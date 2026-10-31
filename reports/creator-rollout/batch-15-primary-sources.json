@@ -1,0 +1,235 @@
+{
+  "status": "local-review-production-pending",
+  "pages": [
+    {
+      "path": "/amazon-offers/amazon-business-account-for-small-business",
+      "sourceFile": "content/bounties/amazon-business-account-for-small-business.html",
+      "sources": [
+        "https://business.amazon.com/en/contact-us",
+        "https://business.amazon.com/en/prime-business",
+        "https://business.amazon.com/en/register"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1283
+    },
+    {
+      "path": "/amazon-offers/audible-12-month-gift-membership",
+      "sourceFile": "content/bounties/audible-12-month-gift-membership.html",
+      "sources": [
+        "https://help.audible.com/s/article/gift-a-membership?language=en_US",
+        "https://help.audible.com/s/article/learn-about-credits?language=en_US",
+        "https://www.audible.com/ep/memberbenefits"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1368
+    },
+    {
+      "path": "/amazon-offers/audible-premium-plus-annual-membership",
+      "sourceFile": "content/bounties/audible-premium-plus-annual-membership.html",
+      "sources": [
+        "https://help.audible.com/s/article/cancel-membership?language=en_US",
+        "https://help.audible.com/s/article/learn-about-credits?language=en_US",
+        "https://www.audible.com/ep/memberbenefits"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1226
+    },
+    {
+      "path": "/amazon-offers/audible-standard-free-trial",
+      "sourceFile": "content/bounties/audible-standard-free-trial.html",
+      "sources": [
+        "https://help.audible.com/s/article/cancel-membership?language=en_US",
+        "https://help.audible.com/s/article/learn-about-standard-plan?language=en_US",
+        "https://www.audible.com/ep/memberbenefits"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1192
+    },
+    {
+      "path": "/amazon-offers/is-amazon-prime-paid-membership-worth-it",
+      "sourceFile": "content/bounties/is-amazon-prime-paid-membership-worth-it.html",
+      "sources": [
+        "https://www.aboutamazon.com/news/retail/amazon-prime-benefits"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1129
+    },
+    {
+      "path": "/amazon-offers/kindle-unlimited-24-month-gift",
+      "sourceFile": "content/bounties/kindle-unlimited-24-month-gift.html",
+      "sources": [],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1327
+    },
+    {
+      "path": "/amazon-offers/kindle-unlimited-free-trial-reading-test",
+      "sourceFile": "content/bounties/kindle-unlimited-free-trial-reading-test.html",
+      "sources": [
+        "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTQEND3RFAFNLKU5"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1235
+    },
+    {
+      "path": "/amazon-offers/prime-access-eligibility-value",
+      "sourceFile": "content/bounties/prime-access-eligibility-value.html",
+      "sources": [
+        "https://www.aboutamazon.com/news/retail/amazon-prime-access-discounted-membership",
+        "https://www.aboutamazon.com/news/retail/amazon-prime-discounted-membership"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1155
+    },
+    {
+      "path": "/amazon-offers/prime-day-trial-video",
+      "sourceFile": "content/bounties/prime-day-video-companion.html",
+      "sources": [
+        "https://www.aboutamazon.com/news/retail/amazon-prime-benefits",
+        "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "companionWords": 954,
+      "editorialWordsNote": "954-word new companion plus original full transcript; 1,389 visible main words including disclosure/navigation/CTA before publication."
+    },
+    {
+      "path": "/amazon-offers/prime-for-young-adults-trial",
+      "sourceFile": "content/bounties/prime-for-young-adults-trial.html",
+      "sources": [
+        "https://www.aboutamazon.com/news/retail/amazon-prime-for-young-adults"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1188
+    },
+    {
+      "path": "/amazon-offers/prime-free-trial-before-prime-day",
+      "sourceFile": "content/bounties/prime-free-trial-before-prime-day.html",
+      "sources": [
+        "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1210
+    },
+    {
+      "path": "/coffee/best-used-breville-espresso-machines-ebay",
+      "sourceFile": "app/coffee/best-used-breville-espresso-machines-ebay/article-source.html",
+      "sources": [
+        "https://www.breville.com/en-us/product/bes450",
+        "https://www.breville.com/en-us/product/bes500",
+        "https://www.breville.com/en-us/product/bes870",
+        "https://www.breville.com/en-us/product/bes878",
+        "https://www.cpsc.gov/Recalls"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 2355
+    },
+    {
+      "path": "/coffee/best-vintage-coffee-grinders-ebay",
+      "sourceFile": "content/buying-guides/best-vintage-coffee-grinders-ebay.html",
+      "sources": [
+        "https://americanhistory.si.edu/collections/object/nmah_733102",
+        "https://hub.catalogit.app/sidney-museum-and-archives/folder/entry/coffee-grinder"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1174
+    },
+    {
+      "path": "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay",
+      "sourceFile": "content/buying-guides/best-vintage-countertop-milkshake-machines-ebay.html",
+      "sources": [
+        "https://useandcares.hamiltonbeach.com/files/840119404.pdf",
+        "https://www.cpsc.gov/Recalls",
+        "https://www.cpsc.gov/s3fs-public/254_ResellersGuide_2-5-25.pdf"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1262
+    },
+    {
+      "path": "/mahjong/best-mahjong-cards",
+      "sourceFile": "app/mahjong/best-mahjong-cards/page.tsx",
+      "sources": [
+        "https://nationalmahjonggleague.org/store.aspx",
+        "https://www.nationalmahjonggleague.org/store.aspx",
+        "https://www.worldriichi.org/wrc-rules"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true
+    },
+    {
+      "path": "/mahjong/how-to-choose-a-mahjong-set",
+      "sourceFile": "app/mahjong/how-to-choose-a-mahjong-set/page.tsx",
+      "sources": [
+        "https://www.nationalmahjonggleague.org/store.aspx",
+        "https://www.worldriichi.org/wrc-rules"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true
+    },
+    {
+      "path": "/mahjong/mahjong-set-vs-mahjong-card",
+      "sourceFile": "app/mahjong/mahjong-set-vs-mahjong-card/page.tsx",
+      "sources": [
+        "https://nationalmahjonggleague.org/store.aspx",
+        "https://www.nationalmahjonggleague.org/store.aspx"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true
+    },
+    {
+      "path": "/wfh/best-portable-monitors-under-100-ebay",
+      "sourceFile": "content/buying-guides/best-portable-monitors-under-100-ebay.html",
+      "sources": [
+        "https://psref.lenovo.com/syspool/Sys/PDF/ThinkVision/ThinkVision_M14/ThinkVision_M14_Spec.pdf",
+        "https://www.asus.com/displays-desktops/monitors/zenscreen/zenscreen-mb16acv/techspec/",
+        "https://www.asus.com/us/displays-desktops/monitors/zenscreen/zenscreen-mb16acv/"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1167
+    },
+    {
+      "path": "/wfh/best-used-herman-miller-aeron-chairs-ebay",
+      "sourceFile": "content/buying-guides/best-used-herman-miller-aeron-chairs-ebay.html",
+      "sources": [
+        "https://store.hermanmiller.com/features-buying-guides-aeron-chair.html",
+        "https://store.hermanmiller.com/refurbished-faq.html?lang=en_US"
+      ],
+      "reviewDate": "2026-10-31",
+      "originalReviewed": true,
+      "finishedRenderedReview": true,
+      "editorialWords": 1230
+    }
+  ],
+  "sourceScope": "Primary sources reviewed via web and browser; model facts do not verify individual resale listings. Membership identity checked without enrollment. Some sources reused from batch14 source checks in this same release session."
+}

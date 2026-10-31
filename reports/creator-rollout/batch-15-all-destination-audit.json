@@ -1,0 +1,220 @@
+{
+  "pages": 19,
+  "targets": 146,
+  "failures": [
+    {
+      "url": "https://www.amazon.com/prime?tag=fitnessbankd-20",
+      "status": 429,
+      "finalUrl": "https://www.amazon.com:443/amazonprime?tag=fitnessbankd-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTQEND3RFAFNLKU5",
+      "status": 403,
+      "finalUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTQEND3RFAFNLKU5",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/qualify?tag=fitnessbankd-20",
+      "status": 429,
+      "finalUrl": "https://www.amazon.com:443/amazonprime?primeCampaignId=accessWlpPrimeRedir&tag=fitnessbankd-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/joinyoungadult?tag=fitnessbankd-20",
+      "status": 429,
+      "finalUrl": "https://www.amazon.com:443/amazonprime?primeCampaignId=studentWlpPrimeRedir&tag=fitnessbankd-20",
+      "error": null
+    },
+    {
+      "url": "https://www.cpsc.gov/Recalls",
+      "status": 403,
+      "finalUrl": "https://www.cpsc.gov/Recalls",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Breville+Bambino+BES450&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-bambino&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Breville+Bambino+BES450&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-bambino&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Breville+Bambino+Plus+BES500&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-bambino-plus&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Breville+Bambino+Plus+BES500&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-bambino-plus&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Breville+Barista+Express+BES870&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-barista-express&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Breville+Barista+Express+BES870&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-barista-express&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Breville+Barista+Pro+BES878&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-barista-pro&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Breville+Barista+Pro+BES878&campid=5339164184&customid=best-used-breville-espresso-machines-ebay-barista-pro&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&siteid=0&toolid=10001",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Peugeot+Freres+coffee+grinder+wall+mounted&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-peugeot-wall&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Peugeot+Freres+coffee+grinder+wall+mounted&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-peugeot-wall&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Zassenhaus+coffee+grinder+vintage&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-zassenhaus&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Zassenhaus+coffee+grinder+vintage&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-zassenhaus&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Arcade+Crystal+coffee+grinder&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-arcade-crystal&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Arcade+Crystal+coffee+grinder&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-arcade-crystal&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Spong+coffee+grinder+vintage&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-spong&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Spong+coffee+grinder+vintage&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-spong&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=vintage+Turkish+brass+coffee+grinder&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-turkish-brass&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=vintage+Turkish+brass+coffee+grinder&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-coffee-grinders-ebay-turkish-brass&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://americanhistory.si.edu/collections/object/nmah_733102",
+      "status": 403,
+      "finalUrl": "https://americanhistory.si.edu/collections/object/nmah_733102",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Hamilton+Beach+DrinkMaster+vintage+milkshake+mixer&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-hamilton-beach&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Hamilton+Beach+DrinkMaster+vintage+milkshake+mixer&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-hamilton-beach&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Malt+Master+vintage+milkshake+mixer&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-malt-master&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Malt+Master+vintage+milkshake+mixer&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-malt-master&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Waring+vintage+drink+mixer+milkshake&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-waring&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Waring+vintage+drink+mixer+milkshake&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-waring&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Oster+vintage+milkshake+mixer&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-oster&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Oster+vintage+milkshake+mixer&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-oster&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=vintage+commercial+milkshake+mixer+spindle&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-commercial-spindle&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=vintage+commercial+milkshake+mixer+spindle&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-vintage-countertop-milkshake-machines-ebay-commercial-spindle&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=American%20Mahjong%20Game%20Set%20166%20Quality%20White%20Tiles%20All-in-One%20Rack%20Pushers%20Blue%20Carrying%20Bag&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=American%20Mahjong%20Game%20Set%20166%20Quality%20White%20Tiles%20All-in-One%20Rack%20Pushers%20Blue%20Carrying%20Bag&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Linda%20Li%20American%20Mahjong%20Set%20166%20White%20Tiles%204%20Racks%20Pushers%20Carrying%20Bag&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Linda%20Li%20American%20Mahjong%20Set%20166%20White%20Tiles%204%20Racks%20Pushers%20Carrying%20Bag&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.amazon.com/s?k=Japanese%20Riichi%20Mahjong%20Set%20136%20Tiles&tag=althcu-20",
+      "status": 503,
+      "finalUrl": "https://www.amazon.com/s?k=Japanese%20Riichi%20Mahjong%20Set%20136%20Tiles&tag=althcu-20",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=portable+monitor+15.6+usb+c+1080p+new&LH_BIN=1&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-new-generic&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=portable+monitor+15.6+usb+c+1080p+new&LH_BIN=1&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-new-generic&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Lenovo+ThinkVision+M14+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-refurb-lenovo&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Lenovo+ThinkVision+M14+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-refurb-lenovo&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Asus+ZenScreen+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-refurb-asus&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Asus+ZenScreen+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-refurb-asus&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Arzopa+InnoView+KYY+portable+monitor+open+box&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-open-box-budget&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Arzopa+InnoView+KYY+portable+monitor+open+box&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-open-box-budget&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=ViewSonic+AOC+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-refurb-viewsonic-aoc&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=ViewSonic+AOC+portable+monitor+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-portable-monitors-under-100-ebay-refurb-viewsonic-aoc&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Size+B+used&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-used-herman-miller-aeron-chairs-ebay-featured-size-b&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Size+B+used&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-used-herman-miller-aeron-chairs-ebay-featured-size-b&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Remastered+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-used-herman-miller-aeron-chairs-ebay-featured-remastered&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Remastered+refurbished&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-used-herman-miller-aeron-chairs-ebay-featured-remastered&toolid=10001&mkevt=1",
+      "error": null
+    },
+    {
+      "url": "https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Classic+fully+loaded+used&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-used-herman-miller-aeron-chairs-ebay-featured-classic&toolid=10001&mkevt=1",
+      "status": 403,
+      "finalUrl": "https://www.ebay.com/sch/i.html?_nkw=Herman+Miller+Aeron+Classic+fully+loaded+used&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339164184&customid=best-used-herman-miller-aeron-chairs-ebay-featured-classic&toolid=10001&mkevt=1",
+      "error": null
+    }
+  ],
+  "wordCounts": {
+    "/amazon-offers/amazon-business-account-for-small-business": 1424,
+    "/amazon-offers/audible-12-month-gift-membership": 1547,
+    "/amazon-offers/audible-premium-plus-annual-membership": 1401,
+    "/amazon-offers/audible-standard-free-trial": 1368,
+    "/amazon-offers/is-amazon-prime-paid-membership-worth-it": 1303,
+    "/amazon-offers/kindle-unlimited-24-month-gift": 1567,
+    "/amazon-offers/kindle-unlimited-free-trial-reading-test": 1420,
+    "/amazon-offers/prime-access-eligibility-value": 1329,
+    "/amazon-offers/prime-day-trial-video": 1389,
+    "/amazon-offers/prime-for-young-adults-trial": 1361,
+    "/amazon-offers/prime-free-trial-before-prime-day": 1385,
+    "/coffee/best-used-breville-espresso-machines-ebay": 2397,
+    "/coffee/best-vintage-coffee-grinders-ebay": 1249,
+    "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay": 1339,
+    "/mahjong/best-mahjong-cards": 1460,
+    "/mahjong/how-to-choose-a-mahjong-set": 1454,
+    "/mahjong/mahjong-set-vs-mahjong-card": 1130,
+    "/wfh/best-portable-monitors-under-100-ebay": 1245,
+    "/wfh/best-used-herman-miller-aeron-chairs-ebay": 1308
+  },
+  "statusCounts": {
+    "200": 115,
+    "403": 25,
+    "429": 3,
+    "503": 3
+  },
+  "note": "Original complete 146-destination HTTP audit; output retains all non-200 results and total. Retailer restrictions are not broken-link or offer-identity proof. Final first-party results stored separately."
+}

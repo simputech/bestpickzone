@@ -1,0 +1,58 @@
+{
+  "base": "http://127.0.0.1:3118",
+  "checkedAt": "2026-10-31T15:46:00.951126+00:00",
+  "method": "38 actual CUA rendered desktop/mobile checks after page load; all complete desktop articles read. Mobile complete text matches desktop after normalizing table-scroll hint and whitespace. Representative screenshots inspected.",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "paths": [
+    "/amazon-offers/amazon-business-account-for-small-business",
+    "/amazon-offers/audible-12-month-gift-membership",
+    "/amazon-offers/audible-premium-plus-annual-membership",
+    "/amazon-offers/audible-standard-free-trial",
+    "/amazon-offers/is-amazon-prime-paid-membership-worth-it",
+    "/amazon-offers/kindle-unlimited-24-month-gift",
+    "/amazon-offers/kindle-unlimited-free-trial-reading-test",
+    "/amazon-offers/prime-access-eligibility-value",
+    "/amazon-offers/prime-day-trial-video",
+    "/amazon-offers/prime-for-young-adults-trial",
+    "/amazon-offers/prime-free-trial-before-prime-day",
+    "/coffee/best-used-breville-espresso-machines-ebay",
+    "/coffee/best-vintage-coffee-grinders-ebay",
+    "/home-kitchen/best-vintage-countertop-milkshake-machines-ebay",
+    "/mahjong/best-mahjong-cards",
+    "/mahjong/how-to-choose-a-mahjong-set",
+    "/mahjong/mahjong-set-vs-mahjong-card",
+    "/wfh/best-portable-monitors-under-100-ebay",
+    "/wfh/best-used-herman-miller-aeron-chairs-ebay"
+  ],
+  "checks": 38,
+  "issues": [],
+  "commercePerViewport": {
+    "amazonSearch": 4,
+    "amazonOffer": 22,
+    "ebaySearch": 22
+  },
+  "disclosureException": "Set-vs-card article has no affiliate destination; sitewide disclosure still present.",
+  "video": {
+    "durationSeconds": 86.906531,
+    "readyState": 4,
+    "error": null,
+    "captions": "/media/bounties/prime-day-trial.vtt",
+    "poster": "/media/bounties/prime-day-trial-poster.png"
+  },
+  "images": "Ten original membership graphics load with natural dimensions and meaningful alt text. Four resale guides use text decision sequences, not invented product photos.",
+  "keyboardTableScroll": {
+    "focusedRole": "region",
+    "scrollLeftAfterArrowRight": 40,
+    "clientWidth": 316,
+    "scrollWidth": 576
+  }
+}

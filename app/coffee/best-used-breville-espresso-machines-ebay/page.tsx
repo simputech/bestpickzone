@@ -10,6 +10,7 @@ import { getReadingTime, formatReadingTime } from '@/lib/reading-time'
 const title = 'Best Used Breville Espresso Machines on eBay in 2026'
 const description = 'Compare used Breville Bambino, Bambino Plus, Barista Express, and Barista Pro machines on eBay, with model-specific checks, accessory costs, and buying advice.'
 const pageUrl = 'https://bestpickzone.com/coffee/best-used-breville-espresso-machines-ebay'
+const modifiedTime = '2026-10-31T12:00:00-04:00'
 const publishedTime = '2026-09-30T12:00:00-04:00'
 const bodyHtml = fs.readFileSync(path.join(process.cwd(), 'app/coffee/best-used-breville-espresso-machines-ebay/article-source.html'), 'utf8')
 
@@ -19,7 +20,7 @@ export const metadata: Metadata = withSeo(withArticleMetadataDefaults({
   alternates: { canonical: pageUrl },
   openGraph: { title, description, type: 'article', url: pageUrl },
   twitter: { card: 'summary_large_image', title, description },
-}, { category: 'coffee', section: 'Coffee', url: pageUrl, publishedTime, modifiedTime: publishedTime }), "/coffee/best-used-breville-espresso-machines-ebay")
+}, { category: 'coffee', section: 'Coffee', url: pageUrl, publishedTime, modifiedTime }), "/coffee/best-used-breville-espresso-machines-ebay")
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -28,7 +29,7 @@ const articleSchema = {
   description,
   image: 'https://bestpickzone.com/og-coffee.png',
   datePublished: publishedTime,
-  dateModified: publishedTime,
+  dateModified: modifiedTime,
   mainEntityOfPage: pageUrl,
   author: { '@type': 'Organization', name: 'BestPickZone', url: 'https://bestpickzone.com/about' },
   publisher: { '@type': 'Organization', name: 'BestPickZone', logo: { '@type': 'ImageObject', url: 'https://bestpickzone.com/icon.png' } },
@@ -48,7 +49,7 @@ export default function UsedBrevilleGuidePage() {
         <header>
           <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-amber-700">Used Espresso Buying Guide</p>
           <h1 className="mb-4 text-4xl font-extrabold leading-tight text-gray-900 md:text-5xl">{title}</h1>
-          <p className="mb-6 text-sm text-gray-500">By BestPickZone · <time dateTime={publishedTime}>September 30, 2026</time> · {formatReadingTime(getReadingTime(bodyHtml.replace(/<[^>]+>/g, ' ')))}</p>
+          <p className="mb-6 text-sm text-gray-500">By BestPickZone · Updated <time dateTime={modifiedTime}>October 31, 2026</time> · {formatReadingTime(getReadingTime(bodyHtml.replace(/<[^>]+>/g, ' ')))}</p>
         </header>
         <div className="comparison-html text-gray-700" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
       </article>

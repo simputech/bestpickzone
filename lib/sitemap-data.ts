@@ -1,7 +1,7 @@
 import { getSpanishSitemapEntries } from './spanish-site-data'
 import { authorRankingGuides } from './author-ranking-guides'
 import { categories } from './deals/recommend'
-import { bountyArticles, bountyDate, bountyVideoSlug } from './bounty-data'
+import { bountyArticles, bountyUpdatedDate, bountyVideoSlug } from './bounty-data'
 import { buyingGuides, guideDate } from './buying-guide-data'
 import { articlesData, getBookPath } from '@/lib/books-data'
 import { beautyComparisonArticles, coffeeComparisonArticles, wfhComparisonArticles } from '@/lib/comparison-html-articles'
@@ -96,7 +96,7 @@ export const standaloneBookPages: SitemapEntry[] = [
 
 export const mainPages: SitemapEntry[] = [
   ...["/deals", "/deal-agent", "/deal-alerts", ...categories.map(g => `/deals/${g.slug}`)].map(path => ({url: `${baseUrl}${path}`, lastModified: path === "/deal-alerts" ? "2026-10-06" : "2026-10-13", changeFrequency: "weekly" as const, priority: 0.85})),
-  ...['', ...bountyArticles.map(a => a.slug), bountyVideoSlug].map(slug => ({url: `${baseUrl}/amazon-offers${slug ? '/' + slug : ''}`, lastModified: bountyDate, changeFrequency: 'monthly' as const, priority: slug ? 0.8 : 0.9})),
+  ...['', ...bountyArticles.map(a => a.slug), bountyVideoSlug].map(slug => ({url: `${baseUrl}/amazon-offers${slug ? '/' + slug : ''}`, lastModified: bountyUpdatedDate, changeFrequency: 'monthly' as const, priority: slug ? 0.8 : 0.9})),
   { url: `${baseUrl}/privacy`, lastModified: '2026-10-02', changeFrequency: 'yearly', priority: 0.3 },
   { url: `${baseUrl}/disclosure`, lastModified: '2026-10-02', changeFrequency: 'yearly', priority: 0.3 },
   { url: `${baseUrl}/home-kitchen/best-kitchenaid-attachments-worth-buying`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.8 },
@@ -118,11 +118,11 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/mahjong/best-mahjong-sets-for-beginners`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-american-mahjong-sets-on-amazon`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-travel-mahjong-sets`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/mahjong/best-mahjong-cards`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/mahjong/best-mahjong-cards`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-mahjong-accessories`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/mahjong/how-to-choose-a-mahjong-set`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/mahjong/how-to-choose-a-mahjong-set`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/mahjong/best-book-to-learn-mahjong`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
-  { url: `${baseUrl}/mahjong/mahjong-set-vs-mahjong-card`, lastModified: '2026-09-19', changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${baseUrl}/mahjong/mahjong-set-vs-mahjong-card`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-dorm-room-essentials`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-study-desk-essentials`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-productivity-products-for-students`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.85 },
@@ -139,7 +139,7 @@ export const mainPages: SitemapEntry[] = [
   { url: `${baseUrl}/home-kitchen/best-air-fryers`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/home-kitchen/best-halloween-candy-deals-on-amazon`, lastModified: '2026-10-28', changeFrequency: 'weekly', priority: 0.85 },
   { url: `${baseUrl}/home-kitchen/best-fall-clothes-for-couples`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.8 },
-  { url: `${baseUrl}/home-kitchen/best-vintage-countertop-milkshake-machines-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${baseUrl}/home-kitchen/best-vintage-countertop-milkshake-machines-ebay`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.8 },
   ...techSlugs.map(({ slug, date }) => ({
     url: `${baseUrl}/tech/${slug}`,
     lastModified: date,
@@ -168,13 +168,13 @@ export const beautyPages: SitemapEntry[] = [
 ]
 
 export const coffeePages: SitemapEntry[] = [
-  { url: `${baseUrl}/coffee/best-used-breville-espresso-machines-ebay`, lastModified: '2026-09-30', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/coffee/best-used-breville-espresso-machines-ebay`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/coffee/complete-small-kitchen-home-coffee-bar-setup`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/coffee/best-gaggia-classic-pro-upgrades`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.8 },
   { url: `${baseUrl}/coffee/what-to-buy-with-your-breville-bambino-plus`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.8 },
   ...buyingGuides.filter(g => g.silo === 'coffee').map(g => ({ url: `${baseUrl}${g.path ?? `/${g.silo}/${g.slug}`}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/coffee`, lastModified: '2026-10-15', changeFrequency: 'weekly', priority: 0.92 },
-  { url: `${baseUrl}/coffee/best-vintage-coffee-grinders-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/coffee/best-vintage-coffee-grinders-ebay`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/coffee/breville-bambino-plus-vs-gaggia-classic-pro`, lastModified: '2026-10-16', changeFrequency: 'monthly', priority: 0.88 },
   ...coffeeComparisonArticles.map((article) => ({
     url: `${baseUrl}/coffee/${article.slug}`,
@@ -191,8 +191,8 @@ export const wfhPages: SitemapEntry[] = [
   ...buyingGuides.filter(g => g.silo === 'wfh').map(g => ({ url: `${baseUrl}${g.path ?? `/${g.silo}/${g.slug}`}`, lastModified: g.date ?? guideDate, changeFrequency: 'monthly' as const, priority: 0.85 })),
   { url: `${baseUrl}/wfh`, lastModified: '2026-10-15', changeFrequency: 'weekly', priority: 0.92 },
   { url: `${baseUrl}/wfh/best-products-for-your-home-office`, lastModified: '2026-10-28', changeFrequency: 'monthly', priority: 0.9 },
-  { url: `${baseUrl}/wfh/best-used-herman-miller-aeron-chairs-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
-  { url: `${baseUrl}/wfh/best-portable-monitors-under-100-ebay`, lastModified: '2026-07-06', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/wfh/best-used-herman-miller-aeron-chairs-ebay`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.88 },
+  { url: `${baseUrl}/wfh/best-portable-monitors-under-100-ebay`, lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/secretlab-titan-evo-vs-ergotune-supreme`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/autonomous-ergochair-pro-vs-hinomi-h1-pro`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.88 },
   { url: `${baseUrl}/wfh/purple-royal-seat-cushion-vs-cushion-lab`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.88 },
