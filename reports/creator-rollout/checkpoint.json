@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-30T22:30:23.890732+00:00",
+  "updatedAt": "2026-10-31T14:45:42.179391+00:00",
   "baselineCommit": "48009045041c0129328f8769b9d4487d7e7c900c",
   "totalArticles": 299,
   "batchSize": 20,
-  "currentBatch": 13,
-  "status": "batch-twelve-content-accepted-api-eligibility-blocked",
+  "currentBatch": 14,
+  "status": "batch-thirteen-content-accepted-api-eligibility-blocked",
   "completedBatches": [
     1,
     2,
@@ -53,7 +53,7 @@
       "Normcore Gaggia Classic fit: one unresolved candidate; KNODOS card live."
     ]
   },
-  "nextAction": "Continue existing batch 13: review full originals and primary sources, complete 20, test desktop/mobile, publish and accept before batch 14. Amazon eligibility remains an independent dependency. GA4 Admin is now readable; review is continuing without settings changes.",
+  "nextAction": "Continue existing batch 14: 20 Spanish guides, then batch 15 final 19. Publish and accept each batch before starting the next. Amazon eligibility remains independent and does not block rollout.",
   "limits": [
     "No local production secrets retrieved; runtime API checks require deployment.",
     "API rate limiting is per-process, not a shared multi-instance account-wide quota.",
@@ -465,14 +465,14 @@
     "fallbackCards": 29,
     "indexNow": "Accepted with batch five: 40 URL submission on October 28 Eastern; not confirmed indexing"
   },
-  "deployedArticles": 240,
-  "contentAcceptedArticles": 240,
-  "remainingArticles": 59,
+  "deployedArticles": 260,
+  "contentAcceptedArticles": 260,
+  "remainingArticles": 39,
   "countDefinitions": {
-    "deployedArticles": "240 unique refreshed pages in batches 1-12",
-    "contentAcceptedArticles": "60 historical plus 180 current batch 4-12 content/fallback acceptances",
+    "deployedArticles": "260 unique refreshed pages in batches 1-13",
+    "contentAcceptedArticles": "60 historical plus 200 current batch 4-13 content/fallback acceptances",
     "verifiedArticles": "Historical all-requirements count; current API availability is blocked globally, not reconfirmed for these 60",
-    "remainingArticles": "299 minus 240; batch 13 is next"
+    "remainingArticles": "299 minus 260; batch 14 is next"
   },
   "batch05": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -520,7 +520,8 @@
     9,
     10,
     11,
-    12
+    12,
+    13
   ],
   "batch06": {
     "status": "production-content-accepted-api-eligibility-blocked",
@@ -758,6 +759,41 @@
     "liveCards": 0,
     "fallbackCards": 40,
     "productionReport": "reports/creator-rollout/batch-12-production-receipt.md",
+    "indexNow": "20 URLs accepted; no indexing confirmation"
+  },
+  "batch13": {
+    "status": "production-content-accepted-api-eligibility-blocked",
+    "completedPaths": [
+      "/books/best-science-fiction-books",
+      "/books/best-self-help-books",
+      "/books/best-short-story-collections",
+      "/books/best-sports-books",
+      "/books/best-spy-thrillers",
+      "/books/best-stem-books-for-kids",
+      "/books/best-toni-morrison-books",
+      "/books/best-travel-books",
+      "/books/best-war-novels",
+      "/books/best-ww2-books",
+      "/books/best-ww2-books-for-beginners",
+      "/books/best-ya-coming-of-age-books",
+      "/books/best-ya-fantasy-series",
+      "/books/best-ya-romance-books",
+      "/books/best-ya-thrillers",
+      "/es/hogar-cocina/mejores-accesorios-de-escritorio-para-estudiar",
+      "/es/hogar-cocina/mejores-articulos-para-dormitorio-universitario",
+      "/es/hogar-cocina/mejores-aspiradoras-robot",
+      "/es/hogar-cocina/mejores-cafeteras-por-menos-de-100",
+      "/es/hogar-cocina/mejores-freidoras-de-aire"
+    ],
+    "remainingInBatch": 0,
+    "publicationCommit": "0818d5f0aa051d1d755a567acce19904977277e7",
+    "deploymentId": "dpl_4xhpE1xbnJEGRGudneqMB5XJW3f5",
+    "contentAcceptance": true,
+    "creatorApiAcceptance": false,
+    "liveCards": 0,
+    "fallbackCards": 30,
+    "staticSearchCards": 10,
+    "productionReport": "reports/creator-rollout/batch-13-production-receipt.md",
     "indexNow": "20 URLs accepted; no indexing confirmation"
   }
 }

@@ -2347,5 +2347,17 @@
       "error": null
     }
   ],
-  "note": "HTTP link checks are not proof of product identity or stock; blocked automated destinations require browser/source review."
+  "note": "HTTP link checks are not proof of product identity or stock; blocked automated destinations require browser/source review.",
+  "correctedSourceChecks": [
+    {
+      "url": "https://www.hiddenfigures.com/young-readers/",
+      "status": 200,
+      "finalUrl": "https://www.hiddenfigures.com/young-readers/"
+    },
+    {
+      "url": "https://www.sharkninja.com/ninja-air-fryer-basket/102KY100.html",
+      "status": 403,
+      "finalUrl": "https://www.sharkninja.com/ninja-air-fryer-basket/102KY100.html"
+    }
+  ]
 }

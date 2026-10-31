@@ -28,4 +28,4 @@ Reuse existing buying-guide component and Spanish renderer. Spanish reviewed HTM
 
 Initial destination audit: 270 targets, 252 HTTP 200, 16 automated 403, two connection failures. No 404. Author Hidden Figures source replaced with the working official young-readers page. Rowling FAQ readable through web source. Publisher restrictions recorded rather than bypassed. All Amazon searches returned HTTP 200; this is not seller identity or stock verification. Final first-party check saved separately. Added Ninja official replacement-basket source confirms 4-quart capacity and AF101 compatibility.
 
-No unresolved factual/safety assertion knowingly retained. Live Creator API acceptance remains independently blocked by previously observed AssociateNotEligible; continue rollout under user instruction. Production acceptance pending.
+No unresolved factual/safety assertion knowingly retained. Live Creator API acceptance remains independently blocked by previously observed AssociateNotEligible; continue rollout under user instruction. Production content/fallback acceptance complete; live API eligibility blocked.
